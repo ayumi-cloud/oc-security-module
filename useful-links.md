@@ -72,3 +72,8 @@ Below is a list of aliases October CMS uses:
 ```
 
 For current up to date list see here: https://github.com/octobercms/october/blob/master/modules/system/aliases.php
+
+### Lists backend
+
+The native `$value`, the `$column` definition object and the model `$record` object.
+
