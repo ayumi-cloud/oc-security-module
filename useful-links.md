@@ -6,6 +6,10 @@ https://octobercms.com/docs/services/request-input#request-information
 
 https://octobercms.com/docs/ui/icon
 
+### Filter Lists
+
+https://octobercms.com/docs/backend/lists#list-filters
+
 ### October & Laravel Aliases
 
 Below is a list of aliases October CMS uses:
