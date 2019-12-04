@@ -1,4 +1,4 @@
-# October Security
+# October Security Plugin (in development)
 
 ![Image of securitycat](https://download.bitdefender.com/resources/themes/draco/images/business/endpoint-security-solution.png)
 
