@@ -1,3 +1,7 @@
+### Laravel API
+
+https://laravel.com/api/5.5/search.html
+
 ### Request
 
 https://octobercms.com/docs/services/request-input#request-information
