@@ -1,0 +1,109 @@
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+	root /var/www/html;
+	server_name _;
+
+	# index.php
+  	index index.php;
+
+	# enforce NO www
+	if ($host ~* ^www\.(.*))
+	{
+		set $host_without_www $1;
+		rewrite ^/(.*)$ $scheme://$host_without_www/$1 permanent;
+	}
+
+	# index.php fallback
+	location / {
+		try_files $uri $uri/ /index.php?$query_string;
+	}
+
+	location ~ \.php$ {
+    		try_files $uri =404;
+		fastcgi_split_path_info ^(.+\.php)(/.+)$;
+		include fastcgi_params;
+		fastcgi_intercept_errors on;
+		fastcgi_pass unix:/var/run/php/php7.3-fpm.sock;
+		fastcgi_index index.php;
+		fastcgi_buffers 8 16k;
+		fastcgi_buffer_size	32k;
+		fastcgi_param DOCUMENT_ROOT	$realpath_root;
+		fastcgi_param SCRIPT_FILENAME	$realpath_root$fastcgi_script_name;
+	}
+
+	# health check
+	location /nginx-health {
+		access_log off;
+		return 200 "healthy\n";
+		add_header Content-Type text/plain;
+	}
+
+	# deny htaccess
+	location ~ /\.ht {
+		deny all;
+	}
+
+	# security headers
+	add_header X-Frame-Options "SAMEORIGIN" always;
+	add_header X-XSS-Protection "1; mode=block" always;
+	add_header X-Content-Type-Options "nosniff" always;
+	add_header Referrer-Policy "no-referrer-when-downgrade" always;
+	add_header Content-Security-Policy "default-src * data: 'unsafe-eval' 'unsafe-inline'" always;
+
+	# . files
+	location ~ /\.(?!well-known) {
+		deny all;
+	}
+
+	# assets, media
+	location ~* \.(?:css(\.map)?|js(\.map)?|jpe?g|png|gif|ico|cur|heic|webp|tiff?|mp3|m4a|aac|ogg|midi?|wav|mp4|mov|webm|mpe?g|avi|ogv|flv|wmv)$ {
+		expires 7d;
+		access_log off;
+	}
+
+	# svg, fonts
+	location ~* \.(?:svgz?|ttf|ttc|otf|eot|woff2?)$ {
+		add_header Access-Control-Allow-Origin "*";
+		expires 7d;
+		access_log off;
+	}
+
+	# Whitelist
+	## Let October handle if static file not exists
+	location ~ ^/favicon\.ico { try_files $uri /index.php; }
+	location ~ ^/sitemap\.xml { try_files $uri /index.php; }
+	location ~ ^/robots\.txt { try_files $uri /index.php; }
+	location ~ ^/humans\.txt { try_files $uri /index.php; }
+
+	## Let nginx return 404 if static file not exists
+	location ~ ^/storage/app/uploads/public { try_files $uri 404; }
+	location ~ ^/storage/app/media { try_files $uri 404; }
+	location ~ ^/storage/temp/public { try_files $uri 404; }
+
+	location ~ ^/modules/.*/assets { try_files $uri 404; }
+	location ~ ^/modules/.*/resources { try_files $uri 404; }
+	location ~ ^/modules/.*/behaviors/.*/assets { try_files $uri 404; }
+	location ~ ^/modules/.*/behaviors/.*/resources { try_files $uri 404; }
+	location ~ ^/modules/.*/widgets/.*/assets { try_files $uri 404; }
+	location ~ ^/modules/.*/widgets/.*/resources { try_files $uri 404; }
+	location ~ ^/modules/.*/formwidgets/.*/assets { try_files $uri 404; }
+	location ~ ^/modules/.*/formwidgets/.*/resources { try_files $uri 404; }
+	location ~ ^/modules/.*/reportwidgets/.*/assets { try_files $uri 404; }
+	location ~ ^/modules/.*/reportwidgets/.*/resources { try_files $uri 404; }
+
+	location ~ ^/plugins/.*/.*/assets { try_files $uri 404; }
+	location ~ ^/plugins/.*/.*/resources { try_files $uri 404; }
+	location ~ ^/plugins/.*/.*/behaviors/.*/assets { try_files $uri 404; }
+	location ~ ^/plugins/.*/.*/behaviors/.*/resources { try_files $uri 404; }
+	location ~ ^/plugins/.*/.*/reportwidgets/.*/assets { try_files $uri 404; }
+	location ~ ^/plugins/.*/.*/reportwidgets/.*/resources { try_files $uri 404; }
+	location ~ ^/plugins/.*/.*/formwidgets/.*/assets { try_files $uri 404; }
+	location ~ ^/plugins/.*/.*/formwidgets/.*/resources { try_files $uri 404; }
+	location ~ ^/plugins/.*/.*/widgets/.*/assets { try_files $uri 404; }
+	location ~ ^/plugins/.*/.*/widgets/.*/resources { try_files $uri 404; }
+
+	location ~ ^/themes/.*/assets { try_files $uri 404; }
+	location ~ ^/themes/.*/resources { try_files $uri 404; }
+}
