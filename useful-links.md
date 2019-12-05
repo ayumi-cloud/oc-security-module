@@ -10,6 +10,10 @@ https://octobercms.com/docs/ui/icon
 
 https://octobercms.com/docs/backend/lists#list-filters
 
+### PHP Operators
+
+https://www.w3schools.com/php/php_operators.asp
+
 ### October & Laravel Aliases
 
 Below is a list of aliases October CMS uses:
