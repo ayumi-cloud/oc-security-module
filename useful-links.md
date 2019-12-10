@@ -22,6 +22,10 @@ https://www.w3schools.com/php/php_operators.asp
 
 http://www.bgplookingglass.com/list-of-autonomous-system-numbers
 
+### Validator (AMP-HTML)
+
+https://github.com/Mixpo/amphtml/blob/master/validator/validator-main.protoascii
+
 ### October & Laravel Aliases
 
 Below is a list of aliases October CMS uses:
