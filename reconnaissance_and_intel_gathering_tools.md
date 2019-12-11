@@ -12,10 +12,6 @@ While this web application was originally created focused on IT security, with t
 
 <div>
 
-Follow us on Twitter to receive updates!
-
-[Follow @SecurityTrails](https://twitter.com/SecurityTrails?ref_src=twsrc%5Etfw)</div>
-
 ### 2\. CheckUserNames
 
 [CheckUserNames](http://checkusernames.com/) is an online tool that can help you to find usernames across over 170 social networks. This is especially useful if you are running an investigation to determine the usage of the same username on different social networks.
@@ -49,10 +45,6 @@ BeenVerified background reports may include information from multiple databases,
 You will be able to find full geographic and technical details about 80 and 443 ports running on any server, as well as HTTP/S body content & GET response of the target website, Chrome TLS Handshake, full SSL Certificate Chain information, and WHOIS information.
 
 <div>
-
-Follow us on Twitter to receive updates!
-
-[Follow @SecurityTrails](https://twitter.com/SecurityTrails?ref_src=twsrc%5Etfw)</div>
 
 ### 6\. BuiltWith
 
@@ -99,12 +91,6 @@ One of the best things this software includes is what they call 'transforms'. Tr
 In order to use Maltego you need to open a free account on their website, after that, you can launch a new machine or run transforms on the target from an existing one. Once you have chosen your transforms, Maltego app will start running all the transforms from Maltego servers.
 
 Finally, Maltego will show you the results for the specified target, like IP, domains, AS numbers, and much more.
-
-* * *
-
-If you need to explore more Kali Linux utilities, check out this article: [Top 25 Kali Linux Tools](https://securitytrails.com/blog/kali-linux-penetration-testing-tools)
-
-* * *
 
 ### 9\. Recon-Ng
 
