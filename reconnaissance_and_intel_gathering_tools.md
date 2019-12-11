@@ -8,7 +8,7 @@ While [OSINT Framework](http://osintframework.com/) isn't a tool to be run on 
 
 While this web application was originally created focused on IT security, with the time it has evolved and today you can get other kinds of information from other industries as well. Most of the websites it uses to query the information are free, but some may require paying a low fee.
 
-![OSINT Framework](https://securitytrails.com/images/d/6/e/3/8/d6e38158e37712232c50b7fd5edfd18c01fc32a0-osint-framework.jpeg "OSINT Framework.")
+![OSINT Framework](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/a1.jpg "OSINT Framework.")
 
 <div>
 
@@ -26,7 +26,7 @@ If you suspect your account has been compromised, or want to verify for 3rd part
 
 Once you introduce your email address, the results will be displayed, showing something like:
 
-![HaveIbeenPwned](https://securitytrails.com/images/7/4/9/2/5/7492501519a1370479c036db943a70025b6690e0-haveibeenpwned.jpeg "HaveIbeenPwned.")
+![HaveIbeenPwned](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/a2.jpg "HaveIbeenPwned.")
 
 ### 4\. BeenVerified
 
@@ -76,7 +76,7 @@ Some popular operators used to perform Google Dorking:
 
 Log files aren't supposed to be indexed by search engines, however, they do, and you can get valuable information from these Google Dorks, as you see below:
 
-![Google Dorks](https://securitytrails.com/images/5/7/1/e/5/571e5db632611a453f2f484f75fa5c76cc1a5835-google-dorks.jpeg "Google Dorks.")
+![Google Dorks](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/a3.jpg "Google Dorks.")
 
 Now let's focus on other more practical tools used by the most respected InfoSec professionals:
 
@@ -104,7 +104,7 @@ Fetching information about any target is pretty easy and can be done within seco
 
 While some recon-ng modules are pretty passive as they never hit the target network, others can launch interesting stuff right against the remote host.
 
-![Recon-Ng](https://securitytrails.com/images/9/b/4/0/5/9b405c6bba5ff7e851b501fc193fe093c57b0534-recon-ng.png "Recon-Ng.")
+![Recon-Ng](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/a4.jpg "Recon-Ng.")
 
 ### 10\. theHarvester
 
@@ -150,7 +150,7 @@ If anyone uploads an image to any of these social networks with geolocation feat
 
 You will be able to filter based on exact locations, or even by date. After that, you can export the results in CSV or KML format.
 
-![Creepy](https://securitytrails.com/images/1/0/c/0/d/10c0d26530e73f06f6b9c4a1054d9af780a739f0-creepy.jpeg "Creepy.")
+![Creepy](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/a5.jpg "Creepy.")
 
 ### 15\. Nmap
 
@@ -203,7 +203,7 @@ Once you have defined your target network, it will launch several scans against 
 
 The results will be ready within a few minutes, a little bit more than when you perform any other scan with similar tools like Nessus, Nikto, Unicornscan, etc.
 
-![Fierce](https://securitytrails.com/images/4/8/a/a/3/48aa3619396c3a44ffa8022cc04f0763d11ef384-fierce.png "Fierce.")
+![Fierce](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/a6.jpg "Fierce.")
 
 ### 19\. Unicornscan
 
