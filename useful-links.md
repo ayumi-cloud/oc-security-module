@@ -26,6 +26,10 @@ http://www.bgplookingglass.com/list-of-autonomous-system-numbers
 
 https://github.com/Mixpo/amphtml/blob/master/validator/validator-main.protoascii
 
+### Web Scrapers (Bad Bots)
+
+https://www.distilnetworks.com/bot-directory/category/web-scraper/
+
 ### Github Emojis
 
 https://gist.github.com/rxaviers/7360908
