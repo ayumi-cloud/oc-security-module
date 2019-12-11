@@ -18,6 +18,10 @@ https://octobercms.com/docs/backend/lists#list-filters
 
 https://www.w3schools.com/php/php_operators.asp
 
+### Crawler Test Tool
+
+https://crawlerdetect.io
+
 ### ASN List
 
 http://www.bgplookingglass.com/list-of-autonomous-system-numbers
