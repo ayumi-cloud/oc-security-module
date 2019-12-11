@@ -22,6 +22,10 @@ https://www.w3schools.com/php/php_operators.asp
 
 https://crawlerdetect.io
 
+### Blackhat Tools List
+
+https://blackarch.org/tools.html
+
 ### ASN List
 
 http://www.bgplookingglass.com/list-of-autonomous-system-numbers
