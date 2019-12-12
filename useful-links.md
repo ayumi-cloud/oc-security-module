@@ -6,6 +6,10 @@ https://laravel.com/api/5.5/search.html
 
 https://octobercms.com/docs/services/request-input#request-information
 
+### List of Microsoft Windows versions
+
+https://en.wikipedia.org/wiki/List_of_Microsoft_Windows_versions
+
 ### Icons
 
 https://octobercms.com/docs/ui/icon
