@@ -46,6 +46,10 @@ https://www.distilnetworks.com/bot-directory/category/web-scraper/
 
 https://gist.github.com/rxaviers/7360908
 
+### Content-Type
+
+https://github.com/topics/content-type
+
 ### October & Laravel Aliases
 
 Below is a list of aliases October CMS uses:
