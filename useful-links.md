@@ -30,6 +30,10 @@ https://crawlerdetect.io
 
 https://blackarch.org/tools.html
 
+### Acunetix Web Vulnerabilities Index
+
+https://www.acunetix.com/vulnerabilities/web/
+
 ### ASN List
 
 http://www.bgplookingglass.com/list-of-autonomous-system-numbers
