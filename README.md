@@ -1,6 +1,6 @@
 # October Security Plugin (in development)
 
-![Image of securitycat](https://download.bitdefender.com/resources/themes/draco/images/business/endpoint-security-solution.png)
+![Image of securitycat](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/readme1.png)
 
 This repo to gather security enhancement ideas and to monitor progress.
 
