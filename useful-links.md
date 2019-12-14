@@ -46,6 +46,10 @@ https://github.com/Mixpo/amphtml/blob/master/validator/validator-main.protoascii
 
 https://www.distilnetworks.com/bot-directory/category/web-scraper/
 
+### UA Software List
+
+https://developers.whatismybrowser.com/useragents/explore/software_name/
+
 ### Github Emojis
 
 https://gist.github.com/rxaviers/7360908
