@@ -58,6 +58,10 @@ https://gist.github.com/rxaviers/7360908
 
 https://github.com/topics/content-type
 
+### Large device list
+
+https://github.com/matomo-org/device-detector
+
 ### October & Laravel Aliases
 
 Below is a list of aliases October CMS uses:
