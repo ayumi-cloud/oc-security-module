@@ -1,83 +1,135 @@
-## Headless Browsers
+Headless Browsers
+================
 
-Below is a list of the most common ones:
+### A list of (almost) all headless web browsers in existence
 
-### 1. Firefox Headless Mode
+*A web browser without a graphical user interface, controlled programmatically. Used for automation, testing, and other purposes.*
 
-With the launch of version 56 of Firefox, Mozilla began offering support for [headless testing](https://developer.mozilla.org/en-US/Firefox/Headless_mode). Instead of using other tools to simulate browser environments, developers can now connect several different APIs to [run Firefox in headless mode](https://intoli.com/blog/running-selenium-with-headless-firefox/) and test a variety of use cases.
+## Browser engines
 
-Headless Firefox may be driven by:
+*These browser engines fully render web pages or run JavaScript in a virtual DOM*
 
-*   [Selenium](https://www.seleniumhq.org/)
-*   [SlimmerJS](https://slimerjs.org/)
-*   [W3C WebDriver](https://www.w3.org/TR/webdriver/)
+Name  | About  | Supported Languages | License
+:------------ |:---------------| :----- | :-----------
+|[Chromium Embedded Framework](https://bitbucket.org/chromiumembedded/cef) |CEF is a open source project based on the Google Chromium project.        |   JavaScript | BSD |
+|[Erik](https://github.com/phimage/Erik) | Headless browser on top of Kanna and WebKit.|Swift| MIT |
+|[jBrowserDriver](https://github.com/machinepublishers/jbrowserdriver) | A Selenium-compatible headless browser which is written in pure Java. WebKit-based. Works with any of the Selenium Server bindings.|Java| Apache License v2.0 |
+|[PhantomJS](http://phantomjs.org/) | [[Unmaintained]](https://groups.google.com/forum/#!topic/phantomjs/9aI5d-LDuNE) PhantomJS is a headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG. | JavaScript, Python, Ruby, Java, C#, Haskell, Objective-C, Perl, PHP, R(via [Selenium](http://docs.seleniumhq.org/about/platforms.jsp#programming-languages))  | BSD 3-Clause |
+|[Splash](https://github.com/scrapinghub/splash) | Splash is a javascript rendering service with an HTTP API. It's a lightweight browser with an HTTP API, implemented in Python using Twisted and QT.|Any| BSD 3-Clause |
 
-Many developers appear to prefer Selenium as an API for headless Firefox testing and automation, but you can use the option with which you’re most comfortable with for scripting and running basic unit tests.
+## Multi drivers
 
-With all the potential interactions a user can have on a modern website, using Firefox headless to drill down to individual elements is a helpful part of the development process. Whereas a user may encounter a problem as part of a complex flow and become frustrated trying to identify and report what went wrong, you can use Firefox in headless mode to work out the kinks of each individual interaction in a flow.
+*These libraries can control multiple browser engines (typically using Selenium)*
 
-### 2. Headless Chrome
+Name  | About  | Supported Languages | License
+:------------ |:---------------| :----- | :-----------
+|[CasperJS](http://casperjs.org/) | CasperJS is an open source navigation scripting & testing utility written in Javascript for the PhantomJS WebKit headless browser and SlimerJS (Gecko).        |   JavaScript | MIT |
+|[Geb](http://www.gebish.org/) | Geb is a Groovy interface to WebDriver.|Groovy| Apache |
+|[Selenium](http://seleniumhq.org) | Selenium is a suite of tools to automate web browsers across many platforms.|JavaScript, Python, Ruby, Java, C#, Haskell, Objective-C, Perl, PHP, R| Apache |
+|[Splinter](https://splinter.readthedocs.io/en/latest/) | Splinter is an open source tool for testing web applications using Python. It lets you automate browser actions, such as visiting URLs and interacting with their items.|Python| - |
+|[SST](https://pypi.python.org/pypi/sst/0.2.4) | SST (selenium-simple-test) is a web test framework that uses Python to generate functional browser-based tests.|Python| - |
+|[Watir](https://watir.com/) | The most elegant way to use Selenium WebDriver with ruby.|Ruby| MIT |
 
-Developers familiar with Chrome can launch version 59 or later in headless mode to utilize all the possibilities afforded by Chromium and the Blink rendering engine. This [lightweight, memory-sparing headless browser](https://developers.google.com/web/updates/2017/04/headless-chrome) gives you the tools to:
+## PhantomJS drivers
 
-*   Test multiple levels of navigation
-*   Gather page information
-*   Take screenshots
-*   Create PDFs
+*These libraries control PhantomJS*
 
-Navigation is an especially important part of modern website environments and is becoming even more critical with the continued increase in mobile users. Try headless Chrome when you want to make sure users can move easily throughout a site. Collect reports and images of how the site responds, and use this information to make changes to improve the UI.
+Name  | About  | Supported Languages | License
+:------------ |:---------------| :----- | :-----------
+|[Ghostbuster](https://github.com/joshbuddy/ghostbuster) | Automated browser testing via phantom.js, with all of the pain taken out! That means you get a real browser, with a real DOM, and can do real testing!|JavaScript| Not specified |
+|[jedi-crawler](https://github.com/spacenick/jedi-crawler) | Lightsabing Node/PhantomJS crawler; scrape dynamic content : without the hassle|JavaScript| Not specified |
+|[Lotte](https://github.com/StanAngeloff/lotte)| Lotte is a headless, automated testing framework built on top of PhantomJS and inspired by Ghostbuster. | JavaScript | MIT |
+|[phantompy](https://github.com/niwinz/phantompy) | Phantompy is a headless WebKit engine with powerful pythonic api build on top of Qt5 Webkit|Python| LGPL-2.1 |
+|[X-RAY](https://github.com/lapwinglabs/x-ray) | Supports strings, arrays, arrays of objects, nested object structures, selector API, pagination, crawler, concurrency, throttles, delays, timeouts, and pluggable drivers (PhantomJS, HTTP)|JavaScript| MIT |
+|[Horseman](http://www.horsemanjs.org/) | Promise based Node.js module for PhantomJS. Features chainable API, understandable control-flow, support for multiple tabs, and built-in jQuery.|JavaScript| MIT |
 
-### 3. PhantomJS
+## Chromium drivers
 
-Complexity is commonplace in the modern internet landscape, and [PhantomJS](http://phantomjs.org/) is built to handle it all using basic command line testing. This headless WebKit is scriptable via the JavaScript API and uses [CasperJS](http://casperjs.org/) to handle testing. Capable of simulating “[full navigation scenarios](https://blog.logrocket.com/introduction-to-headless-browser-testing-44b82310b27c),” PhantomJS can reveal all the places where a user may encounter errors while browsing.
+*These libraries control Chromium*
 
-Support for multiple web standards makes PhantomJS **flexible and highly capable**. Page automation, network monitoring, and other important features allow you to simulate everything from the most basic user interactions to flows containing multiple inputs. Use this headless option for:
+Name  | About  | Supported Languages | License
+:------------ |:---------------| :----- | :-----------
+|[Awesomium](http://www.awesomium.com/) | Chromium-based headless browser engine|C++, .NET| Free/Commercial |
+|[Headless Chromium](https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md) | Chromium feature activated with the `--headlesss` flag, currently availible in the nightly build of Chromium, not yet released|C++| Opensource |
+|[Puppeteer](https://github.com/GoogleChrome/puppeteer) | Headless Chrome Node API from the Chrome DevTools team|JavaScript| Apache |
+|[PuppeteerSharp](https://github.com/kblok/puppeteer-sharp) | PuppeteerSharp is a .NET port of the official Headless Chrome Node.JS Puppeteer API|.NET| MIT |
+|[chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) | Chrome Debugging Protocol interface for Node.js|JavaScript| MIT |
+|[Chromy](https://github.com/OnetapInc/chromy/) | Features chainable API, mobile emulation, fundamental API such as javascript evaluation. |JavaScript| MIT |
+|[chromedp](https://github.com/knq/chromedp) | A faster, simpler way to drive browsers (Chrome, Edge, Safari, Android, etc) without external dependencies (ie, Selenium, PhantomJS, etc) using the Chrome Debugging Protocol.|Go| MIT |
+|[Chromeless](https://github.com/graphcool/chromeless) | Chrome automation made simple. Runs locally or headless on AWS Lambda. | JavaScript | MIT |
+|[Chrome PHP](https://github.com/chrome-php/headless-chromium-php) | PHP API to drive Chromium or Google Chrome via the Chrome Devtools Protocole. | PHP | Fair |
 
-*   Testing navigation
-*   Simulating user behavior
-*   Working with assertions
-*   Taking screenshots
+## Webkit drivers
 
-Another benefit of PhantomJS is its open source status. The program was released in 2011 and is still being updated by dedicated developers. Check out the [official GitHub repo](https://github.com/ariya/phantomjs/).
+*These drivers control an in-process instance of Webkit*
 
-### 4. Zombie JS
+Name  | About  | Supported Languages | License
+:------------ |:---------------| :----- | :-----------
+|[Browserjet](https://github.com/briankircho/browserjet) | Runs a custom build of webkit, controlled by node.js interface.|JavaScript| Not specified |
+|[ghost.py](https://github.com/jeanphix/Ghost.py) | ghost.py is a webkit web client written in python.|Python| MIT |
+|[headless_browser](https://github.com/alexandernst/headless_browser) | Headless browser based on WebKit written in C++.|C++| Not Specified |
+|[Jabba-Webkit](https://github.com/jabbalaci/Jabba-Webkit) | Jabba's headless webkit browser for scraping AJAX-powered webpages.|Python| Not specified |
+|[Jasmine-Headless-Webkit](http://johnbintz.github.io/jasmine-headless-webkit/) | jasmine-headless-webkit uses the QtWebKit widget to run your specs without needing to render a pixel.|Python, JavaScript, Ruby| Free |
+|[Python-Webkit](http://www.gnu.org/software/pythonwebkit/) | Python-Webkit is a python extension to Webkit to add full, complete access to Webkit's DOM|Python| GNU |
+|[Spynner](https://github.com/makinacorpus/spynner) | Programmatic web browsing module with AJAX support for Python|Python| Not specified |
+|[Webloop](https://github.com/sourcegraph/webloop) | Scriptable, headless WebKit with a Go API. | Go | BSD 3-Clause |
+|[wkhtmltopdf](http://wkhtmltopdf.org/) wkhtmltox wkhtmltoimage | Command line tool rendering HTML into PDF and other image formats. | shell, C | LGPLv3 |
+|[WKZombie](https://github.com/mkoehnke/WKZombie) | Functional headless browser (with JSON support) for iOS using WebKit and hpple/libxml2.|Swift| MIT |
 
-[Zombie JS](http://zombie.js.org/) is another lightweight framework used to test client-side JavaScript in a simulated environment without a browser. The current version of Zombie (Zombie 5.x) is tested to work with [Node.js](https://nodejs.org/en/) versions 4-6.
+## Other drivers
 
-A few benefits of Zombie JS include:
+*These libraries control lesser known browsers or OS-provided web libraries*
 
-*   Runs on Node.js making it easy to integrate with your project
-*   Fully featured API
-*   Insanely fast
+Name  | About  | Supported Languages | License
+:------------ |:---------------| :----- | :-----------
+|[Nightmare](http://www.nightmarejs.org/) | Nightmare is a high-level browser automation library built as an easier alternative to PhantomJS. It runs on the Electron engine. |JavaScript| MIT |
+|[grope](https://github.com/youpy/grope) | A RubyCocoa interface to the macOS WebKit Framework |RubyCocoa| MIT |
+|[SlimerJS](http://slimerjs.org/) | SlimerJS is similar to PhantomJs, except that it runs Gecko, the browser engine of Mozilla Firefox, instead of Webkit (And it is not yet truly headless).|JavaScript| Mozilla 2.0 |
+|[SpecterJS](https://github.com/andyjansson/specterjs) | A scriptable headless Internet Explorer port of PhantomJS. | JavaScript | MIT |
+|[trifleJS](http://triflejs.org/) | A headless Internet Explorer browser using the .NET WebBrowser Class with a Javascript API running on the V8 engine.|JavaScript| MIT |
 
-Zombie JS also provides a set of assertions that you can access directly from the browser object. For example, an assertion can be used to check if a page loaded successfully. Apart from assertions, Zombie JS offers methods to handle cookies, tabs, authentication, and more.
 
-### 5. HtmlUnit
+## Fake Browser Engine
 
-Written in Java, HtmlUnit allows you to use Java code to automate many of the basic ways in which users interact with websites. [Use it to test](https://en.wikipedia.org/wiki/HtmlUnit):
+*These libraries are typically naive or HTML-only browsers*
 
-*   Filling in and submitting forms
-*   Clicking links
-*   Site redirects
-*   HTTP authentication
-*   HTTPS page performance
-*   HTTP header performance
+|Name  | About  | Supported Languages | License
+|:------------ |:---------------| :----- | :-----------
+|[AngleSharp](https://github.com/AngleSharp/AngleSharp) | .Net Http Parsing Library | .NET | MIT |
+|[Guillotine](https://github.com/pszyller/Guillotine) | A .NET headless browser, written in C# | .NET | LGPL-3.0 |
+|[benv](https://github.com/artsy/benv) | Stub a browser environment in node.js and headlessly test your client-side code.|JavaScript| MIT |
+|[browser.rb](https://github.com/tmp8/browser-rb) | Headless Ruby browser on top of Nokogiri and TheRubyRacer|Ruby| Not specified |
+|[BrowserKit](https://github.com/symfony/browser-kit) | BrowserKit simulates the behavior of a web browser.|PHP| MIT |
+|[DamonJS](https://github.com/damonjs/damon) | Bot navigating urls and doing tasks.|JavaScript| Apache |
+|[Headless](https://github.com/roryprimrose/Headless) | Headless browser support for fast web acceptance testing in .Net|.NET| MIT |
+|[HeadlessBrowser](https://github.com/clubajax/HeadlessBrowser) | A very miniature headless browser, for testing the DOM on Node.js|JavaScript| Not specified |
+|[HtmlUnit](http://htmlunit.sourceforge.net/) | HtmlUnit is a "GUI-Less browser for Java programs".|Java| Apache |
+|[Jaunt](http://jaunt-api.com/) | Java Web Scraping & Automation API|Java| Apache (monthly edition)|
+|[JSDom](https://github.com/tmpvar/jsdom) | A JavaScript implementation of the WHATWG DOM and HTML standards, for use with Node.js. |JavaScript| MIT |
+|[MechanicalSoup](https://github.com/hickford/MechanicalSoup) | A Python library for automating interaction with websites.|Python| MIT |
+|[mechanize](http://wwwsearch.sourceforge.net/mechanize/) | Stateful programmatic web browsing.|Python| BSD 3-Clause, ZPL 2.1 |
+|[node-as-browser](https://github.com/seebigs/node-as-browser) | Create a browser-like environment within Node.js |JavaScript| MIT |
+|[RoboBrowser](https://github.com/jmcarp/robobrowser) | A simple, Pythonic library for browsing the web without a standalone web browser.|Python| BSD 3-Clause |
+|[SimpleBrowser](https://github.com/SimpleBrowserDotNet/SimpleBrowser) | A flexible and intuitive web browser engine designed for automation tasks. Built on the .Net 4 framework.|.NET| BSD 3-Clause |
+|[stanislaw](https://github.com/teddziuba/stanislaw) | Naive, mechanize-like HTML parser/form driver.|Python| Not specified |
+|[twill](http://twill.idyll.org/) | Twill is a simple language that interacts with basic HTML pages (no JavaScript support).|Python| MIT |
+|[WeasyPrint](http://weasyprint.org/) | WeasyPrint is a visual rendering engine for HTML and CSS that can export to PDF. It aims to support web standards for printing.|Python| BSD 3-Clause |
+|[WWW::Mechanize](https://metacpan.org/search?size=20&q=WWW%3A%3AMechanize&search_type=modules) |  Headless browser for Perl with many plugins and extensions, notably Test::WWW:Mechanize for testing | Perl | Perl 5 |
+|[X-RAY](https://github.com/lapwinglabs/x-ray) | Supports strings, arrays, arrays of objects, nested object structures, selector API, pagination, crawler, concurrency, throttles, delays, timeouts, and pluggable drivers (PhantomJS, HTTP)|JavaScript| MIT |
+|[Xidel (Internet Tools)](http://www.videlibri.de/xidel.html) | An XQuery-based cli web scraper for static X/HTML pages and JSON-APIs. |FreePascal, XQuery| GPL-2|
+|[Zombie.js](http://zombie.js.org/) | Zombie.js is a lightweight framework for testing client-side JavaScript code in a simulated environment. No browser required.    | JavaScript   | MIT |
 
-The tool’s ability to simulate **several different browsers** expands its functionality even more. Using HtmlUnit, you can create scripted use cases in Chrome, Firefox 38 and later, Edge, and IE8 and IE11\. This covers a significant number of new and legacy browsers, helping to ensure every user has a superior experience once a site goes live.
+## Runs in a browser
 
-Ecommerce sites rely heavily on most of the elements HtmlUnit allows you to test. Form submission, site security, and navigation are all integral parts of the ecommerce UI and have a significant impact on conversions and sales. Poor UI means poor UX, and customers in a fast-paced online world abandon such sites to shop with the competition instead. HtmlUnit is a helpful ally when you’re working to craft a business site with superior performance.
+Name  | About  | Supported Languages | License
+:------------ |:---------------| :----- | :-----------
+|[DalekJS](http://dalekjs.com/) | [unmaintained and recommend TestCafé] Automated cross browser testing with JavaScript.|JavaScript| MIT |
+|[TestCafé](https://devexpress.github.io/testcafe/) | Automated browser testing for the modern web development stack.|JavaScript| MIT |
+|[Sahi](http://sahipro.com/sahi-open-source/) | Sahi is a cross-browser automation/testing tool with the facility to record and playback scripts.|JavaScript, Java, Ruby, PHP| Apache / Commercial |
+|[WatiN](http://watin.org/) | Web Application Testing In .Net|.NET| Apache 2.0 |
 
-### 6. Splash
+## Misc tools
 
-In the documentation for Splash, the headless browser is hailed as being lightweight and offering a [variety of features to developers](https://splash.readthedocs.io/en/stable/). This “JavaScript rendering service” operates with an HTTP API, implemented in Python 3 using Twisted and QT5.
-
-Splash may be the best go-to tool if your use cases require:
-
-*   Understanding HTML performance
-*   Testing rendering and load speeds
-*   Turning off images or using AdBlock for faster loading
-*   Visualizing website UX
-*   Using Lua browsing scripts
-*   Processing more than one page at a time
-
-Splash provides rendering information in the [HAR](https://www.keycdn.com/support/har-viewer) format and also allows you to take screenshots of results. This headless browser may also be integrated with [Scrapy](https://scrapy.org/) in scenarios where you need or want to scrape code from other websites. Thanks to its versatility, Splash is a useful tool for developers seeking a “jack of all trades” for their testing toolkits.
+Name  | About  | Supported Languages | License
+:------------ |:---------------| :----- | :-----------
+|[browser-launcher](https://github.com/substack/browser-launcher) | Detect and launch browser versions, headlessly or otherwise|JavaScript| MIT |
