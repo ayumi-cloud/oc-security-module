@@ -50,6 +50,10 @@ https://www.distilnetworks.com/bot-directory/category/web-scraper/
 
 https://developers.whatismybrowser.com/useragents/explore/software_name/
 
+### UA Operating System List
+
+https://developers.whatismybrowser.com/useragents/explore/operating_platform/
+
 ### Github Emojis
 
 https://gist.github.com/rxaviers/7360908
