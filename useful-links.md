@@ -54,6 +54,10 @@ https://developers.whatismybrowser.com/useragents/explore/software_name/
 
 https://developers.whatismybrowser.com/useragents/explore/operating_platform/
 
+### Common Browsers
+
+https://user-agents.net/browsers
+
 ### Github Emojis
 
 https://gist.github.com/rxaviers/7360908
