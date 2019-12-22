@@ -54,6 +54,10 @@ https://developers.whatismybrowser.com/useragents/explore/software_name/
 
 https://developers.whatismybrowser.com/useragents/explore/operating_platform/
 
+### Web robots A-Z
+
+http://webrobots.de/web-robots-von-a-z/
+
 ### Common Browsers
 
 https://user-agents.net/browsers
