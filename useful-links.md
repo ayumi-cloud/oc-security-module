@@ -26,6 +26,10 @@ https://www.w3schools.com/php/php_operators.asp
 
 https://crawlerdetect.io
 
+### List of Bots and Spiders Database
+
+http://stopbadbots.com/bots-table/
+
 ### Blackhat Tools List
 
 https://blackarch.org/tools.html
