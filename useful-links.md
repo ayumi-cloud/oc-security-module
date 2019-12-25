@@ -58,6 +58,10 @@ https://developers.whatismybrowser.com/useragents/explore/software_name/
 
 https://developers.whatismybrowser.com/useragents/explore/operating_platform/
 
+### ASN USA
+
+https://ipinfo.io/countries/us
+
 ### Web robots A-Z
 
 http://webrobots.de/web-robots-von-a-z/
