@@ -22,6 +22,10 @@ https://octobercms.com/docs/backend/lists#list-filters
 
 https://www.w3schools.com/php/php_operators.asp
 
+### List of User Agent Strings
+
+http://useragentstring.com/pages/useragentstring.php
+
 ### Crawler Test Tool
 
 https://crawlerdetect.io
