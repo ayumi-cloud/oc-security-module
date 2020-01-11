@@ -26,6 +26,10 @@ https://www.w3schools.com/php/php_operators.asp
 
 http://useragentstring.com/pages/useragentstring.php
 
+### Usage share of web browsers
+
+https://en.wikipedia.org/wiki/Usage_share_of_web_browsers
+
 ### Browser detection using the user agent
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Browser_detection_using_the_user_agent
