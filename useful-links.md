@@ -165,3 +165,11 @@ For current up to date list see here: https://github.com/octobercms/october/blob
 
 The native `$value`, the `$column` definition object and the model `$record` object.
 
+### Cloudflare 1XXX errors
+
+https://support.cloudflare.com/hc/en-us/articles/360029779472-Troubleshooting-Cloudflare-1XXX-errors
+
+### Troubleshooting Cloudflare 5XX errors
+
+https://support.cloudflare.com/hc/en-us/articles/115003011431-Troubleshooting-Cloudflare-5XX-errors
+
