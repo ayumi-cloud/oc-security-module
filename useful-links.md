@@ -22,9 +22,17 @@ https://octobercms.com/docs/backend/lists#list-filters
 
 https://www.w3schools.com/php/php_operators.asp
 
+### List of crawlers to process
+
+https://github.com/browscap/browscap/tree/master/resources/user-agents/crawlers
+
 ### List of User Agent Strings
 
 http://useragentstring.com/pages/useragentstring.php
+
+### Large list of user-agents and bots
+
+https://www.aqtronix.com/useragents/?Action=ShowAgents
 
 ### Usage share of web browsers
 
