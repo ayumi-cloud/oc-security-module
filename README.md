@@ -54,6 +54,11 @@ Along those lines, the team may not issue security notifications for unsupported
 
 When the version tag is not stable; e.g. `1.0.0-alpha`, `1.0.0-beta`, `1.0.0-dev` or `1.0.0-rc` (see https://semver.org/#spec-item-11)
 
+Example:
+
+![Image of securityeg](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/semantic.png)
+
+
 ## Reporting a Vulnerability
 
 We strive to make the code accessible to a wide audience of beginner and experienced users.
