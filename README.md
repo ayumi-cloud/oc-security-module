@@ -41,13 +41,23 @@ We are happy to receive and merge PR's that address security issues in older ver
 
 Along those lines, the team may not issue security notifications for unsupported software.
 
-| Version   | Supported          |
-| --------- | ------------------ |
-| 3.3.x-dev | :white_check_mark: |
-| 2.2.x     | :white_check_mark: |
-| 2.1.x     | :white_check_mark: |
-| 1.0.x     | :white_check_mark: |
-| 1.0.x.x   | :x:                |
+| Version     | Supported          |
+| ----------- | ------------------ |
+| 3.3.x-dev   | :white_check_mark: |
+| 3.3.x-rc    | :white_check_mark: |
+| 3.3.x-beta  | :white_check_mark: |
+| 3.3.x-aplha | :white_check_mark: |
+| 2.2.x       | :white_check_mark: |
+| 2.1.x       | :white_check_mark: |
+| 1.0.x       | :white_check_mark: |
+| 1.0.x.x     | :x:                |
+
+When the version tag is not stable; e.g. `1.0.0-alpha`, `1.0.0-beta`, `1.0.0-dev` or `1.0.0-rc` (see https://semver.org/#spec-item-11)
+
+Example:
+
+![Image of securityeg](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/semantic.png)
+
 
 ## Reporting a Vulnerability
 
