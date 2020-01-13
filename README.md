@@ -56,7 +56,7 @@ Submit these types of non-vulnerability related issues via Github.
 
 Please include your installed version and the relevant portions of your audit log.
 
-False negative or common bypasses should [create a bug issue](https://github.com/ayumi-cloud/oc-security-module/issues/new?labels=bug&template=1_BUG_REPORT.md) so they can be addressed.
+False negative or common bypasses should [create an issue](https://github.com/ayumi-cloud/oc-security-module/issues/new) so they can be addressed.
 
 Do this before submitting a vulnerability:
 
