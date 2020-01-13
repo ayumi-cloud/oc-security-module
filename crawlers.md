@@ -2,7 +2,7 @@
 
 Links:
 
-https://github.com/browscap/browscap/tree/master/resources/user-agents/crawlers
+https://github.com/ayumi-cloud/oc-security-module/tree/master/resources/user-agents/crawlers
 
 https://udger.com/resources/ua-list/crawlers
 
