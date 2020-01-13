@@ -1,0 +1,39 @@
+{
+  "division": "FeedHub",
+  "sortIndex": 560,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "FeedHub",
+      "browser": "feedhub",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "FeedHub"
+      },
+      "children": [
+        {
+          "match": "FeedHub FeedDiscovery/1.0 (http://www.feedhub.com)",
+          "browser": "feedhub feeddiscovery",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "FeedHub FeedFetcher/1.0 (http://www.feedhub.com)",
+          "browser": "feedhub feedfetcher",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "FeedHub MetaDataFetcher/1.0 (http://www.feedhub.com)",
+          "browser": "feedhub metadatafetcher",
+          "properties": {
+            "Version": "1.0"
+          }
+        }
+      ]
+    }
+  ]
+}

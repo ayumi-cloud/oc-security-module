@@ -1,0 +1,34 @@
+{
+  "division": "Lycos",
+  "sortIndex": 200,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Lycos",
+      "browser": "lycos",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Lycos"
+      },
+      "children": [
+        {
+          "match": "Lycos*",
+          "browser": "lycos"
+        },
+        {
+          "match": "Lycos-Proxy",
+          "browser": "lycos-proxy"
+        },
+        {
+          "match": "Lycos-Spider_(modspider)",
+          "browser": "lycos-spider_(modspider)"
+        },
+        {
+          "match": "Lycos-Spider_(T-Rex)",
+          "browser": "lycos-spider_(t-rex)"
+        }
+      ]
+    }
+  ]
+}

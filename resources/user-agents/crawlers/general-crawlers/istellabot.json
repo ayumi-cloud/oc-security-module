@@ -1,0 +1,27 @@
+{
+  "division": "IstellaBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "IstellaBot",
+      "browser": "istellabot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IstellaBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; IstellaBot/1.18*",
+          "properties": {
+            "Version": "1.18"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; IstellaBot/*"
+        }
+      ]
+    }
+  ]
+}

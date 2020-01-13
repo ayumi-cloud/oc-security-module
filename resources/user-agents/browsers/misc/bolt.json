@@ -1,0 +1,29 @@
+{
+  "division": "Bolt",
+  "sortIndex": 2520,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Bolt",
+      "browser": "bolt",
+      "engine": "WebKit",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Bolt"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (X11; 78; CentOS; US-en) applewebkit* (*khtml*like*gecko*) Bolt/0.862 Version/3.0 Safari/*",
+          "platforms": [
+            "Maemo"
+          ],
+          "properties": {
+            "Version": "0.862"
+          }
+        }
+      ]
+    }
+  ]
+}

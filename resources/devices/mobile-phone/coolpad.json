@@ -1,0 +1,167 @@
+{
+  "Coolpad 3320A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Rogue",
+      "Device_Code_Name": "3320A",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad 3622A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Catalyst",
+      "Device_Code_Name": "3622A",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad 7620L-W00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K1",
+      "Device_Code_Name": "7620L-W00",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad 8076D": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "8076D",
+      "Device_Code_Name": "8076D",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad 8089": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "8089",
+      "Device_Code_Name": "8089",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad 8297-C00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Dashen F1",
+      "Device_Code_Name": "8297-C00",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad 8297-T01": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Dashen F1",
+      "Device_Code_Name": "8297-T01",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad 8675": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Dashen F2",
+      "Device_Code_Name": "8675",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad 8730L": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "8730L",
+      "Device_Code_Name": "8730L",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad CP8298_I00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Note 3 Lite",
+      "Device_Code_Name": "CP8298_I00",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad CP8676_I02": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Note 3",
+      "Device_Code_Name": "CP8676_I02",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad C103": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Cool 1",
+      "Device_Code_Name": "C103",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad Y82-520": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Fengshang",
+      "Device_Code_Name": "Y82-520",
+      "Device_Maker": "Yulong Computer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad 3600I": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Note 5",
+      "Device_Code_Name": "3600I",
+      "Device_Maker": "Yulong Computer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad 3505I": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Note 5 Lite",
+      "Device_Code_Name": "3505I",
+      "Device_Maker": "Yulong Computer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  }
+}

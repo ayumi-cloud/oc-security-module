@@ -1,0 +1,76 @@
+{
+  "division": "Iron #MAJORVER#.#MINORVER#",
+  "versions": [19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6],
+  "sortIndex": 1125,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Iron #MAJORVER#.#MINORVER#",
+      "browser": "iron",
+      "engine": "WebKit",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Iron #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Iron/#MAJORVER#.*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64_amd", "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Iron/#MAJORVER#.*Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Iron/#MAJORVER#.*Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Iron/#MAJORVER#.*Chrome/#MAJORVER#.*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64_amd", "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Iron/#MAJORVER#.*Chrome/#MAJORVER#.*Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Iron/#MAJORVER#.*Chrome/#MAJORVER#.*Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

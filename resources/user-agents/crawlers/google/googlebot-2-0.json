@@ -1,0 +1,45 @@
+{
+  "division": "Googlebot #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 1146,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Googlebot #MAJORVER#.#MINORVER#",
+      "browser": "google bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Googlebot #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Googlebot/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/5.0 (Windows; U*Gecko* Googlebot?#MAJORVER#.#MINORVER#*",
+          "engine": "Gecko",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Googlebot?#MAJORVER#.#MINORVER#*",
+          "engine": "Gecko",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "GoogleBot/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "*Googlebot/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

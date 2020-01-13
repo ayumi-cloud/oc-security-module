@@ -1,0 +1,27 @@
+{
+  "division": "RebelMouse",
+  "sortIndex": 5152,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "RebelMouse",
+      "browser": "rebelmouse",
+      "engine": "Gecko",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "RebelMouse",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "RebelMouse/0.1 Mozilla/5.0 (compatible; http://rebelmouse.com) Gecko* Firefox/*",
+          "properties": {
+            "Version": "0.1"
+          }
+        }
+      ]
+    }
+  ]
+}

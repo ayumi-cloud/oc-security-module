@@ -1,0 +1,38 @@
+{
+  "division": "VanillaSurf",
+  "sortIndex": 10950,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "VanillaSurf",
+      "browser": "vanillasurf",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "VanillaSurf",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "VanillaSurf/2.1 CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "VanillaSurf* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

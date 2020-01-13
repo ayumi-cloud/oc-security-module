@@ -1,0 +1,152 @@
+{
+  "division": "UC Browser #MAJORVER#.#MINORVER#",
+  "versions": ["4.2", "4.1", 4],
+  "sortIndex": 936,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
+      "browser": "uc browser",
+      "platform": "WinPhone",
+      "engine": "U2",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinPhone",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "Microsoft; RM-1067": "Microsoft RM-1067",
+            "Microsoft; RM-1090": "Microsoft RM-1090",
+            "Microsoft; RM-1141": "Microsoft RM-1141",
+            "NOKIA; RM-1040": "Nokia Lumia 730 RM-1040",
+            "NOKIA; RM-821": "Nokia Lumia 920 RM-821",
+            "NOKIA; RM-937": "Nokia Lumia 1520 RM-937"
+          },
+          "platforms": [
+            "WinPhone10_B"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "NOKIA; RM-1038": "Nokia Lumia 735 RM-1038",
+            "NOKIA; RM-1045": "Nokia Lumia 930 RM-1045"
+          },
+          "platforms": [
+            "WinPhone10_B",
+            "WinPhone8.1_B"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#*) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "devices": {
+            "Microsoft; RM-1089": "Microsoft RM-1089",
+            "NOKIA; RM-846": "Nokia Lumia 620 RM-846",
+            "NOKIA; RM-914": "Nokia Lumia 520 RM-914",
+            "NOKIA; RM-974": "Nokia Lumia 635 RM-974",
+            "NOKIA; RM-976": "Nokia Lumia 630 RM-976"
+          },
+          "platforms": [
+            "WinPhone8.1_B"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinPhone10_B",
+            "WinPhone8.1_B",
+            "WinPhone8_B"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE 10.0;#PLATFORM#; Trident/6.0; IEMobile/10.0; ARM; Touch; #DEVICE#*)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "NOKIA; Lumia 630": "Nokia Lumia 630"
+          },
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE 10.0;#PLATFORM#; Trident/6.0; IEMobile/10.0; ARM; Touch; *)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "engine": "Trident_6",
+          "platforms": [
+            "WinPhone8"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Trident/7.0; Touch; rv:11.0; IEMobile/11.0; #DEVICE#*)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "engine": "Trident_7",
+          "devices": {
+            "NOKIA; Lumia 720": "Nokia Lumia 720"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Trident/7.0; Touch; rv:11.0;* IEMobile/11.0; *)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "engine": "Trident_7",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Trident/8.0; Touch; rv:11.0;* IEMobile/11.0; #DEVICE#*)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "engine": "Trident_8",
+          "devices": {
+            "Microsoft; Lumia 535 Dual SIM": "Microsoft RM-1090"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Trident/8.0; Touch; rv:11.0;* IEMobile/11.0; *)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "engine": "Trident_8",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
+      "browser": "uc browser",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*)* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A"
+          ]
+        }
+      ]
+    }
+  ]
+}

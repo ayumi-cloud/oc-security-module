@@ -1,0 +1,87 @@
+{
+  "division": "Python-urllib",
+  "sortIndex": 479,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Python-urllib",
+      "browser": "python-urllib",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Python-urllib"
+      },
+      "children": [
+        {
+          "match": "Python-urllib/3.1*",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "Python-urllib/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Python-urllib/2.7*",
+          "properties": {
+            "Version": "2.7"
+          }
+        },
+        {
+          "match": "Python-urllib/2.6*",
+          "properties": {
+            "Version": "2.6"
+          }
+        },
+        {
+          "match": "Python-urllib/2.5*",
+          "properties": {
+            "Version": "2.5"
+          }
+        },
+        {
+          "match": "Python-urllib/2.4*",
+          "properties": {
+            "Version": "2.4"
+          }
+        },
+        {
+          "match": "Python-urllib/2.1*",
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "Python-urllib/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Python-urllib/1.17*",
+          "properties": {
+            "Version": "1.17"
+          }
+        },
+        {
+          "match": "Python-urllib/1.16*",
+          "properties": {
+            "Version": "1.16"
+          }
+        },
+        {
+          "match": "Python-urllib/1.15*",
+          "properties": {
+            "Version": "1.15"
+          }
+        },
+        {
+          "match": "Python-urllib/*"
+        }
+      ]
+    }
+  ]
+}

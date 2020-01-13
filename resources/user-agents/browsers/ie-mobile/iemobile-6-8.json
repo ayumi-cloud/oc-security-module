@@ -1,0 +1,121 @@
+{
+  "division": "IEMobile #MAJORVER#.#MINORVER#",
+  "versions": ["6.8"],
+  "sortIndex": 1722,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
+      "browser": "iemobile",
+      "platform": "WinCE",
+      "engine": "Trident_3_1",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IEMobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.*; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "#DEVICE#/1.2 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.*; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)*",
+          "devices": {
+            "HTC-3100": "HTC 3100",
+            "HTC-8500": "HTC 8500"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "#DEVICE# Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.*; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)",
+          "devices": {
+            "HTC_P4350": "HTC P4350",
+            "HTC_S620": "HTC S620",
+            "HTC_TyTN": "HTC P4500",
+            "HTC_X7500": "HTC X7500"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.*; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) PPC; MDA Touch/1.0 *",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.*; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) PPC; 240x320; #DEVICE#/1.0 *",
+          "devices": {
+            "HTC_P3600": "HTC P3600"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.*; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) Vodafone/1.0/#DEVICE#/*",
+          "devices": {
+            "HTC_Elf": "HTC P3450"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.*; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) Vodafone/1.0/#DEVICE#/*",
+          "devices": {
+            "HTC_VPACompactIV": "HTC VPA Compact IV"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.*; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*) *#DEVICE#*",
+          "devices": {
+            "DopodD810": "Dopod D810",
+            "HTC-8500": "HTC 8500",
+            "HTC_MTeoR": "HTC MTeoR",
+            "HTC_P3300": "HTC P3300",
+            "HTC_P3350": "HTC P3350",
+            "HTC_P6300": "HTC P6300",
+            "HTC_v1510": "HTC v1510",
+            "HTC_v3600": "HTC v3600",
+            "HTC_X7500": "HTC X7500",
+            "HTCS620": "HTC S620",
+            "MDA Vario": "T-Mobile MDA Vario",
+            "SGH-i601": "Samsung SGH-I601"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.*; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "#DEVICE#; 240x320 (*compatible*;*MSIE #MAJORVER#.*; Windows CE; IEMobile?#MAJORVER#.#MINORVER#*)",
+          "devices": {
+            "Xda orbit": "XDA Orbit"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        }
+      ]
+    }
+  ]
+}

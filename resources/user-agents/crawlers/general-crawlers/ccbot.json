@@ -1,0 +1,33 @@
+{
+  "division": "CCBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "CCBot",
+      "browser": "ccbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CCBot"
+      },
+      "children": [
+        {
+          "match": "CCBot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "CCBot/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "CCBot/*"
+        }
+      ]
+    }
+  ]
+}

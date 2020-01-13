@@ -1,0 +1,30 @@
+{
+  "division": "WebPirate Browser",
+  "sortIndex": 1949,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WebPirate Browser",
+      "browser": "webpirate browser",
+      "platform": "SailfishOS",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WebPirate Browser",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) WebPirate/* Safari/*",
+          "device": "Jolla Phone",
+          "platforms": [
+            "SailfishOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

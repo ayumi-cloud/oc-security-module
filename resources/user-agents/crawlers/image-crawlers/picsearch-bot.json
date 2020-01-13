@@ -1,0 +1,27 @@
+{
+  "division": "Picsearch Bot",
+  "sortIndex": 401,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Picsearch Bot",
+      "browser": "picsearch bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Picsearch Bot"
+      },
+      "children": [
+        {
+          "match": "psbot-image*"
+        },
+        {
+          "match": "psbot-page*"
+        },
+        {
+          "match": "psbot/*"
+        }
+      ]
+    }
+  ]
+}

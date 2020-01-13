@@ -1,0 +1,27 @@
+{
+  "division": "Kazehakase Generic",
+  "sortIndex": 2461,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Kazehakase Generic",
+      "browser": "kazehakase",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kazehakase Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Kazehakase/*",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

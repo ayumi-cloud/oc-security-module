@@ -1,0 +1,63 @@
+{
+  "division": "MultiZilla #MAJORVER#.#MINORVER#",
+  "versions": ["1.8", "1.7", "1.6", "1.5", "1.4", "1.3"],
+  "sortIndex": 17582,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MultiZilla #MAJORVER#.#MINORVER#",
+      "browser": "multizilla",
+      "engine": "Gecko_Dynamic",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MultiZilla #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* MultiZilla/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPb_32",
+            "WinXPa_32", "WinXPa_v2",
+            "Win2000",
+            "WinME",
+            "Win98"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* MultiZilla/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_PPC"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* MultiZilla/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* MultiZilla/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "OS2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# MultiZilla v#MAJORVER#.#MINORVER#*) Gecko*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPb_32",
+            "WinXPa_32", "WinXPa_v2",
+            "Win2000"
+          ]
+        }
+      ]
+    }
+  ]
+}

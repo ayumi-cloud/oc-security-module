@@ -1,0 +1,32 @@
+{
+  "division": "Freebox Browser",
+  "sortIndex": 5030,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Freebox Browser",
+      "browser": "freebox browser",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "device": "FREE Freebox",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Freebox Browser",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Freebox; Linux i686) applewebkit* (*khtml*like*gecko*) Navigateur web/1.0* Safari/*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Freebox; Linux i686) applewebkit* (*khtml*like*gecko*) Navigateur web/* Safari/*"
+        }
+      ]
+    }
+  ]
+}

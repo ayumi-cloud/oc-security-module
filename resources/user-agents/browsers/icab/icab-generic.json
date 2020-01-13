@@ -1,0 +1,51 @@
+{
+  "division": "iCab Generic",
+  "sortIndex": 2403,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "iCab Generic",
+      "browser": "icab",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iCab Generic"
+      },
+      "children": [
+        {
+          "match": "iCab/* (#PLATFORM#)",
+          "platforms": [
+            "OSX",
+            "MacPPC",
+            "Mac68K"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) iCab *",
+          "platforms": [
+            "OSX",
+            "MacPPC",
+            "Mac68K"
+          ]
+        },
+        {
+          "match": "Mozilla/* (compatible; iCab *;#PLATFORM#)",
+          "platforms": [
+            "OSX",
+            "MacPPC",
+            "Mac68K"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) iCab/*",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

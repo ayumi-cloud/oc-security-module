@@ -1,0 +1,44 @@
+{
+  "division": "MSN-Media for iOS #MAJORVER#.#MINORVER#",
+  "versions": ["1.0b"],
+  "sortIndex": 1221,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MSN-Media for iOS #MAJORVER#.#MINORVER#",
+      "browser": "msnbot-media",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MSN-Media for iOS #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Beta": true
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* MsnBot-Media /#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPad": "iPad",
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_7_0",
+            "iOS_A_6_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* MsnBot-Media /#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_A_7_0",
+            "iOS_A_6_0",
+            "iOS_A"
+          ]
+        }
+      ]
+    }
+  ]
+}

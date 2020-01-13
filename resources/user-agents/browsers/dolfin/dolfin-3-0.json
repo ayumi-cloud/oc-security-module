@@ -1,0 +1,41 @@
+{
+  "division": "Dolfin #MAJORVER#.#MINORVER#",
+  "versions": [3],
+  "sortIndex": 1703,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
+      "browser": "dolfin",
+      "platform": "Bada_2_0",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dolfin #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (SAMSUNG; #DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Dolfin/#MAJORVER#.*",
+          "devices": {
+            "SAMSUNG-GT-S5380": "Samsung GT-S5380",
+            "SAMSUNG-GT-S8500": "Samsung GT-S8500",
+            "SAMSUNG-GT-S8530": "Samsung GT-S8530",
+            "SAMSUNG-GT-S8600": "Samsung GT-S8600"
+          },
+          "platforms": [
+            "Bada_2_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (SAMSUNG*SAMSUNG-GT-S#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Dolfin/#MAJORVER#.*",
+          "platforms": [
+            "Bada_2_0"
+          ]
+        }
+      ]
+    }
+  ]
+}

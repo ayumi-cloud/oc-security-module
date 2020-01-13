@@ -1,0 +1,30 @@
+{
+  "division": "Nokia Proxy Browser Generic",
+  "sortIndex": 1793,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Nokia Proxy Browser Generic",
+      "browser": "nokia proxy browser",
+      "platform": "Series40",
+      "engine": "Gecko",
+      "device": "general Mobile Phone (Nokia)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nokia Proxy Browser Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Series40*) Gecko* S40OviBrowser/*"
+        },
+        {
+          "match": "Mozilla/5.0 (Series30*) Gecko* S40OviBrowser/*",
+          "platforms": [
+            "Series30"
+          ]
+        }
+      ]
+    }
+  ]
+}

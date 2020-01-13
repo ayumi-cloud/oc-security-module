@@ -1,0 +1,90 @@
+{
+  "division": "Puffin #MAJORVER#.#MINORVER#",
+  "versions": ["3.7"],
+  "sortIndex": 1120,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Puffin #MAJORVER#.#MINORVER# for Android",
+      "browser": "puffin",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Puffin #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
+          "devices": {
+            "THOT61": "Thornton Pickard THOT61"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
+          "devices": {
+            "LG-E730": "LG E730"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AP*"
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
+          "device": "general Tablet"
+        }
+      ]
+    },
+    {
+      "userAgent": "Puffin #MAJORVER#.#MINORVER# for iOS",
+      "browser": "puffin",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Puffin #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*IP*",
+          "device": "iPhone"
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*IT*",
+          "device": "iPad"
+        },
+        {
+          "match": "Mozilla/5.0 (*X11*Linux*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*I?*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "Boitho",
+  "sortIndex": 130,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Boitho",
+      "browser": "boitho",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Boitho"
+      },
+      "children": [
+        {
+          "match": "boitho.com-dc/*"
+        },
+        {
+          "match": "boitho.com-robot/*"
+        },
+        {
+          "match": "boitho.com-*"
+        }
+      ]
+    }
+  ]
+}

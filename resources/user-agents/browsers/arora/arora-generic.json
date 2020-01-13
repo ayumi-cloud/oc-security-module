@@ -1,0 +1,79 @@
+{
+  "division": "Arora Generic",
+  "sortIndex": 1194,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Arora Generic",
+      "browser": "arora",
+      "engine": "WebKit",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Arora Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko,*safari*)*Arora/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* (*khtml*like*gecko,*safari*)*Arora/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko,*safari*)*Arora/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko,*safari*)*Arora/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Arora/0.?* Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Arora/0.?* Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Arora/0.?* Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

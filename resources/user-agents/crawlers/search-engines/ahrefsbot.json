@@ -1,0 +1,51 @@
+{
+  "division": "AhrefsBot",
+  "sortIndex": 40,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "AhrefsBot",
+      "browser": "ahrefsbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AhrefsBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; AhrefsBot/3.1*",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AhrefsBot/4.0*",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AhrefsBot/5.0*",
+          "properties": {
+            "Version": "5.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AhrefsBot/5.1*",
+          "properties": {
+            "Version": "5.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AhrefsBot/5.2*",
+          "properties": {
+            "Version": "5.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AhrefsBot/*"
+        }
+      ]
+    }
+  ]
+}

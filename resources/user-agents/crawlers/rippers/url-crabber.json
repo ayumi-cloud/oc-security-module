@@ -1,0 +1,33 @@
+{
+  "division": "urlgrabber",
+  "sortIndex": 480,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "urlgrabber",
+      "browser": "url grabber",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "urlgrabber"
+      },
+      "children": [
+        {
+          "match": "urlgrabber/3.9*",
+          "properties": {
+            "Version": "3.9"
+          }
+        },
+        {
+          "match": "urlgrabber/3.10*",
+          "properties": {
+            "Version": "3.10"
+          }
+        },
+        {
+          "match": "urlgrabber/*"
+        }
+      ]
+    }
+  ]
+}

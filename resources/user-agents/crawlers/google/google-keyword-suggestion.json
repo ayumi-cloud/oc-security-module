@@ -1,0 +1,31 @@
+{
+  "division": "Google Keyword Suggestion",
+  "sortIndex": 1121,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google Keyword Suggestion",
+      "browser": "google keyword suggestion",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google Keyword Suggestion"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko, Google Keyword Suggestion) Chrome/* Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Google Keyword Suggestion*)"
+        },
+        {
+          "match": "Mozilla/5.0 (*Google Keyword Suggestion*)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "division": "Link Checkers",
+  "sortIndex": 410,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Link Checkers",
+      "browser": "link checkers",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Link Checkers"
+      },
+      "children": [
+        {
+          "match": "!Susie (http://www.sync2it.com/susie)",
+          "browser": "!susie"
+        },
+        {
+          "match": "*AgentName/*",
+          "browser": "agentname"
+        },
+        {
+          "match": "*Linkman*",
+          "browser": "linkman"
+        },
+        {
+          "match": "*LinksManager.com*",
+          "browser": "linksmanager"
+        },
+        {
+          "match": "*Web Link Validator*",
+          "browser": "web link validator"
+        },
+        {
+          "match": "*Zeus*",
+          "browser": "zeus"
+        },
+        {
+          "match": "ActiveBookmark *",
+          "browser": "activebookmark"
+        },
+        {
+          "match": "Bookdog/*",
+          "browser": "bookdog"
+        },
+        {
+          "match": "Bookmark Buddy*",
+          "browser": "bookmark buddy"
+        },
+        {
+          "match": "Bookmark Renewal Check Agent*",
+          "browser": "bookmark renewal check agent"
+        },
+        {
+          "match": "Bookmark search tool*",
+          "browser": "bookmark search tool"
+        },
+        {
+          "match": "Bookmark-Manager",
+          "browser": "bookmark-manager"
+        },
+        {
+          "match": "Checkbot*",
+          "browser": "checkbot"
+        },
+        {
+          "match": "CheckLinks/*",
+          "browser": "checklinks"
+        },
+        {
+          "match": "CyberSpyder Link Test/*",
+          "browser": "cyberspyder link test"
+        },
+        {
+          "match": "DLC/*",
+          "browser": "dlc"
+        },
+        {
+          "match": "DocWeb Link Crawler (http://doc.php.net)",
+          "browser": "docweb link crawler"
+        },
+        {
+          "match": "FavOrg",
+          "browser": "favorg"
+        },
+        {
+          "match": "Favorites Sweeper v.3.*",
+          "browser": "favorites sweeper"
+        },
+        {
+          "match": "Funnel Web Profiler*",
+          "browser": "funnel web profiler"
+        },
+        {
+          "match": "Html Link Validator (www.lithopssoft.com)",
+          "browser": "html link validator"
+        },
+        {
+          "match": "IECheck",
+          "browser": "iecheck"
+        },
+        {
+          "match": "integrity/*",
+          "browser": "integrity",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "JCheckLinks/*",
+          "browser": "jchecklinks"
+        },
+        {
+          "match": "JRTwine Software Check Favorites Utility",
+          "browser": "jrtwine"
+        },
+        {
+          "match": "Link Valet Online*",
+          "browser": "link valet"
+        },
+        {
+          "match": "LinkAlarm/*",
+          "browser": "linkalarm"
+        },
+        {
+          "match": "Linkbot*",
+          "browser": "linkbot"
+        },
+        {
+          "match": "LinkextractorPro*",
+          "browser": "linkextractorpro"
+        },
+        {
+          "match": "LinkLint-checkonly/*",
+          "browser": "linklint"
+        },
+        {
+          "match": "LinkScan/*",
+          "browser": "linkscan"
+        },
+        {
+          "match": "LinkSweeper/*",
+          "browser": "linksweeper"
+        },
+        {
+          "match": "LinkWalker/2.0*",
+          "browser": "linkwalker",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "LinkWalker*",
+          "browser": "linkwalker"
+        },
+        {
+          "match": "MetaGer-LinkChecker",
+          "browser": "metager-linkchecker"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; metager2-verification-bot*",
+          "browser": "metager2-verification-bot"
+        },
+        {
+          "match": "Mozilla/* (compatible; linktiger/*; *http://www.linktiger.com*)",
+          "browser": "linktiger"
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* LinkTiger *",
+          "browser": "linktiger"
+        },
+        {
+          "match": "Mozilla/4.0 (Compatible); URLBase*",
+          "browser": "urlbase"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; Link Utility; http://net-promoter.com)",
+          "browser": "netpromoter link utility"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0;#PLATFORM#) Web Link Validator*",
+          "browser": "web link validator",
+          "platforms": [
+            "Win98_2"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE 7.0; Win32) Link Commander 3.0",
+          "browser": "link commander",
+          "platforms": [
+            "Win32"
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; smartBot/1.*; checking links; *)",
+          "browser": "smartbot"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; SuperCleaner*;*)",
+          "browser": "supercleaner"
+        },
+        {
+          "match": "Mozilla/5.0 gURLChecker/*",
+          "browser": "gurlchecker"
+        },
+        {
+          "match": "Newsgroupreporter LinkCheck",
+          "browser": "newsgroupreporter linkcheck"
+        },
+        {
+          "match": "onCHECK Linkchecker von www.scientec.de fuer www.onsinn.de",
+          "browser": "oncheck linkchecker"
+        },
+        {
+          "match": "online link validator*",
+          "browser": "online link validator"
+        },
+        {
+          "match": "REL Link Checker*",
+          "browser": "rel link checker"
+        },
+        {
+          "match": "RLinkCheker*",
+          "browser": "rlinkcheker"
+        },
+        {
+          "match": "Robozilla/*",
+          "browser": "robozilla"
+        },
+        {
+          "match": "SafariBookmarkChecker*(?http://www.coriolis.ch/)",
+          "browser": "safaribookmarkchecker",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Simpy/* (Simpy; http://www.simpy.com/?ref=bot; feedback at simpy dot com)",
+          "browser": "simpy"
+        },
+        {
+          "match": "SiteBar/*",
+          "browser": "sitebar"
+        },
+        {
+          "match": "Susie (http://www.sync2it.com/bms/susie.php",
+          "browser": "susie"
+        },
+        {
+          "match": "URLBase/*",
+          "browser": "urlbase"
+        },
+        {
+          "match": "VSE/*",
+          "browser": "vse link tester"
+        },
+        {
+          "match": "WebTrends Link Analyzer",
+          "browser": "webtrends link analyzer"
+        },
+        {
+          "match": "WorQmada/*",
+          "browser": "worqmada"
+        },
+        {
+          "match": "Z-Add Link Checker*",
+          "browser": "z-add link checker"
+        },
+        {
+          "match": "Mozilla/5.0 TYPO3-linkvalidator*",
+          "browser": "typo3 linkvalidator"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; pmoz.info ODP link checker*",
+          "browser": "pmoz.info odp link checker"
+        },
+        {
+          "match": "eZ Publish Link Validator",
+          "browser": "ez publish link validator"
+        },
+        {
+          "match": "LinksCrawler 0.1*",
+          "browser": "linkscrawler",
+          "properties": {
+            "Version": "0.1"
+          }
+        },
+        {
+          "match": "LinksCrawler *",
+          "browser": "linkscrawler"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Sophora Linkchecker*",
+          "browser": "sophora linkchecker"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MOSBookmarks/v2.6*",
+          "browser": "mosbookmarks link checker",
+          "properties": {
+            "Version": "2.6"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MOSBookmarks/v2.7*",
+          "browser": "mosbookmarks link checker",
+          "properties": {
+            "Version": "2.7"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MOSBookmarks/v2.8*",
+          "browser": "mosbookmarks link checker",
+          "properties": {
+            "Version": "2.8"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MOSBookmarks/*",
+          "browser": "mosbookmarks link checker"
+        },
+        {
+          "match": "URLChecker*",
+          "browser": "urlchecker"
+        },
+        {
+          "match": "*Short URL Checker*",
+          "browser": "short url checker"
+        },
+        {
+          "match": "Raven Link Checker*",
+          "browser": "raven link checker"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) BrokenLinkCheck.com/1.1*",
+          "browser": "brokenlinkcheck",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ],
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) BrokenLinkCheck.com/*",
+          "browser": "brokenlinkcheck",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE * #PLATFORM#) BrokenLinkCheck.com/1.1",
+          "browser": "brokenlinkcheck",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ],
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE * #PLATFORM#) BrokenLinkCheck.com/*",
+          "browser": "brokenlinkcheck",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "LongURL API*",
+          "browser": "longurl bot"
+        },
+        {
+          "match": "Mozilla/5.0 (GetLinkInfo*",
+          "browser": "getlinkinfo bot"
+        },
+        {
+          "match": "Slinky v1.0*",
+          "browser": "slinky",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Slinky v*",
+          "browser": "slinky"
+        },
+        {
+          "match": "BMC Link Validator*",
+          "browser": "bmc link validator"
+        },
+        {
+          "match": "Premium URL Shortener 4.0*",
+          "browser": "premium url shortener",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Premium URL Shortener*",
+          "browser": "premium url shortener"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; TURLValidator/1.0*",
+          "browser": "turlvalidator",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; TURLValidator/*",
+          "browser": "turlvalidator"
+        },
+        {
+          "match": "*deadlinkchecker*",
+          "browser": "dead link checker"
+        },
+        {
+          "match": "inboundli link checker*",
+          "browser": "inbound.li link checker"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; TrialPay URL checker*",
+          "browser": "trialpay url checker"
+        },
+        {
+          "match": "AWeber*Link Validator*",
+          "browser": "aweber link validator"
+        },
+        {
+          "match": "PerfectMail/* (http://perfectmail.com/kb/web_probe)",
+          "browser": "perfectmail web probe"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SurdotlyBot/*) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/*",
+          "browser": "sur.ly bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SurdotlyBot/*",
+          "browser": "sur.ly bot"
+        },
+        {
+          "match": "WP Engine Domain Verification*",
+          "browser": "wp engine domain verifier"
+        },
+        {
+          "match": "OrgProbe/*",
+          "browser": "open rights group probe"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *) LinkCheck by Siteimprove.com",
+          "browser": "siteimprove linkchecker"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE *; Windows NT *; Trident/*) LinkCheck by Siteimprove.com",
+          "browser": "siteimprove linkchecker"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *) Match by Siteimprove.com",
+          "browser": "siteimprove match bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE *; Windows NT *; Trident/*) SiteCheck-sitecrawl by Siteimprove.com",
+          "browser": "siteimprove site crawler"
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT *; Trident/*; rv *) like Gecko (compatible; Zombiebot/*; +http://www.zombiedomain.net/robot/)",
+          "browser": "zombiebot"
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT *; Trident/*; rv:*; topster.de Linkchecker *) like Gecko *",
+          "browser": "topster.de linkchecker"
+        },
+        {
+          "match": "Mozilla/5.0 (ClickMagick Link Monitor v*)",
+          "browser": "clickmagick link monitor"
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) applewebkit/* (*khtml*like*gecko*) (CMLINKCHECK) Chrome/* Safari/*",
+          "browser": "clickmagick link monitor"
+        }
+      ]
+    }
+  ]
+}

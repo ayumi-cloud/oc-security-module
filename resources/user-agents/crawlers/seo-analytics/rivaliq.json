@@ -1,0 +1,29 @@
+{
+  "division": "Rival IQ Bot",
+  "sortIndex": 884,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Rival IQ Bot",
+      "browser": "rival iq bot",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Rival IQ Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* (Rival IQ, rivaliq.com)*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_9",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

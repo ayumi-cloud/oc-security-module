@@ -1,0 +1,33 @@
+{
+  "division": "SoundCloud App Generic for iOS",
+  "sortIndex": 2061,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SoundCloud App Generic for iOS",
+      "browser": "soundcloud app",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SoundCloud App Generic for iOS",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "SoundCloud/*; iPhone/#PLATFORM#",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
+            "iOS_E_8_1", "iOS_E_8_0",
+            "iOS_E_7_1",
+            "iOS_E"
+          ]
+        }
+      ]
+    }
+  ]
+}

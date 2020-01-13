@@ -1,0 +1,29 @@
+{
+  "division": "Zetakey Browser #MAJORVER#.#MINORVER#",
+  "versions": ["3.2"],
+  "sortIndex": 3159,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Zetakey Browser #MAJORVER#.#MINORVER#",
+      "browser": "zetakey browser",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Zetakey Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile Zetakey/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

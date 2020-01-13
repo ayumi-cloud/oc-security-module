@@ -1,0 +1,35 @@
+{
+  "division": "BlackBerry #MAJORVER#.#MINORVER#",
+  "versions": ["4.3"],
+  "sortIndex": 2369,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "browser": "blackberry",
+      "platform": "RIMOS_Dynamic",
+      "device": "general Mobile Phone (old Blackberry)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BlackBerry8110": "Blackberry 8110",
+            "BlackBerry8120": "Blackberry 8120",
+            "BlackBerry8130": "Blackberry 8130",
+            "BlackBerry8320": "Blackberry 8320",
+            "BlackBerry8330": "Blackberry 8330"
+          }
+        },
+        {
+          "match": "BlackBerry*/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

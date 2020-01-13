@@ -1,0 +1,24 @@
+{
+  "division": "WhatsApp Bot #MAJORVER#.#MINORVER#",
+  "versions": ["2.18", "2.17", "2.12"],
+  "sortIndex": 1995,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WhatsApp Bot #MAJORVER#.#MINORVER#",
+      "browser": "whatsapp bot",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WhatsApp Bot #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "WhatsApp/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

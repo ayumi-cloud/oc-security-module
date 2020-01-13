@@ -1,0 +1,30 @@
+{
+  "division": "AntBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "AntBot",
+      "browser": "antbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AntBot"
+      },
+      "children": [
+        {
+          "match": "AntBot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "AntBot/*"
+        },
+        {
+          "match": "Ant bot/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "division": "Avant #MAJORVER#.#MINORVER#",
+  "versions": ["1.2", "1.1", 1],
+  "sortIndex": 941,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Avant #MAJORVER#.#MINORVER#",
+      "browser": "avant",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Avant #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Avant Browser/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

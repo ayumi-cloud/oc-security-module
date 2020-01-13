@@ -1,0 +1,62 @@
+{
+  "division": "Spinn3r RSS Aggregator",
+  "sortIndex": 370,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Spinn3r RSS Aggregator",
+      "browser": "spinn3r rss aggregator",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Spinn3r RSS Aggregator"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Tailrank (Spinn3r 2.3); *) Gecko*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ],
+          "properties": {
+            "Version": "2.3"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.0); *) Gecko*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r 3.1); *) Gecko*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ],
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#; aggregator:Spinn3r (Spinn3r *); *) Gecko*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "*Spinn3r*http://spinn3r.com/robot*",
+          "engine": "unknown",
+          "device": "unknown"
+        }
+      ]
+    }
+  ]
+}

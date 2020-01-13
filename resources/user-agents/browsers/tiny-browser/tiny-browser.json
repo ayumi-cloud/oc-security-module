@@ -1,0 +1,26 @@
+{
+  "division": "TinyBrowser #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 2450,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TinyBrowser #MAJORVER#.#MINORVER#",
+      "browser": "tinybrowser",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TinyBrowser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "TinyBrowser/#MAJORVER#.#MINORVER#* (TinyBrowser *) Gecko*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "division": "BlackBerry #MAJORVER#.#MINORVER#",
+  "versions": [6],
+  "sortIndex": 2364,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "browser": "blackberry",
+      "platform": "RIMOS_Dynamic",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Blackberry)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Blackberry9300": "Blackberry 9300",
+            "Blackberry9330": "Blackberry 9330",
+            "Blackberry9650": "Blackberry 9650",
+            "Blackberry9670": "Blackberry 9670",
+            "Blackberry9700": "Blackberry 9700",
+            "Blackberry9780": "Blackberry 9780",
+            "Blackberry9800": "Blackberry 9800"
+          }
+        },
+        {
+          "match": "BlackBerry*/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (old Blackberry)"
+        },
+        {
+          "match": "Mozilla/5.0 (BlackBerry; ?; #DEVICE#*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "BlackBerry 9100": "Blackberry 9100",
+            "BlackBerry 9105": "Blackberry 9105",
+            "BlackBerry 9300": "Blackberry 9300",
+            "BlackBerry 9330": "Blackberry 9330",
+            "BlackBerry 9650": "Blackberry 9650",
+            "BlackBerry 9670": "Blackberry 9670",
+            "BlackBerry 9700": "Blackberry 9700",
+            "BlackBerry 9780": "Blackberry 9780",
+            "BlackBerry 9800": "Blackberry 9800",
+            "BlackBerry 9860": "Blackberry 9860"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (BlackBerry; ?; BlackBerry*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "device": "general Mobile Phone (old Blackberry)"
+        }
+      ]
+    }
+  ]
+}

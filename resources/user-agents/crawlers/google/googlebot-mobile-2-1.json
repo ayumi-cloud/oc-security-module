@@ -1,0 +1,81 @@
+{
+  "division": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["2.1"],
+  "sortIndex": 1174,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
+      "browser": "google bot mobile",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Googlebot",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0*(iPhone#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_A_6_0",
+            "iOS_A_4_1",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_6_0",
+            "iOS_A_4_1",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "DoCoMo/1.0/N505i/c20/TB/W20H10 (compatible; Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
+          "engine": "unknown",
+          "device": "NEC N505i",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
+          "engine": "unknown",
+          "device": "NEC N905i",
+          "platforms": [
+            "Maemo"
+          ]
+        },
+        {
+          "match": "#DEVICE# UP.Browser/6.2* (compatible; KDDI-Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
+          "engine": "unknown",
+          "devices": {
+            "KDDI-CA34": "KDDI CA34"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "#DEVICE#/* UP.Browser/6.2* (compatible; Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
+          "engine": "unknown",
+          "devices": {
+            "SAMSUNG-SGH-E250": "Samsung SGH-E250"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "*Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
+          "engine": "unknown",
+          "device": "general Mobile Device"
+        }
+      ]
+    }
+  ]
+}

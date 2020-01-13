@@ -1,0 +1,74 @@
+{
+  "division": "Android WebView Generic",
+  "sortIndex": 957,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Android WebView Generic",
+      "browser": "android webview",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Android WebView Generic"
+      },
+      "children": [
+        {
+          "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/*Chrome*Safari*",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome*Safari*",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome*",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*kthml*like*gecko*)*Version/*Chrome*Safari*",
+          "platforms": [
+            "Android_4_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khmtl*like*gecko*)*Version/*Chrome*Safari*",
+          "platforms": [
+            "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

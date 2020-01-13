@@ -1,0 +1,38 @@
+{
+  "division": "Hitpad",
+  "sortIndex": 5150,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Hitpad",
+      "browser": "hitpad",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Hitpad",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Hitpad/1.4* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "1.4"
+          }
+        },
+        {
+          "match": "Hitpad* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

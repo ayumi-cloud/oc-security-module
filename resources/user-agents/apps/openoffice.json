@@ -1,0 +1,42 @@
+{
+  "division": "OpenOffice",
+  "sortIndex": 2430,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OpenOffice",
+      "browser": "openoffice",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OpenOffice"
+      },
+      "children": [
+        {
+          "match": "OpenOffice/4.0*",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "OpenOffice/4.1*",
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "OpenOffice*"
+        },
+        {
+          "match": "Apache OpenOffice/4.1*",
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "Apache OpenOffice*"
+        }
+      ]
+    }
+  ]
+}

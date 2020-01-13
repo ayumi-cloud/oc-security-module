@@ -1,0 +1,27 @@
+{
+  "division": "Sindice Fetcher",
+  "sortIndex": 1450,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Sindice Fetcher",
+      "browser": "sindice fetcher",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sindice Fetcher"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; sindice-fetcher/0.1*",
+          "properties": {
+            "Version": "0.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; sindice-fetcher/*"
+        }
+      ]
+    }
+  ]
+}

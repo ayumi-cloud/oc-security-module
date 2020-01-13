@@ -1,0 +1,66 @@
+{
+  "division": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 10774,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+      "browser": "teleca-obigo",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/1.0 ObigoInternetBrowser/#MAJORVER#.#MINORVER#",
+          "devices": {
+            "Alcatel-OH1C": "Alcatel OH1C",
+            "Alcatel-OH2": "Alcatel OH2"
+          }
+        },
+        {
+          "match": "#DEVICE# / Obigo Browser #MAJORVER#.#MINORVER#",
+          "devices": {
+            "Haier-M1000": "Haier M1000",
+            "Haier-M1211": "Haier M1211",
+            "Haier-M1610": "Haier M1610"
+          }
+        },
+        {
+          "match": "#DEVICE#/v1.0 *",
+          "devices": {
+            "LG/KU800": "LG KU800"
+          }
+        },
+        {
+          "match": "#DEVICE# / Teleca-Obigo #MAJORVER#.#MINORVER# *",
+          "devices": {
+            "PHILIPS 350": "Philips 350"
+          }
+        },
+        {
+          "match": "#DEVICE# ObigoInternetBrowser/#MAJORVER#.#MINORVER# *",
+          "devices": {
+            "PHILIPS650": "Philips 650",
+            "PHILIPS755": "Philips 755",
+            "SIE-SF65": "Siemens SF65"
+          }
+        },
+        {
+          "match": "#DEVICE# / Teleca-Obigo 2.2 *",
+          "devices": {
+            "PHILIPS 355": "Philips 355"
+          },
+          "properties": {
+            "Version": "2.2"
+          }
+        }
+      ]
+    }
+  ]
+}

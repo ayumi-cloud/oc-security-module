@@ -1,0 +1,21 @@
+{
+  "division": "80Legs",
+  "sortIndex": 20,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "80Legs",
+      "browser": "80legs",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "80Legs"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; *; http://www.80legs.com/*) Gecko*"
+        }
+      ]
+    }
+  ]
+}

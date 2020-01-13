@@ -1,0 +1,25 @@
+{
+  "division": "Yahoo Verifier",
+  "sortIndex": 1390,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo Verifier",
+      "browser": "yahoo! verifier",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo! Verifier"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Yahoo! Verifier/*)",
+          "browser": "yahoo! verifier",
+          "properties": {
+            "Version": "1.1"
+          }
+        }
+      ]
+    }
+  ]
+}

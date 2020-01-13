@@ -1,0 +1,25 @@
+{
+  "division": "NEC",
+  "sortIndex": 7660,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NEC",
+      "browser": "nec",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NEC",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "portalmmm/2.0 N410i(c20;TB)*"
+        }
+      ]
+    }
+  ]
+}

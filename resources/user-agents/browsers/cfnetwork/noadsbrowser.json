@@ -1,0 +1,29 @@
+{
+  "division": "noadsbrowser",
+  "sortIndex": 7910,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "noadsbrowser",
+      "browser": "noadsbrowser",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "noadsbrowser",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "noadsbrowser* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

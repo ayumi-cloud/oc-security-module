@@ -1,0 +1,104 @@
+{
+  "division": "AU by KDDI",
+  "sortIndex": 2240,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "AU by KDDI",
+      "browser": "au",
+      "platform": "Brew",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AU by KDDI",
+        "Version": "4.1"
+      },
+      "children": [
+        {
+          "match": "#DEVICE# AU.Browser/1.2*",
+          "devices": {
+            "BIRD.S580": "BIRD S580"
+          },
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "#DEVICE#/BSI AU.Browser/2.0*",
+          "devices": {
+            "EZ400": "EZZE EZ400",
+            "EZZE-MP100-": "EZZE MP100"
+          },
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.0*",
+          "devices": {
+            "HG7000": "EZZE Hg7000"
+          }
+        },
+        {
+          "match": "#DEVICE# AU/4.1*",
+          "devices": {
+            "LG-C3100": "LG C3100",
+            "LG-F7100": "LG F7100",
+            "LG-G1600": "LG G1600",
+            "LG-G1610": "LG G1610",
+            "LG-G5300": "LG G5300",
+            "LG-G5400": "LG G5400",
+            "LG-G7000": "LG G7000",
+            "LG-G7070": "LG G7070",
+            "LG-G7100": "LG G7100"
+          }
+        },
+        {
+          "match": "#DEVICE# AU/4.10*",
+          "devices": {
+            "LG-G3100": "LG G3100"
+          },
+          "properties": {
+            "Version": "4.10"
+          }
+        },
+        {
+          "match": "#DEVICE#/JM AU/4.1*",
+          "devices": {
+            "LG-G5300i": "LG G5300i",
+            "LG-G5310": "LG G5310"
+          }
+        },
+        {
+          "match": "#DEVICE# AU/4.2*",
+          "devices": {
+            "LG-G1500": "LG G1500",
+            "LG-G510": "LG G510"
+          },
+          "properties": {
+            "Version": "4.2"
+          }
+        },
+        {
+          "match": "#DEVICE# AU/4.8*",
+          "devices": {
+            "LG-MG191a": "LG MG191a"
+          },
+          "properties": {
+            "Version": "4.8"
+          }
+        },
+        {
+          "match": "#DEVICE# AU/4.12 *",
+          "devices": {
+            "LG-G4010": "LG G4010"
+          },
+          "properties": {
+            "Version": "4.12"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "division": "Crawly",
+  "sortIndex": 180,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Crawly",
+      "browser": "crawly",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Crawly"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Crawly/1.*; +http://*/crawler.html)",
+          "properties": {
+            "Version": "1.0"
+          }
+        }
+      ]
+    }
+  ]
+}

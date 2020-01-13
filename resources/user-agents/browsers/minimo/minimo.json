@@ -1,0 +1,36 @@
+{
+  "division": "Minimo #MAJORVER#.#MINORVER#",
+  "versions": ["0.025", "0.024", "0.020", "0.016", "0.015", "0.013", "0.007"],
+  "sortIndex": 17582,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Minimo #MAJORVER#.#MINORVER#",
+      "browser": "minimo",
+      "engine": "Gecko",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Minimo #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Minimo/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Maemo_ARM",
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#macppc*) Gecko* Minimo/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OpenBSD"
+          ]
+        }
+      ]
+    }
+  ]
+}

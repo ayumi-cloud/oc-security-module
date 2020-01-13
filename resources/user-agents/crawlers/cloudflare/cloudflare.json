@@ -1,0 +1,41 @@
+{
+  "division": "CloudFlare Bots",
+  "sortIndex": 450,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "CloudFlare Bots",
+      "browser": "cloudflare",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CloudFlare Bots"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0*",
+          "browser": "cloudflare alwaysonline",
+          "properties": {
+            "Comment": "Online Scanners",
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/*",
+          "browser": "cloudflare alwaysonline",
+          "properties": {
+            "Comment": "Online Scanners"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Cloudflare-AMP/*; +https://amp.cloudflare.com/*) applewebkit*",
+          "browser": "cloudflare amp discovery fetcher"
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; Android *) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* (compatible; Cloudflare-AMPHTML)",
+          "browser": "cloudflare amp discovery fetcher"
+        }
+      ]
+    }
+  ]
+}

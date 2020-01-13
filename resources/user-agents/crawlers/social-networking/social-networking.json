@@ -1,0 +1,286 @@
+{
+  "division": "Social Networking",
+  "sortIndex": 500,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Social Networking",
+      "browser": "social bookmarkers",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Social Bookmarkers"
+      },
+      "children": [
+        {
+          "match": "BookmarkBase(2/;http://bookmarkbase.com)",
+          "browser": "bookmarkbase"
+        },
+        {
+          "match": "Cocoal.icio.us/1.0 (v43) (Mac OS X; http://www.scifihifi.com/cocoalicious)",
+          "browser": "cocoalicious"
+        },
+        {
+          "match": "Mozilla/5.0 (*) Gecko* Firefox/2.0 OneRiot/1.0 (http://www.oneriot.com) ",
+          "browser": "oneriot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; FriendFeedBot/0.*; +Http://friendfeed.com/about/bot)",
+          "browser": "friendfeedbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Twitturls; +http://twitturls.com)",
+          "browser": "twitturls"
+        },
+        {
+          "match": "SocialSpider-Finder/0.*",
+          "browser": "socialspider-finder"
+        },
+        {
+          "match": "Twitturly*",
+          "browser": "twitturly"
+        },
+        {
+          "match": "WinkBot/*",
+          "browser": "winkbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; FriendFeedBot/*; +Http://friendfeed.com/about/bot)",
+          "browser": "friendfeedbot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Gecko* Firefox/2.0 OneRiot/1.0 (http://www.oneriot.com) ",
+          "browser": "oneriot"
+        },
+        {
+          "match": "Slackbot-LinkExpanding*",
+          "browser": "slackbot-link-expanding"
+        },
+        {
+          "match": "Slackbot*",
+          "browser": "slackbot"
+        },
+        {
+          "match": "Slack-ImgProxy*",
+          "browser": "slack-imgproxy"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Embedly/0.2*",
+          "browser": "embedly",
+          "properties": {
+            "Version": "0.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Embedly/*",
+          "browser": "embedly"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Linux; Socialradarbot/2.0*",
+          "browser": "socialradar bot",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Linux; Socialradarbot/*",
+          "browser": "socialradar bot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*; ?collection@infegy.com",
+          "browser": "infegy collection bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; EveryoneSocialBot/1.0*",
+          "browser": "everyonesocialbot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; EveryoneSocialBot/*",
+          "browser": "everyonesocialbot"
+        },
+        {
+          "match": "R6_CommentReader*",
+          "browser": "r6 commentreader"
+        },
+        {
+          "match": "viralvideochart.unrulymedia.com*",
+          "browser": "viralvideochart bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Linux; InfegyAtlas/1.0*",
+          "browser": "infegyatlas",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Linux; InfegyAtlas/*",
+          "browser": "infegyatlas"
+        },
+        {
+          "match": "QuickiWiki/1.0*",
+          "browser": "quickiwiki bot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "QuickiWiki/*",
+          "browser": "quickiwiki bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; vkShare*",
+          "browser": "vkshare"
+        },
+        {
+          "match": "seebot/2.0*",
+          "browser": "seebot",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "seebot/*",
+          "browser": "seebot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Kraken/0.1*",
+          "browser": "kraken",
+          "properties": {
+            "Version": "0.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Kraken/*",
+          "browser": "kraken"
+        },
+        {
+          "match": "NING/1.0*",
+          "browser": "ning",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "NING/*",
+          "browser": "ning"
+        },
+        {
+          "match": "Sprinklr 2.0*",
+          "browser": "sprinklr",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Sprinklr*",
+          "browser": "sprinklr"
+        },
+        {
+          "match": "Traackr*",
+          "browser": "traackr"
+        },
+        {
+          "match": "Kimengi/nineconnections*",
+          "browser": "nineconnections"
+        },
+        {
+          "match": "Twikle/1.0*",
+          "browser": "twikle bot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Twikle/*",
+          "browser": "twikle bot"
+        },
+        {
+          "match": "Mozilla/5.0 Tweetminster*",
+          "browser": "tweetminster bot"
+        },
+        {
+          "match": "Trove*",
+          "browser": "trove bot"
+        },
+        {
+          "match": "Pearltrees*",
+          "browser": "pearltrees bot"
+        },
+        {
+          "match": "Svven-Summarizer*",
+          "browser": "svven summarizer bot"
+        },
+        {
+          "match": "Leadify/1.01*",
+          "browser": "leadify bot",
+          "properties": {
+            "Version": "1.01"
+          }
+        },
+        {
+          "match": "Leadify/*",
+          "browser": "leadify bot"
+        },
+        {
+          "match": "inbound.li parser*",
+          "browser": "inbound.li parser"
+        },
+        {
+          "match": "Mozilla/5.0 ( compatible ; Veooz/1.0*",
+          "browser": "veooz bot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 ( compatible ; Veooz/*",
+          "browser": "veooz bot"
+        },
+        {
+          "match": "SentiBot*",
+          "browser": "sentibot"
+        },
+        {
+          "match": "Mozilla/5.0 (Macintosh; *Mac OS X*) AppleWebKit/* (*khtml*like*gecko*) ShopSpring SpringBot Safari/*",
+          "browser": "springbot"
+        },
+        {
+          "match": "DocBase Crawler/*",
+          "browser": "docbase crawler"
+        },
+        {
+          "match": "twieve/*",
+          "browser": "twieve"
+        },
+        {
+          "match": "Mozilla/5.0 AppleWebKit/* (*khtml*like*gecko*) Chrome/* Safari/* (Refindbot/*",
+          "browser": "refindbot"
+        },
+        {
+          "match": "MagentaNews*",
+          "browser": "magentanews"
+        },
+        {
+          "match": "MeltwaterNews*",
+          "browser": "meltwaternews"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; PressRush/*",
+          "browser": "pressrush"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; EchoboxBot/*",
+          "browser": "echoboxbot"
+        },
+        {
+          "match": "CheckMarkNetwork*",
+          "browser": "checkmarknetwork bot"
+        }
+      ]
+    }
+  ]
+}

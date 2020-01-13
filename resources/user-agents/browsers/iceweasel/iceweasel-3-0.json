@@ -1,0 +1,29 @@
+{
+  "division": "Iceweasel #MAJORVER#.#MINORVER#",
+  "versions": ["3.1", 3],
+  "sortIndex": 3154,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
+      "browser": "iceweasel",
+      "platform": "Linux",
+      "engine": "Gecko_1_9",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Iceweasel #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Iceweasel?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux_32_on_x64_2", "Linux_64", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

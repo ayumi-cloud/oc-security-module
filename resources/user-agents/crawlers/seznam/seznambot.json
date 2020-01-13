@@ -1,0 +1,54 @@
+{
+  "division": "SeznamBot",
+  "sortIndex": 1440,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SeznamBot",
+      "browser": "seznambot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SeznamBot"
+      },
+      "children": [
+        {
+          "match": "SeznamBot/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "SeznamBot/3.1*",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SeznamBot/3.1*",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "SeznamBot/3.2*",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SeznamBot/3.2*",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "SeznamBot/*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SeznamBot/*"
+        }
+      ]
+    }
+  ]
+}

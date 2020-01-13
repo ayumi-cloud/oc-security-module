@@ -1,0 +1,76 @@
+{
+  "division": "SonyEricsson",
+  "sortIndex": 10672,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SonyEricsson",
+      "browser": "semc",
+      "platform": "SymbianOS",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SonyEricsson",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/*",
+          "devices": {
+            "EricssonA2628s": "Ericsson A2628s",
+            "EricssonR520": "Ericsson R520",
+            "EricssonT20": "Ericsson T20",
+            "EricssonT39": "Ericsson T39",
+            "SonyEricssonC510": "SonyEricsson C510",
+            "SonyEricssonC902": "SonyEricsson C902",
+            "SonyEricssonC905": "SonyEricsson C905",
+            "SonyEricssonJ10i2": "SonyEricsson J10i2",
+            "SonyEricssonJ200i": "SonyEricsson J200i",
+            "SonyEricssonJ210c": "SonyEricsson J210c",
+            "SonyEricssonJ210i": "SonyEricsson J210i",
+            "SonyEricssonK800i": "SonyEricsson K800i",
+            "SonyEricssonT715": "SonyEricsson T715",
+            "SonyEricssonU10i": "SonyEricsson U10i",
+            "SonyEricssonU1i": "SonyEricsson U1i",
+            "SonyEricssonU1iv": "SonyEricsson U1iv",
+            "SonyEricssonU5iv": "SonyEricsson U5iv",
+            "SonyEricssonU5u": "SonyEricsson U5u",
+            "SonyEricssonU8a": "SonyEricsson U8a",
+            "SonyEricssonU8i": "SonyEricsson U8i",
+            "SonyEricssonW350i": "SonyEricsson W350i",
+            "SonyEricssonW350iv": "SonyEricsson W350iv",
+            "SonyEricssonW580i": "SonyEricsson W580i",
+            "SonyEricssonW595": "SonyEricsson W595",
+            "SonyEricssonW705": "SonyEricsson W705",
+            "SonyEricssonW760i": "SonyEricsson W760i",
+            "SonyEricssonW910i": "SonyEricsson W910i",
+            "SonyEricssonW980": "SonyEricsson W980",
+            "SonyEricssonW995": "SonyEricsson W995"
+          }
+        },
+        {
+          "match": "#DEVICE#*",
+          "devices": {
+            "EricssonT65": "Ericsson T65",
+            "EricssonT68": "Ericsson T68",
+            "SonyEricssonK550i": "SonyEricsson K550i"
+          }
+        },
+        {
+          "match": "*SEMC-Browser/Symbian/*"
+        },
+        {
+          "match": "*SEMC-Browser/*"
+        },
+        {
+          "match": "*/* Java/SEMC-Java/*",
+          "platforms": [
+            "JAVA"
+          ]
+        }
+      ]
+    }
+  ]
+}

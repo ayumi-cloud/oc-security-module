@@ -1,0 +1,21 @@
+{
+  "division": "NikiBot",
+  "sortIndex": 41,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NikiBot",
+      "browser": "nikibot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NikiBot"
+      },
+      "children": [
+        {
+          "match": "niki-bot"
+        }
+      ]
+    }
+  ]
+}

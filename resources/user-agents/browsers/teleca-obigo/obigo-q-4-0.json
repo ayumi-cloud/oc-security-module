@@ -1,0 +1,28 @@
+{
+  "division": "Obigo Q #MAJORVER#.#MINORVER#",
+  "versions": [4],
+  "sortIndex": 10772,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Obigo Q #MAJORVER#.#MINORVER#",
+      "browser": "obigo q",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Obigo Q #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE# Obigo/Q04C1 MMP/2.0 *",
+          "devices": {
+            "Motorola-ic902": "Motorola ic902"
+          }
+        }
+      ]
+    }
+  ]
+}

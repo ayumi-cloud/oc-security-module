@@ -1,0 +1,42 @@
+{
+  "division": "Huawei #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 5220,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Huawei #MAJORVER#.#MINORVER#",
+      "browser": "huawei",
+      "platform": "Brew",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Huawei #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Huawei-U526/1.0 BREW/3.1 Browser/#MAJORVER#.#MINORVER# *",
+          "platforms": [
+            "Brew"
+          ]
+        },
+        {
+          "match": "Huawei-U626/1.0 BREW/2.1 Browser/#MAJORVER#.#MINORVER# *",
+          "platforms": [
+            "Brew"
+          ]
+        },
+        {
+          "match": "Huawei-U636/1.0 BREW/2.1 Browser/#MAJORVER#.#MINORVER# *",
+          "platforms": [
+            "Brew"
+          ]
+        }
+      ]
+    }
+  ]
+}

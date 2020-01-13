@@ -1,0 +1,30 @@
+{
+  "division": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+  "versions": [4],
+  "sortIndex": 10772,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+      "browser": "teleca-obigo",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Teleca-Obigo #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/* TelecaBrowser/4.*",
+          "devices": {
+            "SonyEricssonJ210i": "SonyEricsson J210i",
+            "SonyEricssonJ220i": "SonyEricsson J220i",
+            "SonyEricssonJ230i": "SonyEricsson J230i"
+          }
+        }
+      ]
+    }
+  ]
+}

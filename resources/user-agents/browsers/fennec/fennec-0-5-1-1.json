@@ -1,0 +1,78 @@
+{
+  "division": "Fennec #MAJORVER#.#MINORVER#",
+  "versions": ["1.1", 1, "0.11", "0.9", "0.8", "0.7", "0.5"],
+  "sortIndex": 3144,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Fennec #MAJORVER#.#MINORVER#",
+      "browser": "fennec",
+      "engine": "Gecko_1_9",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Fennec #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "Maemo_ARM",
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

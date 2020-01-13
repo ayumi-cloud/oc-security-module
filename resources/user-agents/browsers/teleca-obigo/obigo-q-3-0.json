@@ -1,0 +1,54 @@
+{
+  "division": "Obigo Q #MAJORVER#.#MINORVER#",
+  "versions": [3],
+  "sortIndex": 10773,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Obigo Q #MAJORVER#.#MINORVER#",
+      "browser": "obigo q",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Obigo Q #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/1.0 ObigoInternetBrowser/Q03C",
+          "devices": {
+            "Alcatel-OT-216": "Alcatel OT-216",
+            "Alcatel-OT-C550": "Alcatel OT-C550"
+          }
+        },
+        {
+          "match": "#DEVICE#/Browser/obigo-browser/q03c",
+          "devices": {
+            "Huawei/*/G6600": "Huawei G6600"
+          }
+        },
+        {
+          "match": "ZTE-G-X760-vegas-orange/X760_Z15UK_FS_B07A106_ORANGE Obigo/Q03C*",
+          "device": "ZTE G-X760"
+        },
+        {
+          "match": "#DEVICE#/REV 2.*/Teleca Q03B1",
+          "devices": {
+            "ZONDA-ZMNG1900": "ZONDA ZMNG1900"
+          }
+        },
+        {
+          "match": "*ObigoInternetBrowser/Q03*"
+        },
+        {
+          "match": "*Browser/obigo-browser/q03*"
+        },
+        {
+          "match": "*Obigo/Q03*"
+        }
+      ]
+    }
+  ]
+}

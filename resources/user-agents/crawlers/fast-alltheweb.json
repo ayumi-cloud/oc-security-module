@@ -1,0 +1,61 @@
+{
+  "division": "Fast/AllTheWeb",
+  "sortIndex": 150,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Fast/AllTheWeb",
+      "browser": "fast/alltheweb",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Fast/AllTheWeb"
+      },
+      "children": [
+        {
+          "match": "*FAST Enterprise Crawler*",
+          "browser": "fast enterprise crawler"
+        },
+        {
+          "match": "FAST Data Search Document Retriever/4.0*",
+          "browser": "fast data search document retriever"
+        },
+        {
+          "match": "FAST MetaWeb Crawler (helpdesk at fastsearch dot com)",
+          "browser": "fast metaweb crawler"
+        },
+        {
+          "match": "Fast PartnerSite Crawler*",
+          "browser": "fast partnersite"
+        },
+        {
+          "match": "FAST-WebCrawler/*",
+          "browser": "fast-webcrawler"
+        },
+        {
+          "match": "FAST-WebCrawler/*/FirstPage*",
+          "browser": "fast-webcrawler/firstpage"
+        },
+        {
+          "match": "FAST-WebCrawler/*/Fresh*",
+          "browser": "fast-webcrawler/fresh"
+        },
+        {
+          "match": "FAST-WebCrawler/*/PartnerSite*",
+          "browser": "fast partnersite"
+        },
+        {
+          "match": "FAST-WebCrawler/*?Multimedia*",
+          "browser": "fast-webcrawler/multimedia"
+        },
+        {
+          "match": "FastSearch Web Crawler for*",
+          "browser": "fastsearch web crawler"
+        },
+        {
+          "match": "Fast Crawler v X(compatible; Konqueror/*; FreeBSD) (*khtml*like*gecko*)"
+        }
+      ]
+    }
+  ]
+}

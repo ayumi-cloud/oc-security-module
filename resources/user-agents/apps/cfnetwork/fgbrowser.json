@@ -1,0 +1,71 @@
+{
+  "division": "fgBrowser",
+  "sortIndex": 4340,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "fgBrowser",
+      "browser": "fgbrowser",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "fgBrowser",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "fgBrowserPrivate/3.2* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "fgBrowserPrivate/4.* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "fgBrowserPrivate* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "fgBrowser/3.2* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "fgBrowser/4.* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "fgBrowser* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

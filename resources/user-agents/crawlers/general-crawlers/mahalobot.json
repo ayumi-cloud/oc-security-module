@@ -1,0 +1,27 @@
+{
+  "division": "Mahalobot",
+  "sortIndex": 720,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mahalobot",
+      "browser": "mahalobot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mahalobot"
+      },
+      "children": [
+        {
+          "match": "Mahalobot/1.0 (?http://www.mahalo.com/)",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mahalobot/* (?http://www.mahalo.com/)"
+        }
+      ]
+    }
+  ]
+}

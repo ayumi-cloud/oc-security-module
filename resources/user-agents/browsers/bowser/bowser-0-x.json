@@ -1,0 +1,31 @@
+{
+  "division": "Bowser #MAJORVER#.#MINORVER#",
+  "versions": ["0.2"],
+  "sortIndex": 1142,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Bowser #MAJORVER#.#MINORVER#",
+      "browser": "bowser",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Bowser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) not Chrome/* Safari/* Bowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_M"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "division": "IE #MAJORVER#.#MINORVER#",
+  "versions": [7],
+  "sortIndex": 2765,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "IE #MAJORVER#.#MINORVER#",
+      "browser": "ie",
+      "engine": "Trident",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IE #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#Mozilla/4.0 (compatible*; MSIE 6.0*",
+          "platforms": [
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#",
+          "platforms": [
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPb_x64_3", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#",
+          "platforms": [
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPb_x64_3", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#Trident/3.1; Xbox*",
+          "engine": "Trident_3_1",
+          "device": "Microsoft Xbox 360",
+          "platforms": [
+            "Xbox_360"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#Trident/3.1; Xbox; Xbox One*",
+          "engine": "Trident_3_1",
+          "device": "Microsoft Xbox One",
+          "platforms": [
+            "Xbox_OS"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (*MSIE #MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/5.0 (*MSIE #MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "division": "Safari #MAJORVER#.#MINORVER#",
+  "versions": ["6.1"],
+  "sortIndex": 1975,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Safari #MAJORVER#.#MINORVER#",
+      "browser": "safari",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Safari #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
+          "platforms": [
+            "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Safari #MAJORVER#.#MINORVER# for SymbianOS",
+      "browser": "safari",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Safari #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
+          "platforms": [
+            "SymbianOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

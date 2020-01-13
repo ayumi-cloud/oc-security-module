@@ -1,0 +1,27 @@
+{
+  "division": "Google Feedfetcher",
+  "sortIndex": 1110,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google Feedfetcher",
+      "browser": "google feedfetcher",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google Feedfetcher"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (*Feedfetcher-Google*)"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible) Feedfetcher-Google; ( http://www.google.com/feedfetcher.html)"
+        },
+        {
+          "match": "Feedfetcher-Google*"
+        }
+      ]
+    }
+  ]
+}

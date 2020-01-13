@@ -1,0 +1,35 @@
+{
+  "division": "Proxy Gear Pro",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Proxy Gear Pro",
+      "browser": "proxy gear pro",
+      "platform": "Windows",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Proxy Gear Pro"
+      },
+      "children": [
+        {
+          "match": "Proxy Gear Pro/2.1 (#PLATFORM#)*",
+          "platforms": [
+            "Win7_32"
+          ],
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "Proxy Gear Pro/* (#PLATFORM#)*",
+          "platforms": [
+            "Win7_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

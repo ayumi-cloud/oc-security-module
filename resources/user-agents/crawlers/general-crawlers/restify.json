@@ -1,0 +1,39 @@
+{
+  "division": "restify",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "restify",
+      "browser": "restify",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "restify"
+      },
+      "children": [
+        {
+          "match": "restify/2.6* (*darwin*) node/*",
+          "device": "Macintosh",
+          "properties": {
+            "Version": "2.6"
+          }
+        },
+        {
+          "match": "restify/2.6* (*) node/*",
+          "properties": {
+            "Version": "2.6"
+          }
+        },
+        {
+          "match": "restify/* (*darwin*) node/*",
+          "device": "Macintosh"
+        },
+        {
+          "match": "restify/* (*) node/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "division": "Dalvik #MAJORVER#.#MINORVER#",
+  "versions": ["1.2"],
+  "sortIndex": 2214,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
+      "browser": "dalvik",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dalvik #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "GT-I9000": "Samsung GT-I9000"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_0",
+            "Android_2_2"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "GT-P1010": "Samsung GT-P1010"
+          },
+          "platforms": [
+            "Android_4_0",
+            "Android_2_3", "Android_2_2"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "Desire HD": "Samsung GT-I9100",
+            "GT-I5500": "Samsung GT-I5500",
+            "GT-P1000*": "Samsung GT-P1000",
+            "HTC Desire": "HTC A8181",
+            "HTC Legend": "HTC Legend",
+            "LG-P500": "LG P500",
+            "smartpad": "1 & 1 Smartpad"
+          },
+          "platforms": [
+            "Android_2_2"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

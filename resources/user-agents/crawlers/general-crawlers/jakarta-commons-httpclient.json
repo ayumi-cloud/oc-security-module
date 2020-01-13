@@ -1,0 +1,37 @@
+{
+  "division": "Jakarta Commons HttpClient",
+  "sortIndex": 1980,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Jakarta Commons HttpClient",
+      "browser": "jakarta commons httpclient",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Jakarta Commons HttpClient"
+      },
+      "children": [
+        {
+          "match": "Wepbot/*(*)*Jakarta Commons-HttpClient/*",
+          "browser": "wepbot"
+        },
+        {
+          "match": "Jakarta Commons-HttpClient/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Jakarta Commons-HttpClient/3.1*",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "Jakarta Commons-HttpClient/*"
+        }
+      ]
+    }
+  ]
+}

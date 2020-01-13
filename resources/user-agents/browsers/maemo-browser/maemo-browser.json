@@ -1,0 +1,46 @@
+{
+  "division": "MicroB",
+  "sortIndex": 1770,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MicroB",
+      "browser": "microb",
+      "platform": "Maemo",
+      "engine": "Gecko",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MicroB"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Maemo Browser 1.7.* N900*",
+          "device": "Nokia N900",
+          "platforms": [
+            "Maemo_ARM"
+          ],
+          "properties": {
+            "Version": "1.7"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Maemo Browser 1.7.*",
+          "platforms": [
+            "Maemo_ARM"
+          ],
+          "properties": {
+            "Version": "1.7"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Maemo Browser *",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        }
+      ]
+    }
+  ]
+}

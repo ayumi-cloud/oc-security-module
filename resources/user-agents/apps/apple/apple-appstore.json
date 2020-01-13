@@ -1,0 +1,42 @@
+{
+  "division": "Apple AppStore App #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 2061,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Apple AppStore App #MAJORVER#.#MINORVER#",
+      "browser": "apple appstore app",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple AppStore App #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "AppStore/#MAJORVER#.#MINORVER##PLATFORM#model/iPhone*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_I_8_0",
+            "iOS_I_7_1", "iOS_I_7_0",
+            "iOS_I"
+          ]
+        },
+        {
+          "match": "AppStore/#MAJORVER#.#MINORVER##PLATFORM#",
+          "platforms": [
+            "iOS_I_8_0",
+            "iOS_I_7_1", "iOS_I_7_0",
+            "iOS_I"
+          ]
+        }
+      ]
+    }
+  ]
+}

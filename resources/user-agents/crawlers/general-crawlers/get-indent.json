@@ -1,0 +1,24 @@
+{
+  "division": "GetintentCrawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "GetintentCrawler",
+      "browser": "getintent crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "GetintentCrawler"
+      },
+      "children": [
+        {
+          "match": "GetintentCrawler*"
+        },
+        {
+          "match": "GetIntent Crawler*"
+        }
+      ]
+    }
+  ]
+}

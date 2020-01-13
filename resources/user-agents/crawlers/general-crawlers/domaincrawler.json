@@ -1,0 +1,44 @@
+{
+  "division": "DomainCrawler",
+  "sortIndex": 220,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "DomainCrawler",
+      "browser": "domaincrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "DomainCrawler"
+      },
+      "children": [
+        {
+          "match": "DomainCrawler/1.*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "DomainCrawler/2.*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "DomainCrawler/*"
+        },
+        {
+          "match": "CipaCrawler/3.*",
+          "browser": "cipacrawler",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "CipaCrawler/*",
+          "browser": "cipacrawler"
+        }
+      ]
+    }
+  ]
+}

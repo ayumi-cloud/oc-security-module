@@ -1,0 +1,43 @@
+{
+  "division": "Nichrome Generic",
+  "sortIndex": 1071,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Nichrome Browser Generic",
+      "browser": "nichrome",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nichrome Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Nichrome/self/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_32",
+            "Win2000",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Nichrome/self/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

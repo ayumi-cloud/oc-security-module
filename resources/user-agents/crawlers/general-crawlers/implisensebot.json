@@ -1,0 +1,27 @@
+{
+  "division": "ImplisenseBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ImplisenseBot",
+      "browser": "implisensebot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ImplisenseBot"
+      },
+      "children": [
+        {
+          "match": "ImplisenseBot 1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "ImplisenseBot *"
+        }
+      ]
+    }
+  ]
+}

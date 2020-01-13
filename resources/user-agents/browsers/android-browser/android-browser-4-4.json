@@ -1,0 +1,91 @@
+{
+  "division": "Android Browser #MAJORVER#.#MINORVER#",
+  "versions": ["4.4"],
+  "sortIndex": 1908,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Android Browser #MAJORVER#.#MINORVER#",
+      "browser": "android",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Android Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "IVO/1.0 Android/#MAJORVER#.#MINORVER#* Release/* Browser/applewebkit*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "#DEVICE#/1.0 Android/#MAJORVER#.#MINORVER#* Release/* Browser/*applewebkit*",
+          "devices": {
+            "HTCD816t_LTE": "HTC D816t",
+            "HTCM8St_TD": "HTC M8St"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*)applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Lenovo A536": "Lenovo A536"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0(#PLATFORM#)applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#;*Release/*) *applewebkit* (*khtml*like*gecko*) Mobile Safari*",
+          "devices": {
+            "8_96_Android": "O+ 8.96 Android",
+            "Andi 4F ARC3": "iBall Andi 4F ARC3",
+            "Aqua Q3": "Intex Aqua Q3",
+            "Aqua Star II HD": "Intex Aqua Star 2 HD",
+            "Aqua Star II": "Intex Aqua Star 2",
+            "Aqua_Life V": "Intex Aqua_Life V",
+            "AquaSense5.0": "Intex Aqua Sense 5.0",
+            "Atom 2": "Lava Iris Atom 2",
+            "era": "XOLO era",
+            "itel it1701": "Itel IT1701",
+            "itel_it1502": "Itel IT1502",
+            "PLAY Style": "Star PLAY Style",
+            "WOW": "Intex WOW",
+            "X1 atom": "Lava Iris X1 Atom S",
+            "X1 Beats": "Lava Iris X1 Beats"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#Release/*) *applewebkit* (*khtml*like*gecko*) Mobile Safari*",
+          "platforms": [
+            "Android_4_4"
+          ]
+        }
+      ]
+    }
+  ]
+}

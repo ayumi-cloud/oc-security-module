@@ -1,0 +1,21 @@
+{
+  "division": "Readability",
+  "sortIndex": 5040,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Readability",
+      "browser": "readability",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Readability"
+      },
+      "children": [
+        {
+          "match": "Readability/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "division": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
+  "versions": ["5.5", 5, 4, "3.9", "3.8", "3.7", "3.2", "3.1", 3, "2.3", "2.2", 2, "1.8", "1.5", "1.4", 1, "0.8"],
+  "sortIndex": 1792,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
+      "browser": "nokia proxy browser",
+      "platform": "Series40",
+      "engine": "Gecko",
+      "device": "general Mobile Phone (Nokia)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nokia Proxy Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Series40* #DEVICE#*) Gecko* S40OviBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Nokia109": "Nokia 109",
+            "Nokia110": "Nokia 110",
+            "Nokia112": "Nokia 112",
+            "Nokia113": "Nokia 113",
+            "Nokia114": "Nokia 114",
+            "Nokia200": "Nokia 200",
+            "Nokia201": "Nokia 201",
+            "Nokia203": "Nokia 203",
+            "Nokia220": "Nokia 220",
+            "Nokia2730c*": "Nokia 2730c",
+            "Nokia303": "Nokia 303",
+            "Nokia305": "Nokia 305",
+            "Nokia3050": "Nokia 3050",
+            "Nokia3120classic": "Nokia 3120c",
+            "Nokia502": "Nokia 502",
+            "Nokia503*": "Nokia 503",
+            "Nokia5130c-2": "Nokia 5130c-2",
+            "Nokia5220XpressMusic": "Nokia 5220",
+            "Nokia5300": "Nokia 5300",
+            "Nokia5310XpressMusic": "Nokia 5310",
+            "Nokia5610*": "Nokia 5610",
+            "Nokia6280": "Nokia 6280",
+            "Nokia6300": "Nokia 6300",
+            "Nokia6303classic": "Nokia 6303c",
+            "Nokia6303iclassic": "Nokia 6303i",
+            "Nokia6500c": "Nokia 6500c",
+            "Nokia6500s*": "Nokia 6500s",
+            "Nokia6700c*": "Nokia 6700c",
+            "Nokia7020": "Nokia 7020",
+            "Nokia7210Supernova": "Nokia 7210",
+            "Nokia7310": "Nokia 7310",
+            "NokiaAsha230*": "Nokia 230",
+            "NokiaAsha500*": "Nokia 500",
+            "NokiaC2-01": "Nokia C2-01",
+            "NokiaC2-02*": "Nokia C2-02",
+            "NokiaC2-03": "Nokia C2-03",
+            "NokiaC2-05": "Nokia C2-05",
+            "NokiaC2-06": "Nokia C2-06",
+            "NokiaC3-00": "Nokia C3-00",
+            "NokiaC3-03": "Nokia C3-03",
+            "NokiaX2-01*": "Nokia X2-01",
+            "NokiaX2-02*": "Nokia X2-02",
+            "NokiaX3-02*": "Nokia X3-02"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Series40* #DEVICE#*) Gecko* S40OviBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Nokia300": "Nokia 300",
+            "Nokia306": "Nokia 306",
+            "Nokia501*": "Nokia 501"
+          },
+          "platforms": [
+            "Asha"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Series40*) Gecko* S40OviBrowser/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/5.0 (Series30*; #DEVICE#*) Gecko* S40OviBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Nokia220": "Nokia 220"
+          },
+          "platforms": [
+            "Series30"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Series30*) Gecko* S40OviBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Series30"
+          ]
+        }
+      ]
+    }
+  ]
+}

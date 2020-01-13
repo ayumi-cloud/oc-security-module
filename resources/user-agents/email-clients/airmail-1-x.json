@@ -1,0 +1,32 @@
+{
+  "division": "Airmail #MAJORVER#.#MINORVER#",
+  "versions": ["1.5", "1.4", "1.3", "1.2", "1.1", 1],
+  "sortIndex": 1660,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Airmail #MAJORVER#.#MINORVER#",
+      "browser": "airmail",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Airmail #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Airmail #MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

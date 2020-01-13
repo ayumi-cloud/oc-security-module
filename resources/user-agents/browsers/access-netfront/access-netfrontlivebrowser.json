@@ -1,0 +1,37 @@
+{
+  "division": "Access NetFrontLifeBrowser #MAJORVER#.#MINORVER#",
+  "versions": ["2.3"],
+  "sortIndex": 1543,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NetFrontLifeBrowser #MAJORVER#.#MINORVER#",
+      "browser": "netfrontlifebrowser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Access NetFrontLifeBrowser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* NetFrontLifeBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "WT19a": "SonyEricsson WT19a"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* NetFrontLifeBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

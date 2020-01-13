@@ -1,0 +1,21 @@
+{
+  "division": "BlekkoBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BlekkoBot",
+      "browser": "blekkobot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BlekkoBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Blekkobot*"
+        }
+      ]
+    }
+  ]
+}

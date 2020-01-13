@@ -1,0 +1,42 @@
+{
+  "division": "The Diary",
+  "sortIndex": 10840,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "The Diary",
+      "browser": "the diary",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "The Diary",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "The Diary/1.1* (iPad; #PLATFORM#",
+          "device": "iPad",
+          "platforms": [
+            "iOS_C_5_1",
+            "iOS_C"
+          ],
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "The Diary/* (iPad; #PLATFORM#",
+          "device": "iPad",
+          "platforms": [
+            "iOS_C_5_1",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "division": "Cooliris",
+  "sortIndex": 3750,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Cooliris",
+      "browser": "cooliris",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Cooliris",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Cooliris?1.2 CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "Cooliris?1.3 CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "1.3"
+          }
+        },
+        {
+          "match": "Cooliris?1.4 CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "1.4"
+          }
+        },
+        {
+          "match": "Cooliris?1.5 CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "1.5"
+          }
+        },
+        {
+          "match": "Cooliris* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

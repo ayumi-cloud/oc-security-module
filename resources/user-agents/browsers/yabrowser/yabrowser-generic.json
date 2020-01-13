@@ -1,0 +1,171 @@
+{
+  "division": "YaBrowser Generic",
+  "sortIndex": 1021,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Yandex Browser Generic",
+      "browser": "yandex browser",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yandex Browser Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/*Safari/*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/*Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_14", "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/*Chrome/*Safari/*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/*Chrome/*Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_14", "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) YaBrowser/*Chrome/*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Yandex Browser Generic for Android",
+      "browser": "yandex browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yandex Browser Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/* Mobile Safari/*",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/* Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Yandex Browser Generic for iOS",
+      "browser": "yandex browser",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yandex Browser Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit/* (*khtml*like*gecko*)* YaBrowser/* Mobile/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit/* (*khtml*like*gecko*)* YaBrowser/* Mobile/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C_11_4", "iOS_C_11_3", "iOS_C_11_2", "iOS_C_11_1", "iOS_C_11_0",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*)* YaBrowser/* Mobile/*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

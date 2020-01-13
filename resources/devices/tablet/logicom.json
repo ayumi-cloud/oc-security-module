@@ -1,0 +1,68 @@
+{
+  "Logicom S9782": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "S9782",
+      "Device_Code_Name": "S9782",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": true
+  },
+  "Logicom L-IXIR TAB 701 3G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "L-IXIR TAB 701 3G",
+      "Device_Code_Name": "L-IXIR TAB 701 3G",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": true
+  },
+  "Logicom M Bot Tab 101": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "M Bot Tab 101",
+      "Device_Code_Name": "M Bot Tab 101",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": true
+  },
+  "Logicom M Bot Tab 10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "M Bot Tab 10",
+      "Device_Code_Name": "M Bot Tab 10",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": true
+  },
+  "Logicom M Bot Tab 103": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "M Bot Tab 103",
+      "Device_Code_Name": "M Bot Tab 103",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": true
+  },
+  "Logicom M Bot Tab 71": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "M Bot Tab 71",
+      "Device_Code_Name": "M Bot Tab 71",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "division": "NameProtect",
+  "sortIndex": 590,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NameProtect",
+      "browser": "nameprotect",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NameProtect"
+      },
+      "children": [
+        {
+          "match": "NP/*"
+        },
+        {
+          "match": "NPBot*"
+        }
+      ]
+    }
+  ]
+}

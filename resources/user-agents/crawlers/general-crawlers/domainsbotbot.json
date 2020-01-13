@@ -1,0 +1,27 @@
+{
+  "division": "DomainsBotBot",
+  "sortIndex": 230,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "DomainsBotBot",
+      "browser": "domainsbotbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "DomainsBotBot"
+      },
+      "children": [
+        {
+          "match": "DomainsBotBot/1.*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "DomainsBotBot/*"
+        }
+      ]
+    }
+  ]
+}

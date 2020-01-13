@@ -1,0 +1,45 @@
+{
+  "division": "iTunes #MAJORVER#.#MINORVER#",
+  "versions": ["4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4, 3, 2, "1.2"],
+  "sortIndex": 6360,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "iTunes #MAJORVER#.#MINORVER#",
+      "browser": "itunes",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iTunes #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "iTunes/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_4", "OSX_10_3", "OSX_10_2", "OSX_10_1",
+            "OSX",
+            "MacPPC"
+          ]
+        },
+        {
+          "match": "iTunes/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Windows_x64",
+            "Windows"
+          ]
+        },
+        {
+          "match": "iTunes?#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop"
+        }
+      ]
+    }
+  ]
+}

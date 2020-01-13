@@ -1,0 +1,27 @@
+{
+  "division": "ht://Dig",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ht://Dig",
+      "browser": "ht://dig",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ht://Dig"
+      },
+      "children": [
+        {
+          "match": "htdig/3.1*",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "htdig/*"
+        }
+      ]
+    }
+  ]
+}

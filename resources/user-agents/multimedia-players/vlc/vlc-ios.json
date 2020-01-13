@@ -1,0 +1,57 @@
+{
+  "division": "VLC Media Player for iOS",
+  "sortIndex": 1531,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "VLC Media Player for iOS",
+      "browser": "vlc media player",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "VLC Media Player for iOS"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* VLC for iOS/2.7*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_C_7_0",
+            "iOS_C"
+          ],
+          "properties": {
+            "Version": "2.7"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* VLC for iOS/2.7*",
+          "platforms": [
+            "iOS_C_7_0",
+            "iOS_C"
+          ],
+          "properties": {
+            "Version": "2.7"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* VLC for iOS*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_C_7_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* VLC for iOS*",
+          "platforms": [
+            "iOS_C_7_0",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

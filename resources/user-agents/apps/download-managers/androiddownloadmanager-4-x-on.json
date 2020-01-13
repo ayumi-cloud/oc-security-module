@@ -1,0 +1,36 @@
+{
+  "division": "AndroidDownloadManager",
+  "versions": ["5.1", 5,"4.4", "4.3", "4.2", "4.1"],
+  "sortIndex": 2130,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "AndroidDownloadManager #MAJORVER#.#MINORVER#",
+      "browser": "android download manager",
+      "platform": "Android_Dynamic",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Android Download Manager #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "AndroidDownloadManager/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; #DEVICE# Build/*)*",
+          "devices": {
+            "AEOBC": "Amazon AEOBC",
+            "TP10.1-1500DC*": "I-ONIK TP10",
+            "LIFETAB_S9714": "Medion LifeTab S9714",
+            "ME302C": "Asus ME302C",
+            "SGPT12": "Sony SGPT12",
+            "Transformer Prime TF201": "Asus TF201"
+          }
+        },
+        {
+          "match": "AndroidDownloadManager/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; * Build/*)*"
+        }
+      ]
+    }
+  ]
+}

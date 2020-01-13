@@ -1,0 +1,75 @@
+{
+  "division": "Samsung Browser #MAJORVER#.#MINORVER#",
+  "versions": ["2.4", "2.3", "2.1", 2, "1.1", 1],
+  "sortIndex": 955,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Samsung Browser #MAJORVER#.#MINORVER# for TV",
+      "browser": "samsung browser",
+      "platform": "Tizen",
+      "engine": "WebKit",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Browser #MAJORVER#.#MINORVER# for TV",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "device": "Samsung Smart-TV",
+          "platforms": [
+            "Tizen_4_0",
+            "Tizen_3_0",
+            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2",
+            "Tizen"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Samsung Browser #MAJORVER#.#MINORVER# for Mobile",
+      "browser": "samsung browser",
+      "platform": "Tizen",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Browser #MAJORVER#.#MINORVER# for Mobile",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "SM-Z200Y": "Samsung SM-Z200Y",
+            "SM-Z300H": "Samsung SM-Z300H"
+          },
+          "platforms": [
+            "Tizen_2_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "SM-Z130H": "Samsung SM-Z130H"
+          },
+          "platforms": [
+            "Tizen_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "platforms": [
+            "Tizen_4_0",
+            "Tizen_3_0",
+            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2",
+            "Tizen"
+          ]
+        }
+      ]
+    }
+  ]
+}

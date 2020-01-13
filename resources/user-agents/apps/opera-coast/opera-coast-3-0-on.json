@@ -1,0 +1,198 @@
+{
+  "division": "Coast #MAJORVER#.#MINORVER#",
+  "versions": ["5.04", "5.03", "5.02", "5.01", "4.51", "4.31", "4.30", "4.21", "4.5", "4.4", "4.03", "4.02", "4.1", "4.01", 4, "3.21", "3.02", "3.1", "3.01", 3],
+  "sortIndex": 1945,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Coast #MAJORVER#.#MINORVER#",
+      "browser": "coast",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Coast #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Coast/#MAJORVER#.#MINORVER#* Mobile/* Safari/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_11_1", "iOS_A_11_0",
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Coast/#MAJORVER#.#MINORVER#* Mobile/* Safari/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C_11_1", "iOS_C_11_0",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Coast/#MAJORVER#.#MINORVER#* Mobile/* Safari/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/459*",
+          "platforms": [
+            "iOS_A_3_1"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/467.12*",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/485.2*",
+          "platforms": [
+            "iOS_A_4_0"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/485.10*",
+          "platforms": [
+            "iOS_A_4_1"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/485.12*",
+          "platforms": [
+            "iOS_A_4_2"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/485.13*",
+          "platforms": [
+            "iOS_A_4_3"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/548.1*",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/548.0*",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/602*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/609.1*",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/609*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/672.0*",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/672.1*",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/711.0*",
+          "platforms": [
+            "iOS_A_8_0"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/711.1*",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/711.2*",
+          "platforms": [
+            "iOS_A_8_2"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/711.3*",
+          "platforms": [
+            "iOS_A_8_3"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/711.4*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/711.5*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/758*",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
+          "match": "Opera%20Coast/#MAJORVER#.#MINORVER#* CFNetwork/*",
+          "platforms": [
+            "iOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

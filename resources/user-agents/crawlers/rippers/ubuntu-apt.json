@@ -1,0 +1,29 @@
+{
+  "division": "Ubuntu APT-HTTP",
+  "sortIndex": 2021,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "Ubuntu APT-HTTP",
+      "browser": "apt http transport",
+      "platform": "Ubuntu",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Ubuntu APT-HTTP"
+      },
+      "children": [
+        {
+          "match": "Ubuntu APT-HTTP/1.3*",
+          "properties": {
+            "Version": "1.3"
+          }
+        },
+        {
+          "match": "Ubuntu APT-HTTP/*"
+        }
+      ]
+    }
+  ]
+}

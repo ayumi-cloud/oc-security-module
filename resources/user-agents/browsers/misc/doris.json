@@ -1,0 +1,40 @@
+{
+  "division": "Doris",
+  "sortIndex": 3930,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Doris",
+      "browser": "doris",
+      "platform": "SymbianOS",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Doris",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Doris/1.10 * (Symbian)",
+          "properties": {
+            "Version": "1.10"
+          }
+        },
+        {
+          "match": "Doris/1.15 * (Symbian)",
+          "properties": {
+            "Version": "1.15"
+          }
+        },
+        {
+          "match": "Doris/1.17 * (Symbian)",
+          "properties": {
+            "Version": "1.17"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "division": "Opera Mini #MAJORVER#.#MINORVER#",
+  "versions": ["4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4],
+  "sortIndex": 1935,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
+      "browser": "opera mini",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Opera/*(Android*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Opera/*(MTK*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Opera/*(VRE*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Opera/*(SpreadTrum*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Opera/*(MAUI Runtime*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Maui"
+          ]
+        },
+        {
+          "match": "Opera/*(BlackBerry*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "Blackberry Blackberry",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*Windows NT*Version/*",
+          "platforms": [
+            "JAVA"
+          ],
+          "properties": {
+            "isModified": true
+          }
+        },
+        {
+          "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*Mac OS X*Version/*",
+          "platforms": [
+            "JAVA"
+          ],
+          "properties": {
+            "isModified": true
+          }
+        },
+        {
+          "match": "Opera/9.80 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera/9.60 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera/9.50 (J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera/*(Series 60*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "Opera/*(Windows Mobile*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera/*(*BREW*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Brew"
+          ]
+        },
+        {
+          "match": "Opera/*(*Bada*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Bada_1_0"
+          ]
+        },
+        {
+          "match": "* Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "#DEVICE# Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG?GT-*": "general Mobile Device (Samsung)",
+            "SAMSUNG-GT-E1282T": "Samsung GT-E1282T",
+            "SAMSUNG-GT-E2202": "Samsung GT-E2202",
+            "SAMSUNG-GT-E2252": "Samsung GT-E2252",
+            "SAMSUNG-GT-E3309T": "Samsung GT-E3309T"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "#DEVICE#; Mozilla/5.0 (*/MIDP*Opera Mini/att/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "LG-GT550/*": "LG GT550",
+            "PantechP9020/*": "Pantech P9020",
+            "Z221": "ZTE Z221"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "* Mozilla/5.0 (*/MIDP*Opera Mini/att/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        }
+      ]
+    }
+  ]
+}

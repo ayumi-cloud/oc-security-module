@@ -1,0 +1,27 @@
+{
+  "division": "Windows-Update-Agent",
+  "sortIndex": 481,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Windows-Update-Agent",
+      "browser": "windows-update-agent",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Windows-Update-Agent"
+      },
+      "children": [
+        {
+          "match": "Windows-Update-Agent/7.9*",
+          "properties": {
+            "Version": "7.9"
+          }
+        },
+        {
+          "match": "Windows-Update-Agent*"
+        }
+      ]
+    }
+  ]
+}

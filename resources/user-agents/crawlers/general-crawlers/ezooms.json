@@ -1,0 +1,33 @@
+{
+  "division": "Ezooms",
+  "sortIndex": 350,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Ezooms",
+      "browser": "ezooms",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Ezooms"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Ezooms/1.0; *)",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Ezooms/1.*)",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Ezooms/*)"
+        }
+      ]
+    }
+  ]
+}

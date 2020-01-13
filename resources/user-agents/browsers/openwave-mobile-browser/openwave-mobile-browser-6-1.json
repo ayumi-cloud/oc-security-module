@@ -1,0 +1,100 @@
+{
+  "division": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+  "versions": ["6.1"],
+  "sortIndex": 8215,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+      "browser": "openwave mobile browser",
+      "platform": "JAVA",
+      "device": "general Mobile Phone (Nokia)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "LGE-LX5350": "LG LX5350",
+            "MOT-T720": "Motorola T720",
+            "NEC-525": "NEC 525",
+            "NEC-530": "NEC 530",
+            "NEC-N8": "NEC N8",
+            "Nokia1100": "Nokia 1100",
+            "Nokia7650": "Nokia 7650",
+            "Panasonic-G60": "Panasonic G60",
+            "SAMSUNG-SGH-E700": "Samsung SGH-E700",
+            "SAMSUNG-SGH-X600": "Samsung SGH-X600",
+            "SEC-SGHS300": "Samsung SGH-S300",
+            "SEC-SGHV200": "Samsung SGH-V200",
+            "SHARP-TQ-GX10i": "Sharp GX10I",
+            "SIE-A31": "Siemens A31",
+            "SIE-A31a": "Siemens A31A",
+            "SIE-A60": "Siemens A60",
+            "SIE-A62": "Siemens A62",
+            "SIE-A65": "Siemens A65",
+            "SIE-A65C": "Siemens A65C",
+            "SIE-A75": "Siemens A75",
+            "SIE-A76": "Siemens A76",
+            "SIE-AF51": "Siemens AF51",
+            "SIE-AL21": "Siemens AL21",
+            "SIE-AX72": "Siemens AX72",
+            "SIE-AX75": "Siemens AX75",
+            "SIE-C110": "Siemens C110",
+            "SIE-C60": "Siemens C60",
+            "SIE-C60A": "Siemens C60A",
+            "SIE-C61": "Siemens C61",
+            "SIE-C75": "Siemens C75",
+            "SIE-CF62": "Siemens CF62",
+            "SIE-CF6C": "Siemens CF6C",
+            "SIE-CX75": "Siemens CX75",
+            "SIE-M55": "Siemens M55",
+            "SIE-M55C": "Siemens M55C",
+            "SIE-M55e": "Siemens M55e",
+            "SIE-M55Z": "Siemens M55Z",
+            "SIE-M56": "Siemens M56",
+            "SIE-MC60": "Siemens MC60",
+            "SIE-MC6C": "Siemens MC6C",
+            "SIE-ME75": "Siemens ME75",
+            "SIE-S55": "Siemens S55",
+            "SIE-S56": "Siemens S56",
+            "SIE-S57": "Siemens S57",
+            "SIE-S57C": "Siemens S57C",
+            "SIE-SL55": "Siemens SL55",
+            "SIE-SL56": "Siemens SL56",
+            "SIE-SL5C": "Siemens SL5C",
+            "SIE-ST55": "Siemens ST55",
+            "SIE-ST60": "Siemens ST60"
+          }
+        },
+        {
+          "match": "#DEVICE# UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Motorola-E365": "Motorola E365",
+            "SAMSUNG-SGH-E700*": "Samsung SGH-E700",
+            "SEC-SGHV200-X100*": "Samsung SGH-V200",
+            "SIE-CX65": "Siemens CX65",
+            "SIE-M55-XP*": "Siemens M55-XP",
+            "SIE-M55*": "Siemens M55"
+          }
+        },
+        {
+          "match": "Nokia* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Nokia)"
+        },
+        {
+          "match": "* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone"
+        },
+        {
+          "match": "UP.Browser/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone"
+        }
+      ]
+    }
+  ]
+}

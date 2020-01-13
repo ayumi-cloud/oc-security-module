@@ -1,0 +1,32 @@
+{
+  "division": "Seraphic Sraf #MAJORVER#.#MINORVER#",
+  "versions": ["3.9", "3.5", 3],
+  "sortIndex": 956,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Seraphic Sraf #MAJORVER#.#MINORVER#",
+      "browser": "sraf",
+      "platform": "Linux",
+      "engine": "Blink",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Seraphic Sraf #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Linux; Linux mips) applewebkit* (*khtml*like*gecko*)*Chromium/* Safari/*) SRAF/#MAJORVER#.#MINORVER#* (+TRICKMODE; NEXUS; Nexus_AN01*"
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; Linux mips) applewebkit* (*khtml*like*gecko*)*Chromium/* Safari/*) SRAF/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/5.0 (Linux;*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* SRAF/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

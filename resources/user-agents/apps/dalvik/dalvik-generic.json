@@ -1,0 +1,27 @@
+{
+  "division": "Dalvik Generic",
+  "sortIndex": 2216,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Dalvik Generic",
+      "browser": "dalvik",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dalvik Generic"
+      },
+      "children": [
+        {
+          "match": "Dalvik/* (#PLATFORM#",
+          "platforms": [
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

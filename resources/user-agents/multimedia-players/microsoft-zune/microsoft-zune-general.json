@@ -1,0 +1,25 @@
+{
+  "division": "Microsoft Zune",
+  "sortIndex": 1541,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft Zune",
+      "browser": "zune",
+      "device": "Microsoft ZuneHD",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft Zune"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE ?.0; Microsoft ZuneHD*"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; ZuneHD*"
+        }
+      ]
+    }
+  ]
+}

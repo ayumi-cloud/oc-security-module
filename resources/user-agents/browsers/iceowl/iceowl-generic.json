@@ -1,0 +1,29 @@
+{
+  "division": "Iceowl Generic",
+  "sortIndex": 5361,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Iceowl Generic",
+      "browser": "iceowl",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Iceowl Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Iceowl/* Icedove/*",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

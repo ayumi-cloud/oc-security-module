@@ -1,0 +1,64 @@
+{
+  "division": "Netscape #MAJORVER#.#MINORVER#",
+  "versions": [3, 2, 1, "0.91"],
+  "sortIndex": 7806,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Netscape #MAJORVER#.#MINORVER#",
+      "browser": "netscape",
+      "engine": "Gecko",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Netscape #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32",
+            "Windows",
+            "NT_2",
+            "Win98",
+            "Win95",
+            "Win16"
+          ]
+        },
+        {
+          "match": "Mozilla/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "device": "Macintosh",
+          "platforms": [
+            "MacPPC_3",
+            "Mac68K"
+          ]
+        },
+        {
+          "match": "Mozilla/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "device": "general Desktop",
+          "platforms": [
+            "IRIX64_2",
+            "SunOS",
+            "OS2",
+            "AIX",
+            "OpenVMS"
+          ]
+        },
+        {
+          "match": "Mozilla/#MAJORVER#.#MINORVER#*(*compatible;*",
+          "device": "general Desktop"
+        }
+      ]
+    }
+  ]
+}

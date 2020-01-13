@@ -1,0 +1,27 @@
+{
+  "division": "Comodo Spider",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Comodo Spider",
+      "browser": "comodo spider",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Comodo Spider"
+      },
+      "children": [
+        {
+          "match": "Comodo Spider 1.2*",
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "Comodo Spider*"
+        }
+      ]
+    }
+  ]
+}

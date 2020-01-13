@@ -1,0 +1,24 @@
+{
+  "division": "FLY",
+  "sortIndex": 4870,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "FLY",
+      "browser": "fly",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "FLY",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "FLY-MX200"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "SEOdiver Bot",
+  "sortIndex": 248,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SEOdiver Bot",
+      "browser": "seodiver bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SEOdiver Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; SEOdiver/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SEOdiver/*"
+        }
+      ]
+    }
+  ]
+}

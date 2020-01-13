@@ -1,0 +1,86 @@
+{
+  "division": "Quora App",
+  "sortIndex": 1954,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Quora App",
+      "browser": "quora app",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Quora App"
+      },
+      "children": [
+        {
+          "match": "Quora 4.1* rv:* (#DEVICE##PLATFORM#",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
+          ],
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "Quora 4.1* rv:* (#PLATFORM#",
+          "platforms": [
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
+          ],
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "Quora 4.0* rv:* (#DEVICE##PLATFORM#",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Quora 4.0* rv:* (#PLATFORM#",
+          "platforms": [
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Quora* rv:* (#DEVICE##PLATFORM#",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
+          ]
+        },
+        {
+          "match": "Quora* rv:* (#PLATFORM#",
+          "platforms": [
+            "iOS_K_8_1", "iOS_K_8_0",
+            "iOS_K"
+          ]
+        }
+      ]
+    }
+  ]
+}

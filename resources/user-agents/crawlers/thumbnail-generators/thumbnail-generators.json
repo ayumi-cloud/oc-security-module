@@ -1,0 +1,116 @@
+{
+  "division": "Thumbnail Generators",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Thumbnail Generators",
+      "browser": "thumbnail generators",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Thumbnail Generators"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* ThumbShotsBot*",
+          "browser": "thumbshotsbot",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "thumbshots-de-bot*",
+          "browser": "thumbshots-de-bot"
+        },
+        {
+          "match": "ThumbnailAgent",
+          "browser": "thumbnailagent"
+        },
+        {
+          "match": "ThumbSniper *",
+          "browser": "thumbsniper"
+        },
+        {
+          "match": "gosquared-thumbnailer/1.0*",
+          "browser": "gosquared-thumbnailer",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "gosquared-thumbnailer/*",
+          "browser": "gosquared-thumbnailer"
+        },
+        {
+          "match": "Ruby, link_thumbnailer*",
+          "browser": "link_thumbnailer"
+        },
+        {
+          "match": "Thumbor/3.14*",
+          "browser": "thumbor",
+          "properties": {
+            "Version": "3.14"
+          }
+        },
+        {
+          "match": "Thumbor/*",
+          "browser": "thumbor"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; FTT2 Toplist Thumb Grabber*",
+          "browser": "ftt2 toplist thumb grabber"
+        },
+        {
+          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) khtml2png Safari/*",
+          "browser": "khtml2png"
+        },
+        {
+          "match": "Easy-Thumb*",
+          "browser": "easy-thumb bot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*) AppleWebKit/* (KHTML, like Gecko) WordPress.com mShots Safari/*",
+          "browser": "wordpress.com mshots thumbnailer"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux* rv:*) Gecko/20100101 Firefox/* WordPress.com mShots",
+          "browser": "wordpress.com mshots thumbnailer"
+        },
+        {
+          "match": "Mozilla/5.0 (*Macintosh*) AppleWebKit/* (*khtml*like*gecko*) Like-Version/* Safari/* webkit2png/*",
+          "browser": "webkit2png"
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (*shrinktheweb.com*",
+          "browser": "shrinktheweb bot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux* rv:*) Gecko/* HeartRails_Capture/* (+http://capture.heartrails.com/) *",
+          "browser": "heartrails capture bot"
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) web-capture.net/* Safari/*",
+          "browser": "web-capture bot"
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Chromium/* Site-Shot/* (http://www.site-shot.com/) *Safari/*",
+          "browser": "site-shot bot"
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) *Site-Shot/* (http://www.site-shot.com/) *Safari/*",
+          "browser": "site-shot bot"
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) www.HomepageScreenshot.de - Free ScreenShotService/* Safari/*",
+          "browser": "free screenshotservice"
+        },
+        {
+          "match": "Mozilla/5.0 (Windows; rv:*) Gecko/* Firefox/*",
+          "browser": "thumbnail.ws bot"
+        }
+      ]
+    }
+  ]
+}

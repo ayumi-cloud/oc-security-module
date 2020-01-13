@@ -1,0 +1,27 @@
+{
+  "division": "Ichiro Bot",
+  "sortIndex": 590,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Ichiro Bot",
+      "browser": "ichiro bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Ichiro Bot"
+      },
+      "children": [
+        {
+          "match": "ichiro/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "ichiro/*"
+        }
+      ]
+    }
+  ]
+}

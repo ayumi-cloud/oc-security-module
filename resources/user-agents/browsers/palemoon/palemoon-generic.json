@@ -1,0 +1,172 @@
+{
+  "division": "PaleMoon Generic",
+  "sortIndex": 2665,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "PaleMoon Generic",
+      "browser": "palemoon",
+      "engine": "Goanna",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PaleMoon Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Goanna* Firefox* PaleMoon/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Goanna* Firefox* PaleMoon/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Goanna* PaleMoon/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Goanna* PaleMoon/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Goanna* Firefox/* PaleMoon/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Goanna* Firefox/* PaleMoon/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Goanna* PaleMoon/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Goanna* PaleMoon/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* PaleMoon/*",
+          "engine": "Gecko",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* PaleMoon/*",
+          "engine": "Gecko",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* PaleMoon/*",
+          "engine": "Gecko",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* PaleMoon/*",
+          "engine": "Gecko",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_x64", "Vista_64", "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "PaleMoon Generic for Android",
+      "browser": "palemoon",
+      "platform": "Android",
+      "engine": "Gecko",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PaleMoon Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* PaleMoon/*",
+          "platforms": [
+            "AndroidMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* PaleMoon/*",
+          "device": "general Tablet",
+          "platforms": [
+            "AndroidTablet"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "division": "Dillo #MAJORVER#.#MINORVER#",
+  "versions": [3, "2.1", 2, 1, "0.8", "0.7", "0.6"],
+  "sortIndex": 2330,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Dillo #MAJORVER#.#MINORVER#",
+      "browser": "dillo",
+      "platform": "Linux",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dillo #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Dillo/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; X11; Dillo/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; Dillo #MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

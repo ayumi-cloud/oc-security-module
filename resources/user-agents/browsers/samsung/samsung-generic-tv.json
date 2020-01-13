@@ -1,0 +1,45 @@
+{
+  "division": "Samsung Generic TV",
+  "sortIndex": 10171,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Samsung Generic TV",
+      "browser": "samsung tv",
+      "engine": "WebKit",
+      "device": "Samsung Smart-TV",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Generic TV",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "HbbTV/* (*;Samsung;#DEVICE#;*) WebKit*",
+          "devices": {
+            "SmartTV2012": "Samsung Smart-TV",
+            "SmartTV2013": "Samsung Smart-TV",
+            "SmartTV2014": "Samsung Smart-TV",
+            "SmartTV2015": "Samsung Smart-TV",
+            "SmartTV2016": "Samsung Smart-TV"
+          }
+        },
+        {
+          "match": "HbbTV/* (*;Samsung;#DEVICE#*) WebKit*",
+          "devices": {
+            "SmartTV2015;T-HKM6DEUC": "Samsung Series J (2015)",
+            "SmartTV2015;T-HKPDEUC": "Samsung Series J (2015)",
+            "SmartTV2016;T-HKMFKDEUC": "Samsung Series J (2016)"
+          }
+        },
+        {
+          "match": "HbbTV/* (;;;;;) Maple_2011*",
+          "engine": "unknown",
+          "device": "Samsung Smart-TV"
+        }
+      ]
+    }
+  ]
+}

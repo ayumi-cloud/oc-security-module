@@ -1,0 +1,46 @@
+{
+  "Vodafone Smart Tab 4": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Smart Tab 4",
+      "Device_Code_Name": "Smart Tab 4",
+      "Device_Maker": "Vodafone",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
+    },
+    "standard": true
+  },
+  "Vodafone Smart Tab 4G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Smart Tab 4 LTE",
+      "Device_Code_Name": "Smart Tab 4G",
+      "Device_Maker": "Vodafone",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
+    },
+    "standard": true
+  },
+  "Vodafone Smart Tab 7": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Smart Tab 7",
+      "Device_Code_Name": "Smart Tab 7",
+      "Device_Maker": "ZTE",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
+    },
+    "standard": true
+  },
+  "Vodafone Vodacom Power Tab 10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Vodacom Power Tab 10",
+      "Device_Code_Name": "Vodacom Power Tab 10",
+      "Device_Maker": "ZTE",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
+    },
+    "standard": true
+  }
+}

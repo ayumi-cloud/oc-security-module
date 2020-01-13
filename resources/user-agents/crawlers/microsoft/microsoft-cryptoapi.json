@@ -1,0 +1,39 @@
+{
+  "division": "Microsoft CryptoAPI",
+  "sortIndex": 420,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft CryptoAPI",
+      "browser": "microsoft cryptoapi",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft CryptoAPI"
+      },
+      "children": [
+        {
+          "match": "Microsoft-CryptoAPI/6.1*",
+          "properties": {
+            "Version": "6.1"
+          }
+        },
+        {
+          "match": "Microsoft-CryptoAPI/6.2*",
+          "properties": {
+            "Version": "6.2"
+          }
+        },
+        {
+          "match": "Microsoft-CryptoAPI/6.3*",
+          "properties": {
+            "Version": "6.3"
+          }
+        },
+        {
+          "match": "Microsoft-CryptoAPI/*"
+        }
+      ]
+    }
+  ]
+}

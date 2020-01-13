@@ -1,0 +1,60 @@
+{
+  "division": "libwww",
+  "sortIndex": 990,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "libwww",
+      "browser": "libwww",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "libwww"
+      },
+      "children": [
+        {
+          "match": "ShowXML/* libwww/5.4*",
+          "properties": {
+            "Version": "5.4"
+          }
+        },
+        {
+          "match": "libwww-perl/5.8*",
+          "properties": {
+            "Version": "5.8"
+          }
+        },
+        {
+          "match": "Mozilla/* (windows; U; *) Gecko* libwww-perl/6.0*",
+          "properties": {
+            "Version": "6.0"
+          }
+        },
+        {
+          "match": "libwww-perl/6.03*",
+          "properties": {
+            "Version": "6.03"
+          }
+        },
+        {
+          "match": "libwww-perl/6.04*",
+          "properties": {
+            "Version": "6.04"
+          }
+        },
+        {
+          "match": "libwww-perl/6.05*",
+          "properties": {
+            "Version": "6.05"
+          }
+        },
+        {
+          "match": "libwww-perl/*"
+        },
+        {
+          "match": "*libwww*"
+        }
+      ]
+    }
+  ]
+}

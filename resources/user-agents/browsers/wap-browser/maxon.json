@@ -1,0 +1,24 @@
+{
+  "division": "Maxon",
+  "sortIndex": 6910,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Maxon",
+      "browser": "maxon",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Maxon",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Maxon O2-X1 ver1.0*"
+        }
+      ]
+    }
+  ]
+}

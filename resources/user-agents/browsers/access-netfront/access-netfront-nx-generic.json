@@ -1,0 +1,24 @@
+{
+  "division": "Access NetFront Generic",
+  "sortIndex": 1545,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NetFront NX Generic",
+      "browser": "netfront nx",
+      "engine": "WebKit",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NetFront NX Generic"
+      },
+      "children": [
+        {
+          "match": "HbbTV/*Access;NetFront NX *Netfont webkit*",
+          "device": "general TV Device"
+        }
+      ]
+    }
+  ]
+}

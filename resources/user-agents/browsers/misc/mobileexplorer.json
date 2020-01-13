@@ -1,0 +1,24 @@
+{
+  "division": "MobileExplorer",
+  "sortIndex": 7270,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MobileExplorer",
+      "browser": "mobileexplorer",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MobileExplorer",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "MobileExplorer/3.00 (Mozilla/1.22; compatible;*"
+        }
+      ]
+    }
+  ]
+}

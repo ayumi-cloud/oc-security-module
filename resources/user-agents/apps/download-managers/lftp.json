@@ -1,0 +1,27 @@
+{
+  "division": "lftp",
+  "sortIndex": 340,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "lftp",
+      "browser": "lftp",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "lftp"
+      },
+      "children": [
+        {
+          "match": "lftp/3.2*",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "lftp/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "division": "Openwave Mobile Browser",
+  "sortIndex": 8221,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Openwave Mobile Browser",
+      "browser": "openwave mobile browser",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Openwave Mobile Browser"
+      },
+      "children": [
+        {
+          "match": "* Browser/OpenWave/1.0* Profile/MIDP*",
+          "properties": {
+            "Comment": "Openwave Mobile Browser 1.0",
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "#DEVICE#/* Browser/OpenWave/1.0*",
+          "devices": {
+            "SonyEricssonS312": "SonyEricsson S312"
+          },
+          "properties": {
+            "Comment": "Openwave Mobile Browser 1.0",
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "AUDIOVOX-PM8920KIT"
+        },
+        {
+          "match": "#DEVICE#/R1FA Browser/OpenWave/1.0 *",
+          "devices": {
+            "SonyEricssonW395": "SonyEricsson W395"
+          }
+        },
+        {
+          "match": "MOT-8700_/* UP.Browser/*"
+        },
+        {
+          "match": "#DEVICE#/* UP.Browser/*",
+          "devices": {
+            "MOT-A-0A": "Motorola A-0A",
+            "MOT-A-2B": "Motorola A-2B",
+            "MOT-A-88": "Motorola A-88",
+            "MOT-SAP4_": "Motorola SAP4"
+          }
+        },
+        {
+          "match": "UP.Browser/3.01-IG01 UP.Link/3.2.3.4",
+          "properties": {
+            "Comment": "Openwave Mobile Browser 3.0",
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "UP.Browser/3.04-SN17 UP.Link/3.4.5.6",
+          "properties": {
+            "Comment": "Openwave Mobile Browser 3.0",
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "UP.Browser/3.1.04-DS15 UP.Link/*",
+          "properties": {
+            "Comment": "Openwave Mobile Browser 3.1",
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "UP.Browser/3.1.04-NZ01 UP.Link/*.1",
+          "properties": {
+            "Comment": "Openwave Mobile Browser 3.1",
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "UP.Browser/3.1.04-SC02 UP.Link/*",
+          "properties": {
+            "Comment": "Openwave Mobile Browser 3.1",
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "UP.Browser/7.0.2.3.119 (GUI) MMP/2.0 Push/PO",
+          "properties": {
+            "Comment": "Openwave Mobile Browser 7.0",
+            "Version": "7.0"
+          }
+        },
+        {
+          "match": "Nokia* UP.Browser/*",
+          "device": "general Mobile Phone (Nokia)"
+        },
+        {
+          "match": "Nokia* UP.Link/*",
+          "device": "general Mobile Phone (Nokia)"
+        },
+        {
+          "match": "* Browser/OpenWave/* Profile/MIDP*"
+        },
+        {
+          "match": "*UP.Browser/*"
+        }
+      ]
+    }
+  ]
+}

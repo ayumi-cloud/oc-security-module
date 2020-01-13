@@ -1,0 +1,37 @@
+{
+  "division": "iCab #MAJORVER#.#MINORVER#",
+  "versions": ["5.8", "5.7", "5.6", "5.5", "5.4", "5.3", "5.2", "5.1", 5],
+  "sortIndex": 2400,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "iCab #MAJORVER#.#MINORVER#",
+      "browser": "icab",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iCab #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "iCab/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) iCab/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

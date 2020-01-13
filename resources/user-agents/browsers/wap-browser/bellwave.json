@@ -1,0 +1,26 @@
+{
+  "division": "Bellwave",
+  "sortIndex": 2270,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Bellwave",
+      "browser": "bellwave",
+      "platform": "JAVA",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Bellwave"
+      },
+      "children": [
+        {
+          "match": "BELLWAVE_NEO200_MT"
+        },
+        {
+          "match": "Bellwave_HTG100_R10"
+        }
+      ]
+    }
+  ]
+}

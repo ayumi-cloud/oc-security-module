@@ -1,0 +1,76 @@
+{
+  "division": "Validation Checkers",
+  "sortIndex": 390,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "HTML Validators",
+      "browser": "html validators",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Validation Checkers"
+      },
+      "children": [
+        {
+          "match": "(HTML Validator http://www.searchengineworld.com/validator/)",
+          "browser": "search engine world html validator"
+        },
+        {
+          "match": "FeedValidator/*",
+          "browser": "feedvalidator"
+        },
+        {
+          "match": "Search Engine World Robots.txt Validator*",
+          "browser": "search engine world robots.txt validator"
+        },
+        {
+          "match": "Weblide/*",
+          "browser": "weblide"
+        },
+        {
+          "match": "WebmasterWorld StickyMail Server Header Checker*",
+          "browser": "webmasterworld server header checker"
+        },
+        {
+          "match": "WWWC/*",
+          "browser": "wwwc"
+        },
+        {
+          "match": "WDG_Validator/1.6*",
+          "browser": "wdg html validator",
+          "properties": {
+            "Version": "1.6"
+          }
+        },
+        {
+          "match": "WDG_Validator/*",
+          "browser": "wdg html validator"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Qualidator.com Bot 1.0*",
+          "browser": "qualidator.com bot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Qualidator.com Bot*",
+          "browser": "qualidator.com bot"
+        },
+        {
+          "match": "CSE HTML Validator Online*",
+          "browser": "cse html validator"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Let's Encrypt validation server*",
+          "browser": "let's encrypt validator"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; DomainSONOCrawler/*",
+          "browser": "domainsono crawler"
+        }
+      ]
+    }
+  ]
+}

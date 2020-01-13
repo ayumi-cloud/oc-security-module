@@ -1,0 +1,33 @@
+{
+  "division": "Aboundexbot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Aboundexbot",
+      "browser": "aboundexbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Aboundexbot"
+      },
+      "children": [
+        {
+          "match": "Aboundex/0.2*",
+          "properties": {
+            "Version": "0.2"
+          }
+        },
+        {
+          "match": "Aboundex/0.3*",
+          "properties": {
+            "Version": "0.3"
+          }
+        },
+        {
+          "match": "Aboundex/*"
+        }
+      ]
+    }
+  ]
+}

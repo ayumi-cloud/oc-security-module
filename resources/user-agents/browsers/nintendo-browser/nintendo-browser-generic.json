@@ -1,0 +1,119 @@
+{
+  "division": "Nintendo Browser Generic",
+  "sortIndex": 1553,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Nintendo Browser Generic",
+      "browser": "nintendo browser",
+      "engine": "Presto",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nintendo Browser Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Nitro) Opera 8.50*",
+          "device": "Nintendo DS",
+          "platforms": [
+            "NintendoDS_OS"
+          ]
+        },
+        {
+          "match": "Nintendo Wii*",
+          "device": "Nintendo Wii",
+          "platforms": [
+            "NintendoWii_OS"
+          ]
+        },
+        {
+          "match": "Opera/9.00 (Nintendo Wii*)",
+          "device": "Nintendo Wii",
+          "platforms": [
+            "NintendoWii_OS"
+          ]
+        },
+        {
+          "match": "Opera/9.10 (Nintendo Wii*)",
+          "device": "Nintendo Wii",
+          "platforms": [
+            "NintendoWii_OS"
+          ]
+        },
+        {
+          "match": "Opera/9.23 (Nintendo Wii*)",
+          "device": "Nintendo Wii",
+          "platforms": [
+            "NintendoWii_OS"
+          ]
+        },
+        {
+          "match": "Opera/9.30 (Nintendo Wii*)",
+          "device": "Nintendo Wii",
+          "platforms": [
+            "NintendoWii_OS"
+          ]
+        },
+        {
+          "match": "Opera/* (Nintendo DSi* Opera/*; *; *)",
+          "engine": "Presto_2_0",
+          "device": "Nintendo DSi",
+          "platforms": [
+            "NintendoDSi_OS"
+          ]
+        },
+        {
+          "match": "Opera/9.50 (Nintendo DSi* Opera/*)",
+          "engine": "Presto_2_0",
+          "device": "Nintendo DSi",
+          "platforms": [
+            "NintendoDSi_OS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Nintendo Switch; *) applewebkit/* (*khtml*like*gecko*) *NintendoBrowser/*",
+          "engine": "WebKit",
+          "device": "Nintendo Switch",
+          "platforms": [
+            "NintendoSwitch_OS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Nintendo 3DS*) Version/*",
+          "engine": "WebKit",
+          "device": "Nintendo 3DS",
+          "platforms": [
+            "Nintendo3DS_OS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (New Nintendo 3DS *) applewebkit* (*khtml*like*gecko*) *NintendoBrowser/*",
+          "engine": "WebKit",
+          "device": "New Nintendo 3DS",
+          "platforms": [
+            "Nintendo3DS_OS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Nintendo WiiU) applewebkit* (*khtml*like*gecko*) *NintendoBrowser/*",
+          "engine": "WebKit",
+          "device": "Nintendo WiiU",
+          "platforms": [
+            "NintendoWiiU_OS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Nintendo WiiU) applewebkit* (*khtml*like*gecko*) *",
+          "engine": "WebKit",
+          "device": "Nintendo WiiU",
+          "platforms": [
+            "NintendoWiiU_OS"
+          ]
+        }
+      ]
+    }
+  ]
+}

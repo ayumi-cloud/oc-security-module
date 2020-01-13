@@ -1,0 +1,27 @@
+{
+  "division": "Crazywebcrawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Crazywebcrawler",
+      "browser": "crazywebcrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Crazywebcrawler"
+      },
+      "children": [
+        {
+          "match": "CRAZYWEBCRAWLER 0.9*",
+          "properties": {
+            "Version": "0.9"
+          }
+        },
+        {
+          "match": "CRAZYWEBCRAWLER*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "division": "iSearch",
+  "sortIndex": 6340,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "iSearch",
+      "browser": "isearch",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iSearch",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "iSearch/1.2* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "iSearch/* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "division": "Internet Content Rating Association",
+  "sortIndex": 570,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Internet Content Rating Association",
+      "browser": "internet content rating association",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Internet Content Rating Association"
+      },
+      "children": [
+        {
+          "match": "ICRA_label_generator/1.?",
+          "browser": "icra_label_generator"
+        },
+        {
+          "match": "ICRA_Semantic_spider/0.?",
+          "browser": "icra_semantic_spider"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "division": "Abonti WebSearch",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Abonti WebSearch",
+      "browser": "abonti websearch",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Abonti WebSearch"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Abonti/0.91*",
+          "properties": {
+            "Version": "0.91"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Abonti/0.92*",
+          "properties": {
+            "Version": "0.92"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Abonti/*"
+        }
+      ]
+    }
+  ]
+}

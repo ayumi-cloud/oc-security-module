@@ -1,0 +1,26 @@
+{
+  "division": "Netbox",
+  "sortIndex": 2180,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Netbox",
+      "browser": "netbox",
+      "platform": "Linux",
+      "device": "Sony Netbox",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Netbox"
+      },
+      "children": [
+        {
+          "match": "Mozilla/3.01 (compatible; Netbox/*; Linux*)",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

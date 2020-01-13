@@ -1,0 +1,43 @@
+{
+  "division": "Microsoft Visio",
+  "sortIndex": 7182,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft Visio",
+      "browser": "visio",
+      "platform": "Windows",
+      "engine": "Trident",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft Visio",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Microsoft Office Visio 2013 (15.*) #PLATFORM#",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32"
+          ],
+          "properties": {
+            "Version": "2013"
+          }
+        },
+        {
+          "match": "Microsoft Office/15.* (#PLATFORM#Microsoft Visio 15.*)",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32"
+          ],
+          "properties": {
+            "Version": "2013"
+          }
+        }
+      ]
+    }
+  ]
+}

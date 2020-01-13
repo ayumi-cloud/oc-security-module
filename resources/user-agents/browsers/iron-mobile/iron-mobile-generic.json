@@ -1,0 +1,32 @@
+{
+  "division": "Iron Mobile Generic",
+  "sortIndex": 1123,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Iron Mobile Generic",
+      "browser": "iron mobile",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Iron Mobile Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Iron* Safari/*",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

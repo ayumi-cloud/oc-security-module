@@ -1,0 +1,51 @@
+{
+  "division": "INNO",
+  "sortIndex": 5980,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "INNO",
+      "browser": "inno",
+      "device": "unknown",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "INNO",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "INNO30*"
+        },
+        {
+          "match": "INNO50*"
+        },
+        {
+          "match": "INNO55*"
+        },
+        {
+          "match": "INNO79*"
+        },
+        {
+          "match": "INNO89*"
+        },
+        {
+          "match": "INNO90*"
+        },
+        {
+          "match": "INNO99*"
+        },
+        {
+          "match": "INNOA10*"
+        },
+        {
+          "match": "INNOA20*"
+        },
+        {
+          "match": "INNOP10*"
+        }
+      ]
+    }
+  ]
+}

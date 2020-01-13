@@ -1,0 +1,53 @@
+{
+  "division": "Dalvik #MAJORVER#.#MINORVER#",
+  "versions": ["1.4"],
+  "sortIndex": 2213,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
+      "browser": "dalvik",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dalvik #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100",
+            "GT-I9100G": "Samsung GT-I9100G",
+            "GT-S5830": "Samsung GT-S5830",
+            "HTC HD2": "HTC T8585",
+            "HTC Sensation Z710e": "HTC Z710e",
+            "Nexus One": "HTC Nexus One"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# *",
+          "devices": {
+            "GT-I9100G": "Samsung GT-I9100G"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "Android_2_3",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

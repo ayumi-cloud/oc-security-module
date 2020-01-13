@@ -1,0 +1,27 @@
+{
+  "division": "NetzCheckBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NetzCheckBot",
+      "browser": "netzcheckbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NetzCheckBot"
+      },
+      "children": [
+        {
+          "match": "NetzCheckBot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "NetzCheckBot/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "division": "TinyBrowser Generic",
+  "sortIndex": 2451,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TinyBrowser Generic",
+      "browser": "tinybrowser",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TinyBrowser Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "TinyBrowser/* (TinyBrowser *) Gecko*"
+        }
+      ]
+    }
+  ]
+}

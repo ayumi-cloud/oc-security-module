@@ -1,0 +1,33 @@
+{
+  "division": "SonyEricsson #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 10671,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SonyEricsson #MAJORVER#.#MINORVER#",
+      "browser": "semc",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SonyEricsson #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/* Java/SEMC-Java/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SonyEricssonw580i": "SonyEricsson W580i"
+          }
+        },
+        {
+          "match": "*/* Java/SEMC-Java/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

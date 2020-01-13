@@ -1,0 +1,27 @@
+{
+  "division": "masidani_bot",
+  "sortIndex": 750,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "masidani_bot",
+      "browser": "masidani_bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "masidani_bot"
+      },
+      "children": [
+        {
+          "match": "masidani_bot_v0.6*",
+          "properties": {
+            "Version": "0.6"
+          }
+        },
+        {
+          "match": "masidani_bot_v*"
+        }
+      ]
+    }
+  ]
+}

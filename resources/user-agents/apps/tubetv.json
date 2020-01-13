@@ -1,0 +1,30 @@
+{
+  "division": "TubeTV",
+  "sortIndex": 1188,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TubeTV",
+      "browser": "tubetv",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TubeTV",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) TubeTV*",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

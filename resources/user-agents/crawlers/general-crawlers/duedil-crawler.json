@@ -1,0 +1,27 @@
+{
+  "division": "DueDil Crawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "DueDil Crawler",
+      "browser": "duedil crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "DueDil Crawler"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; electricmonk/3.2*",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; electricmonk/*"
+        }
+      ]
+    }
+  ]
+}

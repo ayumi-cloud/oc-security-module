@@ -1,0 +1,30 @@
+{
+  "division": "YahooSeeker-Mobile",
+  "sortIndex": 1410,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YahooSeeker-Mobile",
+      "browser": "yahooseeker-mobile",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "YahooSeeker-Mobile"
+      },
+      "children": [
+        {
+          "match": "LG-C1500 UP.Browser/6.2.3 (GUI) MMP/1.0 (compatible;YahooSeeker/M1A1-R2D2;*",
+          "device": "LG C1500"
+        },
+        {
+          "match": "Nokia6682/2.0 (*SymbianOS/* (compatible;*YahooSeeker/*)",
+          "device": "Nokia 6682"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YahooSeeker/M1A1-R2D2*)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "division": "Miui Browser #MAJORVER#.#MINORVER#",
+  "versions": ["2.1"],
+  "sortIndex": 1110,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Miui Browser #MAJORVER#.#MINORVER#",
+      "browser": "miui browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Miui Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Redmi 3S": "Xiaomi Redmi 3S"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Redmi 3S": "Xiaomi Redmi 3S"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MI 2S": "Xiaomi MI 2S",
+            "MI PAD": "Xiaomi Mi Pad"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

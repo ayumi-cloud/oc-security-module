@@ -1,0 +1,36 @@
+{
+  "division": "MobileRSS",
+  "sortIndex": 7280,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MobileRSS",
+      "browser": "mobilerss",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MobileRSS",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "MobileRSS* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "MobileRSS*-iPad* CFNetwork/*",
+          "device": "iPad",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "division": "Feeds Blogs",
+  "sortIndex": 360,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Feeds Blogs",
+      "browser": "feeds blogs",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Feeds Blogs"
+      },
+      "children": [
+        {
+          "match": "Bloglines Title Fetch/*",
+          "browser": "bloglines title fetch"
+        },
+        {
+          "match": "Bloglines/3.1*",
+          "browser": "bloglines web",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "Bloglines/3.0*",
+          "browser": "bloglines web",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Bloglines/*",
+          "browser": "bloglines web"
+        },
+        {
+          "match": "BlogPulse (ISSpider-3.*)",
+          "browser": "blogpulse"
+        },
+        {
+          "match": "BlogPulseLive (support@blogpulse.com)",
+          "browser": "blogpulselive"
+        },
+        {
+          "match": "blogsearchbot-pumpkin-2",
+          "browser": "blogsearchbot-pumpkin"
+        },
+        {
+          "match": "Irish Blogs Aggregator/*1.0*",
+          "browser": "irish blogs aggregator",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "kinjabot (http://www.kinja.com; *)",
+          "browser": "kinjabot"
+        },
+        {
+          "match": "Net::Trackback/*",
+          "browser": "net::trackback"
+        },
+        {
+          "match": "Reblog*",
+          "browser": "reblog"
+        },
+        {
+          "match": "Bloglovin/1.0*",
+          "browser": "bloglovin bot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Bloglovin/*",
+          "browser": "bloglovin bot"
+        },
+        {
+          "match": "wp.com feedbot/* (+https://wp.com)",
+          "browser": "wordpress.com feed bot"
+        }
+      ]
+    }
+  ]
+}

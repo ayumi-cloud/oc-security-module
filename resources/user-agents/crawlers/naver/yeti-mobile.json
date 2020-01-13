@@ -1,0 +1,25 @@
+{
+  "division": "NaverBot Mobile",
+  "sortIndex": 810,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NaverBot Mobile",
+      "browser": "naverbot mobile",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NaverBot"
+      },
+      "children": [
+        {
+          "match": "DoCoMo/2.0?P-04A *(compatible; Yeti-Mobile/0.1; ?http://help.naver.com/robots/)*"
+        },
+        {
+          "match": "Mozilla/5.0 (iPhone; CPU iPhone OS * like Mac OS X) (compatible; Yeti-Mobile/*; +http://help.naver.com/robots/)"
+        }
+      ]
+    }
+  ]
+}

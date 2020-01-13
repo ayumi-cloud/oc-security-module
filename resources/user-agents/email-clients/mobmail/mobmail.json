@@ -1,0 +1,27 @@
+{
+  "division": "Mobmail #MAJORVER#.#MINORVER#",
+  "versions": ["6.1", 6, "5.8", "5.7"],
+  "sortIndex": 1670,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mobmail #MAJORVER#.#MINORVER#",
+      "browser": "mobmail",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mobmail #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "mobmail android #MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

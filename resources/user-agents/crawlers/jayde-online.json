@@ -1,0 +1,45 @@
+{
+  "division": "Jayde Online",
+  "sortIndex": 190,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Jayde Online",
+      "browser": "jayde online",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Jayde Online"
+      },
+      "children": [
+        {
+          "match": "ExactSeek Crawler/0.1*",
+          "browser": "exactseek crawler",
+          "properties": {
+            "Version": "0.1"
+          }
+        },
+        {
+          "match": "ExactSeek Crawler/*",
+          "browser": "exactseek crawler"
+        },
+        {
+          "match": "ExactSeek Crawler (nutch*",
+          "browser": "exactseek crawler"
+        },
+        {
+          "match": "exactseek-pagereaper-* (crawler@exactseek.com)",
+          "browser": "exactseek-pagereaper"
+        },
+        {
+          "match": "exactseek.com",
+          "browser": "exactseek.com"
+        },
+        {
+          "match": "Jayde Crawler*",
+          "browser": "jayde crawler"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "division": "LG Browser Generic",
+  "sortIndex": 1773,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "LG Browser Generic",
+      "browser": "lg browser",
+      "engine": "WebKit",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LG Browser Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/* LG Browser/*",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/* LG Browser/*",
+          "platforms": [
+            "webOS 2.0 (LG)"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chr0me/* Safari/* LG Browser/*",
+          "platforms": [
+            "webOS 3.0 (LG)"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "division": "KMLite Generic",
+  "sortIndex": 17582,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "KMLite Generic",
+      "browser": "kmlite",
+      "engine": "Gecko_1_8_1",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "KMLite Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* KMLite/*",
+          "platforms": [
+            "WinXPa_32",
+            "Win2000",
+            "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}

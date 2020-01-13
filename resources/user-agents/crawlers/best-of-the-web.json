@@ -1,0 +1,26 @@
+{
+  "division": "Best of the Web",
+  "sortIndex": 90,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Best of the Web",
+      "browser": "best of the web",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Best of the Web"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; BOTW Feed Grabber*",
+          "browser": "botw feed grabber"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; BOTW Spider*",
+          "browser": "botw spider"
+        }
+      ]
+    }
+  ]
+}

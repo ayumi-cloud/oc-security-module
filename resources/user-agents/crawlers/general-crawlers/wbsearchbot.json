@@ -1,0 +1,27 @@
+{
+  "division": "WBSearchBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WBSearchBot",
+      "browser": "wbsearchbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WBSearchBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; WBSearchBot/1.1*; +http://www.warebay.com/bot.html)*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; WBSearchBot/*; +http://www.warebay.com/bot.html)*"
+        }
+      ]
+    }
+  ]
+}

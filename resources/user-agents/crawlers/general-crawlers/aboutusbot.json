@@ -1,0 +1,35 @@
+{
+  "division": "AboutUs Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "AboutUs Bot",
+      "browser": "aboutus bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AboutUs Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; AboutUsBot/*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AboutUsBot Johnny5/2.0*",
+          "browser": "aboutus bot johnny5",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AboutUsBot Johnny5/*",
+          "browser": "aboutus bot johnny5"
+        },
+        {
+          "match": "AboutUsBot/* (Website Analysis*"
+        }
+      ]
+    }
+  ]
+}

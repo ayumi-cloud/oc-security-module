@@ -1,0 +1,29 @@
+{
+  "division": "MyNews",
+  "sortIndex": 7650,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MyNews",
+      "browser": "mynews",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MyNews",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "MyNews* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "LinkpadBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "LinkpadBot",
+      "browser": "linkpadbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LinkpadBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; LinkpadBot/1.06*",
+          "properties": {
+            "Version": "1.06"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; LinkpadBot/*"
+        }
+      ]
+    }
+  ]
+}

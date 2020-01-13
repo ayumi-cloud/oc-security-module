@@ -1,0 +1,28 @@
+{
+  "division": "Googlebot-Mobile",
+  "sortIndex": 1175,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Googlebot-Mobile",
+      "browser": "google bot mobile",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Googlebot"
+      },
+      "children": [
+        {
+          "match": "KDDI-Googlebot-Mobile"
+        },
+        {
+          "match": "*Googlebot-Mobile/2.*",
+          "properties": {
+            "Version": "2.0"
+          }
+        }
+      ]
+    }
+  ]
+}

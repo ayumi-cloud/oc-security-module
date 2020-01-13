@@ -1,0 +1,27 @@
+{
+  "division": "gooblog",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "gooblog",
+      "browser": "gooblog",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "gooblog"
+      },
+      "children": [
+        {
+          "match": "gooblog/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "gooblog/*"
+        }
+      ]
+    }
+  ]
+}

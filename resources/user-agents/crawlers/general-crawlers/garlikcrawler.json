@@ -1,0 +1,33 @@
+{
+  "division": "GarlikCrawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "GarlikCrawler",
+      "browser": "garlikcrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "GarlikCrawler"
+      },
+      "children": [
+        {
+          "match": "GarlikCrawler/1.1*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "GarlikCrawler/1.2*",
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "GarlikCrawler/*"
+        }
+      ]
+    }
+  ]
+}

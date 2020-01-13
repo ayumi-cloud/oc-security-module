@@ -1,0 +1,54 @@
+{
+  "division": "Nagios",
+  "sortIndex": 580,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Nagios",
+      "browser": "nagios",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nagios"
+      },
+      "children": [
+        {
+          "match": "check_http/* (nagios-plugins 1.1.*)",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "check_http/* (nagios-plugins 1.2.*)",
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "check_http/* (nagios-plugins 1.3.*)",
+          "properties": {
+            "Version": "1.3"
+          }
+        },
+        {
+          "match": "check_http/* (nagios-plugins 1.4.*)",
+          "properties": {
+            "Version": "1.4"
+          }
+        },
+        {
+          "match": "check_http/* (nagios-plugins 1.*)",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "check_http/* (nagios-plugins 2.*)",
+          "properties": {
+            "Version": "2.0"
+          }
+        }
+      ]
+    }
+  ]
+}

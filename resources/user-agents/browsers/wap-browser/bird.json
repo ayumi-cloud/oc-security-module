@@ -1,0 +1,36 @@
+{
+  "division": "BIRD",
+  "sortIndex": 2320,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BIRD",
+      "browser": "bird",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BIRD"
+      },
+      "children": [
+        {
+          "match": "BIRD.D220/SW3.09.1015/WAP2.0 *",
+          "device": "BIRD D220"
+        },
+        {
+          "match": "BIRD.S580/3.03/WAP1.2.1",
+          "device": "BIRD S580"
+        },
+        {
+          "match": "BIRD_D660/V1.0.0/2.0 *",
+          "device": "BIRD D660"
+        },
+        {
+          "match": "BIRD_D716/V1.0.0/2.0 *",
+          "device": "BIRD D716"
+        }
+      ]
+    }
+  ]
+}

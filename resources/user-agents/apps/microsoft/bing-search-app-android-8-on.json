@@ -1,0 +1,71 @@
+{
+  "division": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+  "versions": ["9.9", "9.8", "9.7", "9.6", "9.5", "9.4", "9.3", "9.2", "9.1", 9, "8.9", "8.8", "8.7", "8.6", "8.5"],
+  "sortIndex": 480,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+      "browser": "bing search app",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Bing Search App #MAJORVER#.#MINORVER# for Android",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F"
+          },
+          "platforms": [
+            "Android_9_0",
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SM-G950U": "Samsung SM-G950U",
+            "SM-G955U": "Samsung SM-G955U",
+            "SM-G965U": "Samsung SM-G965U",
+            "SM-N950U": "Samsung SM-N950U"
+          },
+          "platforms": [
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "XT1650": "Motorola XT1650"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

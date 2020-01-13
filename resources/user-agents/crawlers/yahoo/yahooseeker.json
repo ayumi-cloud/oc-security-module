@@ -1,0 +1,33 @@
+{
+  "division": "YahooSeeker",
+  "sortIndex": 1400,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YahooSeeker",
+      "browser": "yahooseeker",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "YahooSeeker"
+      },
+      "children": [
+        {
+          "match": "YahooSeeker/CafeKelsa* (compatible; Konqueror/*; FreeBSD*(*khtml*like*gecko*)",
+          "browser": "yahooseeker/cafekelsa",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
+          ]
+        },
+        {
+          "match": "YahooSeeker/CafeKelsa*",
+          "browser": "yahooseeker/cafekelsa"
+        },
+        {
+          "match": "YahooSeeker*"
+        }
+      ]
+    }
+  ]
+}

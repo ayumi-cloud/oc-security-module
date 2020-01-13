@@ -1,0 +1,75 @@
+{
+  "division": "Firefox #MAJORVER#.#MINORVER#",
+  "versions": ["4.2"],
+  "sortIndex": 3163,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "Firefox #MAJORVER#.#MINORVER#",
+      "browser": "firefox",
+      "engine": "Gecko_2_2",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": true
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_PPC_10_5", "OSX_PPC_10_4",
+            "OSX_PPC",
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX",
+            "MacPPC"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD",
+            "OpenBSD",
+            "HPUX",
+            "IRIX64",
+            "SunOS",
+            "OS2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#; rv:2.2*) Gecko* Firefox anonymized by *",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ],
+          "properties": {
+            "isAnonymized": true
+          }
+        }
+      ]
+    }
+  ]
+}

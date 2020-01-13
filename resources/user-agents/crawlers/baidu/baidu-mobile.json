@@ -1,0 +1,33 @@
+{
+  "division": "Baidu Mobile",
+  "sortIndex": 1068,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Baidu Mobile",
+      "browser": "baidu mobile search",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Baidu"
+      },
+      "children": [
+        {
+          "match": "*Baiduspider-mobile*"
+        },
+        {
+          "match": "DoCoMo/2.0 P05A(c100;TB;W24H15) (compatible; BaiduMobaider/1.0; ?http://www.baidu.jp/spider/)"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 Mobile Safari/* (compatible; +http://www.baidu.com/search/*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_2_3",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

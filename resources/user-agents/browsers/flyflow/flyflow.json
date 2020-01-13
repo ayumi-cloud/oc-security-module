@@ -1,0 +1,110 @@
+{
+  "division": "FlyFlow #MAJORVER#.#MINORVER#",
+  "versions": ["3.1", 3, "2.5", "2.4", "2.3", "2.2", 2, "1.4", "1.3", 1],
+  "sortIndex": 1710,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "FlyFlow #MAJORVER#.#MINORVER#",
+      "browser": "flyflow",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "FlyFlow #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#GFIVE A5 Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/* Safari/* T5/*",
+          "engine": "T5",
+          "device": "GFive A5",
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/* Safari/* T5/*",
+          "engine": "T5",
+          "platforms": [
+            "Android_4_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
+          "devices": {
+            "GT-I9300": "Samsung GT-I9300"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
+          "devices": {
+            "AX512": "Bmobile AX512"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
+          "devices": {
+            "GT-I9100G": "Samsung GT-I9100G"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_0",
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
+          "devices": {
+            "Micromax A84": "Micromax A84"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
+          "devices": {
+            "HUAWEI T8600": "Huawei T8600"
+          },
+          "platforms": [
+            "Android_2_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#Build/*) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
+          "platforms": [
+            "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/* T5/*",
+          "engine": "T5",
+          "platforms": [
+            "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) FlyFlow/#MAJORVER#.#MINORVER#* Version/4.0 *Safari/*",
+          "platforms": [
+            "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

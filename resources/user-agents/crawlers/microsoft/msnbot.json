@@ -1,0 +1,77 @@
+{
+  "division": "msnbot",
+  "sortIndex": 1221,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "msnbot",
+      "browser": "msnbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "msnbot"
+      },
+      "children": [
+        {
+          "match": "msnbot/0.11*",
+          "properties": {
+            "Version": "0.11"
+          }
+        },
+        {
+          "match": "msnbot/2.0b*",
+          "properties": {
+            "Version": "2.0",
+            "Beta": true
+          }
+        },
+        {
+          "match": "msnbot/2.1*",
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "msnbot/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "msnbot/1.1*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "msnbot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "msnbot/0.9*",
+          "properties": {
+            "Version": "0.9"
+          }
+        },
+        {
+          "match": "msnbot/0.1*",
+          "properties": {
+            "Version": "0.1"
+          }
+        },
+        {
+          "match": "msnbot-Products/1.0*",
+          "properties": {
+            "Comment": "msn Products bot",
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "msnbot/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "kejian",
+  "sortIndex": 6470,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "kejian",
+      "browser": "kejian",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "kejian",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "kejian-k368*"
+        },
+        {
+          "match": "kejian-k606*"
+        }
+      ]
+    }
+  ]
+}

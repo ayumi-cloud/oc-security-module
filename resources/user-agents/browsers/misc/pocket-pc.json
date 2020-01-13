@@ -1,0 +1,38 @@
+{
+  "division": "Pocket PC",
+  "sortIndex": 1830,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "Pocket PC",
+      "browser": "pocket pc",
+      "platform": "WinCE",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pocket PC"
+      },
+      "children": [
+        {
+          "match": "*(compatible; MSIE *.*; Windows CE; PPC; *)"
+        },
+        {
+          "match": "HTC-*/* Mozilla/* (compatible; MSIE *.*; Windows CE*)*"
+        },
+        {
+          "match": "Mozilla/* (compatible; MSPIE *.*; *Windows CE*)*"
+        },
+        {
+          "match": "T-Mobile* Mozilla/* (compatible; MSIE *.*; Windows CE; *)"
+        },
+        {
+          "match": "Vodafone* Mozilla/* (compatible; MSIE *.*; Windows CE; *)*"
+        },
+        {
+          "match": "Windows CE (Pocket PC) - Version *.*"
+        }
+      ]
+    }
+  ]
+}

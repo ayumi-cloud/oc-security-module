@@ -1,0 +1,62 @@
+{
+  "division": "Silk Generic",
+  "sortIndex": 1141,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Silk Generic",
+      "browser": "silk",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "Amazon Kindle",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Silk Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Silk/* like Chrome/* Safari*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux*) applewebkit* (*khtml*like*gecko*) Silk/* like Chrome/* Safari*",
+          "engine": "Blink",
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Silk/* Safari*",
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Mac OS X 10*Silk/*) applewebkit* (*khtml*like*gecko*) Version/5.0 Safari*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Linux*Android*Silk/*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*"
+        },
+        {
+          "match": "Mozilla/5.0 (Linux*Android*Silk/*) applewebkit* (*khtml*like*gecko*) Version/4.0 Mobile Safari*"
+        },
+        {
+          "match": "Mozilla/5.0 (Linux*Android*Silk/*) applewebkit* (*khtml*like*gecko*) Version/4.0*Safari*",
+          "device": "general Tablet"
+        }
+      ]
+    }
+  ]
+}

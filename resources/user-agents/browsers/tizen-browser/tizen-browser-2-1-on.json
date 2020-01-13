@@ -1,0 +1,37 @@
+{
+  "division": "Tizen Browser #MAJORVER#.#MINORVER#",
+  "versions": ["2.4", "2.3", "2.2", "2.1"],
+  "sortIndex": 954,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Tizen Browser #MAJORVER#.#MINORVER#",
+      "browser": "tizen browser",
+      "platform": "Tizen",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tizen Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#SM-Z130H) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Safari/*",
+          "device": "Samsung SM-Z130H",
+          "platforms": [
+            "Tizen_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#* Safari/*",
+          "platforms": [
+            "Tizen_2_4", "Tizen_2_3", "Tizen_2_2", "Tizen_2_1",
+            "Tizen"
+          ]
+        }
+      ]
+    }
+  ]
+}

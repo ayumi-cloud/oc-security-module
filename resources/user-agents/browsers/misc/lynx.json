@@ -1,0 +1,59 @@
+{
+  "division": "Lynx",
+  "sortIndex": 2230,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Lynx",
+      "browser": "lynx",
+      "platform": "Linux",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Lynx"
+      },
+      "children": [
+        {
+          "match": "Lynx?2.3*",
+          "properties": {
+            "Version": "2.3"
+          }
+        },
+        {
+          "match": "Lynx?2.4*",
+          "properties": {
+            "Version": "2.4"
+          }
+        },
+        {
+          "match": "Lynx?2.5*",
+          "properties": {
+            "Version": "2.5"
+          }
+        },
+        {
+          "match": "Lynx?2.6*",
+          "properties": {
+            "Version": "2.6"
+          }
+        },
+        {
+          "match": "Lynx?2.7*",
+          "properties": {
+            "Version": "2.7"
+          }
+        },
+        {
+          "match": "Lynx?2.8*",
+          "properties": {
+            "Version": "2.8"
+          }
+        },
+        {
+          "match": "Lynx*"
+        }
+      ]
+    }
+  ]
+}

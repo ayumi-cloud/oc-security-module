@@ -1,0 +1,27 @@
+{
+  "division": "SophosAgent",
+  "sortIndex": 520,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SophosAgent",
+      "browser": "sophosagent",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SophosAgent"
+      },
+      "children": [
+        {
+          "match": "SophosAgent/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "SophosAgent/*"
+        }
+      ]
+    }
+  ]
+}

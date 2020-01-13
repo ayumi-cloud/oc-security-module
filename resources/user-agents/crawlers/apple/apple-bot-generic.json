@@ -1,0 +1,28 @@
+{
+  "division": "Applebot Generic",
+  "sortIndex": 971,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Applebot Generic",
+      "browser": "applebot",
+      "platform": "OSX",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Applebot Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* (*Applebot/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX",
+            "iOS_A"
+          ]
+        }
+      ]
+    }
+  ]
+}

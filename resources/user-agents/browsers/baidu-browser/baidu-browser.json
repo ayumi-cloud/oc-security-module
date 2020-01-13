@@ -1,0 +1,285 @@
+{
+  "division": "Baidu Browser #MAJORVER#.#MINORVER#",
+  "versions": ["7.9", "7.7", "7.3", "6.4", "6.1", 6, "5.6", "5.3", "5.1", "4.9", "4.8", "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4, "3.2", "3.1", "2.9", "2.7", "2.6", "2.5", "1.9", "1.8", "1.1"],
+  "sortIndex": 884,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Baidu Browser #MAJORVER#.#MINORVER#",
+      "browser": "baidu browser",
+      "platform": "Android",
+      "engine": "T5",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Baidu Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* T5/?.? bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "IQ4415 Quad": "Fly IQ4415",
+            "GT-I9060I": "Samsung GT-I9060I",
+            "Oysters T72M 3G": "Oysters T72M 3G",
+            "TAB917QC-8GB": "Sunstech TAB917QC 8GB"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* T5/?.? bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Boost IIse": "Highscreen Boost II SE"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* T5/?.? bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Lenovo A889": "Lenovo A889",
+            "M8": "Amlogic M8",
+            "SUPRA M723G": "Supra M723G",
+            "TX18": "Irbis TX18",
+            "X-tremer": "Explay X-tremer"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* T5/?.? bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Lenovo A889": "Lenovo A889",
+            "M8": "Amlogic M8",
+            "SUPRA M723G": "Supra M723G",
+            "t520": "Samsung SM-T520",
+            "TX18": "Irbis TX18",
+            "X-tremer": "Explay X-tremer"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* T5/?.? bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "T5",
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* T5/?.? baidubrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "T5",
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
+            "AdTab 7 Lite": "Adspec AdTab 7 Lite",
+            "Lenovo A606": "Lenovo A606",
+            "Oysters T72M 3G": "Oysters T72M 3G"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Mobile*Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
+            "MI NOTE Pro": "Xiaomi MI NOTE Pro"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
+            "SM-N900A": "Samsung SM-N900A"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "ARK_Benefit_M4": "ARK Benefit M4",
+            "K013": "Asus K013"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "HUAWEI G630-U00": "Huawei G630-U00"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "Keneksi-Flora": "Keneksi Flora",
+            "Lenovo A678t": "Lenovo A678t",
+            "Lenovo A889": "Lenovo A889"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "ALCATEL ONE TOUCH 5035D": "Alcatel OT-5035D",
+            "HTC Desire 300": "HTC Desire 300",
+            "HTC Desire 600c dual sim": "HTC Desire 600c"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "Lenovo A800": "Lenovo A800"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* bdbrowser*/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_3_2", "Android_3_1", "Android_3_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Baidu Browser #MAJORVER#.#MINORVER# for iOS",
+      "browser": "baidu browser",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Baidu Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_11_0",
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* baidubrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "division": "TinEye Bot",
+  "sortIndex": 400,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TinEye Bot",
+      "browser": "tineye bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TinEye Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Windows NT *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* TinEye/* (via http://www.tineye.com/)"
+        },
+        {
+          "match": "TinEye-bot/0.02*",
+          "properties": {
+            "Version": "0.02"
+          }
+        },
+        {
+          "match": "TinEye-bot/*"
+        },
+        {
+          "match": "TinEye/1.1*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "TinEye*"
+        }
+      ]
+    }
+  ]
+}

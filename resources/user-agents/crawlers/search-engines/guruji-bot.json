@@ -1,0 +1,51 @@
+{
+  "division": "GurujiBot",
+  "sortIndex": 250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "GurujiBot",
+      "browser": "gurujibot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "GurujiBot"
+      },
+      "children": [
+        {
+          "match": "GurujiBot/1.0*",
+          "browser": "gurujibot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "GurujiBot/*",
+          "browser": "gurujibot"
+        },
+        {
+          "match": "Mozilla/5.0 GurujiBot/1.0*",
+          "browser": "gurujibot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 GurujiBot/*",
+          "browser": "gurujibot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; GurujiBot/1.0*",
+          "browser": "gurujibot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; GurujiBot/*",
+          "browser": "gurujibot"
+        }
+      ]
+    }
+  ]
+}

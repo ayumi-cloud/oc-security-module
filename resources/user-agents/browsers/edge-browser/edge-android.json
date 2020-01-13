@@ -1,0 +1,103 @@
+{
+  "division": "Edge #MAJORVER#.#MINORVER# for Android",
+  "versions": [42, 41],
+  "sortIndex": 1139,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Edge #MAJORVER#.#MINORVER# for Android",
+      "browser": "edge",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Edge #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* EdgA/#MAJORVER#.*",
+          "devices": {
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F"
+          },
+          "platforms": [
+            "Android_9_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* EdgA/#MAJORVER#.*",
+          "devices": {
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F"
+          },
+          "platforms": [
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* EdgA/#MAJORVER#.*",
+          "devices": {
+            "Pixel XL": "Google Pixel XL"
+          },
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* EdgA/#MAJORVER#.*",
+          "devices": {
+            "LGMS210": "LG MS210"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* EdgA/#MAJORVER#.*",
+          "devices": {
+            "SM-G935F": "Samsung SM-G935F"
+          },
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* EdgA/#MAJORVER#.*",
+          "devices": {
+            "SM-G920F": "Samsung SM-G920F"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* EdgA/#MAJORVER#.*",
+          "devices": {
+            "SCH-I545": "Samsung SCH-I545"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* EdgA/#MAJORVER#.*",
+          "platforms": [
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

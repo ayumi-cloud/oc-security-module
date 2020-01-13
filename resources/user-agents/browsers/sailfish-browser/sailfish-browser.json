@@ -1,0 +1,63 @@
+{
+  "division": "Sailfish Browser #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 3020,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Sailfish Browser #MAJORVER#.#MINORVER#",
+      "browser": "sailfish browser",
+      "platform": "SailfishOS",
+      "engine": "Gecko",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sailfish Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (*Jolla#PLATFORM#Tablet*) Gecko* Firefox/* SailfishBrowser/#MAJORVER#.#MINORVER#*",
+          "device": "Jolla Tablet",
+          "platforms": [
+            "SailfishOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Jolla#PLATFORM#) Gecko* Firefox/* SailfishBrowser/#MAJORVER#.#MINORVER#*",
+          "device": "Jolla Phone",
+          "platforms": [
+            "SailfishOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* SailfishBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SailfishOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Jolla#PLATFORM#Tablet*) applewebkit* (*khtml*like*gecko*) Mobile Safari/*",
+          "device": "Jolla Tablet",
+          "platforms": [
+            "SailfishOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Jolla#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile Safari/*",
+          "device": "Jolla Phone",
+          "platforms": [
+            "SailfishOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile Safari/*",
+          "platforms": [
+            "SailfishOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

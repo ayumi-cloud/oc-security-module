@@ -1,0 +1,29 @@
+{
+  "division": "RealPlayer Downloader",
+  "sortIndex": 9900,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "RealPlayer Downloader",
+      "browser": "realplayer downloader",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "RealPlayer Downloader",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "RealPlayer%20Downloader* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

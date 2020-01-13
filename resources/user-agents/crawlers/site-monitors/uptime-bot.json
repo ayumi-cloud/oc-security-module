@@ -1,0 +1,27 @@
+{
+  "division": "Uptimebot",
+  "sortIndex": 491,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Uptimebot",
+      "browser": "uptimebot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Uptimebot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Uptimebot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Uptimebot/*"
+        }
+      ]
+    }
+  ]
+}

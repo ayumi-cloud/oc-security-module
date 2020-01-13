@@ -1,0 +1,28 @@
+{
+  "division": "Group Sense PDA",
+  "sortIndex": 5120,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Group Sense PDA",
+      "browser": "gspda",
+      "platform": "PalmOS",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Group Sense PDA",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Xplore G 18 *"
+        },
+        {
+          "match": "Xplore M28 *"
+        }
+      ]
+    }
+  ]
+}

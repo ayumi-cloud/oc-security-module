@@ -1,0 +1,419 @@
+{
+  "division": "Apple Mail",
+  "sortIndex": 1180,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Apple Mail Generic for iOS",
+      "browser": "apple mail",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple Mail Generic for iOS",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Apple Mail for Darwin",
+      "browser": "apple mail",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple Mail for Darwin",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mail/* CFNetwork/459*",
+          "platforms": [
+            "iOS_A_3_1"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/467.12*",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/485.2*",
+          "platforms": [
+            "iOS_A_4_0"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/485.10*",
+          "platforms": [
+            "iOS_A_4_1"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/485.12*",
+          "platforms": [
+            "iOS_A_4_2"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/485.13*",
+          "platforms": [
+            "iOS_A_4_3"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/548.1*",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/548.0*",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/602*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/609.1*",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/609*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/672.0*",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/672.1*",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/711.0*",
+          "platforms": [
+            "iOS_A_8_0"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/711.1*",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/711.2*",
+          "platforms": [
+            "iOS_A_8_2"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/711.3*",
+          "platforms": [
+            "iOS_A_8_3"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/711.4*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/711.5*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/758*",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/811*",
+          "platforms": [
+            "iOS_A_10_3"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/*",
+          "platforms": [
+            "iOS"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Apple Mail for OSX",
+      "browser": "apple mail",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple Mail for OSX",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_15"
+          ],
+          "properties": {
+            "Version": "13.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_14"
+          ],
+          "properties": {
+            "Version": "12.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_13"
+          ],
+          "properties": {
+            "Version": "11.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_12"
+          ],
+          "properties": {
+            "Version": "10.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_11"
+          ],
+          "properties": {
+            "Version": "9.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10"
+          ],
+          "properties": {
+            "Version": "8.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_9"
+          ],
+          "properties": {
+            "Version": "7.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_8"
+          ],
+          "properties": {
+            "Version": "6.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_7"
+          ],
+          "properties": {
+            "Version": "5.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_6"
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_5"
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_4"
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_3"
+          ],
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mail/* CFNetwork/760*",
+          "platforms": [
+            "OSX_10_11"
+          ],
+          "properties": {
+            "Version": "9.0"
+          }
+        },
+        {
+          "match": "Mail/* CFNetwork/807*",
+          "platforms": [
+            "OSX_10_12"
+          ],
+          "properties": {
+            "Version": "10.0"
+          }
+        },
+        {
+          "match": "Mail/* CFNetwork/811*(x86_64)*",
+          "platforms": [
+            "OSX_10_12"
+          ],
+          "properties": {
+            "Version": "10.0"
+          }
+        },
+        {
+          "match": "Mail/* CFNetwork/887*(x86_64)*",
+          "platforms": [
+            "OSX_10_13"
+          ],
+          "properties": {
+            "Version": "11.0"
+          }
+        }
+      ]
+    },
+    {
+      "userAgent": "Apple Mail for Windows",
+      "browser": "apple mail",
+      "platform": "Windows",
+      "engine": "WebKit",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple Mail for Windows",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

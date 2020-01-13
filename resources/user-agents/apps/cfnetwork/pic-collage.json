@@ -1,0 +1,38 @@
+{
+  "division": "Pic Collage",
+  "sortIndex": 9770,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Pic Collage",
+      "browser": "pic collage",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pic Collage",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Pic%20Collage/2.10* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "2.10"
+          }
+        },
+        {
+          "match": "Pic%20Collage/* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

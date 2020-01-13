@@ -1,0 +1,53 @@
+{
+  "division": "Access NetFront #MAJORVER#.#MINORVER#",
+  "versions": ["3.5", "3.4", "3.3", "3.2", "3.1"],
+  "sortIndex": 1541,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NetFront NX #MAJORVER#.#MINORVER#",
+      "browser": "netfront nx",
+      "engine": "WebKit",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NetFront NX #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/*NetFront#MAJORVER#.#MINORVER# Profile/MIDP-2.0 Configuration/CLDC-1.1*",
+          "devices": {
+            "SAMSUNG-GT-S3501C": "Samsung GT-S3501C"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "#DEVICE#/*NetFront/#MAJORVER#.#MINORVER# Profile/MIDP-2.0 Configuration/CLDC-1.1*",
+          "devices": {
+            "SAMSUNG-GT-S3350": "Samsung GT-S3350",
+            "SonyEricssonK550i": "SonyEricsson K550i"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "SAMSUNG*/*NetFront#MAJORVER#.#MINORVER# Profile/MIDP-2.0 Configuration/CLDC-1.1*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "SAMSUNG*/*NetFront/#MAJORVER#.#MINORVER# Profile/MIDP-2.0 Configuration/CLDC-1.1*",
+          "platforms": [
+            "JAVA"
+          ]
+        }
+      ]
+    }
+  ]
+}

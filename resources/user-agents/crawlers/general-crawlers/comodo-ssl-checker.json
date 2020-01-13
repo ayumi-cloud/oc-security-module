@@ -1,0 +1,21 @@
+{
+  "division": "Comodo SSL Checker",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Comodo SSL Checker",
+      "browser": "comodo ssl checker",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Comodo SSL Checker"
+      },
+      "children": [
+        {
+          "match": "Comodo SSL Checker*"
+        }
+      ]
+    }
+  ]
+}

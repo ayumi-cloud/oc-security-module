@@ -1,0 +1,31 @@
+{
+  "division": "Crowsnest Mobile App",
+  "sortIndex": 2280,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Crowsnest Mobile App",
+      "browser": "crowsnest mobile app",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Crowsnest Mobile App",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Crowsnest/0.5*",
+          "properties": {
+            "Version": "0.5"
+          }
+        },
+        {
+          "match": "Crowsnest*"
+        }
+      ]
+    }
+  ]
+}

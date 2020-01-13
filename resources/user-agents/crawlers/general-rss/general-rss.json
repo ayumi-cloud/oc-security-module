@@ -1,0 +1,94 @@
+{
+  "division": "General RSS",
+  "sortIndex": 380,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "General RSS",
+      "browser": "general rss",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General RSS"
+      },
+      "children": [
+        {
+          "match": "BlijbolReallySimpleAggregator/2.0*",
+          "browser": "blijbolreallysimpleaggregator"
+        },
+        {
+          "match": "CC Metadata Scaper http://wiki.creativecommons.org/Metadata_Scraper",
+          "browser": "cc metadata scaper"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible) GM RSS Panel",
+          "browser": "rss panel"
+        },
+        {
+          "match": "Mozilla/5.0 http://www.inclue.com; graeme@inclue.com",
+          "browser": "inclue"
+        },
+        {
+          "match": "Runnk online rss reader : http://www.runnk.com/ : RSS favorites : RSS ranking : RSS aggregator*",
+          "browser": "ruunk"
+        },
+        {
+          "match": "UniversalFeedParser/5.2*",
+          "browser": "universalfeedparser",
+          "properties": {
+            "Version": "5.2"
+          }
+        },
+        {
+          "match": "UniversalFeedParser/4.1*",
+          "browser": "universalfeedparser",
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "UniversalFeedParser/4.0*",
+          "browser": "universalfeedparser",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "UniversalFeedParser/5.1*",
+          "browser": "universalfeedparser",
+          "properties": {
+            "Version": "5.1"
+          }
+        },
+        {
+          "match": "UniversalFeedParser/5.*",
+          "browser": "universalfeedparser",
+          "properties": {
+            "Version": "5.0"
+          }
+        },
+        {
+          "match": "RSSOwl/*",
+          "browser": "rssowl"
+        },
+        {
+          "match": "HiddenMarket-*",
+          "browser": "hiddenmarket"
+        },
+        {
+          "match": "Digg Feed Fetcher 1.0 (Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*",
+          "browser": "digg feed fetcher",
+          "engine": "WebKit",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7",
+            "OSX"
+          ],
+          "properties": {
+            "Version": "1.0"
+          }
+        }
+      ]
+    }
+  ]
+}

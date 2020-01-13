@@ -1,0 +1,47 @@
+{
+  "division": "Terra",
+  "sortIndex": 10790,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Terra",
+      "browser": "terra",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Terra",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Terra/1.1* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "Terra/1.2* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "Terra/* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

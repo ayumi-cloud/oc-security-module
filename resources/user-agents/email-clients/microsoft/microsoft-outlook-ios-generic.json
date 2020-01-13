@@ -1,0 +1,38 @@
+{
+  "division": "Microsoft Outlook Generic for iOS",
+  "sortIndex": 1648,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft Outlook Generic for iOS",
+      "browser": "outlook",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft Outlook Generic for iOS"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Outlook-iOS-Android/* Safari/*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_9_3",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Outlook-iOS-Android/* Safari/*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

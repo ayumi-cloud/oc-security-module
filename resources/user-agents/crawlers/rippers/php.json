@@ -1,0 +1,163 @@
+{
+  "division": "PHP",
+  "sortIndex": 890,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "PHP",
+      "browser": "php",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PHP"
+      },
+      "children": [
+        {
+          "match": "httpclient (http://www.phpclasses.org/httpclient $Revision:*",
+          "browser": "httpclient"
+        },
+        {
+          "match": "PECL::HTTP/1.6*",
+          "browser": "pecl http",
+          "properties": {
+            "Version": "1.6"
+          }
+        },
+        {
+          "match": "PECL::HTTP/1.7*",
+          "browser": "pecl http",
+          "properties": {
+            "Version": "1.7"
+          }
+        },
+        {
+          "match": "PECL::HTTP/*",
+          "browser": "pecl http"
+        },
+        {
+          "match": "?Ogg.class.php*"
+        },
+        {
+          "match": "Ogg.class.php*"
+        },
+        {
+          "match": "xmlrpc-epi-php/* (PHP)"
+        },
+        {
+          "match": "PHP-SOAP/5.2*",
+          "browser": "php-soap",
+          "properties": {
+            "Version": "5.2"
+          }
+        },
+        {
+          "match": "PHP-SOAP/5.3*",
+          "browser": "php-soap",
+          "properties": {
+            "Version": "5.3"
+          }
+        },
+        {
+          "match": "PHP-SOAP/5.4*",
+          "browser": "php-soap",
+          "properties": {
+            "Version": "5.4"
+          }
+        },
+        {
+          "match": "PHP-SOAP/5.5*",
+          "browser": "php-soap",
+          "properties": {
+            "Version": "5.5"
+          }
+        },
+        {
+          "match": "PHP-SOAP/5.6*",
+          "browser": "php-soap",
+          "properties": {
+            "Version": "5.6"
+          }
+        },
+        {
+          "match": "PHP-SOAP/*",
+          "browser": "php-soap"
+        },
+        {
+          "match": "XML-RPC for PHP *",
+          "browser": "xml-rpc for php"
+        },
+        {
+          "match": "Zend_XmlRpc_Client",
+          "browser": "zend_xmlrpc_client"
+        },
+        {
+          "match": "Zend_Http_Client",
+          "browser": "zend_http_client"
+        },
+        {
+          "match": "PHP/5.2*",
+          "properties": {
+            "Version": "5.2"
+          }
+        },
+        {
+          "match": "PHP/5.3*",
+          "properties": {
+            "Version": "5.3"
+          }
+        },
+        {
+          "match": "PHP/5.4*",
+          "properties": {
+            "Version": "5.4"
+          }
+        },
+        {
+          "match": "PHP/5.5*",
+          "properties": {
+            "Version": "5.5"
+          }
+        },
+        {
+          "match": "PHP/5.6*",
+          "properties": {
+            "Version": "5.6"
+          }
+        },
+        {
+          "match": "PHP*"
+        },
+        {
+          "match": "GuzzleHttp/6.1*",
+          "browser": "guzzle http client",
+          "properties": {
+            "Version": "6.1"
+          }
+        },
+        {
+          "match": "GuzzleHttp/*",
+          "browser": "guzzle http client"
+        },
+        {
+          "match": "Guzzle/4.2*",
+          "browser": "guzzle http client",
+          "properties": {
+            "Version": "4.2"
+          }
+        },
+        {
+          "match": "Guzzle/*",
+          "browser": "guzzle http client"
+        },
+        {
+          "match": "Taproot*",
+          "browser": "taproot bot"
+        },
+        {
+          "match": "PHPCrawl*",
+          "browser": "phpcrawl"
+        }
+      ]
+    }
+  ]
+}

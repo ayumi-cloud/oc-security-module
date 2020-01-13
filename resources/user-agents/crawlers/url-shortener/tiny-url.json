@@ -1,0 +1,22 @@
+{
+  "division": "TinyURL",
+  "sortIndex": 171,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TinyURL",
+      "browser": "tinyurl",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TinyURL"
+      },
+      "children": [
+        {
+          "match": "Rome Client (http://tinyurl.com/64t5n) Ver: 0.*",
+          "browser": "tinyurl"
+        }
+      ]
+    }
+  ]
+}

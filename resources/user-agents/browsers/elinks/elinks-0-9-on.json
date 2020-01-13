@@ -1,0 +1,92 @@
+{
+  "division": "ELinks #MAJORVER#.#MINORVER#",
+  "versions": ["0.13", "0.12", "0.11", "0.10", "0.9"],
+  "sortIndex": 2300,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ELinks #MAJORVER#.#MINORVER#",
+      "browser": "elinks",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ELinks #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "ELinks (#MAJORVER#.#MINORVER##PLATFORM#)",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "ELinks (#MAJORVER#.#MINORVER##PLATFORM#)",
+          "device": "Windows Desktop",
+          "platforms": [
+            "CygWin"
+          ]
+        },
+        {
+          "match": "ELinks (#MAJORVER#.#MINORVER##PLATFORM#)",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "HPUX_2",
+            "IRIX64_2",
+            "BeOS",
+            "SunOS",
+            "OS2",
+            "Unix",
+            "AIX",
+            "Tru64_Unix",
+            "Solaris",
+            "Darwin",
+            "RISC_OS"
+          ]
+        },
+        {
+          "match": "ELinks/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "ELinks/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "device": "Windows Desktop",
+          "platforms": [
+            "CygWin"
+          ]
+        },
+        {
+          "match": "ELinks/#MAJORVER#.#MINORVER#* (#PLATFORM#)",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "HPUX_2",
+            "IRIX64_2",
+            "BeOS",
+            "SunOS",
+            "OS2",
+            "Unix",
+            "AIX",
+            "Tru64_Unix",
+            "Solaris",
+            "Darwin",
+            "RISC_OS"
+          ]
+        },
+        {
+          "match": "ELinks/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "division": "My Internet Browser #MAJORVER#.#MINORVER#",
+  "versions": [5],
+  "sortIndex": 2450,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "My Internet Browser #MAJORVER#.#MINORVER#",
+      "browser": "my internet browser",
+      "platform": "Windows",
+      "engine": "Gecko",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "My Internet Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Whistler* myibrow/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Win7_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

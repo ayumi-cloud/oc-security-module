@@ -1,0 +1,27 @@
+{
+  "division": "visionutils",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "visionutils",
+      "browser": "visionutils",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "visionutils"
+      },
+      "children": [
+        {
+          "match": "visionutils/0.2*",
+          "properties": {
+            "Version": "0.2"
+          }
+        },
+        {
+          "match": "visionutils/*"
+        }
+      ]
+    }
+  ]
+}

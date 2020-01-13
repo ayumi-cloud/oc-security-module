@@ -1,0 +1,28 @@
+{
+  "division": "Experibot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Experibot",
+      "browser": "experibot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Experibot",
+        "Alpha": true
+      },
+      "children": [
+        {
+          "match": "Experibot_v1*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Experibot*"
+        }
+      ]
+    }
+  ]
+}

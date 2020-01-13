@@ -1,0 +1,152 @@
+{
+  "division": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
+  "versions": ["2.2"],
+  "sortIndex": 7350,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
+      "browser": "motorola internet browser",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "MOT-?Hybrid?/0E.30.1ER MIB/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "#DEVICE#/*",
+          "devices": {
+            "MOT-A768": "Motorola A768",
+            "MOT-E8": "Motorola E8"
+          }
+        },
+        {
+          "match": "#DEVICE#*",
+          "devices": {
+            "MOT-V3r": "Motorola V3r"
+          }
+        },
+        {
+          "match": "#DEVICE#/* MIB/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MOT-280": "Motorola 280",
+            "MOT-A630": "Motorola A630",
+            "MOT-A728": "Motorola A728",
+            "MOT-A760": "Motorola A760",
+            "MOT-A760i": "Motorola A760i",
+            "MOT-A768i": "Motorola A768i",
+            "MOT-A835": "Motorola A835",
+            "MOT-A845": "Motorola A845",
+            "MOT-C380": "Motorola C380",
+            "MOT-C381": "Motorola C381",
+            "MOT-C381p": "Motorola C381p",
+            "MOT-C385": "Motorola C385",
+            "MOT-C390": "Motorola C390",
+            "MOT-C450": "Motorola C450",
+            "MOT-C550": "Motorola C550",
+            "MOT-C650": "Motorola C650",
+            "MOT-C975": "Motorola C975",
+            "MOT-C980": "Motorola C980",
+            "MOT-E1 iTunes": "Motorola E1 iTunes",
+            "MOT-E1000": "Motorola E1000",
+            "MOT-E1000M": "Motorola E1000M",
+            "MOT-E375": "Motorola E375",
+            "MOT-E380": "Motorola E380",
+            "MOT-E398 ROKR": "Motorola E398",
+            "MOT-E398": "Motorola E398",
+            "MOT-E398B": "Motorola E398B",
+            "MOT-E550": "Motorola E550",
+            "MOT-E680": "Motorola E680",
+            "MOT-E790": "Motorola E790",
+            "MOT-K1v": "Motorola K1v",
+            "MOT-KLGO iTunes": "Motorola KLGO iTunes",
+            "MOT-KLGO": "Motorola KLGO",
+            "MOT-L2": "Motorola L2",
+            "MOT-L6": "Motorola L6",
+            "MOT-L6i": "Motorola L6i",
+            "MOT-L7": "Motorola L7",
+            "MOT-L7v": "Motorola L7v",
+            "MOT-PEBL U6": "Motorola PEBL U6",
+            "MOT-ROKR E1": "Motorola ROKR E1",
+            "MOT-U15": "Motorola U15",
+            "MOT-Unx": "Motorola Unx",
+            "MOT-V1050": "Motorola V1050",
+            "MOT-V180": "Motorola V180",
+            "MOT-V180ENS": "Motorola V180ENS",
+            "MOT-V185": "Motorola V185",
+            "MOT-V186": "Motorola V186",
+            "MOT-V188": "Motorola V188",
+            "MOT-V190": "Motorola V190",
+            "MOT-V191": "Motorola V191",
+            "MOT-V220": "Motorola V220",
+            "MOT-V220ENS": "Motorola V220ENS",
+            "MOT-V235": "Motorola V235",
+            "MOT-V270": "Motorola V270",
+            "MOT-V280": "Motorola V280",
+            "MOT-V3": "Motorola V3",
+            "MOT-V300": "Motorola V300",
+            "MOT-V303": "Motorola V303",
+            "MOT-V360": "Motorola V360",
+            "MOT-V360v": "Motorola V360v",
+            "MOT-V361": "Motorola V361",
+            "MOT-V365": "Motorola V365",
+            "MOT-V3e": "Motorola V3e",
+            "MOT-V3i": "Motorola V3i",
+            "MOT-V3i_iTunes": "Motorola V3i",
+            "MOT-V3ire": "Motorola V3ire",
+            "MOT-V3r": "Motorola V3r",
+            "MOT-V3re": "Motorola V3re",
+            "MOT-V400": "Motorola V400",
+            "MOT-V500": "Motorola V500",
+            "MOT-V505": "Motorola V505",
+            "MOT-V525M": "Motorola V525M",
+            "MOT-V535": "Motorola V535",
+            "MOT-V545": "Motorola V545",
+            "MOT-V547": "Motorola V547",
+            "MOT-V550": "Motorola V550",
+            "MOT-V551": "Motorola V551",
+            "MOT-V551J": "Motorola V551J",
+            "MOT-V555": "Motorola V555",
+            "MOT-V557": "Motorola V557",
+            "MOT-V557p": "Motorola V557p",
+            "MOT-V6": "Motorola V6",
+            "MOT-V600": "Motorola V600",
+            "MOT-V600i": "Motorola V600i",
+            "MOT-V620": "Motorola V620",
+            "MOT-V635": "Motorola V635",
+            "MOT-V8": "Motorola V8",
+            "MOT-V80": "Motorola V80",
+            "MOT-V975": "Motorola V975",
+            "MOT-V980": "Motorola V980",
+            "MOT-V980M": "Motorola V980M"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "#DEVICE#/* MIB/BER#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MOT-Canary": "Motorola Canary",
+            "MOT-E1070": "Motorola E1070",
+            "MOT-E770": "Motorola E770",
+            "MOT-E770v": "Motorola E770v",
+            "MOT-E825": "Motorola E825",
+            "MOT-K1": "Motorola K1",
+            "MOT-L7i": "Motorola L7i",
+            "MOT-RAZRV3x": "Motorola RAZRV3x",
+            "MOT-RAZRV3xv": "Motorola RAZRV3xv",
+            "MOT-V3i_iTunes": "Motorola V3i",
+            "MOT-W490": "Motorola W490",
+            "MOT-Z3": "Motorola Z3"
+          }
+        }
+      ]
+    }
+  ]
+}

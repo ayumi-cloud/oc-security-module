@@ -1,0 +1,34 @@
+{
+  "division": "Nokia Browser #MAJORVER#.#MINORVER#",
+  "versions": ["7.7"],
+  "sortIndex": 1786,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
+      "browser": "nokia browser",
+      "platform": "SymbianOS",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Nokia)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nokia Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Symbian/*; Series60/* #DEVICE#/*) applewebkit* (*khtml*like*gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "NokiaN8-00": "Nokia N8-00"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Symbian/*; Series60/*) applewebkit* (*khtml*like*gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*Safari/*"
+        }
+      ]
+    }
+  ]
+}

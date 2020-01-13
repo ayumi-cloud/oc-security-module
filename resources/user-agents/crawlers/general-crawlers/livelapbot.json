@@ -1,0 +1,33 @@
+{
+  "division": "Livelap Crawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Livelap Crawler",
+      "browser": "livelap crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Livelap Crawler"
+      },
+      "children": [
+        {
+          "match": "LivelapBot/0.2*",
+          "properties": {
+            "Version": "0.2"
+          }
+        },
+        {
+          "match": "LivelapBot/0.1*",
+          "properties": {
+            "Version": "0.1"
+          }
+        },
+        {
+          "match": "LivelapBot/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "division": "K-Meleon #MAJORVER#.#MINORVER#",
+  "versions": ["1.7", "1.6", "1.5", "1.1", 1, "0.9", "0.8"],
+  "sortIndex": 2450,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "K-Meleon #MAJORVER#.#MINORVER#",
+      "browser": "k-meleon",
+      "platform": "Windows",
+      "engine": "Gecko",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "K-Meleon #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* K-Meleon?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000",
+            "NT4_B",
+            "WinME",
+            "Win98",
+            "Win95"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* K-Meleon?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000",
+            "NT4_B",
+            "WinME",
+            "Win98",
+            "Win95"
+          ]
+        },
+        {
+          "match": "K-Meleon/#MAJORVER#.#MINORVER# (#PLATFORM#) Gecko* Mozilla/5.0",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* K-Meleon?#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64_amd", "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* K-Meleon?#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
+          ]
+        }
+      ]
+    }
+  ]
+}

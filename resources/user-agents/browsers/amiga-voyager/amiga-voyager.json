@@ -1,0 +1,46 @@
+{
+  "division": "Voyager",
+  "sortIndex": 944,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Voyager",
+      "browser": "voyager",
+      "platform": "Amiga",
+      "device": "Amiga",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Voyager",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "AmigaVoyager/3.2 (#PLATFORM#",
+          "platforms": [
+            "Amiga"
+          ],
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "AmigaVoyager/2.95 (#PLATFORM#",
+          "platforms": [
+            "Amiga"
+          ],
+          "properties": {
+            "Version": "2.95"
+          }
+        },
+        {
+          "match": "AmigaVoyager/#PLATFORM#",
+          "platforms": [
+            "Amiga"
+          ]
+        }
+      ]
+    }
+  ]
+}

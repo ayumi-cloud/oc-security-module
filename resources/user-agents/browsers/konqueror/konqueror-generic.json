@@ -1,0 +1,148 @@
+{
+  "division": "Konqueror Generic",
+  "sortIndex": 2491,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Konqueror Generic",
+      "browser": "konqueror",
+      "engine": "KHTML",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Konqueror Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#) KHTML/* (like Gecko)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/*; Debian) KHTML/* (like Gecko)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Debian"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#) KHTML/* (like Gecko)*",
+          "platforms": [
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "DragonFlyBSD",
+            "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#) KHTML/* (like Gecko)",
+          "device": "Windows Desktop",
+          "platforms": [
+            "CygWin",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#) KHTML/* (like Gecko)*",
+          "device": "Macintosh",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/*) KHTML/* (like Gecko)*"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) KHTML/* (like Gecko) Konqueror/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) KHTML/* (like Gecko) Konqueror/*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "DragonFlyBSD",
+            "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*) KHTML/* (like Gecko) Konqueror/*"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) konqueror/*",
+          "engine": "WebKit",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) konqueror/*",
+          "engine": "WebKit",
+          "platforms": [
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "DragonFlyBSD",
+            "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) konqueror/*",
+          "engine": "WebKit"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/#PLATFORM#",
+          "platforms": [
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "DragonFlyBSD",
+            "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Konqueror/*"
+        },
+        {
+          "match": "*Konqueror/#PLATFORM#",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "*Konqueror/#PLATFORM#",
+          "platforms": [
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "DragonFlyBSD",
+            "SunOS"
+          ]
+        },
+        {
+          "match": "*Konqueror/*"
+        }
+      ]
+    }
+  ]
+}

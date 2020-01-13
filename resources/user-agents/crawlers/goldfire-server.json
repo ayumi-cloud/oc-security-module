@@ -1,0 +1,21 @@
+{
+  "division": "Goldfire Server",
+  "sortIndex": 61,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Goldfire Server",
+      "browser": "goldfire server",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Goldfire Server"
+      },
+      "children": [
+        {
+          "match": "Goldfire Server*"
+        }
+      ]
+    }
+  ]
+}

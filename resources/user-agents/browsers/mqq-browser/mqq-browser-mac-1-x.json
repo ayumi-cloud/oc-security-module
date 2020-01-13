@@ -1,0 +1,30 @@
+{
+  "division": "MQQBrowser #MAJORVER#.#MINORVER# for Mac",
+  "versions": ["1.5", "1.4", 1],
+  "sortIndex": 1007,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QQBrowser #MAJORVER#.#MINORVER# for Mac",
+      "browser": "qqbrowser",
+      "platform": "OSX",
+      "engine": "Blink",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QQBrowser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* QQBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "platforms": [
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

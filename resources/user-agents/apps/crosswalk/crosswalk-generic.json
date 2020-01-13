@@ -1,0 +1,32 @@
+{
+  "division": "Crosswalk App Generic",
+  "sortIndex": 879,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Crosswalk App Generic",
+      "browser": "crosswalk app",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Crosswalk App Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Crosswalk/* Safari/*",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

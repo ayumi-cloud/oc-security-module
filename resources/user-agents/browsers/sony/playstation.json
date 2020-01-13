@@ -1,0 +1,104 @@
+{
+  "division": "Playstation",
+  "sortIndex": 1865,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Playstation Browser",
+      "browser": "playstation browser",
+      "platform": "OrbisOS",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Playstation Browser"
+      },
+      "children": [
+        {
+          "match": "Mozilla/* (PLAYSTATION 3*) applewebkit/*",
+          "device": "Sony PS3",
+          "platforms": [
+            "CellOS"
+          ]
+        },
+        {
+          "match": "Mozilla/* (PLAYSTATION 3*",
+          "engine": "NetFront",
+          "device": "Sony PS3",
+          "platforms": [
+            "CellOS"
+          ]
+        },
+        {
+          "match": "Mozilla/* (PLAYSTATION 4*",
+          "device": "Sony PS4"
+        }
+      ]
+    },
+    {
+      "userAgent": "Playstation Vita",
+      "browser": "playstation browser",
+      "platform": "PS_Vita",
+      "engine": "WebKit",
+      "device": "Sony PS Vita",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PlayStation Vita"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (PlayStation Vita*) applewebkit*"
+        },
+        {
+          "match": "Mozilla/5.0 (PlayStation Vita*",
+          "engine": "unknown"
+        },
+        {
+          "match": "Mozilla/* (PlayStation Vita*",
+          "engine": "unknown"
+        },
+        {
+          "match": "Mozilla/5.0 (PlayStation Vita*) applewebkit* (*khtml*like*gecko*) Silk/3.2*",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (PlayStation Vita*) applewebkit* (*khtml*like*gecko*) Silk/*"
+        }
+      ]
+    },
+    {
+      "userAgent": "Playstation",
+      "browser": "playstation",
+      "platform": "JAVA",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Playstation"
+      },
+      "children": [
+        {
+          "match": "Mozilla/* (PSP (PlayStation Portable)*)",
+          "browser": "sony psp",
+          "device": "Sony PSP"
+        },
+        {
+          "match": "Mozilla/* (PlayStation Portable)*",
+          "browser": "sony psp",
+          "device": "Sony PSP"
+        },
+        {
+          "match": "Sony PS2 (Linux)",
+          "browser": "sony ps2",
+          "device": "Sony PS2",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/* (PLAYSTATION*)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "division": "Bing Local Search",
+  "sortIndex": 1130,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Bing Local Search",
+      "browser": "bing local search bot",
+      "platform": "Windows",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Bing Local Search Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (BingLocalSearch)*",
+          "platforms": [
+            "Win8_1_64"
+          ]
+        }
+      ]
+    }
+  ]
+}

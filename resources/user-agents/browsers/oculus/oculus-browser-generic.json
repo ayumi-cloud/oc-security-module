@@ -1,0 +1,32 @@
+{
+  "division": "Oculus Browser Generic",
+  "sortIndex": 955,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Oculus Browser Generic",
+      "browser": "oculus browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Oculus Browser Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) OculusBrowser/* SamsungBrowser/*Chrome*VR*Safari*",
+          "platforms": [
+            "Android_9_0",
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

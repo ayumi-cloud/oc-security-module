@@ -1,0 +1,27 @@
+{
+  "division": "ContextAd Bot",
+  "sortIndex": 91,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ContextAd Bot",
+      "browser": "contextad bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ContextAd Bot"
+      },
+      "children": [
+        {
+          "match": "ContextAd Bot 1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "ContextAd Bot*"
+        }
+      ]
+    }
+  ]
+}

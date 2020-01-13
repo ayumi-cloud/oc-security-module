@@ -1,0 +1,60 @@
+{
+  "division": "Opera Mini #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 1937,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
+      "browser": "opera mini",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Opera/*(BlackBerry*Opera Mini/#MAJORVER#.*",
+          "device": "Blackberry Blackberry",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera/9.50 (J2ME/MIDP*Opera Mini/#MAJORVER#.*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera/*(Series 60*Opera Mini/#MAJORVER#.*",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "Opera/*(Windows Mobile*Opera Mini/#MAJORVER#.*",
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera/*(MTK*Opera Mini/#MAJORVER#.*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "division": "YahooFeedSeeker",
+  "sortIndex": 1420,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YahooFeedSeeker",
+      "browser": "yahoofeedseeker",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "YahooFeedSeeker"
+      },
+      "children": [
+        {
+          "match": "YahooFeedSeeker*"
+        }
+      ]
+    }
+  ]
+}

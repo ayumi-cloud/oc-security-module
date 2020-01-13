@@ -1,0 +1,40 @@
+{
+  "division": "Realplayer",
+  "sortIndex": 7120,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Realplayer",
+      "browser": "realplayer",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "RealPlayer"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* RealPlayer*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX"
+          ]
+        },
+        {
+          "match": "RealPlayer*",
+          "engine": "unknown",
+          "device": "unknown"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#applewebkit* RealPlayer*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

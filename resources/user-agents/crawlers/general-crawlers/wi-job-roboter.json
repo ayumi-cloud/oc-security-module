@@ -1,0 +1,27 @@
+{
+  "division": "WI Job Roboter",
+  "sortIndex": 1570,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WI Job Roboter",
+      "browser": "wi job roboter",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WI Job Roboter"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible;WI Job Roboter Spider Version 3*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible;WI Job Roboter Spider*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "division": "Miscellaneous Browsers",
+  "sortIndex": 430,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Miscellaneous Browsers",
+      "browser": "miscellaneous browsers",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Miscellaneous Browsers"
+      },
+      "children": [
+        {
+          "match": "*Amiga*",
+          "browser": "amiga",
+          "platforms": [
+            "Amiga"
+          ]
+        },
+        {
+          "match": "12345*",
+          "browser": "12345"
+        },
+        {
+          "match": "1st ZipCommander (Net) - http://www.zipcommander.com/",
+          "browser": "1st zipcommander"
+        },
+        {
+          "match": "Ace Explorer",
+          "browser": "ace explorer"
+        },
+        {
+          "match": "Enigma Browser*",
+          "browser": "enigma browser"
+        },
+        {
+          "match": "EVE-minibrowser/*",
+          "browser": "eve-minibrowser"
+        },
+        {
+          "match": "Godzilla/* (Basic*; *; Commodore C=64; *; rv:1.*)*",
+          "browser": "godzilla"
+        },
+        {
+          "match": "GreenBrowser",
+          "browser": "greenbrowser"
+        },
+        {
+          "match": "Kopiczek/* (WyderOS*; *)",
+          "browser": "kopiczek",
+          "platforms": [
+            "WyderOS"
+          ]
+        },
+        {
+          "match": "Mozilla/* (*) - BrowseX (*)",
+          "browser": "browsex"
+        },
+        {
+          "match": "Mozilla/* (Win32;*Escape?*; ?)",
+          "browser": "escape",
+          "platforms": [
+            "Win32"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; ibisBrowser)",
+          "browser": "ibisbrowser"
+        },
+        {
+          "match": "Mozilla/5.0 (Macintosh; ?; PPC Mac OS X;*) applewebkit* (*) HistoryHound/*",
+          "browser": "historyhound"
+        },
+        {
+          "match": "NetRecorder*",
+          "browser": "netrecorder"
+        },
+        {
+          "match": "NetSurf*",
+          "browser": "netsurf"
+        },
+        {
+          "match": "ogeb browser , Version 1.1.0",
+          "browser": "ogeb browser",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "SCEJ PSP BROWSER 0102pspNavigator",
+          "browser": "wipeout pure"
+        },
+        {
+          "match": "WWW_Browser/*",
+          "browser": "www browser",
+          "platforms": [
+            "Win16"
+          ],
+          "properties": {
+            "Version": "1.69"
+          }
+        },
+        {
+          "match": "WEB.DE MailCheck/2.4*",
+          "browser": "web.de mailcheck",
+          "properties": {
+            "Version": "2.4"
+          }
+        },
+        {
+          "match": "WEB.DE MailCheck/*",
+          "browser": "web.de mailcheck"
+        },
+        {
+          "match": "GMX MailCheck/2.3*",
+          "browser": "gmx mailcheck",
+          "properties": {
+            "Version": "2.3"
+          }
+        },
+        {
+          "match": "GMX MailCheck/2.4*",
+          "browser": "gmx mailcheck",
+          "properties": {
+            "Version": "2.4"
+          }
+        },
+        {
+          "match": "GMX MailCheck/*",
+          "browser": "gmx mailcheck"
+        },
+        {
+          "match": "T-Online Browser",
+          "browser": "t-online browser"
+        }
+      ]
+    }
+  ]
+}

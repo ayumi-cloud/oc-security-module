@@ -1,0 +1,53 @@
+{
+  "division": "WhatsApp",
+  "sortIndex": 11020,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WhatsApp for iOS",
+      "browser": "whatsapp",
+      "platform": "iOS_H",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WhatsApp"
+      },
+      "children": [
+        {
+          "match": "WhatsApp/2.6* #PLATFORM# Device/iPhone*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_H_5_0",
+            "iOS_H"
+          ],
+          "properties": {
+            "Version": "2.6"
+          }
+        },
+        {
+          "match": "WhatsApp/* #PLATFORM# Device/iPhone*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_H_5_0",
+            "iOS_H"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "WhatsApp",
+      "browser": "whatsapp",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WhatsApp"
+      },
+      "children": [
+        {
+          "match": "WhatsApp*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "division": "Research Projects",
+  "sortIndex": 1470,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Research Projects",
+      "browser": "research projects",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Research Projects"
+      },
+      "children": [
+        {
+          "match": "AcadiaUniversityWebCensusClient",
+          "browser": "acadiauniversitywebcensusclient"
+        },
+        {
+          "match": "Amico Alpha * (*) Gecko* AmicoAlpha/*",
+          "browser": "amico alpha"
+        },
+        {
+          "match": "annotate_google; http://ponderer.org/*",
+          "browser": "annotate google"
+        },
+        {
+          "match": "CMS crawler (?http://buytaert.net/crawler/)"
+        },
+        {
+          "match": "e-SocietyRobot(http://www.yama.info.waseda.ac.jp/~yamana/es/)",
+          "browser": "e-societyrobot"
+        },
+        {
+          "match": "Forschungsportal/*",
+          "browser": "forschungsportal"
+        },
+        {
+          "match": "Gulper Web *",
+          "browser": "gulper web bot"
+        },
+        {
+          "match": "HooWWWer/*",
+          "browser": "hoowwwer"
+        },
+        {
+          "match": "inetbot/* (?http://www.inetbot.com/bot.html)",
+          "browser": "inetbot"
+        },
+        {
+          "match": "JUST-CRAWLER(*)",
+          "browser": "just-crawler"
+        },
+        {
+          "match": "Lachesis",
+          "browser": "lachesis"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; nextthing.org/*)",
+          "browser": "nextthing.org",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Theophrastus/*)",
+          "browser": "theophrastus"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Webscan v0.*; +http://otc.dyndns.org/webscan/)",
+          "browser": "webscan"
+        },
+        {
+          "match": "MQbot*",
+          "browser": "mqbot"
+        },
+        {
+          "match": "OutfoxBot/*",
+          "browser": "outfoxbot"
+        },
+        {
+          "match": "polybot?*",
+          "browser": "polybot"
+        },
+        {
+          "match": "Shim?Crawler*",
+          "browser": "shim crawler"
+        },
+        {
+          "match": "Taiga web spider",
+          "browser": "taiga"
+        },
+        {
+          "match": "Theme Spider*",
+          "browser": "theme spider"
+        },
+        {
+          "match": "UofTDB_experiment* (leehyun@cs.toronto.edu)",
+          "browser": "uoftdb experiment"
+        },
+        {
+          "match": "USyd-NLP-Spider*",
+          "browser": "usyd-nlp-spider"
+        },
+        {
+          "match": "woriobot*",
+          "browser": "woriobot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; woriobot*",
+          "browser": "woriobot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; zitebot*",
+          "browser": "zitebot"
+        },
+        {
+          "match": "wwwster/* (Beta, mailto:gue@cis.uni-muenchen.de)",
+          "browser": "wwwster",
+          "properties": {
+            "Beta": true
+          }
+        },
+        {
+          "match": "Zao-Crawler",
+          "browser": "zao-crawler"
+        },
+        {
+          "match": "Zao/*",
+          "browser": "zao"
+        },
+        {
+          "match": "Amico Alpha * (*Gecko* AmicoAlpha/*"
+        },
+        {
+          "match": "Cloud mapping experiment. Contact research@pdrlabs.net",
+          "browser": "pdrlabs bot"
+        },
+        {
+          "match": "Finderlein Research Crawler 1.0*",
+          "browser": "finderlein research crawler",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Finderlein Research Crawler*",
+          "browser": "finderlein research crawler"
+        }
+      ]
+    }
+  ]
+}

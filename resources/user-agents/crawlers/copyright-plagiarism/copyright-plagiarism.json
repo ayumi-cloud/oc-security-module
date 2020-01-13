@@ -1,0 +1,58 @@
+{
+  "division": "Copyright/Plagiarism",
+  "sortIndex": 320,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Copyright/Plagiarism",
+      "browser": "copyright/plagiarism",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Copyright/Plagiarism"
+      },
+      "children": [
+        {
+          "match": "BDFetch",
+          "browser": "bdfetch"
+        },
+        {
+          "match": "copyright sheriff (*)",
+          "browser": "copyright sheriff"
+        },
+        {
+          "match": "CopyRightCheck*",
+          "browser": "copyrightcheck"
+        },
+        {
+          "match": "FairAd Client*",
+          "browser": "fairad client"
+        },
+        {
+          "match": "iCopyright Conductor*",
+          "browser": "icopyright conductor"
+        },
+        {
+          "match": "IPiumBot laurion(dot)com",
+          "browser": "ipiumbot"
+        },
+        {
+          "match": "IWAgent/*",
+          "browser": "brand protect"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; DKIMRepBot/*)",
+          "browser": "dkimrepbot"
+        },
+        {
+          "match": "SlySearch/*",
+          "browser": "slysearch"
+        },
+        {
+          "match": "TutorGigBot/*",
+          "browser": "tutorgig"
+        }
+      ]
+    }
+  ]
+}

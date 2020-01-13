@@ -1,0 +1,33 @@
+{
+  "division": "Xenus Link Sleuth",
+  "sortIndex": 410,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Xenus Link Sleuth",
+      "browser": "xenus link sleuth",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Xenus Link Sleuth"
+      },
+      "children": [
+        {
+          "match": "Xenu* Link Sleuth?1.3*",
+          "properties": {
+            "Version": "1.3"
+          }
+        },
+        {
+          "match": "Xenu* Link Sleuth?1.2*",
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "Xenu* Link Sleuth*"
+        }
+      ]
+    }
+  ]
+}

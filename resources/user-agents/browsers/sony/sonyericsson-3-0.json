@@ -1,0 +1,36 @@
+{
+  "division": "SonyEricsson #MAJORVER#.#MINORVER#",
+  "versions": [3],
+  "sortIndex": 10671,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SonyEricsson #MAJORVER#.#MINORVER#",
+      "browser": "semc",
+      "platform": "SymbianOS",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SonyEricsson #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/* SEMC-Browser/Symbian/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SonyEricssonP910a": "SonyEricsson P910a",
+            "SonyEricssonP910c": "SonyEricsson P910c",
+            "SonyEricssonP910i": "SonyEricsson P910i"
+          }
+        },
+        {
+          "match": "*/* SEMC-Browser/Symbian/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone"
+        }
+      ]
+    }
+  ]
+}

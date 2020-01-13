@@ -1,0 +1,47 @@
+{
+  "division": "M3Gate",
+  "sortIndex": 6890,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "M3Gate",
+      "browser": "m3gate",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "M3Gate",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "M3GATE/0.4*",
+          "properties": {
+            "Version": "0.4"
+          }
+        },
+        {
+          "match": "M3Gate/0.6*",
+          "properties": {
+            "Version": "0.6"
+          }
+        },
+        {
+          "match": "M3Gate/1.2*",
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "M3Gate*"
+        },
+        {
+          "match": "M3*"
+        }
+      ]
+    }
+  ]
+}

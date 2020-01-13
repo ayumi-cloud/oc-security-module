@@ -1,0 +1,27 @@
+{
+  "division": "WebCrawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WebCrawler",
+      "browser": "webcrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WebCrawler"
+      },
+      "children": [
+        {
+          "match": "WebCrawler_1.*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "WebCrawler_*"
+        }
+      ]
+    }
+  ]
+}

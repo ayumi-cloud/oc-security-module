@@ -1,0 +1,31 @@
+{
+  "division": "EudoraWeb",
+  "sortIndex": 4060,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "EudoraWeb",
+      "browser": "eudoraweb",
+      "platform": "PalmOS_3",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "EudoraWeb",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/1.22 (*compatible*;*MSIE 5.01; Palm OS 3.0) EudoraWeb 2.1"
+        },
+        {
+          "match": "Mozilla/1.22 (*compatible*;*MSIE 5.01; PalmOS 3.0) EudoraWeb 2"
+        },
+        {
+          "match": "Mozilla/1.22 (*compatible*;*MSIE 5.01; PalmOS 3.0) EudoraWeb 2.1"
+        }
+      ]
+    }
+  ]
+}

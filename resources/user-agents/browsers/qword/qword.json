@@ -1,0 +1,30 @@
+{
+  "division": "Qword Browser #MAJORVER#.#MINORVER#",
+  "versions": [35],
+  "sortIndex": 883,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Qword Browser #MAJORVER#.#MINORVER#",
+      "browser": "qword browser",
+      "platform": "Windows",
+      "engine": "WebKit",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Qword Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Qword/#MAJORVER#.* Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

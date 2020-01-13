@@ -1,0 +1,42 @@
+{
+  "division": "Fluid #MAJORVER#.#MINORVER#",
+  "versions": ["0.9"],
+  "sortIndex": 2400,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Fluid #MAJORVER#.#MINORVER#",
+      "browser": "fluid",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Fluid #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Fluid/#MAJORVER#.#MINORVER#*Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Fluid/#MAJORVER#.#MINORVER#*Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000",
+            "WinME"
+          ]
+        }
+      ]
+    }
+  ]
+}

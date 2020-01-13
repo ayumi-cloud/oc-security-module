@@ -1,0 +1,27 @@
+{
+  "division": "Moreover",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Moreover",
+      "browser": "moreover",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Moreover"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 Moreover/5.1*",
+          "properties": {
+            "Version": "5.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 Moreover/*"
+        }
+      ]
+    }
+  ]
+}

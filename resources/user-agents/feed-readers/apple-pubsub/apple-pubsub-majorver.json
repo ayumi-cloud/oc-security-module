@@ -1,0 +1,26 @@
+{
+  "division": "Apple PubSub #MAJORVER#",
+  "versions": [65, 61, 28],
+  "sortIndex": 372,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Apple PubSub #MAJORVER#",
+      "browser": "apple pubsub",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple PubSub #MAJORVER#",
+        "Version": "#MAJORVER#"
+      },
+      "children": [
+        {
+          "match": "Apple-PubSub/#MAJORVER#"
+        }
+      ]
+    }
+  ]
+}

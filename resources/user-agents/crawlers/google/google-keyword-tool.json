@@ -1,0 +1,24 @@
+{
+  "division": "Google Keyword Tool",
+  "sortIndex": 1120,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google Keyword Tool",
+      "browser": "google keyword tool",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google Keyword Tool"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Google Keyword Tool;*)"
+        },
+        {
+          "match": "Mozilla/5.0 (*Google Keyword Tool*)"
+        }
+      ]
+    }
+  ]
+}

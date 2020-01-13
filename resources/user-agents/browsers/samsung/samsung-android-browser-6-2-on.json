@@ -1,0 +1,375 @@
+{
+  "division": "Samsung Browser #MAJORVER#.#MINORVER#",
+  "versions": ["10.2", "10.1", 10, "9.4", "9.3", "9.2", 9, "8.3", "8.2", 8, "7.4", "7.2", 7, "6.4", "6.3", "6.2"],
+  "sortIndex": 954,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Samsung Browser #MAJORVER#.#MINORVER#",
+      "browser": "samsung browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-T510": "Samsung SM-T510",
+            "SM-T720": "Samsung SM-T720"
+          },
+          "platforms": [
+            "Android_9_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-T387V": "Samsung SM-T387V"
+          },
+          "platforms": [
+            "Android_8_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-A105F": "Samsung SM-A105F",
+            "SM-A205F": "Samsung SM-A205F",
+            "SM-A305F": "Samsung SM-A305F",
+            "SM-A505F": "Samsung SM-A505F",
+            "SM-A600FN": "Samsung SM-A600FN",
+            "SM-A600G": "Samsung SM-A600G",
+            "SM-A605F": "Samsung SM-A605F",
+            "SM-A605FN": "Samsung SM-A605FN",
+            "SM-A605G": "Samsung SM-A605G",
+            "SM-A730F": "Samsung SM-A730F",
+            "SM-A750F": "Samsung SM-A750F",
+            "SM-A920F": "Samsung SM-A920F",
+            "SM-G950F": "Samsung SM-G950F",
+            "SM-G955F": "Samsung SM-G955F",
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G975F": "Samsung SM-G975F",
+            "SM-J400F": "Samsung SM-J400F",
+            "SM-J415F": "Samsung SM-J415F",
+            "SM-J600F": "Samsung SM-J600F",
+            "SM-J600G": "Samsung SM-J600G",
+            "SM-J610F": "Samsung SM-J610F",
+            "SM-J810G": "Samsung SM-J810G",
+            "SM-J810Y": "Samsung SM-J810Y",
+            "SM-N950F": "Samsung SM-N950F",
+            "SM-N960F": "Samsung SM-N960F",
+            "SM-T510": "Samsung SM-T510",
+            "SM-T830": "Samsung SM-T830"
+          },
+          "platforms": [
+            "Android_9_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-T837V": "Samsung SM-T837V"
+          },
+          "platforms": [
+            "Android_8_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "TA-1021": "Nokia TA-1021"
+          },
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-G920F*": "Samsung SM-G920F"
+          },
+          "platforms": [
+            "Android_8_0",
+            "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-A520F": "Samsung SM-A520F",
+            "SM-G930F": "Samsung SM-G930F"
+          },
+          "platforms": [
+            "Android_8_0",
+            "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-A605F": "Samsung SM-A605F",
+            "SM-G935F": "Samsung SM-G935F",
+            "SM-G935W8": "Samsung SM-G935W8",
+            "SM-G950F": "Samsung SM-G950F",
+            "SM-G955F*": "Samsung SM-G955F",
+            "SM-G960U": "Samsung SM-G960U",
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F",
+            "SM-J600G": "Samsung SM-J600G",
+            "SM-J720F": "Samsung SM-J720F",
+            "SM-T830": "Samsung SM-T830"
+          },
+          "platforms": [
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-J250F": "Samsung SM-J250F",
+            "SM-G611FF": "Samsung SM-G611FF",
+            "SM-T385": "Samsung SM-T385"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-J320FN*": "Samsung SM-J320FN",
+            "SM-J320F*": "Samsung SM-J320F"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-A510F": "Samsung SM-A510F",
+            "SM-G485F": "Samsung SM-G485F",
+            "SM-G610F": "Samsung SM-G610F",
+            "SM-G615F": "Samsung SM-G615F",
+            "SM-G930V": "Samsung SM-G930V",
+            "SM-G935T": "Samsung SM-G935T",
+            "SM-G950F": "Samsung SM-G950F",
+            "SM-J330FN": "Samsung SM-J330FN",
+            "SM-J530F": "Samsung SM-J530F",
+            "SM-J701F": "Samsung SM-J701F",
+            "SM-N920C": "Samsung SM-N920C",
+            "SM-T580": "Samsung SM-T580"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-G935F": "Samsung SM-G935F",
+            "SM-N9208": "Samsung SM-N9208"
+          },
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-A320F*": "Samsung SM-A320F",
+            "SM-A520S": "Samsung SM-A520S",
+            "SM-A720F": "Samsung SM-A720F",
+            "SM-A810F": "Samsung SM-A810F",
+            "SM-A810S": "Samsung SM-A810S",
+            "SM-A810YZ": "Samsung SM-A810YZ",
+            "SM-C9000": "Samsung SM-C9000",
+            "SM-C900F": "Samsung SM-C900F",
+            "SM-G532F": "Samsung SM-G532F",
+            "SM-G532G": "Samsung SM-G532G",
+            "SM-G532M": "Samsung SM-G532M",
+            "SM-G610Y": "Samsung SM-G610Y",
+            "SM-G900T": "Samsung SM-G900T",
+            "SM-J120A": "Samsung SM-J120A",
+            "SM-J327P": "Samsung SM-J327P",
+            "SM-J510FN": "Samsung SM-J510FN",
+            "SM-J700F": "Samsung SM-J700F",
+            "SM-N910F*": "Samsung SM-N910F",
+            "SM-N9200": "Samsung SM-N9200",
+            "SM-N920K*": "Samsung SM-N920K",
+            "SM-N920L": "Samsung SM-N920L",
+            "SM-N920S": "Samsung SM-N920S",
+            "SM-N930A": "Samsung SM-N930A",
+            "SM-N930F": "Samsung SM-N930F",
+            "SM-N930P": "Samsung SM-N930P",
+            "SM-N930T": "Samsung SM-N930T",
+            "SM-N930V": "Samsung SM-N930V",
+            "SM-T800": "Samsung SM-T800"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-G800A": "Samsung SM-G800A",
+            "SM-T705*": "Samsung SM-T705"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-A500F": "Samsung SM-A500F",
+            "SM-A500FU*": "Samsung SM-A500FU",
+            "SM-A500H": "Samsung SM-A500H",
+            "SM-A500W*": "Samsung SM-A500W"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-G360T1": "Samsung SM-G360T1",
+            "SM-G900T": "Samsung SM-G900T",
+            "SM-G920I": "Samsung SM-G920I",
+            "SM-G920P": "Samsung SM-G920P",
+            "SM-G920T": "Samsung SM-G920T",
+            "SM-G920T1": "Samsung SM-G920T1",
+            "SM-G925I": "Samsung SM-G925I",
+            "SM-G925P": "Samsung SM-G925P",
+            "SM-G925R4*": "Samsung SM-G925R4",
+            "SM-G928A": "Samsung SM-G928A",
+            "SM-G928F*": "Samsung SM-G928F",
+            "SM-G928G": "Samsung SM-G928G",
+            "SM-G928I": "Samsung SM-G928I",
+            "SM-G928P": "Samsung SM-G928P",
+            "SM-G928R*": "Samsung SM-G928R",
+            "SM-G928T": "Samsung SM-G928T",
+            "SM-G928V": "Samsung SM-G928V",
+            "SM-J200G": "Samsung SM-J200G",
+            "SM-J200GU": "Samsung SM-J200GU",
+            "SM-J320G": "Samsung SM-J320G",
+            "SM-J320M": "Samsung SM-J320M",
+            "SM-J320P": "Samsung SM-J320P",
+            "SM-N915P": "Samsung SM-N915P",
+            "SM-N9208": "Samsung SM-N9208",
+            "SM-N920A": "Samsung SM-N920A",
+            "SM-N920I": "Samsung SM-N920I",
+            "SM-N920P": "Samsung SM-N920P",
+            "SM-N920T": "Samsung SM-N920T",
+            "SM-N920V*": "Samsung SM-N920V",
+            "SM-N920W8": "Samsung SM-N920W8",
+            "SM-P601": "Samsung SM-P601",
+            "SM-T280": "Samsung SM-T280"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-G925F*": "Samsung SM-G925F",
+            "SM-G925T": "Samsung SM-G925T"
+          },
+          "platforms": [
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337",
+            "SM-A300FU": "Samsung SM-A300FU",
+            "SM-A700F": "Samsung SM-A700F",
+            "SM-A9000": "Samsung SM-A9000",
+            "SM-G850F": "Samsung SM-G850F",
+            "SM-G900F": "Samsung SM-G900F",
+            "SM-N900A": "Samsung SM-N900A",
+            "SM-P550": "Samsung SM-P550",
+            "SM-T350": "Samsung SM-T350",
+            "SM-T355Y": "Samsung SM-T355Y",
+            "SM-T530": "Samsung SM-T530",
+            "SM-T530NU": "Samsung SM-T530NU",
+            "SM-T535*": "Samsung SM-T535",
+            "SM-T550": "Samsung SM-T550",
+            "SM-T710": "Samsung SM-T710",
+            "SM-T810": "Samsung SM-T810",
+            "SM-T815": "Samsung SM-T815"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Mobile*Safari*",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*TV*Safari*",
+          "device": "general TV Device",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        }
+      ]
+    }
+  ]
+}

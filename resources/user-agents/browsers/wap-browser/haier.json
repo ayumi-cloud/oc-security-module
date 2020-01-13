@@ -1,0 +1,40 @@
+{
+  "division": "Haier",
+  "sortIndex": 5140,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Haier",
+      "browser": "haier",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Haier",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "HAIER-N60*"
+        },
+        {
+          "match": "HAIER-N90/WAP1.2.1 *"
+        },
+        {
+          "match": "HAIER-V8810/(2005.05.13)SW02/WAP2.0 *"
+        },
+        {
+          "match": "Haier-M230/(2005.08.18))1.0/WAP2.0"
+        },
+        {
+          "match": "Haier-M61/(2005.08.18)1.0/WAP2.0"
+        },
+        {
+          "match": "Haier-P7*"
+        }
+      ]
+    }
+  ]
+}

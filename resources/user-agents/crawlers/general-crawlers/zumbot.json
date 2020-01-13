@@ -1,0 +1,30 @@
+{
+  "division": "ZumBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ZumBot",
+      "browser": "zumbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ZumBot"
+      },
+      "children": [
+        {
+          "match": "ZumBot/*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; ZumBot/*"
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT 10.0; ZumBot/*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Windows NT 6.1?; ZumBot/*"
+        }
+      ]
+    }
+  ]
+}

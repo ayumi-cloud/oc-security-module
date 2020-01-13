@@ -1,0 +1,28 @@
+{
+  "division": "WeSEE:Search",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WeSEE:Search",
+      "browser": "wesee:search",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WeSEE:Search"
+      },
+      "children": [
+        {
+          "match": "WeSEE:Search/0.1 (Alpha*",
+          "properties": {
+            "Version": "0.1",
+            "Alpha": true
+          }
+        },
+        {
+          "match": "WeSEE:Search/*"
+        }
+      ]
+    }
+  ]
+}

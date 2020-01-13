@@ -1,0 +1,29 @@
+{
+  "division": "Wire App Generic",
+  "sortIndex": 2221,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Wire App Generic",
+      "browser": "wire app",
+      "platform": "OSX",
+      "engine": "Blink",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Wire App Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Wire/* Chrome/* Electron/* Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_11", "OSX_10_10",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

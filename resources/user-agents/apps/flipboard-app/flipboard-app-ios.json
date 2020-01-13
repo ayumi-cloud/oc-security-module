@@ -1,0 +1,47 @@
+{
+  "division": "Flipboard App",
+  "sortIndex": 941,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Flipboard App",
+      "browser": "flipboard app",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Flipboard App",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Flipboard/1.5* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "1.5"
+          }
+        },
+        {
+          "match": "Flipboard/1.8* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "1.8"
+          }
+        },
+        {
+          "match": "Flipboard* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

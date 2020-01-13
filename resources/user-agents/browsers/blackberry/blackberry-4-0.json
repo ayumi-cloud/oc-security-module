@@ -1,0 +1,59 @@
+{
+  "division": "BlackBerry #MAJORVER#.#MINORVER#",
+  "versions": [4],
+  "sortIndex": 2372,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "browser": "blackberry",
+      "platform": "RIMOS_Dynamic",
+      "device": "general Mobile Phone (old Blackberry)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BlackBerry5790": "Blackberry 5790",
+            "BlackBerry6720": "Blackberry 6720",
+            "BlackBerry7100": "Blackberry 7100",
+            "BlackBerry7230": "Blackberry 7230",
+            "BlackBerry7250": "Blackberry 7250",
+            "BlackBerry7280": "Blackberry 7280",
+            "BlackBerry7290": "Blackberry 7290",
+            "BlackBerry7520": "Blackberry 7520",
+            "BlackBerry7730": "Blackberry 7730"
+          }
+        },
+        {
+          "match": "BlackBerry*/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) #DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BlackBerry7290": "Blackberry 7290",
+            "BlackBerry7520": "Blackberry 7520"
+          },
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/2.0 (compatible*; MSIE 3.02; Windows CE*#DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BlackBerry7100": "Blackberry 7100",
+            "BlackBerry7280": "Blackberry 7280"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        }
+      ]
+    }
+  ]
+}

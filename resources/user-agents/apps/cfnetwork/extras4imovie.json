@@ -1,0 +1,47 @@
+{
+  "division": "Extras4iMovie",
+  "sortIndex": 4100,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Extras4iMovie",
+      "browser": "extras4imovie",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Extras4iMovie",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Extras4iMovie/9.07* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "9.07"
+          }
+        },
+        {
+          "match": "Extras4iMovie/9.* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "9.0"
+          }
+        },
+        {
+          "match": "Extras4iMovie* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

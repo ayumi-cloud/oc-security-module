@@ -1,0 +1,29 @@
+{
+  "division": "Snowtape",
+  "sortIndex": 10640,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Snowtape",
+      "browser": "snowtape",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Snowtape",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Snowtape* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

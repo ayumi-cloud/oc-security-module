@@ -1,0 +1,37 @@
+{
+  "division": "Nintendo Browser",
+  "versions": ["1.9", "1.8", "1.5", "1.1", 1],
+  "sortIndex": 1552,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Nintendo Browser #MAJORVER#.#MINORVER#",
+      "browser": "nintendo browser",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nintendo Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (New Nintendo 3DS *) applewebkit* (*khtml*like*gecko*) *NintendoBrowser/#MAJORVER#.#MINORVER#.*",
+          "device": "New Nintendo 3DS",
+          "platforms": [
+            "Nintendo3DS_OS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Nintendo WiiU) applewebkit* (*khtml*like*gecko*) *NintendoBrowser/#MAJORVER#.#MINORVER#.*",
+          "device": "Nintendo WiiU",
+          "platforms": [
+            "NintendoWiiU_OS"
+          ]
+        }
+      ]
+    }
+  ]
+}

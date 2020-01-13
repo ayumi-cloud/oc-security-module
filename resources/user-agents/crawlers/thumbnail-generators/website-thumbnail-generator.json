@@ -1,0 +1,27 @@
+{
+  "division": "Website Thumbnail Generator",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Website Thumbnail Generator",
+      "browser": "website thumbnail generator",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Website Thumbnail Generator"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; WebThumbnail/3.*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; WebThumbnail/*"
+        }
+      ]
+    }
+  ]
+}

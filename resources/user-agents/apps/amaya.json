@@ -1,0 +1,49 @@
+{
+  "division": "Amaya",
+  "sortIndex": 2050,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Amaya",
+      "browser": "amaya",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Amaya"
+      },
+      "children": [
+        {
+          "match": "amaya/7.*",
+          "properties": {
+            "Version": "7.0"
+          }
+        },
+        {
+          "match": "amaya/8.*",
+          "properties": {
+            "Version": "8.0"
+          }
+        },
+        {
+          "match": "amaya/9.*",
+          "properties": {
+            "Version": "9.0"
+          }
+        },
+        {
+          "match": "amaya/10.*",
+          "properties": {
+            "Version": "10.0"
+          }
+        },
+        {
+          "match": "amaya/11.*",
+          "properties": {
+            "Version": "11.0"
+          }
+        }
+      ]
+    }
+  ]
+}

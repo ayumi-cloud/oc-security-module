@@ -1,0 +1,73 @@
+{
+  "division": "Convera",
+  "sortIndex": 90,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Convera",
+      "browser": "convera",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Convera"
+      },
+      "children": [
+        {
+          "match": "ConveraMultiMediaCrawler/0.1*",
+          "browser": "converamultimediacrawler",
+          "properties": {
+            "Version": "0.1"
+          }
+        },
+        {
+          "match": "ConveraMultiMediaCrawler/*",
+          "browser": "converamultimediacrawler"
+        },
+        {
+          "match": "CrawlConvera*",
+          "browser": "crawlconvera"
+        },
+        {
+          "match": "ConveraCrawler/0.4*",
+          "properties": {
+            "Version": "0.4"
+          }
+        },
+        {
+          "match": "ConveraCrawler/0.5*",
+          "properties": {
+            "Version": "0.5"
+          }
+        },
+        {
+          "match": "ConveraCrawler/0.6*",
+          "properties": {
+            "Version": "0.6"
+          }
+        },
+        {
+          "match": "ConveraCrawler/0.7*",
+          "properties": {
+            "Version": "0.7"
+          }
+        },
+        {
+          "match": "ConveraCrawler/0.8*",
+          "properties": {
+            "Version": "0.8"
+          }
+        },
+        {
+          "match": "ConveraCrawler/0.9*",
+          "properties": {
+            "Version": "0.9"
+          }
+        },
+        {
+          "match": "ConveraCrawler/*",
+          "browser": "converacrawler"
+        }
+      ]
+    }
+  ]
+}

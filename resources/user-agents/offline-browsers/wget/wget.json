@@ -1,0 +1,38 @@
+{
+  "division": "wget #MAJORVER#.#MINORVER#",
+  "versions": ["1.16", "1.15", "1.14", "1.13", "1.12", "1.11", "1.10", 1],
+  "sortIndex": 1560,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "wget #MAJORVER#.#MINORVER#",
+      "browser": "wget",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "wget #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Wget/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Wget/#MAJORVER#.#MINORVER#* (#PLATFORM#)*",
+          "device": "Macintosh",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "Wget/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

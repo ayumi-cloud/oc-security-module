@@ -1,0 +1,26 @@
+{
+  "division": "Evolution Generic",
+  "sortIndex": 1662,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Evolution Generic",
+      "browser": "evolution",
+      "platform": "Linux",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Evolution Generic"
+      },
+      "children": [
+        {
+          "match": "CamelHttpStream/1.0 Evolution/*"
+        },
+        {
+          "match": "Evolution/*"
+        }
+      ]
+    }
+  ]
+}

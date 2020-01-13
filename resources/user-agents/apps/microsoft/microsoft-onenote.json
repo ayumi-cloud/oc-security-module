@@ -1,0 +1,39 @@
+{
+  "division": "Microsoft OneNote",
+  "sortIndex": 7181,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft OneNote",
+      "browser": "onenote",
+      "engine": "Trident",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft OneNote",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Microsoft Office OneNote 2013 (15.*) #PLATFORM#",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32"
+          ],
+          "properties": {
+            "Version": "2013"
+          }
+        },
+        {
+          "match": "Microsoft Office OneNote 2013",
+          "device": "general Desktop",
+          "properties": {
+            "Version": "2013"
+          }
+        }
+      ]
+    }
+  ]
+}

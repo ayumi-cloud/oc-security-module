@@ -1,0 +1,46 @@
+{
+  "division": "Galeon Generic",
+  "sortIndex": 2381,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Galeon Generic",
+      "browser": "galeon",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Galeon Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Galeon/* Firefox/*",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Galeon/*",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Galeon/*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 Galeon/* (#PLATFORM#)*",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

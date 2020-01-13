@@ -1,0 +1,24 @@
+{
+  "division": "IAC",
+  "sortIndex": 5250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "IAC",
+      "browser": "iac",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IAC",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "IAC-S858/20040326aIOL20301341/WAP2.0 *"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "division": "Firebird #MAJORVER#.#MINORVER#",
+  "versions": ["0.7", "0.6"],
+  "sortIndex": 3173,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Firebird #MAJORVER#.#MINORVER#",
+      "browser": "firebird",
+      "engine": "Gecko_1",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firebird #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firebird/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firebird/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000",
+            "NT4_B",
+            "WinME",
+            "Win98",
+            "Win95"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firebird/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firebird/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD",
+            "OpenBSD",
+            "NetBSD",
+            "IRIX64",
+            "SunOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

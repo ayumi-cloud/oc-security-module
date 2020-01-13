@@ -1,0 +1,84 @@
+{
+  "division": "IEMobile #MAJORVER#.#MINORVER#",
+  "versions": [9],
+  "sortIndex": 1715,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
+      "browser": "iemobile",
+      "platform": "WinPhone",
+      "engine": "Trident_5",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IEMobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;*Windows NT 6.0*; Trident/5.0; mobile version65)",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinPhone65"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;*Windows NT 6.1*; Trident/5.0; XBLWP7; ZuneWP7)",
+          "platforms": [
+            "WinPhone75"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; #DEVICE#*)",
+          "devices": {
+            "DELL; Venue Pro": "Dell Venue Pro",
+            "HTC; 7 Mozart T8698": "HTC T8698",
+            "HTC; 7 Mozart": "HTC T8698",
+            "HTC; 7 Pro T7576": "HTC T7576",
+            "HTC; 7 Trophy": "HTC T8686",
+            "HTC; 7 Trophy T8686": "HTC T8686",
+            "HTC; HD7 T9292": "HTC T9292",
+            "HTC; Radar 4G": "HTC Radar 4G",
+            "HTC; Radar C110e": "HTC Radar C110e",
+            "HTC; Radar": "HTC Radar",
+            "HTC; TITAN X310e": "HTC X310e",
+            "LG; LG-E900": "LG E900",
+            "LG; LG-E906": "LG E906",
+            "NOKIA; Lumia 510": "Nokia Lumia 510",
+            "NOKIA; Lumia 610": "Nokia Lumia 610",
+            "NOKIA; Lumia 710": "Nokia Lumia 710",
+            "NOKIA; Lumia 800": "Nokia Lumia 800",
+            "NOKIA; Lumia 900": "Nokia Lumia 900",
+            "NOKIA; Lumia 925": "Nokia Lumia 925",
+            "SAMSUNG; OMNIA7": "Samsung GT-I8700"
+          },
+          "platforms": [
+            "WinPhone75"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM# Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#; Xbox)",
+          "device": "Microsoft Xbox 360",
+          "platforms": [
+            "Xbox_360_Mobile"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#Trident/5.0; IEMobile?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinPhone78",
+            "WinPhone75",
+            "WinPhone"
+          ]
+        }
+      ]
+    }
+  ]
+}

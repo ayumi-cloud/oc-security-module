@@ -1,0 +1,28 @@
+{
+  "division": "Symphony Browser #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 10700,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Symphony Browser #MAJORVER#.#MINORVER#",
+      "browser": "symphony browser",
+      "platform": "Maemo",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Symphony Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "MOT-ZN5/R6637_G_81.03.0?R Mozilla/4.0 (compatible; OSS/1.0; Linux MOTOZINE ZN5) * Symphony #MAJORVER#.#MINORVER#*",
+          "device": "Motorola ZN5"
+        }
+      ]
+    }
+  ]
+}

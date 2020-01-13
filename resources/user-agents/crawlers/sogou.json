@@ -1,0 +1,86 @@
+{
+  "division": "Sogou",
+  "sortIndex": 220,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Sogou",
+      "browser": "sogou",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sogou"
+      },
+      "children": [
+        {
+          "match": "shaboyi spider",
+          "browser": "sogou/shaboyi spider"
+        },
+        {
+          "match": "Sogou develop spider/*",
+          "browser": "sogou develop spider"
+        },
+        {
+          "match": "Sogou head spider*",
+          "browser": "sogou head spider"
+        },
+        {
+          "match": "sogou js robot(*)"
+        },
+        {
+          "match": "Sogou Orion spider/*",
+          "browser": "sogou orion spider"
+        },
+        {
+          "match": "Sogou Pic Agent",
+          "browser": "sogou image crawler"
+        },
+        {
+          "match": "Sogou Pic Spider/3.0*",
+          "browser": "sogou image crawler",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Sogou Pic Spider*",
+          "browser": "sogou image crawler"
+        },
+        {
+          "match": "Sogou-Test-Spider/*",
+          "browser": "sogou-test-spider"
+        },
+        {
+          "match": "Sogou Push Spider*",
+          "browser": "sogou push spider"
+        },
+        {
+          "match": "sogou spider*",
+          "browser": "sogou spider"
+        },
+        {
+          "match": "Sogou web spider/4.0*",
+          "browser": "sogou web spider",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Sogou web spider*",
+          "browser": "sogou web spider"
+        },
+        {
+          "match": "New-Sogou-Spider/1.*",
+          "browser": "sogou spider",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "New-Sogou-Spider/*",
+          "browser": "sogou spider"
+        }
+      ]
+    }
+  ]
+}

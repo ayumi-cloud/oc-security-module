@@ -1,0 +1,56 @@
+{
+  "division": "Linkdex Bot",
+  "sortIndex": 1026,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Linkdex Bot",
+      "browser": "linkdex bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Linkdex Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; linkdexbot/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; linkdexbot/2.1*",
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; linkdexbot/*"
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/* Safari/* (compatible; linkdexbot-mobile/2.1*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_4_1",
+            "iOS_A"
+          ],
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/* Safari/* (compatible; linkdexbot-mobile/*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_4_1",
+            "iOS_A"
+          ]
+        }
+      ]
+    }
+  ]
+}

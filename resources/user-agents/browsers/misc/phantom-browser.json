@@ -1,0 +1,43 @@
+{
+  "division": "Phantom Browser",
+  "sortIndex": 1861,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Phantom Browser",
+      "browser": "phantom browser",
+      "platform": "JAVA",
+      "engine": "WebKit",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Phantom Browser",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (LG-C199 applewebkit* Browser/Phantom/V2.0*",
+          "device": "LG C199",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (LG-C199 applewebkit* Browser/Phantom/*",
+          "device": "LG C199"
+        },
+        {
+          "match": "Mozilla/5.0 *applewebkit* Browser/Phantom/V2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 *applewebkit* Browser/Phantom/*"
+        }
+      ]
+    }
+  ]
+}

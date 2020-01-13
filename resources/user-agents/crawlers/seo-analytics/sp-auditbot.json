@@ -1,0 +1,51 @@
+{
+  "division": "sp auditbot",
+  "sortIndex": 246,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "sp auditbot",
+      "browser": "seoprofiler auditbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "sp auditbot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible*sp_auditbot/4.0*",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*sp_auditbot/4.1*",
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*sp_auditbot/4.2*",
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*sp_auditbot/4.3*",
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*sp_auditbot/4.4*",
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*sp_auditbot/*"
+        }
+      ]
+    }
+  ]
+}

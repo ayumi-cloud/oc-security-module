@@ -1,0 +1,27 @@
+{
+  "division": "Google HTTP Client Library for Java",
+  "sortIndex": 1189,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google HTTP Client Library for Java",
+      "browser": "google http client library for java",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google HTTP Client Library for Java"
+      },
+      "children": [
+        {
+          "match": "Google-HTTP-Java-Client/1.17*",
+          "properties": {
+            "Version": "1.17"
+          }
+        },
+        {
+          "match": "Google-HTTP-Java-Client/*"
+        }
+      ]
+    }
+  ]
+}

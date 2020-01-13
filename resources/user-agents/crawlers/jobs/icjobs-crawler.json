@@ -1,0 +1,27 @@
+{
+  "division": "iCjobs Crawler",
+  "sortIndex": 601,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "iCjobs Crawler",
+      "browser": "icjobs crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iCjobs Crawler"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (*iCjobs Stellenangebote Jobs*)*iCjobs/3.2*",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (*iCjobs Stellenangebote Jobs*)*iCjobs/*"
+        }
+      ]
+    }
+  ]
+}

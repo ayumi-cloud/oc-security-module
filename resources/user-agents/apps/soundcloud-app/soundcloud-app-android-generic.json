@@ -1,0 +1,30 @@
+{
+  "division": "SoundCloud App Generic for Android",
+  "sortIndex": 2061,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SoundCloud App Generic for Android",
+      "browser": "soundcloud app",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SoundCloud App Generic for Android",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "SoundCloud-Android/* (#PLATFORM#",
+          "platforms": [
+            "Android_H_4_4",
+            "Android_H"
+          ]
+        }
+      ]
+    }
+  ]
+}

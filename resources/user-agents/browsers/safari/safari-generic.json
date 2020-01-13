@@ -1,0 +1,358 @@
+{
+  "division": "Safari Generic",
+  "sortIndex": 1983,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Safari Generic",
+      "browser": "safari",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Safari Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*)*Version/*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "ChromeOS",
+            "CentOS",
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*)*Version/*Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
+            "Win2000"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*)*Version/*Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_15", "OSX_10_14", "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*)*Safari*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_15", "OSX_10_14", "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*)*Safari*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*)*Version/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_15", "OSX_10_14", "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Safari Generic for Darwin",
+      "browser": "safari",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Safari Generic"
+      },
+      "children": [
+        {
+          "match": "Safari/* CFNetwork/128*",
+          "platforms": [
+            "OSX_10_4"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/129*",
+          "platforms": [
+            "OSX_10_4"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/217*",
+          "platforms": [
+            "OSX_10_5"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/220*",
+          "platforms": [
+            "OSX_10_5"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/221*",
+          "platforms": [
+            "OSX_10_5"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/330*",
+          "platforms": [
+            "OSX_10_5"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/339*",
+          "platforms": [
+            "OSX_10_5"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/422*",
+          "platforms": [
+            "OSX_10_5"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/438*",
+          "platforms": [
+            "OSX_10_5"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/454*",
+          "platforms": [
+            "OSX_10_6"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/520*",
+          "platforms": [
+            "OSX_10_7"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/596*",
+          "platforms": [
+            "OSX_10_8"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/673*",
+          "platforms": [
+            "OSX_10_9"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/720*",
+          "platforms": [
+            "OSX_10_10"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/760*",
+          "platforms": [
+            "OSX_10_11"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/807*",
+          "platforms": [
+            "OSX_10_12"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/811*(x86_64)*",
+          "platforms": [
+            "OSX_10_12"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/887*(x86_64)*",
+          "platforms": [
+            "OSX_10_13"
+          ]
+        },
+        {
+          "match": "Safari/* CFNetwork/*",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*LGE; 42LB671V*",
+          "device": "LG 42LB671V",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*",
+          "device": "general TV Device",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "device": "general Desktop",
+          "platforms": [
+            "NetBSD_64_2", "NetBSD",
+            "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*THOMSON; Thomson THS845*",
+          "device": "Thomson THS845",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *ASTON;XenaHd Twin Connect*",
+          "device": "ASTON XenaHd Twin Connect",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) HbbTV*",
+          "device": "general TV Device",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Safari Generic Older",
+      "browser": "safari",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Safari"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/419*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Comment": "Safari 2.0",
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/417*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Comment": "Safari 2.0",
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/412*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Comment": "Safari 2.0",
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/312*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Comment": "Safari 1.3",
+            "Version": "1.3"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/162*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Comment": "Safari 1.3",
+            "Version": "1.3"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/158*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Comment": "Safari 1.3",
+            "Version": "1.3"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/146*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Comment": "Safari 1.3",
+            "Version": "1.3"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/125*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Comment": "Safari 1.2",
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/100*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Comment": "Safari 1.1",
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/85*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Comment": "Safari 1.0",
+            "Version": "1.0"
+          }
+        }
+      ]
+    }
+  ]
+}

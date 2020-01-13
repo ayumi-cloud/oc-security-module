@@ -1,0 +1,38 @@
+{
+  "division": "SuperBird #MAJORVER#.#MINORVER#",
+  "versions": [27, 26, 25, 24, 23],
+  "sortIndex": 883,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SuperBird #MAJORVER#.#MINORVER#",
+      "browser": "superbird",
+      "engine": "WebKit",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SuperBird #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SuperBird/#MAJORVER#.*",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SuperBird/#MAJORVER#.*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

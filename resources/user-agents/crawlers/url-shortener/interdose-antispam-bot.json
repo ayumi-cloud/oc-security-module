@@ -1,0 +1,27 @@
+{
+  "division": "AntiSpamBot",
+  "sortIndex": 100,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "AntiSpamBot",
+      "browser": "antispambot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AntiSpamBot"
+      },
+      "children": [
+        {
+          "match": "Interdose AntiSpamBot/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Interdose AntiSpamBot*"
+        }
+      ]
+    }
+  ]
+}

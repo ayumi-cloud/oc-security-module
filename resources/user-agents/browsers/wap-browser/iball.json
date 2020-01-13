@@ -1,0 +1,26 @@
+{
+  "division": "iBall",
+  "sortIndex": 3941,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "iBall",
+      "browser": "iball",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iBall",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "iBall Majestic 2.4D*",
+          "device": "SHAAN Majestic 2.4D"
+        }
+      ]
+    }
+  ]
+}

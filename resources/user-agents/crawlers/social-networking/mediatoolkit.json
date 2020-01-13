@@ -1,0 +1,21 @@
+{
+  "division": "Mediatoolkit Bot",
+  "sortIndex": 500,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mediatoolkit Bot",
+      "browser": "mediatoolkit bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mediatoolkit Bot"
+      },
+      "children": [
+        {
+          "match": "Mediatoolkitbot*"
+        }
+      ]
+    }
+  ]
+}

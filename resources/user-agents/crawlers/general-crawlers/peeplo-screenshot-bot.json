@@ -1,0 +1,27 @@
+{
+  "division": "Peeplo Screenshot Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Peeplo Screenshot Bot",
+      "browser": "peeplo screenshot bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Peeplo Screenshot Bot"
+      },
+      "children": [
+        {
+          "match": "Peeplo Screenshot Bot/0.20*",
+          "properties": {
+            "Version": "0.20"
+          }
+        },
+        {
+          "match": "Peeplo Screenshot Bot/*"
+        }
+      ]
+    }
+  ]
+}

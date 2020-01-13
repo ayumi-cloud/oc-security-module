@@ -1,0 +1,40 @@
+{
+  "division": "Microsoft Outlook #MAJORVER#.#MINORVER# for iOS",
+  "versions": [1],
+  "sortIndex": 1648,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft Outlook #MAJORVER#.#MINORVER# for iOS",
+      "browser": "outlook",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft Outlook #MAJORVER#.#MINORVER# for iOS",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Outlook-iOS-Android/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_9_3",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Outlook-iOS-Android/#MAJORVER#.#MINORVER#* Safari/*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "division": "Phoenix",
+  "sortIndex": 17582,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Phoenix",
+      "browser": "phoenix",
+      "engine": "Gecko_1",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Phoenix"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Phoenix/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_PPC"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Phoenix/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32",
+            "Win2000",
+            "NT4_B",
+            "Win98"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Phoenix/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*) Gecko/* Phoenix/*",
+          "device": "general Desktop"
+        }
+      ]
+    }
+  ]
+}

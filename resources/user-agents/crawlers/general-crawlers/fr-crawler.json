@@ -1,0 +1,27 @@
+{
+  "division": "fr-crawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "fr-crawler",
+      "browser": "fr-crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "fr-crawler"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; fr-crawler/1.1*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; fr-crawler/*"
+        }
+      ]
+    }
+  ]
+}

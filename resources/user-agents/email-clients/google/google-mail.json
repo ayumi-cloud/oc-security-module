@@ -1,0 +1,26 @@
+{
+  "division": "Google Mail",
+  "sortIndex": 1072,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google Mail",
+      "browser": "google mail",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google Mail",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (*Windows NT 5.1*) Gecko* Firefox/11.0* (via ggpht.com*"
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows NT 5.1*) Gecko* Firefox/3.0* (via ggpht.com*"
+        }
+      ]
+    }
+  ]
+}

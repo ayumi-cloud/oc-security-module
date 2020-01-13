@@ -1,0 +1,82 @@
+{
+  "division": "SonyEricsson #MAJORVER#.#MINORVER#",
+  "versions": [4],
+  "sortIndex": 10671,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SonyEricsson #MAJORVER#.#MINORVER#",
+      "browser": "semc",
+      "platform": "SymbianOS",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SonyEricsson #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/* SEMC-Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Micromax X070": "Micromax X070",
+            "Micromax X084": "Micromax X084",
+            "Micromax X085": "Micromax X085",
+            "Micromax X081": "Micromax X081",
+            "Micromax X088": "Micromax X088",
+            "Micromax X097": "Micromax X097",
+            "Micromax X098": "Micromax X098",
+            "Micromax X101i": "Micromax X101i",
+            "Micromax X103i": "Micromax X103i",
+            "Micromax X247": "Micromax X247",
+            "Micromax X267": "Micromax X267",
+            "Micromax X272": "Micromax X272",
+            "Micromax X321": "Micromax X321",
+            "Micromax X329": "Micromax X329",
+            "Micromax X351": "Micromax X351",
+            "Micromax X352": "Micromax X352",
+            "Micromax X367": "Micromax X367",
+            "Micromax X455i": "Micromax X455i",
+            "Micromax X457": "Micromax X457",
+            "Micromax X501": "Micromax X501",
+            "Micromax X1i Ultra": "Micromax X1i Ultra"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "#DEVICE#/* SEMC-Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "CELKON.C64": "Celkon C64",
+            "SonyEricssonF500i": "SonyEricsson F500i",
+            "SonyEricssonJ300a": "SonyEricsson J300a",
+            "SonyEricssonJ300c": "SonyEricsson J300c",
+            "SonyEricssonJ300i": "SonyEricsson J300i",
+            "SonyEricssonK300": "SonyEricsson K300",
+            "SonyEricssonK300a": "SonyEricsson K300a",
+            "SonyEricssonK300c": "SonyEricsson K300c",
+            "SonyEricssonK300i": "SonyEricsson K300i",
+            "SonyEricssonK500c": "SonyEricsson K500c",
+            "SonyEricssonK500i": "SonyEricsson K500i",
+            "SonyEricssonK506c": "SonyEricsson K506c",
+            "SonyEricssonK508c": "SonyEricsson K508c",
+            "SonyEricssonK508i": "SonyEricsson K508i",
+            "SonyEricssonK700c": "SonyEricsson K700c",
+            "SonyEricssonK858c": "SonyEricsson K858c",
+            "SonyEricssonS700c": "SonyEricsson S700c",
+            "SonyEricssonS700i": "SonyEricsson S700i",
+            "SonyEricssonS710a": "SonyEricsson S710a",
+            "SonyEricssonZ500a": "SonyEricsson Z500a",
+            "SonyEricssonZ500i": "SonyEricsson Z500i"
+          }
+        },
+        {
+          "match": "*/* SEMC-Browser/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

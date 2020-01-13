@@ -1,0 +1,28 @@
+{
+  "division": "Genderanalyzer",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Genderanalyzer",
+      "browser": "genderanalyzer",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Genderanalyzer",
+        "Beta": true
+      },
+      "children": [
+        {
+          "match": "Genderanalyzer/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Genderanalyzer/*"
+        }
+      ]
+    }
+  ]
+}

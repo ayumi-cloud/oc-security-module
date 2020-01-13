@@ -1,0 +1,26 @@
+{
+  "division": "Elefent #MAJORVER#.#MINORVER#",
+  "versions": ["1.2"],
+  "sortIndex": 290,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Elefent #MAJORVER#.#MINORVER#",
+      "browser": "elefent",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Elefent #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "elefent/Elefent #MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "elefent/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "division": "Evernote Clip Resolver",
+  "sortIndex": 401,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Evernote Clip Resolver",
+      "browser": "evernote clip resolver",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Evernote Clip Resolver"
+      },
+      "children": [
+        {
+          "match": "Evernote Clip Resolver*"
+        }
+      ]
+    }
+  ]
+}

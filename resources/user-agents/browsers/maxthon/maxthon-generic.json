@@ -1,0 +1,246 @@
+{
+  "division": "Maxthon Generic",
+  "sortIndex": 946,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Maxthon Generic for Android",
+      "browser": "maxthon",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Maxthon Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* Maxthon/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* MxBrowser/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/*",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* MxBrowser/*",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Maxthon Generic for iOS",
+      "browser": "maxthon",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Maxthon Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* MXiOS/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* MXiOS/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* MXiOS/*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Maxthon Generic",
+      "browser": "maxthon",
+      "platform": "Windows",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Maxthon Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/* Chrome/* Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/* Chrome/* Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*MxBrowser/* Chrome/* Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*MxBrowser/* Chrome/* Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/*Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Maxthon/*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Maxthon Generic for Mac",
+      "browser": "maxthon",
+      "platform": "OSX",
+      "engine": "Blink",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Maxthon Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/* Chrome/* Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*MxBrowser/* Chrome/* Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* Maxthon/*",
+          "engine": "WebKit",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/*Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

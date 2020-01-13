@@ -1,0 +1,59 @@
+{
+  "division": "Microsoft Office",
+  "sortIndex": 7181,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft Office",
+      "browser": "office",
+      "platform": "Windows",
+      "engine": "Trident",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft Office",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Microsoft Office SyncProc 2013 (15.*) #PLATFORM#",
+          "browser": "office syncproc",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32"
+          ],
+          "properties": {
+            "Comment": "Microsoft Office SyncProc",
+            "Version": "2013"
+          }
+        },
+        {
+          "match": "Microsoft Office Upload Center 2013 (15.*) #PLATFORM#",
+          "browser": "office upload center",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32"
+          ],
+          "properties": {
+            "Comment": "Microsoft Office Upload Center",
+            "Version": "2013"
+          }
+        },
+        {
+          "match": "non-browser; Microsoft Office/15.* (#PLATFORM# 15.*)",
+          "browser": "office",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32"
+          ],
+          "properties": {
+            "Comment": "Microsoft Office",
+            "Version": "2013"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "division": "YOURLS",
+  "sortIndex": 501,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YOURLS",
+      "browser": "yourls",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "YOURLS"
+      },
+      "children": [
+        {
+          "match": "YOURLS v1.7*",
+          "properties": {
+            "Version": "1.7"
+          }
+        },
+        {
+          "match": "YOURLS v1.6*",
+          "properties": {
+            "Version": "1.6"
+          }
+        },
+        {
+          "match": "YOURLS v1.5*",
+          "properties": {
+            "Version": "1.5"
+          }
+        },
+        {
+          "match": "YOURLS v1.4*",
+          "properties": {
+            "Version": "1.4"
+          }
+        },
+        {
+          "match": "YOURLS v1.2*",
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "YOURLS v1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "YOURLS *"
+        }
+      ]
+    }
+  ]
+}

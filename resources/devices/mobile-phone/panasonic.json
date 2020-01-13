@@ -1,0 +1,90 @@
+{
+  "Panasonic Eluga Arc 2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Eluga Arc 2",
+      "Device_Code_Name": "Arc 2",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
+  },
+  "Panasonic G60": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "G60",
+      "Device_Code_Name": "G60",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
+  },
+  "Panasonic VS3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "VS3",
+      "Device_Code_Name": "VS3",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
+  },
+  "Panasonic dL1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Eluga",
+      "Device_Code_Name": "dL1",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
+  },
+  "Panasonic Eluga A3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Eluga A3",
+      "Device_Code_Name": "Eluga A3",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
+  },
+  "Panasonic Eluga I3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Eluga I3",
+      "Device_Code_Name": "Eluga I3",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
+  },
+  "Panasonic P55 Max": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P55 Max",
+      "Device_Code_Name": "P55 Max",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
+  },
+  "Panasonic Eluga Ray 500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Eluga Ray 500",
+      "Device_Code_Name": "Eluga Ray 500",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
+  }
+}

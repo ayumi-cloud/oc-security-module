@@ -1,0 +1,68 @@
+{
+  "division": "YaBrowser #MAJORVER#.#MINORVER# for Android",
+  "versions": ["1.20", "1.1", 1],
+  "sortIndex": 1020,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Yandex Browser #MAJORVER#.#MINORVER# for Android",
+      "browser": "yandex browser",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yandex Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "IQ436i": "Fly IQ436i"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "Lenovo A680": "Lenovo A680"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "AP-105": "Mitashi AP-105",
+            "HTC Sensation 4G with Beats Audio": "HTC Sensation 4G"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "division": "AndroidDownloadManager",
+  "sortIndex": 2131,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "AndroidDownloadManager Generic",
+      "browser": "android download manager",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Android Download Manager Generic"
+      },
+      "children": [
+        {
+          "match": "AndroidDownloadManager*"
+        }
+      ]
+    }
+  ]
+}

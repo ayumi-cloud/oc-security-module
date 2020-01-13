@@ -1,0 +1,27 @@
+{
+  "division": "Webaroo",
+  "sortIndex": 300,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Webaroo",
+      "browser": "webaroo",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Webaroo"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE 7.0;#PLATFORM#; Webaroo/*)",
+          "platforms": [
+            "Vista_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Windows; U; Windows *; *; rv:*) Gecko* Firefox/* webaroo/*"
+        }
+      ]
+    }
+  ]
+}

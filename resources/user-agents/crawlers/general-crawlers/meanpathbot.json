@@ -1,0 +1,27 @@
+{
+  "division": "meanpathbot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "meanpathbot",
+      "browser": "meanpathbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "meanpathbot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; meanpathbot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; meanpathbot/*"
+        }
+      ]
+    }
+  ]
+}

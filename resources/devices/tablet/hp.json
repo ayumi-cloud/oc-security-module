@@ -1,0 +1,79 @@
+{
+  "HP 8": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "8",
+      "Device_Code_Name": "8",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HP"
+    },
+    "standard": true
+  },
+  "HP Slate 17": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Slate 17",
+      "Device_Code_Name": "Slate 17",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HP"
+    },
+    "standard": true
+  },
+  "HP Touchpad": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Touchpad",
+      "Device_Code_Name": "Touchpad",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HP"
+    },
+    "standard": true
+  },
+  "HP Slate 21": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Slate 21",
+      "Device_Code_Name": "Slate 21",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HP"
+    },
+    "standard": true
+  },
+  "HP Pro Slate 8": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Pro Slate 8",
+      "Device_Code_Name": "Pro Slate 8",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HP"
+    },
+    "standard": true
+  },
+  "HP Slate 10 HD": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Slate 10 HD",
+      "Device_Code_Name": "Slate 10 HD",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HP"
+    },
+    "standard": true
+  },
+  "HP SlateBook 10 x2": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "SlateBook 10 x2",
+      "Device_Code_Name": "SlateBook 10 x2",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HP"
+    },
+    "standard": true
+  }
+}

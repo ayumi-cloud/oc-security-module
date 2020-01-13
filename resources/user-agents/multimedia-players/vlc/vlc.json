@@ -1,0 +1,60 @@
+{
+  "division": "VLC Media Player",
+  "sortIndex": 1531,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "VLC Media Player",
+      "browser": "vlc media player",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "VLC Media Player"
+      },
+      "children": [
+        {
+          "match": "VLC/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "VLC/2.2*",
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "VLC/2.1*",
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "VLC/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "VLC/1.1*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "VLC media player - version 1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "VLC media player*"
+        },
+        {
+          "match": "VLC*"
+        }
+      ]
+    }
+  ]
+}

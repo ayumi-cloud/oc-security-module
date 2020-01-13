@@ -1,0 +1,127 @@
+{
+  "division": "Windows Live Mail #MAJORVER#.#MINORVER#",
+  "versions": [7],
+  "sortIndex": 1660,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Windows Live Mail #MAJORVER#.#MINORVER#",
+      "browser": "windows live mail",
+      "platform": "Windows",
+      "engine": "Trident_5",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Windows Live Mail #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Outlook-Express/#MAJORVER#.#MINORVER# (MSIE ?.0;#PLATFORM#Trident/4.0*",
+          "engine": "Trident_4",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Outlook-Express/#MAJORVER#.#MINORVER# (MSIE ?.0;#PLATFORM#Trident/5.0*",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Outlook-Express/#MAJORVER#.#MINORVER# (MSIE ?.0;#PLATFORM#Trident/6.0*",
+          "engine": "Trident_6",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Outlook-Express/#MAJORVER#.#MINORVER# (MSIE ?.0;#PLATFORM#Trident/7.0*",
+          "engine": "Trident_7",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Outlook-Express/#MAJORVER#.#MINORVER# (#PLATFORM#Trident/4.0*",
+          "engine": "Trident_4",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Outlook-Express/#MAJORVER#.#MINORVER# (#PLATFORM#Trident/5.0*",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Outlook-Express/#MAJORVER#.#MINORVER# (#PLATFORM#Trident/6.0*",
+          "engine": "Trident_6",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Outlook-Express/#MAJORVER#.#MINORVER# (#PLATFORM#Trident/7.0*",
+          "engine": "Trident_7",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Outlook-Express/#MAJORVER#.#MINORVER# (#PLATFORM#",
+          "engine": "Trident",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPa_32",
+            "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}

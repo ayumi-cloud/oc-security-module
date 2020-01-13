@@ -1,0 +1,27 @@
+{
+  "division": "Jig Browser",
+  "sortIndex": 530,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Jig Browser",
+      "browser": "jig browser web",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Jig Browser"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (jig browser web; 1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (jig browser web*"
+        }
+      ]
+    }
+  ]
+}

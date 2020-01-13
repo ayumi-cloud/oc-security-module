@@ -1,0 +1,37 @@
+{
+  "division": "SalesForce App",
+  "sortIndex": 1181,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SalesForce App for iOS",
+      "browser": "salesforce app",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SalesForce App",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "iPhone OS/* (iPhone) Salesforce1/* Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "iPhone OS/* Salesforce1/* Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/*",
+          "platforms": [
+            "iOS_A"
+          ]
+        }
+      ]
+    }
+  ]
+}

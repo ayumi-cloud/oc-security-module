@@ -1,0 +1,39 @@
+{
+  "division": "Chimera",
+  "sortIndex": 2320,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Chimera",
+      "browser": "chimera",
+      "platform": "OSX",
+      "engine": "Gecko",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Chimera"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) *Gecko* Chimera/0.6*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Version": "0.6"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) *Gecko* Chimera/*",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 Gecko* Chimera/*"
+        }
+      ]
+    }
+  ]
+}

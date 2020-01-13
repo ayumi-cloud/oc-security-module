@@ -1,0 +1,37 @@
+{
+  "division": "Cyberduck",
+  "sortIndex": 171,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Cyberduck",
+      "browser": "cyberduck",
+      "platform": "Windows",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Cyberduck"
+      },
+      "children": [
+        {
+          "match": "Cyberduck/4.6* (#PLATFORM#) *",
+          "platforms": [
+            "WinXPa_v2",
+            "Windows"
+          ],
+          "properties": {
+            "Version": "4.6"
+          }
+        },
+        {
+          "match": "Cyberduck/* (#PLATFORM#) *",
+          "platforms": [
+            "WinXPa_v2",
+            "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}

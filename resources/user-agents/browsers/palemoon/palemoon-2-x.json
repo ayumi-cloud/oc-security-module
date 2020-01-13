@@ -1,0 +1,35 @@
+{
+  "division": "PaleMoon #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 2664,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "PaleMoon #MAJORVER#.#MINORVER#",
+      "browser": "palemoon",
+      "platform": "Windows",
+      "engine": "Gecko_1_9_2",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PaleMoon #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.* (Palemoon/#MAJORVER#.*)",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000"
+          ]
+        }
+      ]
+    }
+  ]
+}

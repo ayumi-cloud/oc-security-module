@@ -1,0 +1,130 @@
+{
+  "division": "OneBrowser Generic",
+  "sortIndex": 1709,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OneBrowser Generic",
+      "browser": "onebrowser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OneBrowser Generic"
+      },
+      "children": [
+        {
+          "match": "OneBrowser/*?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "OneBrowser/*?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "OneBrowser/*(#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "OneBrowser/*"
+        }
+      ]
+    },
+    {
+      "userAgent": "OneBrowser Generic for Android",
+      "browser": "onebrowser",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OneBrowser Generic"
+      },
+      "children": [
+        {
+          "match": "OneBrowser/*?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "OneBrowser/*?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "OneBrowser/*(#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "OneBrowser Generic for iOS",
+      "browser": "onebrowser",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OneBrowser Generic"
+      },
+      "children": [
+        {
+          "match": "OneBrowser/*?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A_5_1", "iOS_A_5_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
+            "iOS_A_3_2", "iOS_A_3_1", "iOS_A_3_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "OneBrowser/*?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A_5_1", "iOS_A_5_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
+            "iOS_A_3_2", "iOS_A_3_1", "iOS_A_3_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "OneBrowser/*(#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A_5_1", "iOS_A_5_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
+            "iOS_A_3_2", "iOS_A_3_1", "iOS_A_3_0",
+            "iOS_A"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "NetSeer Crawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NetSeer Crawler",
+      "browser": "netseer crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NetSeer Crawler"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; NetSeer crawler/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; NetSeer crawler/*"
+        }
+      ]
+    }
+  ]
+}

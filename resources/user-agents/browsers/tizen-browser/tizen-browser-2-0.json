@@ -1,0 +1,30 @@
+{
+  "division": "Tizen Browser #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 955,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Tizen Browser #MAJORVER#.#MINORVER#",
+      "browser": "tizen browser",
+      "platform": "Tizen",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tizen Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *TizenBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Tizen_2_0",
+            "Tizen"
+          ]
+        }
+      ]
+    }
+  ]
+}

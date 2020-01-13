@@ -1,0 +1,23 @@
+{
+  "division": "gvfs Generic",
+  "sortIndex": 131,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "gvfs Generic",
+      "browser": "gvfs",
+      "platform": "Linux",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "gvfs Generic"
+      },
+      "children": [
+        {
+          "match": "gvfs/*"
+        }
+      ]
+    }
+  ]
+}

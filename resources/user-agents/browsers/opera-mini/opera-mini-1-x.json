@@ -1,0 +1,34 @@
+{
+  "division": "Opera Mini #MAJORVER#.#MINORVER#",
+  "versions": ["1.2", "1.1", 1],
+  "sortIndex": 1938,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
+      "browser": "opera mini",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera/*(Series 60*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SymbianOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

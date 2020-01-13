@@ -1,0 +1,21 @@
+{
+  "division": "Apache Bench",
+  "sortIndex": 60,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Apache Bench",
+      "browser": "apache bench",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apache Bench"
+      },
+      "children": [
+        {
+          "match": "ApacheBench/*"
+        }
+      ]
+    }
+  ]
+}

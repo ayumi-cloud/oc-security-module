@@ -1,0 +1,36 @@
+{
+  "division": "Vitelcom #MAJORVER#.#MINORVER#",
+  "versions": ["1.2"],
+  "sortIndex": 10960,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Vitelcom #MAJORVER#.#MINORVER#",
+      "browser": "vitelcom",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Vitelcom #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "TSM-100/* Browser/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "TSM-100v/* Browser/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "TSM-30/* Browser/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "TSM340/* Browser/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "division": "Apple PubSub #MAJORVER#.#MINORVER#",
+  "versions": ["65.28", "65.21", "65.20", "65.19", "65.12", "65.11", "65.6", "65.1"],
+  "sortIndex": 371,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Apple PubSub #MAJORVER#.#MINORVER#",
+      "browser": "apple pubsub",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple PubSub #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Apple-PubSub/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

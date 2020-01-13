@@ -1,0 +1,30 @@
+{
+  "division": "iWeb",
+  "sortIndex": 1185,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "iWeb",
+      "browser": "iweb",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iWeb",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) iWeb/*",
+          "platforms": [
+            "OSX_10_10",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

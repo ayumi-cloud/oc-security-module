@@ -1,0 +1,57 @@
+{
+  "division": "Dolfin Android #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 1707,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Dolfin Android #MAJORVER#.#MINORVER#",
+      "browser": "dolfin",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dolfin Android #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# *) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
+          "devices": {
+            "GT-I9001": "Samsung GT-I9001"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Dolphin/INT-#MAJORVER#.#MINORVER# *Safari/*",
+          "platforms": [
+            "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

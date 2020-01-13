@@ -1,0 +1,42 @@
+{
+  "division": "YandexMobileBot #MAJORVER#.#MINORVER#",
+  "versions": [3],
+  "sortIndex": 61,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YandexMobileBot #MAJORVER#.#MINORVER#",
+      "browser": "yandex mobile bot",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yandex Mobile Bot #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; YandexMobileBot/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_8_1",
+            "iOS_A_6_0",
+            "iOS_A_4_1",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari/* (compatible; YandexMobileBot/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

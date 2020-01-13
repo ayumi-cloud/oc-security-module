@@ -1,0 +1,28 @@
+{
+  "division": "HubSpot Grader",
+  "sortIndex": 1101,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "HubSpot Grader",
+      "browser": "hubspot grader",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "HubSpot Grader",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "HubSpot Marketing Grader*",
+          "browser": "marketing grader"
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* HubSpot Marketing Grader",
+          "browser": "marketing grader"
+        }
+      ]
+    }
+  ]
+}

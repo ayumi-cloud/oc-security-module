@@ -1,0 +1,88 @@
+{
+  "division": "UnisterBot",
+  "sortIndex": 3147,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "UnisterBot",
+      "browser": "unisterbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UnisterBot",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; UnisterBot*"
+        },
+        {
+          "match": "UnisterBot *"
+        },
+        {
+          "match": "unister-bot *"
+        }
+      ]
+    },
+    {
+      "userAgent": "UnisterTesting",
+      "browser": "unistertesting",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "website test",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "unister-test-zabbix*"
+        },
+        {
+          "match": "unister-test-acceptance"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Iceweasel/* unister-test-acceptance",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UnisterPortale",
+      "browser": "unisterportale",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "website calls webservice",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "www.geld.de"
+        },
+        {
+          "match": "www.versicherungen.de"
+        },
+        {
+          "match": "www.kredit.de"
+        },
+        {
+          "match": "www.auto.de"
+        },
+        {
+          "match": "auto.de"
+        },
+        {
+          "match": "insurance.preisvergleich.de"
+        },
+        {
+          "match": "Core_Class_HttpClient_Cached",
+          "browser": "core_class_httpclient_cached"
+        }
+      ]
+    }
+  ]
+}

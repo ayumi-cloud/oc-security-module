@@ -1,0 +1,31 @@
+{
+  "division": "The Bat!",
+  "sortIndex": 1670,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "The Bat!",
+      "browser": "the bat!",
+      "platform": "Windows",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "The Bat!",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "The Bat! 4.0*",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "The Bat!*"
+        }
+      ]
+    }
+  ]
+}

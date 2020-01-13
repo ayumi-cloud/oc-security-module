@@ -1,0 +1,24 @@
+{
+  "division": "CaptiveNetworkAgent",
+  "sortIndex": 970,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "CaptiveNetworkAgent",
+      "browser": "captivenetworkagent",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CaptiveNetworkAgent"
+      },
+      "children": [
+        {
+          "match": "CaptiveNetworkSupport*"
+        }
+      ]
+    }
+  ]
+}

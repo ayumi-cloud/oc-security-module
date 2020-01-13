@@ -1,0 +1,27 @@
+{
+  "division": "CareerBot",
+  "sortIndex": 601,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "CareerBot",
+      "browser": "careerbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CareerBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; CareerBot/1.1*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; CareerBot/*"
+        }
+      ]
+    }
+  ]
+}

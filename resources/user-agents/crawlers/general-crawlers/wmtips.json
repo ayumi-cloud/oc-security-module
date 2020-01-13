@@ -1,0 +1,27 @@
+{
+  "division": "Webmaster Tips Bot",
+  "sortIndex": 1560,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Webmaster Tips Bot",
+      "browser": "webmaster tips bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Webmaster Tips Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; wmtips.com/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; wmtips.com/*"
+        }
+      ]
+    }
+  ]
+}

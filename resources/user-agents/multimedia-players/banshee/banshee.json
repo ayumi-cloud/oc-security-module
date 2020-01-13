@@ -1,0 +1,23 @@
+{
+  "division": "Banshee #MAJORVER#.#MINORVER#",
+  "versions": ["2.6"],
+  "sortIndex": 1531,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Banshee #MAJORVER#.#MINORVER#",
+      "browser": "banshee media player",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Banshee #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Banshee/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

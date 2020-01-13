@@ -1,0 +1,36 @@
+{
+  "division": "Friendica",
+  "sortIndex": 501,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Friendica",
+      "browser": "friendica",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Friendica"
+      },
+      "children": [
+        {
+          "match": "Friendica '*' 3.4*",
+          "properties": {
+            "Version": "3.4"
+          }
+        },
+        {
+          "match": "Friendica '*' 3.3*",
+          "properties": {
+            "Version": "3.3"
+          }
+        },
+        {
+          "match": "Friendica*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Friendica*"
+        }
+      ]
+    }
+  ]
+}

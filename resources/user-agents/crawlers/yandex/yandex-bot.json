@@ -1,0 +1,36 @@
+{
+  "division": "YandexBot",
+  "sortIndex": 61,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YandexBot",
+      "browser": "yandexbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "YandexBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; YandexBot/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": ": Mozilla/5.0 (compatible; YandexBot/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexBot/*"
+        },
+        {
+          "match": "Mozilla/5.0 (iPhone*like Mac OS X) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; YandexBot/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "division": "Opera Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["9.00"],
+  "sortIndex": 1040,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER#",
+      "browser": "opera mobile",
+      "platform": "WinMobile",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Microsoft Windows; PPC;* Opera Mobi*)*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera?#MAJORVER#.#MINORVER#* (Windows*; Opera Mobi/*) Presto/2.*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "WinMobile"
+          ]
+        }
+      ]
+    }
+  ]
+}

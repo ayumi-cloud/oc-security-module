@@ -1,0 +1,29 @@
+{
+  "division": "Debian APT-HTTP",
+  "sortIndex": 2021,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "Debian APT-HTTP",
+      "browser": "apt http transport",
+      "platform": "Debian",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Debian APT-HTTP"
+      },
+      "children": [
+        {
+          "match": "Debian APT-HTTP/1.3*",
+          "properties": {
+            "Version": "1.3"
+          }
+        },
+        {
+          "match": "Debian APT-HTTP/*"
+        }
+      ]
+    }
+  ]
+}

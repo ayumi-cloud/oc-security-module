@@ -1,0 +1,40 @@
+{
+  "division": "Classilla",
+  "sortIndex": 17582,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "Classilla",
+      "browser": "classilla",
+      "platform": "MacPPC",
+      "engine": "Gecko",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Classilla"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko*Firefox*Classilla*",
+          "platforms": [
+            "MacPPC_3", "MacPPC"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko*Classilla*",
+          "platforms": [
+            "MacPPC_3", "MacPPC"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Clecko*Classilla*",
+          "engine": "Clecko",
+          "platforms": [
+            "MacPPC_3", "MacPPC"
+          ]
+        }
+      ]
+    }
+  ]
+}

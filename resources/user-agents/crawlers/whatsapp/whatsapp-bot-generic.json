@@ -1,0 +1,22 @@
+{
+  "division": "WhatsApp Bot Generic",
+  "sortIndex": 1996,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WhatsApp Bot Generic",
+      "browser": "whatsapp bot",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WhatsApp Bot Generic"
+      },
+      "children": [
+        {
+          "match": "WhatsApp/*"
+        }
+      ]
+    }
+  ]
+}

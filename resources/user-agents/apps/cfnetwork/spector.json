@@ -1,0 +1,29 @@
+{
+  "division": "Spector",
+  "sortIndex": 10690,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Spector",
+      "browser": "spector",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Spector",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Spector%20Pro* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

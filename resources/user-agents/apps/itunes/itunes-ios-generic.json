@@ -1,0 +1,34 @@
+{
+  "division": "iTunes Generic for iOS",
+  "sortIndex": 6360,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "iTunes Generic for iOS",
+      "browser": "itunes",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iTunes Generic for iOS",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "iTunes-#DEVICE#/*",
+          "devices": {
+            "iPad*": "iPad",
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          }
+        },
+        {
+          "match": "iTunes-*/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "division": "Access NetFront #MAJORVER#.#MINORVER#",
+  "versions": ["4.2", "4.1", 4],
+  "sortIndex": 1540,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NetFront #MAJORVER#.#MINORVER#",
+      "browser": "netfront",
+      "engine": "NetFront",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Access NetFront #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; Linux*) NetFront/#MAJORVER#.#MINORVER#* #DEVICE#/?.0 (screen 600x800)",
+          "devices": {
+            "Kindle": "Amazon Kindle"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "SonyEricsson*; Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* *Safari/*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Sample; MFC Simulator/#MAJORVER#.#MINORVER#*; like Gecko) NetFront/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "#DEVICE#/* NetFront/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-GT-C3310": "Samsung GT-C3310",
+            "SAMSUNG-GT-C3590": "Samsung GT-C3590"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "SAMSUNG* *NetFront/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "SEC-* *NetFront/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/4.0 (*) *NetFront/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/4.0 (#PLATFORM#NetFront/#MAJORVER#.#MINORVER#*)*",
+          "platforms": [
+            "Brew_MP"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (*NetFront/#MAJORVER#.#MINORVER#*)*"
+        },
+        {
+          "match": "*NetFront/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

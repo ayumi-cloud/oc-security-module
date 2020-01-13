@@ -1,0 +1,35 @@
+{
+  "division": "ABrowse #MAJORVER#.#MINORVER#",
+  "versions": ["0.6", "0.5", "0.4"],
+  "sortIndex": 955,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ABrowse #MAJORVER#.#MINORVER#",
+      "browser": "abrowse",
+      "platform": "Syllable",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ABrowse #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; U; ABrowse #MAJORVER#.#MINORVER##PLATFORM#) applewebkit* (*khtml*like*gecko*)*",
+          "platforms": [
+            "Syllable"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; ABrowse #MAJORVER#.#MINORVER##PLATFORM#",
+          "platforms": [
+            "Syllable"
+          ]
+        }
+      ]
+    }
+  ]
+}

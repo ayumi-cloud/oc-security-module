@@ -1,0 +1,30 @@
+{
+  "division": "DNS Tools",
+  "sortIndex": 330,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "DNS Tools",
+      "browser": "dns tools",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "DNS Tools"
+      },
+      "children": [
+        {
+          "match": "Domain Dossier utility*",
+          "browser": "domain dossier"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; DNS-Digger/*)",
+          "browser": "dns-digger"
+        },
+        {
+          "match": "OpenDNS Domain Crawler noc@opendns.com",
+          "browser": "opendns domain crawler"
+        }
+      ]
+    }
+  ]
+}

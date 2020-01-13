@@ -1,0 +1,127 @@
+{
+  "division": "Image Crawlers",
+  "sortIndex": 400,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Image Crawlers",
+      "browser": "image crawlers",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Image Crawlers"
+      },
+      "children": [
+        {
+          "match": "*PhotoStickies/*",
+          "browser": "photostickies"
+        },
+        {
+          "match": "Camcrawler*",
+          "browser": "camcrawler"
+        },
+        {
+          "match": "CydralSpider/3.2*",
+          "browser": "cydral web image search",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "CydralSpider/*",
+          "browser": "cydral web image search"
+        },
+        {
+          "match": "Der gro?xdfe BilderSauger*",
+          "browser": "gallery grabber"
+        },
+        {
+          "match": "Extreme Picture Finder",
+          "browser": "extreme picture finder"
+        },
+        {
+          "match": "FLATARTS_FAVICO",
+          "browser": "flatarts favorites icon tool"
+        },
+        {
+          "match": "HTML2JPG Blackbox, http://www.html2jpg.com",
+          "browser": "html2jpg"
+        },
+        {
+          "match": "IconSurf/2.*",
+          "browser": "iconsurf",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mister PIX*",
+          "browser": "mister pix"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; KaloogaBot; http://www.kalooga.com/info.html?page=crawler)",
+          "browser": "kaloogabot"
+        },
+        {
+          "match": "naoFavicon4IE*",
+          "browser": "naofavicon4ie"
+        },
+        {
+          "match": "pixfinder/*",
+          "browser": "pixfinder"
+        },
+        {
+          "match": "rssImagesBot/0.1 (*http://herbert.groot.jebbink.nl/?app=rssImages)",
+          "browser": "rssimagesbot"
+        },
+        {
+          "match": "Web Image Collector*",
+          "browser": "web image collector"
+        },
+        {
+          "match": "WebImages * (?http://herbert.groot.jebbink.nl/?app=WebImages?)",
+          "browser": "webimages"
+        },
+        {
+          "match": "WebPix*",
+          "browser": "custo"
+        },
+        {
+          "match": "FOTOCHECKER",
+          "browser": "fotochecker"
+        },
+        {
+          "match": "Elmer, the Thinglink ImageBot*",
+          "browser": "elmer"
+        },
+        {
+          "match": "ZnajdzFoto/Image 2.0*",
+          "browser": "znajdzfoto/imagebot",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "ZnajdzFoto/Image*",
+          "browser": "znajdzfoto/imagebot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Caroline/*; +http://justpicsplease.com/caroline.php)",
+          "browser": "caroline bot"
+        },
+        {
+          "match": "Twiends Crawler*",
+          "browser": "twiends crawler"
+        },
+        {
+          "match": "myTaste image cacher*",
+          "browser": "mytaste image cacher"
+        },
+        {
+          "match": "Taringa UGC www.taringa.net/shared-link.php*",
+          "browser": "taringa bot"
+        }
+      ]
+    }
+  ]
+}

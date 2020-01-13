@@ -1,0 +1,27 @@
+{
+  "division": "Another Web Mining Tool",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Another Web Mining Tool",
+      "browser": "another web mining tool",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Another Web Mining Tool"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Another Web Mining Tool 1.0; +none; awmt)*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Another Web Mining Tool *; +none; awmt)*"
+        }
+      ]
+    }
+  ]
+}

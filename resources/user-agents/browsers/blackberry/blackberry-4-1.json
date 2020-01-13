@@ -1,0 +1,71 @@
+{
+  "division": "BlackBerry #MAJORVER#.#MINORVER#",
+  "versions": ["4.1"],
+  "sortIndex": 2371,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "browser": "blackberry",
+      "platform": "RIMOS_Dynamic",
+      "device": "general Mobile Phone (old Blackberry)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BlackBerry7100": "Blackberry 7100",
+            "BlackBerry7100i": "Blackberry 7100i",
+            "BlackBerry7130": "Blackberry 7130",
+            "BlackBerry7130e": "Blackberry 7130e",
+            "BlackBerry7250": "Blackberry 7250",
+            "BlackBerry7290": "Blackberry 7290",
+            "BlackBerry7520": "Blackberry 7520",
+            "BlackBerry8700": "Blackberry 8700",
+            "BlackBerry8700c": "Blackberry 8700c",
+            "BlackBerry8703e": "Blackberry 8703e",
+            "BlackBerry8707": "Blackberry 8707"
+          }
+        },
+        {
+          "match": "BlackBerry*/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows NT 5.0) #DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BlackBerry7100i": "Blackberry 7100i",
+            "BlackBerry8700": "Blackberry 8700",
+            "BlackBerry8703e": "Blackberry 8703e"
+          },
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/4.8* (Windows NT 5.0; U) #DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BlackBerry7100i": "Blackberry 7100i"
+          },
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/2.0 (compatible*; MSIE 3.02; Windows CE*#DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BlackBerry8700": "Blackberry 8700",
+            "BlackBerry8707": "Blackberry 8707"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        }
+      ]
+    }
+  ]
+}

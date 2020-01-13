@@ -1,0 +1,55 @@
+{
+  "division": "YodaoBot",
+  "sortIndex": 230,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YodaoBot",
+      "browser": "yodaobot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "YodaoBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; YodaoBot/1.*)",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible;YodaoBot-Image/1.*)",
+          "browser": "yodaobot-image",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "WAP_Browser/5.0 (compatible; YodaoBot/1.*)",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "YodaoBot/1.* (*)",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Best Whois (http://www.bestwhois.net/)",
+          "browser": "best whois"
+        },
+        {
+          "match": "DNSGroup/*",
+          "browser": "dns group crawler"
+        },
+        {
+          "match": "TouchStone",
+          "browser": "touchstone"
+        }
+      ]
+    }
+  ]
+}

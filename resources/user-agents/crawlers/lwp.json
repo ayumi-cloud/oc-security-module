@@ -1,0 +1,36 @@
+{
+  "division": "lwp",
+  "sortIndex": 1000,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "lwp",
+      "browser": "lwp",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "lwp"
+      },
+      "children": [
+        {
+          "match": "lwp*"
+        },
+        {
+          "match": "LWP::Simple*"
+        },
+        {
+          "match": "lwp-download*"
+        },
+        {
+          "match": "lwp-request*"
+        },
+        {
+          "match": "lwp-rget*"
+        },
+        {
+          "match": "lwp-trivial*"
+        }
+      ]
+    }
+  ]
+}

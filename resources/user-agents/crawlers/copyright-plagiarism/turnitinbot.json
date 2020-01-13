@@ -1,0 +1,33 @@
+{
+  "division": "TurnitinBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TurnitinBot",
+      "browser": "turnitinbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TurnitinBot"
+      },
+      "children": [
+        {
+          "match": "TurnitinBot/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "TurnitinBot/2.1*",
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "TurnitinBot*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "OmniWeb Generic",
+  "sortIndex": 2694,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OmniWeb Generic",
+      "browser": "omniweb",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OmniWeb Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *OmniWeb/*",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

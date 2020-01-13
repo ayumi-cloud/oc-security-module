@@ -1,0 +1,29 @@
+{
+  "division": "Cunaguaro",
+  "sortIndex": 3190,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Cunguaro",
+      "browser": "cunaguaro",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Cunaguaro",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* Cunaguaro/*",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

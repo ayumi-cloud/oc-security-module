@@ -1,0 +1,60 @@
+{
+  "division": "QuickTime #MAJORVER#.#MINORVER#",
+  "versions": [10, "7.7", "7.6", "7.5", "7.4", "7.3", "7.2", "7.1", 7, 6, 5],
+  "sortIndex": 1580,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QuickTime #MAJORVER#.#MINORVER#",
+      "browser": "quicktime",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QuickTime #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "QuickTime*(qtver=#MAJORVER#.#MINORVER#*os=Mac 10.*)",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "QuickTime*(qtver=#MAJORVER#.#MINORVER#*os=Mac 9.*)",
+          "device": "Macintosh",
+          "platforms": [
+            "MacPPC"
+          ]
+        },
+        {
+          "match": "QuickTime*(qtver=#MAJORVER#.#MINORVER#*os=Windows Me*)",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinME"
+          ]
+        },
+        {
+          "match": "QuickTime*(qtver=#MAJORVER#.#MINORVER#*os=#PLATFORM#)",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000",
+            "NT4",
+            "Win98_2",
+            "Win95_2"
+          ]
+        },
+        {
+          "match": "QuickTime?#MAJORVER#.#MINORVER#*",
+          "device": "unknown"
+        }
+      ]
+    }
+  ]
+}

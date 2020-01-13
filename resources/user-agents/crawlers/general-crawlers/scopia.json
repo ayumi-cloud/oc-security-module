@@ -1,0 +1,39 @@
+{
+  "division": "Scopia Crawler",
+  "sortIndex": 350,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Scopia Crawler",
+      "browser": "scopia crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Scopia Crawler"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Scopia Crawler 1.2*",
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Scopia Crawler 1.1*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Scopia Crawler 1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Scopia Crawler*"
+        }
+      ]
+    }
+  ]
+}

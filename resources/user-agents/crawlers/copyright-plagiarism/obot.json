@@ -1,0 +1,30 @@
+{
+  "division": "oBot",
+  "sortIndex": 320,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "oBot",
+      "browser": "obot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "oBot"
+      },
+      "children": [
+        {
+          "match": "oBot*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; oBot/2.3*",
+          "properties": {
+            "Version": "2.3"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; oBot/*"
+        }
+      ]
+    }
+  ]
+}

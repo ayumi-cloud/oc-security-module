@@ -1,0 +1,174 @@
+{
+  "division": "OneBrowser #MAJORVER#.#MINORVER#",
+  "versions": ["4.2", "4.1", 4, "3.8", "3.7", "3.6", "3.5", "3.4", "3.3", "3.2", "3.1", 3],
+  "sortIndex": 1708,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OneBrowser #MAJORVER#.#MINORVER# for Android",
+      "browser": "onebrowser",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OneBrowser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "devices": {
+            "GT-S5302": "Samsung GT-S5302",
+            "GT-S7562": "Samsung GT-S7562",
+            "Micromax A27": "Micromax A27"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "devices": {
+            "GT-S7562": "Samsung GT-S7562",
+            "Micromax A27": "Micromax A27"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "devices": {
+            "Micromax A110": "Micromax A110"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "OneBrowser #MAJORVER#.#MINORVER# for iOS",
+      "browser": "onebrowser",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OneBrowser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A_5_1", "iOS_A_5_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
+            "iOS_A_3_2", "iOS_A_3_1", "iOS_A_3_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A_5_1", "iOS_A_5_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
+            "iOS_A_3_2", "iOS_A_3_1", "iOS_A_3_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A_5_1", "iOS_A_5_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
+            "iOS_A_3_2", "iOS_A_3_1", "iOS_A_3_0",
+            "iOS_A"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "OneBrowser #MAJORVER#.#MINORVER#",
+      "browser": "onebrowser",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OneBrowser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#?Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/*",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(GT-S5233S*",
+          "device": "Samsung GT-S5233S"
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*(SAMSUNG-GT-S3653*",
+          "device": "Samsung GT-S3653"
+        },
+        {
+          "match": "OneBrowser/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

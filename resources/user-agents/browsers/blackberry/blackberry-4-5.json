@@ -1,0 +1,46 @@
+{
+  "division": "BlackBerry #MAJORVER#.#MINORVER#",
+  "versions": ["4.5"],
+  "sortIndex": 2368,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "browser": "blackberry",
+      "platform": "RIMOS_Dynamic",
+      "device": "general Mobile Phone (old Blackberry)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BlackBerry8100": "Blackberry 8100",
+            "BlackBerry8110": "Blackberry 8110",
+            "BlackBerry8120": "Blackberry 8120",
+            "BlackBerry8130": "Blackberry 8130",
+            "BlackBerry8130m": "Blackberry 8130m",
+            "BlackBerry8300": "Blackberry 8300",
+            "BlackBerry8310": "Blackberry 8310",
+            "BlackBerry8320": "Blackberry 8320",
+            "BlackBerry8330": "Blackberry 8330",
+            "BlackBerry8330m": "Blackberry 8330m",
+            "BlackBerry8700": "Blackberry 8700",
+            "BlackBerry8703e": "Blackberry 8703e",
+            "BlackBerry8800": "Blackberry 8800",
+            "BlackBerry8820": "Blackberry 8820",
+            "BlackBerry8830": "Blackberry 8830",
+            "BlackBerry8830m": "Blackberry 8830m"
+          }
+        },
+        {
+          "match": "BlackBerry*/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

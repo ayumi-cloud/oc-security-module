@@ -1,0 +1,37 @@
+{
+  "division": "QQBrowser Mini #MAJORVER#.#MINORVER#",
+  "versions": ["3.1", "2.8", "2.7", "2.6", "2.4", "2.2"],
+  "sortIndex": 1005,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QQBrowser Mini #MAJORVER#.#MINORVER#",
+      "browser": "qqbrowser mini",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QQBrowser Mini #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "MQQBrowser/Mini#MAJORVER#.#MINORVER#* (#DEVICE#)*",
+          "devices": {
+            "SAMSUNG-GT-E2252": "Samsung GT-E2252"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "MQQBrowser/Mini#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        }
+      ]
+    }
+  ]
+}

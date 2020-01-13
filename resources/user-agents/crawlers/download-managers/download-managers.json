@@ -1,0 +1,238 @@
+{
+  "division": "Download Managers",
+  "sortIndex": 340,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Download Managers",
+      "browser": "download managers",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Download Managers"
+      },
+      "children": [
+        {
+          "match": "A1 Website Download/1.* (*) miggibot",
+          "browser": "a1 website download"
+        },
+        {
+          "match": "AutoMate5",
+          "browser": "automate5"
+        },
+        {
+          "match": "Beamer*",
+          "browser": "beamer"
+        },
+        {
+          "match": "BitBeamer/*",
+          "browser": "bitbeamer"
+        },
+        {
+          "match": "DA *",
+          "browser": "download accelerator"
+        },
+        {
+          "match": "DAP *",
+          "browser": "download accelerator plus"
+        },
+        {
+          "match": "Download Demon*",
+          "browser": "download demon"
+        },
+        {
+          "match": "Download Express*",
+          "browser": "download express"
+        },
+        {
+          "match": "Download Master*",
+          "browser": "download master"
+        },
+        {
+          "match": "Download Ninja*",
+          "browser": "download ninja"
+        },
+        {
+          "match": "Download Wonder*",
+          "browser": "download wonder"
+        },
+        {
+          "match": "DownloadSession*",
+          "browser": "downloadsession"
+        },
+        {
+          "match": "EasyDL/*",
+          "browser": "easydl"
+        },
+        {
+          "match": "FDM 1.x",
+          "browser": "free download manager"
+        },
+        {
+          "match": "FlashGet",
+          "browser": "flashget"
+        },
+        {
+          "match": "FreshDownload/*",
+          "browser": "freshdownload"
+        },
+        {
+          "match": "GetRight/*",
+          "browser": "getright"
+        },
+        {
+          "match": "GetRightPro/*",
+          "browser": "getrightpro"
+        },
+        {
+          "match": "GetSmart/*",
+          "browser": "getsmart"
+        },
+        {
+          "match": "Go!Zilla*",
+          "browser": "gozilla"
+        },
+        {
+          "match": "Gozilla/*",
+          "browser": "gozilla"
+        },
+        {
+          "match": "Internet Ninja*",
+          "browser": "internet ninja"
+        },
+        {
+          "match": "Kontiki Client*",
+          "browser": "kontiki client"
+        },
+        {
+          "match": "LightningDownload/*",
+          "browser": "lightningdownload"
+        },
+        {
+          "match": "LMQueueBot/*",
+          "browser": "lmqueuebot"
+        },
+        {
+          "match": "MetaProducts Download Express/*",
+          "browser": "download express"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; Getleft*)",
+          "browser": "getleft"
+        },
+        {
+          "match": "Myzilla",
+          "browser": "myzilla"
+        },
+        {
+          "match": "Net Vampire/*",
+          "browser": "net vampire"
+        },
+        {
+          "match": "Net_Vampire*",
+          "browser": "net_vampire"
+        },
+        {
+          "match": "NetAnts*",
+          "browser": "netants"
+        },
+        {
+          "match": "NetPumper*",
+          "browser": "netpumper"
+        },
+        {
+          "match": "NetSucker*",
+          "browser": "netsucker"
+        },
+        {
+          "match": "NetZip Downloader*",
+          "browser": "netzip downloader"
+        },
+        {
+          "match": "NexTools WebAgent*",
+          "browser": "nextools webagent"
+        },
+        {
+          "match": "Offline Downloader*",
+          "browser": "offline downloader"
+        },
+        {
+          "match": "P3P Client",
+          "browser": "p3p client"
+        },
+        {
+          "match": "PageDown*",
+          "browser": "pagedown"
+        },
+        {
+          "match": "PicaLoader*",
+          "browser": "picaloader"
+        },
+        {
+          "match": "Prozilla*",
+          "browser": "prozilla"
+        },
+        {
+          "match": "RealDownload/*",
+          "browser": "realdownload"
+        },
+        {
+          "match": "sEasyDL/*",
+          "browser": "easydl"
+        },
+        {
+          "match": "shareaza*",
+          "browser": "shareaza"
+        },
+        {
+          "match": "SmartDownload/*",
+          "browser": "smartdownload"
+        },
+        {
+          "match": "SpeedDownload/*",
+          "browser": "speed download"
+        },
+        {
+          "match": "Star*Downloader/*",
+          "browser": "stardownloader"
+        },
+        {
+          "match": "STEROID Download",
+          "browser": "steroid download"
+        },
+        {
+          "match": "SuperBot/*",
+          "browser": "superbot"
+        },
+        {
+          "match": "Vegas95/*",
+          "browser": "vegas95"
+        },
+        {
+          "match": "WebZIP*",
+          "browser": "webzip"
+        },
+        {
+          "match": "WinTools",
+          "browser": "wintools"
+        },
+        {
+          "match": "Xaldon WebSpider*",
+          "browser": "xaldon webspider"
+        },
+        {
+          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Downloader/* MyComGameCenter/* Safari/*",
+          "browser": "mycomgamecenter downloader"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; Trident/*; QQDownload *",
+          "browser": "qqdownload"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; QQDownload *",
+          "browser": "qqdownload"
+        }
+      ]
+    }
+  ]
+}

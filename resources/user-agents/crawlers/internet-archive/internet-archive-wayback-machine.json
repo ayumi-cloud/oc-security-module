@@ -1,0 +1,30 @@
+{
+  "division": "Wayback Archive Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Wayback Archive Bot",
+      "browser": "wayback archive bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Wayback Archive Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; waybackarchive.org/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; waybackarchive.org/*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; archive.org_bot; Wayback Machine Live Record*"
+        }
+      ]
+    }
+  ]
+}

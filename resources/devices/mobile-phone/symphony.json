@@ -1,0 +1,46 @@
+{
+  "Symphony B46i": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "B46i",
+      "Device_Code_Name": "B46i",
+      "Device_Maker": "Symphony",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Symphony"
+    },
+    "standard": false
+  },
+  "Symphony W82": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xplorer",
+      "Device_Code_Name": "W82",
+      "Device_Maker": "Symphony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Symphony"
+    },
+    "standard": false
+  },
+  "Symphony P7 Pro": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P7 Pro",
+      "Device_Code_Name": "P7 Pro",
+      "Device_Maker": "Symphony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Symphony"
+    },
+    "standard": false
+  },
+  "Symphony H400": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "H400",
+      "Device_Code_Name": "H400",
+      "Device_Maker": "Symphony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Symphony"
+    },
+    "standard": false
+  }
+}

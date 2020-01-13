@@ -1,0 +1,25 @@
+{
+  "division": "PowerTV",
+  "sortIndex": 2190,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "PowerTV",
+      "browser": "powertv",
+      "device": "PowerTV",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PowerTV"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 PowerTV/1.5 (Compatible; Spyglass DM 3.2.1, EXPLORER)",
+          "properties": {
+            "Version": "1.5"
+          }
+        }
+      ]
+    }
+  ]
+}

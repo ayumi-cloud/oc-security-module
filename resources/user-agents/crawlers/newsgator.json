@@ -1,0 +1,41 @@
+{
+  "division": "NewsGator",
+  "sortIndex": 610,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NewsGator",
+      "browser": "newsgator",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NewsGator"
+      },
+      "children": [
+        {
+          "match": "MarsEdit*",
+          "browser": "marsedit"
+        },
+        {
+          "match": "NewsGator FetchLinks extension/*",
+          "browser": "newsgator fetchlinks"
+        },
+        {
+          "match": "NewsGator/*",
+          "browser": "newsgator"
+        },
+        {
+          "match": "NewsGatorOnline/2.0*",
+          "browser": "newsgatoronline",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "NewsGatorOnline/*",
+          "browser": "newsgatoronline"
+        }
+      ]
+    }
+  ]
+}

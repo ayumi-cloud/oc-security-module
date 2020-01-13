@@ -1,0 +1,42 @@
+{
+  "division": "SoundCloud App #MAJORVER#.#MINORVER# for Android",
+  "versions": ["14.08", "14.07", "14.06", "14.05", "14.04", "14.03", "14.02", "14.01", "14.00"],
+  "sortIndex": 2060,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SoundCloud App #MAJORVER#.#MINORVER# for Android",
+      "browser": "soundcloud app",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SoundCloud App #MAJORVER#.#MINORVER# for Android",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "SoundCloud-Android/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "platforms": [
+            "Android_H_5_0",
+            "Android_H_4_4", "Android_H_4_3", "Android_H_4_2"
+          ]
+        },
+        {
+          "match": "SoundCloud-Android/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "Android_H_4_4",
+            "Android_H"
+          ]
+        }
+      ]
+    }
+  ]
+}

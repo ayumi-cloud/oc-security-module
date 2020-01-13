@@ -1,0 +1,27 @@
+{
+  "division": "DBTEL",
+  "sortIndex": 3860,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "DBTEL",
+      "browser": "dbtel",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "DBTEL",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "DBTEL-M50/1.0 *"
+        },
+        {
+          "match": "DBTEL/2092_S Ares.Browser/02.02"
+        }
+      ]
+    }
+  ]
+}

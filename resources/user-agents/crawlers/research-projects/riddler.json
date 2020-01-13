@@ -1,0 +1,21 @@
+{
+  "division": "Riddler",
+  "sortIndex": 471,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Riddler",
+      "browser": "riddler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Riddler"
+      },
+      "children": [
+        {
+          "match": "Riddler *"
+        }
+      ]
+    }
+  ]
+}

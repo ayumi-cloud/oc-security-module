@@ -1,0 +1,36 @@
+{
+  "division": "Esribot",
+  "sortIndex": 320,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Esribot",
+      "browser": "esribot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers"
+      },
+      "children": [
+        {
+          "match": "Esribot/1.*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Esribot/*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Esribot/1.*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Esribot/*"
+        }
+      ]
+    }
+  ]
+}

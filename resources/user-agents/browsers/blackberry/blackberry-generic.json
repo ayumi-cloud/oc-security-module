@@ -1,0 +1,50 @@
+{
+  "division": "BlackBerry",
+  "sortIndex": 2376,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry",
+      "browser": "blackberry",
+      "platform": "RIMOS",
+      "device": "general Mobile Phone (old Blackberry)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BlackBerry"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (BlackBerry; ?; BlackBerry*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "device": "Blackberry Blackberry",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "*BlackBerry*",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "*PlayBook*RIM Tablet OS 1.0.*",
+          "device": "Blackberry PlayBook",
+          "platforms": [
+            "RIM_Tablet_OS_1"
+          ]
+        },
+        {
+          "match": "*PlayBook*RIM Tablet OS 2.1.*",
+          "device": "Blackberry PlayBook",
+          "platforms": [
+            "RIM_Tablet_OS_2_1"
+          ]
+        },
+        {
+          "match": "*BlackBerrySimulator*"
+        }
+      ]
+    }
+  ]
+}

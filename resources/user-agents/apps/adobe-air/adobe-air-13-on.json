@@ -1,0 +1,82 @@
+{
+  "division": "Adobe AIR #MAJORVER#.#MINORVER#",
+  "versions": [15, 14, 13],
+  "sortIndex": 2059,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Adobe AIR #MAJORVER#.#MINORVER#",
+      "browser": "adobe air",
+      "engine": "WebKit",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Adobe AIR #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) AdobeAIR/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) AdobeAIR/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) AdobeAIR/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Adobe AIR #MAJORVER#.#MINORVER# for iOS",
+      "browser": "adobe air",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Adobe AIR #MAJORVER#.#MINORVER# for iOS",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) AdobeAIR/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_N"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Adobe AIR #MAJORVER#.#MINORVER# for Android",
+      "browser": "adobe air",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Adobe AIR #MAJORVER#.#MINORVER# for Android",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) AdobeAIR/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "AndroidGeneric"
+          ]
+        }
+      ]
+    }
+  ]
+}

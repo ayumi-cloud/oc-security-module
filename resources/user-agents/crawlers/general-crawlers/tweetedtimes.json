@@ -1,0 +1,30 @@
+{
+  "division": "TweetedTimes Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TweetedTimes Bot",
+      "browser": "tweetedtimes bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TweetedTimes Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; TweetedTimes Bot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; TweetedTimes Bot/*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; +http://tweetedtimes*"
+        }
+      ]
+    }
+  ]
+}

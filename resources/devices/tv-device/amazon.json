@@ -1,0 +1,24 @@
+{
+  "Amazon AFTB": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Fire TV",
+      "Device_Code_Name": "AFTB",
+      "Device_Maker": "Amazon.com, Inc.",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Amazon"
+    },
+    "standard": true
+  },
+  "Amazon AFTN": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Fire TV (3rd Generation)",
+      "Device_Code_Name": "AFTN",
+      "Device_Maker": "Amazon.com, Inc.",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Amazon"
+    },
+    "standard": true
+  }
+}

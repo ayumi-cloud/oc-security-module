@@ -1,0 +1,51 @@
+{
+  "division": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 7352,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
+      "browser": "motorola internet browser",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Motorola Internet Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/ WAP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MOT-A732": "Motorola A732"
+          }
+        },
+        {
+          "match": "#DEVICE#/*/WAP#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MOT-A732": "Motorola A732"
+          }
+        },
+        {
+          "match": "#DEVICE#/ WAP.Browser/1.0*",
+          "devices": {
+            "MOT-W220": "Motorola W220"
+          }
+        },
+        {
+          "match": "#DEVICE#/* MIB/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MOT-c350": "Motorola C350",
+            "MOT-c350M": "Motorola C350M",
+            "MOT-c350V": "Motorola C350V",
+            "MOT-T720": "Motorola T720",
+            "MOT-T720M": "Motorola T720M",
+            "MOT-TA02": "Motorola TA02",
+            "MOT-v150": "Motorola V150"
+          }
+        }
+      ]
+    }
+  ]
+}

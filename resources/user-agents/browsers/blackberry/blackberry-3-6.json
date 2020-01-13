@@ -1,0 +1,34 @@
+{
+  "division": "BlackBerry #MAJORVER#.#MINORVER#",
+  "versions": ["3.6"],
+  "sortIndex": 2375,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "browser": "blackberry",
+      "platform": "RIMOS_Dynamic",
+      "device": "general Mobile Phone (old Blackberry)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BlackBerry5810": "Blackberry 5810",
+            "BlackBerry5820": "Blackberry 5820",
+            "BlackBerry6220": "Blackberry 6220",
+            "BlackBerry6720": "Blackberry 6720"
+          }
+        },
+        {
+          "match": "BlackBerry*/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

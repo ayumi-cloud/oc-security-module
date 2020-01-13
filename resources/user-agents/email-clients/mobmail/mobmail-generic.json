@@ -1,0 +1,25 @@
+{
+  "division": "Mobmail Generic",
+  "sortIndex": 1671,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mobmail Generic",
+      "browser": "mobmail",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mobmail Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "mobmail android*"
+        }
+      ]
+    }
+  ]
+}

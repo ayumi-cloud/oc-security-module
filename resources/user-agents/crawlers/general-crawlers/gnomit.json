@@ -1,0 +1,27 @@
+{
+  "division": "Gnomit",
+  "sortIndex": 510,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Gnomit",
+      "browser": "gnomit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Gnomit"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (*http://gnomit.com/) Gecko* Gnomit/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (*http://gnomit.com/) Gecko* Gnomit/*"
+        }
+      ]
+    }
+  ]
+}

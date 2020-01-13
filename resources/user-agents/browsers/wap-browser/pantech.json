@@ -1,0 +1,34 @@
+{
+  "division": "Pantech",
+  "sortIndex": 9740,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Pantech",
+      "browser": "pantech",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pantech",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "PANTECH G200*"
+        },
+        {
+          "match": "PANTECH G500*"
+        },
+        {
+          "match": "PT-G700*"
+        },
+        {
+          "match": "PT-GI100 * MIDP/MIDP-1.0*"
+        }
+      ]
+    }
+  ]
+}

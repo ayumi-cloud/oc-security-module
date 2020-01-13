@@ -1,0 +1,43 @@
+{
+  "division": "YahooMobile #MAJORVER#.#MINORVER#",
+  "versions": [5, 4, "3.3", "3.2", "3.1"],
+  "sortIndex": 1331,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YahooMobile #MAJORVER#.#MINORVER#",
+      "browser": "yahoo mobile app",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo Mobile App #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "YahooMobile/1.0 *(Apple; #DEVICE##PLATFORM#); YHOO_Search_App/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_E_8_0",
+            "iOS_E_7_1", "iOS_E_7_0",
+            "iOS_E_6_1",
+            "iOS_E"
+          ]
+        },
+        {
+          "match": "YahooMobile/1.0 *(#PLATFORM#); YHOO_Search_App/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_E_8_0",
+            "iOS_E_7_1", "iOS_E_7_0",
+            "iOS_E_6_1",
+            "iOS_E"
+          ]
+        }
+      ]
+    }
+  ]
+}

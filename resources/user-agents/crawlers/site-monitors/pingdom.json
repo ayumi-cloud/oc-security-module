@@ -1,0 +1,48 @@
+{
+  "division": "Pingdom",
+  "sortIndex": 490,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Pingdom",
+      "browser": "pingdom",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pingdom"
+      },
+      "children": [
+        {
+          "match": "Pingdom.com_bot_version_1.4*",
+          "properties": {
+            "Version": "1.4"
+          }
+        },
+        {
+          "match": "Pingdom.com_bot_version_*"
+        },
+        {
+          "match": "Pingdom GIGRIB*"
+        },
+        {
+          "match": "Mozilla/5.0 (Unknown; Linux x86_64) applewebkit* (*khtml*like*gecko*) PingdomTMS/0.8*",
+          "browser": "pingdom transaction monitoring",
+          "properties": {
+            "Version": "0.8"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Unknown; Linux x86_64) applewebkit* (*khtml*like*gecko*) PingdomTMS/*",
+          "browser": "pingdom transaction monitoring"
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Ubuntu Chromium/* Chrome/* Safari/* PingdomPageSpeed/*",
+          "browser": "pingdom pagespeed"
+        },
+        {
+          "match": "*Pingdom*"
+        }
+      ]
+    }
+  ]
+}

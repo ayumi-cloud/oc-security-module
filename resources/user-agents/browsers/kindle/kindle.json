@@ -1,0 +1,66 @@
+{
+  "division": "Kindle",
+  "sortIndex": 1740,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Kindle",
+      "browser": "kindle",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "Amazon Kindle",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kindle"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Linux*U;*)*applewebkit*(*khtml*like*gecko,*safari*) Version/4.0 Kindle/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; U*) applewebkit* (*khtml*like*gecko,*safari*Version/4.0 Kindle/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Linux*; Android 2.3*Kindle Fire*) applewebkit* (*khtml*like*gecko*) Version/4.0*Safari/*",
+          "device": "Amazon Kindle Fire",
+          "platforms": [
+            "Android_2_3"
+          ],
+          "properties": {
+            "Comment": "Kindle Fire",
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (X11; U; Linux armv* like Android; *) applewebkit* (*khtml*like*gecko*) Version/5.0 Safari/* Kindle/3.*",
+          "device": "Amazon Kindle 3",
+          "platforms": [
+            "Maemo_ARM"
+          ],
+          "properties": {
+            "Version": "5.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Linux*Android 2.3*Kindle Fire*) applewebkit* (*khtml*like*gecko*) Version/4.0 Mobile Safari/*",
+          "browser": "kindle fire",
+          "device": "Amazon Kindle Fire",
+          "platforms": [
+            "Android_2_3"
+          ],
+          "properties": {
+            "Comment": "Kindle Fire",
+            "Version": "4.0"
+          }
+        }
+      ]
+    }
+  ]
+}

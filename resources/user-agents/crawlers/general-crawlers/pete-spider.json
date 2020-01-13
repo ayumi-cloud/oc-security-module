@@ -1,0 +1,27 @@
+{
+  "division": "Pete-Spider",
+  "sortIndex": 880,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Pete-Spider",
+      "browser": "pete-spider",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pete-Spider"
+      },
+      "children": [
+        {
+          "match": "Pete-Spider/1.*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Pete-Spider/*"
+        }
+      ]
+    }
+  ]
+}

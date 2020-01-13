@@ -1,0 +1,32 @@
+{
+  "division": "Accoona Bot",
+  "sortIndex": 480,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Accoona Bot",
+      "browser": "accoona bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Accoona Bot"
+      },
+      "children": [
+        {
+          "match": "Accoona-AI-Agent/1.1*",
+          "browser": "accoona-ai-agent",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "Accoona-AI-Agent/*",
+          "browser": "accoona-ai-agent"
+        },
+        {
+          "match": "accoona*"
+        }
+      ]
+    }
+  ]
+}

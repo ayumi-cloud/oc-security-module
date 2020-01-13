@@ -1,0 +1,33 @@
+{
+  "division": "Microsoft Lync",
+  "sortIndex": 7181,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft Lync",
+      "browser": "lync",
+      "platform": "Windows",
+      "engine": "Trident",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft Lync",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Microsoft Office/15.* (#PLATFORM#Microsoft Lync 15.*)",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32"
+          ],
+          "properties": {
+            "Version": "2013"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "division": "phantomas #MAJORVER#.#MINORVER#",
+  "versions": ["1.8"],
+  "sortIndex": 259,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "phantomas #MAJORVER#.#MINORVER#",
+      "browser": "phantomas",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "phantomas #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "phantomas/#MAJORVER#.#MINORVER#* (PhantomJS/*; #PLATFORM#)*",
+          "platforms": [
+            "Linux_x64", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

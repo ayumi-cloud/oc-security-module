@@ -1,0 +1,27 @@
+{
+  "division": "OSSProxy",
+  "sortIndex": 1010,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OSSProxy",
+      "browser": "ossproxy",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OSSProxy"
+      },
+      "children": [
+        {
+          "match": "OSSProxy 1.3*",
+          "properties": {
+            "Version": "1.3"
+          }
+        },
+        {
+          "match": "OSSProxy*"
+        }
+      ]
+    }
+  ]
+}

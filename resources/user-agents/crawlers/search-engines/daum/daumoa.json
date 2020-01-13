@@ -1,0 +1,33 @@
+{
+  "division": "Daumoa",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Daumoa",
+      "browser": "daumoa",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Daumoa"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;*) Daumoa?4.0*",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;*) Daumoa?3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;*"
+        }
+      ]
+    }
+  ]
+}

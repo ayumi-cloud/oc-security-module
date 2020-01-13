@@ -1,0 +1,42 @@
+{
+  "division": "Miui Browser Generic for Dalvik",
+  "sortIndex": 1110,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Miui Browser Generic for Dalvik",
+      "browser": "miui browser",
+      "platform": "Miui_OS",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Miui Browser Generic for Dalvik"
+      },
+      "children": [
+        {
+          "match": "Dalvik/2.1* (*Linux*Android* #PLATFORM#)",
+          "platforms": [
+            "Miui_OS"
+          ]
+        },
+        {
+          "match": "Dalvik/1.6* (*Linux*Android* #DEVICE##PLATFORM#)",
+          "devices": {
+            "MI PAD": "Xiaomi Mi Pad"
+          },
+          "platforms": [
+            "Miui_OS"
+          ]
+        },
+        {
+          "match": "Dalvik/1.6* (*Linux*Android* #PLATFORM#)",
+          "platforms": [
+            "Miui_OS"
+          ]
+        }
+      ]
+    }
+  ]
+}

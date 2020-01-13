@@ -1,0 +1,62 @@
+{
+  "division": "Data Mining",
+  "sortIndex": 190,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Data Mining",
+      "browser": "data mining",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Data Mining"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; imrbot/1.10*",
+          "browser": "mignify bot",
+          "properties": {
+            "Version": "1.10"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; imrbot/*",
+          "browser": "mignify bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; LucidWorks*",
+          "browser": "lucidworks bot"
+        },
+        {
+          "match": "Mozilla/5.0 CommonCrawler Node*",
+          "browser": "commoncrawler node"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Dataprovider/*",
+          "browser": "dataprovider bot"
+        },
+        {
+          "match": "SkyGrid/*",
+          "browser": "skygrid bot"
+        },
+        {
+          "match": "Clickagy Intelligence Bot*",
+          "browser": "clickagy intelligence bot"
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Datanyze; #PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*",
+          "browser": "datanyze",
+          "engine": "Blink",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Eyeotabot/*",
+          "browser": "eyeotabot"
+        }
+      ]
+    }
+  ]
+}

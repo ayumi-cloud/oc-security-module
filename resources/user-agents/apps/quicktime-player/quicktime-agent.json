@@ -1,0 +1,22 @@
+{
+  "division": "QuickTime Agent",
+  "sortIndex": 7110,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QuickTime Agent",
+      "browser": "quicktime agent",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QuickTime Agent"
+      },
+      "children": [
+        {
+          "match": "Apple?iPhone*"
+        }
+      ]
+    }
+  ]
+}

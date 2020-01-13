@@ -1,0 +1,51 @@
+{
+  "division": "BlackBerry #MAJORVER#.#MINORVER#",
+  "versions": [5],
+  "sortIndex": 2365,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "browser": "blackberry",
+      "platform": "RIMOS_Dynamic",
+      "device": "general Mobile Phone (Blackberry)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BlackBerry7130e": "Blackberry 7130e",
+            "BlackBerry8330": "Blackberry 8330",
+            "BlackBerry8350i": "Blackberry 8350i",
+            "BlackBerry8520": "Blackberry 8520",
+            "BlackBerry8530": "Blackberry 8530",
+            "BlackBerry8900": "Blackberry 8900",
+            "BlackBerry8980": "Blackberry 8980",
+            "BlackBerry9000": "Blackberry 9000",
+            "BlackBerry9100": "Blackberry 9100",
+            "BlackBerry9105": "Blackberry 9105",
+            "BlackBerry9300": "Blackberry 9300",
+            "BlackBerry9330": "Blackberry 9330",
+            "BlackBerry9500": "Blackberry 9500",
+            "BlackBerry9520": "Blackberry 9520",
+            "BlackBerry9530": "Blackberry 9530",
+            "BlackBerry9550": "Blackberry 9550",
+            "BlackBerry9630": "Blackberry 9630",
+            "BlackBerry9650": "Blackberry 9650",
+            "BlackBerry9700": "Blackberry 9700",
+            "BlackBerry9800": "Blackberry 9800"
+          }
+        },
+        {
+          "match": "BlackBerry*/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (old Blackberry)"
+        }
+      ]
+    }
+  ]
+}

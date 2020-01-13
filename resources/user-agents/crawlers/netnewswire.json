@@ -1,0 +1,125 @@
+{
+  "division": "NetNewsWire",
+  "sortIndex": 430,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NetNewsWire",
+      "browser": "netnewswire",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NetNewsWire"
+      },
+      "children": [
+        {
+          "match": "NetNewsWire/4.0*",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "NetNewsWire/3.3*",
+          "properties": {
+            "Version": "3.3"
+          }
+        },
+        {
+          "match": "NetNewsWire/3.2*",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "NetNewsWire/3.1*",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "NetNewsWire*/*",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) NetNewsWire/2.0*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) NetNewsWire/2.1*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) NetNewsWire/3.0*",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) NetNewsWire/3.1*",
+          "platforms": [
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
+            "OSX"
+          ],
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) NetNewsWire/3.2*",
+          "platforms": [
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
+            "OSX"
+          ],
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) NetNewsWire/3.3*",
+          "platforms": [
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
+            "OSX"
+          ],
+          "properties": {
+            "Version": "3.3"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *NetNewsWire/4.0*",
+          "platforms": [
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8",
+            "OSX"
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *NetNewsWire*",
+          "platforms": [
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

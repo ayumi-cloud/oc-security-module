@@ -1,0 +1,31 @@
+{
+  "division": "UC Browser #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 940,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
+      "browser": "uc browser",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Android",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_D_4_4", "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
+            "Android_D_2_3", "Android_D_2_2",
+            "Android_D"
+          ]
+        }
+      ]
+    }
+  ]
+}

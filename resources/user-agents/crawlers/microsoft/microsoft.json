@@ -1,0 +1,129 @@
+{
+  "division": "Microsoft",
+  "sortIndex": 420,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft",
+      "browser": "microsoft",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft"
+      },
+      "children": [
+        {
+          "match": "Live (http://www.live.com/)",
+          "browser": "microsoft live"
+        },
+        {
+          "match": "MFC Foundation Class Library*",
+          "browser": "mfc foundation class library"
+        },
+        {
+          "match": "MFHttpScan",
+          "browser": "mfhttpscan"
+        },
+        {
+          "match": "Microsoft BITS/*",
+          "browser": "bits"
+        },
+        {
+          "match": "Microsoft Data Access Internet Publishing Provider Cache Manager",
+          "browser": "ms ipp"
+        },
+        {
+          "match": "Microsoft Data Access Internet Publishing Provider DAV*",
+          "browser": "ms ipp dav"
+        },
+        {
+          "match": "Microsoft Data Access Internet Publishing Provider Protocol Discovery",
+          "browser": "ms ipppd"
+        },
+        {
+          "match": "Microsoft Office Existence Discovery",
+          "browser": "microsoft office existence discovery"
+        },
+        {
+          "match": "Microsoft Office Protocol Discovery",
+          "browser": "ms opd"
+        },
+        {
+          "match": "Microsoft Office/* (*Picture Manager*)",
+          "browser": "microsoft office picture manager"
+        },
+        {
+          "match": "Microsoft URL Control*",
+          "browser": "microsoft url control"
+        },
+        {
+          "match": "Microsoft Visio MSIE",
+          "browser": "microsoft visio"
+        },
+        {
+          "match": "MSN Feed Manager",
+          "browser": "msn feed manager"
+        },
+        {
+          "match": "MSProxy/*",
+          "browser": "ms proxy"
+        },
+        {
+          "match": "iisbot/1.0*",
+          "browser": "iis site analysis web crawler",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "iisbot/*",
+          "browser": "iis site analysis web crawler"
+        },
+        {
+          "match": "MS Web Services Client Protocol 1.0*",
+          "browser": ".net framework clr",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "MS Web Services Client Protocol *",
+          "browser": ".net framework clr"
+        },
+        {
+          "match": "ZDM/4.0; Windows Mobile 8.1*",
+          "browser": "backgroundtransferservice",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "WinPhone8.1"
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "ZDM/4.0; Windows Mobile 8.0*",
+          "browser": "backgroundtransferservice",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "WinPhone8"
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "ZDM/4.0; Windows Mobile 7.0*",
+          "browser": "backgroundtransferservice",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "WinPhone7"
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
+        }
+      ]
+    }
+  ]
+}

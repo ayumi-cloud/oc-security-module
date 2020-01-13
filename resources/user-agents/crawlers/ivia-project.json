@@ -1,0 +1,26 @@
+{
+  "division": "iVia Project",
+  "sortIndex": 180,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "iVia Project",
+      "browser": "ivia project",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iVia Project"
+      },
+      "children": [
+        {
+          "match": "DataFountains/DMOZ Downloader*",
+          "browser": "datafountains/dmoz downloader"
+        },
+        {
+          "match": "DataFountains/DMOZ Feature Vector Corpus Creator*",
+          "browser": "datafountains/dmoz feature vector corpus"
+        }
+      ]
+    }
+  ]
+}

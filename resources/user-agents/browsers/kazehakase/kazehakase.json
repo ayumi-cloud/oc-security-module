@@ -1,0 +1,49 @@
+{
+  "division": "Kazehakase #MAJORVER#.#MINORVER#",
+  "versions": ["0.5", "0.4"],
+  "sortIndex": 2460,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Kazehakase #MAJORVER#.#MINORVER#",
+      "browser": "kazehakase",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kazehakase #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox* Kazehakase/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Kazehakase/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox* Kazehakase/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Kazehakase/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
+          ]
+        }
+      ]
+    }
+  ]
+}

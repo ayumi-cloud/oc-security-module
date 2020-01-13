@@ -1,0 +1,53 @@
+{
+  "division": "2345 Browser #MAJORVER#.#MINORVER#",
+  "versions": ["9.9", "9.8", "9.6", "9.5", "9.3", "9.1", "8.9", "8.7", "8.5", "8.4", "7.5", "6.7"],
+  "sortIndex": 955,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "2345 Browser #MAJORVER#.#MINORVER#",
+      "browser": "2345 browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "2345 Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Coolpad 8675*": "Coolpad 8675"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

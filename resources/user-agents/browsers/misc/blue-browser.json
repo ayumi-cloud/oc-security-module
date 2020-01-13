@@ -1,0 +1,96 @@
+{
+  "division": "Blue Browser",
+  "sortIndex": 1400,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Blue Browser",
+      "browser": "blue browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Blue Browser/Surf Browser/Cloud Browser (com.gl9.cloudBrowser)",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* BlueBrowser/*",
+          "devices": {
+            "Nexus 5X": "LG Nexus 5X"
+          },
+          "platforms": [
+            "Android_H_7_1", "Android_H_7_0",
+            "Android_H_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* BlueBrowser/*",
+          "devices": {
+            "XT1585": "Motorola XT1585"
+          },
+          "platforms": [
+            "Android_H_7_0",
+            "Android_H_6_0",
+            "Android_H_5_1", "Android_H_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* BlueBrowser/*",
+          "devices": {
+            "LGMS330": "LG MS330"
+          },
+          "platforms": [
+            "Android_H_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* BlueBrowser/*",
+          "devices": {
+            "SM-G900V": "Samsung SM-G900V"
+          },
+          "platforms": [
+            "Android_H_5_0",
+            "Android_H_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* BlueBrowser/*",
+          "platforms": [
+            "Android_H_7_1", "Android_H_7_0",
+            "Android_H_6_0",
+            "Android_H_5_1", "Android_H_5_0",
+            "Android_H_4_4", "Android_H_4_3", "Android_H_4_2",
+            "Android_H"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SurfBrowser/*",
+          "browser": "surf browser",
+          "devices": {
+            "LGE LGLS676": "LG LS676",
+            "samsung SM-J327P": "Samsung SM-J327P"
+          },
+          "platforms": [
+            "Android_H_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SurfBrowser/*",
+          "browser": "surf browser",
+          "platforms": [
+            "Android_H_8_0",
+            "Android_H_7_1", "Android_H_7_0",
+            "Android_H_6_0",
+            "Android_H_5_1", "Android_H_5_0",
+            "Android_H_4_4", "Android_H_4_3", "Android_H_4_2",
+            "Android_H"
+          ]
+        }
+      ]
+    }
+  ]
+}

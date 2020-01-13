@@ -1,0 +1,36 @@
+{
+  "division": "Digg Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Digg Bot",
+      "browser": "digg bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Digg Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Digg/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Digg/*"
+        },
+        {
+          "match": "Digg Deeper/v1*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Digg Deeper/*"
+        }
+      ]
+    }
+  ]
+}

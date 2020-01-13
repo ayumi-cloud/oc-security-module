@@ -1,0 +1,51 @@
+{
+  "division": "okhttp",
+  "sortIndex": 480,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "okhttp",
+      "browser": "okhttp",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "okhttp"
+      },
+      "children": [
+        {
+          "match": "okhttp/3.2*",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "okhttp/3.1*",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "okhttp/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "okhttp/2.7*",
+          "properties": {
+            "Version": "2.7"
+          }
+        },
+        {
+          "match": "okhttp/2.5*",
+          "properties": {
+            "Version": "2.5"
+          }
+        },
+        {
+          "match": "okhttp/*"
+        }
+      ]
+    }
+  ]
+}

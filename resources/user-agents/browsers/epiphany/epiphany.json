@@ -1,0 +1,86 @@
+{
+  "division": "Epiphany",
+  "sortIndex": 1944,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Epiphany",
+      "browser": "epiphany",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Epiphany",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Macintosh; ARM Mac OS X) applewebkit* (*khtml*like*gecko*) Safari/* Version/* Debian/* (*rpi*rpi*) Epiphany/*",
+          "device": "Raspberry Pi",
+          "platforms": [
+            "Debian"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Macintosh; ARM Mac OS X) applewebkit* (*khtml*like*gecko*) Safari/* Version/* Raspbian/* (*rpi*rpi*) Epiphany/*",
+          "device": "Raspberry Pi",
+          "platforms": [
+            "Debian"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Safari/* Epiphany/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Safari/* Epiphany/*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD",
+            "SunOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Version/*Safari/* Epiphany/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Epiphany/*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko,*safari*) epiphany*",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Epiphany/*",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Epiphany/*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD",
+            "OpenBSD_64_2", "OpenBSD",
+            "SunOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

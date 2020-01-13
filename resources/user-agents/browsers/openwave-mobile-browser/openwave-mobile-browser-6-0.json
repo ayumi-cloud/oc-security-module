@@ -1,0 +1,39 @@
+{
+  "division": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+  "versions": [6],
+  "sortIndex": 8216,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+      "browser": "openwave mobile browser",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Openwave Mobile Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE# UP.Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "KDDI-TS21": "KDDI TS21",
+            "KDDI-TS25": "KDDI TS25"
+          }
+        },
+        {
+          "match": "OPWV-SDK/* UP.Browser/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Nokia* UP.Browser/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Nokia)"
+        },
+        {
+          "match": "* UP.Browser/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

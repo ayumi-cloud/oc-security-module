@@ -1,0 +1,148 @@
+{
+  "division": "Opera Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["8.60"],
+  "sortIndex": 1042,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for WinMobile",
+      "browser": "opera mobile",
+      "platform": "WinMobile",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE ?*.?*; *Windows NT 5.1*)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinMobile"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE*Windows NT 5.1*)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinMobile"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; *Windows NT 5.1*)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinMobile"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE*Windows NT 5.1*)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinMobile"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "MOT-MOTORAZRV9/* BER2.2 Mozilla/4.0 (*compatible*;*MSIE 6.0* Opera #MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinMobile"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Java",
+      "browser": "opera mobile",
+      "platform": "JAVA",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE*)*Opera?#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "#DEVICE#/* BER2.2 Mozilla/4.0 (*compatible*;*MSIE 6.0* Opera #MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MOT-MOTORAZRV9x": "Motorola RAZRV9x",
+            "MOT-RAZRV3xxR*": "Motorola RAZRV3xxR"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for WinCE",
+      "browser": "opera mobile",
+      "platform": "WinCE",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE#PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "MOT-Q9/* Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE*Opera #MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinCE"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Opera Mobile #MAJORVER#.#MINORVER# for Symbian",
+      "browser": "opera mobile",
+      "platform": "SymbianOS",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE ?*.?*; #PLATFORM#)*Opera?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SymbianOS", "SymbianOS_D"
+          ]
+        }
+      ]
+    }
+  ]
+}

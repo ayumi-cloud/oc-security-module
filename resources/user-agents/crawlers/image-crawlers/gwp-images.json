@@ -1,0 +1,27 @@
+{
+  "division": "GWPImages",
+  "sortIndex": 401,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "GWPImages",
+      "browser": "gwpimages",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "GWPImages"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; GWPImages/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; GWPImages/*"
+        }
+      ]
+    }
+  ]
+}

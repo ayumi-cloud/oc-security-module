@@ -1,0 +1,36 @@
+{
+  "division": "Bing",
+  "sortIndex": 1130,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Bing",
+      "browser": "bing",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Bing"
+      },
+      "children": [
+        {
+          "match": "Bing/2.2* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "Bing/* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

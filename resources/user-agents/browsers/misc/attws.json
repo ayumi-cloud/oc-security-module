@@ -1,0 +1,22 @@
+{
+  "division": "ATTWS",
+  "sortIndex": 2230,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ATTWS",
+      "browser": "attws",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ATTWS"
+      },
+      "children": [
+        {
+          "match": "ATTWS/2.0 N515i-10(c100;TB)"
+        }
+      ]
+    }
+  ]
+}

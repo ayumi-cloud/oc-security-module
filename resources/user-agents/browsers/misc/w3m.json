@@ -1,0 +1,52 @@
+{
+  "division": "w3m",
+  "sortIndex": 2250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "w3m",
+      "browser": "w3m",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "w3m"
+      },
+      "children": [
+        {
+          "match": "w3m/0.1*",
+          "properties": {
+            "Version": "0.1"
+          }
+        },
+        {
+          "match": "w3m/0.2*",
+          "properties": {
+            "Version": "0.2"
+          }
+        },
+        {
+          "match": "w3m/0.3*",
+          "properties": {
+            "Version": "0.3"
+          }
+        },
+        {
+          "match": "w3m/0.4*",
+          "properties": {
+            "Version": "0.4"
+          }
+        },
+        {
+          "match": "w3m/0.5*",
+          "properties": {
+            "Version": "0.5"
+          }
+        },
+        {
+          "match": "w3m/*"
+        }
+      ]
+    }
+  ]
+}

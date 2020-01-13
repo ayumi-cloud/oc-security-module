@@ -1,0 +1,28 @@
+{
+  "division": "Sagem",
+  "sortIndex": 10170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Sagem",
+      "browser": "sagem",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sagem",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Bleu 453x"
+        },
+        {
+          "match": "KAA-A59/*/WAP1.2 *"
+        }
+      ]
+    }
+  ]
+}

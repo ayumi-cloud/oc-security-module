@@ -1,0 +1,44 @@
+{
+  "division": "LinkedInBot",
+  "sortIndex": 680,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "LinkedInBot",
+      "browser": "linkedinbot",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LinkedInBot"
+      },
+      "children": [
+        {
+          "match": "LinkedInBot/1.*",
+          "engine": "unknown",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "LinkedInBot/*",
+          "engine": "unknown"
+        },
+        {
+          "match": "LIAuthLibrary:0.0.2 com.linkedin.android:3.4.2 TCL_ALCATEL ONE TOUCH 4037T:android_4.4.2*",
+          "device": "Alcatel 4037T",
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "LIAuthLibrary:0.0.2 com.linkedin.android:3.4.2 TCL_*android_4.4.2*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_4_4"
+          ]
+        }
+      ]
+    }
+  ]
+}

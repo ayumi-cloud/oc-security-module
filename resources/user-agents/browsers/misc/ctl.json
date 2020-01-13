@@ -1,0 +1,28 @@
+{
+  "division": "CTL",
+  "sortIndex": 3780,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "CTL",
+      "browser": "ctl",
+      "platform": "JAVA",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CTL",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "CTL-ROCKET/1.0/WAP1.2 Profile/MIDP-1.0 Configuration/CLDC-1.1"
+        },
+        {
+          "match": "CTL/(2004.07.01)SW2.0.0/WAP1.2 *"
+        }
+      ]
+    }
+  ]
+}

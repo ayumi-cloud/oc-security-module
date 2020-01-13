@@ -1,0 +1,21 @@
+{
+  "division": "Fever",
+  "sortIndex": 381,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Fever",
+      "browser": "fever",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Fever"
+      },
+      "children": [
+        {
+          "match": "Fever/*"
+        }
+      ]
+    }
+  ]
+}

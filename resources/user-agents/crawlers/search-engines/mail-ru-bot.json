@@ -1,0 +1,74 @@
+{
+  "division": "Mail.Ru Bot",
+  "sortIndex": 1220,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mail.Ru Bot",
+      "browser": "mail.ru bot",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mail.Ru Bot"
+      },
+      "children": [
+        {
+          "match": "Mail.Ru/1.0",
+          "device": "unknown",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Mail.RU_Bot/2.0*",
+          "device": "unknown",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; #PLATFORM# Mail.RU_Bot/2.0*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; #PLATFORM# Mail.RU_Bot/Fast/2.0*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; #PLATFORM# Mail.RU_Bot/Img/2.0*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; #PLATFORM# Mail.RU_Bot/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Mail.RU/*)",
+          "device": "unknown"
+        }
+      ]
+    }
+  ]
+}

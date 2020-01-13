@@ -1,0 +1,27 @@
+{
+  "division": "Mozdex",
+  "sortIndex": 770,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mozdex",
+      "browser": "mozdex",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mozdex"
+      },
+      "children": [
+        {
+          "match": "Mozdex/0.7*",
+          "properties": {
+            "Version": "0.7"
+          }
+        },
+        {
+          "match": "Mozdex/*"
+        }
+      ]
+    }
+  ]
+}

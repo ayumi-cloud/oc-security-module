@@ -1,0 +1,34 @@
+{
+  "division": "Google Structured-Data Testing Tool",
+  "sortIndex": 1075,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google Structured-Data Testing Tool",
+      "browser": "google structured-data testing tool",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google Structured-Data Testing Tool"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#Google-StructuredDataTestingTool*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Google-Structured-Data-Testing-Tool*",
+          "device": "unknown"
+        },
+        {
+          "match": "Google-Structured-Data-Testing-Tool*",
+          "device": "unknown"
+        }
+      ]
+    }
+  ]
+}

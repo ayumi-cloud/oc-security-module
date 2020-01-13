@@ -1,0 +1,48 @@
+{
+  "division": "Jobs",
+  "sortIndex": 600,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Jobs",
+      "browser": "jobs",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Jobs"
+      },
+      "children": [
+        {
+          "match": "JobRoboter/1.1*",
+          "browser": "jobroboter",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "JobRoboter/*",
+          "browser": "jobroboter"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MetaJobBot*",
+          "browser": "metajobbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; JobdiggerSpider*",
+          "browser": "jobdiggerspider"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#compatible; Jobboerse*) Gecko* Firefox/*",
+          "browser": "jobboerse bot",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) JobBot*",
+          "browser": "jobbot"
+        }
+      ]
+    }
+  ]
+}

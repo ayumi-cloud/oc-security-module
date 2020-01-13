@@ -1,0 +1,64 @@
+{
+  "division": "Keeper #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 2040,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Keeper #MAJORVER#.#MINORVER#",
+      "browser": "keeper",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Keeper #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "LG-H810": "LG H810",
+            "SM-G920A": "Samsung SM-G920A"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "SM-N910A": "Samsung SM-N910A",
+            "Z812": "Kodak Z812"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

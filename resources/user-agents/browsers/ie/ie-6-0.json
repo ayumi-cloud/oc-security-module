@@ -1,0 +1,81 @@
+{
+  "division": "IE #MAJORVER#.#MINORVER#",
+  "versions": [6],
+  "sortIndex": 2766,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "IE #MAJORVER#.#MINORVER# for Mobile",
+      "browser": "ie",
+      "engine": "Trident",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IE #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#",
+          "platforms": [
+            "WinCE"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "IE #MAJORVER#.#MINORVER# for Desktop",
+      "browser": "ie",
+      "engine": "Trident",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IE #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#Mozilla/4.0*",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#",
+          "platforms": [
+            "WinXPb_x64_3", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32",
+            "Win2000_3", "Win2000_64", "Win2000",
+            "NT4_1", "NT4",
+            "WinME_3",
+            "Win98_2", "Win98_3",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#",
+          "platforms": [
+            "WinXPb_x64_3", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
+            "WinXPa_x64", "WinXPa_64", "WinXPa_32",
+            "Win2000_3", "Win2000_64", "Win2000",
+            "NT4_1", "NT4",
+            "WinME_3",
+            "Win98_2", "Win98_3",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (*MSIE #MAJORVER#.#MINORVER#*)*"
+        },
+        {
+          "match": "Mozilla/5.0 (*MSIE #MAJORVER#.#MINORVER#*)*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "division": "Silk #MAJORVER#.#MINORVER#",
+  "versions": ["3.20", "3.19", "3.18", "3.17", "3.16", "3.15", "3.14", "3.13", "3.12", "3.11", "3.10", "3.9", "3.8", "3.7", "3.6", "3.5", "3.4"],
+  "sortIndex": 1136,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Silk #MAJORVER#.#MINORVER#",
+      "browser": "silk",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "Amazon Kindle",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Silk #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
+          "devices": {
+            "KFOT": "Amazon KFOT",
+            "KFTT": "Amazon KFTT"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; U; *; #DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
+          "devices": {
+            "KFAPWA": "Amazon KFAPWA",
+            "KFAPWI": "Amazon KFAPWI",
+            "KFJWA": "Amazon KFJWA",
+            "KFJWI": "Amazon KFJWI",
+            "KFOT": "Amazon KFOT",
+            "KFSOWI": "Amazon KFSOWI",
+            "KFTHWA": "Amazon KFTHWA",
+            "KFTHWI": "Amazon KFTHWI",
+            "KFTT": "Amazon KFTT"
+          },
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; U; * Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        }
+      ]
+    }
+  ]
+}

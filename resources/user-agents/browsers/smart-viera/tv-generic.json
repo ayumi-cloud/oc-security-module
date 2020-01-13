@@ -1,0 +1,28 @@
+{
+  "division": "Panasonic TV Browser",
+  "sortIndex": 1150,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Panasonic TV Browser",
+      "browser": "panasonic tv browser",
+      "engine": "WebKit",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Panasonic TV Browser"
+      },
+      "children": [
+        {
+          "match": "HbbTV/*;Panasonic;DIGA WebKit M8156*",
+          "device": "Panasonic DIGA M8156"
+        },
+        {
+          "match": "HbbTV/*;Panasonic;DIGA WebKit M6346*",
+          "device": "Panasonic DIGA M6346"
+        }
+      ]
+    }
+  ]
+}

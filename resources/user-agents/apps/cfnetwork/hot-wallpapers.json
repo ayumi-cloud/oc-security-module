@@ -1,0 +1,29 @@
+{
+  "division": "Hot Wallpapers",
+  "sortIndex": 5160,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Hot Wallpapers",
+      "browser": "hot wallpapers",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Hot Wallpapers",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Hot%20Wallpapers* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "division": "rogerbot",
+  "sortIndex": 1030,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "rogerbot",
+      "browser": "rogerbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Rogerbot"
+      },
+      "children": [
+        {
+          "match": "rogerbot/1.1*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "rogerbot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "rogerbot/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "division": "Fennec #MAJORVER#.#MINORVER#",
+  "versions": [5, "4.1", 4],
+  "sortIndex": 3142,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Fennec #MAJORVER#.#MINORVER# Mobile",
+      "browser": "fennec",
+      "engine": "Gecko_2",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Fennec #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "Maemo_ARM",
+            "Android_F", "AndroidMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
+          "platforms": [
+            "AndroidTablet"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Android) Gecko* Firefox* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "Maemo"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Fennec #MAJORVER#.#MINORVER#",
+      "browser": "fennec",
+      "engine": "Gecko_2",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Fennec #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox* Fennec/#MAJORVER#.#MINORVER#*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "division": "BoardReader",
+  "sortIndex": 561,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BoardReader",
+      "browser": "boardreader",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BoardReader"
+      },
+      "children": [
+        {
+          "match": "BoardReader Favicon Fetcher /1.0*",
+          "browser": "boardreader favicon fetcher",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "BoardReader Favicon Fetcher /*",
+          "browser": "boardreader favicon fetcher"
+        },
+        {
+          "match": "BoardReader Blog Indexer*",
+          "browser": "boardreader indexer"
+        }
+      ]
+    }
+  ]
+}

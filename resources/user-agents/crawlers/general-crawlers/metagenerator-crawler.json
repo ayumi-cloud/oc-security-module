@@ -1,0 +1,33 @@
+{
+  "division": "MetaGeneratorCrawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MetaGeneratorCrawler",
+      "browser": "metageneratorcrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MetaGeneratorCrawler"
+      },
+      "children": [
+        {
+          "match": "MetaGeneratorCrawler/1.1*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "MetaGeneratorCrawler/1.3*",
+          "properties": {
+            "Version": "1.3"
+          }
+        },
+        {
+          "match": "MetaGeneratorCrawler/*"
+        }
+      ]
+    }
+  ]
+}

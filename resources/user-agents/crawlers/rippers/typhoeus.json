@@ -1,0 +1,21 @@
+{
+  "division": "Typhoeus",
+  "sortIndex": 2020,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Typhoeus",
+      "browser": "typhoeus",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Typhoeus"
+      },
+      "children": [
+        {
+          "match": "Typhoeus*"
+        }
+      ]
+    }
+  ]
+}

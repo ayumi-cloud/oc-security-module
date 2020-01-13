@@ -1,0 +1,28 @@
+{
+  "division": "Elmedia Player",
+  "sortIndex": 1531,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Elmedia Player",
+      "browser": "elmedia player",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Elmedia Player"
+      },
+      "children": [
+        {
+          "match": "ElmediaPlayer Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/*",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

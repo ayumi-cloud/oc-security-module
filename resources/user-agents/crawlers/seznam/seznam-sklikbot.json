@@ -1,0 +1,60 @@
+{
+  "division": "SklikBot",
+  "sortIndex": 1440,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SklikBot",
+      "browser": "sklikbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SklikBot"
+      },
+      "children": [
+        {
+          "match": "SklikBot/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "SklikBot/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "SklikBot/3.1*",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SklikBot/3.1*",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "SklikBot/3.2*",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SklikBot/3.2*",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "SklikBot/*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SklikBot/*"
+        }
+      ]
+    }
+  ]
+}

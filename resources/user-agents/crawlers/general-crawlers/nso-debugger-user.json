@@ -1,0 +1,27 @@
+{
+  "division": "NSO_Debugger_User",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NSO_Debugger_User",
+      "browser": "nso_debugger_user",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NSO_Debugger_User"
+      },
+      "children": [
+        {
+          "match": "NSO_Debugger_User/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "NSO_Debugger_User/*"
+        }
+      ]
+    }
+  ]
+}

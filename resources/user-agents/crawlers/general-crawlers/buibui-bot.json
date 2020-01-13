@@ -1,0 +1,27 @@
+{
+  "division": "BuiBui-Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BuiBui-Bot",
+      "browser": "buibui-bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BuiBui-Bot"
+      },
+      "children": [
+        {
+          "match": "BuiBui-Bot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "BuiBui-Bot/*"
+        }
+      ]
+    }
+  ]
+}

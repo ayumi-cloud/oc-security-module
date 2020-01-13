@@ -1,0 +1,34 @@
+{
+  "division": "IE Mac #MAJORVER#.#MINORVER#",
+  "versions": ["5.23", "5.17", "5.2", "5.1", 5, "4.5", "4.01", 4, 3, 2, "1.5", 1],
+  "sortIndex": 2771,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "IE Mac #MAJORVER#.#MINORVER#",
+      "browser": "ie",
+      "platform": "OSX",
+      "engine": "Tasman",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IE Mac #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/* (compatible; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#",
+          "engine": "Tasman",
+          "device": "Macintosh",
+          "platforms": [
+            "MacPPC_2",
+            "Mac68K_2"
+          ]
+        }
+      ]
+    }
+  ]
+}

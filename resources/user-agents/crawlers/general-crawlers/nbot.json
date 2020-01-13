@@ -1,0 +1,27 @@
+{
+  "division": "nbot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "nbot",
+      "browser": "nbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "nbot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; nbot/2.*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; nbot/*"
+        }
+      ]
+    }
+  ]
+}

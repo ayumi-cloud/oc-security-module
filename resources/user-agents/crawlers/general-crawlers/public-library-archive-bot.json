@@ -1,0 +1,27 @@
+{
+  "division": "publiclibraryarchive Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "publiclibraryarchive Bot",
+      "browser": "publiclibraryarchive bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "publiclibraryarchive Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; publiclibraryarchive.org/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; publiclibraryarchive.org/*"
+        }
+      ]
+    }
+  ]
+}

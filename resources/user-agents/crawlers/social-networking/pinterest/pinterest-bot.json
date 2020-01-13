@@ -1,0 +1,30 @@
+{
+  "division": "Pinterest Bot #MAJORVER#.#MINORVER#",
+  "versions": ["4.3", "4.2", "4.1", 4, "3.6", "3.5", "3.4", "3.3", "3.2", "3.1", 3, 2, "1.8", "1.1", 1, "0.2", "0.1"],
+  "sortIndex": 1995,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Pinterest Bot #MAJORVER#.#MINORVER#",
+      "browser": "pinterest bot",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pinterest Bot #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Pinterest/#MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Pinterestbot/#MAJORVER#.#MINORVER#*; +http*://www.pinterest.com/bot.html*"
+        },
+        {
+          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; Pinterestbot/#MAJORVER#.#MINORVER#* +http*://www.pinterest.com/bot.html*"
+        }
+      ]
+    }
+  ]
+}

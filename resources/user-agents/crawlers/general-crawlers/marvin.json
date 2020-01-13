@@ -1,0 +1,27 @@
+{
+  "division": "Marvin",
+  "sortIndex": 740,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Marvin",
+      "browser": "medhunt",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MedHunt"
+      },
+      "children": [
+        {
+          "match": "Marvin v0.3",
+          "properties": {
+            "Version": "0.3"
+          }
+        },
+        {
+          "match": "Marvin v*"
+        }
+      ]
+    }
+  ]
+}

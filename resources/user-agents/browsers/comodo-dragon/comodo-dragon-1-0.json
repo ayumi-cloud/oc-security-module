@@ -1,0 +1,29 @@
+{
+  "division": "Comodo Dragon #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 954,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Comodo Dragon #MAJORVER#.#MINORVER#",
+      "browser": "dragon",
+      "platform": "Windows",
+      "engine": "WebKit",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Comodo Dragon #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Comodo Dragon/#MAJORVER#.*Chrome/*Safari/*",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

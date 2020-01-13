@@ -1,0 +1,25 @@
+{
+  "division": "Foxconn",
+  "sortIndex": 4950,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Foxconn",
+      "browser": "foxconn",
+      "platform": "JAVA",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Foxconn",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Foxconn D910.0.3.53 FS_D910.0.2.48_DTC"
+        }
+      ]
+    }
+  ]
+}

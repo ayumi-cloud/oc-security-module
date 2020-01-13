@@ -1,0 +1,119 @@
+{
+  "division": "Opera Mini Generic",
+  "sortIndex": 1939,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mini Generic",
+      "browser": "opera mini",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mini Generic"
+      },
+      "children": [
+        {
+          "match": "Opera/*(Android*Opera Mini*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Opera/*(BlackBerry*Opera Mini*",
+          "device": "Blackberry Blackberry",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "Opera/*(iPhone*Opera Mini*",
+          "engine": "WebKit",
+          "device": "iPhone",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Opera/9.80*(iPhone;Opera*Mini*",
+          "engine": "WebKit",
+          "device": "iPhone",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Opera/9.80*(J2ME/iPhone;Opera*Mini*",
+          "engine": "WebKit",
+          "device": "iPhone",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Opera/*(iOS;*Opera Mini*",
+          "platforms": [
+            "iOS"
+          ]
+        },
+        {
+          "match": "Opera/9.80 (J2ME/MIDP*Opera Mini*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera/9.60 (J2ME/MIDP*Opera Mini*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera/9.50 (J2ME/MIDP*Opera Mini*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera/*(J2ME/MIDP*Opera Mini*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera/*(Series 60*Opera Mini*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "Opera/*(Windows Mobile*Opera Mini*",
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera/*(*BREW*Opera Mini*",
+          "platforms": [
+            "Brew"
+          ]
+        },
+        {
+          "match": "Opera/*(*Bada*Opera Mini*",
+          "platforms": [
+            "Bada_1_0"
+          ]
+        },
+        {
+          "match": "* Opera/*(J2ME/MIDP*Opera Mini*",
+          "platforms": [
+            "JAVA"
+          ]
+        }
+      ]
+    }
+  ]
+}

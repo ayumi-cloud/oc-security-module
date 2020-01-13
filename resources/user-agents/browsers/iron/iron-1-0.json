@@ -1,0 +1,31 @@
+{
+  "division": "Iron #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 1130,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Iron #MAJORVER#.#MINORVER#",
+      "browser": "iron",
+      "engine": "WebKit",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Iron #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Iron/#MAJORVER#.#MINORVER#*Safari/*",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

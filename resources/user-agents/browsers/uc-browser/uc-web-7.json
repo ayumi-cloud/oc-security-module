@@ -1,0 +1,311 @@
+{
+  "division": "UC Browser #MAJORVER#.#MINORVER#",
+  "versions": ["7.9", "7.8", "7.7", "7.6", "7.5", "7.4", "7.3", "7.2", "7.1", 7],
+  "sortIndex": 934,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
+      "browser": "uc browser",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Android",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#PLATFORM##DEVICE#*) UCWEB#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100",
+            "GT-S5570": "Samsung GT-S5570"
+          },
+          "platforms": [
+            "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
+            "Android_D_2_3", "Android_D_2_2"
+          ]
+        },
+        {
+          "match": "#PLATFORM##DEVICE#*) UCWEB#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Aqua_Star": "Intex Aqua Star",
+            "Micromax A50": "Micromax A50"
+          },
+          "platforms": [
+            "Android_D_2_3"
+          ]
+        },
+        {
+          "match": "#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_D_5_1", "Android_D_5_0",
+            "Android_D_4_4", "Android_D_4_3", "Android_D_4_2", "Android_D_4_1", "Android_D_4_0",
+            "Android_D_2_3", "Android_D_2_2", "Android_D_2_1",
+            "Android_D_1_6", "Android_D_1_5",
+            "Android_D"
+          ]
+        },
+        {
+          "match": "#PLATFORM##DEVICE#*)UCWEB#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "GT-I9060": "Samsung GT-I9060"
+          },
+          "platforms": [
+            "Android_C_4_2"
+          ]
+        },
+        {
+          "match": "#PLATFORM##DEVICE#*)UCWEB#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Micromax A35": "Micromax A35"
+          },
+          "platforms": [
+            "Android_C_2_3", "Android_C_2_2"
+          ]
+        },
+        {
+          "match": "#PLATFORM##DEVICE#*)UCWEB#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Micromax A50": "Micromax A50"
+          },
+          "platforms": [
+            "Android_G_2_3"
+          ]
+        },
+        {
+          "match": "#PLATFORM##DEVICE#*)UCWEB#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Desire HD": "HTC Desire HD",
+            "XT702": "Motorola XT702"
+          },
+          "platforms": [
+            "Android_G_2_2"
+          ]
+        },
+        {
+          "match": "#PLATFORM#)UCWEB#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_C_4_4", "Android_C_4_3", "Android_C_4_2", "Android_C_4_1", "Android_C_4_0",
+            "Android_C_2_3", "Android_C_2_2", "Android_C_2_1", "Android_C_2_0",
+            "Android_C_1_6", "Android_C_1_5",
+            "Android_C",
+            "Android_G_2_3", "Android_G_2_2", "Android_G_2_1",
+            "Android_G_1_5",
+            "Android_G"
+          ]
+        },
+        {
+          "match": "#PLATFORM#)UCWEB#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_C_3_2", "Android_C_3_1", "Android_C_3_0"
+          ]
+        },
+        {
+          "match": "Opera (#PLATFORM#) UCWEB#MAJORVER#.#MINORVER#.*/*",
+          "platforms": [
+            "Android_I_4_4", "Android_I_4_3", "Android_I_4_2", "Android_I_4_1", "Android_I_4_0"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for iOS",
+      "browser": "uc browser",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for iOS",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "IUC(U;iOS 4.3*)/UCWEB#MAJORVER#.#MINORVER#*",
+          "device": "iPod Touch",
+          "platforms": [
+            "iOS_G_4_3"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Java",
+      "browser": "uc browser",
+      "platform": "JAVA",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Java",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "lg-c105": "LG C105",
+            "samsung-b5722": "Samsung GT-B5722",
+            "samsung-gt-e2152": "Samsung GT-E2152"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "SAMSUNG*/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Nokia*/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Nokia)",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "*/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)"
+        },
+        {
+          "match": "J2ME/UCWeb#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "JAVA"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
+      "browser": "uc browser",
+      "platform": "SymbianOS",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Nokia)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Symbian",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/UC Browser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Nokia5230": "Nokia 5230",
+            "nokia6120c": "Nokia 6120c",
+            "NokiaE63": "Nokia E63",
+            "NokiaN73": "Nokia N73",
+            "NOKIAN85": "Nokia N85",
+            "NokiaN8-00": "Nokia N8-00",
+            "NokiaN97": "Nokia N97"
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "#DEVICE#/*Symbian*/UC Browser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Nokia6600": "Nokia 6600"
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "Nokia*/*Symbian*/UC Browser#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "#DEVICE#/* Profile/MIDP* */UC Browser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "NokiaN70-1": "Nokia N70-1"
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Bada",
+      "browser": "uc browser",
+      "platform": "Bada",
+      "engine": "WebKit",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Bada",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE# UCWEB6.0/UC Browser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "S8500": "Samsung S8500"
+          },
+          "platforms": [
+            "Bada"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for WinCE",
+      "browser": "uc browser",
+      "platform": "WinCE",
+      "engine": "WebKit",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for WinCE",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#* Browser/IEMobile/* MMS/LG-MMS-WINCE* (compatible; MSIE 4.01; Windows CE*)/UC Browser#MAJORVER#.#MINORVER#*",
+          "engine": "Trident",
+          "devices": {
+            "LG-KS20": "LG KS20"
+          },
+          "platforms": [
+            "WinCE"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Series40",
+      "browser": "uc browser",
+      "platform": "Series40",
+      "engine": "WebKit",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "UC Browser #MAJORVER#.#MINORVER# for Series40",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/* Profile/MIDP* */UC Browser#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "NokiaC1-01": "Nokia C1-01"
+          },
+          "platforms": [
+            "Series40"
+          ]
+        }
+      ]
+    }
+  ]
+}

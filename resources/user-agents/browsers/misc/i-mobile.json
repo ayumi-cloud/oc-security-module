@@ -1,0 +1,34 @@
+{
+  "division": "i-mobile",
+  "sortIndex": 5240,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "i-mobile",
+      "browser": "i-mobile",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "i-mobile",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "i-mobile 608/1.0 *"
+        },
+        {
+          "match": "i-mobile601 MIC/WAP2.0 *"
+        },
+        {
+          "match": "i-mobile606"
+        },
+        {
+          "match": "i-mobile901"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "division": "Steeler",
+  "sortIndex": 471,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Steeler",
+      "browser": "steeler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Steeler"
+      },
+      "children": [
+        {
+          "match": "Steeler/*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Steeler/3.5*",
+          "properties": {
+            "Version": "3.5"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Steeler/*"
+        }
+      ]
+    }
+  ]
+}

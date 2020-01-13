@@ -1,0 +1,36 @@
+{
+  "division": "Cliqzbot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Cliqzbot",
+      "browser": "cliqzbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Cliqzbot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Cliqzbot/0.1*",
+          "properties": {
+            "Version": "0.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Cliqzbot/*"
+        },
+        {
+          "match": "Cliqzbot/0.1*",
+          "properties": {
+            "Version": "0.1"
+          }
+        },
+        {
+          "match": "Cliqzbot/*"
+        }
+      ]
+    }
+  ]
+}

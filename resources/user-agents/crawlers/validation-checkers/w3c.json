@@ -1,0 +1,79 @@
+{
+  "division": "W3C",
+  "sortIndex": 530,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "W3C",
+      "browser": "w3c",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "W3C"
+      },
+      "children": [
+        {
+          "match": "*W3C-checklink/*",
+          "browser": "w3c-checklink"
+        },
+        {
+          "match": "Jigsaw/*",
+          "browser": "jigsaw css validator"
+        },
+        {
+          "match": "Jigsaw/* W3C_CSS_Validator*/*",
+          "browser": "jigsaw_w3c_css_validator"
+        },
+        {
+          "match": "P3P Validator",
+          "browser": "p3p validator"
+        },
+        {
+          "match": "Unicorn/1.*",
+          "browser": "w3c unicorn"
+        },
+        {
+          "match": "W3C-mobileOK/*",
+          "browser": "w3c-mobileok",
+          "properties": {
+            "Alpha": false,
+            "Beta": false
+          }
+        },
+        {
+          "match": "W3C-mobileOK/DDC-*",
+          "browser": "w3c-mobileok/ddc",
+          "device": "general Mobile Device"
+        },
+        {
+          "match": "W3C-WebCon/*",
+          "browser": "w3c-webcon"
+        },
+        {
+          "match": "W3C_Validator/*",
+          "browser": "w3c_validator"
+        },
+        {
+          "match": "W3CLineMode/*",
+          "browser": "w3clinemode"
+        },
+        {
+          "match": "W3CRobot/*",
+          "browser": "w3crobot"
+        },
+        {
+          "match": "Validator.nu/LV*",
+          "browser": "validator.nu/lv"
+        },
+        {
+          "match": "W3C_I18n-Checker/*",
+          "browser": "w3c i18n checker"
+        },
+        {
+          "match": "W3C_Unicorn/*",
+          "browser": "w3c unicorn"
+        }
+      ]
+    }
+  ]
+}

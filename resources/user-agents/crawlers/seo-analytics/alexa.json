@@ -1,0 +1,27 @@
+{
+  "division": "Alexabot",
+  "sortIndex": 249,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Alexabot",
+      "browser": "alexabot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Alexabot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Alexabot/1.0; *",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Alexabot/*"
+        }
+      ]
+    }
+  ]
+}

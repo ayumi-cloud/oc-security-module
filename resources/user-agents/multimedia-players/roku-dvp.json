@@ -1,0 +1,27 @@
+{
+  "division": "Roku DVP",
+  "sortIndex": 7121,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Roku DVP",
+      "browser": "roku dvp",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Roku DVP"
+      },
+      "children": [
+        {
+          "match": "Roku/DVP-6.2*",
+          "properties": {
+            "Version": "6.2"
+          }
+        },
+        {
+          "match": "Roku/DVP*"
+        }
+      ]
+    }
+  ]
+}

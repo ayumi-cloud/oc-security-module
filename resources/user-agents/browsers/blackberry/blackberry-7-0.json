@@ -1,0 +1,66 @@
+{
+  "division": "BlackBerry #MAJORVER#.#MINORVER#",
+  "versions": [7],
+  "sortIndex": 2363,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BlackBerry #MAJORVER#.#MINORVER#",
+      "browser": "blackberry",
+      "platform": "RIMOS_Dynamic",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Blackberry)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BlackBerry #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Blackberry9360": "Blackberry 9360",
+            "Blackberry9380": "Blackberry 9380",
+            "Blackberry9790": "Blackberry 9790",
+            "Blackberry9800": "Blackberry 9800",
+            "Blackberry9810": "Blackberry 9810",
+            "Blackberry9860": "Blackberry 9860",
+            "Blackberry9900": "Blackberry 9900"
+          }
+        },
+        {
+          "match": "BlackBerry*/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (old Blackberry)"
+        },
+        {
+          "match": "Mozilla/5.0 (BlackBerry; ?; #DEVICE#*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "BlackBerry 9105": "Blackberry 9105",
+            "BlackBerry 9300": "Blackberry 9300",
+            "BlackBerry 9350": "Blackberry 9350",
+            "BlackBerry 9360": "Blackberry 9360",
+            "BlackBerry 9370": "Blackberry 9370",
+            "BlackBerry 9380": "Blackberry 9380",
+            "BlackBerry 9650": "Blackberry 9650",
+            "BlackBerry 9670": "Blackberry 9670",
+            "BlackBerry 9700": "Blackberry 9700",
+            "BlackBerry 9780": "Blackberry 9780",
+            "BlackBerry 9790": "Blackberry 9790",
+            "BlackBerry 9800": "Blackberry 9800",
+            "BlackBerry 9810": "Blackberry 9810",
+            "BlackBerry 9850": "Blackberry 9850",
+            "BlackBerry 9860": "Blackberry 9860",
+            "BlackBerry 9900": "Blackberry 9900",
+            "BlackBerry 9930": "Blackberry 9930",
+            "BlackBerry 9981": "Blackberry 9981"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (BlackBerry; ?; BlackBerry*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "device": "general Mobile Phone (Blackberry)"
+        }
+      ]
+    }
+  ]
+}

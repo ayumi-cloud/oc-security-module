@@ -1,0 +1,81 @@
+{
+  "division": "Edge #MAJORVER#.#MINORVER#",
+  "versions": [18, 17, 16, 15, 14, 13],
+  "sortIndex": 1139,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Edge #MAJORVER#.#MINORVER#",
+      "browser": "edge",
+      "engine": "Edge_Dynamic",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Edge #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Xbox; Xbox One) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#.*",
+          "device": "Microsoft Xbox One",
+          "platforms": [
+            "Xbox_OS_10"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#.*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/* Edge/#MAJORVER#.*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Edge Mobile #MAJORVER#.#MINORVER#",
+      "browser": "edge mobile",
+      "platform": "WinPhone10",
+      "engine": "Edge_Dynamic",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Edge Mobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#.*",
+          "devices": {
+            "Lumia 550": "Microsoft Lumia 550",
+            "Lumia 930": "Nokia Lumia 930",
+            "RM-1010": "Nokia Lumia 638 RM-1010"
+          },
+          "platforms": [
+            "WinPhone10_Continuum", "WinPhone10"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#.*",
+          "platforms": [
+            "WinPhone10_Continuum", "WinPhone10"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#Xbox; Xbox One) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#.*",
+          "device": "Microsoft Xbox One",
+          "platforms": [
+            "Xbox_OS_10_Mobile"
+          ]
+        }
+      ]
+    }
+  ]
+}

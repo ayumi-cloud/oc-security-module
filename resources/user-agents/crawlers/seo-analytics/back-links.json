@@ -1,0 +1,35 @@
+{
+  "division": "BCKLINKS",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BCKLINKS",
+      "browser": "bcklinks",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BCKLINKS"
+      },
+      "children": [
+        {
+          "match": "BCKLINKS 1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "BCKLINKS*"
+        },
+        {
+          "match": "MonitorBacklinksWP*",
+          "browser": "incoming links - wordpress plugin"
+        },
+        {
+          "match": "MBCrawler*",
+          "browser": "monitor-backlinks crawler"
+        }
+      ]
+    }
+  ]
+}

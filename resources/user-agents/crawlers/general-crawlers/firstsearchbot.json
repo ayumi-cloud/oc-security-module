@@ -1,0 +1,27 @@
+{
+  "division": "FirstSearchBot",
+  "sortIndex": 450,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "FirstSearchBot",
+      "browser": "firstsearchbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; FirstSearchBot/1.0; *)",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; FirstSearchBot/*)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "division": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["2.2"],
+  "sortIndex": 1173,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Googlebot-Mobile #MAJORVER#.#MINORVER#",
+      "browser": "google bot mobile",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Googlebot",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE# UP.Browser/6.2* (compatible; KDDI-Googlebot-Mobile/#MAJORVER#.#MINORVER#*",
+          "engine": "unknown",
+          "devices": {
+            "KDDI-CA34": "KDDI CA34"
+          },
+          "platforms": [
+            "JAVA"
+          ]
+        }
+      ]
+    }
+  ]
+}

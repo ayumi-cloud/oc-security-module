@@ -1,0 +1,30 @@
+{
+  "division": "DomainScan Server Monitoring",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "DomainScan Server Monitoring",
+      "browser": "domainscan server monitoring",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "DomainScan Server Monitoring"
+      },
+      "children": [
+        {
+          "match": "DomainSCAN*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; DomainSCAN/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; DomainSCAN/*"
+        }
+      ]
+    }
+  ]
+}

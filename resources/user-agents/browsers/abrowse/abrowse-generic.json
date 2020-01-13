@@ -1,0 +1,27 @@
+{
+  "division": "ABrowse Generic",
+  "sortIndex": 956,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ABrowse Generic",
+      "browser": "abrowse",
+      "platform": "Syllable",
+      "engine": "WebKit",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ABrowse Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; U; ABrowse #PLATFORM#) applewebkit* (*khtml*like*gecko*)*",
+          "platforms": [
+            "Syllable"
+          ]
+        }
+      ]
+    }
+  ]
+}

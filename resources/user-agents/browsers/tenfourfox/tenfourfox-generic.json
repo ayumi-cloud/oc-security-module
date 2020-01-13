@@ -1,0 +1,30 @@
+{
+  "division": "TenFourFox",
+  "sortIndex": 10781,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TenFourFox",
+      "browser": "tenfourfox",
+      "platform": "OSX",
+      "engine": "Gecko",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TenFourFox",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* TenFourFox/*",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

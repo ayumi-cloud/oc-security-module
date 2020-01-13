@@ -1,0 +1,29 @@
+{
+  "division": "Icedove Generic",
+  "sortIndex": 5402,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Icedove Generic",
+      "browser": "icedove",
+      "platform": "Linux",
+      "engine": "Gecko_Dynamic",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Icedove Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Icedove/*",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

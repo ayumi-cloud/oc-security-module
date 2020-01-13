@@ -1,0 +1,30 @@
+{
+  "division": "SmartViera #MAJORVER#.#MINORVER#",
+  "versions": ["3.20", "3.14", "3.4", "3.3", "3.2", "3.1", "1.5"],
+  "sortIndex": 1148,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SmartViera #MAJORVER#.#MINORVER#",
+      "browser": "smartviera",
+      "platform": "FreeBSD",
+      "engine": "WebKit",
+      "device": "Viera",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SmartViera #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Viera*) applewebkit* (*khtml*like*gecko*) Viera/#MAJORVER#.#MINORVER#* Chrome/*Safari/*",
+          "platforms": [
+            "FreeBSD",
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

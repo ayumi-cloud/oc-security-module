@@ -1,0 +1,22 @@
+{
+  "division": "Yahoo Search Monkey",
+  "sortIndex": 1370,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo Search Monkey",
+      "browser": "yahoo! search monkey",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo! Search Monkey"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Yahoo! SearchMonkey*)",
+          "browser": "yahoo! search monkey"
+        }
+      ]
+    }
+  ]
+}

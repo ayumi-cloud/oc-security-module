@@ -1,0 +1,116 @@
+{
+  "division": "IBrowse",
+  "sortIndex": 2390,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "IBrowse",
+      "browser": "ibrowse",
+      "platform": "Amiga",
+      "device": "Amiga",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IBrowse",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Arexx (*compatible*;*MSIE 6.0; AmigaOS*) IBrowse 4.0*",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; IBrowse 3.0; AmigaOS*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "IBrowse/2.1 (AmigaOS *)",
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "IBrowse/2.2 (AmigaOS *)",
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "IBrowse/1.22 (AmigaOS *)",
+          "properties": {
+            "Version": "1.22"
+          }
+        },
+        {
+          "match": "IBrowse/2.2 (Windows 3.1)",
+          "platforms": [
+            "Win3.1"
+          ],
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "IBrowse/2.3 (AmigaOS *)",
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "Mozilla/* (Win98; I) IBrowse/2.1 (AmigaOS 3.1)",
+          "platforms": [
+            "Win98"
+          ],
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "Mozilla/* (Win98; I) IBrowse/2.2 (AmigaOS 3.1)",
+          "platforms": [
+            "Win98"
+          ],
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "Mozilla/* (Win98; I) IBrowse/2.3 (AmigaOS 3.1)",
+          "platforms": [
+            "Win98"
+          ],
+          "properties": {
+            "Version": "2.3"
+          }
+        },
+        {
+          "match": "IBrowse/2.4 (AmigaOS *)",
+          "properties": {
+            "Version": "2.4"
+          }
+        },
+        {
+          "match": "IBrowse/2.5 (AmigaOS *)",
+          "properties": {
+            "Version": "2.5"
+          }
+        },
+        {
+          "match": "iBrowse/2.60 CFNetwork/*",
+          "device": "Macintosh",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "2.6"
+          }
+        }
+      ]
+    }
+  ]
+}

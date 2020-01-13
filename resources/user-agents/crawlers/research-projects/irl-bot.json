@@ -1,0 +1,39 @@
+{
+  "division": "IRLbot",
+  "sortIndex": 470,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "IRLbot",
+      "browser": "irlbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IRLbot"
+      },
+      "children": [
+        {
+          "match": "IRLbot/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "IRLbot/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "IRLbot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "IRLbot/*"
+        }
+      ]
+    }
+  ]
+}

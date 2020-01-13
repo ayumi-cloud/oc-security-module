@@ -1,0 +1,53 @@
+{
+  "division": "QuickLook",
+  "sortIndex": 9870,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QuickLook",
+      "browser": "quicklook",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QuickLook",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QuickLook/5.*",
+          "platforms": [
+            "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ],
+          "properties": {
+            "Version": "5.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QuickLook/4.*",
+          "platforms": [
+            "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QuickLook/*",
+          "platforms": [
+            "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "Metaspinner",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Metaspinner",
+      "browser": "metaspinner",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Metaspinner"
+      },
+      "children": [
+        {
+          "match": "Metaspinner/0.01*",
+          "properties": {
+            "Version": "0.01"
+          }
+        },
+        {
+          "match": "Metaspinner/*"
+        }
+      ]
+    }
+  ]
+}

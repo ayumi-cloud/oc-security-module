@@ -1,0 +1,33 @@
+{
+  "division": "bitlybot",
+  "sortIndex": 100,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "bitlybot",
+      "browser": "bitlybot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Bitlybot"
+      },
+      "children": [
+        {
+          "match": "bitlybot/3.*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "bitlybot/2.*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "bitlybot*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "division": "BB2C",
+  "sortIndex": 2290,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BB2C",
+      "browser": "bb2c",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BB2C",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "BB2C* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

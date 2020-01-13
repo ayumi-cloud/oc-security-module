@@ -1,0 +1,23 @@
+{
+  "division": "PAD-bot #MAJORVER#.#MINORVER#",
+  "versions": [9],
+  "sortIndex": 2420,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "PAD-bot #MAJORVER#.#MINORVER#",
+      "browser": "pad-bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PAD-bot #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; PAD-bot/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "division": "Univention Corporate Server Generic",
+  "sortIndex": 1143,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Univention Corporate Server Generic",
+      "browser": "univention corporate server",
+      "platform": "Linux",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Univention Corporate Server Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "UCS (ESX) - *"
+        }
+      ]
+    }
+  ]
+}

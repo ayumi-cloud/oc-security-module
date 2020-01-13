@@ -1,0 +1,60 @@
+{
+  "division": "Scrubby",
+  "sortIndex": 249,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Scrubby",
+      "browser": "scrubby",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Scrubby"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Scrubby/3.2*",
+          "browser": "scrubby",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Scrubby/2.2*",
+          "browser": "scrubby",
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Scrubby/2.1*",
+          "browser": "scrubby",
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Scrubby/*",
+          "browser": "scrubby"
+        },
+        {
+          "match": "Scrubby/2.2*",
+          "browser": "scrubby",
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "Scrubby/2.1*",
+          "browser": "scrubby",
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "Scrubby/*"
+        }
+      ]
+    }
+  ]
+}

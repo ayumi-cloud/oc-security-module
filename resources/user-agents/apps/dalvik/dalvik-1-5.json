@@ -1,0 +1,67 @@
+{
+  "division": "Dalvik #MAJORVER#.#MINORVER#",
+  "versions": ["1.5"],
+  "sortIndex": 2212,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
+      "browser": "dalvik",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Tablet",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dalvik #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
+          "devices": {
+            "Transformer TF101": "Asus TF101"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_0",
+            "Android_3_2"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
+          "devices": {
+            "A500": "Acer A500"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_0",
+            "Android_3_2", "Android_3_1"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
+          "devices": {
+            "GT-P7510": "Samsung GT-P7510"
+          },
+          "platforms": [
+            "Android_3_1"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_3_2", "Android_3_1", "Android_3_0"
+          ]
+        }
+      ]
+    }
+  ]
+}

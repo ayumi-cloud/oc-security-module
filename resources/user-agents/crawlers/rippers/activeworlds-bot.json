@@ -1,0 +1,21 @@
+{
+  "division": "ActiveWorlds Bot",
+  "sortIndex": 480,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ActiveWorlds Bot",
+      "browser": "activeworlds bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ActiveWorlds Bot"
+      },
+      "children": [
+        {
+          "match": "ActiveWorlds*"
+        }
+      ]
+    }
+  ]
+}

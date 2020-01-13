@@ -1,0 +1,38 @@
+{
+  "division": "LG Browser #MAJORVER#.#MINORVER#",
+  "versions": ["8.00"],
+  "sortIndex": 1770,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "LG Browser #MAJORVER#.#MINORVER#",
+      "browser": "lg browser",
+      "platform": "webOS 3.0 (LG)",
+      "engine": "Blink",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LG Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chr0me/* Safari/* LG Browser/#MAJORVER#.#MINORVER#*#DEVICE#*",
+          "devices": {
+            "LGE; 49LH604V": "LG 49LH604V"
+          },
+          "platforms": [
+            "webOS 3.0 (LG)"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chr0me/* Safari/* LG Browser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "webOS 3.0 (LG)"
+          ]
+        }
+      ]
+    }
+  ]
+}

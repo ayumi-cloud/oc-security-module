@@ -1,0 +1,27 @@
+{
+  "division": "BLEXBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BLEXBot",
+      "browser": "blexbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BLEXBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; BLEXBot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; BLEXBot/*"
+        }
+      ]
+    }
+  ]
+}

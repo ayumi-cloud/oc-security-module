@@ -1,0 +1,39 @@
+{
+  "division": "SohuNews App #MAJORVER#.#MINORVER# for Android",
+  "versions": ["5.7"],
+  "sortIndex": 2060,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SohuNews App #MAJORVER#.#MINORVER# for Android",
+      "browser": "sohunews app",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SohuNews App #MAJORVER#.#MINORVER# for Android",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#ATH-AL00 Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SohuNews/#MAJORVER#.#MINORVER#*",
+          "device": "Huawei ATH-AL00",
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SohuNews/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_6_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

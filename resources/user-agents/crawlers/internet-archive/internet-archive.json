@@ -1,0 +1,36 @@
+{
+  "division": "Internet Archive",
+  "sortIndex": 280,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Internet Archive",
+      "browser": "internet archive",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Internet Archive"
+      },
+      "children": [
+        {
+          "match": "ia_archiver*"
+        },
+        {
+          "match": "InternetArchive/*"
+        },
+        {
+          "match": "Mozilla/2.0 (compatible; archive.org*)"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; archive.org*)"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*archive.org*) Gecko* Firefox/*"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*archives.gov*)*applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*"
+        }
+      ]
+    }
+  ]
+}

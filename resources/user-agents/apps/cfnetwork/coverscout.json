@@ -1,0 +1,29 @@
+{
+  "division": "CoverScout",
+  "sortIndex": 3760,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "CoverScout",
+      "browser": "coverscout",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CoverScout",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "CoverScout* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

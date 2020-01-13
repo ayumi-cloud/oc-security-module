@@ -1,0 +1,63 @@
+{
+  "division": "Android Browser Generic",
+  "sortIndex": 1908,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Android Browser Generic",
+      "browser": "android",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Android Browser Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2", "Android_2_1", "Android_2_0",
+            "Android_1_6", "Android_1_5",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_3_2", "Android_3_1", "Android_3_0"
+          ]
+        },
+        {
+          "match": "#DEVICE#/1.0 #PLATFORM# Release/* Browser/*applewebkit*",
+          "devices": {
+            "SAMSUNG-GT-I9008*": "Samsung GT-I9008"
+          },
+          "platforms": [
+            "Android_H_2_2"
+          ]
+        },
+        {
+          "match": "SAMSUNG*/1.0 #PLATFORM# Release/* Browser/*applewebkit*",
+          "device": "general Mobile Device (Samsung)",
+          "platforms": [
+            "Android_H_2_3", "Android_H_2_2", "Android_H_2_1", "Android_H_2_0",
+            "Android_H"
+          ]
+        },
+        {
+          "match": "*/1.0 #PLATFORM# Release/* Browser/*applewebkit*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_H_2_3", "Android_H_2_2", "Android_H_2_1", "Android_H_2_0",
+            "Android_H"
+          ]
+        }
+      ]
+    }
+  ]
+}

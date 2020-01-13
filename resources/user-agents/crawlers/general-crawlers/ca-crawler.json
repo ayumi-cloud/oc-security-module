@@ -1,0 +1,27 @@
+{
+  "division": "ca-crawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ca-crawler",
+      "browser": "ca-crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ca-crawler"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; ca-crawler/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; ca-crawler/*"
+        }
+      ]
+    }
+  ]
+}

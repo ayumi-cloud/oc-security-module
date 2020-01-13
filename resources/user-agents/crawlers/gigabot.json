@@ -1,0 +1,25 @@
+{
+  "division": "Gigabot",
+  "sortIndex": 160,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Gigabot",
+      "browser": "gigabot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Gigabot"
+      },
+      "children": [
+        {
+          "match": "GigabotSiteSearch/*",
+          "browser": "gigabotsitesearch"
+        },
+        {
+          "match": "Gigabot*"
+        }
+      ]
+    }
+  ]
+}

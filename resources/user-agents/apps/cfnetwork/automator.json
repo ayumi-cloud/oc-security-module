@@ -1,0 +1,29 @@
+{
+  "division": "Automator",
+  "sortIndex": 2280,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Automator",
+      "browser": "automator",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Automator",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Automator* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

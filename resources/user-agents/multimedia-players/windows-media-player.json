@@ -1,0 +1,140 @@
+{
+  "division": "Windows Media Player",
+  "sortIndex": 1560,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Windows Media Player",
+      "browser": "windows media player",
+      "platform": "Windows",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Windows Media Player"
+      },
+      "children": [
+        {
+          "match": "NSPlayer/12.*",
+          "properties": {
+            "Version": "12.0"
+          }
+        },
+        {
+          "match": "NSPlayer/11.*",
+          "properties": {
+            "Version": "11.0"
+          }
+        },
+        {
+          "match": "NSPlayer/10.*",
+          "properties": {
+            "Version": "10.0"
+          }
+        },
+        {
+          "match": "NSPlayer/9.*",
+          "properties": {
+            "Version": "9.0"
+          }
+        },
+        {
+          "match": "NSPlayer/8.*",
+          "properties": {
+            "Version": "8.0"
+          }
+        },
+        {
+          "match": "NSPlayer/7.*",
+          "properties": {
+            "Version": "7.0"
+          }
+        },
+        {
+          "match": "NSPlayer/07.*",
+          "properties": {
+            "Version": "7.0"
+          }
+        },
+        {
+          "match": "NSPlayer/4.*",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Windows-Media-Player/7.*",
+          "properties": {
+            "Version": "7.0"
+          }
+        },
+        {
+          "match": "Windows-Media-Player/8.*",
+          "properties": {
+            "Version": "8.0"
+          }
+        },
+        {
+          "match": "Windows-Media-Player/9.*",
+          "properties": {
+            "Version": "9.0"
+          }
+        },
+        {
+          "match": "Windows-Media-Player/10.*",
+          "properties": {
+            "Version": "10.0"
+          }
+        },
+        {
+          "match": "Windows-Media-Player/11.*",
+          "properties": {
+            "Version": "11.0"
+          }
+        },
+        {
+          "match": "Windows-Media-Player/12.*",
+          "properties": {
+            "Version": "12.0"
+          }
+        },
+        {
+          "match": "WMPlayer/10.*",
+          "properties": {
+            "Version": "10.0"
+          }
+        },
+        {
+          "match": "WMPlayer/11.*",
+          "properties": {
+            "Version": "11.0"
+          }
+        },
+        {
+          "match": "WMPlayer/12.*",
+          "properties": {
+            "Version": "12.0"
+          }
+        },
+        {
+          "match": "Lavf*WMPlayer/10.*",
+          "properties": {
+            "Version": "10.0"
+          }
+        },
+        {
+          "match": "Lavf*WMPlayer/11.*",
+          "properties": {
+            "Version": "11.0"
+          }
+        },
+        {
+          "match": "Lavf*WMPlayer/12.*",
+          "properties": {
+            "Version": "12.0"
+          }
+        }
+      ]
+    }
+  ]
+}

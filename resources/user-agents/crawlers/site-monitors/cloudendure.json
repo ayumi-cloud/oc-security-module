@@ -1,0 +1,21 @@
+{
+  "division": "CloudEndure Scanner",
+  "sortIndex": 490,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "CloudEndure Scanner",
+      "browser": "cloudendure scanner",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CloudEndure Scanner"
+      },
+      "children": [
+        {
+          "match": "CloudEndure Scanner*"
+        }
+      ]
+    }
+  ]
+}

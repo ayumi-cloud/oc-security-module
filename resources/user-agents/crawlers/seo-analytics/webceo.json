@@ -1,0 +1,27 @@
+{
+  "division": "webceo Bot",
+  "sortIndex": 248,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "webceo Bot",
+      "browser": "webceo bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "webceo Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; online-webceo-bot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; online-webceo-bot/*"
+        }
+      ]
+    }
+  ]
+}

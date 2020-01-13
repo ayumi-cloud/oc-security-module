@@ -1,0 +1,32 @@
+{
+  "division": "TenFourFox #MAJORVER#.#MINORVER#",
+  "versions": ["38.4", "38.3", "38.2", "38.1", 38, "31.8", "31.7", "31.6", "31.5", "31.4", "31.3", "31.2", "31.1", 31, "24.8", "24.7", "24.6", "24.5", "24.4", "24.3", "24.2", "24.1", 24, 17, 10],
+  "sortIndex": 10780,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "TenFourFox #MAJORVER#.#MINORVER#",
+      "browser": "tenfourfox",
+      "platform": "OSX",
+      "engine": "Gecko_Major_Dynamic",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "TenFourFox #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#; rv:#MAJORVER#.#MINORVER#*) Gecko* Firefox/* TenFourFox/*",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

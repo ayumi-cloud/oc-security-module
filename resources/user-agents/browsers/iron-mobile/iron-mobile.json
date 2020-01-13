@@ -1,0 +1,43 @@
+{
+  "division": "Iron Mobile #MAJORVER#.#MINORVER#",
+  "versions": [74, 61, 56, 55],
+  "sortIndex": 1123,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Iron Mobile #MAJORVER#.#MINORVER#",
+      "browser": "iron mobile",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Iron Mobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.* Iron* Safari/*",
+          "devices": {
+            "LG-V500": "LG V500"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.* Iron* Safari/*",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

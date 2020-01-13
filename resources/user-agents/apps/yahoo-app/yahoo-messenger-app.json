@@ -1,0 +1,27 @@
+{
+  "division": "Yahoo Messenger",
+  "sortIndex": 1310,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo Messenger",
+      "browser": "yahoo messenger",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo Messenger"
+      },
+      "children": [
+        {
+          "match": "Y!%20Messenger/* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

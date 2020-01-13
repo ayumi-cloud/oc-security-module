@@ -1,0 +1,36 @@
+{
+  "division": "Darwin Browser",
+  "sortIndex": 3850,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Darwin Browser",
+      "browser": "darwin browser",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Darwin Browser",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "browser/* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        },
+        {
+          "match": "browseripad/* CFNetwork/*",
+          "device": "iPad",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

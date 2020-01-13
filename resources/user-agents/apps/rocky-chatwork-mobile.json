@@ -1,0 +1,42 @@
+{
+  "division": "Rocky ChatWork Mobile #MAJORVER#.#MINORVER#",
+  "versions": ["3.4", "3.3", "3.2", "3.1", 3],
+  "sortIndex": 1187,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Rocky ChatWork Mobile #MAJORVER#.#MINORVER#",
+      "browser": "rocky chatwork mobile",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Rocky ChatWork Mobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Rocky ChatWork Mobile/#MAJORVER#.#MINORVER##PLATFORM# (iPhone App iPhone*",
+          "device": "iPhone",
+          "platforms": [
+            "iOS_L_8_1", "iOS_L_8_0",
+            "iOS_L_7_1", "iOS_L_7_0",
+            "iOS_L"
+          ]
+        },
+        {
+          "match": "Rocky ChatWork Mobile/#MAJORVER#.#MINORVER##PLATFORM# (iPhone App*",
+          "platforms": [
+            "iOS_L_8_1", "iOS_L_8_0",
+            "iOS_L_7_1", "iOS_L_7_0",
+            "iOS_L"
+          ]
+        }
+      ]
+    }
+  ]
+}

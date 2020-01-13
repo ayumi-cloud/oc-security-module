@@ -1,0 +1,133 @@
+{
+  "division": "Version Checkers",
+  "sortIndex": 520,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Version Checkers",
+      "browser": "version checkers",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Version Checkers"
+      },
+      "children": [
+        {
+          "match": "Automated Browscap.ini Updater. Gary contact me at serge@skycomp.ca with problems.",
+          "browser": "automated browscap updater"
+        },
+        {
+          "match": "Automated Browscap.ini Updater. To report issues contact us at+http://www.skycomp.ca",
+          "browser": "automated browscap.ini updater"
+        },
+        {
+          "match": "Browscap Mirror System/1.* (browscap.giantrealm.com)",
+          "browser": "browscap mirror system"
+        },
+        {
+          "match": "Browscap Mirror v1.30",
+          "browser": "browscap mirror"
+        },
+        {
+          "match": "Browscap updater",
+          "browser": "browscap updater"
+        },
+        {
+          "match": "browscap updater; interval:weekly; server:rohan.doppy.nl; questions:support@doppy.nl;",
+          "browser": "browscap updater"
+        },
+        {
+          "match": "BrowscapUpdater1.0",
+          "browser": "browscapupdater"
+        },
+        {
+          "match": "Browser Capabilities Project - PHP Browscap*",
+          "browser": "bcp - php browscap",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Browser Capabilities Project AutoDownloader; created by Tom Kelleher Consulting, Inc. (tkelleher.com); used with special permission from Gary Joel Keith; uses Microsoft?s WinHTTP component",
+          "browser": "tkc autodownloader"
+        },
+        {
+          "match": "Decode Framework 0.* browscap library",
+          "browser": "decode framework browscap library"
+        },
+        {
+          "match": "Desktop Sidebar*",
+          "browser": "desktop sidebar"
+        },
+        {
+          "match": "Mono Browser Capabilities Updater*",
+          "browser": "mono browser capabilities updater"
+        },
+        {
+          "match": "PHP Browser Capabilities Project/*",
+          "browser": "php browser capabilities project"
+        },
+        {
+          "match": "UpdateBrowscap*",
+          "browser": "updatebrowscap"
+        },
+        {
+          "match": "WCC Browscap Updater/0.* (PHP: file_get_contents)",
+          "browser": "wcc browscap updater"
+        },
+        {
+          "match": "Automated Browscap.ini Updater. To report issues contact us at*http://www.skycomp.ca",
+          "browser": "automated browscap.ini updater"
+        },
+        {
+          "match": "Browser Capabilities Project - PHP Browscap/*",
+          "browser": "bcp - php browscap"
+        },
+        {
+          "match": "Browscap Mirror System/* (browscap.giantrealm.com)",
+          "browser": "browscap mirror system"
+        },
+        {
+          "match": "BrowscapUpdater*",
+          "browser": "browscapupdater"
+        },
+        {
+          "match": "Code Sample Web Client",
+          "browser": "code sample web client"
+        },
+        {
+          "match": "Subtext Version 1.9* - http://subtextproject.com/ (Microsoft Windows NT 5.2.*)",
+          "browser": "subtext",
+          "platforms": [
+            "WinXPb_32"
+          ]
+        },
+        {
+          "match": "TherapeuticResearch",
+          "browser": "therapeuticresearch"
+        },
+        {
+          "match": "Rewmi/*"
+        },
+        {
+          "match": "browsers.garykeith.com browscap.ini bot BETA"
+        },
+        {
+          "match": "www.substancia.com AutoHTTPAgent (ver *)",
+          "browser": "www.substancia.com"
+        },
+        {
+          "match": "WebRingChecker/1.71*",
+          "browser": "webringchecker",
+          "properties": {
+            "Version": "1.71"
+          }
+        },
+        {
+          "match": "WebRingChecker/*",
+          "browser": "webringchecker"
+        }
+      ]
+    }
+  ]
+}

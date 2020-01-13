@@ -1,0 +1,37 @@
+{
+  "division": "Dolfin #MAJORVER#.#MINORVER#",
+  "versions": ["2.2"],
+  "sortIndex": 1704,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Dolfin #MAJORVER#.#MINORVER#",
+      "browser": "dolfin",
+      "platform": "Bada_1_2",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Samsung)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dolfin #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (SAMSUNG; #DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Dolfin/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SAMSUNG-GT-S8500": "Samsung GT-S8500",
+            "SAMSUNG-GT-S8530": "Samsung GT-S8530"
+          },
+          "platforms": [
+            "Bada_1_2"
+          ]
+        },
+        {
+          "match": "*Dolphin/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Device"
+        }
+      ]
+    }
+  ]
+}

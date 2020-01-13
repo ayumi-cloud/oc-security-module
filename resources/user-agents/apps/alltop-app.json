@@ -1,0 +1,24 @@
+{
+  "division": "Alltop App #MAJORVER#.#MINORVER#",
+  "versions": ["1.1"],
+  "sortIndex": 1992,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Alltop App #MAJORVER#.#MINORVER#",
+      "browser": "alltop app",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Alltop App #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Alltop/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "division": "billigFluegeFinal",
+  "sortIndex": 2330,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "billigFluegeFinal",
+      "browser": "billigfluegefinal app",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "billigFluegeFinal App",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "billigFluegeFinal/1.6* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "1.6"
+          }
+        },
+        {
+          "match": "billigFluegeFinal* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "SpellCheck Bot",
+  "sortIndex": 1510,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SpellCheck Bot",
+      "browser": "spellcheck bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SpellCheck Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; SpellCheck Bot 0.9*",
+          "properties": {
+            "Version": "0.9"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SpellCheck Bot*"
+        }
+      ]
+    }
+  ]
+}

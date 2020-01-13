@@ -1,0 +1,49 @@
+{
+  "division": "douban App",
+  "sortIndex": 2000,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "douban App",
+      "browser": "douban app",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "douban App"
+      },
+      "children": [
+        {
+          "match": "com.douban.group/2.2* Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "devices": {
+            "MI 2A": "Xiaomi MI 2A"
+          },
+          "platforms": [
+            "Android_4_1"
+          ],
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "com.douban.group/2.2* Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+          ],
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "com.douban.group/* Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

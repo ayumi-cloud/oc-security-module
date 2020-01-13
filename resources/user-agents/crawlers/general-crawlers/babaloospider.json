@@ -1,0 +1,27 @@
+{
+  "division": "BabalooSpider",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BabalooSpider",
+      "browser": "babaloospider",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BabalooSpider"
+      },
+      "children": [
+        {
+          "match": "BabalooSpider/1.*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "BabalooSpider/*"
+        }
+      ]
+    }
+  ]
+}

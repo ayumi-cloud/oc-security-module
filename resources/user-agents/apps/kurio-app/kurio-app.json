@@ -1,0 +1,30 @@
+{
+  "division": "Kurio App",
+  "sortIndex": 1049,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Kurio App",
+      "browser": "kurio app",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kurio App"
+      },
+      "children": [
+        {
+          "match": "Kurio/3.1*",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "Kurio/*"
+        }
+      ]
+    }
+  ]
+}

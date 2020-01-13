@@ -1,0 +1,27 @@
+{
+  "division": "200PleaseBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "200PleaseBot",
+      "browser": "200pleasebot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "200PleaseBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; 200PleaseBot/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; 200PleaseBot/*"
+        }
+      ]
+    }
+  ]
+}

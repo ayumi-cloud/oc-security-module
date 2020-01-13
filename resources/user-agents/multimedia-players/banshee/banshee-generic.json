@@ -1,0 +1,21 @@
+{
+  "division": "Banshee Generic",
+  "sortIndex": 1532,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Banshee Generic",
+      "browser": "banshee media player",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Banshee Generic"
+      },
+      "children": [
+        {
+          "match": "Banshee/*"
+        }
+      ]
+    }
+  ]
+}

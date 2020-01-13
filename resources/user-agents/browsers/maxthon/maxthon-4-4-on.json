@@ -1,0 +1,431 @@
+{
+  "division": "Maxthon #MAJORVER#.#MINORVER#",
+  "versions": ["5.2", "5.1", 5, "4.9", "4.8", "4.7", "4.6", "4.5", "4.4"],
+  "sortIndex": 941,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Android",
+      "browser": "maxthon",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Maxthon #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-I9300I": "Samsung GT-I9300I",
+            "GT-I9305": "Samsung GT-I9305",
+            "GT-I9500": "Samsung GT-I9500",
+            "GT-I9505": "Samsung GT-I9505",
+            "GT-N7100": "Samsung GT-N7100"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-I9060": "Samsung GT-I9060",
+            "GT-S7580": "Samsung GT-S7580"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100",
+            "GT-I9300": "Samsung GT-I9300",
+            "GT-S5310": "Samsung GT-S5310"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-S7562": "Samsung GT-S7562"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100"
+          },
+          "platforms": [
+            "Android_4_0",
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "Lenovo A830": "Lenovo A830"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-S5830i": "Samsung GT-S5830i"
+          },
+          "platforms": [
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
+            "TA-1021": "Nokia TA-1021"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
+            "SM-G950F": "Samsung SM-G950F"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SM-A310F": "Samsung SM-A310F",
+            "SM-A510F": "Samsung SM-A510F",
+            "SM-A710F": "Samsung SM-A710F"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Redmi Note 3": "Xiaomi Redmi Note 3"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
+            "TA-1021": "Nokia TA-1021"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
+            "NEM-L51": "Huawei NEM-L51"
+          },
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SM-N900": "Samsung SM-N900"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Lenovo A319": "Lenovo A319"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* MxBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Maxthon #MAJORVER#.#MINORVER# for iOS",
+      "browser": "maxthon",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Maxthon #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* MXiOS/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* MXiOS/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* MXiOS/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Maxthon #MAJORVER#.#MINORVER#",
+      "browser": "maxthon",
+      "platform": "Windows",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Maxthon #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*MxBrowser/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*MxBrowser/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#*Safari/*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Maxthon #MAJORVER#.#MINORVER# for Mac",
+      "browser": "maxthon",
+      "platform": "OSX",
+      "engine": "Blink",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Maxthon #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*MxBrowser/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#*Safari/*",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Maxthon/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

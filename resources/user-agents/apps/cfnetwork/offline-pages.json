@@ -1,0 +1,27 @@
+{
+  "division": "Offline Pages",
+  "sortIndex": 850,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Offline Pages",
+      "browser": "offline pages",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Offline Pages"
+      },
+      "children": [
+        {
+          "match": "OfflinePages/* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

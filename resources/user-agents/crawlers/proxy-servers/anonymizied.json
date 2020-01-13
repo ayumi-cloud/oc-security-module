@@ -1,0 +1,43 @@
+{
+  "division": "Anonymizied",
+  "sortIndex": 50,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Anonymizied",
+      "browser": "anonymizied",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Anonymizied",
+        "isAnonymized": true
+      },
+      "children": [
+        {
+          "match": "Anonymisiert durch AlMiSoft Browser-Maulkorb (Anonymisier*"
+        },
+        {
+          "match": "Anonymisiert*"
+        },
+        {
+          "match": "Anonymizer/*"
+        },
+        {
+          "match": "Anonymizied*"
+        },
+        {
+          "match": "Anonymous*"
+        },
+        {
+          "match": "Anonymous/*"
+        },
+        {
+          "match": "http://Anonymouse.org/*"
+        },
+        {
+          "match": "Mozilla/5.0 (Randomized by FreeSafeIP*"
+        }
+      ]
+    }
+  ]
+}

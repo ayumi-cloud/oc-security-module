@@ -1,0 +1,27 @@
+{
+  "division": "PagePeeker Screenshot Maker",
+  "sortIndex": 2959,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "PagePeeker Screenshot Maker",
+      "browser": "pagepeeker screenshot maker",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PagePeeker Screenshot Maker"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) domain.com Safari/*",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

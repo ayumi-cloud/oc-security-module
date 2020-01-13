@@ -1,0 +1,30 @@
+{
+  "division": "IXI",
+  "sortIndex": 6370,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "IXI",
+      "browser": "ixi",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IXI",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; 240x320) IXI/Q05A2.4"
+        },
+        {
+          "match": "IXI-CT-25/v2.0/Mozilla/4.0 (compatible; 240x320) IXI/Q05A2.4",
+          "properties": {
+            "Version": "2.0"
+          }
+        }
+      ]
+    }
+  ]
+}

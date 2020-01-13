@@ -1,0 +1,80 @@
+{
+  "division": "Obigo Q #MAJORVER#.#MINORVER#",
+  "versions": [5],
+  "sortIndex": 10771,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Obigo Q #MAJORVER#.#MINORVER#",
+      "browser": "obigo q",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Obigo Q #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/V1.0g Obigo/Q05A *",
+          "devices": {
+            "LG-CU515": "LG CU515"
+          }
+        },
+        {
+          "match": "#DEVICE#/V1.0l Obigo/Q05A *",
+          "devices": {
+            "LG-CU720": "LG CU720"
+          }
+        },
+        {
+          "match": "#DEVICE#/* Obigo/Q05A *",
+          "devices": {
+            "LG-CU920": "LG CU920"
+          }
+        },
+        {
+          "match": "#DEVICE#/v10c Browser/Obigo-Q05A/*",
+          "devices": {
+            "LG-KF750-Orange": "LG KF750"
+          }
+        },
+        {
+          "match": "#DEVICE#/v10a Browser/Obigo-Q05A/*",
+          "devices": {
+            "LG/KU990i": "LG KU990"
+          }
+        },
+        {
+          "match": "#DEVICE#/* ObigoInternetBrowser/Q05A*",
+          "devices": {
+            "ALCATEL-OT871A": "Alcatel OT-871A"
+          }
+        },
+        {
+          "match": "#DEVICE#* ObigoInternetBrowser/Q05A*",
+          "devices": {
+            "ALCATEL_TRIBE_3075A": "Alcatel OT-3075A"
+          }
+        },
+        {
+          "match": "#DEVICE#/* Browser/Obigo-Q05A/*",
+          "devices": {
+            "LG/HB620T": "LG HB620T",
+            "LG/KU990": "LG KU990"
+          }
+        },
+        {
+          "match": "*Obigo/Q05*"
+        },
+        {
+          "match": "*Browser/Obigo-Q05*"
+        },
+        {
+          "match": "*ObigoInternetBrowser/Q05*"
+        }
+      ]
+    }
+  ]
+}

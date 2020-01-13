@@ -1,0 +1,27 @@
+{
+  "division": "Mercator",
+  "sortIndex": 7150,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mercator",
+      "browser": "mercator",
+      "device": "unknown",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mercator",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mercator-2.0",
+          "properties": {
+            "Version": "2.0"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "DomainAppender Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "DomainAppender Bot",
+      "browser": "domainappender bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "DomainAppender Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; DomainAppender /1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; DomainAppender /*"
+        }
+      ]
+    }
+  ]
+}

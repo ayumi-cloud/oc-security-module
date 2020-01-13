@@ -1,0 +1,31 @@
+{
+  "division": "IEMobile #MAJORVER#.#MINORVER#",
+  "versions": [5],
+  "sortIndex": 1725,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
+      "browser": "iemobile",
+      "platform": "WinCE",
+      "engine": "Trident_3_1",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IEMobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile?#MAJORVER#.*)*",
+          "platforms": [
+            "WinCE"
+          ]
+        }
+      ]
+    }
+  ]
+}

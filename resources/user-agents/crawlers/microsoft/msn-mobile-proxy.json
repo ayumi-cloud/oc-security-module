@@ -1,0 +1,25 @@
+{
+  "division": "MSN Mobile Proxy",
+  "sortIndex": 1260,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MSN Mobile Proxy",
+      "browser": "msn mobile proxy",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MSN"
+      },
+      "children": [
+        {
+          "match": "Mozilla/* (compatible*; MSIE *; Windows*; MSN Mobile Proxy)",
+          "platforms": [
+            "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}

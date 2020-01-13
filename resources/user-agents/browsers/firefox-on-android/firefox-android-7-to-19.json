@@ -1,0 +1,42 @@
+{
+  "division": "Firefox #MAJORVER#.#MINORVER# for Android",
+  "versions": [19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7],
+  "sortIndex": 3160,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Firefox #MAJORVER#.#MINORVER# for Android",
+      "browser": "firefox",
+      "platform": "Android",
+      "engine": "Gecko_Dynamic",
+      "device": "general Tablet",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "AndroidMobile_4_4", "AndroidMobile_4_3", "AndroidMobile_4_2", "AndroidMobile_4_1", "AndroidMobile_4_0",
+            "AndroidMobile_2_3", "AndroidMobile_2_2", "AndroidMobile_2_1",
+            "AndroidMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
+          "platforms": [
+            "AndroidTablet_4_4", "AndroidTablet_4_3", "AndroidTablet_4_2", "AndroidTablet_4_1", "AndroidTablet_4_0",
+            "AndroidTablet_3_2", "AndroidTablet_3_1", "AndroidTablet_3_0",
+            "AndroidTablet_2_3", "AndroidTablet_2_2", "AndroidTablet_2_1",
+            "AndroidTablet"
+          ]
+        }
+      ]
+    }
+  ]
+}

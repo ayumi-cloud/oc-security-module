@@ -1,0 +1,49 @@
+{
+  "division": "Apple News Generic for iOS",
+  "sortIndex": 1180,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Apple News Generic for iOS",
+      "browser": "apple news",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple News Generic for iOS",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) AppleNews/* Version/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) AppleNews/* Version/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) AppleNews/* Version/*",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

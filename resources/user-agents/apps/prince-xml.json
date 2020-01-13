@@ -1,0 +1,30 @@
+{
+  "division": "Prince",
+  "sortIndex": 1851,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Prince",
+      "browser": "prince",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Prince",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Prince/7.1*",
+          "properties": {
+            "Version": "7.1"
+          }
+        },
+        {
+          "match": "Prince/*"
+        }
+      ]
+    }
+  ]
+}

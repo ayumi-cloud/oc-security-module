@@ -1,0 +1,34 @@
+{
+  "division": "Samsung Browser Generic",
+  "sortIndex": 956,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Samsung Browser Generic",
+      "browser": "samsung browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Browser Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/*Chrome*Safari*",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

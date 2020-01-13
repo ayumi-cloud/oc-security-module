@@ -1,0 +1,24 @@
+{
+  "division": "Apple PubSub Generic",
+  "sortIndex": 373,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Apple PubSub Generic",
+      "browser": "apple pubsub",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple PubSub Generic"
+      },
+      "children": [
+        {
+          "match": "Apple-PubSub/*"
+        }
+      ]
+    }
+  ]
+}

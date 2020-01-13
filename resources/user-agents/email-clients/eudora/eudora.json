@@ -1,0 +1,48 @@
+{
+  "division": "Eudora",
+  "sortIndex": 1670,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Eudora",
+      "browser": "eudora",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Eudora",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Eudora/* (MacOS)"
+        }
+      ]
+    },
+    {
+      "userAgent": "Eudora OSE",
+      "browser": "eudora ose",
+      "platform": "Windows",
+      "engine": "Gecko",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Eudora Open Source Edition",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Eudora/*",
+          "platforms": [
+            "Win8_32",
+            "Win7_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

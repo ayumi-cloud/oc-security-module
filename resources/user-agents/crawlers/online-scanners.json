@@ -1,0 +1,53 @@
+{
+  "division": "Online Scanners",
+  "sortIndex": 450,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Online Scanners",
+      "browser": "online scanners",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Online Scanners"
+      },
+      "children": [
+        {
+          "match": "JoeDog/* (X11; I; Siege *)",
+          "browser": "joedog"
+        },
+        {
+          "match": "Morfeus Fucking Scanner",
+          "browser": "morfeus fucking scanner"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; Trend Micro tmdr 1.*",
+          "browser": "trend micro"
+        },
+        {
+          "match": "Titanium 2005 (4.02.01)",
+          "browser": "panda antivirus titanium"
+        },
+        {
+          "match": "virus_detector*",
+          "browser": "secure computing corporation"
+        },
+        {
+          "match": "WhatWeb/0.4*",
+          "browser": "whatweb web scanner",
+          "properties": {
+            "Version": "0.4"
+          }
+        },
+        {
+          "match": "WhatWeb/*",
+          "browser": "whatweb web scanner"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Nmap Scripting Engine*",
+          "browser": "nmap scripting engine"
+        }
+      ]
+    }
+  ]
+}

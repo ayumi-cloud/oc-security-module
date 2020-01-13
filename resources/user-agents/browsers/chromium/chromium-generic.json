@@ -1,0 +1,82 @@
+{
+  "division": "Chromium Generic",
+  "sortIndex": 882,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Chromium Generic",
+      "browser": "chromium",
+      "platform": "Linux",
+      "engine": "Blink",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Chromium Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chromium/*Chrome/*Safari/*",
+          "device": "Samsung Smart-TV",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux i686*) applewebkit* (*khtml*like*gecko*)#PLATFORM#Chromium/*Chrome/*Safari/*",
+          "platforms": [
+            "Ubuntu_12_04",
+            "Ubuntu_11_10"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux x86_64*) applewebkit* (*khtml*like*gecko*)#PLATFORM#Chromium/*Chrome/*Safari/*",
+          "platforms": [
+            "Ubuntu_12_04_64"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux i686*) applewebkit* (*khtml*like*gecko*) Ubuntu* Chromium/*Chrome/*Safari/*",
+          "platforms": [
+            "Ubuntu"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux x86_64*) applewebkit* (*khtml*like*gecko*) Ubuntu* Chromium/*Chrome/*Safari/*",
+          "platforms": [
+            "Ubuntu_64"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chromium/*Chrome/*Safari/*",
+          "platforms": [
+            "Ubuntu_64", "Ubuntu",
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux#PLATFORM#) applewebkit* Chromium/*Safari/*",
+          "platforms": [
+            "Ubuntu_14_04"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* Chromium/*Safari/*",
+          "device": "general Mobile Device",
+          "platforms": [
+            "Ubuntu_Touch_15_04",
+            "Ubuntu_Touch_14_04",
+            "Ubuntu_Touch"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chromium/*Safari/*",
+          "platforms": [
+            "Ubuntu_64", "Ubuntu",
+            "Linux_64", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

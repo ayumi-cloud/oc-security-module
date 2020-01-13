@@ -1,0 +1,27 @@
+{
+  "division": "ZmEu",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ZmEu",
+      "browser": "zmeu",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ZmEu"
+      },
+      "children": [
+        {
+          "match": "ZmEu*"
+        },
+        {
+          "match": "Made by ZmEu @ WhiteHat v0.* (www.WhiteHat.ro)"
+        },
+        {
+          "match": "Made by ZmEu @ WhiteHat*"
+        }
+      ]
+    }
+  ]
+}

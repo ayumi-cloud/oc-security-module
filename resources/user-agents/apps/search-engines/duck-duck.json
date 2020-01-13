@@ -1,0 +1,52 @@
+{
+  "division": "DuckDuckBot",
+  "sortIndex": 250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "DuckDuckBot",
+      "browser": "duckduckbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "DuckDuckBot"
+      },
+      "children": [
+        {
+          "match": "DuckDuckBot/*",
+          "browser": "duckduckbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0*",
+          "browser": "duckduck favicons bot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/*",
+          "browser": "duckduck favicons bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; DuckDuckBot*",
+          "browser": "duckduckbot"
+        },
+        {
+          "match": "DDG-Android-3.0*",
+          "browser": "duckduck app",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "DDG-Android-*",
+          "browser": "duckduck app"
+        },
+        {
+          "match": "*duckduckgo*",
+          "browser": "duckduckbot"
+        }
+      ]
+    }
+  ]
+}

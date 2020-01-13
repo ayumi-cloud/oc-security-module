@@ -1,0 +1,45 @@
+{
+  "division": "Silk #MAJORVER#.#MINORVER#",
+  "versions": ["3.3"],
+  "sortIndex": 1137,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Silk #MAJORVER#.#MINORVER#",
+      "browser": "silk",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "Amazon Kindle",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Silk #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Linux; U; *; #DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
+          "devices": {
+            "KFOT": "Amazon KFOT",
+            "KFTT": "Amazon KFTT"
+          },
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; U; * Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* Safari*",
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        }
+      ]
+    }
+  ]
+}

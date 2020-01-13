@@ -1,0 +1,180 @@
+{
+  "division": "Kenshoo",
+  "sortIndex": 1049,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Kenshoo",
+      "browser": "kenshoo",
+      "platform": "Windows",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kenshoo"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*Safari/* Kenshoo/*",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Kenshoo for Darwin",
+      "browser": "kenshoo",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Kenshoo for Darwin"
+      },
+      "children": [
+        {
+          "match": "Kenshoo/* CFNetwork/459*",
+          "platforms": [
+            "iOS_A_3_1"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/467.12*",
+          "platforms": [
+            "iOS_A_3_2"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/485.2*",
+          "platforms": [
+            "iOS_A_4_0"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/485.10*",
+          "platforms": [
+            "iOS_A_4_1"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/485.12*",
+          "platforms": [
+            "iOS_A_4_2"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/485.13*",
+          "platforms": [
+            "iOS_A_4_3"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/548.1*",
+          "platforms": [
+            "iOS_A_5_1"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/548.0*",
+          "platforms": [
+            "iOS_A_5_0"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/602*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/609.1*",
+          "platforms": [
+            "iOS_A_6_1"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/609*",
+          "platforms": [
+            "iOS_A_6_0"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/672.0*",
+          "platforms": [
+            "iOS_A_7_0"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/672.1*",
+          "platforms": [
+            "iOS_A_7_1"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/711.0*",
+          "platforms": [
+            "iOS_A_8_0"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/711.1*",
+          "platforms": [
+            "iOS_A_8_1"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/711.2*",
+          "platforms": [
+            "iOS_A_8_2"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/711.3*",
+          "platforms": [
+            "iOS_A_8_3"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/711.4*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/711.5*",
+          "platforms": [
+            "iOS_A_8_4"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/758*",
+          "platforms": [
+            "iOS_A_9_0"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/808*",
+          "platforms": [
+            "iOS_A_10_0"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/887*",
+          "platforms": [
+            "iOS_A_11_0"
+          ]
+        },
+        {
+          "match": "Kenshoo/* CFNetwork/*",
+          "platforms": [
+            "iOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

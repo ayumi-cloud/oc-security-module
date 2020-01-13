@@ -1,0 +1,406 @@
+{
+  "division": "Google App",
+  "sortIndex": 900,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google App for Android",
+      "browser": "google app",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google App for Android"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F"
+          },
+          "platforms": [
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "Redmi Note 4": "Xiaomi Redmi Note 4"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "NEM-L51": "Huawei NEM-L51"
+          },
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "SM-A500F": "Samsung SM-A500F",
+            "SM-A500FU*": "Samsung SM-A500FU",
+            "SM-A500H": "Samsung SM-A500H",
+            "SM-A500M": "Samsung SM-A500M"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "ASUS_Z00AD": "Asus Z00AD"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337",
+            "SM-N900A": "Samsung SM-N900A"
+          },
+          "platforms": [
+            "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "ARK Benefit M2": "ARK Benefit M2",
+            "GT-I9300": "Samsung GT-I9300",
+            "HTC One mini 2": "HTC One Mini 2",
+            "HTC One mini": "HTC One Mini",
+            "HUAWEI P6-U06": "Huawei P6-U06",
+            "Lenovo A319": "Lenovo A319",
+            "Lenovo A328": "Lenovo A328",
+            "Lenovo A5000": "Lenovo A5000",
+            "Lenovo A536": "Lenovo A536",
+            "Lenovo A6000": "Lenovo A6000",
+            "MTC SMART Run": "MTC SMART Run"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "Nexus 9*": "HTC Nexus 9"
+          },
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "SM-G800A": "Samsung SM-G800A",
+            "SM-T705*": "Samsung SM-T705"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "A1-810": "Acer A1-810",
+            "GT-N8000": "Samsung GT-N8000",
+            "GT-P5210": "Samsung GT-P5210",
+            "Lenovo A3500-H": "Lenovo A3500-H",
+            "Lenovo A5500-H": "Lenovo A5500-H",
+            "Lenovo A7600-H": "Lenovo A7600-H",
+            "Micromax A106": "Micromax A106",
+            "SM-T230NU": "Samsung SM-T230NU",
+            "SM-T310": "Samsung SM-T310",
+            "SM-T530": "Samsung SM-T530"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Safari/* GSA/*",
+          "engine": "Blink",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "devices": {
+            "SM-N900A": "Samsung SM-N900A"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "devices": {
+            "Galaxy Nexus": "Samsung Galaxy Nexus",
+            "GT-I9505": "Samsung GT-I9505"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "devices": {
+            "GT-I9300": "Samsung GT-I9300"
+          },
+          "platforms": [
+            "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "devices": {
+            "ALCATEL ONE TOUCH 7047D": "Alcatel OT-7047D",
+            "GT-I8200N": "Samsung GT-I8200N",
+            "GT-I9060": "Samsung GT-I9060",
+            "GT-I9082": "Samsung GT-I9082",
+            "GT-I9105P": "Samsung GT-I9105P",
+            "GT-I9192": "Samsung GT-I9192",
+            "GT-I9195": "Samsung GT-I9195",
+            "GT-I9505": "Samsung GT-I9505",
+            "HTC One X+": "HTC PM63100",
+            "HTC One": "HTC M7",
+            "HUAWEI P6-U06": "Huawei P6-U06",
+            "Lenovo A369i": "Lenovo A369i",
+            "Lenovo A526": "Lenovo A526",
+            "Lenovo A5500-H": "Lenovo A5500-H",
+            "Lenovo A680_ROW": "Lenovo A680",
+            "Micromax A210": "Micromax A210",
+            "Micromax A74": "Micromax A74"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "devices": {
+            "ALCATEL ONE TOUCH 4030D": "Alcatel OT-4030D",
+            "ALCATEL ONE TOUCH 5020D": "Alcatel OT-5020D",
+            "DROID RAZR": "Motorola Razr",
+            "GT-I8160": "Samsung GT-I8160",
+            "GT-I8190": "Samsung GT-I8190",
+            "GT-I8262": "Samsung GT-I8262",
+            "GT-I9070": "Samsung GT-I9070",
+            "GT-I9100": "Samsung GT-I9100",
+            "GT-I9100G": "Samsung GT-I9100G",
+            "GT-S5310": "Samsung GT-S5310",
+            "GT-S6312": "Samsung GT-S6312",
+            "GT-S7710": "Samsung GT-S7710",
+            "HTC One S": "HTC PJ401",
+            "HUAWEI G525-U00": "Huawei G525-U00",
+            "HUAWEI Y300-0000": "Huawei Y300",
+            "LG-E430": "LG E430",
+            "LG-E440": "LG E440",
+            "LG-E460": "LG E460",
+            "LG-E612": "LG E612"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Mobile Safari/* GSA/*",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
+          "devices": {
+            "SM-T211*": "Samsung SM-T211"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
+          "devices": {
+            "ME302C": "Asus ME302C"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
+          "devices": {
+            "A1-810": "Acer A1-810",
+            "ASUS Transformer Pad TF300TG": "Asus TF300TG",
+            "GT-P3110": "Samsung GT-P3110",
+            "GT-P5110": "Samsung GT-P5110",
+            "GT-P5200": "Samsung GT-P5200",
+            "IdeaTab A3000-H": "Lenovo A3000-H",
+            "IdeaTab S6000-H": "Lenovo S6000-H",
+            "Lenovo A3000-H": "Lenovo A3000-H",
+            "ME173X": "Asus ME173X",
+            "ME302KL": "Asus ME302KL",
+            "MediaPad M1 8.0": "Huawei MediaPad M1 8.0",
+            "SM-T110": "Samsung SM-T110",
+            "SM-T111": "Samsung SM-T111"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
+          "devices": {
+            "GT-P3100": "Samsung GT-P3100",
+            "GT-P5100": "Samsung GT-P5100"
+          },
+          "platforms": [
+            "Android_4_2", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
+          "devices": {
+            "A211": "Acer A211",
+            "GT-N8000": "Samsung GT-N8000",
+            "GT-N8013": "Samsung GT-N8013",
+            "ME371MG": "Asus ME371MG",
+            "PadFone": "Asus PadFone"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Safari/* GSA/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Google App for iOS",
+      "browser": "google app",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google App for iOS"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) GSA/* Mobile/* Safari/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_13_0",
+            "iOS_A_12_4", "iOS_A_12_3", "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
+            "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
+            "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
+            "iOS_A_5_1", "iOS_A_5_0",
+            "iOS_A_4_3", "iOS_A_4_2", "iOS_A_4_1", "iOS_A_4_0",
+            "iOS_A_3_1", "iOS_A_3_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) GSA/* Mobile/* Safari/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "ipadOS_13_0",
+            "iOS_C_12_4", "iOS_C_12_3", "iOS_C_12_2", "iOS_C_12_1", "iOS_C_12_0",
+            "iOS_C_11_4", "iOS_C_11_3", "iOS_C_11_2", "iOS_C_11_1", "iOS_C_11_0",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_6_1", "iOS_C_6_0",
+            "iOS_C_5_1", "iOS_C_5_0",
+            "iOS_C_4_3", "iOS_C_4_2",
+            "iOS_C_3_2",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) GSA/* Mobile/* Safari/*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_A",
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

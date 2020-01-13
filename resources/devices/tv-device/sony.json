@@ -1,0 +1,134 @@
+{
+  "GoogleTV": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Google TV",
+      "Device_Code_Name": "Google TV",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony NSZ-GS7/GX70": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "NSZ-GS7/GX70",
+      "Device_Code_Name": "NSZ-GS7/GX70",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony Netbox": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Netbox",
+      "Device_Code_Name": "Netbox",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony PS2": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Playstation 2",
+      "Device_Code_Name": "PS2",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony PS3": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Playstation 3",
+      "Device_Code_Name": "PS3",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony PS4": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Playstation 4",
+      "Device_Code_Name": "PS4",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony Playstation": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Playstation",
+      "Device_Code_Name": "PS1",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony KD-43X8305C": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Bravia 4K 2015",
+      "Device_Code_Name": "KD-43X8305C",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony Bravia 2015": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Bravia 2015",
+      "Device_Code_Name": "Bravia 2015",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony Bravia 4K GB": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Bravia 4K GB",
+      "Device_Code_Name": "Bravia 4K GB",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony BDP9G AXD": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "BDP9G AXD",
+      "Device_Code_Name": "BDP9G AXD",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony KDL32CX525": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "KDL32CX525",
+      "Device_Code_Name": "KDL32CX525",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  }
+}

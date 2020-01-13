@@ -1,0 +1,237 @@
+{
+  "division": "IEMobile #MAJORVER#.#MINORVER#",
+  "versions": ["4.01"],
+  "sortIndex": 1726,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
+      "browser": "iemobile",
+      "platform": "WinCE",
+      "engine": "Trident_3_1",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IEMobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)",
+          "devices": {
+            "AUDIOVOX-SMT5600": "AUDIOVOX SMT5600"
+          }
+        },
+        {
+          "match": "#DEVICE#/4.21.1088/WAP1.2 Profile/MIDP2.0 Configuration/CLDC1.0/Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)",
+          "devices": {
+            "Dopod575": "Dopod 575",
+            "dopod586": "Dopod 586"
+          }
+        },
+        {
+          "match": "#DEVICE# Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
+          "devices": {
+            "BenQ P50": "BenQ P50"
+          }
+        },
+        {
+          "match": "#DEVICE# Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)",
+          "devices": {
+            "Dopod565": "Dopod 565",
+            "Dopod575": "Dopod 575"
+          }
+        },
+        {
+          "match": "#DEVICE#/5.1.195/WAP1.2 Profile/MIDP2.0 Configuration/CLDC1.0 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)",
+          "devices": {
+            "dopod710": "Dopod 710"
+          }
+        },
+        {
+          "match": "#DEVICE#/Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)*",
+          "devices": {
+            "Dopod577W": "Dopod 577W"
+          }
+        },
+        {
+          "match": "#DEVICE#/Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 240x320)*",
+          "devices": {
+            "Dopod577W": "Dopod 577W",
+            "Dopod595": "Dopod 595"
+          }
+        },
+        {
+          "match": "#DEVICE#/4.21.1088/WAP1.2 *?Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320)*",
+          "devices": {
+            "Dopod818": "Dopod 818"
+          }
+        },
+        {
+          "match": "#DEVICE#/4.21.1088/WAP1.2 Profile/MIDP2.0 Configuration/CLDC1.0 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320)",
+          "devices": {
+            "Dopod818": "Dopod 818"
+          }
+        },
+        {
+          "match": "Dopod818Pro/Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320; Dopod818 Pro)*",
+          "device": "Dopod 818 Pro"
+        },
+        {
+          "match": "#DEVICE# Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)*",
+          "devices": {
+            "Dopod838": "Dopod 838"
+          }
+        },
+        {
+          "match": "#DEVICE#/Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*; *)*",
+          "devices": {
+            "Dopod838Pro": "Dopod 838 Pro"
+          }
+        },
+        {
+          "match": "#DEVICE# Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*; *)",
+          "devices": {
+            "Dopod900": "Dopod 900"
+          }
+        },
+        {
+          "match": "#DEVICE#/Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
+          "devices": {
+            "DopodC700": "Dopod C700",
+            "DopodC720W": "Dopod C720W",
+            "DopodD810": "Dopod D810",
+            "DopodP800W": "Dopod P800W",
+            "DopodS301": "Dopod S301"
+          }
+        },
+        {
+          "match": "HPiPAQhw6900/1.0/Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)"
+        },
+        {
+          "match": "#DEVICE#/Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)*",
+          "devices": {
+            "DopodS300": "Dopod S300"
+          }
+        },
+        {
+          "match": "#DEVICE#-Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
+          "devices": {
+            "HTC_P3400": "HTC P3400"
+          }
+        },
+        {
+          "match": "#DEVICE#-Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC)",
+          "devices": {
+            "HTC_P4350": "HTC P4350"
+          }
+        },
+        {
+          "match": "#DEVICE# Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
+          "devices": {
+            "HTC_Touch2_T3333": "HTC T3333"
+          }
+        },
+        {
+          "match": "#DEVICE#/*/WAP2.0 */ (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
+          "devices": {
+            "LENOVO-ET980": "Lenovo ET980"
+          }
+        },
+        {
+          "match": "MIO8390/R41 Profile/MIDP-1.0 MIDP-2.0 Configuration/CLDC-1.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)"
+        },
+        {
+          "match": "#DEVICE#/1.0* Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
+          "devices": {
+            "MOT-MPx": "Motorola MPx"
+          }
+        },
+        {
+          "match": "#DEVICE#* (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE;*",
+          "devices": {
+            "MOT-MPx220": "Motorola MPx220"
+          }
+        },
+        {
+          "match": "#DEVICE#/* Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
+          "devices": {
+            "MOT-MPx220": "Motorola MPx220",
+            "MOT-MPx230": "Motorola MPx230",
+            "SAMSUNG-SGH-I607": "Samsung SGH-I607"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*"
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; #DEVICE#*",
+          "devices": {
+            "O2 Xda 2mini": "O2 Xda 2mini",
+            "O2 Xda 2s;": "O2 Xda 2s",
+            "O2 Xda II;": "O2 Xda II",
+            "O2 Xphone II": "O2 Xphone II",
+            "O2 Xphone": "O2 Xphone"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC*)"
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)*"
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; #DEVICE#*)",
+          "devices": {
+            "Xda neo": "O2 Xda neo"
+          }
+        },
+        {
+          "match": "Mozilla/4.0 #DEVICE# (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*",
+          "devices": {
+            "MPx": "Motorola MPx"
+          }
+        },
+        {
+          "match": "#DEVICE#/4.21.1088/WAP1.2 Profile/MIDP2.0 Configuration/CLDC1.0/Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
+          "devices": {
+            "dopod566": "Dopod 566"
+          }
+        },
+        {
+          "match": "#DEVICE#/4.21.1088/WAP1.2 Profile/MIDP2.0 Configuration/CLDC1.0?Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 176x220)",
+          "devices": {
+            "dopod566": "Dopod 566"
+          }
+        },
+        {
+          "match": "#DEVICE#/4.21.1088/WAP1.2 Profile/MIDP2.0 Configuration/CLDC1.0?Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; Smartphone; 240x320)",
+          "devices": {
+            "dopod566": "Dopod 566"
+          }
+        },
+        {
+          "match": "#DEVICE#/5.1.70/WAP1.2 Profile/MIDP2.0 Configuration/CLDC1.0 Mozilla/4.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE; PPC; 240x320)",
+          "devices": {
+            "dopod830": "Dopod 830"
+          }
+        },
+        {
+          "match": "#DEVICE#/5.1.65/WAP1.2 Profile/MIDP2.0 Configuration/CLDC1.0 (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
+          "devices": {
+            "dopod838": "Dopod 838"
+          }
+        },
+        {
+          "match": "#DEVICE#/ (*compatible*;*MSIE #MAJORVER#.#MINORVER#; Windows CE*)",
+          "devices": {
+            "htc900": "HTC 900"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "division": "AddThis.com robot",
+  "sortIndex": 500,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "AddThis.com robot",
+      "browser": "addthis.com robot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AddThis.com robot"
+      },
+      "children": [
+        {
+          "match": "AddThis.com*"
+        }
+      ]
+    }
+  ]
+}

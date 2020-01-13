@@ -1,0 +1,25 @@
+{
+  "division": "Tevion",
+  "sortIndex": 10800,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Tevion",
+      "browser": "tevion",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tevion",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "MDMP3000/1.0*"
+        }
+      ]
+    }
+  ]
+}

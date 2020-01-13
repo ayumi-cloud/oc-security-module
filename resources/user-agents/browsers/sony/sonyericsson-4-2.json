@@ -1,0 +1,48 @@
+{
+  "division": "SonyEricsson #MAJORVER#.#MINORVER#",
+  "versions": ["4.2"],
+  "sortIndex": 10670,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SonyEricsson #MAJORVER#.#MINORVER#",
+      "browser": "semc",
+      "platform": "SymbianOS",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SonyEricsson #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/* Browser/SEMC-Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SonyEricssonD750i": "SonyEricsson D750i",
+            "SonyEricssonK600": "SonyEricsson K600",
+            "SonyEricssonK600c": "SonyEricsson K600c",
+            "SonyEricssonK600i": "SonyEricsson K600i",
+            "SonyEricssonK608i": "SonyEricsson K608i",
+            "SonyEricssonk608i": "SonyEricsson K608i",
+            "SonyEricssonk750i": "SonyEricsson K750i",
+            "SonyEricssonK758c": "SonyEricsson K758c",
+            "SonyEricssonP900i": "SonyEricsson P900i",
+            "SonyEricssonV600i": "SonyEricsson V600i",
+            "SonyEricssonW700c": "SonyEricsson W700c",
+            "SonyEricssonW750i": "SonyEricsson W750i",
+            "SonyEricssonW800i": "SonyEricsson W800i",
+            "SonyEricssonw810i": "SonyEricsson W810i",
+            "SonyEricssonZ520c": "SonyEricsson Z520c",
+            "SonyEricssonZ520i": "SonyEricsson Z520i"
+          }
+        },
+        {
+          "match": "*/* Browser/SEMC-Browser/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

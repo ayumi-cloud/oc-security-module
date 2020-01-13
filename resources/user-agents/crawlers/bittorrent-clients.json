@@ -1,0 +1,78 @@
+{
+  "division": "BitTorrent Client",
+  "sortIndex": 260,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BitTorrent Client",
+      "browser": "bittorrent client",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BitTorrent Client"
+      },
+      "children": [
+        {
+          "match": "Azureus*",
+          "browser": "azureus"
+        },
+        {
+          "match": "BitComet/*",
+          "browser": "bitcomet"
+        },
+        {
+          "match": "BitTornado/*",
+          "browser": "bittornado"
+        },
+        {
+          "match": "BitTorrent/*",
+          "browser": "bittorrent"
+        },
+        {
+          "match": "BitTorrentMac/*",
+          "browser": "bittorrentmac"
+        },
+        {
+          "match": "BTSP/*",
+          "browser": "btsp"
+        },
+        {
+          "match": "Deluge*",
+          "browser": "deluge"
+        },
+        {
+          "match": "FDM*",
+          "browser": "fdm"
+        },
+        {
+          "match": "KTorrent/*",
+          "browser": "ktorrent"
+        },
+        {
+          "match": "libtorrent/*",
+          "browser": "libtorrent"
+        },
+        {
+          "match": "MediaGet*",
+          "browser": "mediaget"
+        },
+        {
+          "match": "rtorrent/*",
+          "browser": "rtorrent"
+        },
+        {
+          "match": "Transmission/*",
+          "browser": "transmission"
+        },
+        {
+          "match": "uTorrent/*",
+          "browser": "utorrent"
+        },
+        {
+          "match": "uTorrentMac/*",
+          "browser": "utorrentmac"
+        }
+      ]
+    }
+  ]
+}

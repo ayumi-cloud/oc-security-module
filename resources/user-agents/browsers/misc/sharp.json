@@ -1,0 +1,27 @@
+{
+  "division": "Sharp",
+  "sortIndex": 10900,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Sharp",
+      "browser": "sharp",
+      "platform": "SymbianOS",
+      "engine": "Gecko",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sharp",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (SH05C;FOMA;like Gecko)*",
+          "device": "Sharp SH-05C"
+        }
+      ]
+    }
+  ]
+}

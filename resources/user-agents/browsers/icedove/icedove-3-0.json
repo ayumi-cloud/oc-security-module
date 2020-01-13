@@ -1,0 +1,31 @@
+{
+  "division": "Icedove #MAJORVER#.#MINORVER#",
+  "versions": [3],
+  "sortIndex": 5401,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Icedove #MAJORVER#.#MINORVER#",
+      "browser": "icedove",
+      "platform": "Linux",
+      "engine": "Gecko_1_9_1",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Icedove #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Icedove/#MAJORVER#.*",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

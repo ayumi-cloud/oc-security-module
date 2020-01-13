@@ -1,0 +1,27 @@
+{
+  "division": "Exalead CloudView",
+  "sortIndex": 130,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Exalead CloudView",
+      "browser": "exalead cloudview",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Exalead CloudView"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; ExaleadCloudView/5*",
+          "properties": {
+            "Version": "5.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; ExaleadCloudView/*"
+        }
+      ]
+    }
+  ]
+}

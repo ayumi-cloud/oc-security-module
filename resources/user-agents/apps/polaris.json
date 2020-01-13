@@ -1,0 +1,101 @@
+{
+  "division": "Polaris",
+  "sortIndex": 1840,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Polaris",
+      "browser": "polaris",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Polaris"
+      },
+      "children": [
+        {
+          "match": "LG-* Polaris/5.* MMP/2.*",
+          "properties": {
+            "Version": "5.0"
+          }
+        },
+        {
+          "match": "LG-* Polaris/6.* MMP/2.*",
+          "properties": {
+            "Version": "6.0"
+          }
+        },
+        {
+          "match": "LG-* Polaris/7.* MMP/2.*",
+          "properties": {
+            "Version": "7.0"
+          }
+        },
+        {
+          "match": "Samsung-* Polaris/5.* MMP/2.*",
+          "properties": {
+            "Version": "5.0"
+          }
+        },
+        {
+          "match": "Samsung-* Polaris/6.* MMP/2.*",
+          "properties": {
+            "Version": "6.0"
+          }
+        },
+        {
+          "match": "Samsung-* Polaris/7.* MMP/2.*",
+          "properties": {
+            "Version": "7.0"
+          }
+        },
+        {
+          "match": "Mozilla/4.0(compatible;Polaris 6.2*;Brew 3.1*)/* #DEVICE#",
+          "devices": {
+            "LGE VX8575": "LG VX8575",
+            "Samsung SCH-U820": "Samsung SCH-U820"
+          },
+          "platforms": [
+            "Brew_3_1"
+          ],
+          "properties": {
+            "Version": "6.2"
+          }
+        },
+        {
+          "match": "Mozilla/4.0(compatible;Polaris 6.2*;Brew 3.1*)/*",
+          "platforms": [
+            "Brew_3_1"
+          ],
+          "properties": {
+            "Version": "6.2"
+          }
+        },
+        {
+          "match": "POLARIS/6.1 (BREW 3.1*)*",
+          "platforms": [
+            "Brew_3_1"
+          ],
+          "properties": {
+            "Version": "6.2"
+          }
+        },
+        {
+          "match": "#DEVICE#/* POLARIS/6.00 *",
+          "devices": {
+            "UTSTARCOM-GTX75": "UTStarcom GTX75"
+          },
+          "properties": {
+            "Version": "6.0"
+          }
+        },
+        {
+          "match": "* POLARIS/6.00 *",
+          "properties": {
+            "Version": "6.0"
+          }
+        }
+      ]
+    }
+  ]
+}

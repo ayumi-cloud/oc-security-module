@@ -1,0 +1,37 @@
+{
+  "division": "Firefox for FirefoxOS Generic",
+  "sortIndex": 3169,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Firefox for FirefoxOS Generic",
+      "browser": "firefox",
+      "platform": "FirefoxOS",
+      "engine": "Gecko",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Firefox for FirefoxOS Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Mobile; #DEVICE#; rv:*)*Gecko*Firefox/*",
+          "devices": {
+            "ALCATELOneTouch4012X*": "Alcatel OT-4012X",
+            "ALCATEL ONE TOUCH 4012A": "Alcatel OT-4012A",
+            "LG-D300": "LG D300",
+            "ZTEOPEN": "ZTE Open"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Mobile; *rv:*)*Gecko*Firefox/*"
+        },
+        {
+          "match": "Mozilla/5.0 (Tablet; *rv:*)*Gecko*Firefox/*",
+          "device": "general Tablet"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "division": "WordPress App",
+  "sortIndex": 312,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WordPress App",
+      "browser": "wordpress app",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WordPress App"
+      },
+      "children": [
+        {
+          "match": "wp-iphone/4.4 (#PLATFORM#, #DEVICE#) Mobile*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_K_8_0",
+            "iOS_K"
+          ],
+          "properties": {
+            "Version": "4.4"
+          }
+        },
+        {
+          "match": "wp-iphone/* (#PLATFORM#, #DEVICE#) Mobile*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_K_8_0",
+            "iOS_K"
+          ]
+        },
+        {
+          "match": "wp-iphone/4.4 (#PLATFORM#) Mobile*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_K_8_0",
+            "iOS_K"
+          ],
+          "properties": {
+            "Version": "4.4"
+          }
+        },
+        {
+          "match": "wp-iphone/* (#PLATFORM#) Mobile*",
+          "device": "general Mobile Device (Apple)",
+          "platforms": [
+            "iOS_K_8_0",
+            "iOS_K"
+          ]
+        },
+        {
+          "match": "wp-android/3.0* (#PLATFORM##DEVICE#/*",
+          "devices": {
+            "GT-N7100": "Samsung GT-N7100"
+          },
+          "platforms": [
+            "Android_H_4_4"
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "wp-android/* (#PLATFORM##DEVICE#/*",
+          "devices": {
+            "GT-N7100": "Samsung GT-N7100"
+          },
+          "platforms": [
+            "Android_H_4_4"
+          ]
+        },
+        {
+          "match": "wp-android/3.0* (#PLATFORM#",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_H_4_4",
+            "Android_H"
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "wp-android/* (#PLATFORM#",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_H_4_4",
+            "Android_H"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "division": "Installatron",
+  "sortIndex": 5151,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Installatron",
+      "browser": "installatron",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Installatron",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 applewebkit* (*khtml*like*gecko*) Version/6.0* Safari/* Installatron*",
+          "properties": {
+            "Version": "6.0"
+          }
+        }
+      ]
+    }
+  ]
+}

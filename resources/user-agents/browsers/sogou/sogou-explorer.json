@@ -1,0 +1,63 @@
+{
+  "division": "Sogou Explorer #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 1028,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Sogou Explorer #MAJORVER#.#MINORVER#",
+      "browser": "sogou explorer",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sogou Explorer #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* SE #MAJORVER#.*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "ChromeOS_ARM", "ChromeOS_x64", "ChromeOS",
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* SE #MAJORVER#.*",
+          "platforms": [
+            "Win10_64_B", "Win10_32_B",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_64", "WinXPb_32",
+            "WinXPa_64", "WinXPa_32",
+            "Win2000",
+            "NT4_1", "NT4",
+            "Win98_2",
+            "Win95_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* SE #MAJORVER#.*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* SE #MAJORVER#.*",
+          "device": "general Desktop",
+          "platforms": [
+            "FreeBSD"
+          ]
+        }
+      ]
+    }
+  ]
+}

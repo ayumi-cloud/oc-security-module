@@ -1,0 +1,27 @@
+{
+  "division": "GroupHigh Bot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "GroupHigh Bot",
+      "browser": "grouphigh bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "GroupHigh Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; GroupHigh/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; GroupHigh/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "division": "Cyberdog",
+  "sortIndex": 1185,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Cyberdog",
+      "browser": "cyberdog",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Cyberdog",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Cyberdog/2.0 (Macintosh; PPC)*",
+          "platforms": [
+            "MacPPC"
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Cyberdog/2.0 (Macintosh; 68k)*",
+          "platforms": [
+            "Mac68K"
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
+        }
+      ]
+    }
+  ]
+}

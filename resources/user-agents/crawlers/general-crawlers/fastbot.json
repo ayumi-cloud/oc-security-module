@@ -1,0 +1,34 @@
+{
+  "division": "fastbot crawler",
+  "sortIndex": 350,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "fastbot crawler",
+      "browser": "fastbot crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "fastbot crawler",
+        "Beta": true
+      },
+      "children": [
+        {
+          "match": "fastbot crawler beta 4.0*",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "fastbot crawler beta 2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "fastbot crawler beta*"
+        }
+      ]
+    }
+  ]
+}

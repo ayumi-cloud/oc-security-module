@@ -1,0 +1,21 @@
+{
+  "division": "Google Search Appliance",
+  "sortIndex": 1072,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google Search Appliance",
+      "browser": "google search appliance",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google Search Appliance"
+      },
+      "children": [
+        {
+          "match": "gsa-crawler*"
+        }
+      ]
+    }
+  ]
+}

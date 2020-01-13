@@ -1,0 +1,32 @@
+{
+  "division": "Dalvik #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 2210,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
+      "browser": "dalvik",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dalvik #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

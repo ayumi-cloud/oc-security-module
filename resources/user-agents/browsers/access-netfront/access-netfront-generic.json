@@ -1,0 +1,42 @@
+{
+  "division": "Access NetFront Generic",
+  "sortIndex": 1545,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NetFront Generic",
+      "browser": "netfront",
+      "engine": "NetFront",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Access NetFront Generic"
+      },
+      "children": [
+        {
+          "match": "SonyEricsson*/* Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/*Safari/*",
+          "device": "general Mobile Phone",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "Mozilla/4.0 (*) *NetFront/*"
+        },
+        {
+          "match": "Mozilla/4.0 (*NetFront/*)*"
+        },
+        {
+          "match": "SAMSUNG* *NetFront*"
+        },
+        {
+          "match": "SEC-* *NetFront/*"
+        },
+        {
+          "match": "*NetFront/*"
+        }
+      ]
+    }
+  ]
+}

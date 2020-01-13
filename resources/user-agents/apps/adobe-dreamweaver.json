@@ -1,0 +1,32 @@
+{
+  "division": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
+  "versions": [15, 14, 13, 12],
+  "sortIndex": 2061,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
+      "browser": "dreamweaver",
+      "platform": "Windows",
+      "engine": "WebKit",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Adobe Dreamweaver #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Dreamweaver/#MAJORVER#.#MINORVER#* Version/* Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}

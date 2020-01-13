@@ -1,0 +1,37 @@
+{
+  "division": "SonyEricsson #MAJORVER#.#MINORVER#",
+  "versions": ["4.1"],
+  "sortIndex": 10671,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SonyEricsson #MAJORVER#.#MINORVER#",
+      "browser": "semc",
+      "platform": "SymbianOS",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SonyEricsson #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/* Browser/SEMC-Browser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SonyEricssonV800": "SonyEricsson V800",
+            "SonyEricssonW980i": "SonyEricsson W980i",
+            "SonyEricssonZ800c": "SonyEricsson Z800c",
+            "SonyEricssonZ800i": "SonyEricsson Z800i",
+            "Vodafone/SonyEricssonV800": "SonyEricsson V800"
+          }
+        },
+        {
+          "match": "*/* Browser/SEMC-Browser/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

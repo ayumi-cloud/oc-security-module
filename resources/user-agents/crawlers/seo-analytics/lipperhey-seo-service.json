@@ -1,0 +1,38 @@
+{
+  "division": "Lipperhey SEO Service",
+  "sortIndex": 249,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Lipperhey SEO Service",
+      "browser": "lipperhey seo service",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Lipperhey SEO Service"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Lipperhey SEO Service*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Lipperhey Spider*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Lipperhey-Kaus-Australis/5.0*",
+          "browser": "lipperhey kaus australis",
+          "properties": {
+            "Version": "5.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Lipperhey-Kaus-Australis/*",
+          "browser": "lipperhey kaus australis"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Lipperhey*"
+        }
+      ]
+    }
+  ]
+}

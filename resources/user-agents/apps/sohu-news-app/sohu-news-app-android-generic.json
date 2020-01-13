@@ -1,0 +1,37 @@
+{
+  "division": "SohuNews App Generic for Android",
+  "sortIndex": 2061,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SohuNews App Generic for Android",
+      "browser": "sohunews app",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SohuNews App Generic for Android",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#ATH-AL00 Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SohuNews/*",
+          "device": "Huawei ATH-AL00",
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SohuNews/*",
+          "platforms": [
+            "Android_6_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

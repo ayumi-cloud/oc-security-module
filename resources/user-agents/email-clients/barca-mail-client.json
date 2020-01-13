@@ -1,0 +1,58 @@
+{
+  "division": "Barca Mail Client",
+  "sortIndex": 1670,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Barca Mail Client",
+      "browser": "barca mail client",
+      "platform": "Windows",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Barca Mail Client",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Barca/1.4*",
+          "properties": {
+            "Version": "1.4"
+          }
+        },
+        {
+          "match": "Barca/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Barca/2.8*",
+          "properties": {
+            "Version": "2.8"
+          }
+        },
+        {
+          "match": "Barca/*"
+        },
+        {
+          "match": "BarcaPro/2.8*",
+          "properties": {
+            "Version": "2.8"
+          }
+        },
+        {
+          "match": "BarcaPro/1.4*",
+          "properties": {
+            "Version": "1.4"
+          }
+        },
+        {
+          "match": "BarcaPro/*"
+        }
+      ]
+    }
+  ]
+}

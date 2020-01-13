@@ -1,0 +1,21 @@
+{
+  "division": "Tiny Tiny RSS Generic",
+  "sortIndex": 563,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Tiny Tiny RSS Generic",
+      "browser": "tiny tiny rss",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tiny Tiny RSS Generic"
+      },
+      "children": [
+        {
+          "match": "Tiny Tiny RSS/*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "division": "WinWAP",
+  "sortIndex": 11030,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WinWAP",
+      "browser": "winwap",
+      "device": "general Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WinWAP",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "WinWAP-PRO/3.1*",
+          "properties": {
+            "Version": "3.1"
+          }
+        },
+        {
+          "match": "WinWAP/3.*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "WinWAP*"
+        }
+      ]
+    }
+  ]
+}

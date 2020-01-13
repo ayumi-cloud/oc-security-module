@@ -1,0 +1,28 @@
+{
+  "division": "Qword Browser Generic",
+  "sortIndex": 884,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Qword Browser Generic",
+      "browser": "qword browser",
+      "platform": "Windows",
+      "engine": "WebKit",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Qword Browser Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Qword/* Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

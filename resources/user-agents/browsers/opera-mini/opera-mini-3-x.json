@@ -1,0 +1,65 @@
+{
+  "division": "Opera Mini #MAJORVER#.#MINORVER#",
+  "versions": ["3.1", 3],
+  "sortIndex": 1936,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera Mini #MAJORVER#.#MINORVER#",
+      "browser": "opera mini",
+      "engine": "Presto_2_2",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Mini #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Opera/*(BlackBerry*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "device": "Blackberry Blackberry",
+          "platforms": [
+            "RIMOS"
+          ]
+        },
+        {
+          "match": "Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        },
+        {
+          "match": "Opera/*(Series 60*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "Opera/*(Windows Mobile*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinMobile"
+          ]
+        },
+        {
+          "match": "Opera/*(*BREW*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Brew"
+          ]
+        },
+        {
+          "match": "Opera/*(*Bada*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Bada_1_0"
+          ]
+        },
+        {
+          "match": "* Opera/*(J2ME/MIDP*Opera Mini/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "JAVA"
+          ]
+        }
+      ]
+    }
+  ]
+}

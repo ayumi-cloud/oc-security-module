@@ -1,0 +1,319 @@
+{
+  "division": "Teleca-Obigo",
+  "sortIndex": 10775,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Teleca-Obigo",
+      "browser": "teleca-obigo",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Teleca-Obigo"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Teleca *; #PLATFORM#; U; *)*",
+          "platforms": [
+            "Brew_3_1", "Brew_3_0"
+          ]
+        },
+        {
+          "match": "AU-MIC*"
+        },
+        {
+          "match": "*MIC/WAP2.0*"
+        },
+        {
+          "match": "*Teleca/WAP2.0*"
+        },
+        {
+          "match": "*AU-MIC-*"
+        },
+        {
+          "match": "#DEVICE#/1.00 Mtk6219/V7-05A Release/1.1.2005 Browser/Teleca *",
+          "devices": {
+            "BIRD_D670": "BIRD D670"
+          }
+        },
+        {
+          "match": "*Obigo/WAP2.0*"
+        },
+        {
+          "match": "#DEVICE#/V100 Obigo/WAP2.0*",
+          "devices": {
+            "LG-GD350": "LG GD350"
+          }
+        },
+        {
+          "match": "*Teleca-Obigo*"
+        },
+        {
+          "match": "*AU.MIC/*"
+        },
+        {
+          "match": "*MIC/*"
+        },
+        {
+          "match": "*Teleca/*"
+        },
+        {
+          "match": "*Browser/Obigo*"
+        },
+        {
+          "match": "*ObigoInternetBrowser/2*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "*Obigo Browser 2*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "*Teleca-Obigo 2*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "*Browser/Obigo-Browser/3*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "*TelecaBrowser/4*",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "*Obigo/Q7*",
+          "properties": {
+            "Version": "7.0"
+          }
+        },
+        {
+          "match": "#DEVICE#/V100 Obigo/WAP2.0 *",
+          "devices": {
+            "LG-GB230": "LG GB230",
+            "LG-GM360": "LG GM360",
+            "LG-GM360i": "LG GM360i",
+            "LG-GS290": "LG GS290",
+            "LG-GT350": "LG GT350",
+            "LG-GW300FD": "LG GW300FD"
+          }
+        },
+        {
+          "match": "#DEVICE# Obigo/WAP2.0 *",
+          "devices": {
+            "LG-CU500": "LG CU500",
+            "LG-G922": "LG G922",
+            "LG-GX500/*": "LG GX500",
+            "LG-KM900/*": "LG KM900",
+            "LG-KP210": "LG KP210",
+            "LG-KU886": "LG KU886",
+            "LG-U8210/V080": "LG U8210"
+          }
+        },
+        {
+          "match": "#DEVICE#/V10a Obigo/WAP2.0 *",
+          "devices": {
+            "LG-GU230": "LG GU230"
+          }
+        },
+        {
+          "match": "#DEVICE# MIC/1.1*",
+          "devices": {
+            "LG-KE970": "LG KE970"
+          }
+        },
+        {
+          "match": "#DEVICE#/V09a Obigo/WAP2.0*",
+          "devices": {
+            "LG-KG220": "LG KG220"
+          }
+        },
+        {
+          "match": "#DEVICE# Obigo/WAP2.0*",
+          "devices": {
+            "LG-TU720": "LG TU720",
+            "MOT-EX112": "Motorola EX112"
+          }
+        },
+        {
+          "match": "#DEVICE# / Teleca-Obigo *",
+          "devices": {
+            "PHILIPS 535": "Philips 535"
+          }
+        },
+        {
+          "match": "AU-MIC/1.1*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "#DEVICE#/4.6 AU.MIC/1.1*",
+          "devices": {
+            "CODACOM C100": "Godacom C100"
+          },
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "#DEVICE# MIC/1.1*",
+          "devices": {
+            "LG-KG99": "LG KG99"
+          },
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "TSM-6/Teleca/1.1*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "AU-MIC/2.0 MMP/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "#DEVICE# MIC/WAP2.0*",
+          "devices": {
+            "LG-G1800": "LG G1800"
+          },
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Teleca *; #PLATFORM#",
+          "platforms": [
+            "Brew_3_1", "Brew_3_0"
+          ]
+        },
+        {
+          "match": "AU-MIC"
+        },
+        {
+          "match": "#DEVICE# MIC/WAP2.0 *",
+          "devices": {
+            "G5600": "LG G5600",
+            "LG-B2050": "LG B2050",
+            "LG-B2070": "LG B2070",
+            "LG-B2100": "LG B2100",
+            "LG-C1150": "LG C1150",
+            "LG-C1200": "LG C1200",
+            "LG-C2200": "LG C2200",
+            "LG-C2500": "LG C2500",
+            "LG-C3300": "LG C3300",
+            "LG-C3310": "LG C3310",
+            "LG-C3320": "LG C3320",
+            "LG-C3380": "LG C3380",
+            "LG-F2300": "LG F2300",
+            "LG-F2400": "LG F2400",
+            "LG-G262": "LG G262",
+            "LG-G832": "LG G832",
+            "LG-KG220": "LG KG220",
+            "LG-KG320": "LG KG320",
+            "LG-L3100": "LG L3100",
+            "LG-M4410": "LG M4410",
+            "LG-MG100a": "LG MG100a",
+            "LG-MG105": "LG MG105",
+            "LG-MG300D": "LG MG300D",
+            "LG-MG800": "LG MG800",
+            "LG-P7200": "LG P7200",
+            "LG-U8290": "LG U8290"
+          }
+        },
+        {
+          "match": "#DEVICE# MIC/WAP2.0*",
+          "devices": {
+            "LG-A7150": "LG A7150",
+            "LG-B2000": "LG B2000",
+            "LG-B2150": "LG B2150",
+            "LG-C1100": "LG C1100",
+            "LG-C3400": "LG C3400",
+            "LG-F2100": "LG F2100",
+            "LG-G5600": "LG G5600",
+            "LG-KG800": "LG KG800",
+            "LG-M6100": "LG M6100",
+            "LG-S5200": "LG S5200"
+          }
+        },
+        {
+          "match": "#DEVICE#/MIC/WAP2.0/*",
+          "devices": {
+            "LG-C2100": "LG C2100",
+            "LG-F2300": "LG F2300"
+          }
+        },
+        {
+          "match": "#DEVICE# MIC/V100/WAP2.0 *",
+          "devices": {
+            "LG-G688": "LG G688"
+          }
+        },
+        {
+          "match": "#DEVICE#/V100 Teleca/WAP2.0 *",
+          "devices": {
+            "LG-GD510": "LG GD510"
+          }
+        },
+        {
+          "match": "#DEVICE#/V10g Teleca/WAP2.0*",
+          "devices": {
+            "LG-GT365": "LG GT365"
+          }
+        },
+        {
+          "match": "#DEVICE# Teleca/WAP2.0 *",
+          "devices": {
+            "LG-KP500": "LG KP500"
+          }
+        },
+        {
+          "match": "#DEVICE#/V10i Teleca/WAP2.0 *",
+          "devices": {
+            "LG-KP500-Orange": "LG KP500"
+          }
+        },
+        {
+          "match": "#DEVICE#/V10b Teleca/WAP2.0*",
+          "devices": {
+            "LG-KS360": "LG KS360"
+          }
+        },
+        {
+          "match": "#DEVICE#/2.0 MMP/2.0 *",
+          "devices": {
+            "LG-LX150 AU-MIC-LX150": "LG LX150"
+          }
+        },
+        {
+          "match": "#DEVICE#/2.0 MMP/2.0 *",
+          "devices": {
+            "LG-LX350 AU-MIC-LX350": "LG LX350"
+          }
+        },
+        {
+          "match": "#DEVICE#/2.0 MMP/2.0 *",
+          "devices": {
+            "LG-LX550 AU-MIC-LX550": "LG LX550"
+          }
+        }
+      ]
+    }
+  ]
+}

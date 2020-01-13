@@ -1,0 +1,42 @@
+{
+  "division": "Nokia Browser #MAJORVER#.#MINORVER#",
+  "versions": ["8.3"],
+  "sortIndex": 1783,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Nokia Browser #MAJORVER#.#MINORVER#",
+      "browser": "nokia browser",
+      "platform": "SymbianOS",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Nokia)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Nokia Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (Symbian/*; Series60/* #DEVICE#/* applewebkit* (*khtml*like*gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "Nokia500": "Nokia 500",
+            "Nokia603": "Nokia 603",
+            "Nokia700": "Nokia 700",
+            "Nokia808PureView": "Nokia 808",
+            "NokiaC7-00": "Nokia C7-00",
+            "NokiaE7-00": "Nokia E7-00",
+            "NokiaN8-00": "Nokia N8-00",
+            "NokiaX7-00": "Nokia X7-00",
+            "VertuConstellationT": "Vertu ConstellationT"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Symbian/*; Series60/* applewebkit* (*khtml*like*gecko*) NokiaBrowser/#MAJORVER#.#MINORVER#*Safari/*"
+        }
+      ]
+    }
+  ]
+}

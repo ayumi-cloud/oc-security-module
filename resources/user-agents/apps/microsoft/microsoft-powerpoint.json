@@ -1,0 +1,79 @@
+{
+  "division": "Microsoft PowerPoint",
+  "sortIndex": 7181,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft PowerPoint",
+      "browser": "powerpoint",
+      "engine": "Trident",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft PowerPoint",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) PowerPoint/12.*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Version": "2007"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) PowerPoint/14.*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Version": "2010"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) PowerPoint/15.*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ],
+          "properties": {
+            "Version": "2013"
+          }
+        },
+        {
+          "match": "Microsoft Office/15.* (#PLATFORM#Microsoft PowerPoint 15.*)",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32"
+          ],
+          "properties": {
+            "Version": "2013"
+          }
+        },
+        {
+          "match": "Microsoft Office PowerPoint 2013 (15.*) #PLATFORM#",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32"
+          ],
+          "properties": {
+            "Version": "2013"
+          }
+        },
+        {
+          "match": "Microsoft Office PowerPoint 2013",
+          "device": "general Desktop",
+          "properties": {
+            "Version": "2013"
+          }
+        }
+      ]
+    }
+  ]
+}

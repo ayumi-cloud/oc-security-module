@@ -1,0 +1,35 @@
+{
+  "division": "WeTab-Browser",
+  "sortIndex": 1949,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WeTab-Browser",
+      "browser": "wetab browser",
+      "platform": "MeeGo",
+      "engine": "WebKit",
+      "device": "WeTab",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WeTab Browser",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) WeTab-Browser Safari/*",
+          "platforms": [
+            "MeeGo"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*) applewebkit* (*khtml*like*gecko*) WeTab-Browser Safari/*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        }
+      ]
+    }
+  ]
+}

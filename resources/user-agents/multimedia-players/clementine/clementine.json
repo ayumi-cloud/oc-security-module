@@ -1,0 +1,26 @@
+{
+  "division": "Clementine #MAJORVER#.#MINORVER#",
+  "versions": ["1.2"],
+  "sortIndex": 1531,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Clementine #MAJORVER#.#MINORVER#",
+      "browser": "clementine",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Clementine #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Clementine-qt5 #MAJORVER#.#MINORVER#*"
+        },
+        {
+          "match": "Clementine #MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

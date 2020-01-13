@@ -1,0 +1,43 @@
+{
+  "division": "Edge #MAJORVER#.#MINORVER# for iOS",
+  "versions": [44, 43, 42, 41],
+  "sortIndex": 1139,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Edge #MAJORVER#.#MINORVER# for iOS",
+      "browser": "edge",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Edge #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* EdgiOS/#MAJORVER#.* Mobile/* Safari/*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_13_0",
+            "iOS_A_12_4", "iOS_A_12_3", "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
+            "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
+            "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
+            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* EdgiOS/#MAJORVER#.* Mobile/* Safari/*",
+          "platforms": [
+            "iOS_A"
+          ]
+        }
+      ]
+    }
+  ]
+}

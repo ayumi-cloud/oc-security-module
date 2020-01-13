@@ -1,0 +1,206 @@
+{
+  "division": "IEMobile #MAJORVER#.#MINORVER#",
+  "versions": [11],
+  "sortIndex": 1713,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "IEMobile #MAJORVER#.#MINORVER#",
+      "browser": "iemobile",
+      "platform": "WinPhone8.1",
+      "engine": "Trident_7",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "IEMobile #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit/537.36 (*khtml*like*gecko*) Chrome*Safari*",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; #DEVICE#*",
+          "devices": {
+            "Microsoft; RM-1031": "Microsoft RM-1031",
+            "Microsoft; RM-1074": "Microsoft RM-1074",
+            "Microsoft; RM-1089": "Microsoft RM-1089",
+            "Microsoft; RM-1090": "Microsoft RM-1090",
+            "Microsoft; RM-1113": "Microsoft RM-1113",
+            "Microsoft;Lumia 535 Dual SIM": "Microsoft RM-1090",
+            "NOKIA; 909": "Nokia Lumia 1020",
+            "NOKIA; Lumia 520": "Nokia Lumia 520",
+            "NOKIA; Lumia 530": "Nokia Lumia 530",
+            "NOKIA; Lumia 620": "Nokia Lumia 620",
+            "NOKIA; Lumia 625": "Nokia Lumia 625",
+            "NOKIA; Lumia 630": "Nokia Lumia 630",
+            "NOKIA; Lumia 635": "Nokia Lumia 635",
+            "NOKIA; Lumia 730": "Nokia Lumia 730",
+            "NOKIA; Lumia 820": "Nokia Lumia 820",
+            "NOKIA; Lumia 920": "Nokia Lumia 920",
+            "NOKIA; Lumia 925": "Nokia Lumia 925",
+            "NOKIA; Lumia 928": "Nokia Lumia 928",
+            "NOKIA; Lumia 930": "Nokia Lumia 930",
+            "NOKIA; RM-994": "Nokia Lumia 1320 RM-994"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*; MSIE 10*; #PLATFORM# *Trident/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*; #DEVICE#) like Gecko*",
+          "devices": {
+            "NOKIA; Lumia 920": "Nokia Lumia 920"
+          },
+          "platforms": [
+            "WinPhone8"
+          ],
+          "properties": {
+            "Comment": "IEMobile #MAJORVER#.#MINORVER# in IEMobile 10.0 Compatibility Mode",
+            "Browser_Modus": "IEMobile 10.0 Compatibility Mode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/7.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*; MSIE 10*; #PLATFORM# *Trident/6.0; IEMobile?10*; ARM; Touch; rv:#MAJORVER#*) like Gecko*",
+          "platforms": [
+            "WinPhone8"
+          ],
+          "properties": {
+            "Comment": "IEMobile #MAJORVER#.#MINORVER# in IEMobile 10.0 Compatibility Mode",
+            "Browser_Modus": "IEMobile 10.0 Compatibility Mode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; #DEVICE#*",
+          "devices": {
+            "NOKIA; 909": "Nokia Lumia 1020",
+            "NOKIA; Lumia 1320": "Nokia Lumia 1320",
+            "NOKIA; Lumia 1520": "Nokia Lumia 1520",
+            "NOKIA; Lumia 520": "Nokia Lumia 520",
+            "NOKIA; Lumia 625": "Nokia Lumia 625",
+            "NOKIA; Lumia 630": "Nokia Lumia 630",
+            "NOKIA; Lumia 635": "Nokia Lumia 635",
+            "NOKIA; Lumia 720": "Nokia Lumia 720",
+            "NOKIA; Lumia 820": "Nokia Lumia 820",
+            "NOKIA; Lumia 920": "Nokia Lumia 920",
+            "NOKIA; Lumia 925": "Nokia Lumia 925"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; *",
+          "platforms": [
+            "WinPhone8.1"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#) like Android *; compatible) like iPhone OS * Mac OS X WebKit/537.36 (*khtml*like*gecko*) Chrome*Safari*",
+          "engine": "Trident_8",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; #DEVICE#*",
+          "engine": "Trident_8",
+          "devices": {
+            "Microsoft; Lumia 950 XL Dual SIM": "Microsoft Lumia 950 XL Dual SIM",
+            "NOKIA; 909": "Nokia Lumia 1020",
+            "NOKIA; Lumia 520": "Nokia Lumia 520",
+            "NOKIA; Lumia 530": "Nokia Lumia 530",
+            "NOKIA; Lumia 620": "Nokia Lumia 620",
+            "NOKIA; Lumia 625": "Nokia Lumia 625",
+            "NOKIA; Lumia 630": "Nokia Lumia 630",
+            "NOKIA; Lumia 635": "Nokia Lumia 635",
+            "NOKIA; Lumia 730": "Nokia Lumia 730",
+            "NOKIA; Lumia 820": "Nokia Lumia 820",
+            "NOKIA; Lumia 920": "Nokia Lumia 920",
+            "NOKIA; Lumia 925": "Nokia Lumia 925",
+            "NOKIA; Lumia 928": "Nokia Lumia 928",
+            "NOKIA; Lumia 930": "Nokia Lumia 930"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
+          "engine": "Trident_8",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "*Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#; #DEVICE#*",
+          "engine": "Trident_8",
+          "devices": {
+            "Microsoft; Lumia 950 XL Dual SIM": "Microsoft Lumia 950 XL Dual SIM"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "*Mozilla/5.0*(#PLATFORM#Trident/8.0*rv:#MAJORVER#*IEMobile?#MAJORVER#.#MINORVER#*",
+          "engine": "Trident_8",
+          "platforms": [
+            "WinPhone8.1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; #DEVICE#*",
+          "engine": "Trident_8",
+          "devices": {
+            "NOKIA; 909": "Nokia Lumia 1020",
+            "NOKIA; Lumia 1320": "Nokia Lumia 1320",
+            "NOKIA; Lumia 1520": "Nokia Lumia 1520",
+            "NOKIA; Lumia 520": "Nokia Lumia 520",
+            "NOKIA; Lumia 625": "Nokia Lumia 625",
+            "NOKIA; Lumia 630": "Nokia Lumia 630",
+            "NOKIA; Lumia 635": "Nokia Lumia 635",
+            "NOKIA; Lumia 720": "Nokia Lumia 720",
+            "NOKIA; Lumia 820": "Nokia Lumia 820",
+            "NOKIA; Lumia 920": "Nokia Lumia 920",
+            "NOKIA; Lumia 925": "Nokia Lumia 925"
+          },
+          "platforms": [
+            "WinPhone8.1"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT 6.2; ARM; Trident/8.0*rv:#MAJORVER#.#MINORVER#; WPDesktop; *",
+          "engine": "Trident_8",
+          "platforms": [
+            "WinPhone8.1"
+          ],
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        }
+      ]
+    }
+  ]
+}

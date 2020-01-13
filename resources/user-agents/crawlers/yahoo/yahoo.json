@@ -1,0 +1,132 @@
+{
+  "division": "Yahoo",
+  "sortIndex": 1310,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo",
+      "browser": "yahoo",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo"
+      },
+      "children": [
+        {
+          "match": "Mozilla/4.0 (compatible; Y!J; for robot study*)",
+          "browser": "y!j"
+        },
+        {
+          "match": "KDDI-CA33 UP.Browser/6.2* (compatible; Y!J-SRD/1.0; http://help.yahoo.co.jp/help/jp/search/indexing/indexing-27.html)",
+          "device": "KDDI CA33"
+        },
+        {
+          "match": "KDDI-HI21 UP.Browser/6.0* (compatible; Y!J-SRD/1.0; http://help.yahoo.co.jp/help/jp/search/indexing/indexing-27.html)"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; del.icio.us-thumbnails/*KHTML/* (like Gecko)"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; del.icio.us-thumbnails/*; *) KHTML/* (like Gecko)"
+        },
+        {
+          "match": "YahooCacheSystem*",
+          "browser": "yahoocachesystem"
+        },
+        {
+          "match": "Mozilla/5.0 (Yahoo-MMCrawler/4.*; mailto:vertical-crawl-support@yahoo-inc.com)",
+          "browser": "yahoo-mmcrawler",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Yahoo-MMCrawler/*; mailto:vertical-crawl-support@yahoo-inc.com)",
+          "browser": "yahoo-mmcrawler"
+        },
+        {
+          "match": "Mozilla/5.0 (Yahoo-Test/*)",
+          "browser": "yahoo-test"
+        },
+        {
+          "match": "Mozilla/5.0 (YahooYSMcm*)",
+          "browser": "yahooysmcm"
+        },
+        {
+          "match": "mp3Spider cn-search-devel at yahoo-inc dot com",
+          "browser": "yahoo! media"
+        },
+        {
+          "match": "My Browser",
+          "browser": "yahoo! my browser"
+        },
+        {
+          "match": "Scooter/3.3*",
+          "properties": {
+            "Version": "3.3"
+          }
+        },
+        {
+          "match": "Scooter*",
+          "browser": "scooter"
+        },
+        {
+          "match": "Y!OASIS*",
+          "browser": "y!oasis"
+        },
+        {
+          "match": "Yahoo Mindset",
+          "browser": "yahoo mindset"
+        },
+        {
+          "match": "Yahoo Pipes*",
+          "browser": "yahoo pipes"
+        },
+        {
+          "match": "Yahoo! Mindset",
+          "browser": "yahoo! mindset"
+        },
+        {
+          "match": "Yahoo-Blogs*",
+          "browser": "yahoo-blogs"
+        },
+        {
+          "match": "Yahoo-MMAudVid*",
+          "browser": "yahoo-mmaudvid"
+        },
+        {
+          "match": "Yahoo-MMCrawler*",
+          "browser": "yahoo-mmcrawler"
+        },
+        {
+          "match": "YahooExternalCache",
+          "browser": "yahooexternalcache"
+        },
+        {
+          "match": "YahooVideoSearch*",
+          "browser": "yahoovideosearch"
+        },
+        {
+          "match": "YahooYSMcm*",
+          "browser": "yahooysmcm"
+        },
+        {
+          "match": "YRL_ODP_CRAWLER",
+          "browser": "yrl_odp_crawler"
+        },
+        {
+          "match": "Yahoo:LinkExpander:Slingstone",
+          "browser": "yahoo slingstone"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Yahoo Ad monitoring*",
+          "browser": "yahoo ad monitoring"
+        },
+        {
+          "match": "Mozilla/5.0 (*OS * like Mac OS X) * (compatible; Yahoo Ad monitoring; https://help.yahoo.com*",
+          "browser": "yahoo ad monitoring"
+        }
+      ]
+    }
+  ]
+}

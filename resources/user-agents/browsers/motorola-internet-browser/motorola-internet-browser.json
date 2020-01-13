@@ -1,0 +1,53 @@
+{
+  "division": "Motorola Internet Browser",
+  "sortIndex": 7355,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Motorola Internet Browser",
+      "browser": "motorola internet browser",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Motorola Internet Browser"
+      },
+      "children": [
+        {
+          "match": "#DEVICE#/* MIB/*",
+          "devices": {
+            "MOT-L6": "Motorola L6",
+            "MOT-L7": "Motorola L7",
+            "MOT-TA02": "Motorola TA02",
+            "MOT-V3": "Motorola V3"
+          }
+        },
+        {
+          "match": "MOT-MP*/* Mozilla/* (compatible; MSIE *; Windows CE; *)",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "MOT-MP*/* Mozilla/4.0 (compatible; MSIE *; Windows CE; *)",
+          "platforms": [
+            "WinCE"
+          ]
+        },
+        {
+          "match": "#DEVICE#/*",
+          "devices": {
+            "MOT-A760": "Motorola A760",
+            "MOT-C168i": "Motorola C168i"
+          }
+        },
+        {
+          "match": "#DEVICE#/ WAP.Browser/*",
+          "devices": {
+            "MOT-C168": "Motorola C168"
+          }
+        }
+      ]
+    }
+  ]
+}

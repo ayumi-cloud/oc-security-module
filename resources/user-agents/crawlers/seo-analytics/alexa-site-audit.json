@@ -1,0 +1,27 @@
+{
+  "division": "Alexa Site Audit",
+  "sortIndex": 249,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Alexa Site Audit",
+      "browser": "alexa site audit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Alexa Site Audit"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; alexa site audit/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; alexa site audit/*"
+        }
+      ]
+    }
+  ]
+}

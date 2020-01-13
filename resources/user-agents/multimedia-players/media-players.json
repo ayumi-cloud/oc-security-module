@@ -1,0 +1,420 @@
+{
+  "division": "Media Players",
+  "sortIndex": 1530,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Media Players",
+      "browser": "media players",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Media Players"
+      },
+      "children": [
+        {
+          "match": "Microsoft NetShow(TM) Player with RealVideo(R)",
+          "browser": "microsoft netshow"
+        },
+        {
+          "match": "RMA/*",
+          "browser": "rma"
+        },
+        {
+          "match": "vobsub",
+          "browser": "vobsub"
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; U; en-us; BeyondPod 4*",
+          "browser": "beyondpod",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; U; en-us; BeyondPod*",
+          "browser": "beyondpod",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Pocket Casts*",
+          "browser": "pocket casts"
+        },
+        {
+          "match": "Shifty Jelly Pocket Casts*",
+          "browser": "pocket casts"
+        },
+        {
+          "match": "Player/LG Player 1.0 for #PLATFORM# (stagefright alternative*Pocket Casts*",
+          "browser": "pocket casts",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_H_4_4",
+            "Android_H"
+          ]
+        },
+        {
+          "match": "Player/LG Player * for #PLATFORM# (stagefright alternative*Pocket Casts*",
+          "browser": "pocket casts",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_H_4_4",
+            "Android_H"
+          ]
+        },
+        {
+          "match": "PocketTunes/5.5*",
+          "browser": "pockettunes",
+          "properties": {
+            "Version": "5.5"
+          }
+        },
+        {
+          "match": "PocketTunes/*",
+          "browser": "pockettunes"
+        },
+        {
+          "match": "Overcast/2.0*",
+          "browser": "overcast",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Overcast/1.0*",
+          "browser": "overcast",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Overcast/*",
+          "browser": "overcast"
+        },
+        {
+          "match": "ExoPlayerDemo/4.11* (Linux;Android*",
+          "browser": "exoplayerdemo",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Version": "4.11"
+          }
+        },
+        {
+          "match": "ExoPlayerDemo/* (Linux;Android*",
+          "browser": "exoplayerdemo",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Radio/1.0* (Linux;Android*",
+          "browser": "radio",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Radio/* (Linux;Android*",
+          "browser": "radio",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "Podkicker Pro/2.2*",
+          "browser": "podkicker pro",
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "Podkicker Pro/*",
+          "browser": "podkicker pro"
+        },
+        {
+          "match": "Podkicker Classic/1.2*",
+          "browser": "podkicker classic",
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "Podkicker Classic/*",
+          "browser": "podkicker classic"
+        },
+        {
+          "match": "Podkicker/2.2*",
+          "browser": "podkicker",
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "Podkicker/*",
+          "browser": "podkicker"
+        },
+        {
+          "match": "HTC Streaming Player*",
+          "browser": "streaming player",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "bPod*",
+          "browser": "bpod"
+        },
+        {
+          "match": "foobar2000/1.2*",
+          "browser": "foobar2000",
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "foobar2000/1.1*",
+          "browser": "foobar2000",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "foobar2000/*",
+          "browser": "foobar2000"
+        },
+        {
+          "match": "gPodder/3.7*",
+          "browser": "gpodder",
+          "properties": {
+            "Version": "3.7"
+          }
+        },
+        {
+          "match": "gPodder/*",
+          "browser": "gpodder"
+        },
+        {
+          "match": "jPodder v 1.1*",
+          "browser": "jpodder",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "jPodder*",
+          "browser": "jpodder"
+        },
+        {
+          "match": "iPodder/2.1*",
+          "browser": "ipodder",
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "iPodder/*",
+          "browser": "ipodder"
+        },
+        {
+          "match": "BashPodder*",
+          "browser": "bashpodder"
+        },
+        {
+          "match": "massyn.net philpodder/1.6*",
+          "browser": "philpodder",
+          "properties": {
+            "Version": "1.6"
+          }
+        },
+        {
+          "match": "massyn.net philpodder/*",
+          "browser": "philpodder"
+        },
+        {
+          "match": "Juice/2.2*",
+          "browser": "juice",
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "Juice/*",
+          "browser": "juice"
+        },
+        {
+          "match": "MediaGo/3.0* (#PLATFORM#)*",
+          "browser": "mediago",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32"
+          ],
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "MediaGo/3.0*",
+          "browser": "mediago",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "MediaGo*",
+          "browser": "mediago"
+        },
+        {
+          "match": "MediaMonkey 4.1*",
+          "browser": "mediamonkey",
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "MediaMonkey*",
+          "browser": "mediamonkey"
+        },
+        {
+          "match": "VOX Music Player*",
+          "browser": "vox music player"
+        },
+        {
+          "match": "Doppler 2.9*",
+          "browser": "doppler",
+          "properties": {
+            "Version": "2.9"
+          }
+        },
+        {
+          "match": "Doppler*",
+          "browser": "doppler"
+        },
+        {
+          "match": "GoldenPod/0.8*",
+          "browser": "goldenpod",
+          "properties": {
+            "Version": "0.8"
+          }
+        },
+        {
+          "match": "GoldenPod/*",
+          "browser": "goldenpod"
+        },
+        {
+          "match": "Replay AV*",
+          "browser": "replay"
+        },
+        {
+          "match": "Peapod/1.0*",
+          "browser": "peapod",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Peapod/*",
+          "browser": "peapod"
+        },
+        {
+          "match": "podracer v1.4*",
+          "browser": "podracer",
+          "properties": {
+            "Version": "1.4"
+          }
+        },
+        {
+          "match": "podracer*",
+          "browser": "podracer"
+        },
+        {
+          "match": "Kinoma5*",
+          "browser": "kinoma",
+          "properties": {
+            "Version": "5.0"
+          }
+        },
+        {
+          "match": "Kinoma*",
+          "browser": "kinoma"
+        },
+        {
+          "match": "QuickNews/1.25*",
+          "browser": "quicknews",
+          "properties": {
+            "Version": "1.25"
+          }
+        },
+        {
+          "match": "QuickNews/*",
+          "browser": "quicknews"
+        },
+        {
+          "match": "DoggCatcher/1.2*",
+          "browser": "doggcatcher",
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "DoggCatcher/*",
+          "browser": "doggcatcher"
+        },
+        {
+          "match": "Mozilla/5.0 (Linux; U; Windows NT*) DoggCatcher*",
+          "browser": "doggcatcher"
+        },
+        {
+          "match": "Pandora/*",
+          "browser": "pandora"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* Pandora/*",
+          "browser": "pandora",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; poddirectory/2.1*",
+          "browser": "poddirectory",
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; poddirectory/*",
+          "browser": "poddirectory"
+        },
+        {
+          "match": "Karadio/*",
+          "browser": "ka-radio"
+        },
+        {
+          "match": "AvsDeviceSdk/*",
+          "browser": "avs-device-sdk"
+        },
+        {
+          "match": "Echo/*",
+          "browser": "alexa"
+        }
+      ]
+    }
+  ]
+}

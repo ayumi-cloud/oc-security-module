@@ -1,0 +1,87 @@
+{
+  "division": "cURL",
+  "sortIndex": 950,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "cURL",
+      "browser": "curl",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "cURL"
+      },
+      "children": [
+        {
+          "match": "curl/7.54*",
+          "properties": {
+            "Version": "7.54"
+          }
+        },
+        {
+          "match": "curl/7.35*",
+          "properties": {
+            "Version": "7.35"
+          }
+        },
+        {
+          "match": "curl/7.29*",
+          "properties": {
+            "Version": "7.29"
+          }
+        },
+        {
+          "match": "curl/7.19#PLATFORM#",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64_B", "Linux"
+          ],
+          "properties": {
+            "Version": "7.19"
+          }
+        },
+        {
+          "match": "curl/7.19",
+          "properties": {
+            "Version": "7.19"
+          }
+        },
+        {
+          "match": "curl/7.15#PLATFORM#",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64_B", "Linux"
+          ],
+          "properties": {
+            "Version": "7.15"
+          }
+        },
+        {
+          "match": "curl/7.15",
+          "properties": {
+            "Version": "7.15"
+          }
+        },
+        {
+          "match": "curl*"
+        },
+        {
+          "match": "*WinHttpRequest*",
+          "browser": "winhttp"
+        },
+        {
+          "match": "WinHTTP*",
+          "browser": "winhttp"
+        },
+        {
+          "match": "WinHttp*",
+          "browser": "winhttp"
+        },
+        {
+          "match": "TrendWinHttp*",
+          "browser": "trendwinhttp"
+        }
+      ]
+    }
+  ]
+}

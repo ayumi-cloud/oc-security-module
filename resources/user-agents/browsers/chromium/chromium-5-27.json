@@ -1,0 +1,62 @@
+{
+  "division": "Chromium #MAJORVER#.#MINORVER#",
+  "versions": [27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5],
+  "sortIndex": 881,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Chromium #MAJORVER#.#MINORVER#",
+      "browser": "chromium",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Chromium #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (SMART-TV#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chromium/#MAJORVER#.*Chrome/*Safari/*",
+          "device": "Samsung Smart-TV",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux i686*) applewebkit* (*khtml*like*gecko*)#PLATFORM#Chromium/#MAJORVER#.*Chrome/*Safari/*",
+          "platforms": [
+            "Ubuntu_12_04",
+            "Ubuntu_11_10"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux x86_64*) applewebkit* (*khtml*like*gecko*)#PLATFORM#Chromium/#MAJORVER#.*Chrome/*Safari/*",
+          "platforms": [
+            "Ubuntu_12_04_64"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux i686*) applewebkit* (*khtml*like*gecko*) Ubuntu* Chromium/#MAJORVER#.*Chrome/*Safari/*",
+          "platforms": [
+            "Ubuntu"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux x86_64*) applewebkit* (*khtml*like*gecko*) Ubuntu* Chromium/#MAJORVER#.*Chrome/*Safari/*",
+          "platforms": [
+            "Ubuntu_64"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chromium/#MAJORVER#.*Chrome/*Safari/*",
+          "platforms": [
+            "Ubuntu_64", "Ubuntu",
+            "Linux_64", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

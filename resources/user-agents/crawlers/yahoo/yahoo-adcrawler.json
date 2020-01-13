@@ -1,0 +1,22 @@
+{
+  "division": "Yahoo AdCrawler",
+  "sortIndex": 1330,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Yahoo AdCrawler",
+      "browser": "yahoo!-adcrawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yahoo!-AdCrawler"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Yahoo!-AdCrawler;*http://help.yahoo.com/yahoo_adcrawler)",
+          "browser": "yahoo!-adcrawler"
+        }
+      ]
+    }
+  ]
+}

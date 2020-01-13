@@ -1,0 +1,38 @@
+{
+  "division": "Clipish",
+  "sortIndex": 3250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Clipish",
+      "browser": "clipish",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Clipish",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Clipish/9.26* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "9.26"
+          }
+        },
+        {
+          "match": "Clipish/* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

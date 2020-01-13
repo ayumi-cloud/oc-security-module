@@ -1,0 +1,149 @@
+{
+  "division": "Yandex",
+  "sortIndex": 60,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Yandex",
+      "browser": "yandex",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Yandex"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; YandexAddurl/*",
+          "browser": "yandexaddurl"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexBlogs/*)",
+          "browser": "yandexblogs"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexBot/*; MirrorDetector*)",
+          "browser": "yandex mirrordetector"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexCatalog/*",
+          "browser": "yandexcatalog"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexDirect/*",
+          "browser": "yandexdirect-dyatel"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexFavicons/*",
+          "browser": "yandexfavicons"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexImageResizer/*",
+          "browser": "yandeximageresizer"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexImages/*",
+          "browser": "yandeximages"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexMedia/*",
+          "browser": "yandexmedia"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexMetrika/*",
+          "browser": "yandexmetrika"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexNews/*",
+          "browser": "yandexnews"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexNewslinks/*",
+          "browser": "yandexnews"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexVideo/*",
+          "browser": "yandexvideo"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexVideoParser/*",
+          "browser": "yandexvideoparser"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexWebmaster/*)",
+          "browser": "yandexwebmaster"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexZakladki/*)",
+          "browser": "yandexzakladki"
+        },
+        {
+          "match": "Yandex/1.01.001 (compatible; Win16; *)",
+          "browser": "yandex"
+        },
+        {
+          "match": "Mozilla/4.0 (*compatible*;*MSIE 5.0; YANDEX)"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexBot/*; MirrorDetector)"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexZakladki/*; Dyatel; +http://yandex.com/bots)"
+        },
+        {
+          "match": "YaDirectBot/*"
+        },
+        {
+          "match": "Yandex/*"
+        },
+        {
+          "match": "YandexSomething/*"
+        },
+        {
+          "match": "*http://yandex.com/bots*"
+        },
+        {
+          "match": "Mozilla/5.0 (Windows; ?; Windows NT 5.2; en-US; rv:1.9) Gecko VisualParser/3.0",
+          "platforms": [
+            "WinXPb_32"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; YandexScreenshotBot/*",
+          "browser": "yandexscreenshotbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexAccessibilityBot/*",
+          "browser": "yandexaccessibilitybot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexDirectDyn/*",
+          "browser": "yandexdynamicbannerbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexPagechecker/*",
+          "browser": "yandexpagechecker"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YaDirectFetcher/*",
+          "browser": "yandexdirectfetcher"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexCalendar/*",
+          "browser": "yandexcalendarbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexSitelinks*",
+          "browser": "yandexsitelinksbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; YandexVertis/*",
+          "browser": "yandexvertisbot"
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT *) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Yandex.Translate",
+          "browser": "yandex translate bot"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "cURL PHP",
+  "sortIndex": 2020,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "cURL PHP",
+      "browser": "curl php",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "cURL PHP"
+      },
+      "children": [
+        {
+          "match": "Curl/PHP 5.4*",
+          "properties": {
+            "Version": "5.4"
+          }
+        },
+        {
+          "match": "Curl/PHP*"
+        }
+      ]
+    }
+  ]
+}

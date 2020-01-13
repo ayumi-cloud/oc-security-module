@@ -1,0 +1,56 @@
+{
+  "division": "Iceweasel #MAJORVER#.#MINORVER#",
+  "versions": [2],
+  "sortIndex": 3155,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Iceweasel #MAJORVER#.#MINORVER#",
+      "browser": "iceweasel",
+      "engine": "Gecko_1_8",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Iceweasel #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Iceweasel/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Iceweasel/#MAJORVER#.#MINORVER#* Firefox/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Iceweasel/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_32_on_x64_2", "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Iceweasel/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_1_64", "Win8_1_32",
+            "Win8_64", "Win8_32",
+            "Win7_x64_2", "Win7_64", "Win7_32",
+            "Vista_x64_2", "Vista_32",
+            "WinXPb_x64_2", "WinXPb_32",
+            "WinXPa_x64_2", "WinXPa_32",
+            "Win2000"
+          ]
+        }
+      ]
+    }
+  ]
+}

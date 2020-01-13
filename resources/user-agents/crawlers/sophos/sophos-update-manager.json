@@ -1,0 +1,27 @@
+{
+  "division": "SophosUpdateManager",
+  "sortIndex": 520,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SophosUpdateManager",
+      "browser": "sophosupdatemanager",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SophosUpdateManager"
+      },
+      "children": [
+        {
+          "match": "SophosUpdateManager/1.5.*",
+          "properties": {
+            "Version": "1.5"
+          }
+        },
+        {
+          "match": "SophosUpdateManager/*"
+        }
+      ]
+    }
+  ]
+}

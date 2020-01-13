@@ -1,0 +1,27 @@
+{
+  "division": "Photon",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Photon",
+      "browser": "photon",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Photon"
+      },
+      "children": [
+        {
+          "match": "Photon/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Photon/*"
+        }
+      ]
+    }
+  ]
+}

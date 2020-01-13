@@ -1,0 +1,27 @@
+{
+  "division": "Ilse",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Ilse",
+      "browser": "ilse",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Ilse"
+      },
+      "children": [
+        {
+          "match": "IlseBot/*"
+        },
+        {
+          "match": "INGRID/*"
+        },
+        {
+          "match": "Mozilla/3.0 (INGRID/*"
+        }
+      ]
+    }
+  ]
+}

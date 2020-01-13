@@ -1,0 +1,42 @@
+{
+  "division": "Dalvik #MAJORVER#.#MINORVER#",
+  "versions": ["1.1"],
+  "sortIndex": 2215,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Dalvik #MAJORVER#.#MINORVER#",
+      "browser": "dalvik",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dalvik #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "Garmin-Asus A50": "Garmin-Asus A50",
+            "MB525": "Motorola MB525",
+            "Milestone": "Motorola Milestone",
+            "X10i": "SonyEricsson X10i"
+          },
+          "platforms": [
+            "Android_2_1"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM#",
+          "platforms": [
+            "Android_2_1",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

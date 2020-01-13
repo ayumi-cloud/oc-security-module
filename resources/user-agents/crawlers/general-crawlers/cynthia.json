@@ -1,0 +1,27 @@
+{
+  "division": "Cynthia",
+  "sortIndex": 190,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Cynthia",
+      "browser": "cynthia",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "General Crawlers"
+      },
+      "children": [
+        {
+          "match": "Cynthia 1.*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Cynthia *"
+        }
+      ]
+    }
+  ]
+}

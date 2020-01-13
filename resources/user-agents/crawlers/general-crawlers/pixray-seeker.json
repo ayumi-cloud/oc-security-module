@@ -1,0 +1,39 @@
+{
+  "division": "Pixray-Seeker",
+  "sortIndex": 910,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Pixray-Seeker",
+      "browser": "pixray-seeker",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pixray-Seeker"
+      },
+      "children": [
+        {
+          "match": "Pixray-Seeker/1.1*",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "Pixray-Seeker/1.*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Pixray-Seeker/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Pixray-Seeker/*"
+        }
+      ]
+    }
+  ]
+}

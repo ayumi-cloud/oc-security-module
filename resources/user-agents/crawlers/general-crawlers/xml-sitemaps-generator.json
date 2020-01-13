@@ -1,0 +1,32 @@
+{
+  "division": "XML Sitemaps Generator",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "XML Sitemaps Generator",
+      "browser": "xml sitemaps generator",
+      "engine": "Gecko",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "XML Sitemaps Generator"
+      },
+      "children": [
+        {
+          "match": "XML Sitemaps Generator*",
+          "engine": "unknown"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; XML Sitemaps Generator; *) Gecko XML-Sitemaps/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; XML Sitemaps Generator; *) Gecko XML-Sitemaps/*"
+        }
+      ]
+    }
+  ]
+}

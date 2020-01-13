@@ -1,0 +1,36 @@
+{
+  "division": "SetLinks.ru Crawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SetLinks.ru Crawler",
+      "browser": "setlinks.ru crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SetLinks.ru Crawler"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; SetLinks bot 1.2*",
+          "properties": {
+            "Version": "1.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SetLinks bot *"
+        },
+        {
+          "match": "SetLinks bot 1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "SetLinks bot *"
+        }
+      ]
+    }
+  ]
+}

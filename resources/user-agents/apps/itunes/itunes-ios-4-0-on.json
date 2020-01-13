@@ -1,0 +1,36 @@
+{
+  "division": "iTunes #MAJORVER#.#MINORVER# for iOS",
+  "versions": ["6.1", 6, "5.1", 5, "4.2", "4.1", 4],
+  "sortIndex": 6360,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "iTunes #MAJORVER#.#MINORVER# for iOS",
+      "browser": "itunes",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iTunes #MAJORVER#.#MINORVER# for iOS",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "iTunes-#DEVICE#/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPad*": "iPad",
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          }
+        },
+        {
+          "match": "iTunes-*/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

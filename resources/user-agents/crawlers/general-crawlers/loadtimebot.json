@@ -1,0 +1,39 @@
+{
+  "division": "LoadTimeBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "LoadTimeBot",
+      "browser": "loadtimebot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LoadTimeBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; LoadTimeBot/0.7*",
+          "properties": {
+            "Version": "0.7"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; LoadTimeBot/0.8*",
+          "properties": {
+            "Version": "0.8"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; LoadTimeBot/0.9*",
+          "properties": {
+            "Version": "0.9"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; LoadTimeBot/*"
+        }
+      ]
+    }
+  ]
+}

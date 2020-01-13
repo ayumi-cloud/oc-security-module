@@ -1,0 +1,35 @@
+{
+  "division": "Amoi",
+  "sortIndex": 2060,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Amoi",
+      "browser": "amoi",
+      "platform": "JAVA",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Amoi"
+      },
+      "children": [
+        {
+          "match": "AMOI/R1A"
+        },
+        {
+          "match": "Amoi-A869/Plat-V-FT/WAP2.0/MIDP2.0/CLDC1.0"
+        },
+        {
+          "match": "Amoi-H9/Plat-EMP/WAP2.0/MIDP2.0/CLDC1.0"
+        },
+        {
+          "match": "Amoi-M6/Plat-EMP/WAP2.0/MIDP2.0/CLDC1.0"
+        },
+        {
+          "match": "Amoi-M8/Plat-EMP/WAP2.0/MIDP2.0/CLDC1.0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "division": "Tiny Tiny RSS #MAJORVER#.#MINORVER#",
+  "versions": ["1.13", "1.12", "1.11", "1.10", "1.9", "1.8", "1.7"],
+  "sortIndex": 562,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Tiny Tiny RSS #MAJORVER#.#MINORVER#",
+      "browser": "tiny tiny rss",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tiny Tiny RSS #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Tiny Tiny RSS/#MAJORVER#.#MINORVER#*"
+        }
+      ]
+    }
+  ]
+}

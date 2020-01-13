@@ -1,0 +1,29 @@
+{
+  "division": "Tweetbot",
+  "sortIndex": 10850,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Tweetbot",
+      "browser": "tweetbot",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Tweetbot is a full-featured Twitter app",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Tweetbot/* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

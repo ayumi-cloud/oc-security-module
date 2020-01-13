@@ -1,0 +1,24 @@
+{
+  "division": "CMUV DVBViewer",
+  "sortIndex": 10620,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "CMUV DVBViewer",
+      "browser": "cmuv dvbviewer",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "CMUV DVBViewer",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "DVBViewer/TV HbbTV/*CMUV;DVBViewer*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "lbot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "lbot",
+      "browser": "lbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "lbot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (lbot/2.6*",
+          "properties": {
+            "Version": "2.6"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (lbot/*"
+        }
+      ]
+    }
+  ]
+}

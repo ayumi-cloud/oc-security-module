@@ -1,0 +1,30 @@
+{
+  "division": "Sosospider",
+  "sortIndex": 250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Sosospider",
+      "browser": "sosospider",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Sosospider"
+      },
+      "children": [
+        {
+          "match": "Sosospider*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Sosospider/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Sosospider/*"
+        }
+      ]
+    }
+  ]
+}

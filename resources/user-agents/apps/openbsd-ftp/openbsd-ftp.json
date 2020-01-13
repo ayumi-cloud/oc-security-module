@@ -1,0 +1,21 @@
+{
+  "division": "OpenBSD ftp",
+  "sortIndex": 481,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OpenBSD ftp",
+      "browser": "openbsd ftp",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OpenBSD ftp"
+      },
+      "children": [
+        {
+          "match": "OpenBSD ftp*"
+        }
+      ]
+    }
+  ]
+}

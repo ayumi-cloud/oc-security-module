@@ -1,0 +1,289 @@
+{
+  "division": "SEO & Analytics",
+  "sortIndex": 249,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SEO & Analytics",
+      "browser": "seo & analytics",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SEO & Analytics"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; SEODat/0.* http://crawler.seodat.com)",
+          "browser": "seodat"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SearchmetricsBot; http://www.searchmetrics.com/en/searchmetrics-bot/)",
+          "browser": "searchmetricsbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SEOkicks-Robot*",
+          "browser": "seokicks robot"
+        },
+        {
+          "match": "WebTarantula.com Crawler*",
+          "browser": "webtarantula"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SiteExplorer/1.0b;*",
+          "browser": "siteexplorer",
+          "properties": {
+            "Version": "1.0b",
+            "Beta": true
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SiteExplorer/*",
+          "browser": "siteexplorer"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Prlog/1.0*",
+          "browser": "prlog",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Prlog/*",
+          "browser": "prlog"
+        },
+        {
+          "match": "Browsershots",
+          "browser": "browsershots"
+        },
+        {
+          "match": "ssearch_bot (sSearch Crawler*",
+          "browser": "ssearch crawler"
+        },
+        {
+          "match": "FreeWebMonitoring SiteChecker/0.1*",
+          "browser": "freewebmonitoring sitechecker",
+          "properties": {
+            "Version": "0.1"
+          }
+        },
+        {
+          "match": "FreeWebMonitoring SiteChecker/*",
+          "browser": "freewebmonitoring sitechecker"
+        },
+        {
+          "match": "GIDBot/2.0*",
+          "browser": "gidbot",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "GIDBot/*",
+          "browser": "gidbot"
+        },
+        {
+          "match": "Mozilla/4.0 (vBSEO;*",
+          "browser": "vbulletin seo bot"
+        },
+        {
+          "match": "vBulletin via PHP*",
+          "browser": "vbulletin bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SemanticBot/1.1*",
+          "browser": "semanticbot",
+          "properties": {
+            "Version": "1.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SemanticBot/*",
+          "browser": "semanticbot"
+        },
+        {
+          "match": "bot-pge.chlooe.com/1.0*",
+          "browser": "chlooe bot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "bot-pge.chlooe.com/*",
+          "browser": "chlooe bot"
+        },
+        {
+          "match": "wscheck.com/1.0*",
+          "browser": "wscheck bot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "wscheck.com/*",
+          "browser": "wscheck bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AjaxSnapBot*",
+          "browser": "ajaxsnapbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; HyperCrawl/0.2*",
+          "browser": "hypercrawl",
+          "properties": {
+            "Version": "0.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; HyperCrawl/*",
+          "browser": "hypercrawl"
+        },
+        {
+          "match": "SEOstats 2.1*",
+          "browser": "seostats",
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "SEOstats*",
+          "browser": "seostats"
+        },
+        {
+          "match": "Athena Site Analyzer*",
+          "browser": "athena site analyzer"
+        },
+        {
+          "match": "AuditMyPC Webmaster Tool*",
+          "browser": "auditmypc webmaster tool"
+        },
+        {
+          "match": "SPDYCheck SPDY Protocol Tester*",
+          "browser": "spdycheck spdy protocol tester"
+        },
+        {
+          "match": "WeSEE",
+          "browser": "wesee bot"
+        },
+        {
+          "match": "WeSEE_Bot*",
+          "browser": "wesee bot"
+        },
+        {
+          "match": "Page Analyzer v4.0*",
+          "browser": "page analyzer",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Page Analyzer*",
+          "browser": "page analyzer"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; http://alyze.info*",
+          "browser": "alyze bot"
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT 6.3;compatible; Leikibot/1.0*",
+          "browser": "leikibot",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (Windows NT 6.3;compatible; Leikibot/*",
+          "browser": "leikibot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; seoscanners.net/*",
+          "browser": "seo scanners bot"
+        },
+        {
+          "match": "SeobilityBot (SEO-Check; *)",
+          "browser": "seobility bot"
+        },
+        {
+          "match": "cuwhois/*",
+          "browser": "cuwhois bot"
+        },
+        {
+          "match": "ganarvisitas/*",
+          "browser": "ganar visitas bot"
+        },
+        {
+          "match": "NetTrack Anonymous Web Statistics*",
+          "browser": "nettrack scanner"
+        },
+        {
+          "match": "TA SEO Crawler v* URLData.pm (smcquaker@tripadvisor.com)",
+          "browser": "tripadvisor seo crawler"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AlphaBot/*",
+          "browser": "alphabot"
+        },
+        {
+          "match": "OnPageBot*",
+          "browser": "onpagebot"
+        },
+        {
+          "match": "RyteBot/*",
+          "browser": "ryte bot"
+        },
+        {
+          "match": "RankingBot*",
+          "browser": "rankingbot"
+        },
+        {
+          "match": "Seobility*",
+          "browser": "seobilitybot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SEOmonitorBot*",
+          "browser": "seomonitorbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Cocolyzebot*",
+          "browser": "cocolyzebot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Dubbotbot*",
+          "browser": "dubbotbot"
+        },
+        {
+          "match": "pr-cy.ru Screenshot Bot*",
+          "browser": "screenshot bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; PR-CY.RU*",
+          "browser": "pr-cy.ru bot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Mac OS X*) applewebkit* (*khtml*like*gecko*) cXensebot* Safari/*",
+          "browser": "cxensebot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows NT 10.0*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; Sitebulb*",
+          "browser": "sitebulb"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*) applewebkit* (*khtml*like*gecko*) HeadlessChrome/* Safari/* Prerender*",
+          "browser": "prerender",
+          "engine": "Blink"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*HubSpot Single Page link check*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
+          "browser": "hubspot single page link check"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*HubSpot Single Page link check*",
+          "browser": "hubspot single page link check"
+        },
+        {
+          "match": "Trackuity *",
+          "browser": "trackuity bot"
+        }
+      ]
+    }
+  ]
+}

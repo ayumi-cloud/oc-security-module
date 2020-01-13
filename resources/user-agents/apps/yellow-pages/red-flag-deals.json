@@ -1,0 +1,39 @@
+{
+  "division": "RedFlagDeals Mobile App",
+  "sortIndex": 1660,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "RedFlagDeals Mobile App",
+      "browser": "redflagdeals mobile app",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "RedFlagDeals Mobile App",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "RedFlagDealsApp/* (#PLATFORM##DEVICE# Build/*) AppleWebKit/* (*KHTML*like*Gecko*) Version/* Safari/*",
+          "devices": {
+            "Arc": "Kobo Arc"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "RedFlagDealsApp/* (#PLATFORM#) AppleWebKit/* (*KHTML*like*Gecko*) Version/* Safari/*",
+          "platforms": [
+            "Android_4_1",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

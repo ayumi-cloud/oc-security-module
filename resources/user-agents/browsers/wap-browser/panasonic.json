@@ -1,0 +1,52 @@
+{
+  "division": "Panasonic",
+  "sortIndex": 9730,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Panasonic",
+      "browser": "panasonic",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Panasonic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Panasonic-A500/R1*"
+        },
+        {
+          "match": "Panasonic-GAD87/A*"
+        },
+        {
+          "match": "Panasonic-X200/R01 *"
+        },
+        {
+          "match": "Panasonic-X200P/RP1 *"
+        },
+        {
+          "match": "Panasonic-X400/R01 *"
+        },
+        {
+          "match": "Panasonic-X60/R01 *"
+        },
+        {
+          "match": "Panasonic-X66 *"
+        },
+        {
+          "match": "Panasonic-X68*"
+        },
+        {
+          "match": "Panasonic-X70/1.0 *"
+        },
+        {
+          "match": "Panasonic-X70/A00 *"
+        }
+      ]
+    }
+  ]
+}

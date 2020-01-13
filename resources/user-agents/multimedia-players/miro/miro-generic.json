@@ -1,0 +1,62 @@
+{
+  "division": "Miro Generic",
+  "sortIndex": 1530,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Miro Generic",
+      "browser": "miro",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Miro"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/* Miro/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Miro/6.0*",
+          "browser": "miro",
+          "engine": "unknown",
+          "device": "unknown",
+          "properties": {
+            "Version": "6.0"
+          }
+        },
+        {
+          "match": "Miro/5.0*",
+          "browser": "miro",
+          "engine": "unknown",
+          "device": "unknown",
+          "properties": {
+            "Version": "5.0"
+          }
+        },
+        {
+          "match": "Miro/3.0*",
+          "browser": "miro",
+          "engine": "unknown",
+          "device": "unknown",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "Miro/*",
+          "browser": "miro",
+          "engine": "unknown",
+          "device": "unknown"
+        }
+      ]
+    }
+  ]
+}

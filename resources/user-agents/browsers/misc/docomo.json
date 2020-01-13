@@ -1,0 +1,58 @@
+{
+  "division": "DoCoMo",
+  "sortIndex": 3880,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "DoCoMo",
+      "browser": "docomo",
+      "platform": "JAVA",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "DoCoMo"
+      },
+      "children": [
+        {
+          "match": "DoCoMo/1.0/D503iS/*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "DoCoMo/1.0/N504i/c10/TB*",
+          "device": "NEC N504i",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "DoCoMo/1.0/N505i/*",
+          "device": "NEC N505i",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "DoCoMo/1.0/P504iS/*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "DoCoMo/1.0*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "DoCoMo/2.0*",
+          "properties": {
+            "Version": "2.0"
+          }
+        }
+      ]
+    }
+  ]
+}

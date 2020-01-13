@@ -1,0 +1,59 @@
+{
+  "division": "Heritrix",
+  "sortIndex": 560,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Heritrix",
+      "browser": "heritrix",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Heritrix"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible*; heritrix/3.3*",
+          "properties": {
+            "Version": "3.3"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*; heritrix/3.2*",
+          "properties": {
+            "Version": "3.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible*; heritrix/*"
+        },
+        {
+          "match": "*heritrix*"
+        },
+        {
+          "match": "bl.uk_lddc_bot/3.3*",
+          "browser": "bl.uk_lddc_bot",
+          "properties": {
+            "Version": "3.3"
+          }
+        },
+        {
+          "match": "bl.uk_lddc_bot/*",
+          "browser": "bl.uk_lddc_bot"
+        },
+        {
+          "match": "Mozilla/5.0 (bl.uk_lddc_bot; #PLATFORM#)*",
+          "browser": "bl.uk_lddc_bot",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; bnf.fr_bot;*",
+          "browser": "bnf.fr bot"
+        }
+      ]
+    }
+  ]
+}

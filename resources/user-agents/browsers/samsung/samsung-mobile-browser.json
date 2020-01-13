@@ -1,0 +1,177 @@
+{
+  "division": "Samsung Mobile Browser",
+  "sortIndex": 10180,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Samsung Mobile Browser",
+      "browser": "samsung mobile browser",
+      "device": "general Mobile Device (Samsung)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Samsung Mobile Browser",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (SymbianOS/*; U; Series60/* #DEVICE#/* ) applewebkit* (*khtml*like*gecko*) Safari/*",
+          "engine": "WebKit",
+          "devices": {
+            "Samsung/I7110": "Samsung GT-I7110"
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "#DEVICE# SymbianOS/*",
+          "devices": {
+            "SEC-SGHD730": "Samsung SGH-D730"
+          },
+          "platforms": [
+            "SymbianOS"
+          ]
+        },
+        {
+          "match": "Mozilla/SMB3(#DEVICE#)/Samsung *",
+          "devices": {
+            "Z105": "Samsung SGH-Z105"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.0 *",
+          "devices": {
+            "SAMSUNG-SGH-X480": "Samsung SGH-X480",
+            "SAMSUNG-SGH-X480C": "Samsung SGH-X480C",
+            "SAMSUNG-SGH-X486": "Samsung SGH-X486",
+            "SAMSUNG-SGH-X636": "Samsung SGH-X636",
+            "SAMSUNG-SGH-Z150": "Samsung SGH-Z150",
+            "SEC-SGHD807": "Samsung SGH-D807",
+            "SEC-SGHE310": "Samsung SGH-E310",
+            "SEC-SGHE310C": "Samsung SGH-E310C",
+            "SEC-SGHE710": "Samsung SGH-E710",
+            "SEC-SGHE810C": "Samsung SGH-E810C",
+            "SEC-SGHP730C": "Samsung SGH-P730C",
+            "SEC-SGHX160": "Samsung SGH-X160",
+            "SEC-SGHX510": "Samsung SGH-X510"
+          }
+        },
+        {
+          "match": "#DEVICE#/?.0 *",
+          "devices": {
+            "SAMSUNG-SGH-Z140": "Samsung SGH-Z140"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.0*",
+          "devices": {
+            "SEC-SGHC130": "Samsung SGH-C130"
+          }
+        },
+        {
+          "match": "#DEVICE# UP.Link/6.3.0.0.0",
+          "devices": {
+            "SEC-SGHC207L": "Samsung SGH-C207L"
+          }
+        },
+        {
+          "match": "#DEVICE#, TSS/2.5, Rev 1.4 UP.Link/6.3.0.0.0",
+          "devices": {
+            "SEC-SGHD357": "Samsung SGH-D357"
+          }
+        },
+        {
+          "match": "#DEVICE#/1.0 TSS/2.5 *",
+          "devices": {
+            "SEC-SGHE530": "Samsung SGH-E530",
+            "SEC-SGHE720": "Samsung SGH-E720",
+            "SEC-SGHX660": "Samsung SGH-X660"
+          }
+        },
+        {
+          "match": "#DEVICE# *",
+          "devices": {
+            "SEC-SGHC200": "Samsung SGH-C200",
+            "SEC-SGHC200C": "Samsung SGH-C200C",
+            "SEC-SGHC207": "Samsung SGH-C207",
+            "SEC-SGHD410": "Samsung SGH-D410",
+            "SEC-SGHD410C": "Samsung SGH-D410C",
+            "SEC-SGHE300": "Samsung SGH-E300",
+            "SEC-SGHE310": "Samsung SGH-E310",
+            "SEC-SGHE317": "Samsung SGH-E317",
+            "SEC-SGHE600": "Samsung SGH-E600",
+            "SEC-SGHE600C": "Samsung SGH-E600C",
+            "SEC-SGHE710": "Samsung SGH-E710",
+            "SEC-SGHE810": "Samsung SGH-E810",
+            "SEC-SGHP100": "Samsung SGH-P100",
+            "SEC-SGHP107": "Samsung SGH-P107",
+            "SEC-SGHP400": "Samsung SGH-P400",
+            "SEC-SGHS200": "Samsung SGH-S200",
+            "SEC-SGHS300": "Samsung SGH-S300",
+            "SEC-SGHS307": "Samsung SGH-S307",
+            "SEC-SGHV200": "Samsung SGH-V200",
+            "SEC-SGHX105": "Samsung SGH-X105",
+            "SEC-SGHX400": "Samsung SGH-X400",
+            "SEC-SGHX426": "Samsung SGH-X426",
+            "SEC-SGHX427": "Samsung SGH-X427",
+            "SEC-SGHX427M": "Samsung SGH-X427M",
+            "SEC-SGHX430": "Samsung SGH-X430",
+            "SEC-SGHX450": "Samsung SGH-X450"
+          }
+        },
+        {
+          "match": "#DEVICE#*",
+          "devices": {
+            "SEC-SGHE608": "Samsung SGH-E608",
+            "SEC-SGHP408": "Samsung SGH-P408",
+            "SEC-SGHS208": "Samsung SGH-S208",
+            "SEC-SGHS308": "Samsung SGH-S308",
+            "SEC-SGHV208": "Samsung SGH-V208",
+            "SEC-SGHX438": "Samsung SGH-X438",
+            "SEC-SGHX458": "Samsung SGH-X458"
+          }
+        },
+        {
+          "match": "#DEVICE#, TSS/2.5, Rev1.1*",
+          "devices": {
+            "SEC-SGHP207": "Samsung SGH-P207"
+          }
+        },
+        {
+          "match": "#DEVICE#/EJ3 TSS/2.5 *",
+          "devices": {
+            "SEC-SGHX660": "Samsung SGH-X660"
+          }
+        },
+        {
+          "match": "#DEVICE# SHP/VPP/R5 SMB3.1 *",
+          "devices": {
+            "SGH-Z107": "Samsung SGH-Z107",
+            "SGH-Z300": "Samsung SGH-Z300",
+            "SGH-Z500": "Samsung SGH-Z500"
+          }
+        },
+        {
+          "match": "#DEVICE#/226-H-12 *",
+          "devices": {
+            "SendoM550": "Sendo M550"
+          }
+        },
+        {
+          "match": "#DEVICE#/04 *",
+          "devices": {
+            "SendoS600": "Sendo S600"
+          }
+        },
+        {
+          "match": "Vodafone/1.0/#DEVICE#/X660JBEK2/Browser/TSS/2.5 *",
+          "devices": {
+            "SamsungSGHX660V": "Samsung SGH-X660V"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "division": "SynapticSearch",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SynapticSearch",
+      "browser": "synapticsearch",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SynapticSearch"
+      },
+      "children": [
+        {
+          "match": "SynapticSearch/AI Crawler 1.*",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "SynapticSearch/AI Crawler*"
+        }
+      ]
+    }
+  ]
+}

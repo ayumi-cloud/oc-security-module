@@ -1,0 +1,23 @@
+{
+  "division": "BenQ",
+  "sortIndex": 2280,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BenQ",
+      "browser": "benq",
+      "platform": "JAVA",
+      "device": "general Mobile Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BenQ"
+      },
+      "children": [
+        {
+          "match": "BenQ P31/R101 *"
+        }
+      ]
+    }
+  ]
+}

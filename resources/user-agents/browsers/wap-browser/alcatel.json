@@ -1,0 +1,24 @@
+{
+  "division": "Alcatel",
+  "sortIndex": 2040,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Alcatel",
+      "browser": "alcatel",
+      "platform": "JAVA",
+      "device": "general Mobile Phone",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Alcatel"
+      },
+      "children": [
+        {
+          "match": "Alcatel-BH4/1.0",
+          "device": "Alcatel BH4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "division": "Flock #MAJORVER#.#MINORVER#",
+  "versions": ["3.6", "3.5", 3],
+  "sortIndex": 3100,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Flock #MAJORVER#.#MINORVER#",
+      "browser": "flock",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Flock #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Flock/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Flock/#MAJORVER#.#MINORVER#* Chrome/* Safari/*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_32",
+            "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000",
+            "WinME"
+          ]
+        }
+      ]
+    }
+  ]
+}

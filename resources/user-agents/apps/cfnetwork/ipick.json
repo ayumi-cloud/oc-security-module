@@ -1,0 +1,38 @@
+{
+  "division": "iPick",
+  "sortIndex": 5990,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "iPick",
+      "browser": "ipick",
+      "platform": "Darwin",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "iPick",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "iPick/1.7* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ],
+          "properties": {
+            "Version": "1.7"
+          }
+        },
+        {
+          "match": "iPick* CFNetwork/*",
+          "platforms": [
+            "Darwin"
+          ]
+        }
+      ]
+    }
+  ]
+}

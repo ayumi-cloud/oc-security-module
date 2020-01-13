@@ -1,0 +1,33 @@
+{
+  "division": "WKBrowser Generic",
+  "sortIndex": 956,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "WKBrowser Generic",
+      "browser": "wkbrowser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WKBrowser Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* wkbrowser *",
+          "platforms": [
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
