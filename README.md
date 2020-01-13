@@ -52,6 +52,8 @@ Along those lines, the team may not issue security notifications for unsupported
 | 1.0.x       | :white_check_mark: |
 | 1.0.x.x     | :x:                |
 
+When the version tag is not stable; e.g. `1.0.0-alpha`, `1.0.0-beta`, `1.0.0-dev` or `1.0.0-rc` (see https://semver.org/#spec-item-11)
+
 ## Reporting a Vulnerability
 
 We strive to make the code accessible to a wide audience of beginner and experienced users.
