@@ -1,6 +1,6 @@
 # October CMS Version II Proposal - Security Module
 
-**Warning currently in heavy development!**
+**========== Warning currently in heavy development! ==========**
 
 ![Image of securitycat](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/readme.gif)
 
