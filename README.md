@@ -1,6 +1,8 @@
-# October Security Plugin (in development)
+# October CMS Version II Proposal - Security Module
 
-![Image of securitycat](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/readme1.png)
+**Warning currently in heavy development!**
+
+![Image of securitycat](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/readme.gif)
 
 This repo to gather security enhancement ideas and to monitor progress.
 
