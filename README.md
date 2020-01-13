@@ -41,11 +41,11 @@ Along those lines, OWASP CRS team may not issue security notifications for unsup
 
 | Version   | Supported          |
 | --------- | ------------------ |
-| 2.3.x-dev | :white_check_mark: |
+| 3.3.x-dev | :white_check_mark: |
 | 2.2.x     | :white_check_mark: |
 | 2.1.x     | :white_check_mark: |
-| 1.1.x     | :white_check_mark: |
-| 1.0.x     | :x:                |
+| 1.0.x     | :white_check_mark: |
+| 1.0.x.x   | :x:                |
 
 ## Reporting a Vulnerability
 
@@ -56,7 +56,7 @@ Submit these types of non-vulnerability related issues via Github.
 
 Please include your installed version and the relevant portions of your audit log.
 
-False negative or common bypasses should [create an issue](https://github.com/ayumi-cloud/oc-security-module/issues/new?labels=bug&template=1_BUG_REPORT.md) so they can be addressed.
+False negative or common bypasses should [create a bug issue](https://github.com/ayumi-cloud/oc-security-module/issues/new?labels=bug&template=1_BUG_REPORT.md) so they can be addressed.
 
 Do this before submitting a vulnerability:
 
