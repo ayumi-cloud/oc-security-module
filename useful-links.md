@@ -102,6 +102,10 @@ https://github.com/topics/content-type
 
 https://github.com/matomo-org/device-detector
 
+### List of crawlers blocked by default
+
+https://github.com/JayBizzle/Crawler-Detect/blob/master/src/Fixtures/Crawlers.php
+
 ### October & Laravel Aliases
 
 Below is a list of aliases October CMS uses:
