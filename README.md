@@ -37,7 +37,7 @@ We officially support the two point releases with security patching preceding th
 
 We are happy to receive and merge PR's that address security issues in older versions of the project, but the team itself may choose not to fix these.
 
-Along those lines, OWASP CRS team may not issue security notifications for unsupported software.
+Along those lines, the team may not issue security notifications for unsupported software.
 
 | Version   | Supported          |
 | --------- | ------------------ |
