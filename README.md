@@ -1,6 +1,6 @@
 # October CMS Version II Proposal - Security Module
 
-**============================== Warning currently in heavy development! ================================**
+**...........................................Warning currently in heavy development**
 
 **======= There are other modules being developed for October CMS Version II in different repo's! =======**
 
