@@ -1,5 +1,7 @@
 ## Reporting Structure
 
+:warning: THIS IS A SCRATCHPAD DOCUMENT, PLEASE CONSIDER THIS WHEN READING ON :bulb:
+
 Ban methods:
 
 - Hard ban 403
