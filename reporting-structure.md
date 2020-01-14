@@ -13,6 +13,7 @@ Ban methods:
 
 Link methods:
 
+- Domain (users or someone else)
 - URL (Full)
 - URI
 - Query String
