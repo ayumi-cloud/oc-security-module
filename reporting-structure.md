@@ -7,7 +7,7 @@ Ban methods:
 - Method ban e.g. trace method 405
 - Three-strikes law 410
 - Repeat attack ban 403
-- Lmiting (small amount) 429
+- Limiting (small amount) 429
 - Limiting (large amount 403
 - Unavailable is intended for all users 503
 
