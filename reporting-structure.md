@@ -67,7 +67,7 @@ The .htaccess will kick in first. If you look at the Apache request cycle:
 
 PHP is a response handler. mod_rewrite runs at URI translation, except for rewrite rules in .htaccess and <Directory> or <Location> blocks which run in the fixup phase. This is because Apache doesn't know which directory it's in (and thus which <Directory> or .htaccess to read) until after URI translation.
 
----
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/3PwIg.gif" alt="life-cycle"></p>
 
 .htaccess files are evaluated on EVERY server request. Even for static images, CSS and JS files. So, you're asking the webserver to parse 1000+ long possibly REGEX lines while executing a request.
 
