@@ -106,6 +106,14 @@ https://github.com/matomo-org/device-detector
 
 https://github.com/JayBizzle/Crawler-Detect/blob/master/src/Fixtures/Crawlers.php
 
+### .htaccess
+
+https://github.com/h5bp/server-configs-apache/tree/master/src
+
+### Apache upgrading to 2.4 from 2.2
+
+https://httpd.apache.org/docs/2.4/upgrading.html
+
 ### October & Laravel Aliases
 
 Below is a list of aliases October CMS uses:
