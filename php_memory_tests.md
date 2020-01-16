@@ -10,6 +10,14 @@ Lessons learned:
 - using a regular expression in `preg_match()` is not faster than using a long string
 - using the utf8 modifier `"//u"` in `preg_match()` makes it 2 times slower
 
+```php
+$a = 'How are you?';
+
+if (strpos($a, 'are') !== false) {
+    echo 'true';
+}
+```
+
 Here is a sample script to compare the functions with different string sizes:
 
 ```php
