@@ -118,6 +118,14 @@ https://httpd.apache.org/docs/2.4/upgrading.html
 
 https://www.bleepingcomputer.com/news/google/google-chrome-aims-to-make-browser-user-agents-obsolete/
 
+### Double encode when escaping exmple
+
+https://github.com/octobercms/october/blob/master/modules/backend/formwidgets/CodeEditor.php#L181
+
+```php
+$this->vars['value'] = htmlentities($this->getLoadValue(), ENT_QUOTES, 'UTF-8', true);
+```
+
 ### October & Laravel Aliases
 
 Below is a list of aliases October CMS uses:
