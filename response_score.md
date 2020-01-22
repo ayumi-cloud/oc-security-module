@@ -7,7 +7,7 @@ Score | Description | Browser Screen | Hash generated
 3 | 400 soft | Yes | No
 4 | 400 hard | No | Yes
 5* | 429 soft (Google treats 429 and 503 the same) | Yes | No
-6 | 503 soft (Google treats 429 and 503 the same) | Yes | No
+6* | 503 soft (Google treats 429 and 503 the same) | Yes | No
 7 | 405 hard | No | Yes
 8 | 403 soft | Yes | No
 9 | 403 hard (repeat attackers) | No | Yes
@@ -17,6 +17,8 @@ Score | Description | Browser Screen | Hash generated
 Notes:
 
 * 5 Will be a multi-level approach to separate scrapers and people. Repeat attacks will use a higher score, such as 9, 10 or 11.
+
+* 6 Will be a maintenance web page. 
 
 ### Troubleshooting Cloudflare 1XXX errors
 
