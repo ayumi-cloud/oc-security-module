@@ -126,6 +126,8 @@ https://github.com/octobercms/october/blob/master/modules/backend/formwidgets/Co
 $this->vars['value'] = htmlentities($this->getLoadValue(), ENT_QUOTES, 'UTF-8', true);
 ```
 
+https://www.w3schools.com/php/func_string_htmlentities.asp
+
 ### October & Laravel Aliases
 
 Below is a list of aliases October CMS uses:
