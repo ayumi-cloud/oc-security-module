@@ -207,3 +207,16 @@ https://support.cloudflare.com/hc/en-us/articles/360029779472-Troubleshooting-Cl
 
 https://support.cloudflare.com/hc/en-us/articles/115003011431-Troubleshooting-Cloudflare-5XX-errors
 
+### Fixing the gibberish hack
+
+https://developers.google.com/web/fundamentals/security/hacked/fixing_the_gibberish_hack
+
+### Fixing the Japanese keyword hack
+
+https://developers.google.com/web/fundamentals/security/hacked/fixing_the_japanese_keyword_hack
+
+### Fixing the cloaked keywords and links hack
+
+https://developers.google.com/web/fundamentals/security/hacked/fixing_the_cloaked_keywords_hack
+
+
