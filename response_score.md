@@ -1,4 +1,4 @@
-### Response Score
+## Response Score
 
 Score | Description | Browser Screen | Hash generated
 ---|---|---|---
@@ -17,3 +17,11 @@ Score | Description | Browser Screen | Hash generated
 Notes:
 
 * 5 Will be a multi-level approach to separate scrapers and people. Repeat attacks will use a higher score, such as 9, 10 or 11.
+
+### Troubleshooting Cloudflare 1XXX errors
+
+Link: https://support.cloudflare.com/hc/en-us/articles/360029779472-Troubleshooting-Cloudflare-1XXX-errors
+
+### Troubleshooting Cloudflare 5XX errors
+
+Link: https://support.cloudflare.com/hc/en-us/articles/115003011431-Troubleshooting-Cloudflare-5XX-errors
