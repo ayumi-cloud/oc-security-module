@@ -15,4 +15,4 @@ Score | Description | Browser Screen | Hash generated
 
 Notes:
 
-* 5 Will be a multi-level approach to separate scrapers and people. Repeat attacks will use a higher score.
+* 5 Will be a multi-level approach to separate scrapers and people. Repeat attacks will use a higher score, such as 8, 9 or 10.
