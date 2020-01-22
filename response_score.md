@@ -6,13 +6,14 @@ Score | Description | Browser Screen | Hash generated
 2 | 410 soft | Yes | No
 3 | 400 soft | Yes | No
 4 | 400 hard | No | Yes
-5* | 429 and 503 soft (Google treats the same) | Yes | No
-6 | 405 hard | No | Yes
-7 | 403 soft | Yes | No
-8 | 403 hard (repeat attackers) | No | Yes
-9 | 444 (nginx connection closed without response) | No | Yes
-10 | Botnet | No | Yes
+5* | 429 soft (Google treats 429 and 503 the same) | Yes | No
+6 | 503 soft (Google treats 429 and 503 the same) | Yes | No
+7 | 405 hard | No | Yes
+8 | 403 soft | Yes | No
+9 | 403 hard (repeat attackers) | No | Yes
+10 | 444 (nginx connection closed without response) | No | Yes
+11 | Botnet | No | Yes
 
 Notes:
 
-* 5 Will be a multi-level approach to separate scrapers and people. Repeat attacks will use a higher score, such as 8, 9 or 10.
+* 5 Will be a multi-level approach to separate scrapers and people. Repeat attacks will use a higher score, such as 9, 10 or 11.
