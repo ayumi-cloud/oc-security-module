@@ -18,6 +18,10 @@ https://octobercms.com/docs/ui/icon
 
 https://octobercms.com/docs/backend/lists#list-filters
 
+### October HTaccess Custom Rules (order)
+
+https://github.com/octobercms/october/pull/4909
+
 ### PHP Operators
 
 https://www.w3schools.com/php/php_operators.asp
