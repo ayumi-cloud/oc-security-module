@@ -18,7 +18,7 @@ https://octobercms.com/docs/ui/icon
 
 https://octobercms.com/docs/backend/lists#list-filters
 
-### October HTaccess Custom Rules (order)
+### October HTaccess Custom Rules (logical position placement)
 
 https://github.com/octobercms/october/pull/4909
 
