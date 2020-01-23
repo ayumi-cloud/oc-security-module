@@ -128,6 +128,14 @@ $this->vars['value'] = htmlentities($this->getLoadValue(), ENT_QUOTES, 'UTF-8', 
 
 https://www.w3schools.com/php/func_string_htmlentities.asp
 
+### List of file formats
+
+https://en.wikipedia.org/wiki/List_of_file_formats
+
+### List of filename extensions
+
+https://en.wikipedia.org/wiki/List_of_filename_extensions
+
 ### October & Laravel Aliases
 
 Below is a list of aliases October CMS uses:
