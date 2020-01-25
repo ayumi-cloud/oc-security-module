@@ -26,6 +26,10 @@ https://octobercms.com/docs/backend/lists#list-filters
 
 https://github.com/octobercms/october/pull/4909
 
+### WordPress Security
+
+https://sucuri.net/guides/wordpress-security/
+
 ### PHP Operators
 
 https://www.w3schools.com/php/php_operators.asp
