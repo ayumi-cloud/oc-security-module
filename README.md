@@ -18,7 +18,7 @@ Feel free to add issues containing security ideas, requests and infomation.
 
 ## Requirements ##
 
-> This library requires PHP 7.3 or greater, due to using Laravel 6 or greater, Apache 2.4.10 or greater.
+> This library requires PHP 7.3 or greater, Laravel 6 or greater and if using Apache 2.4.10 or greater.
 
 ## Contributing ##
 
