@@ -6,6 +6,10 @@ https://laravel.com/api/5.5/search.html
 
 https://octobercms.com/docs/services/request-input#request-information
 
+### Laravel helpers
+
+https://laravel.com/docs/6.x/helpers
+
 ### Laravel advanced database seeding
 
 https://medium.com/@jurgenbosch/laravel-advanced-database-seeding-51c475707d92
