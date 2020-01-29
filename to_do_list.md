@@ -2,7 +2,7 @@
 
 1. Resize multiple widgets.
 
-2. Add formatting feature.
+2. Add auto-formatting feature.
 
 3. Center the loading indicator.
 
