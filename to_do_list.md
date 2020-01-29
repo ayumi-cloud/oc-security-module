@@ -4,9 +4,11 @@
 
 2. Add formatting feature.
 
+3. Center the loading indicator.
+
 ---
 
-3. Save to file and database.
+4. Save to file and database.
 
 ---
 
