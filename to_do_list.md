@@ -4,11 +4,9 @@
 
 2. Add auto-formatting feature.
 
-3. Center the loading indicator.
-
 ---
 
-4. Save to file and database.
+3. Save to file and database.
 
 ---
 
