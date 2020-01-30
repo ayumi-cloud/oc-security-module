@@ -1,14 +1,16 @@
 ## To do list
 
-1. Resize multiple widgets.
+1. ~~Resize multiple widgets.~~
 
-2. Add auto-formatting feature.
+2. Add auto-formatting feature. <<<
 
-3. language + theme for multiple widgets.
+3. ~~language + theme for multiple widgets.~~
+
+4. Move many features to settings.
 
 ---
 
-4. Save to file and database.
+5. Save to file and database.
 
 ---
 
