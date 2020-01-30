@@ -19,3 +19,5 @@ Link: https://github.com/octobercms/october/issues/4545
 
 
 https://github.com/Microsoft/monaco-editor/issues/1090
+
+https://microsoft.github.io/monaco-editor/playground.html#interacting-with-the-editor-adding-an-action-to-an-editor-instance
