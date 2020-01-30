@@ -16,3 +16,6 @@ Review.
 
 
 Link: https://github.com/octobercms/october/issues/4545
+
+
+https://github.com/Microsoft/monaco-editor/issues/1090
