@@ -4,9 +4,11 @@
 
 2. Add auto-formatting feature.
 
+3. language + theme for multiple widgets.
+
 ---
 
-3. Save to file and database.
+4. Save to file and database.
 
 ---
 
