@@ -8,9 +8,9 @@
 
 4. ~~Move many features to settings.~~
 
-5. Connect up settings. <<<
+5. ~~Connect up settings.~~
 
-6. Move hard-coded to lang files.
+6. Move hard-coded to lang files. <<<
 
 ---
 
