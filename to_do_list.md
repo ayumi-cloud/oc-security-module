@@ -6,11 +6,15 @@
 
 3. ~~language + theme for multiple widgets.~~
 
-4. Move many features to settings. <<<
+4. ~~Move many features to settings.~~
+
+5. Connect up settings. <<<
+
+6. Move hard-coded to lang files.
 
 ---
 
-5. Save to file and database.
+7. Save to file and database.
 
 ---
 
