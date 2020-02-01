@@ -12,9 +12,11 @@
 
 6. Move hard-coded to lang files. <<<
 
+7. Show file location path error and add lang to js.
+
 ---
 
-7. Save to file and database.
+8. Save to file and database.
 
 ---
 
