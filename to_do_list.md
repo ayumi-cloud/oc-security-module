@@ -10,9 +10,9 @@
 
 5. ~~Connect up settings.~~
 
-6. Move hard-coded to lang files. <<<
+6. ~~Move hard-coded to lang files.~~
 
-7. Show file location path error and add lang to js.
+7. Show file location path error and add lang to js. <<<
 
 ---
 
