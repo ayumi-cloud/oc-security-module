@@ -10,6 +10,10 @@ https://octobercms.com/docs/services/request-input#request-information
 
 https://laravel.com/docs/6.x/helpers
 
+### Conditional form fields - using trigger events
+
+https://octobercms.com/docs/backend/forms#field-trigger-events
+
 ### Laravel advanced database seeding
 
 https://medium.com/@jurgenbosch/laravel-advanced-database-seeding-51c475707d92
