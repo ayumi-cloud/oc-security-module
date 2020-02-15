@@ -81,6 +81,10 @@ For more detailed information on configuration files and how to use them, please
 * <https://httpd.apache.org/docs/current/configuring.html>
 * <https://httpd.apache.org/docs/current/howto/htaccess.html>
 
+## Breaking Changes from October Version 1 to Version 2
+
+In October version two, to increase performance, form fields are now not loaded until a user selects that area. For example, a plugin has some form fields that are hidden in some tabs, the hidden form fields are not loaded until the user selects that tab and then the widgets in that tab are loaded. Likewise, October version 2 only saves the form widgets that have been edited and changed, instead of in version one where it saves all the form fields even if they haven't been changed. In testing this has increased the performance of October version 2.
+
 ## Reporting a Vulnerability
 
 We strive to make the code accessible to a wide audience of beginner and experienced users.
