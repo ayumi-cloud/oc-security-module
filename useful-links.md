@@ -247,4 +247,10 @@ https://developers.google.com/web/fundamentals/security/hacked/fixing_the_japane
 
 https://developers.google.com/web/fundamentals/security/hacked/fixing_the_cloaked_keywords_hack
 
+### Cyveillance
+
+Traffic shows up as old IE browsers and Windows XP.
+
+Link: https://en.wikipedia.org/wiki/Cyveillance#Criticisms
+
 
