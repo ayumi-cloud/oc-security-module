@@ -134,6 +134,10 @@ https://github.com/h5bp/server-configs-apache/tree/master/src
 
 https://httpd.apache.org/docs/2.4/upgrading.html
 
+### Apache Flags
+
+https://httpd.apache.org/docs/2.4/rewrite/flags.html
+
 ### Google removing user-agents
 
 https://www.bleepingcomputer.com/news/google/google-chrome-aims-to-make-browser-user-agents-obsolete/
