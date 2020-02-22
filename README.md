@@ -89,7 +89,7 @@ In October version two, to increase performance, form fields are now not loaded 
 
 ### User interface
 
-In October version two, the dashboard has been redesigned with 1000's of new widgets and modules, been added! The security settings section now uses multi-level dimension tabs and not hard-coded to only have a choice of two things: primary and secondary tabs. October II has over 30 different tab designs, allowing developers and webmasters a wider choice and be able to create better responsive dashboard plugin designs!
+In October version two, the dashboard has been redesigned with 1000's of new widgets and modules, been added! The security settings section now uses multi-level dimension tabs and not hard-coded to only have a choice of two things: primary and secondary tabs, see here: [Hard-coded choice of two tabs only](https://github.com/octobercms/october/blob/develop/modules/backend/widgets/form/partials/_form.htm). October II has over 30 different tab designs, allowing developers and webmasters a wider choice and be able to create better responsive dashboard plugin designs!
 
 ## Reporting a Vulnerability
 
