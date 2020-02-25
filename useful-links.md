@@ -257,4 +257,7 @@ Traffic shows up as old IE browsers and Windows XP.
 
 Link: https://en.wikipedia.org/wiki/Cyveillance#Criticisms
 
+### Summary of how to check OS / browser from UserAgent
+
+https://qiita.com/nightyknite/items/b2590a69f2e0135756dc
 
