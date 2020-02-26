@@ -261,3 +261,7 @@ Link: https://en.wikipedia.org/wiki/Cyveillance#Criticisms
 
 https://qiita.com/nightyknite/items/b2590a69f2e0135756dc
 
+### Reverse DNS API (only works on firefox right now)
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/dns/resolve
+
