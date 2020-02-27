@@ -67,3 +67,5 @@ BleepingComputer routinely sees ransomware actors targeting a victim's cloud-bas
 Therefore, it is important to retain offline backups that cannot be wiped by bad actors.
 
 You can watch FBI Special Agent Joel DeCapua's full talk below:
+
+[![Feds Fighting Ransomware](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/ransomeware-talk.jpg)](https://www.youtube.com/watch?v=LUxOcpIRxmg)
