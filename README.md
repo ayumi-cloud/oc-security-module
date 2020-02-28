@@ -107,7 +107,7 @@ The reporting widget called `System Status` will display **security issues** and
 
 In October one the dashboard used the Isotope library, since then many advances in technology have been created such as Flexbox and modern drag n drop libraries and api's. October II uses a more modern library to handle the drag n drop. All widgets are now fully responsive and down scaling the screen has been fixed to give a much more smoother experience! New features include importing and exporting dashboard layouts and a whole bunch of common reporting widgets you find in other competitor cms dashboards as standard.
 
-> This repo doesn't contain a full list of updates and changes from version 1 to 2 - Full a list list see the main update proposal module repo! The changes above only relate for the security module!
+> This repo doesn't contain a full list of updates and changes from version 1 to 2 - For a full list, see the main update proposal module repo! The changes above only relate for the security module!
 
 ## Reporting a Vulnerability
 
