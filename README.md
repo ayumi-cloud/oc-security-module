@@ -4,7 +4,7 @@
 
 <p align="center"><strong>There are other modules being developed for October CMS Version II in different repo's!</strong><p>
   
-> THIS IS A LONG-TERM PROJECT AND WILL TAKE MANY MONTHS!
+>                               THIS IS A LONG-TERM PROJECT AND WILL TAKE MANY MONTHS!
   
 <p align="center"><img src="https://badgen.net/badge/stars/%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85" alt="stars"> <a href="https://travis-ci.org/#"><img src="https://badgen.now.sh/travis/probot/probot" alt="Build Status"></a> <img src="https://badgen.net/packagist/lang/monolog/monolog"> <a href="https://codecov.io/gh/#"><img src="https://badgen.now.sh/codecov/c/github/probot/probot" alt="Codecov"></a> <a href="https://twitter.com/#"><img src="https://img.shields.io/twitter/follow/ProbotTheRobot.svg?style=social&logo=twitter&label=Follow" alt="@ProbotTheRobot on Twitter"></a> <a href="https://pullreminders.com?ref=badge"><img src="https://pullreminders.com/badge.svg" alt="Pull Reminders"></a></p>
 
