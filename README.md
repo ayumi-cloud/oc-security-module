@@ -138,7 +138,7 @@ Warning - The whole user interface has been re-designed with many new features -
 
 ### Themes
 
-There are several themes that come as standard in October II, these include `dark` mode, `light` mode, `standard`, `bootstrap` and `material`. The themes also use some new CSS4 standards and updates with some new Media Queries properties, you can learn more here: [Media Queries Level 4](https://www.w3.org/TR/mediaqueries-4/) and to find out all the latest CSS features being worked on by the w3c group can be found here: [CSS current work and what's new](https://www.w3.org/Style/CSS/current-work). Plus you can create and add your own themes easily now with a dedicated section.
+There are several themes that come as standard in October II, these include `dark` mode, `light` mode, `classic (October 1 theme)`, `standard (October II theme)`, `bootstrap` and `material`. The themes also use some new CSS4 standards and updates with some new Media Queries properties, you can learn more here: [Media Queries Level 4](https://www.w3.org/TR/mediaqueries-4/) and to find out all the latest CSS features being worked on by the w3c group can be found here: [CSS current work and what's new](https://www.w3.org/Style/CSS/current-work). Plus you can create and add your own themes easily now with a dedicated section.
 
 ### Dashboard
 
