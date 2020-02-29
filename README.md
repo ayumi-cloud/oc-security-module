@@ -20,7 +20,7 @@ Feel free to add issues containing security ideas, requests and infomation.
 
 ## Requirements ##
 
-> This library requires PHP 7.3 or greater, Laravel 6 or greater and if using Apache 2.4.10 or greater.
+> This library requires PHP 7.3 or greater (in the near future we hope to increase this to php 7.4 or 8.0).
 
 ## Contributing ##
 
@@ -85,7 +85,7 @@ For more detailed information on configuration files and how to use them, please
 
 ### Support
 
- * Apache 2.4 (we are looking at adding some version 2.5 features in the near future)
+ * Apache 2.4.10 or greater (we are looking at adding some version 2.5 features in the near future)
 
 ## Microsoft IIS Server
 
