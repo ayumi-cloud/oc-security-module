@@ -4,7 +4,7 @@
 
 <p align="center"><strong>There are other modules being developed for October CMS Version II in different repo's!</strong><p>
   
->                               THIS IS A LONG-TERM PROJECT AND WILL TAKE MANY MONTHS!
+>                               ⚠️ THIS IS A LONG-TERM PROJECT AND WILL TAKE MANY MONTHS! ⚠️
   
 <p align="center"><img src="https://badgen.net/badge/stars/%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85" alt="stars"> <a href="https://travis-ci.org/#"><img src="https://badgen.now.sh/travis/probot/probot" alt="Build Status"></a> <img src="https://badgen.net/packagist/lang/monolog/monolog"> <a href="https://codecov.io/gh/#"><img src="https://badgen.now.sh/codecov/c/github/probot/probot" alt="Codecov"></a> <a href="https://twitter.com/#"><img src="https://img.shields.io/twitter/follow/ProbotTheRobot.svg?style=social&logo=twitter&label=Follow" alt="@ProbotTheRobot on Twitter"></a> <a href="https://pullreminders.com?ref=badge"><img src="https://pullreminders.com/badge.svg" alt="Pull Reminders"></a></p>
 
@@ -113,7 +113,7 @@ The security settings section now uses multi-level dimension tabs and not hard-c
 
 Accessibility enhancements for all form widgets including `focus`, `active`, `hover`, `keyboard`, `touch` and `mouse controls`. All widgets have been upgraded with a more modern design as well. Hard to see design issues have been removed to pass [Web Content Accessibility Guidelines (WCAG 2.0)](https://www.w3.org/TR/WCAG20/) to learn more see here: [Color and contrast](https://developers.google.com/web/fundamentals/accessibility/accessible-styles#color_and_contrast). All widgets are preloaded and don't get loaded in the main thread now, blocking critical resources! [R.A.I.L. guidelines](https://developers.google.com/web/fundamentals/performance/rail) have been applied to all widgets and styling has been tested to remove jank which was a huge problem in version one!
 
-⚠️ Warning - The whole user interface has been re-designed with many new features - to allow apps and single-page applications (SPA) to now work inside October II in both the frontend and backend. Some new features included tabbed plugins, favourites, quick picks, drag n drop features and expandable panels. This repo contains information about the security module and thus the scope of these new features are described more in the other modules.
+Warning - The whole user interface has been re-designed with many new features - to allow apps and single-page applications (SPA) to now work inside October II in both the frontend and backend. Some new features included tabbed plugins, favourites, quick picks, drag n drop features and expandable panels. This repo contains information about the security module and thus the scope of these new features are described more in the other modules.
 
 ### Themes
 
