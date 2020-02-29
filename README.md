@@ -83,6 +83,10 @@ For more detailed information on configuration files and how to use them, please
 * <https://httpd.apache.org/docs/current/configuring.html>
 * <https://httpd.apache.org/docs/current/howto/htaccess.html>
 
+### Support
+
+ * Apache 2.4 (we are looking at adding some version 2.5 features in the near future)
+
 ## Microsoft IIS Server
 
 The server settings target IIS7+ where replacement config is available for IIS8 (or simplification) it will be marked.
