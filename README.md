@@ -106,6 +106,16 @@ Using the Nginx server settings has a few required steps to be able to work.
 
 ## Breaking Changes from October Version 1 to Version 2
 
+### Goals
+
+With October version one the goals were to keep things simple and advoid complication things! With October II the goals are now different and <em>we</em> as a team believe that October II should have many advanced features that include a clever interface design to allow non-technical people to understand and use these advanced features! Professional developers and webmasters should not have to suffer to cater for non-technical people! All features have been made and designed in an easy to understand user interface with a lot of instructions and documentation explaining how to use, what it does, the pro's and con's and many more! This approach allows us to use modern api's and frameworks for non-technical people wanting to use the cms. It also allows the cms to continue use modern and stay update to date with new and future technologies.
+
+The October II cms goal also tries to make many things `out-of-the-box` and ready to use without the need of extra requirements, for example October II has already added the future file extension of [Google's AV1](https://aomedia.org/av1-features/get-started/) to it's core, instead of waiting for users to file an issue! We believe in adding future upcoming things so that developers can beta test and create interesting plugins and apps.
+
+We also plan on adding an `experimental feature flag` section, where developers can beta test new features inside October II the same way browsers have an upcoming feature section, if you are uasing Google Chrome browser you can see Google's flag section here: `chrome://flags`
+
+These `experimental features` can be turned on and off in a sandboxed enviroment to allow users to test new features of the October II core in a safe way and also a feedback section will be added to allow `testing` - which in turn will help speed up the development for the October II core code.
+
 ### October Installer
 
 We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their October II installation. For example, a user has two choices:
@@ -139,6 +149,8 @@ Warning - The whole user interface has been re-designed with many new features -
 ### Themes
 
 There are several themes that come as standard in October II, these include `dark` mode, `light` mode, `classic (October 1 theme)`, `standard (October II theme)`, `bootstrap` and `material`. The themes also use some new CSS4 standards and updates with some new Media Queries properties, you can learn more here: [Media Queries Level 4](https://www.w3.org/TR/mediaqueries-4/) and to find out all the latest CSS features being worked on by the w3c group can be found here: [CSS current work and what's new](https://www.w3.org/Style/CSS/current-work). Plus you can create and add your own themes easily now with a dedicated section.
+
+October II has been designed to work in various environments according to screen size and device, these can be grouped into the following areas (starting from smallest screen size through to largest): `smart watches` e.g. 320px, `smart phones`, `tablets`, `computers` and `smart tv's` e.g. 8K resolution. Using modern api's and techniques to adjust features such as `animation` for higher screen sized devices only and internet connection for `data save` features etc. You can learn more here: [Delivering Fast and Light Applications with Save-Data](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/save-data).
 
 ### Dashboard
 
