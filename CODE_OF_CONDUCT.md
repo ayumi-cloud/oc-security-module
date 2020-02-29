@@ -55,6 +55,6 @@ ongoing harassment or threats to anyone's safety, we may take action without
 notice.
 
 *This document was adapted from the [IndieWeb Code of Conduct][] and can also
-be found at <xxx>.*
+be found at <https://github.com/ayumi-cloud/oc-security-module/blob/master/CODE_OF_CONDUCT.md>.*
 
 [IndieWeb Code of Conduct]: https://indieweb.org/code-of-conduct
