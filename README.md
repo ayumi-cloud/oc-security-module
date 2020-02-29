@@ -64,7 +64,7 @@ Example:
 
 ![Image of securityeg](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/semantic.png)
 
-## Enable Apache httpd modules
+## Enable the following Apache httpd modules
 
 We have a dedicated Apache section for users using `.htaccess` some configurations won't have any effect if the appropriate modules aren't enabled. So, in order for everything to work as intended, you need to ensure the you have the following Apache modules enabled:
 
@@ -83,15 +83,15 @@ For more detailed information on configuration files and how to use them, please
 * <https://httpd.apache.org/docs/current/configuring.html>
 * <https://httpd.apache.org/docs/current/howto/htaccess.html>
 
-## Microsoft IIS Server Configs
+## Microsoft IIS Server
 
-The server config targets IIS7+ where replacement config is available for IIS8 (or simplification) it will be marked.
+The server settings target IIS7+ where replacement config is available for IIS8 (or simplification) it will be marked.
 
-## Nginx Server Configs
+## Nginx Server
 
 ### Getting Started
 
-Using the Nginx server configs repo directly has a few required steps to be able to work.
+Using the Nginx server settings has a few required steps to be able to work.
 
 * [Nginx Beginners Guide](https://nginx.org/en/docs/beginners_guide.html)
 * [Nginx Request Processing](https://nginx.org/en/docs/http/request_processing.html)
