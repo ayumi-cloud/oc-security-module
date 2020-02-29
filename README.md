@@ -83,6 +83,23 @@ For more detailed information on configuration files and how to use them, please
 * <https://httpd.apache.org/docs/current/configuring.html>
 * <https://httpd.apache.org/docs/current/howto/htaccess.html>
 
+## Microsoft IIS Server Configs
+
+The server config targets IIS7+ where replacement config is available for IIS8 (or simplification) it will be marked.
+
+## Nginx Server Configs
+
+### Getting Started
+
+Using the Nginx server configs repo directly has a few required steps to be able to work.
+
+* [Nginx Beginners Guide](https://nginx.org/en/docs/beginners_guide.html)
+* [Nginx Request Processing](https://nginx.org/en/docs/http/request_processing.html)
+
+### Support
+
+ * Nginx v**1.8.0**+
+
 ## Breaking Changes from October Version 1 to Version 2
 
 ### October Installer
