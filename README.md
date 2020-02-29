@@ -85,6 +85,20 @@ For more detailed information on configuration files and how to use them, please
 
 ## Breaking Changes from October Version 1 to Version 2
 
+### October Installer
+
+We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their October II installation. For example, a user has two choices:
+
+1. Normal security level - current October version one settings (useful for localhost installations).
+
+2. Enhanced security level - October version two settings (useful for live / production websites).
+
+It's important to let users set the security levels at an early stage and the security module needs some basic configuration settings to set up before activation. More complex settings can be added at a later time (after the initial installation).
+
+#### Project type
+
+Users can select different project types such as `vue.js`, `react`, `angular`, `bootstrap`, `flat html` etc. Also users will select their server type, such as `Microsoft IIS`, `Nginx`,  `Apache` etc. and October II will create a more custom cms for the user based off their project type. The security module will also be more configured to their server type giving a better more secure user experience.
+
 ### Loading and saving methods for form fields
 
 In October version two, to increase performance, form fields are now not loaded until a user selects that area. For example, a plugin has some form fields that are hidden in some tabs, the hidden form fields are not loaded until the user selects that tab and then the widgets in that tab are loaded. Likewise, October version 2 only saves the form widgets that have been edited and changed, instead of in version one where it saves all the form fields even if they haven't been changed. In testing this has increased the performance of October version II.
