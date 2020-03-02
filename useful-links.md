@@ -275,3 +275,8 @@ https://octobercms.com/docs/help/using-composer#development-branch
 
 https://www.ip2location.com/free/robot-whitelist
 
+### Good vs bad bots
+
+- Good bots = Allow potential real-users to your website.
+
+- Bad bots = Steal data, information and sell your data (doesn't help bring your websites real-users).
