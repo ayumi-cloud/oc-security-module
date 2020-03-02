@@ -270,3 +270,8 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/dns/r
 > People who want the most absolute bleeding edge code are more than welcome to use the instructions here to set up Composer to retrieve the latest code from the develop branch every time they update their Composer dependencies.
 
 https://octobercms.com/docs/help/using-composer#development-branch
+
+### Whitelist Search Engine IP lists
+
+https://www.ip2location.com/free/robot-whitelist
+
