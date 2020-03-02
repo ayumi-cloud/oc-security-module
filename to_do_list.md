@@ -15,3 +15,5 @@ Monaco: https://github.com/octobercms/october/issues/4545
 5. whitelist module
 
 6. block bad bots from hosting and not real-user isp's module
+
+7. amazon module
