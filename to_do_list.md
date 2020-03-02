@@ -8,7 +8,7 @@ Monaco: https://github.com/octobercms/october/issues/4545
 
 2. scanning js, txt, md, license and other files
 
-3. amazon module
+3. check events
 
 4. blacklist module
 
