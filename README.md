@@ -46,7 +46,7 @@ Laravel 7 continues the improvements made in Laravel 6.x by introducing Laravel 
 
 ## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/ayumi-cloud/oc-security-module/blob/master/CODE_OF_CONDUCT.md).
+In order to ensure that the October II proposal community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/ayumi-cloud/oc-security-module/blob/master/CODE_OF_CONDUCT.md).
 
 ## Contributing
 
