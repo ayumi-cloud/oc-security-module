@@ -34,7 +34,19 @@ This library requires the following:
 
 - PHP 7.3 or greater (in the near future we hope to increase this to php 7.4 or 8.0).
 
-- Laravel 6.0
+- Laravel 6.0 LTS (we currently use the latest LTS versions, due to the community consensus).
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/lts.png"></p>
+
+Laravel 7 continues the improvements made in Laravel 6.x by introducing Laravel Airlock. Laravel Airlock provides a featherweight authentication system for SPAs (single page applications), mobile applications, and simple, token based APIs. We recommend the following:
+
+- Laravel 6.0 LTS to use [Laravel Passport](https://laravel.com/docs/6.x/passport).
+
+- Laravel 7 to use [Laravel Airlock](https://laravel.com/docs/master/airlock). To learn more you can watch this video: [Laravel Airlock with Vue for SPA Auth](https://www.youtube.com/watch?v=D9oIu6jiYLk).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/ayumi-cloud/oc-security-module/blob/master/CODE_OF_CONDUCT.md).
 
 ## Contributing
 
