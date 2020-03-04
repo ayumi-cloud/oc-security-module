@@ -28,6 +28,10 @@ Over years we have coded and created well over a hundred pull requests (under va
 
 > This library requires PHP 7.3 or greater (in the near future we hope to increase this to php 7.4 or 8.0).
 
+## Big data
+
+This module uses several Big Data tool sets to analyze large amounts of data collected from various Big Data sources to model various attack methods. Some database sizes are in the petabytes and takes a few hours to run and process some models. These models are then used and tested in our definitions files where we run them in real-time and test them. We also have various non-disclosed test severs running to gather various attacks and add this data into our Big Data models to create either new firewall modules or definition files for the modules. This process helps us to build a more secure security module and helps speed up the build process. We fully rely on using large amounts of data and machine learning tools to process them!
+
 ## Contributing ##
 
 Patches and pull requests are encouraged. All code should follow the PSR-1 and
