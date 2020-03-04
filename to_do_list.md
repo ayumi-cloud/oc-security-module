@@ -19,3 +19,5 @@ Monaco: https://github.com/octobercms/october/issues/4545
 7. amazon module
 
 Github: https://github.com/octobercms/october/issues/4969
+
+Github: https://github.com/octobercms/october/issues/4959
