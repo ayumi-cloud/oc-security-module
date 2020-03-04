@@ -17,3 +17,5 @@ Monaco: https://github.com/octobercms/october/issues/4545
 6. block bad bots from hosting and not real-user isp's module
 
 7. amazon module
+
+Github: https://github.com/octobercms/october/issues/4969
