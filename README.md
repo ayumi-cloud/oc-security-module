@@ -24,24 +24,28 @@ This project is completely transparent and honest, before we started we contacte
 
 Over years we have coded and created well over a hundred pull requests (under various github accounts) which have been merged to the October version one projects core, we have never asked or recevived any money for any of the pull requests. We use the cms for professional purposes and therefore it is beneficial for our companies to have a professional working solution to give our end-users and clients. In order for us to delivery a high quality product we made the discussion to update the cms as there have been a lot of new api's, frameworks, libraries  and technologies been added to the internet over the years since the initial release of the cms.
 
-## Requirements ##
-
-> This library requires PHP 7.3 or greater (in the near future we hope to increase this to php 7.4 or 8.0).
-
 ## Big data
 
 This module uses several Big Data tool sets to analyze large amounts of data collected from various Big Data sources to model various attack methods. Some database sizes are in the petabytes and takes a few hours to run and process some models. These models are then used and tested in our definitions files where we run them in real-time and test them. We also have various non-disclosed test severs running to gather various attacks and add this data into our Big Data models to create either new firewall modules or definition files for the modules. This process helps us to build a more secure security module and helps speed up the build process. We fully rely on using large amounts of data and machine learning tools to process them!
 
-## Contributing ##
+## Requirements
+
+This library requires the following:
+
+- PHP 7.3 or greater (in the near future we hope to increase this to php 7.4 or 8.0).
+
+- Laravel 6.0
+
+## Contributing
 
 Patches and pull requests are encouraged. All code should follow the PSR-1 and
 PSR-2 style guidelines. Please include unit tests whenever possible.
 
-## Versioning ##
+## Versioning
 
 The Security Module code uses [Semantic Versioning](https://semver.org/).
 
-## Copyright and License ##
+## Copyright and License
 
 This is free software, licensed under the MIT, Open Source Initiative.
 
