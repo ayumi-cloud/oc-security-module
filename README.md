@@ -50,18 +50,17 @@ In order to ensure that the October II proposal community is welcoming to all, p
 
 ## Contributing
 
-Patches and pull requests are encouraged. All code should follow the PSR-1 and
-PSR-2 style guidelines. Please include unit tests whenever possible.
-
-## Versioning
-
-The Security Module code uses [Semantic Versioning](https://semver.org/).
+Patches and pull requests are encouraged. All code should follow the [PSR-1](https://www.php-fig.org/psr/psr-1/) and [PSR-2](https://www.php-fig.org/psr/psr-2/) style guidelines. **Please include unit tests whenever possible!**
 
 ## Copyright and License
 
 This is free software, licensed under the MIT, Open Source Initiative.
 
 # Security Policy
+
+## Versioning
+
+The Security Module code uses [Semantic Versioning](https://semver.org/).
 
 ## Supported Versions
 
