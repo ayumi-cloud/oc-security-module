@@ -20,6 +20,12 @@ Feel free to add issues containing security ideas, requests and infomation.
 
 **The security code is not held in this repo - but in a private repo (being heavily developed)**
 
+=== TO DO ===
+
+> 1. List core features of module
+
+> 2. List main security features
+
 ## Transparency
 
 This project is completely transparent and honest, before we started we contacted and discussed this project with the authors and admins of the October project. We have given the links to this repo to the authors and we continue to want to be transparent throughout the whole process! We feel it's important to state this and be open. This repo is made up of one module, which is part of several other modules all dedicated to different sections of an October II proposal. Instead of writing ideas and suggestions, we have taken a pro-active approach and are actively coding a fully working solution. The code is held on private repo's because the code is being heavily developed and changed on a daily basis. We will release a stable release to the admins and authors in private for feedback before releasing to the general public. This is a long-term project and will continue to grow!
