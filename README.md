@@ -72,8 +72,6 @@ This security module uses some PSR standards to be the most interoperable possib
 
 This is free software, licensed under the MIT, Open Source Initiative.
 
-# Security Policy
-
 ## Versioning
 
 The Security Module code uses [Semantic Versioning](https://semver.org/).
@@ -103,7 +101,7 @@ When the version tag is not stable; e.g. `1.0.0-alpha`, `1.0.0-beta`, `1.0.0-dev
 
 Example:
 
-![Image of securityeg](https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/semantic.png)
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/semantic.png"></p>
 
 ## Enable the following Apache httpd modules
 
