@@ -1,0 +1,41 @@
+[Adblock Plus 3.4]
+! Title: ↖ Anti-'Custom cursors' List
+! Version: 26February2020v1-Alpha
+! Expires: 14 days
+! Description: This list aims to replace websites' custom cursors with the default OS cursor.
+! Note that any Wikia-related entries currently do not work in ABP or AdBlock, due to EasyList having a whitelisting for the nocookie.net domain that can only be circumvented with "$badfilter" or "$important", neither of which are supported by those two extensions.
+! If you encounter non-covered custom-cursor-using sites, or serious site functionality breakage, do not hesitate to tell me about it on GitHub.
+! For more information, details, helpful tools, and other lists that I've made, visit https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
+
+! https://www.new.company/
+/new_cursor.$image
+! https://amigalove.com/viewtopic.php?f=6&t=1031
+/images/pointer.
+! https://winx.fandom.com/wiki/Tecna
+/images/*/Cursor*
+@@||wikia.nocookie.net^*/images/$image,badfilter
+! https://www.muttagency.com/
+/svg/arrow-home*
+! https://contrarycon.com/
+###cursor
+! https://disney.fandom.com/wiki/Disney_Fairies
+/images/*/Mouse.png
+/Mousehover.$image
+fandom.com,wikia.org#?#a:link:style(cursor: pointer !important)
+! https://corpseparty.fandom.com/wiki/Corpseparty_Wiki
+*cursor_hover.$image
+! https://kanal.fandom.com/el/wiki/KanalWiki
+.cur/$image
+! https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy%27s_Wiki
+/CustomCursor*$image
+! https://pikmin.fandom.com/wiki/Pikmin_Wiki
+||nocookie.net/*/OnionSprite*$image
+! http://www.flockofsiegel.tv/
+/images/Cursor.
+/images/Cursor-
+! https://pawpatrol.fandom.com/wiki/Princess_of_Barkingburg
+||nocookie.net/*_cursor_*.png
+! https://kidicarus.fandom.com/wiki/Viridi
+||nocookie.net/*cursor.png^
+! https://bindingofisaac.fandom.com/wiki/The_Binding_of_Isaac_Wiki
+||i.imgur.com/eQ15Dp8.png^$domain=~imgur.com

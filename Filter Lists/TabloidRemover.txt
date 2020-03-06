@@ -1,0 +1,188 @@
+! Title: 🏗 Remover for Mainstream Tabloid and Alt-Right Sites
+! Version: 24February2020v4
+! Expires: 10 days
+! Description: This list targets international websites that clutter search engine results with misinformation, unfounded articles, and/or contempt for humanity. While designed for use with «Google Hit Hider by Domain» to remove search results, it can also be used with other domains-list tools if you want more thorough blocking of them, incl. AdGuard Home.
+! Disclaimer: This is not to be mistaken for an anti-'fake news' list. I gave up the idea of making such a list after seeing that several other such lists couldn't agree on the definition of it.
+! For more information, details, helpful tools, and other lists that I've made, visit https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
+
+# ————— Regular categories, ranked in ascending order of contempt against humanity, and (with less accuracy) descending order of mainstream acceptance —————
+
+# Mostly-far-right mainstream tabloids that clutter search engines most of all
+dailymail.co.uk
+thesun.co.uk
+express.co.uk
+mirror.co.uk
+telegraph.co.uk
+washingtontimes.com
+
+# News aggregators who include alt-right sources
+zenith.news
+theconfirmationfiles.com
+noovell.com
+mavenroundtable.io
+commonsenseevaluation.com
+
+# Far-right/alt-right popular or even semi-mainstream "newssites"
+foxnews.com
+breitbart.com
+oann.com
+washingtonexaminer.com
+infowars.com
+brasspills.com
+rightwingnews.com
+dailywire.com
+redstate.com
+conservativemedia.com
+freebeacon.com
+bigleaguepolitics.com
+libertyhub.com
+reverereport.com
+conservativefiringline.com
+thefederalist.com
+
+# Previously comedic sites that were hijacked by alt-right edgelords
+urbandictionary.com
+ifunny.co
+encyclopediadramatica.rs
+fftodayforums.com
+
+# Far-right/alt-right fringe "newssites" (non-United States)
+resett.no
+adoxa.info
+norgesavisen.no
+ektenyheter.no
+alternativ-media.com
+nyttnorge.com
+australian-news.net
+denkorteavis.dk
+friatider.se
+samnytt.se
+sian.no
+
+# Far-right/alt-right fringe "newssites" (United States)
+bitchute.com
+city-journal.org
+conservativeangle.com
+dcclothesline.com
+dcdirtylaundry.com
+discoverthenetworks.org
+envirowatchrangitikei.wordpress.com
+hardcoreconservatives.com
+huntingfishing.com
+lidblog.com
+louderwithcrowder.com
+marypatriotnews.com
+menrec.com
+momzinga.com
+mrc.org
+neonnettle.com
+newsbusters.org
+politicalcowboy.com
+proamericaonly.com
+rightwingtribune.com
+spectator.co.uk
+spectator.us
+starshipearththebigpicture.com
+thebl.com
+theblaze.com
+thenewamerican.com
+thetrumpet.com
+timmieblaze.wordpress.com
+wearebiased.com
+whatfinger.com
+ussanews.com
+teapartygear.com
+censored.today
+thegatewaypundit.com
+realitycircuit.com
+humanevents.com
+infogalactic.com
+dailyworldupdate.us
+unsilencedvoice.com
+bizpacreview.com
+nationalfile.com
+bluntforcetruth.com
+thedonald.win
+granitegrok.com
+americanpravdabook.com
+therightbloggerbastard.blogspot.com
+magafun.com
+americasfreedomfighters.com
+bb4sp.com
+breakingfirst.com
+bulletsfirst.net
+chicksonright.com
+clashdaily.com
+comicallyincorrect.com
+dailysurge.com
+deneenborelli.com
+faithit.com
+firstinfreedomdaily.com
+freedomoutpost.com
+godfatherpolitics.com
+greatamericanpolitics.com
+greatamericanrepublic.com
+hispolitica.com
+ipatriot.com
+libertyunyielding.com
+madworldnews.com
+patriotoutdoornews.com
+politichicks.com
+redmaryland.com
+shark-tank.com
+sonsoflibertymedia.com
+theblacksphere.net
+thehayride.com
+thelibertydaily.com
+thepolitistick.com
+thinkamericana.com
+truthuncensored.net
+oneangrygamer.net
+trunews.com
+thepostmillenial.com
+
+# Conspiracy sites, incl. radiation paranoids and anti-Semitic conspiracy believers
+nyhetsspeilet.no
+geopolitics.co
+onechoice.no
+stoppsmartmaalerne.no
+forum.bodybuilding.com
+globalproject.is
+vigilantcitizenforums.com
+
+# Imageboards known to be terrorist breeding grounds, and sites related to such
+boards.4chan.org
+boards.4channel.org
+find.4chan.org
+find.4channel.org
+8kun.net
+endchan.net
+jthnx5wyvjvzsxtu.onion
+enxx3byspwsdo446jujc52ucy2pf5urdbhqw3kbsfhlfjwmbpj5smdad.onion
+endchan5doxvprs5.onion
+s6424n4x4bsmqs27.onion
+neinchan.com
+boards.fireden.net
+archive.4plebs.org
+deplorablekel.com
+lurkmore.to
+archive.nyafuu.org
+
+# Neo-Nazis
+nordfront.dk
+frihetskamp.net
+altright.com
+counter-currents.com
+dailystormer.name
+dstormer6em3i4km.onion
+redice.tv
+theoccidentalobserver.net
+therightstuff.biz
+hatreon.net
+gab.com
+greenpilled.com
+
+# ————— Additional categories —————
+
+# This has to be the worst TLD I've ever seen in my life, and I say that as someone who knows that ".ooo" and ".sucks" exists.
+*.gop

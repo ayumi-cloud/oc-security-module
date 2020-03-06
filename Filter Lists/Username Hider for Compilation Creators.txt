@@ -1,0 +1,150 @@
+[Adblock Plus 3.4]
+! Version: 25February2020v1
+! Title: 🖼️ Username Hider for Compilation Creators
+! Expires: 3 days
+! Description: Are you tired of having to use Paint to remove potentially sensitive usernames, each and every time you're making a compilation of social media posts? Say no more! This list will remove posters' usernames from the biggest compilation sources, so that you can simply take a screencap and add it directly into your video/timeline!
+! If you decide to go full weirdo, you could also use this list to turn normal websites into anonymous-esque environments. But since I'm hostile to imageboards, don't expect me to condone such an act.
+! Additionally, removing usernames can help conceal sensitive identities in screencaps and printed pages, especially on PR-Chinese and Russian social sites.
+! Note: Due to me (The list maintainer) running into mental health problems after looking through heaps of horrendous "artpieces", my lists can no longer deal with deviantART or Inkbunny.
+! For more information and details about this list and of other lists of mine, go to https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
+
+! 📛 = This category requires using either Nano Adblocker or uBlock Origin.
+
+! Multi-domain
+twitter.com,discordapp.com,rule34.paheal.net##.username
+aminoapps.com,tiktok.com,douyin.com##.nickname
+tiktok.com,douyin.com,bilibili.com##.user-name
+
+! Facebook
+facebook.com,facebookcorewwwi.onion##.profileLink
+facebook.com,facebookcorewwwi.onion##.UFICommentActorName
+facebook.com,facebookcorewwwi.onion##.fcg.fwb
+b-m.facebook.com,b-m.facebookcorewwwi.onion,iphone.beta.facebook.com,iphone.facebook.com,iphone.facebookcorewwwi.onion,m.beta.facebook.com,m.facebook.com,m.facebookcorewwwi.onion,mobile.facebook.com,mobile.facebookcorewwwi.onion,mtouch.beta.facebook.com,mtouch.facebook.com,mtouch.facebookcorewwwi.onion,touch.beta.facebook.com,touch.beta.facebookcorewwwi.onion,touch.facebook.com,touch.facebookcorewwwi.onion,x.beta.facebook.com,x.facebook.com,x.facebookcorewwwi.onion##._52jd > span > strong
+b-m.facebook.com,b-m.facebookcorewwwi.onion,iphone.beta.facebook.com,iphone.facebook.com,iphone.facebookcorewwwi.onion,m.beta.facebook.com,m.facebook.com,m.facebookcorewwwi.onion,mobile.facebook.com,mobile.facebookcorewwwi.onion,mtouch.beta.facebook.com,mtouch.facebook.com,mtouch.facebookcorewwwi.onion,touch.beta.facebook.com,touch.beta.facebookcorewwwi.onion,touch.facebook.com,touch.facebookcorewwwi.onion,x.beta.facebook.com,x.facebook.com,x.facebookcorewwwi.onion##._52jd > strong
+
+! Tumblr
+tumblr.com##.post-tumblelog-name
+tumblr.com##strong > .answerer
+tumblr.com##strong > .asker
+
+! Twitter
+twitter.com##.fullname
+twitter.com##.js-user-profile-link.pretty-link
+
+! MeWe
+mewe.com##.post-author_name-role
+mewe.com##.notification_text_user
+
+! Amazon (e.g. user reviews) 📛
+amazon.*##.a-profile-name
+
+! Reddit
+reddit.com##.Comment a[href^="/user/"]
+reddit.com##.Post a[href^="/user/"]
+! Reddit in mobile browser mode
+reddit.com##.CommentHeader__username
+! Old Reddit
+reddit.com##.may-blank.author
+
+! YouTube
+youtube.com###author-text
+youtube.com###byline-inner-container
+youtube.com###owner-name
+! YouTube in mobile browser mode
+m.youtube.com##.comment-title
+m.youtube.com##.compact-media-item-byline
+m.youtube.com##.slim-owner-icon-and-title > div > h3
+! YouTube in "Disable Polymer" mode
+youtube.com##.comment-author-text
+youtube.com###watch7-user-header > .yt-user-info
+youtube.com##.attribution.stat > span
+
+! Instagram PC
+instagram.com##.notranslate
+
+! eBay 📛
+ebay.*##.review--author
+ebay.*###mbgLink
+
+! Minds
+minds.com##strong
+
+! Pornhub
+pornhub.com,pornhubthbh7ap3u.onion##.topCommentBlock > .clearfix.usernameWrap > .js-pop.usernameLink
+
+! Yahoo Answers
+answers.yahoo.com##.Clr-b.uname
+
+! Steam
+store.steampowered.com##.persona_name
+
+! Google reviews 📛
+google.*##.TSUbDb
+
+! Discord
+discordapp.com##.username-_4ZSMR
+discordapp.com##.username-1cB_5E
+discordapp.com##.anchor-3Z-8Bb
+
+! Twitch chat
+twitch.tv##.bits-leaderboard-header-first-entry__username
+twitch.tv##.bits-leaderboard-header-runner-up-entry__username
+twitch.tv##.chat-author__display-name
+twitch.tv##.chat-line__message-mention
+twitch.tv##.chat-line__username
+
+! Brainly 📛
+brainly.*,nosdevoirs.fr,eodev.com,znanija.com##div.brn-question-stream__question .sg-link--disabled.sg-link--gray.sg-link--small.sg-link
+brainly.*,nosdevoirs.fr,eodev.com,znanija.com##.brn-kodiak-answer__user
+brainly.*,nosdevoirs.fr,eodev.com,znanija.com##.sg-link--disabled.sg-link--gray.sg-link--small.sg-link > .sg-link--gray.sg-link
+
+! Imgur
+imgur.com##.comment-username
+imgur.com##.post-account
+
+! VKontakte - ВКонтакте
+vk.com##.author
+vk.com##.reply_to
+vk.com###pv_author_name
+
+! Odnoklassniki - Одноклассники
+ok.ru##.comments_author
+ok.ru##.mlr_user_i__author
+
+! Sina Weibo - 新浪微博
+weibo.com##.WB_text > a[usercard]
+weibo.com##.WB_text > * > .W_icon_yystyle
+weibo.com##.WB_text > * > .W_icon
+weibo.com##.WB_info > a[usercard]
+weibo.com##.WB_info > * > .W_icon_yystyle
+weibo.com##.WB_info > * > .W_icon
+weibo.com##.Tf_info
+
+! iFunny
+ifunny.co##.comment__nickname
+ifunny.co##.metapanel__user-nickname
+
+! Quora
+quora.com##.feed_item_answer_user
+
+! TikTok PC
+tiktok.com,douyin.com##._video_card_big_user_info_nickname
+tiktok.com,douyin.com##._video_card_big_comment_item_name
+
+! Paheal Rule34
+rule34.paheal.net##.shm-clink
+
+! Riot
+riot.im##.mx_SenderProfile
+
+! Slack
+app.slack.com##.c-message__sender
+
+! Youku - 优酷
+v.youku.com##.comment-user-info > a:first-of-type
+
+! Bilibili - 哔哩哔哩
+bilibili.com##.room-owner-username
+bilibili.com##.ex-up
+bilibili.com##.video-card-common > .up
+bilibili.com##.article-card .up

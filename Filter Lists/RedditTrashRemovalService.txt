@@ -1,0 +1,205 @@
+[Adblock Plus 3.4]
+! Title: 🎛 Reddit Trash Removal Service
+! Version: 18February2020v1-Beta
+! Expires: 3 days
+! Description: Reddit can have some good places and posts, but unfortunately 95% of it is also a large pile of echo chambers whose only equivalent is 8chan. So if you only browse Reddit for its humouristical and artistical subreddits, this list will massively help you focus on those things.
+! Some categories in this list only supports New Reddit, because let's be honest: It's so much better to be able to actually see the posts' images from the timelines, instead of having to open every single thread to see if their images are noteworthy or not.
+! For more information, details, helpful tools, and other lists that I've made, visit https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
+
+! Removes sitewide feeds from the dropdown menu, on the assumption that they contain posts from bad subreddits
+! Dropdown menu
+reddit.com###focus-All
+reddit.com###focus-OC
+reddit.com###focus-Home
+! Top navigation bar
+reddit.com###header-quicklinks-oc
+reddit.com###header-quicklinks-popular
+reddit.com###header-quicklinks-all
+reddit.com##div[role="navigation"]
+! The user feed, if I don't remember completely wrong
+reddit.com#?#ul.hover.sr-bar.flat-list > li:-abp-has(a[href*="/r/all/"])
+reddit.com#?#ul.hover.sr-bar.flat-list > li:-abp-has(a[href*="/r/popular/"])
+reddit.com#?#ul.hover.sr-bar.flat-list > li:-abp-has(a[href*="/r/random/"])
+
+! Removes hard-to-close cookie banners on Imgur embeds
+||quantcast.mgr.consensu.org$domain=reddit.com|imgur.com
+
+! Subreddits that have extremely messed-up criteria for what is considered to be banworthy
+||reddit.com/r/dankmemes^$document,domain=~ Warning shown due to: Known to ban all Europeans.
+||reddit.com/r/antifurry_irl^$document,domain=~ Warning shown due to: Known to ban all furries.
+||reddit.com/r/yiffinhell^$document,domain=~ Warning shown due to: Known to ban all furries.
+||reddit.com/r/blackpeopletwitter^$document,domain=~ Warning shown due to: Known to ban almost all whites.
+||reddit.com/r/conservative$document,domain=~ Warning shown due to: Known to ban everyone who are not ultraconservative.
+||reddit.com/r/FemaleDatingStrategy^$document,domain=~ Warning shown due to: Known to ban all men; and is suspected to be a false flag sub run by The_Donald.
+||reddit.com/r/JusticeServed^$document,domain=~ Warning shown due to: Known to ban everyone who call for police constraint
+||reddit.com/r/Republican^$document,domain=~ Warning shown due to: Known to ban everyone who are not ultraconservative.
+||reddit.com/r/PinkpillFeminism^$document,domain=~ Warning shown due to: Known to ban all men.
+||reddit.com/r/conspiracy^$document,domain=~ Warning shown due to: Known to ban everyone who believe that very real school shootings were real.
+||reddit.com/r/GamersRiseUp^$document,domain=~ Warning shown due to: Known to ban all anti-racists and anti-hardcore-gamers.
+
+! Subreddits known to condone mass-murders or the notion of such to varying degrees
+||reddit.com/r/MGTOW^$document,domain=~ Warning shown due to: Known to condone mass murdering of women.
+||reddit.com/r/The_Donald^$document,domain=~ Warning shown due to: Known to condone mass murdering of Democrats; judges; policemen; transgenders; muslims; Jews; and many other entities.
+||reddit.com/r/AntiLGBTQplus^$document,domain=~ Warning shown due to: Known to condone mass murdering of LGBTQ.
+||reddit.com/r/SubforWhitePeopleOnly^$document,domain=~ Warning shown due to: Known to condone mass murdering of black people.
+||reddit.com/r/sino^$document,domain=~ Warning shown due to: Known to condone mass murdering of anti-PR-China entities; including student protesters and Uyghurs.
+||reddit.com/r/Celouts^$document,domain=~ Warning shown due to: Known to condone mass murdering of women.
+||reddit.com/r/HardUnpopularOpinon^$document,domain=~ Warning shown due to: Known to condone mass murdering of black people and several other groups.
+||reddit.com/r/POLITIC^$document,domain=~ Warning shown due to: Known to condone mass murdering of Jews.
+||reddit.com/r/multiculturalcancer^$document,domain=~ Warning shown due to: Known to condone mass murdering of Jews.
+||reddit.com/r/IsraelExposed^$document,domain=~ Warning shown due to: Known to condone mass murdering of Jews.
+||reddit.com/r/debatealtright^$document,domain=~ Warning shown due to: Known to condone mass murdering of Jews.
+||reddit.com/r/jewishcontributions^$document,domain=~ Warning shown due to: Known to condone mass murdering of Jews.
+||reddit.com/r/TeamHeckleBerry^$document,domain=~ Warning shown due to: Known to condone mass murdering of Jews.
+||reddit.com/r/the3rdposition^$document,domain=~ Warning shown due to: Known to condone mass murdering of non-Christians.
+||reddit.com/r/AltRightChristian^$document,domain=~ Warning shown due to: Known to condone mass murdering of non-Christians.
+||reddit.com/r/kotakuinaction2^$document,domain=~ Warning shown due to: Known to condone mass murdering of non-Christians.
+||reddit.com/r/dogeright^$document,domain=~ Warning shown due to: Known to condone mass murdering of transgenders.
+||reddit.com/r/13do50^$document,domain=~ Warning shown due to: Known to condone mass murdering of Afro-Americans.
+||reddit.com/r/DefinitelyNOTboogaloo^$document,domain=~ Warning shown due to: Known to condone mass murdering of non-ultraconservatives.
+||reddit.com/r/NaziFreeMDE^$document,domain=~ Warning shown due to: Very obvious reasons.
+||reddit.com/r/KotakuInAction^$document,domain=~ Warning shown due to: Known to condone mass suicide of transgenders.
+||reddit.com/r/islamicsub^$document,domain=~ Warning shown due to: Known to condone mass murdering of apostates and LGBT.
+
+! Posts whose scores are lower than a certain amount
+! The default for all subreddits is 10 points, although this can be adjusted for a handful of subreddits whose quality levels are deemed to sharply increase with a higher or lower limit.
+reddit.com#?#.Post:-abp-has(a[data-click-id=timestamp]:not([href*="/mapswithoutnz/"])):-abp-has(button + div:-abp-contains(/^[0-9]$/))
+reddit.com#?#.Post:-abp-has(span + a[data-click-id=timestamp]:not([href*="/MapsWithoutNZ/" i])):-abp-has(span[style^="color:"]:nth-of-type(1):has-text(/^[0-9]\xA0/))
+! 5 points
+reddit.com#?#.Post:-abp-has(a[data-click-id=timestamp][href*="/mapswithoutnz/"]):-abp-has(button + div:-abp-contains(/^[0-4]$/))
+reddit.com#?#.Post:-abp-has(span + a[data-click-id=timestamp][href*="/MapsWithoutNZ/" i]):-abp-has(span[style^="color:"]:nth-of-type(1):has-text(/^[0-4]\xA0/))
+! 15 points
+reddit.com#?#.Post:-abp-has(a[data-click-id=timestamp][href*="/dontdeadopeninside/"]):-abp-has(button + div:-abp-contains(/^[0-9]$|^1[0-4]$/))
+reddit.com#?#.Post:-abp-has(a[data-click-id=timestamp][href*="/assholedesign/"]):-abp-has(button + div:-abp-contains(/^[0-9]$|^1[0-4]$/))
+! 20 points
+reddit.com#?#.Post:-abp-has(a[data-click-id=timestamp][href*="/ihadastroke/"]):-abp-has(button + div:-abp-contains(/^[0-9]$|^1[0-9]$/))
+reddit.com#?#.Post:-abp-has(a[data-click-id=timestamp][href*="/BoneAppleTea/"]):-abp-has(button + div:-abp-contains(/^[0-9]$|^1[0-9]$/))
+reddit.com#?#.Post:-abp-has(a[data-click-id=timestamp][href*="/BestOfReports/"]):-abp-has(button + div:-abp-contains(/^[0-9]$|^1[0-9]$/))
+reddit.com#?#.Post:-abp-has(a[data-click-id=timestamp][href*="/showerthoughts/"]):-abp-has(button + div:-abp-contains(/^[0-9]$|^1[0-9]$/))
+! 25 points
+reddit.com#?#.Post:-abp-has(a[data-click-id=timestamp][href*="/europe/"]):-abp-has(button + div:-abp-contains(/^[0-9]$|^1[0-9]$|^2[0-4]$/))
+
+! Posts that are too new to have been given a points score
+reddit.com#?#.Post:-abp-has(div[style^="color:"]:-abp-contains(•):not(:-abp-contains(/[a-z]/i)))
+reddit.com#?#.Post:-abp-has(span[data-click-id="metadata_comments"]):not(:-abp-has(span[data-click-id="metadata_votes"]))
+reddit.com#?#.Post:-abp-has(div[style*="-postfooter-"]):not(:-abp-has(span[data-click-id="metadata_votes"]))
+
+! Usernames that are 139% guaranteed to be trolls
+reddit.com#?#.Post:-abp-has(a[href^="/user"]:-abp-contains(/p[e3]p[e3]/i):-abp-contains(/fr[o0]g/i))
+reddit.com#?#.Comment:-abp-has(a[href^="/user"]:-abp-contains(/p[e3]p[e3]/i):-abp-contains(/fr[o0]g/i))
+reddit.com#?#.Post:-abp-has(a[href^="/user"]:-abp-contains(/kekistan/i))
+reddit.com#?#.Comment:-abp-has(a[href^="/user"]:-abp-contains(/kekistan/i))
+reddit.com#?#.Post:-abp-has(a[href^="/user"]:-abp-contains(/RedditAdmins/i))
+reddit.com#?#.Comment:-abp-has(a[href^="/user"]:-abp-contains(/RedditAdmins/i))
+reddit.com#?#.Post:-abp-has(a[href^="/user"]:-abp-contains(/j[eou][owi][w]?[sz]?/i):-abp-contains(/white/i))
+reddit.com#?#.Comment:-abp-has(a[href^="/user"]:-abp-contains(/j[eou][owi][w]?[sz]?/i):-abp-contains(/white/i))
+reddit.com#?#.Post:-abp-has(a[href^="/user"]:-abp-contains(/g[o0]y/i):-abp-contains(/wh[i1]te/i))
+reddit.com#?#.Comment:-abp-has(a[href^="/user"]:-abp-contains(/g[o0]y/i):-abp-contains(/wh[i1]te/i))
+
+! Removes the "n new posts for you" banner
+reddit.com#?#div:-abp-has(:scope > svg[viewbox="0 0 34 16"])
+reddit.com#?#div[class^=SubredditVars-r-] > div:-abp-has(:scope > svg)
+
+! Attempts to remove the "Recommended posts" feed on the bottom of almost all posts
+reddit.com#?#div[style^="max-width:"][style*="1600px"] > div > div:nth-of-type(2):-abp-has(:scope > div[data-redditstyle])
+reddit.com#?#div[tabindex] > div > div:nth-of-type(2):-abp-has(:scope > div[data-redditstyle])
+reddit.com#?#div[style^="max-width:"][style*="1600px"] > div > div:nth-of-type(2):-abp-has(div[data-redditstyle])
+reddit.com#?#div[tabindex] > div > div:nth-of-type(2):-abp-has(:scope > div > div[data-redditstyle])
+
+! Removes three specific types of comments that offer nothing to a thread apart from vapid far-out-of-place greetings
+reddit.com#?#.Comment:-abp-contains(/Happy Cake[ ]?Day/i)
+reddit.com#?#.Comment:-abp-contains(/charge your phone/i)
+reddit.com#?#.Comment:-abp-has(a:-abp-contains(/^r/chargeyourphone$/))
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/first gold/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/first silver/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/first platinum/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/first award/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/Thank/i):-abp-contains(/gold/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/Thank/i):-abp-contains(/silver/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/Thank/i):-abp-contains(/platinum/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/Thank/i):-abp-contains(/award/i)
+reddit.com#?#p:-abp-contains(/^Edit/i):-abp-contains(/Thank/i):-abp-contains(/stranger/i)
+
+! Attempts to remove the "Recommended posts" feed on the right of most posts
+reddit.com#?#div[data-redditstyle=false] + div:-abp-has(:scope > div[data-redditstyle="true"])
+
+! Let's give people a more free choice whether to use New or Old Reddit, okay?
+||styles.redditmedia.com/t5_2qimj/styles/image_widget_hosy9x86gxv11.png$image
+reddit.com#?#div[data-redditstyle=false][style]:-abp-contains(/Old Reddit/i)
+
+! Aims to prevent Imgur embeds from cutting off half the preview
+imgur.com#?#img[id=image-element][src*=imgur]:style(margin-top: 0px !important)
+
+! ————— ↓ Removes content posted by the top 10 karma hoarders ↓ —————
+
+! Comments on New Reddit
+reddit.com#?#.Comment:-abp-has(a[href="/user/GallowBoob"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/pepsi_next"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/TooShiftyForYou"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/mvea"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/SlimJones123"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/BunyipPouch"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/iBleeedorange"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/KevlarYarmulke"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/maxwellhill"])
+reddit.com#?#.Comment:-abp-has(a[href="/user/bubblr"])
+
+! Posts on New Reddit
+reddit.com#?#.Post:-abp-has(a[href="/user/GallowBoob"])
+reddit.com#?#.Post:-abp-has(a[href="/user/pepsi_next"])
+reddit.com#?#.Post:-abp-has(a[href="/user/TooShiftyForYou"])
+reddit.com#?#.Post:-abp-has(a[href="/user/mvea"])
+reddit.com#?#.Post:-abp-has(a[href="/user/SlimJones123"])
+reddit.com#?#.Post:-abp-has(a[href="/user/BunyipPouch"])
+reddit.com#?#.Post:-abp-has(a[href="/user/iBleeedorange"])
+reddit.com#?#.Post:-abp-has(a[href="/user/KevlarYarmulke"])
+reddit.com#?#.Post:-abp-has(a[href="/user/maxwellhill"])
+reddit.com#?#.Post:-abp-has(a[href="/user/bubblr"])
+
+! Comments on Old Reddit
+reddit.com#?#.entry:-abp-has(a[href*="/user/GallowBoob"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/pepsi_next"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/TooShiftyForYou"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/mvea"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/SlimJones123"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/BunyipPouch"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/iBleeedorange"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/KevlarYarmulke"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/maxwellhill"])
+reddit.com#?#.entry:-abp-has(a[href*="/user/bubblr"])
+
+! Posts on Old Reddit
+reddit.com#?#.thing[data-author="GallowBoob"]
+reddit.com#?#.thing[data-author="pepsi_next"]
+reddit.com#?#.thing[data-author="TooShiftyForYou"]
+reddit.com#?#.thing[data-author="mvea"]
+reddit.com#?#.thing[data-author="SlimJones123"]
+reddit.com#?#.thing[data-author="BunyipPouch"]
+reddit.com#?#.thing[data-author="iBleeedorange"]
+reddit.com#?#.thing[data-author="KevlarYarmulke"]
+reddit.com#?#.thing[data-author="maxwellhill"]
+reddit.com#?#.thing[data-author="bubblr"]
+
+! Comments on Reddit Mobile
+reddit.com#?#article:-abp-has(.PostHeader__author-link[href="/user/GallowBoob"])
+reddit.com#?#article:-abp-has(.PostHeader__author-link[href="/user/pepsi_next"])
+reddit.com#?#article:-abp-has(.PostHeader__author-link[href="/user/TooShiftyForYou"])
+reddit.com#?#article:-abp-has(.PostHeader__author-link[href="/user/mvea"])
+reddit.com#?#article:-abp-has(.PostHeader__author-link[href="/user/SlimJones123"])
+reddit.com#?#article:-abp-has(.PostHeader__author-link[href="/user/BunyipPouch"])
+reddit.com#?#article:-abp-has(.PostHeader__author-link[href="/user/iBleeedorange"])
+reddit.com#?#article:-abp-has(.PostHeader__author-link[href="/user/KevlarYarmulke"])
+reddit.com#?#article:-abp-has(.PostHeader__author-link[href="/user/maxwellhill"])
+reddit.com#?#article:-abp-has(.PostHeader__author-link[href="/user/bubblr"])
+
+! Posts on Reddit Mobile
+reddit.com#?#.Comment:-abp-has(.CommentHeader__username:-abp-contains(/^GallowBoob$/))
+reddit.com#?#.Comment:-abp-has(.CommentHeader__username:-abp-contains(/^pepsi_next$/))
+reddit.com#?#.Comment:-abp-has(.CommentHeader__username:-abp-contains(/^TooShiftyForYou$/))
+reddit.com#?#.Comment:-abp-has(.CommentHeader__username:-abp-contains(/^mvea$/))
+reddit.com#?#.Comment:-abp-has(.CommentHeader__username:-abp-contains(/^SlimJones123$/))
+reddit.com#?#.Comment:-abp-has(.CommentHeader__username:-abp-contains(/^BunyipPouch$/))
+reddit.com#?#.Comment:-abp-has(.CommentHeader__username:-abp-contains(/^iBleeedorange$/))
+reddit.com#?#.Comment:-abp-has(.CommentHeader__username:-abp-contains(/^KevlarYarmulke$/))
+reddit.com#?#.Comment:-abp-has(.CommentHeader__username:-abp-contains(/^maxwellhill$/))
+reddit.com#?#.Comment:-abp-has(.CommentHeader__username:-abp-contains(/^bubblr$/))

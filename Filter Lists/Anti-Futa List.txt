@@ -1,0 +1,150 @@
+[Adblock Plus 3.4]
+! Title: 👩 Anti-Futa List
+! Version: 03March2020v1-Beta
+! Expires: 3 days
+! Description: It seems to me that a common thought process on porn sites are "Hey, do you know what would've made this cute woman even sexier? I know. We should give her a dick!". Well, not anymore, thanks to this list.
+! Note that on some of these sites, such as Pixiv, quite a few futa images are uploaded without having "futa" in its title or in its search result metadata, making them practically unblockable through this method. Categories known to have significant slipthrough percentages are marked with a 🔴.
+! Note: Due to me (The list maintainer) running into mental health problems after looking through heaps of horrendous "artpieces", my lists can no longer deal with deviantART or Inkbunny.
+! For more information, details, helpful tools, and other lists that I've made, visit https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
+
+! ——— General ———
+! https://hentaifox.com/
+##.futanari
+##.dickgirl
+##.dickgirls-only
+##.dickgirl-on-dickgirl
+! https://hentaiporns.net/
+##.tag-futanari
+
+! ——— Pixiv ——— 
+!#if !env_mobile
+! New search results, image suggestions on image pages, and carousel items on image pages
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"] img[alt*="futa" i]:not([alt*="futaba" i]):not([alt*="futari" i]))
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"] img[alt*="dickgirl" i])
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"] img[alt*=lolita][alt*=" penis"])
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"] img[alt*="ふたなり"])
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"] img[alt*="フタナリ"])
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"] img[alt*="ロリ巨根"])
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"] img[alt*="후타나리"])
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"] img[alt*="扶他那裡"])
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"] img[alt*="扶他那里"])
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"] img[alt*="สาวดุ้น"])
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"] img[alt*="Футанари" i])
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"]):-abp-contains(洗脳くノ一 クラゲちゃん)
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"]):-abp-contains(Link and Zelda's Milking Session)
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"]):-abp-contains(SrCansado)
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"]):-abp-contains(Evil Jade's Take over)
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"]):-abp-contains(bosomancer)
+pixiv.net#?#li:-abp-has(a[href*="/artworks/"]):-abp-contains(FUCKHEADmanip)
+! «Discovery» page 🔴
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(Futa):not(:-abp-contains(Futari)):not(:-abp-contains(Futaba)))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(/dickgirl/i))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(ふたなり))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(StevenCarson))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(/futanari/i))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(フタナリ))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(/ futa /i))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(ふたけっと))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(squarepeg3d))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(ふた〇))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(SaintsGringo))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(SkyKliker))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(Heatheartattack))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(BadTelevision))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(/^ふた/):not(:-abp-contains(/^ふたば/)):not(:-abp-contains(/^ふたり/)))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(Rust And Bolts))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(JAJA-SINE))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(Necrobern))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(Rulean))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(BlueGirl91))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(TheeShrimp))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(Futink))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(Ztyoho))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(ちんぽどうぞ))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(（M×２エ))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(灯油ブラック))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(うねた＠skeb募集中))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(YelfTea))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(Cre3pSFM))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(ある意味三國無双))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(洗脳くノ一 クラゲちゃん))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(Link and Zelda's Milking Session))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(Evil Jade's Take over))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(SrCansado))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(bosomancer))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(후타나리))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(扶他那裡))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(扶他那里))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(สาวดุ้น))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(/Футанари/i))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption:-abp-contains(FUCKHEADmanip))
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption a[href$="?id=33680965"])
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption a[href$="?id=13626435"])
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption a[href$="?id=30919875"])
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption a[href$="?id=753859"])
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption a[href$="?id=13847"])
+pixiv.net#?#div:-abp-has(:scope > figure[style] > figcaption a[href$="?id=848248"])
+pixiv.net#?#div:-abp-has(:scope > figure > figcaption > ul > li > a:-abp-contains(/^Futa$/i))
+!#endif
+! Phone version
+pixiv.net#?#.works-item:-abp-has(img[alt*="futa" i]:not([alt*="futaba" i]):not([alt*="futari" i]))
+pixiv.net#?#.works-item:-abp-has(img[alt*="dickgirl" i])
+pixiv.net#?#.works-item:-abp-has(img[alt*=lolita][alt*=" penis"])
+pixiv.net#?#.works-item:-abp-has(img[alt*="ふたなり"])
+pixiv.net#?#.works-item:-abp-has(img[alt*="フタナリ"])
+pixiv.net#?#.works-item:-abp-has(img[alt*="ロリ巨根"])
+pixiv.net#?#.works-item:-abp-has(img[alt*="후타나리"])
+pixiv.net#?#.works-item:-abp-has(img[alt*="扶他那裡"])
+pixiv.net#?#.works-item:-abp-has(img[alt*="扶他那里"])
+pixiv.net#?#.works-item:-abp-has(img[alt*="สาวดุ้น"])
+pixiv.net#?#.works-item:-abp-has(img[alt*="Футанари" i])
+pixiv.net#?#.works-item:-abp-has(img[alt*="srcansado" i])
+
+! ——— LusciousNET ———
+luscious.net#?#.block_wrapper:-abp-contains(Futa)
+luscious.net#?#.genre-list-item:-abp-contains(Futanari)
+luscious.net##li:-abp-has(:scope > a:-abp-contains(Futa))
+
+! ——— FurAffinity ——— 🔴
+furaffinity.net#?#.t-image:-abp-contains(Futa )
+furaffinity.net#?#.t-image:-abp-contains( futa )
+furaffinity.net#?#.t-image:-abp-contains(/dickgirl/i)
+
+! ——— Rule34xxx and E621 ———
+rule34.xxx,e621.net,gelbooru.com,booru.org#?#.thumb:-abp-has(img[title*=futanari])
+rule34.xxx,e621.net,gelbooru.com,booru.org#?#.thumb:-abp-has(img[title*=" futa_"])
+rule34.xxx,e621.net,gelbooru.com,booru.org#?#.thumb:-abp-has(img[title*="1futa"])
+rule34.xxx,e621.net,gelbooru.com,booru.org,rule34.paheal.net#?#.thumb:-abp-has(img[title*=dickgirl])
+
+! ——— Paheal Rule 34 ——— 🔴
+rule34.paheal.net#?#.thumb:-abp-has(img[title*=futa])
+
+! ——— NHentai ———
+nhentai.net##div[class=gallery][data-tags^="779 "]
+nhentai.net##div[class=gallery][data-tags*=" 779 "]
+
+! ——— Hentai Haven ———
+hentaihaven.org##div[class*="brick "][class*=futanari]
+
+! ——— Pornhub ———
+pornhub.com,pornhubthbh7ap3u.onion#?#.videoblock:-abp-has(a[data-title*="Futanari" i])
+
+! ——— Hentaiporns.net ———
+hentaiporns.net#?#.tag-cloud-link:-abp-contains(futanari)
+
+! ——— Reddit ———
+reddit.com#?#.Post:-abp-has(a[href="/r/futanari/"])
+reddit.com#?#.Post:-abp-contains([Futa])
+||reddit.com/r/futanari$document
+
+! ——— Booru.org ———
+||futabooru.booru.org^$document
+
+! ——— KissHentai ——— 🔴
+kisshentai.net#?##subcontent > div > div:-abp-contains(Futanari)
+kisshentai.net##a[href="/Genre/Futanari"]
+kisshentai.net##a[href="/Genre/Futanari"] + br
+
+! ——— 9Hentai ——— 🔴
+9hentai.com#?#.tag-list li:-abp-has(a[href^="/t/"]:-abp-contains(/Dickgirl/i))
+9hentai.com#?#.tag-list li:-abp-has(a[href^="/t/"]:-abp-contains(/Futanari/i))

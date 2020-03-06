@@ -1,0 +1,278 @@
+[Adblock Plus 3.4]
+! Title: 🚪 Browse websites without logging in
+! Version: 25February2020v1
+! Expires: 3 days
+! Description: Are you tired of being nagged on by websites, that say "Log in to read more"? With this list, you'll be much less nagged on from now own.
+! For more information and details about this list and other lists of mine, visit https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
+!#include uBO%20list%20extensions/BrowseWebsitesWithoutLoggingIn-uBOExtension.txt
+
+! ↪️ = This category requires Redirector (https://einaregilsson.com/redirector/) and a related entry in Dandelion Sprout's Redirector List (https://github.com/DandelionSprout/adfilt/tree/master/Dandelion%20Sprout-s%20Redirector%20Assistant%20List) for the best results.
+! 📛 = This category requires using either Nano Adblocker or uBlock Origin for the best results.
+! 🌇 = One has to begin to browse the sites in this category from a content page, and not from the front page.
+! 🔨 = This category's entries are know to also break intentional login boxes for that site. Such entries may not be transferred to "uBlock Filters - Annoyances".
+! 📠 = Rejected from "uBlock Filters - Annoyances" and similar lists due to their content or dependencies.
+
+! ——— Multi-domain ———
+##.onp-sl-inner-wrap
+##.onp-sl-outer-wrap
+##.onp-sl-social-buttons
+##.onp-sl-overlap-background
+##.onp-sl-overlap-box
+! Pinterest (🔨?)
+||smartlock.google.com/iframe/request?client=http$subdocument
+! Autosport 📠
+||blueconic.net$third-party
+! Bay City Tribune
+/art/tncms/subscription.js
+
+! Aims to remove blurs of article previews
+##.Article-header-body:before
+##.paywall-fade
+##.article-container.locked:after
+##.card.stopsign__article.stopsign:before
+##.faded-article-content:after
+
+! Facebook 🌇🔨
+! https://touch.facebook.com/Sonic/
+!! Removes the login bars
+b-m.facebook.com,b-m.facebookcorewwwi.onion,iphone.beta.facebook.com,iphone.facebook.com,iphone.facebookcorewwwi.onion,m.beta.facebook.com,m.facebook.com,m.facebookcorewwwi.onion,mobile.facebook.com,mobile.facebookcorewwwi.onion,mtouch.beta.facebook.com,mtouch.facebook.com,mtouch.facebookcorewwwi.onion,touch.beta.facebook.com,touch.beta.facebookcorewwwi.onion,touch.facebook.com,touch.facebookcorewwwi.onion,x.beta.facebook.com,x.facebook.com,x.facebookcorewwwi.onion###mobile_login_bar
+! Removes the remnants of a login banner
+b-m.facebook.com,b-m.facebookcorewwwi.onion,iphone.beta.facebook.com,iphone.facebook.com,iphone.facebookcorewwwi.onion,m.beta.facebook.com,m.facebook.com,m.facebookcorewwwi.onion,mobile.facebook.com,mobile.facebookcorewwwi.onion,mtouch.beta.facebook.com,mtouch.facebook.com,mtouch.facebookcorewwwi.onion,touch.beta.facebook.com,touch.beta.facebookcorewwwi.onion,touch.facebook.com,touch.facebookcorewwwi.onion,x.beta.facebook.com,x.facebook.com,x.facebookcorewwwi.onion###u_0_25._4b-b
+
+! Nijie ↪️📛📠
+!! Removes the login prompt above the images
+nijie.info##.nijie_regist
+nijie.info##.warning_illust
+nijie.info##.twit-button
+
+! Washington Post 📠
+||news.google.com/*/swg.js$script,domain=washingtonpost.com
+
+! Cricket Archive 📠
+||my.cricketarchive.com/action/public/vo/pigeon-server
+
+! Onet Zapytaj
+! https://github.com/DandelionSprout/adfilt/issues/7#issuecomment-520486904
+! Removes a (relatively friendly) account creation box
+zapytaj.onet.pl##.know-better-answer
+
+! Instagram
+! https://github.com/DandelionSprout/adfilt/issues/7#issuecomment-534171953
+! Removes a login overlay
+instagram.com###fb-root + div[role="presentation"]
+
+! SpanishDict
+! https://github.com/DandelionSprout/adfilt/issues/7#issuecomment-559903607
+! Removes a one-time account creation prompt
+spanishdict.com#?#.ReactModal__Overlay:-abp-has(video[src$="/bloom2.mp4"])
+
+! Die Zeit 📛
+! Makes the official article previews fully visible
+! https://www.zeit.de/2020/06/alfred-bauer-filmbuerokratie-nationalsozialismus-berlinale
+zeit.de#?#.paragraph--faded:style(overflow: visible !important)
+zeit.de#?#.paragraph--faded:before:style(background-image: none !important)
+zeit.de#?##paywall:style(top: 250px !important)
+
+! ScienceDirect
+! Removes a sudden, immediate and somewhat large account creation prompt
+! https://www.sciencedirect.com/topics/computer-science/network-connection
+sciencedirect.com##.usabilla__overlay
+
+! ——————————————————————————————————————————————————————————————————————
+
+! Below are entries that I borrowed from «Strappazzon's Annoyances filter list», which is maintained by https://github.com/Strappazzon at https://raw.githubusercontent.com/Strappazzon/filterlists/master/Filterlists/Annoyances.txt, and which is licenced under MIT.
+! Amazon
+!! "Sign In" hint 📛
+amazon.*##.nav-flyout.nav-signin-tt
+! Trello
+!! "Try Trello - It's Free" overlay
+trello.com##.soft-block-overlay.window-overlay
+!! "Sign Up" banner
+trello.com##.mod-warning.header-banner
+! Spotify
+!! Sign Up banner
+open.spotify.com##.Root__now-playing-bar > .now-playing-bar-container > ._2xTC2WcXRpmoZBliqieiS9
+open.spotify.com##.Root__now-playing-bar > .now-playing-bar-container > ._2UzxvZHwCBmRIowVNIeNvU
+! Medium
+!! Sign Up nag (overlay)
+medium.com,hackernoon.com##.overlay--light.overlay
+
+! ——————————————————————————————————————————————————————————————————————
+
+! Below are entries that I borrowed from «Membership App List», which is maintained by https://github.com/jasonbarone at https://raw.githubusercontent.com/jasonbarone/membership-app-block-list/master/membership-app-block-list.txt, and which is believed to not have stated a licence nor copyright. 📠
+
+! Tinypass app blocking filters
+cdn.tinypass.com*
+
+! SentryLogin app blocking filters
+sentrylogin.com/sentry/scripts/*
+##.Sentry_blanket
+###SentryOverlay
+
+! MyMemberspace app blocking filters
+mymemberspace.com/assets/api/*
+cdn.mymemberspace.com/*
+cdn.memberspace.com/*
+memberspace.com/member*
+###__memberspace_modal_protected_page
+###__memberspace_modal_container
+###__memberspace_modal_background
+###__memberspace_memberlogin_button
+###__memberspace_modal_iframe
+
+! MembershipWorks app blocking filter
+cdn.membershipworks.com*
+
+! ——————————————————————————————————————————————————————————————————————
+
+! Below are entries that I borrowed from «AdblockFilters», which is maintained by https://github.com/brettzink at https://raw.githubusercontent.com/brettzink/AdblockFilters/master/filters.txt, and which is believed to not have stated a licence nor copyright.
+! Courier 📠
+||findlaycourier-oh-pw.newsmemory.com/?meter
+
+! ——————————————————————————————————————————————————————————————————————
+
+! Entries below are fixed in «uBlock Filters - Annoyances» as of the 12th of July 2019, but are also in this list to serve minimal-setup and ABP users.
+
+! Facebook
+!! Removes the main login prompt when browsing an account's timeline
+facebook.com,facebookcorewwwi.onion##._5hn6
+!! Attempts to remove the "Not logged in" dialog window that shows up further down on the timelinw
+facebook.com,facebookcorewwwi.onion##.generic_dialog_modal.pop_dialog
+
+! Twitter
+! Removes the "Aren't you on Twitter??" prompt in the upper right of user timelines
+! https://twitter.com/nasuno_Posi
+twitter.com##.js-signup-call-out
+
+! Twitter Mobile
+!! Aims to remove the login overlay prompt when browsing down an account's timeline
+mobile.twitter.com##.rn-13w96dm
+mobile.twitter.com##.rn-1kihuf0.rn-1awozwy
+! https://mobile.twitter.com/nasuno_Posi
+!! Removes the "Are you new on Twitter?" banner in the upper right of user timelines (Screen area has to be ≥~1400px wide)
+mobile.twitter.com##div[data-testid="sidebarColumn"] section[aria-label][role="region"]
+
+! Pinterest ↪️📛🌇 (Fixed in "uBlock Filters - Annoyances", except for the Redirector portion of it)
+! For very important notes about Pinterest, see https://github.com/DandelionSprout/adfilt/issues/26.
+!! Removes the login prompt when browsing down on a page
+pinterest.*##div[data-test-id="giftWrap"]
+!! Removes the login prompts when opening the "Full page modal scroller" (Which was very hard to do without removing the intentional login prompt)
+pinterest.*##div[class="Closeup__wrapper"] > div > div[style^="cursor: default"]
+pinterest.*##.Hsu.iyn.zI7:nth-of-type(2) > div > .FullPageModal__scroller
+!! Removes the "Open" overlay on images, so that their raw versions can more easily be opened
+pinterest.*##.GrowthUnauthPinImage > a > div[class^="Jea"]:has(button[class^="noButtonStyles "])
+pinterest.*##div[class="GrowthUnauthPinImage__imageDim"]
+
+! Opera Add-Ons
+!! Removes fullscreen prompt about installing Opera
+addons.opera.com###overlay
+
+! Deezer
+!! Removes login prompt
+deezer.com###modal_login:nth-ancestor(2)
+
+! Instagram
+! https://github.com/DandelionSprout/adfilt/issues/25
+!! Removes the bottom login banner
+instagram.com#?#.ZUqME:-abp-has(a[href^="/accounts/emailsignup/"])
+! (Note to self: If this entry ceases to work, replace it with "instagram.com#?#div[class*=" "]:-abp-has(> div > div > div > a[class][href^="/accounts/emailsignup/"])", as per https://github.com/DandelionSprout/adfilt/issues/25#issuecomment-458347604.)
+
+! Ooopic
+!! Removes uncloseable login prompt
+ooopic.com###public-mask-login
+
+! Stack Exchange and related sites
+!! Removes the "Here's how it works" banner at the top
+stackexchange.com,askubuntu.com,serverfault.com,superuser.com,mathoverflow.net,stackapps.com#?#.js-dismissable-hero:-abp-contains(Sign up)
+
+! Mr. Food
+!! Removes an uncloseable newsletter prompt
+mrfood.com###newsletterSignUpDivAnime
+mrfood.com###viewportGreyout
+mrfood.com##.in-content-container-coverage
+
+! The Clever
+!! Removes a large and invisible banner on very tall monitors that prevents clicking on parts of the page
+theclever.com###overlay_search
+
+! thredUP
+!! Removes uncloseable login prompt that randomly appears after browsing between 2 or 3 pages
+thredup.com##.modal-underlay
+thredup.com##.redux-modal
+
+! Quizlet 📛
+!! Makes all the flashcards on the vertical list visible
+!! It appears to me that all flashcards are viewable upon entering their fullscreen mode
+quizlet.com##.SignupWallInline-overlay
+
+! Feedspot
+!! Removes an uncloseable login prompt
+feedspot.com##.blackout
+feedspot.com##.regoverlay
+feedspot.com##.mfp-container
+feedspot.com##.fadeIn.animated
+feedspot.com##.fixedBar
+
+! VolunteerMatch
+!! Removes an uncloseable login prompt
+volunteermatch.org###window_overlay
+volunteermatch.org###req_login_reg_interrupt
+
+! Be Pro Be Proud
+!! Removes a login prompt that for some reason takes you back to the top of the page if you try to click on its X button
+beprobeproud.org##.movement-popup
+
+! Bēhance
+! https://github.com/DandelionSprout/adfilt/issues/30
+! Removes a small login modul in the lower right
+behance.net##.Popup-popup-T3F
+
+! Zulily
+! https://www.zulily.com/e/sew-on-and-sew-forth-338868.html
+!! Aims to remove the forced login overlay, without breaking the login button in the upper right
+!#if !ext_ublock
+zulily.com###loginModal[aria-hidden="false"]:not([aria-describedby="subtitle-signin"])
+!#endif
+
+! The Australian Frequent Flyer
+! https://www.australianfrequentflyer.com.au/community/whats-new/latest-activity
+! Removes a login info banner on the top of some pages
+australianfrequentflyer.com.au##.focus-guest-alert.focus-guest
+
+! FM.to
+! https://github.com/DandelionSprout/adfilt/issues/7#issuecomment-483040002
+! Removes an uncloseable login nag that occurs after 30sec
+fm.to###popup_guest
+fm.to##.modal-backdrop
+! Removes an uncloseable login nag that occurs when clicking on a song's info button 🔨
+fm.to##.modal-content
+fm.to###loginModal
+fm.to##.blockOverlay.blockUI
+
+! MySQL
+! https://dev.mysql.com/downloads/file/?id=486042
+dev.mysql.com##.login-callout
+
+! YouTube
+! https://github.com/DandelionSprout/adfilt/issues/32#issuecomment-482908407
+! Removes a relatively large login nag module
+m.youtube.com###mealbar\:3 > ytm-mealbar.mealbar-promo-renderer
+! https://new.reddit.com/r/uBlockOrigin/comments/bet7iu/
+! Removes a short-lasting note about being logged off
+youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
+
+! ——————————————————————————————————————————————————————————————————————
+
+! Entries below are fixed in other lists that are included in uBO as of the 2nd of March 2019, but are also in this list to serve minimal-setup and ABP users.
+
+! GitHub (Fixed in "AdGuard Annoyances filter" and "Fanboy's Annoyance List")
+github.com##.signup-prompt
+
+! InvestingCOM (Fixed in "AdGuard Annoyances filter")
+! https://github.com/DandelionSprout/adfilt/issues/33
+! Removes a login popup that shows up the first time the site is visited
+investing.com###PromoteSignUpPopUp
+
+! Reverso Context (Fixed in "AdGuard Annoyances filter")
+! Removes a small login prompt in the bottom left
+context.reverso.net###register-popup-bottom

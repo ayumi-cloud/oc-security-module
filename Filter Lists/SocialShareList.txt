@@ -1,0 +1,398 @@
+[Adblock Plus 3.4]
+! Title: 🐐 Dandelion Sprout's Lightweight Anti-'Social share' List
+! Version: 03March2020v1-Alpha
+! Expires: 3 days
+! Description: This list aims to achieve pretty broad (if not overly broad) coverage of social sharing buttons, with perhaps 1/50th~1/100th as many entries as what the biggest anti-'social button' lists out there have.
+! Note: This list does not intentionally try to remove links to websites' social accounts, or to third-party logins. However, there currently will be many de facto false positives that end up removing such buttons as well.
+###add_like_bar
+###batchsdk-ui-alert
+###btn-send-fb
+###ctoolbar
+###diaspora-button-container
+###divShare
+###fb-share
+###fb_share
+###likebuttons
+###mashfbar-header
+###new-social-share
+###p-sharing
+###pinterest
+###rail-share-bar
+###share-buttons
+###share-tool
+###share-unit
+###share_container
+###sharebar
+###ShareEntryPoint
+###sharingfooter
+###social_buttons
+###ss-floating-bar
+###story-socials
+###tell-a-friend
+###top_share
+##.addthis_counter
+##.addtoany_content
+##.addtoany_list
+##.album-dialog__image-share
+##.article__share
+##.basicsSocialActions-socialIcons
+##.blog-post-single-share
+##.btn--facebook
+##.btn-facebook-like
+##.btn-google-plus
+##.btn-messenger
+##.btn-share
+##.btn-tweet
+##.btn-twitter
+##.button--share
+##.button__facebook
+##.button__instagram
+##.button__linkedin
+##.button__twitter
+##.c-article__byline-social
+##.c-share-tools
+##.dre-share-band
+##.et_social_icons_container
+##.facebook-like-box
+##.facebook-messenger-share
+##.facebook-share
+##.facebook-share-button
+##.facebook[href*="/sharer/"]
+##.facebook_top
+##.fb-like-box
+##.fb-page-plugin
+##.fbbsb-button
+##.figure-share
+##.floating-share-bar
+##.follow
+##.follow_like_module
+##.footerSocial
+##.Gallery-Share
+##.googleplusshare
+##.heateor_sss_sharing_container
+##.i-more-share
+##.icon--facebook
+##.icon--twitter
+##.jw-sharing-icon
+##.like_facebook
+##.linkedinShare
+##.loader-container.shares
+##.mashsb-box
+##.news-share-link
+##.news_share
+##.pinterest-share
+##.post_social
+##.product-sharing
+##.recentsocial
+##.reddit_share-button
+##.sbtn_main
+##.sc-1bdg1q0-0
+##.share
+##.share-actions
+##.share-bar
+##.share-bottom
+##.share-btns
+##.share-button
+##.share-facebook
+##.share-fb
+##.share-icon
+##.share-it
+##.share-item-plus
+##.share-link.js-require-widget
+##.share-linkedin
+##.share-list
+##.share-metas
+##.share-nw
+##.share-other
+##.share-pinterest
+##.share-reddit
+##.share-social
+##.share-telegram
+##.share-this
+##.share-toggle
+##.share-toolbar
+##.share-tools
+##.share-top
+##.share-tumblr
+##.share-twitter
+##.share-twttr
+##.share-whatsapp
+##.share__list
+##.share_area
+##.share_btn
+##.share_icon_area
+##.Share_Icons
+##.share_toggle
+##.shareBar
+##.shareBottom
+##.sharebtns
+##.shareit
+##.sharethis-wrapper
+##.sharetools
+##.shariff-button
+##.sharing
+##.sharing-btn
+##.sharing-container
+##.sharing-item
+##.sharing-tools
+##.sharing.social
+##.shr.btn
+##.sns
+##.soc-list
+##.social-action[test-id*=facebook]
+##.social-btns
+##.social-footer
+##.social-icon
+##.social-share
+##.social-share-sidebar-component
+##.social-sharing-buttons
+##.social-widget
+##.social-wrap
+##.social_buttons
+##.social_media
+##.social_share
+##.socialbuttons
+##.socialmedia
+##.socialmedia-btns
+##.socialShareContainer
+##.ssba
+##.ssk-group
+##.twit_share_button
+##.twitter-share
+##.twitter[href*="/share?"]
+##[app=addtoany]
+##[data-flip-widget=shareflip]
+##[socialshare]
+##a[class$=sharebtn]
+##a[class$=social_share]
+##a[class*="ShareButton" i]
+##a[class*="socialshare" i]
+##a[class*=-sharing-popup]
+##a[class*=-socials__item]
+##a[class*=BtnShare]
+##a[class*=google_plus_share]
+##a[class*=share-facebook]
+##a[class*=share__button]
+##a[class*=social-share]
+##a[class="facebook" i][title="Share this"]
+##a[class^="socialbutton" i][onclick*="window.open"]
+##a[class^=addthis_button]
+##a[class^=pagetools][class*=icon--twitter]
+##a[class^=pinterest-save]
+##a[class^=share_btn]
+##a[data-ga-event-action^="share:"]
+##a[data-pin-do=buttonPin]
+##a[data-share$="Facebook" i]
+##a[data-ss-ss-type]
+##a[data-type=sharing-button]
+##a[href*="/share-newsletter/"]
+##a[href*="/social_plugins/share"]
+##a[href*="://plus.google.com/share?url="]
+##a[href*=share-tools]
+##a[href^="/sharer/sharer.php?"] > button[type=submit]
+##a[id*=share-][id*=-button]
+##a[id^=share_btn]
+##a[onclick^="var share"]
+##a[onmouseover^="return addthis_open"]
+##a[title="Share on Facebook" i]
+##a[title="Share on LinkedIn" i]
+##a[title="Share on Pinterest" i]
+##a[title="Share on Reddit" i]
+##a[title="Share on Tumblr" i]
+##a[title="Share on Twitter" i]
+##a[title="Share on WhatsApp" i]
+##a[title="Share on VKontakte" i]
+##a[title="Share on Telegram" i]
+##a[title="Share on Baidu" i]
+##a[title^="Share to "]
+##amedia-share
+##amp-social-share
+##button[data-a-target^=share]
+##button[data-fatal-attraction*=":share"]
+##button[ng-click^=shareOn]
+##button[title^="Share this "]
+##div[button=share]
+##div[class$=-share-single]
+##div[class$=share-buttons]
+##div[class*="facebookShare" i]
+##div[class*="FooterShare" i]
+##div[class*="ShareButton" i]
+##div[class*="sharethisbutton" i]
+##div[class*=-share-buttons]
+##div[class*=_share_button]
+##div[class*=addthis]
+##div[class*=article-share]
+##div[class*=box--share]
+##div[class*=fb-share]
+##div[class*=footer__share]
+##div[class*=iconShare]
+##div[class*=lp_sharing]
+##div[class*=post-sharing]
+##div[class*=share-article]
+##div[class*=share-box]
+##div[class*=sharer-tool]
+##div[class*=shareToolbar]
+##div[class*=social-bar__sharing]
+##div[class*=social-panel]
+##div[class*=social-share]
+##div[class*=social][class*=sharing]
+##div[class*=social_sidebar]
+##div[class*=social_slide]
+##div[class*=socials-share]
+##div[class="instagram-Share" i]
+##div[class="instagram_Share" i]
+##div[class="instagramShare" i]
+##div[class="socialshare" i]
+##div[class="twitterShare" i]
+##div[class^="fbshare" i]
+##div[class^="share-button" i]
+##div[class^=container_NotificationsBanner_]
+##div[class^=icon-share-]
+##div[class^=share-options]
+##div[class^=share-toolbar]
+##div[class^=shareLinks]
+##div[class^=social-like]
+##div[class^=social-media-container]
+##div[class^=twittshare]
+##div[data-aop^=sharingtoolbar]
+##div[id$=_sharethis]
+##div[id^=sthoverbuttons]
+##div[pw\:twitter-via]
+##h2[class*=share-links]
+##h4[class*=social-share-label]
+##ksf-sharing
+##label[for*=ShareModal]
+##li[aria-label=facebook]
+##li[class*=link_facebook]
+##p[class^=del-artikel]
+##share-grid
+##span[class*="ShareButton" i]
+##span[class*=share-icon]
+##span[class^=share_btn]
+##span[data-lnkd-debug]
+##ul[class*=-share-buttons]
+##ul[class^=share-action]
+##ul[class^=sociale-ikoner-del]
+*/share-newsletter/
+/images/social-share/
+/pinitbtn.$image
+/share/*-icon.png$image
+/sharing/facebook.$image
+/sharing/reddit.$image
+/sharing/stumbleupon.$image
+/sharing/twitter.$image
+~allrecipes.com##div[class*=sharebar]
+~facebook.com,~facebookcorewwwi.onion##.btn[href*="facebook.com/sharer/"]
+~facebook.com,~facebookcorewwwi.onion##a[href*="facebook.com/dialog/feed"]
+~facebook.com,~facebookcorewwwi.onion##a[href*="facebook.com/dialog/share?"]
+~facebook.com,~facebookcorewwwi.onion##a[href*="facebook.com/share.php?u=http"]
+~facebook.com,~facebookcorewwwi.onion##a[href*="facebook.com/sharer.php"]
+~facebook.com,~facebookcorewwwi.onion##a[href*="facebook.com/sharer/sharer.php?u=http"]
+~facebook.com,~facebookcorewwwi.onion##a[data-popup-url*="facebook.com/dialog/share?"]
+~flipboard.com##a[href*="://share.flipboard.com/bookmarklet/popout?"]
+~linkedin.com##a[href*="linkedin.com/shareArticle?"]
+~mewe.com##button[class*=share-button]
+~mewe.com##div[class*=share-link]
+~pinterest.*##.pinterest[href*="/pin/create/"]
+~pinterest.*##a[class$=share-pinterest]
+~pinterest.*##a[href*="pinterest"][href*="/pin/create/b"]
+~reddit.com##a[href*="://www.reddit.com/submit?"]
+~tecmint.com,~ostechnix.com##.share
+~tidssonen.no##div[class*=share-container]
+~tumblr.com##a[href*="tumblr.com/share/"]
+~tumblr.com##a[href*="tumblr.com/widgets/share/"]
+~twitter.com##a[class$=share-twitter]
+~twitter.com##a[class="twitter" i][title=Tweet]
+~twitter.com##a[href*="twitter.com/home?status="]
+~twitter.com##a[href*="twitter.com/intent/tweet?"]
+~twitter.com##a[href*="twitter.com/share?text="]
+~twitter.com##a[href*="twitter.com/share?url="]
+~twitter.com##a[href^="t.me/share/url"]
+~vk.com##a[href*="/vk.com/share.php"]
+~whatsapp.com##[href^="whatsapp://send"]
+~whatsapp.com##a[href*="api.whatsapp.com/send?"]
+|whatsapp://send$domain=~whatsapp.com
+||addthis.com/static/btn/sm-share*.gif
+||apis.google.com/*/+1/fastbutton$subdocument
+||assets.pinterest.com/js/pinit*^
+||facebook.com/*/plugins/share_button.php?app_id$subdocument
+||facebook.com/*lugins/like.php$subdocument
+||facebook.com/plugins/page.php$subdocument
+||facebook.com/plugins/share_button$subdocument
+||linkedin.com/shareArticle$third-party
+||lists.malwarepatrol.net/images/searchbg.gif$image
+||platform.twitter.com/widgets/follow_button$subdocument
+||platform.twitter.com/widgets/tweet_button$subdocument
+||share.*.*^$image
+||sharing.*.*^$image
+||social-plugins.line.me/widget/share?url=$subdocument
+||softwareok.com/img/i_like_this.png?$image
+||tumblr.com/share/$third-party
+||twitter.com/share$third-party
+||widgets.getpocket.com/v1/button?label=pocket$subdocument
+||ws.sharethis.com^$third-party
+||yastatic.net/share/*-icon.*
+##.SocialArticleIcons
+##div[id^=dpsp-]
+###share_bar
+##button[class^=share-module__share]
+##.share-icons
+##.social-sharing
+##.twitter_share
+##.facebook_share
+##.shareToggle
+~twitter.com##a[title="Tweet this post"]
+~facebook.com,~facebookcorewwwi.onion##a[title="Share this post on Facebook"]
+##.share-before
+##.share-after
+##a[onclick*="plus.google.com/share?"]
+##a[onclick*="pinterest.com/pin/create/"]
+~twitter.com##a[onclick*="twitter.com/share?"]
+~facebook.com,~facebookcorewwwi.onion##a[onclick*="facebook.com/sharer.php?"]
+##.sharing-links
+##button[class*="ShareOverlayButton" i]
+##div[data-hook=social-sharing]
+
+! NOT allowed to be generic
+pastebin.com##.h_800.tweet
+vox.com##.c-social-buttons
+hardreset.info###modal-facebook
+hardreset.info##.modal-backdrop
+180.*##.social
+liberaldictionary.com##.share-post
+tass.com##.social__button
+ikea.com##.social-media-bar__content
+pixivision.net##._floated-bottom-bar
+telesign.com##.share-area
+kickstarter.com##.bttn-facebook
+
+! For sites that have $generichide
+e24.no##.article-share
+ekstrabladet.dk##label[for*=ShareModal]
+eurogamer.net##.social
+vg.no##button[aria-label*=Facebook]
+tomshardware.co.uk##.share-bar
+knowyourmeme.com##a[class^=pinterest-save]
+racefans.net##.sd-social
+
+! Circumventing Artstation's use of "Display: block !important"
+artstation.com##button[ng-click]
+
+! Disqualified entries due to breakage of regular social links (Example site)
+!!! ##.social (gulesider.no, plannedparenthood.org)
+!!! ##.fa-facebook
+!!! ##.fa-instagram
+!!! ##.fa-linkedin
+!!! ##.fa-twitter
+!!! ##.social-icons (shared.com)
+!!! ##.btn-facebook (https://scrybs.com/en/auth/)
+!!! ##.facebook (https://www.transifex.com/user/settings/social/)
+!!! ##.twitter (https://www.transifex.com/user/settings/social/)
+!!! ##.fb_iframe_widget:not(.fb-post):not(.fb-login-button):not(.fb-comments) (There were simply too many excemption criteria that I'd have to find and add)
+!!! ##a[onclick*="reddit" i] (https://gizmodo.com/these-are-the-10-most-hated-reddit-posts-of-all-time-1785954923)
+!!! ##.linkedin (edbpriser.dk)
+!!! ##ul[class*="social-bar"] (wannabemagazine.com)
+!!! ##div[class*="social-buttons"] (tara.se)
+!!! ##div[class*="share-content"] (https://onsizzle.com/i/introducing-hoofshoes-imagine-horsing-around-in-these-beauties-%F0%9F%90%B4%F0%9F%90%90-91a5f7675ffa4a80b5b34be6e9edead4)
+!!! ##.social-links (https://highonandroid.com/android-smartphones/how-to-root-galaxy-s9-s9-on-android-9-0-pie/)
+!!! ##ul[class*=-soc-list] (zidbits.com)

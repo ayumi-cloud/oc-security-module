@@ -1,0 +1,70 @@
+[Adblock Plus 3.4]
+! Title: 💐 Anti-'Awful comments' list
+! Version: 03March2020v1-Beta
+! Expires: 7 days
+! Description: This is a somewhat alternate approach to the usual anti-comment-section lists, as this list only removes those comment sections that are filled with exceptionally bad comments.
+! Note: Out of sheer massive spite against how some newssites deliberately run userpolls on the most contentious articles and only those articles, this list also targets such userpolls now.
+! For more information, details, helpful tools, and other lists that I've made, visit https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#english
+
+! Multi-site entries
+###hot-network-questions
+vg.no,youtube.com,e621.net,ghacks.net,en.greatfire.org,nintendolife.com,thejournal.ie,invidio.us,kgg2m7yk5aybusll.onion,axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion,174.138.43.128###comments
+itavisen.no,norwegian.com,nrk.no,p3.no,squawker.org###disqus_thread
+||cmmnts.i.bt.no$subdocument
+
+! Disqus embeds
+! https://myip.ms/info/limitexcess
+*##.post-list > .post:has-text(/Best girls webcam/i)
+
+! Single-site entries
+color-hex.com##.txtgray
+color-hex.com##.well-sm.well.commentcontainer
+color-hex.com##a[href="#comments"]
+dinside.no##.comment-section
+extra-leker.no###y-badges
+extra-leker.no##.carousel-display-wrapper.yotpo-display-wrapper
+extra-leker.no##.hide-for-small-only.top-notice
+extra-leker.no##.scroller
+lalaloopsyland.fandom.com###WikiaArticleFooter
+nrkbeta.no##.commentlist
+nrkbeta.no##.comments-anchor
+nrkbeta.no##.nrkbeta-comments-post
+nrkbeta.no##a[href*="comments-"]
+p3.no###fp_recentdisqus
+rule34.paheal.net###commentlistrecent
+theregister.co.uk##.story_img_wrap > .comments > .count
+variety.com###article-comments
+variety.com##.c-button--reply.c-button
+variety.com##.c-nav__item.menu-item-1202570278.menu-item-object-vertical.menu-item-type-taxonomy.menu-item
+variety.com##.c-nav__sub-item.menu-item-1202570401.menu-item-object-vertical.menu-item-type-taxonomy.menu-item
+youtube.com###watch-discussion
+youtube.com##ytd-live-chat-frame
+m.youtube.com##ytm-comment-section-renderer
+||youtube.com/live_chat_fragments_ajax?$xmlhttprequest
+||youtube.com/comment_service_ajax?$domain=youtube.com
+invidious.*.*###comments
+||nrkbeta.no/wp-content/themes/nrkbeta_2016/images/comment_bubble.jpg$image
+presstv.com##.item-comments
+facebook.com#?#div[class*="ImageBlockContent"] .clearfix:-abp-contains(↓↓↓↓COPY)
+facebook.com#?#div[class*="ImageBlockContent"] .clearfix:-abp-contains(/job online from home/i)
+facebook.com#?#div[class*="ImageBlockContent"] .clearfix:-abp-contains(/online work from home/i)
+facebook.com#?#div[class*="ImageBlockContent"] .clearfix:-abp-contains(/working from home by doing/i)
+nintendolife.com##.ui-comments
+nintendolife.com###reply
+globalnews.ca##.l-main__comments
+cbc.ca##.commentsWrapper
+||disqus.com/embed/comments/?*%2Few.com%2F$subdocument
+||disqus.com/embed/comments/?*f=einaregilsson&t_i=redirector$subdocument
+commonsensemedia.org##.pane-reviews-user-reviews
+commonsensemedia.org##.pane-user-review-statistics
+city-countyobserver.com###comments
+pastebin.com###content_right
+tv2.no##.dilemma
+ign.com###disqus
+rule34.xxx##div[id^=c][style="display:inline;"]
+tv2.dk##.t2toolbox-list-voting
+tv2.dk##.t2toolbox-live-poll
+pixiv.net#?#.N1ZIOon:-abp-contains( her place)
+pixiv.net#?#.N1ZIOon:-abp-contains( their place)
+pixiv.net#?#.N1ZIOon:-abp-contains(slowly suffocate)
+jyllands-posten.dk##article-facebook-comments
