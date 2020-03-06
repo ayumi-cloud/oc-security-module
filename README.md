@@ -20,182 +20,6 @@ Feel free to add issues containing security ideas, requests and infomation.
 
 **The security code is not held in this repo - but in a private repo (being heavily developed)**
 
-=== TO DO ===
-
-> 1. List core features of module
-
-> 2. List main security features
-
-## Security Module Penetration Testing Method
-
-We use the following standards set by the Open Web Application Security Project (OWASP) which is an online community that produces freely-available articles, methodologies, documentation, tools and technologies in the field of web application security.
-
-### Information Gathering
-
-- Spiders, Robots and Crawlers (OWASP-IG-001)
-
-- Search Engine Discovery/Reconnaissance (OWASP-IG-002)
-
-- Identify application entry points (OWASP-IG-003)
-
-- Testing for Web Application Fingerprint (OWASP-IG-004)
-
-- Application Discovery (OWASP-IG-005)
-
-- Analysis of Error Codes (OWASP-IG-006)
-
-### Configuration Management Testing
-
-- SSL/TLS Testing (SSL Version, Algorithms, Key length, Digital Cert. Validity) (OWASP-CM-001)
-
-- DB Listener Testing (OWASP-CM-002)
-
-- Infrastructure Configuration Management Testing (OWASP-CM-003)
-
-- Application Configuration Management Testing (OWASP-CM-004)
-
-- Testing for File Extensions Handling (OWASP-CM-005)
-
-- Old, Backup and Unreferenced Files (OWASP-CM-006)
-
-- Infrastructure and Application Admin Interfaces (OWASP-CM-007)
-
-- Testing for HTTP Methods and Cross Site Tracing (XST) (OWASP-CM-008)
-
-### Authentication Testing
-
-- Credentials transport over an encrypted channel (OWASP-AT-001)
-
-- Testing for user enumeration (OWASP-AT-002)
-
-- Testing for Guessable (Dictionary) User Account (OWASP-AT-003)
-
-- Brute Force Testing (OWASP-AT-004)
-
-- Testing for bypassing authentication schema (OWASP-AT-005)
-
-- Testing for vulnerable remember password and pwd reset (OWASP-AT-006)
-
-- Testing for Logout and Browser Cache Management (OWASP-AT-007)
-
-- Testing for CAPTCHA (OWASP-AT-008)
-
-- Testing Multiple Factors Authentication (OWASP-AT-009)
-
-- Testing for Race Conditions (OWASP-AT-010)
-
-### Session Management Testing
-
-- Testing for Session Management Schema (OWASP-SM-001)
-
-- Testing for Cookies attributes (OWASP-SM-002)
-
-- Testing for Session Fixation (OWASP-SM-003)
-
-- Testing for Exposed Session Variables (OWASP-SM-004)
-
-- Testing for Cross Site Request Forgery (CSRF) (OWASP-SM-005)
-
-### Authorization Testing
-
-- Testing for path traversal (OWASP-AZ-001)
-
-- Testing for bypassing authorization schema (OWASP-AZ-002)
-
-- Testing for Privilege Escalation (OWASP-AZ-003)
-
-- Business Logic Testing (OWASP-BL-001)
-
-### Data Validation Testing
-
-- Testing for Reflected Cross Site Scripting (OWASP-DV-001)
-
-- Testing for Stored Cross Site Scripting (OWASP-DV-002)
-
-- Testing for DOM based Cross Site Scripting (OWASP-DV-003)
-
-- Testing for Cross Site Flashing (OWASP-DV-004)
-
-- Testing for SQL Injection (OWASP-DV-005)
-
-  - Oracle Testing
-
-  - MySQL Testing
-
-  - SQL Server Testing
-
-  - MS Access Testing
-
-  - Testing PostgreSQL (from OWASP BSP)
-
-- Testing for LDAP Injection (OWASP-DV-006)
-
-- Testing for ORM Injection (OWASP-DV-007)
-
-- Testing for XML Injection (OWASP-DV-008)
-
-- Testing for SSI Injection (OWASP-DV-009)
-
-- Testing for XPath Injection (OWASP-DV-010)
-
-- IMAP/SMTP Injection (OWASP-DV-011)
-
-- Testing for Code Injection (OWASP-DV-012)
-
-- Testing for Command Injection (OWASP-DV-013)
-
-- Testing for Buffer overflow (OWASP-DV-014)
-
-  - Testing for Heap overflow
-
-  - Testing for Stack overflow
-
-  - Testing for Format string
-
-- Testing for incubated vulnerabilities (OWASP-DV-015)
-
-- Testing for HTTP Splitting/Smuggling (OWASP-DV-016)
-
-### Testing for Denial of Service
-
-- Testing for SQL Wildcard Attacks (OWASP-DS-001)
-
-- Testing for DoS Locking Customer Accounts (OWASP-DS-002)
-
-- Testing for DoS Buffer Overflows (OWASP-DS-003)
-
-- Testing for DoS User Specified Object Allocation (OWASP-DS-004)
-
-- Testing for User Input as a Loop Counter (OWASP-DS-005)
-
-- Testing for Writing User Provided Data to Disk (OWASP-DS-006)
-
-- Testing for DoS Failure to Release Resources (OWASP-DS-007)
-
-- Testing for Storing too Much Data in Session (OWASP-DS-008)
-
-### Web Services Testing
-
-- WS Information Gathering (OWASP-WS-001)
-
-- Testing WSDL (OWASP-WS-002)
-
-- XML Structural Testing (OWASP-WS-003)
-
-- XML Content-level Testing (OWASP-WS-004)
-
-- HTTP GET parameters/REST Testing (OWASP-WS-005)
-
-- Naughty SOAP attachments (OWASP-WS-006)
-
-- Replay Testing (OWASP-WS-007)
-
-### AJAX Testing
-
-- AJAX Vulnerabilities (OWASP-AJ-001)
-
-- How to test AJAX (OWASP-AJ-002)
-
 ## Transparency
 
 This project is completely transparent and honest, before we started we contacted and discussed this project with the authors and admins of the October project. We have given the links to this repo to the authors and we continue to want to be transparent throughout the whole process! We feel it's important to state this and be open. This repo is made up of one module, which is part of several other modules all dedicated to different sections of an October II proposal. Instead of writing ideas and suggestions, we have taken a pro-active approach and are actively coding a fully working solution. The code is held on private repo's because the code is being heavily developed and changed on a daily basis. We will release a stable release to the admins and authors in private for feedback before releasing to the general public. This is a long-term project and will continue to grow!
@@ -393,3 +217,173 @@ Do this before submitting a vulnerability:
 We are happy to work with the community to provide CVE identifiers for any discovered security issues if requested.
 
 If in doubt, feel free to reach out to us!
+
+## Security Module Penetration Testing Method
+
+We use the following standards set by the Open Web Application Security Project (OWASP) which is an online community that produces freely-available articles, methodologies, documentation, tools and technologies in the field of web application security.
+
+### Information Gathering
+
+- Spiders, Robots and Crawlers (OWASP-IG-001)
+
+- Search Engine Discovery/Reconnaissance (OWASP-IG-002)
+
+- Identify application entry points (OWASP-IG-003)
+
+- Testing for Web Application Fingerprint (OWASP-IG-004)
+
+- Application Discovery (OWASP-IG-005)
+
+- Analysis of Error Codes (OWASP-IG-006)
+
+### Configuration Management Testing
+
+- SSL/TLS Testing (SSL Version, Algorithms, Key length, Digital Cert. Validity) (OWASP-CM-001)
+
+- DB Listener Testing (OWASP-CM-002)
+
+- Infrastructure Configuration Management Testing (OWASP-CM-003)
+
+- Application Configuration Management Testing (OWASP-CM-004)
+
+- Testing for File Extensions Handling (OWASP-CM-005)
+
+- Old, Backup and Unreferenced Files (OWASP-CM-006)
+
+- Infrastructure and Application Admin Interfaces (OWASP-CM-007)
+
+- Testing for HTTP Methods and Cross Site Tracing (XST) (OWASP-CM-008)
+
+### Authentication Testing
+
+- Credentials transport over an encrypted channel (OWASP-AT-001)
+
+- Testing for user enumeration (OWASP-AT-002)
+
+- Testing for Guessable (Dictionary) User Account (OWASP-AT-003)
+
+- Brute Force Testing (OWASP-AT-004)
+
+- Testing for bypassing authentication schema (OWASP-AT-005)
+
+- Testing for vulnerable remember password and pwd reset (OWASP-AT-006)
+
+- Testing for Logout and Browser Cache Management (OWASP-AT-007)
+
+- Testing for CAPTCHA (OWASP-AT-008)
+
+- Testing Multiple Factors Authentication (OWASP-AT-009)
+
+- Testing for Race Conditions (OWASP-AT-010)
+
+### Session Management Testing
+
+- Testing for Session Management Schema (OWASP-SM-001)
+
+- Testing for Cookies attributes (OWASP-SM-002)
+
+- Testing for Session Fixation (OWASP-SM-003)
+
+- Testing for Exposed Session Variables (OWASP-SM-004)
+
+- Testing for Cross Site Request Forgery (CSRF) (OWASP-SM-005)
+
+### Authorization Testing
+
+- Testing for path traversal (OWASP-AZ-001)
+
+- Testing for bypassing authorization schema (OWASP-AZ-002)
+
+- Testing for Privilege Escalation (OWASP-AZ-003)
+
+- Business Logic Testing (OWASP-BL-001)
+
+### Data Validation Testing
+
+- Testing for Reflected Cross Site Scripting (OWASP-DV-001)
+
+- Testing for Stored Cross Site Scripting (OWASP-DV-002)
+
+- Testing for DOM based Cross Site Scripting (OWASP-DV-003)
+
+- Testing for Cross Site Flashing (OWASP-DV-004)
+
+- Testing for SQL Injection (OWASP-DV-005)
+
+  - Oracle Testing
+
+  - MySQL Testing
+
+  - SQL Server Testing
+
+  - MS Access Testing
+
+  - Testing PostgreSQL (from OWASP BSP)
+
+- Testing for LDAP Injection (OWASP-DV-006)
+
+- Testing for ORM Injection (OWASP-DV-007)
+
+- Testing for XML Injection (OWASP-DV-008)
+
+- Testing for SSI Injection (OWASP-DV-009)
+
+- Testing for XPath Injection (OWASP-DV-010)
+
+- IMAP/SMTP Injection (OWASP-DV-011)
+
+- Testing for Code Injection (OWASP-DV-012)
+
+- Testing for Command Injection (OWASP-DV-013)
+
+- Testing for Buffer overflow (OWASP-DV-014)
+
+  - Testing for Heap overflow
+
+  - Testing for Stack overflow
+
+  - Testing for Format string
+
+- Testing for incubated vulnerabilities (OWASP-DV-015)
+
+- Testing for HTTP Splitting/Smuggling (OWASP-DV-016)
+
+### Testing for Denial of Service
+
+- Testing for SQL Wildcard Attacks (OWASP-DS-001)
+
+- Testing for DoS Locking Customer Accounts (OWASP-DS-002)
+
+- Testing for DoS Buffer Overflows (OWASP-DS-003)
+
+- Testing for DoS User Specified Object Allocation (OWASP-DS-004)
+
+- Testing for User Input as a Loop Counter (OWASP-DS-005)
+
+- Testing for Writing User Provided Data to Disk (OWASP-DS-006)
+
+- Testing for DoS Failure to Release Resources (OWASP-DS-007)
+
+- Testing for Storing too Much Data in Session (OWASP-DS-008)
+
+### Web Services Testing
+
+- WS Information Gathering (OWASP-WS-001)
+
+- Testing WSDL (OWASP-WS-002)
+
+- XML Structural Testing (OWASP-WS-003)
+
+- XML Content-level Testing (OWASP-WS-004)
+
+- HTTP GET parameters/REST Testing (OWASP-WS-005)
+
+- Naughty SOAP attachments (OWASP-WS-006)
+
+- Replay Testing (OWASP-WS-007)
+
+### AJAX Testing
+
+- AJAX Vulnerabilities (OWASP-AJ-001)
+
+- How to test AJAX (OWASP-AJ-002)
