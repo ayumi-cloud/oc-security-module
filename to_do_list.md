@@ -16,6 +16,8 @@ Monaco: https://github.com/octobercms/october/issues/4545
 
 6. mxtoolbox tool
 
+7. Update themes >>> https://github.com/ayumi-cloud/monaco-themes
+
 Github: https://github.com/octobercms/october/issues/4969
 
 https://github.com/octobercms/october/blob/307a662647cac4b2c38361402721b5bbea6fb6af/modules/system/assets/js/eventlogs/exception-beautifier.js#L307-L320
