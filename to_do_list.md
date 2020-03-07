@@ -8,15 +8,13 @@ Monaco: https://github.com/octobercms/october/issues/4545
 
 2. scanning js, txt, md, license and other files
 
-3. check events
+3. blacklist module
 
-4. blacklist module
+4. whitelist module
 
-5. whitelist module
+5. block bad bots from hosting and not real-user isp's module >> https://github.com/ayumi-cloud/oc-security-module/issues/262
 
-6. block bad bots from hosting and not real-user isp's module
-
-7. amazon module
+6. mxtoolbox tool
 
 Github: https://github.com/octobercms/october/issues/4969
 
