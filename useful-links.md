@@ -152,6 +152,18 @@ $this->vars['value'] = htmlentities($this->getLoadValue(), ENT_QUOTES, 'UTF-8', 
 
 https://www.w3schools.com/php/func_string_htmlentities.asp
 
+### Evergreen BingBot
+
+https://blogs.bing.com/webmaster/december-2019/Announcing-future-user-agents-for-Bingbot
+
+### BingBot Crawlers
+
+https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0
+
+### Cralwer List
+
+https://udger.com/resources/ua-list/crawlers
+
 ### List of file formats
 
 https://en.wikipedia.org/wiki/List_of_file_formats
