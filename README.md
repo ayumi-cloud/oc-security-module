@@ -188,9 +188,9 @@ The following icon packs/sets can be chosen in October II, these are as follows:
 13. [Ionicons](https://ionicframework.com/docs/ionicons/)
 14. [UIKit](https://getuikit.com/docs/icon)
 15. [Dripicons](http://demo.amitjakhu.com/dripicons/)
-16. *Custom
+16. 🔸 Custom
 
-* You can add custom icon packs/sets to October II to use in the main interface.
+🔸 You can add custom icon packs/sets to October II to use in the main interface.
 
 > Note: Icon packs will be downloaded when selected and saved, to reduce cms file size! Advanced users can use multi icon set/packs for their themes and plugins, by just uploading them to their assets folder or linking to a cdn etc.
 
