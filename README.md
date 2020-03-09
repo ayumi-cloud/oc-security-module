@@ -161,7 +161,7 @@ It's important to let users set the security levels at an early stage and the se
 
 #### Project type
 
-Users can now select different project types such as: `vue.js`, `react`, `angular`, `Sketch`, `Ember`, `Adobe Apps`, `bootstrap`, `flat html` etc. Also users will select their server type, such as `Microsoft IIS`, `Nginx`,  `Apache` etc. and October II will create a more custom cms for the user based off their project type. The security module will also be more configured to their server type giving a better more secure user experience.
+Users can now select different project types such as: `vue.js`, `react`, `angular`, `Sketch`, `Foundation`, `Ember`, `Adobe Apps`, `GraphQL API`, `REST API`, `bootstrap`, `flat html` etc. Also users will select their server type, such as `Microsoft IIS`, `Nginx`,  `Apache` etc. and October II will create a more custom cms for the user based off their project type. The security module will also be more configured to their server type giving a better more secure user experience.
 
 #### Icons
 
