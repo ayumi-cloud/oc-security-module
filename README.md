@@ -216,7 +216,7 @@ Breadcrumbs have been upgraded to accept the following states: `visited`, `activ
 
 Checkbox hints can be placed at the `top` and `bottom` via yaml, checkboxes can be nested and have three states: `checked`, `unchecked` or `indeterminate`.
 
-Added new datasets widget to core, users can create data sets via `yaml`, `html` or `json`. In October II the core's been upgraded to accept json files natively now. The widget also is fully compliant with the schema spec, to learn more about schema datasets see here: [Schema Dataset](https://developers.google.com/search/docs/data-types/dataset). The widget comes with several graphical interface layout, these are: `Phylogram`, `Cladogram`, `Unrooted`, `Time-scaled tree`, `Two-dimensional tree` and `Three-dimensional tree`. Which then allows the following sub-layouts `rectangular (by default)`, `slanted`, `circular`, `fan`, `radial`, `unrooted` and `clock`.
+Added new datasets widget to core, users can create data sets via `yaml`, `html` or `json`. In October II the core's been upgraded to accept json files natively now! The datasets widget is fully compliant with the schema spec, to learn more about schema datasets, see here: [Schema Dataset](https://developers.google.com/search/docs/data-types/dataset). The widget comes with several graphical interface layouts, these are: `Phylogram`, `Cladogram`, `Unrooted`, `Time-scaled tree`, `Two-dimensional tree` and `Three-dimensional tree`. Which then allows the following sub-layouts: `rectangular (by default)`, `slanted`, `circular`, `fan`, `radial`, `unrooted` and `clock`.
 
 ### Themes
 
