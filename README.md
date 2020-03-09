@@ -161,7 +161,38 @@ It's important to let users set the security levels at an early stage and the se
 
 #### Project type
 
-Users can now select different project types such as `vue.js`, `react`, `angular`, `bootstrap`, `flat html` etc. Also users will select their server type, such as `Microsoft IIS`, `Nginx`,  `Apache` etc. and October II will create a more custom cms for the user based off their project type. The security module will also be more configured to their server type giving a better more secure user experience.
+Users can now select different project types such as `vue.js`, `react`, `angular`, `Sketch`, `Ember`, `Adobe Apps`, `bootstrap`, `flat html` etc. Also users will select their server type, such as `Microsoft IIS`, `Nginx`,  `Apache` etc. and October II will create a more custom cms for the user based off their project type. The security module will also be more configured to their server type giving a better more secure user experience.
+
+#### Icons
+
+The standard October icons are now set to redundancy mode in October II (for backwards compatibility), instead a user can select their default icon sets at the installer stage or change their minds at a later date and change the default set in the settings section. As default the core will use [Font Awesome version 5](https://fontawesome.com/), unless the user selects a different custom icon pack. Also each plugin has a settings section where you can set a default icon pack which can override the main cms controls, for example:
+
+1. October II core - Font Awesome version 5
+2. Plugin A - Material Design Icons
+3. Plugin B - Not set - use core setting (Font Awesome version 5)
+
+The following icon packs/sets can be chosen in October II, these are as follows:
+
+1. [Font Awesome version 5](https://fontawesome.com/)
+2. [Entypo](http://www.entypo.com/)
+3. [Material Design Icons](https://materialdesignicons.com/)
+4. [Iconmonstr](https://iconmonstr.com/)
+5. [Material Design](https://material.io/tools/icons/?style=outline)
+6. [Zurb Foundation Icons](https://zurb.com/playground/foundation-icon-fonts-3)
+7. [Feather](https://feathericons.com/)
+8. [Linearicons](https://linearicons.com/free)
+9. [Simple line icons](http://simplelineicons.com/)
+10. [Linea](http://linea.io/)
+11. [Icons8](https://icons8.com/line-awesome)
+12. [Themify Icons](http://themify.me/themify-icons)
+13. [Ionicons](https://ionicframework.com/docs/ionicons/)
+14. [UIKit](https://getuikit.com/docs/icon)
+15. [Dripicons](http://demo.amitjakhu.com/dripicons/)
+16. *Custom
+
+* You can add custom icon packs/sets to October II to use in the main interface.
+
+> Note: Icon packs will be downloaded when selected and saved, to reduce cms file size! Advanced users can use multi icon set/packs for their themes and plugins, by just uploading them to their assets folder or linking to a cdn etc.
 
 ### Loading and saving methods for form fields
 
