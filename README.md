@@ -161,11 +161,11 @@ It's important to let users set the security levels at an early stage and the se
 
 #### Project type
 
-Users can now select different project types such as `vue.js`, `react`, `angular`, `Sketch`, `Ember`, `Adobe Apps`, `bootstrap`, `flat html` etc. Also users will select their server type, such as `Microsoft IIS`, `Nginx`,  `Apache` etc. and October II will create a more custom cms for the user based off their project type. The security module will also be more configured to their server type giving a better more secure user experience.
+Users can now select different project types such as: `vue.js`, `react`, `angular`, `Sketch`, `Ember`, `Adobe Apps`, `bootstrap`, `flat html` etc. Also users will select their server type, such as `Microsoft IIS`, `Nginx`,  `Apache` etc. and October II will create a more custom cms for the user based off their project type. The security module will also be more configured to their server type giving a better more secure user experience.
 
 #### Icons
 
-The standard October icons are now set to redundancy mode in October II (for backwards compatibility), instead a user can select their default icon sets at the installer stage or change their minds at a later date and change the default set in the settings section. As default the core will use [Font Awesome version 5](https://fontawesome.com/), unless the user selects a different custom icon pack. Also each plugin has a settings section where you can set a default icon pack which can override the main cms controls, for example:
+The standard October icons are now set to redundancy mode in October II (for backwards compatibility), instead a user can select their default icon sets at the installer stage or change their minds at a later date and change the default set in the settings section. As default the core will use `Font Awesome version 5`, unless the user selects a different custom icon pack. Also each plugin has a settings section where you can set a default icon pack which can override the main cms controls, for example:
 
 1. October II core - Font Awesome version 5
 2. Plugin A - Material Design Icons
