@@ -149,6 +149,8 @@ We also plan on adding an `experimental feature flag` section, where developers 
 
 These `experimental features` can be turned on and off in a sandboxed enviroment to allow users to test new features of the October II core in a safe way and also a feedback section will be added to allow `testing` - which in turn will help speed up the development for the October II core code.
 
+With a focus on making everything fully customizable, to allow developers and webmasters to create a custom cms, projects, plugins and themes in both the frontend and backend.
+
 ### October Installer
 
 We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their October II installation. For example, a user has two choices:
