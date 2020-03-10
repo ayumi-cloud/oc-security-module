@@ -175,7 +175,7 @@ The standard October icons are now set to redundancy mode in October II (for bac
 
 The following icon packs/sets can be chosen in October II, these are as follows:
 
-1. [Font Awesome version 5](https://fontawesome.com/)
+1. [Font Awesome version 5 Pro](https://fontawesome.com/)
 2. [Entypo](http://www.entypo.com/)
 3. [Material Design Icons](https://materialdesignicons.com/)
 4. [Iconmonstr](https://iconmonstr.com/)
