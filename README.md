@@ -216,7 +216,7 @@ Breadcrumbs have been upgraded to accept the following states: `visited`, `activ
 
 Checkbox hints can be placed at the `top` and `bottom` via yaml, checkboxes can be nested and have three states: `checked`, `unchecked` or `indeterminate`.
 
-Added new datasets widget to core, users can create data sets via `yaml`, `html` or `json`. In October II the core's been upgraded to accept json files natively now! The datasets widget is fully compliant with the schema spec, to learn more about schema datasets, see here: [Schema Dataset](https://developers.google.com/search/docs/data-types/dataset). The widget comes with several graphical interface layouts, these are: `Phylogram`, `Cladogram`, `Unrooted`, `Time-scaled tree`, `Two-dimensional tree` and `Three-dimensional tree`. Which then allows the following sub-layouts: `rectangular (by default)`, `slanted`, `circular`, `fan`, `radial`, `unrooted` and `clock`.
+Added new datasets widget to core, users can create data sets via `yaml`, `html` or `json`. In October II the core's been upgraded to accept json files natively now. The widget also is fully compliant with the schema spec, to learn more about schema datasets see here: [Schema Dataset](https://developers.google.com/search/docs/data-types/dataset). The widget comes with several graphical interface layout, these are: `Phylogram`, `Cladogram`, `Unrooted`, `Time-scaled tree`, `Two-dimensional tree` and `Three-dimensional tree`. Which then allows the following sub-layouts `rectangular (by default)`, `slanted`, `circular`, `fan`, `radial`, `unrooted` and `clock`.
 
 ### Themes
 
@@ -235,6 +235,10 @@ In October one the dashboard used the Isotope library, since then many advances 
 ### Plugin / App isolation
 
 This feature works the same way as Google's [Site Isolation](https://www.chromium.org/Home/chromium-security/site-isolation), in October II plugins and apps are sandboxed to prevent any malicious software spreading in the cms! This is the same way a sandbox program like [Sandboxie](https://www.sandboxie.com/) works.
+
+### Error Tracking
+
+In October II the events log section has been removed and upgraded. October II now uses Laravel's [Ignition](https://github.com/facade/ignition) for tracking errors. The package has been modified to add extra features to October II such as: Perform self diagnosis checks, added a code editor to the stack trace tab, allow downloading error reports via (`.csv` and `.json`), send reports and notifications to email clients, create error category tags, assign errors to individual developer team memebers, share the error report, lookup the error message to various platforms such as [Stack Overflow](https://stackoverflow.com/) and [Laracasts](https://laracasts.com/), show your migrations and their status and many more features.
 
 ## Reporting a Vulnerability
 
