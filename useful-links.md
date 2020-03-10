@@ -292,3 +292,7 @@ https://www.ip2location.com/free/robot-whitelist
 - Good bots = Allow potential real-users to your website.
 
 - Bad bots = Steal data, information and sell your data (doesn't help bring your websites real-users).
+
+### Malware Trends Tracker
+
+https://any.run/malware-trends/
