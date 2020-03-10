@@ -167,11 +167,11 @@ Users can now select different project types such as: `Vue.js`, `React`, `Angula
 
 #### Icons
 
-The standard October icons are now set to redundancy mode in October II (for backwards compatibility), instead a user can select their default icon sets at the installer stage or change their minds at a later date and change the default set in the settings section. As default the core will use `Font Awesome version 5`, unless the user selects a different custom icon pack. Also each plugin has a settings section where you can set a default icon pack which can override the main cms controls, for example:
+The standard October icons are now set to redundancy mode in October II (for backwards compatibility), instead a user can select their default icon sets at the installer stage or change their minds at a later date and change the default set in the settings section. As default the core will use `Font Awesome version 5 Pro`, unless the user selects a different custom icon pack. Also each plugin has a settings section where you can set a default icon pack which can override the main cms controls, for example:
 
-1. October II core - Font Awesome version 5
+1. October II core - Font Awesome version 5 Pro
 2. Plugin A - Material Design Icons
-3. Plugin B - Not set - use core setting (Font Awesome version 5)
+3. Plugin B - Not set - use core setting (Font Awesome version 5 Pro)
 
 The following icon packs/sets can be chosen in October II, these are as follows:
 
