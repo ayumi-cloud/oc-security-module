@@ -200,7 +200,7 @@ In October II, to increase performance, form fields are now not loaded until a u
 
 ### New grid system
 
-October II uses a 12-column drag n drop grid system, instead of a two column system. For backwards compatibility `left`, `right` and `auto` are the same size as 6-columns and `full` is the same size as 12-columns. October II also allows users to import and export grid files to help speed up developing! The files are saved into `.json` or `.csv` file or your choice.
+October II uses a 12-column drag n drop grid system, instead of a two column system. For backwards compatibility `left`, `right` and `auto` are the same size as 6-columns and `full` is the same size as 12-columns. October II also allows users to `import` and `export` grid files to help speed up developing - the files can be saved into two formats: `.json` or `.csv` depending on your choice.
 
 ### User interface
 
