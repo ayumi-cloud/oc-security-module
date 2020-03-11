@@ -19,3 +19,5 @@ Monaco: https://github.com/octobercms/october/issues/4545
 7. Update themes >>> https://github.com/ayumi-cloud/monaco-themes
 
 Github: https://github.com/octobercms/october/issues/4959
+
+8. preview settings checkboxes widget
