@@ -198,6 +198,10 @@ The following icon packs/sets can be chosen in October II, these are as follows:
 
 In October II, to increase performance, form fields are now not loaded until a user selects that area. For example, a plugin has some form fields that are hidden in some tabs, the hidden form fields are not loaded until the user selects that tab and then the widgets in that tab are loaded. Likewise, October version 2 only saves the form widgets that have been edited and changed, instead of in version one where it saves all the form fields even if they haven't been changed. In testing this has increased the performance of October version II.
 
+### New grid system
+
+October II uses a 12-column drag n drop grid system, instead of a two column system. For backwards compatibility `left`, `right` and `auto` are the same size as 6-columns and `full` is the same size as 12-columns. October II also allows users to import and export grid files to help speed up developing! The files are saved into `.json` or `.csv` file or your choice.
+
 ### User interface
 
 The user interface has been redesigned in October II with lots of new features, using modern api's and technologies. All the widgets have been re-coded using a combination of [Tailwind CSS](https://tailwindcss.com/), [Vue.js Widgets](https://vuejs.org/) and [D3 data visualization library](https://d3js.org/)! October II incldues many new widgets that have been added into the core, a full list is included in the user interface repo module.
