@@ -149,6 +149,14 @@ These `experimental features` can be turned on and off in a sandboxed enviroment
 
 With a focus on making everything fully customizable, to allow developers and webmasters to create a custom cms, projects, plugins and themes in both the frontend and backend.
 
+### An open governance model for the October II Project
+
+When choosing a governance model (a system that describes how decisions are made) for October II,  we initially focused on agility. Big open source projects have always been powered by the voices and feedback of the developers and organizations that use it. However, in October one, the governance was centered around 6 admin people.
+
+While this works great for smaller projects, it doesn't work to scale for large open source projects on the web today. Instead October II will move to a model that explicitly gives a voice to all constituents of the community, including those who cannot contribute code themselves, such as end-users!
+
+For a full list of the new governance model for the October II Project, see here: [GOVERNANCE.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/GOVERNANCE.md).
+
 ### October Installer
 
 We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their October II installation. For example, a user has two choices:
