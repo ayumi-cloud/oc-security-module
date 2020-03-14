@@ -98,4 +98,4 @@ The Advisory Committee provides perspective and advice to the Technical Steering
 
 * TSC members which aren't already covered by an individual or corporate CLA are required to be covered upon joining the TSC.
 
-* AC members aren't formally required to be covered by a CLA, but will be required to be covered should they decide to contribute to the project (for exOctober IIle by contributing code, documentation, specifications, or design documents) in a way where securing IP commitments is important to keep the project open source and royalty free.
+* AC members aren't formally required to be covered by a CLA, but will be required to be covered should they decide to contribute to the project (by contributing code, documentation, specifications, or design documents) in a way where securing IP commitments is important to keep the project open source and royalty free.
