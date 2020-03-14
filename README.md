@@ -244,6 +244,8 @@ This feature works the same way as Google's [Site Isolation](https://www.chromiu
 
 In October II the events log section has been removed and renamed to `Error Tracking` and now uses Laravel's [Ignition](https://github.com/facade/ignition) for tracking errors. The package has been modified to add extra features to October II such as: Perform self diagnosis checks, added a code editor to the stack trace tab, allow downloading error reports via (`.csv` and `.json`), send reports and notifications to email clients, create error category tags, assign errors to individual developer team memebers, share the error report, lookup the error message to various platforms such as [Stack Overflow](https://stackoverflow.com/) and [Laracasts](https://laracasts.com/), show your migrations and their status and many more features.
 
+October II has updated the backend error phraser and removed the `three dots` hiding various links and identities, in the `Error Tracking` section. There was no need to hide important information in the backend, **this protection only applies to the frontend now!** Thus making bug testing and error handling much easier for developers working on plugins, apps and themes.
+
 ## Reporting a Vulnerability
 
 We strive to make the code accessible to a wide audience of beginner and experienced users.
