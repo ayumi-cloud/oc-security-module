@@ -137,6 +137,8 @@ Using the Nginx server settings has a few required steps to be able to work.
 
 ## Breaking Changes from October Version 1 to Version 2
 
+> This repo doesn't contain a full list of updates and changes from version 1 to 2. The list of changes below relate directly to the security module. For a full list of updated and new features, see the main update proposal module repo!
+
 ### Goals
 
 With October version one the goals were to keep things simple and minimalist to advoid complication things! With October II the goals are now different and <em>we</em> as a team believe that October II should have many advanced features that include a clever interface design to allow non-technical people to understand and use these advanced features! Professional developers and webmasters should not have to suffer to cater for non-technical people! All features have been made and designed in an easy to understand user interface with a lot of instructions and documentation explaining how to use, what it does, the pro's and con's and many more! This approach allows us to use modern api's and frameworks for non-technical people wanting to use the cms. It also allows the cms to continue use modern and stay update to date with new and future technologies.
@@ -241,8 +243,6 @@ October II has been designed to work in various environments according to screen
 The reporting widget called `System Status` will display **security issues** and **production modes check issues** where a link will also redirect the user to a dedicated security dashboard showing all the security related issues.
 
 In October one the dashboard used the Isotope library, since then many advances in technology have been created such as Flexbox and modern drag n drop libraries and api's. October II uses a more modern library to handle the drag n drop. All widgets are now fully responsive and down scaling the screen has been fixed to give a much more smoother experience! New features include importing and exporting dashboard layouts and a whole bunch of common reporting widgets you find in other competitor cms dashboards as standard.
-
-> This repo doesn't contain a full list of updates and changes from version 1 to 2 - For a full list, see the main update proposal module repo! The changes above only relate for the security module!
 
 ### Plugin / App isolation
 
