@@ -1,4 +1,4 @@
-# Governance
+# October II Governance Model
 
 ## Glossary
 
