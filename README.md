@@ -149,6 +149,8 @@ We also plan on adding an `experimental feature flag` section, where developers 
 
 These `experimental features` can be turned on and off in a sandboxed enviroment to allow users to test new features of the October II core in a safe way and also a feedback section will be added to allow `testing` - which in turn will help speed up the development for the October II core code.
 
+> For a full list of current new and modern API's being tested in October II, see here: [Experimental_API's](https://github.com/ayumi-cloud/oc-security-module/blob/master/experimental_api_being_tested_and_used.md)
+
 With a focus on making everything fully customizable, to allow developers and webmasters to create a custom cms, projects, plugins and themes in both the frontend and backend.
 
 ### An open governance model for the October II Project
