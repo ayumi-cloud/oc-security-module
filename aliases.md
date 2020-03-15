@@ -1,6 +1,6 @@
 ## List of Aliases
 
-Current list - **subject to change and upodates.**
+Current list - **subject to change and updates.**
 
 ### Laravel aliases
 
@@ -36,27 +36,27 @@ Current list - **subject to change and upodates.**
 ### October aliases
 
 ```
-'Model'           => October\Rain\Database\Model::class
-'Block'           => October\Rain\Support\Facades\Block::class
-'File'            => October\Rain\Support\Facades\File::class
-'Config'          => October\Rain\Support\Facades\Config::class
-'Seeder'          => October\Rain\Database\Updates\Seeder::class
-'Flash'           => October\Rain\Support\Facades\Flash::class
-'Input'           => October\Rain\Support\Facades\Input::class
-'Form'            => October\Rain\Support\Facades\Form::class
-'Html'            => October\Rain\Support\Facades\Html::class
-'Http'            => October\Rain\Support\Facades\Http::class
-'Str'             => October\Rain\Support\Facades\Str::class
-'Markdown'        => October\Rain\Support\Facades\Markdown::class
-'Yaml'            => October\Rain\Support\Facades\Yaml::class
-'Ini'             => October\Rain\Support\Facades\Ini::class
-'Twig'            => October\Rain\Support\Facades\Twig::class
-'DbDongle'        => October\Rain\Support\Facades\DbDongle::class
-'Schema'          => October\Rain\Support\Facades\Schema::class
-'Cms'             => Cms\Facades\Cms::class
-'Backend'         => Backend\Facades\Backend::class
-'BackendMenu'     => Backend\Facades\BackendMenu::class
-'BackendAuth'     => Backend\Facades\BackendAuth::class
+'Model'                => October\Rain\Database\Model::class
+'Block'                => October\Rain\Support\Facades\Block::class
+'File'                 => October\Rain\Support\Facades\File::class
+'Config'               => October\Rain\Support\Facades\Config::class
+'Seeder'               => October\Rain\Database\Updates\Seeder::class
+'Flash'                => October\Rain\Support\Facades\Flash::class
+'Input'                => October\Rain\Support\Facades\Input::class
+'Form'                 => October\Rain\Support\Facades\Form::class
+'Html'                 => October\Rain\Support\Facades\Html::class
+'Http'                 => October\Rain\Support\Facades\Http::class
+'Str'                  => October\Rain\Support\Facades\Str::class
+'Markdown'             => October\Rain\Support\Facades\Markdown::class
+'Yaml'                 => October\Rain\Support\Facades\Yaml::class
+'Ini'                  => October\Rain\Support\Facades\Ini::class
+'Twig'                 => October\Rain\Support\Facades\Twig::class
+'DbDongle'             => October\Rain\Support\Facades\DbDongle::class
+'Schema'               => October\Rain\Support\Facades\Schema::class
+'Cms'                  => Cms\Facades\Cms::class
+'Backend'              => Backend\Facades\Backend::class
+'BackendMenu'          => Backend\Facades\BackendMenu::class
+'BackendAuth'          => Backend\Facades\BackendAuth::class
 'AjaxException'        => October\Rain\Exception\AjaxException::class
 'SystemException'      => October\Rain\Exception\SystemException::class
 'ApplicationException' => October\Rain\Exception\ApplicationException::class
