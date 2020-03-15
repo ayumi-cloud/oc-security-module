@@ -240,6 +240,12 @@ There are several themes that come as standard in October II, these include `dar
 
 October II has been designed to work in various environments according to screen size and device, these can be grouped into the following areas (starting from smallest screen size through to largest): `smart watches` e.g. 320px, `smart phones`, `tablets`, `computers` and `smart tv's` e.g. 8K resolution. Using modern api's and techniques to adjust features such as `animation` for higher screen sized devices only and internet connection for `data save` features etc. You can learn more here: [Delivering Fast and Light Applications with Save-Data](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/save-data).
 
+#### Smart Speakers and Voice API's
+
+- The main October II repo has added support for `Voice Actions` and voice api's.
+
+- The security module in October II has added support for Smart Speakers.
+
 ### Dashboard
 
 The reporting widget called `System Status` will display **security issues** and **production modes check issues** where a link will also redirect the user to a dedicated security dashboard showing all the security related issues.
