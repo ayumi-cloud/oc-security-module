@@ -200,7 +200,7 @@ The following icon packs/sets can be chosen in October II, these are as follows:
 13. [Ionicons](https://ionicframework.com/docs/ionicons/)
 14. [UIKit](https://getuikit.com/docs/icon)
 15. [Dripicons](http://demo.amitjakhu.com/dripicons/)
-16. * Custom
+16. *Custom
 
 _(*) You can add custom icon packs/sets to October II to use in the main interface, including your own themes for the backend._
 
