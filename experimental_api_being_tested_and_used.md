@@ -20,7 +20,7 @@ For more info on this API, see our post here: [coop.md](https://github.com/ayumi
 
 ### Fetch Metadata
 
-**Currently being used in the firewall in the October II security module**, for more info on this API, see our post here: [fetch_metadata.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/fetch_metadata.md)
+**Currently being used in the firewall as part of the October II security module**, for more info on this API, see our post here: [fetch_metadata.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/fetch_metadata.md)
 
 MDN has the following documentation:
 
@@ -80,7 +80,55 @@ Sec-Fetch-User: ?1
 
 - At a later date we plan on adding the future API: [Sec-WebSocket-Accept](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Accept) to the firewall.
 
+### Preventing Mixed Content
 
+Supporting HTTPS for your website is an important step to protecting your website and your users from attack, but mixed content can render that protection useless. To protect your site and your users, it is very important to find and fix mixed content issues.
+
+**Currently being used in the firewall as part of the October II security module and displays a check for each active request in the cms**, for more info on this API, see our post here: [fixing-mixed-content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/fixing-mixed-content)
+
+### Client Hints replacing the User-Agent
+
+Google Chrome team annouched: [Intent to Deprecate and Freeze: The User-Agent string](https://groups.google.com/a/chromium.org/forum/m/#!msg/blink-dev/-2JIRNMWJ7s/yHe4tQNLCgAJ)
+
+**The firewall now also uses the Client Hints User-Agents Spec along with normal User-Agents for backwards compatibility and cross-browser issues**, to learn more see the spec here: [User-Agent Client Hints](https://wicg.github.io/ua-client-hints/)
+
+> HTTP Client Hints are currently only available in Chrome and some Chromium-based web browsers. User-Agent Client Hints are only under `enable-experimental-web-platform-features` Chrome flag.
+
+#### Freezing plan
+
+Different parts of the UA string have different compatibility implications. 
+
+Some parts of it, such as the browser version and the OS version, can be frozen without any backwards compatibility implications. Values that worked in the past will continue to work in the future.
+
+Other parts, such as the model (for mobile devices) and the OS platform, can have implications on sites that tailor their UI to the underlying OS or that target a very specific model in their layout. Such sites will need to migrate to use UA-CH.
+
+As such we are planning to freeze the parts that are amenable to freezing fairly early, and gradually unify the rest.
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/sec-ch-ua-freezing.png"></p>
+
+_(*) For the mobile value, we may split it further based on common device dimensions, as a one-time exercise, to reduce the compatibility risk of unification._
+
+#### Interoperability and Compatibility Risk
+
+The compatibility risk varies at different stages.
+
+For the freezing planned for M83, the compatibility risk is low. Existing UA sniffing code will continue to work as expected. It is only future UA sniffing code that will need to change and use the UA client hints instead.
+
+For the unification planned for M85, the compatibility risk is medium. Some sites can modify their responses based on the OS and device model, and those sites will have to change their UA sniffing code to use UA-CH. We expect such sites to be well maintained (otherwise, how can they keep up with OS UI and device model changes?). Therefore, having 4 releases to modify their code seems sufficient.
+
+In the long term, we expect this change to improve compatibility, as UA sniffing based on UA-CH is bound to be more reliable than the current status quo.
+
+As for interoperability, we have other vendors on board with UA freezing, but not necessarily with the UA Client Hints mechanism, that is supposed to replace it. That can create a tricky situation, where developers would need to rely on the User-Agent string for some browsers and on UA-CH for others.
+
+**Edge**: Public support
+
+**Firefox**: Public support for freezing the UA string - “freezing the User Agent string without any client hints—seems worth-prototyping”
+
+**Safari**: Shipped to some extent. Safari has attempted to completely freeze the UA string in the past, without providing an alternative mechanism. That got a lot of pushback, which resulted in somewhat reverting that decision. Nowadays, their UA string seems frozen, other than updates to the OS version and the browser major version.
+
+### The Lang Client Hint
+
+We plan on adding the `lang` client hint API - when it becomes more stable to October II as it will most likely become a replacement for the normal `language` header. To learn more see here: [client_hints_lang.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/client_hint_lang.md)
 
 ### Prefetch request properties are updated to be privacy-preserving
 
@@ -145,3 +193,15 @@ Enables quieter permission prompts for notification permission requests. When a 
 ```
 #quiet-notification-prompts
 ```
+
+## Other Security Related HTTP Header API's
+
+Currently October II security module uses many security related api's and below is a list:
+
+..
+
+
+
+
+
+
