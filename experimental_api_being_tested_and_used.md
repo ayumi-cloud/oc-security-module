@@ -20,7 +20,7 @@ For more info on this API, see our post here: [coop.md](https://github.com/ayumi
 
 ### Fetch Metadata
 
-Being used in the firewall, for more info on this API, see our post here: [fetch_metadata.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/fetch_metadata.md)
+**Currently being used in the firewall in the October II security module**, for more info on this API, see our post here: [fetch_metadata.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/fetch_metadata.md)
 
 MDN has the following documentation:
 
@@ -49,7 +49,7 @@ Sec-Fetch-Dest: worker
 Sec-Fetch-Dest: xslt
 Sec-Fetch-Dest: audioworklet
 Sec-Fetch-Dest: audioworklet
-``
+```
 
 - [Sec-Fetch-Mode](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode)
 
