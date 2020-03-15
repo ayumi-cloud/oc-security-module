@@ -1,6 +1,10 @@
-### Laravel API
+### Laravel API v6.x
 
-https://laravel.com/api/5.5/search.html
+https://laravel.com/api/6.x/index.html
+
+### Laravel API v7.x
+
+https://laravel.com/api/7.x/index.html
 
 ### Request
 
