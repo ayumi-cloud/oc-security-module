@@ -242,9 +242,9 @@ October II has been designed to work in various environments according to screen
 
 #### Smart Speakers and Voice API's
 
-- The main October II repo has added support for `Voice Actions` and voice api's.
+- The main October II repo has added support for `Voice Actions` and voice api's. To leanr more about Voice Actions see here: [voice-actions](https://developers.google.com/voice-actions)
 
-- The security module in October II has added support for Smart Speakers.
+- The security module in October II has added support for `Smart Speakers`. Along with support of `Games Consoles`, `Smart TV's`, `Smart Setup Box`, `Smart Watches`, `Tablets`, `Laptops`, `Computers`, `Smart Phones`, `Tablets`, `Phablets` and `Wearable Tech` (**more to be added over time**)!
 
 ### Dashboard
 
