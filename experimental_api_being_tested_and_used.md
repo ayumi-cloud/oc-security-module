@@ -1,8 +1,22 @@
-# Experimental API's being tested and used
+## Experimental API's being tested and used in October II
 
 October II uses new and modern API's and over time we will continue to use more new and exciting API's. The following API's can be turned on in October II experimental section, you will also need to turn them on the supporting browser flags. **Make sure your browser supports the new API's when testing**.
 
 Below is a list of new API's currently being tested in the security module:
+
+### Cross-Origin Opener Policy (COOP) and Cross-Origin Embedder Policy (COEP) debugging
+
+The Network panel now provides Cross-Origin Opener Policy and Cross-Origin Embedder Policy debugging information.
+
+The Status column now provides a quick explanation of why a request was blocked as well as a link to view that request's headers for further debugging:
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/coop1.png"></p>
+
+The Response Headers section of the Headers tab provides more guidance on how to resolve the issues:
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/coop2.png"></p>
+
+For more info on this API, see our post here: [coop.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/coop.md)
 
 ### Prefetch request properties are updated to be privacy-preserving
 
