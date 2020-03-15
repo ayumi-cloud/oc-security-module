@@ -50,7 +50,6 @@ Sec-Fetch-Dest: video
 Sec-Fetch-Dest: worker
 Sec-Fetch-Dest: xslt
 Sec-Fetch-Dest: audioworklet
-Sec-Fetch-Dest: audioworklet
 ```
 
 - [Sec-Fetch-Mode](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode)
