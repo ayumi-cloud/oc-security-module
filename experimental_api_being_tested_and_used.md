@@ -18,6 +18,70 @@ The Response Headers section of the Headers tab provides more guidance on how to
 
 For more info on this API, see our post here: [coop.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/coop.md)
 
+### Fetch Metadata
+
+Being used in the firewall, for more info on this API, see our post here: [fetch_metadata.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/fetch_metadata.md)
+
+MDN has the following documentation:
+
+- [Sec-Fetch-Dest](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest)
+
+```
+Sec-Fetch-Dest: audio
+Sec-Fetch-Dest: audioworklet
+Sec-Fetch-Dest: document
+Sec-Fetch-Dest: embed
+Sec-Fetch-Dest: empty
+Sec-Fetch-Dest: font
+Sec-Fetch-Dest: image
+Sec-Fetch-Dest: manifest
+Sec-Fetch-Dest: nested-document
+Sec-Fetch-Dest: object
+Sec-Fetch-Dest: paintworklet
+Sec-Fetch-Dest: report
+Sec-Fetch-Dest: script
+Sec-Fetch-Dest: serviceworker
+Sec-Fetch-Dest: sharedworker
+Sec-Fetch-Dest: style
+Sec-Fetch-Dest: track
+Sec-Fetch-Dest: video
+Sec-Fetch-Dest: worker
+Sec-Fetch-Dest: xslt
+Sec-Fetch-Dest: audioworklet
+Sec-Fetch-Dest: audioworklet
+``
+
+- [Sec-Fetch-Mode](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode)
+
+```
+Sec-Fetch-Mode: cors
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Mode: nested-navigate
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Mode: same-origin
+Sec-Fetch-Mode: websocket
+```
+
+- [Sec-Fetch-Site](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site)
+
+```
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Site: same-site
+Sec-Fetch-Site: none
+```
+
+- [Sec-Fetch-User](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User)
+
+```
+Sec-Fetch-User: ?0
+Sec-Fetch-User: ?1
+```
+
+- At a later date we plan on adding the future API: [Sec-WebSocket-Accept](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Accept) to the firewall.
+
+
+
 ### Prefetch request properties are updated to be privacy-preserving
 
 Prefetch requests will not follow redirects, not send a Referer header, not send credentials for cross-origin requests, and do not pass through service workers. – Mac, Windows, Linux, Chrome OS, Android
