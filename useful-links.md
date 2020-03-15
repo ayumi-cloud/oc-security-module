@@ -296,3 +296,7 @@ https://www.ip2location.com/free/robot-whitelist
 ### Malware Trends Tracker
 
 https://any.run/malware-trends/
+
+### Client Hints
+
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/client-hints
