@@ -308,3 +308,7 @@ https://developers.google.com/web/fundamentals/performance/optimizing-content-ef
 ### Browser Leaks
 
 https://browserleaks.com/
+
+### Structured Field Values for HTTP (Draft Spec)
+
+https://tools.ietf.org/html/draft-ietf-httpbis-header-structure-16
