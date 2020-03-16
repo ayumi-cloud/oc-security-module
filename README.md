@@ -276,6 +276,21 @@ In October II the events log section has been removed and renamed to `Error Trac
 
 October II has updated the backend error phraser and removed the `three dots` hiding various links and identities, in the `Error Tracking` section. There was no need to hide important information in the backend, **this protection only applies to the frontend now!** Thus making bug testing and error handling much easier for developers working on plugins, apps and themes.
 
+### Reducing seizure risk
+
+Photosensitive seizures can be provoked by certain types of flashing in web or computer content, including mouse-overs that cause large areas of the screen to rapidly flash on and off repeatedly. Hazardous, seizure-inducing content has been inadvertently broadcast on television in the past, causing mass seizures in children. As web content becomes more dynamic and media-rich, it is important to prevent similar problems.
+
+To minimize the risk of visually induced seizures, web designers and computer software developers should become familiar with the triggers of photosensitive disorder seizures. Content to consider includes bright and rapid flashes, especially red flash, and some spatial patterns. The [Web Content Accessibility Guidelines 2.0](http://www.w3.org/TR/WCAG20/) provides recommendations for using these forms of content safely. These guidelines include restrictions related to frequency, luminance, area and color of any flashing.
+
+In general, web or computer content will not provoke seizures if either of the following is true:
+
+- There are no more than three general flashes and no more than three red flashes within any one-second period, or
+- The combined area of flashes occurring concurrently occupies no more than a total of one quarter of any 341 x 256 pixel rectangle anywhere on the displayed screen area when the content is viewed at 1024 by 768 pixels.
+
+> This module and other modules in October II has been tested using the Photosensitive Epilepsy Analysis Tool (PEAT), a download can be found here: https://trace.umd.edu/sites/trace.umd.edu/files/peat_2017-02-15.zip
+
+Note: The above tool has been virus scanned: https://www.virustotal.com/gui/url/e3580eaef2630fdb750b76bd09852246e5537fe56c8c999469b9867e6eac56d9/detection
+
 ## Reporting a Vulnerability
 
 We strive to make the code accessible to a wide audience of beginner and experienced users.
