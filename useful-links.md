@@ -146,7 +146,7 @@ https://httpd.apache.org/docs/2.4/rewrite/flags.html
 
 https://www.bleepingcomputer.com/news/google/google-chrome-aims-to-make-browser-user-agents-obsolete/
 
-### Double encode when escaping exmple
+### Double encode when escaping example
 
 https://github.com/octobercms/october/blob/master/modules/backend/formwidgets/CodeEditor.php#L181
 
