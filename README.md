@@ -161,6 +161,16 @@ While this works great for smaller projects, it doesn't work to scale for large 
 
 For a full list of the new governance model for the October II Project, see here: [GOVERNANCE.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/GOVERNANCE.md).
 
+### Login / Signin and Signing Out
+
+New security features to October II with logging in and out of the cms that have been added to the core: `2FA (Multi-factor authentication)` - APP Version NOT Phone txt msg, `U2F (Universal 2nd Factor)` and `Google reCAPTCHA v2 and v3`.
+
+3FA (three-factor authentication) is being discussed being added to October II. For example, using 2FA with a second layer of security such as a `slide capchta`, `fingerprint scanner`, `facial recognitio` or `voice recognition`.
+
+October II has timeout options, such as no actively for an hour the cms will log you out, or turn off this feature altogether (can be set separately to each user account - as different users will have different requirements). When the user re-logs back into the cms, you get redirected back to the page you were previously logged into.
+
+October II clears all the different types of caches and generates fresh cookies when logging in and out.
+
 ### October Installer
 
 We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their October II installation. For example, a user has two choices:
