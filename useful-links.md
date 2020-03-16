@@ -8,7 +8,7 @@ https://laravel.com/api/7.x/index.html
 
 ### Laravel Validation
 
-https://laravel.com/docs/master/validation
+https://laravel.com/docs/master/validation#available-validation-rules
 
 ### Request
 
