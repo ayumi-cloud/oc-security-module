@@ -165,7 +165,9 @@ For a full list of the new governance model for the October II Project, see here
 
 New security features to October II with logging in and out of the cms that have been added to the core: `2FA (Multi-factor authentication)` - APP Version NOT Phone txt msg, `U2F (Universal 2nd Factor)` and `Google reCAPTCHA v2 and v3`.
 
-3FA (three-factor authentication) is being discussed being added to October II. For example, using 2FA with a second layer of security such as a `slide capchta`, `fingerprint scanner`, `facial recognitio` or `voice recognition`.
+3FA (three-factor authentication) is currently being discussed to add to October II. For example, using `2FA` with a second layer of security such as a `slide capchta`, `fingerprint scanner`, `facial recognitio`, `voice recognition` or `Passphrase`.
+
+October II has a feature that whitelists a **location** identifier to a user account. For example, an `IP Address` (for Fixed IP address ISP users), `an autonomous system number` (ASN) (for dynamic IP addresses ISP users), or a `country lock` (for a wider scope).
 
 October II has timeout options, such as no actively for an hour the cms will log you out, or turn off this feature altogether (can be set separately to each user account - as different users will have different requirements). When the user re-logs back into the cms, you get redirected back to the page you were previously logged into.
 
