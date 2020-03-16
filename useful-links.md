@@ -6,6 +6,10 @@ https://laravel.com/api/6.x/index.html
 
 https://laravel.com/api/7.x/index.html
 
+### Laravel Validation
+
+https://laravel.com/docs/master/validation
+
 ### Request
 
 https://octobercms.com/docs/services/request-input#request-information
