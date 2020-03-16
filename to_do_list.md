@@ -21,3 +21,13 @@ Monaco: https://github.com/octobercms/october/issues/4545
 Github: https://github.com/octobercms/october/issues/4959
 
 8. preview settings checkboxes widget
+
+
+------------
+
+https://deviceatlas.com/blog/list-smart-tv-user-agent-strings
+https://deviceatlas.com/blog/list-ott-user-agents
+https://deviceatlas.com/blog/targeting-wearable-devices
+
+https://deviceatlas.com/blog/which-devices-have-browsers
+https://developers.whatismybrowser.com/useragents/explore/hardware_type_specific/car/
