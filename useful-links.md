@@ -304,3 +304,7 @@ https://any.run/malware-trends/
 ### Client Hints
 
 https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/client-hints
+
+### Browser Leaks
+
+https://browserleaks.com/
