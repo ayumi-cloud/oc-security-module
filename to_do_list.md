@@ -31,3 +31,9 @@ https://deviceatlas.com/blog/targeting-wearable-devices
 
 https://deviceatlas.com/blog/which-devices-have-browsers
 https://developers.whatismybrowser.com/useragents/explore/hardware_type_specific/car/
+
+----------
+
+Treat Tools: https://github.com/ayumi-cloud/ThreatPinchLookup/tree/master/configs/API
+
+
