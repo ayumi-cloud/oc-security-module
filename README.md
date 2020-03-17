@@ -12,11 +12,11 @@
 
 <p align="center"><a href="https://paypal.me/#"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/paypal-button.svg"></a></p>
 
-This repo to gather security enhancement ideas and to monitor progress.
+<p align="center">This repo to gather security enhancement ideas and to monitor progress.</p>
 
-Feel free to add issues containing security ideas, requests and infomation.
+<p align="center">Feel free to add issues containing security ideas, requests and infomation.</p>
 
-**The security code is not held in this repo - but in a private repo (being heavily developed)**
+<p align="center">**The security code is not held in this repo - but in a private repo (being heavily developed)**</p>
 
 ## Transparency
 
