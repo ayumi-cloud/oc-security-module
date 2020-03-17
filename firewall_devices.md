@@ -1,4 +1,4 @@
-## Firewall Detection Device List
+## Firewall Analysis Section Detection Device List
 
 The device data is gathered and displayed in the analysis section, for SEO and Tracking purposes for the webmaster.
 
