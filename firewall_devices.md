@@ -1,5 +1,7 @@
 ## Firewall Detection Device List
 
+The device data is gathered and displayed in the analysis section, for SEO and Tracking purposes for the webmaster.
+
 >                               ⚠️ THIS IS AN INCOMPLETE LIST AND NEEDS UPDATING LATER! ⚠️
 
 The lists below are auto generated and updated from time to time. Some of them might not be complete.
