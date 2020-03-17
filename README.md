@@ -284,6 +284,40 @@ October II has updated the backend error phraser and removed the `three dots` hi
 
 In October II you can set `debug mode` to display errors to a set of ip addresses - useful for working on live production websites (where you want to hide the stack logs to real users).
 
+### Improved visual perceptual colors
+
+October version one suffered from generating and displaying hard to visualize perceptual colors in data displaying widgets and scoreboards, take the following example:
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/perceptual-colors-1.png"></p>
+
+In the above example, October version one creates several table columns, notice columns 2 and 3 are hard to see red and orange, likewise with columns 5,6,7 and 8 are all using red's and orange colors, lastly the last two columns use orange and yellow next to each other. This makes it harder on the human's eye to visualize the data.
+
+October II uses an intelligent scoring system to create easier to visualize data displays, the scoring system is made up of four main parts:
+
+#### Perceptual Distance
+
+Increasing Perceptual Distance favors palette colors that are more easily discriminable to the human eye. To accurately model human color acuity, this is performed using [CIEDE2000](https://en.wikipedia.org/wiki/Color_difference#CIEDE2000) in CIE Lab color space.
+
+#### Name Difference
+
+Increasing Name Difference favors palette colors that share few common names. This is similar to perceptual distance, but can lead to different results in certain areas of color space. This happens when there are many different names for perceptually close colors (e.g., red and pink are perceptually close but named differently). Colorgorical calculates this using Heer and Stone's Name Difference function, which is built on top of the XKCD color-name survey.
+
+#### Pair Preference
+
+Increasing Pair Preference favors palette colors that are, on average, predicted to be more aesthetically preferable together. Typically these colors are similar in hue, have different lightness, and are cooler colors (blues and greens). Pair Preference is based off of [Schloss and Palmer's research](https://www.ncbi.nlm.nih.gov/pubmed/21264737) on color preference.
+
+#### Name Uniqueness
+
+Increasing Name Uniqueness favors palette colors that are uniquely named. Some colors like red are readily named and are favored, whereas other colors are less obviously named and are ignored. Like, Name Difference, Name Uniqueness is based on Heer and Stone's color-name research.
+
+Now let's see the same chart but in October II using an intelligent visualize color system:
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/perceptual-colors-2.png"></p>
+
+In the above example, October II's data is clearer and easier to view on the human eyes!
+
+> The security module's analytics section uses this system to enhance the visual data!
+
 ### Reducing seizure risk
 
 Photosensitive seizures can be provoked by certain types of flashing in web or computer content, including mouse-overs that cause large areas of the screen to rapidly flash on and off repeatedly. Hazardous, seizure-inducing content has been inadvertently broadcast on television in the past, causing mass seizures in children. As web content becomes more dynamic and media-rich, it is important to prevent similar problems.
