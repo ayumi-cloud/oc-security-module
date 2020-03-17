@@ -16,7 +16,7 @@
 
 <p align="center">Feel free to add issues containing security ideas, requests and infomation.</p>
 
-<p align="center">**The security code is not held in this repo - but in a private repo (being heavily developed)**</p>
+<p align="center"><strong>The security code is not held in this repo - but in a private repo (being heavily developed)</strong></p>
 
 ## Transparency
 
