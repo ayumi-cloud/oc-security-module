@@ -280,6 +280,10 @@ In October II the events log section has been removed and renamed to `Error Trac
 
 October II has updated the backend error phraser and removed the `three dots` hiding various links and identities, in the `Error Tracking` section. There was no need to hide important information in the backend, **this protection only applies to the frontend now!** Thus making bug testing and error handling much easier for developers working on plugins, apps and themes.
 
+#### Debug mode
+
+In October II you can set `debug mode` to display errors to a set of ip addresses - useful for working on live production websites (where you want to hide the stack logs to real users).
+
 ### Reducing seizure risk
 
 Photosensitive seizures can be provoked by certain types of flashing in web or computer content, including mouse-overs that cause large areas of the screen to rapidly flash on and off repeatedly. Hazardous, seizure-inducing content has been inadvertently broadcast on television in the past, causing mass seizures in children. As web content becomes more dynamic and media-rich, it is important to prevent similar problems.
