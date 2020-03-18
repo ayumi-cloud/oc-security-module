@@ -217,6 +217,14 @@ Enables quieter permission prompts for notification permission requests. When a 
 #quiet-notification-prompts
 ```
 
+### Enable improved UI for third-party cookie blocking
+
+Enables an improved UI for existing third-party cookie blocking users. – Mac, Windows, Linux, Chrome OS, Android
+
+```
+#improved-cookie-controls-for-third-party-cookie-blocking
+```
+
 ---
 
 ## Other Security Related HTTP Header API's
