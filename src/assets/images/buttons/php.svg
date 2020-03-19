@@ -1,0 +1,19 @@
+<svg width="92.1" height="20" viewBox="0 0 921 200" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="a" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="m"><rect width="921" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#m)">
+    <rect width="606" height="200" fill="#555"/>
+    <rect width="315" height="200" fill="#3C1" x="606"/>
+    <rect width="921" height="200" fill="url(#a)"/>
+  </g>
+  <g fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="60" y="148" textLength="506" fill="#000" opacity="0.25">language</text>
+    <text x="50" y="138" textLength="506">language</text>
+    <text x="661" y="148" textLength="215" fill="#000" opacity="0.25">PHP</text>
+    <text x="651" y="138" textLength="215">PHP</text>
+  </g>
+  
+</svg>
