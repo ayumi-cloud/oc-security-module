@@ -252,7 +252,7 @@ Added new datasets widget to core, users can create data sets via `yaml`, `html`
 
 Removed the fixed `max-height` and now the cms uses the the devices screensize as a `max-height`, with vertical autoscroll feature enabled. For mobile devices the filter window adjusts to the devices screen width, giving optimized results for user experience.
  
-Multi-level filters are available in October II, allowing users to set child parameters from the same drop-down menu.
+Header groupings and multi-level filters are available in October II, allowing users to set child parameters from the same drop-down menu. Likewise, vertical and horizontal filter layouts are now available in October II.
 
 ### Themes
 
