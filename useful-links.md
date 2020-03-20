@@ -320,3 +320,7 @@ https://tools.ietf.org/html/draft-ietf-httpbis-header-structure-16
 ### Hash SHA256
 
 https://emn178.github.io/online-tools/sha256.html
+
+### Badges
+
+https://shields.io/
