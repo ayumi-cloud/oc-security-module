@@ -324,3 +324,7 @@ https://emn178.github.io/online-tools/sha256.html
 ### Badges
 
 https://shields.io/
+
+### Github Emojis
+
+https://gist.github.com/roachhd/1f029bd4b50b8a524f3c
