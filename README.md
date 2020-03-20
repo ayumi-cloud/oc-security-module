@@ -339,7 +339,13 @@ In general, web or computer content will not provoke seizures if either of the f
 
 Note: The above tool has been virus scanned: https://www.virustotal.com/gui/url/e3580eaef2630fdb750b76bd09852246e5537fe56c8c999469b9867e6eac56d9/detection
 
-## Reporting a Vulnerability
+## Issues 🔨
+
+[![GitHub Issues](https://img.shields.io/github/issues/ayumi-cloud/oc-security-module.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/ayumi-cloud/oc-security-module/issues)
+
+If you face any issue, you can create a new issue in the Issues Tab and we will be glad to help you out!
+
+## Reporting a Vulnerability 💥
 
 We strive to make the code accessible to a wide audience of beginner and experienced users.
 
@@ -360,11 +366,11 @@ We are happy to work with the community to provide CVE identifiers for any disco
 
 If in doubt, feel free to reach out to us!
 
-## Security Module Penetration Testing Method
+## Security Module Penetration Testing Method 💪
 
 We use the following standards set by the Open Web Application Security Project (OWASP) which is an online community that produces freely-available articles, methodologies, documentation, tools and technologies in the field of web application security.
 
-### Information Gathering
+### Information Gathering 🐾
 
 - Spiders, Robots and Crawlers (OWASP-IG-001)
 
