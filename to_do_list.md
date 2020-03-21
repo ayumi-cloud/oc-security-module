@@ -38,3 +38,4 @@ Treat Tools: https://github.com/ayumi-cloud/ThreatPinchLookup/tree/master/config
 
 Design: https://github.com/ayumi-cloud/Ultimate-Facebook-Scraper/blob/v2.0/README.md
 
+Filter: https://octobertricks.com/tricks/add-group-filter-and-custom-options-to-a-backend-list
