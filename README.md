@@ -254,6 +254,12 @@ Removed the fixed `max-height` and now the cms uses the the devices screensize a
  
 Header groupings and multi-level filters are available in October II, allowing users to set child parameters from the same drop-down menu. Likewise, vertical and horizontal filter layouts are now available in October II.
 
+The SQL `LIKE` Operator has been added as a filter type in October II.
+
+Regex `preg_match` has been added as a filter type in October II.
+
+Filter dashboard has been completely re-designed in October II and displays the filtered results at the top and bottom of the web page.
+
 ### Themes
 
 There are several themes that come as standard in October II, these include `dark` mode, `light` mode, `classic (October 1 theme)`, `standard (October II theme)`, `bootstrap` and `material`. The themes also use some new CSS4 standards and updates with some new Media Queries properties, you can learn more here: [Media Queries Level 4](https://www.w3.org/TR/mediaqueries-4/) and to find out all the latest CSS features being worked on by the w3c group can be found here: [CSS current work and what's new](https://www.w3.org/Style/CSS/current-work). Plus you can create and add your own themes easily now with a dedicated section.
