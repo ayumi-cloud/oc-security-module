@@ -37,6 +37,7 @@ https://octobercms.com/docs/ui/icon
 ### Filter Lists
 
 https://octobercms.com/docs/backend/lists#list-filters
+https://github.com/octobercms/october/blob/develop/modules/backend/widgets/Filter.php
 
 ### October HTaccess Custom Rules (logical position placement)
 
