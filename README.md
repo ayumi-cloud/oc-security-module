@@ -351,6 +351,10 @@ Note: The above tool has been virus scanned: https://www.virustotal.com/gui/url/
 
 If you face any issue, you can create a new issue in the Issues Tab and we will be glad to help you out!
 
+### Completed Issues 🏆
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/issues-100.png"></p>
+
 ## Reporting a Vulnerability 💥
 
 We strive to make the code accessible to a wide audience of beginner and experienced users.
