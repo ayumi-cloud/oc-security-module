@@ -385,3 +385,14 @@ Indicates the client will accept a stale response, while asynchronously checking
 (*) Used in the main October II repo and not in the security module.
 
 To learn more see MDN: [Cache-Control - Expiration](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+
+---
+
+## Other API's
+
+### Server-Timing API
+
+The Server-Timing header communicates one or more metrics and descriptions for a given request-response cycle. It is used to surface any backend server timing metrics (e.g. database read/write, CPU time, file system access, etc.) in the developer tools in the user's browser or in the PerformanceServerTiming interface.
+
+To learn more see MDN: [Server-Timing](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Server-Timing)
+
