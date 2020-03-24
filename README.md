@@ -353,7 +353,7 @@ If you face any issue, you can create a new issue in the Issues Tab and we will 
 
 ### Completed Issues 🏆
 
-<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/issues-100.png"></p>
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/issues-200.png"></p>
 
 ## Reporting a Vulnerability 💥
 
