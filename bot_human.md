@@ -7,7 +7,8 @@ badBot | Bad bots to be blacklisted
 goodBot | Good bots to be whitelisted
 botNet | Botnet attacks to be hard blocked
 refererTool | Referer tools, see referer module
-tool | Various tools that can be switched on/off
+toolAllow | Allow tool to bypass firewall
+toolBlock | Block tool in firewall
 human | User is a human (not a robot)
 
 (*) Subject to adding more values, with more firewall modules being created.
