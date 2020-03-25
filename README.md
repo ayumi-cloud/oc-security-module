@@ -250,6 +250,8 @@ Intelligent multi-coloured focus rings, for example instead of having a blue foc
 
 Added new datasets widget to core, users can create data sets via `yaml`, `html` or `json`. In October II the core's been upgraded to accept json files natively now. The widget also is fully compliant with the schema spec, to learn more about schema datasets see here: [Schema Dataset](https://developers.google.com/search/docs/data-types/dataset). The widget comes with several graphical interface layout, these are: `Phylogram`, `Cladogram`, `Unrooted`, `Time-scaled tree`, `Two-dimensional tree` and `Three-dimensional tree`. Which then allows the following sub-layouts `rectangular (by default)`, `slanted`, `circular`, `fan`, `radial`, `unrooted` and `clock`.
 
+Added a new flip card help widget, which saves space and allows plugin developers to add more help infomation to their form fields.
+
 #### Filters
 
 Removed the fixed `max-height` and now the cms uses the the devices screensize as a `max-height`, with vertical autoscroll feature enabled. For mobile devices the filter window adjusts to the devices screen width, giving optimized results for user experience.
