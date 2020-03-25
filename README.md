@@ -220,6 +220,8 @@ _(*) You can add custom icon packs/sets to October II to use in the main interfa
 
 > Note: Icon packs will be downloaded when selected and saved, to reduce cms file size! Advanced users can use multi icon set/packs for their themes and plugins, by just uploading them to their assets folder or linking to a cdn etc.
 
+Added animated icons, with settings to display animation for faster internet speed connections only (to increase performance for lower speed devices) and also have increased support for more animation file types.
+
 ### Loading and saving methods for form fields
 
 In October II, to increase performance, form fields are now not loaded until a user selects that area. For example, a plugin has some form fields that are hidden in some tabs, the hidden form fields are not loaded until the user selects that tab and then the widgets in that tab are loaded. Likewise, October II only saves the form widgets that have been edited and changed, instead of in version one where it saves all the form fields even if they haven't been changed. In testing this has increased the performance of October version II.
