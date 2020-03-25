@@ -1,4 +1,4 @@
-## Bot to Human Module
+## Bot to Human API Module
 
 Value | Description
 ---|---
