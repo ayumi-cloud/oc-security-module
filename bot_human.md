@@ -9,6 +9,7 @@ botNet | Botnet attacks to be hard blocked
 refererTool | Referer tools, see referer module
 toolAllow | Allow tool to bypass firewall
 toolBlock | Block tool in firewall
+headLess | Using a headless browser
 human | User is a human (not a robot)
 
 (*) Subject to adding more values, with more firewall modules being created.
