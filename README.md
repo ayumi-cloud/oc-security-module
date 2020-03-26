@@ -343,7 +343,7 @@ In order to ensure that the October II proposal community is welcoming to all, p
 
 ## Contributing ✨
 
-xxx
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/builtWith.svg"></p>
 
 If you find any bugs in the code or have any improvements in mind then feel free to generate a pull request.
 
@@ -560,6 +560,6 @@ We use the following standards set by the Open Web Application Security Project 
 
 ## Copyright and License 📄
 
-xxx
+<p align="left"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/mit.svg"></p>
 
 This is free software, licensed under the MIT, Open Source Initiative.
