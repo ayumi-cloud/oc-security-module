@@ -134,6 +134,10 @@ Using the Nginx server settings has a few required steps to be able to work.
 ### Support
 
  * Nginx v**1.8.0**+
+ 
+## October II Firewall API 🔥
+
+For the full list of api result options in October II's firewall core, see here: [firewall_api.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/firewall_api.md)
 
 ## Breaking Changes from October Version 1 to Version 2
 
