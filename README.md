@@ -28,6 +28,14 @@ Over years we have coded and created well over a hundred pull requests (under va
 
 This module uses several Big Data tool sets to analyze large amounts of data collected from various Big Data sources to model various attack methods. Some database sizes are in the petabytes and takes a few hours to run and process some models. These models are then used and tested in our definitions files where we run them in real-time and test them. We also have various non-disclosed test severs running to gather various attacks and add this data into our Big Data models to create either new firewall modules or definition files for the modules. This process helps us to build a more secure security module and helps speed up the build process. We fully rely on using large amounts of data and machine learning tools to process them!
 
+## Citation 📚
+
+<a href="https://zenodo.org/record/3725831">
+  <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/citation.svg" />
+</a>
+
+Click the above badge for more information regarding the complete citation for this tool and diffferent citation formats like IEEE, APA etc.
+
 ## Usage 🔧
 
 ### Requirements 🚩
