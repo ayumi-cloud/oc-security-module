@@ -30,7 +30,7 @@ This module uses several Big Data tool sets to analyze large amounts of data col
 
 ## Citation 📚
 
-<a href="https://zenodo.org/record/3725831">
+<a href="https://zenodo.org/">
   <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/citation.svg" />
 </a>
 
