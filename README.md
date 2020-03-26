@@ -341,6 +341,10 @@ If in doubt, feel free to reach out to us!
 
 In order to ensure that the October II proposal community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/ayumi-cloud/oc-security-module/blob/master/CODE_OF_CONDUCT.md).
 
+## For Future 🔮
+
+Shoutout to people willing to contribute to this project. Please take a look at the [projects board](https://github.com/ayumi-cloud/oc-security-module/projects) for a list of things to be done.
+
 ## Contributing ✨
 
 <p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/builtWith.svg"></p>
