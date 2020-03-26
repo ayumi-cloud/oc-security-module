@@ -7,7 +7,7 @@ Value | Description
 n/a | Default (fallback if module can't determine value).
 badBot | Bad bots to be blacklisted.
 blogSpam | CMS blog comment spam.
-botNet | Botnet attacks to be hard blocked.
+botNet | A botnet is a number of Internet-connected devices, each of which is running one or more bots.
 bruteForce | Credential brute-force attacks on webpage logins and services like SSH, FTP, SIP, SMTP, RDP, etc.
 ddosAttack | Participating in distributed denial-of-service (usually part of botnet).
 dnsPoisoning | Falsifying domain server cache (cache poisoning).
