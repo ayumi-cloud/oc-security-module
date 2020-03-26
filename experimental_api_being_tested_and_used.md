@@ -396,3 +396,18 @@ The Server-Timing header communicates one or more metrics and descriptions for a
 
 To learn more see MDN: [Server-Timing](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Server-Timing)
 
+---
+
+### Trusted-Types API
+
+DOM-based cross-site scripting (DOM XSS) is one of the most common web security vulnerabilities, and it's very easy to introduce it in your application. Trusted Types give you the tools to write, security review, and maintain applications free of DOM XSS vulnerabilities by making the dangerous web API functions secure by default. Trusted Types are supported in Chrome 83, and a polyfill is available for other browsers.
+
+To learn more see MDN: [Trusted-Types](https://github.com/w3c/webappsec-trusted-types)
+
+---
+
+### CSP: Trusted-Types API
+
+The HTTP Content-Security-Policy (CSP) trusted-types  directive instructs user agents to restrict usage of known DOM XSS sinks to a predefined set of functions that only accept non-spoofable, typed values in place of strings. This allows authors to define rules guarding writing values to the DOM and thus reducing the DOM XSS attack surface to small, isolated parts of the web application codebase, facilitating their monitoring and code review. This directive declares a white-list of trusted type policy names created with TrustedTypes.createPolicy from Trusted Types API.
+
+To learn more see MDN: [CSP: trusted-types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/trusted-types)
