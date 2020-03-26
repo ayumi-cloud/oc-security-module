@@ -18,17 +18,19 @@
 
 <p align="center"><strong>The security code is not held in this repo - but in a private repo (being heavily developed)</strong></p>
 
-## Transparency
+## Transparency 📢
 
 This project is completely transparent and honest, before we started we contacted and discussed this project with the authors and admins of the October project. We have given the links to this repo to the authors and we continue to want to be transparent throughout the whole process! We feel it's important to state this and be open. This repo is made up of one module, which is part of several other modules all dedicated to different sections of an October II proposal. Instead of writing ideas and suggestions, we have taken a pro-active approach and are actively coding a fully working solution. The code is held on private repo's because the code is being heavily developed and changed on a daily basis. We will release a stable release to the admins and authors in private for feedback before releasing to the general public. This is a long-term project and will continue to grow!
 
 Over years we have coded and created well over a hundred pull requests (under various github accounts) which have been merged to the October version one projects core, we have never asked or recevived any money for any of the pull requests. We use the cms for professional purposes and therefore it is beneficial for our companies to have a professional working solution to give our end-users and clients. In order for us to delivery a high quality product we made the discussion to update the cms as there have been a lot of new api's, frameworks, libraries  and technologies been added to the internet over the years since the initial release of the cms.
 
-## Big data
+## Big data 📊
 
 This module uses several Big Data tool sets to analyze large amounts of data collected from various Big Data sources to model various attack methods. Some database sizes are in the petabytes and takes a few hours to run and process some models. These models are then used and tested in our definitions files where we run them in real-time and test them. We also have various non-disclosed test severs running to gather various attacks and add this data into our Big Data models to create either new firewall modules or definition files for the modules. This process helps us to build a more secure security module and helps speed up the build process. We fully rely on using large amounts of data and machine learning tools to process them!
 
-## Requirements
+## Usage 🔧
+
+### Requirements 🚩
 
 This library requires the following:
 
@@ -44,58 +46,7 @@ Laravel 7 continues the improvements made in Laravel 6.x by introducing Laravel 
 
 - Laravel 7 to use [Laravel Airlock](https://laravel.com/docs/master/airlock). To learn more you can watch this video: [Laravel Airlock with Vue for SPA Auth](https://www.youtube.com/watch?v=D9oIu6jiYLk).
 
-## Code of Conduct
-
-In order to ensure that the October II proposal community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/ayumi-cloud/oc-security-module/blob/master/CODE_OF_CONDUCT.md).
-
-## Contributing
-
-Patches and pull requests are encouraged. All code should follow the [PSR-1](https://www.php-fig.org/psr/psr-1/) and [PSR-2](https://www.php-fig.org/psr/psr-2/) style guidelines. **Please include unit tests whenever possible!**
-
-### PSR
-
-This security module uses some PSR standards to be the most interoperable possible:
-
-- [PSR-7](https://www.php-fig.org/psr/psr-7/) Standard interfaces to represent http requests, responses and uris
-- [PSR-17](https://www.php-fig.org/psr/psr-17/) Standard factories to create PSR-7 objects
-- [PSR-18](https://www.php-fig.org/psr/psr-18/) Standard interface to send a http request and return a response
-
-## Copyright and License
-
-This is free software, licensed under the MIT, Open Source Initiative.
-
-## Versioning
-
-The Security Module code uses [Semantic Versioning](https://semver.org/).
-
-## Supported Versions
-
-We have two types of releases, Major releases (3.0.0, 3.1.0, 3.2.0 etc.) and point releases (3.0.1, 3.0.2 etc.).
-
-We officially support the two point releases with security patching preceding the current major release.
-
-We are happy to receive and merge PR's that address security issues in older versions of the project, but the team itself may choose not to fix these.
-
-Along those lines, the team may not issue security notifications for unsupported software.
-
-| Version     | Supported          |
-| ----------- | ------------------ |
-| 3.3.x-dev   | :white_check_mark: |
-| 3.3.x-rc    | :white_check_mark: |
-| 3.3.x-beta  | :white_check_mark: |
-| 3.3.x-aplha | :white_check_mark: |
-| 2.2.x       | :white_check_mark: |
-| 2.1.x       | :white_check_mark: |
-| 1.0.x       | :white_check_mark: |
-| 1.0.x.x     | :x:                |
-
-When the version tag is not stable; e.g. `1.0.0-alpha`, `1.0.0-beta`, `1.0.0-dev` or `1.0.0-rc` (see https://semver.org/#spec-item-11)
-
-Example:
-
-<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/semantic.png"></p>
-
-## Enable the following Apache httpd modules
+#### Enable the following Apache httpd modules 🔧
 
 We have a dedicated Apache section for users using `.htaccess` some configurations won't have any effect if the appropriate modules aren't enabled. So, in order for everything to work as intended, you need to ensure the you have the following Apache modules enabled:
 
@@ -114,24 +65,26 @@ For more detailed information on configuration files and how to use them, please
 * <https://httpd.apache.org/docs/current/configuring.html>
 * <https://httpd.apache.org/docs/current/howto/htaccess.html>
 
-### Support
+##### **Support**
 
- * Apache 2.4.10 or greater (we are looking at adding some version 2.5 features in the near future)
+ * Apache **2.4.10 or greater** (we are looking at adding some version 2.5 features in the near future)
 
-## Microsoft IIS Server
+#### Microsoft IIS Server 🛠️
 
 The server settings target IIS7+ where replacement config is available for IIS8 (or simplification) it will be marked.
 
-## Nginx Server
+##### **Support**
 
-### Getting Started
+ * **IIS7+**
+
+#### Nginx Server 🔨
 
 Using the Nginx server settings has a few required steps to be able to work.
 
 * [Nginx Beginners Guide](https://nginx.org/en/docs/beginners_guide.html)
 * [Nginx Request Processing](https://nginx.org/en/docs/http/request_processing.html)
 
-### Support
+##### **Support**
 
  * Nginx v**1.8.0**+
  
@@ -139,11 +92,11 @@ Using the Nginx server settings has a few required steps to be able to work.
 
 For the full list of api result options in October II's core, see here: [firewall_api.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/firewall_api.md)
 
-## Breaking Changes from October Version 1 to Version 2
+## Breaking Changes from October Version 1 to Version 2 😃
 
 > This repo doesn't contain a full list of updates and changes from version 1 to 2. The list of changes below relate directly to the security module. For a full list of updated and new features, see the main update proposal module repo!
 
-### Goals
+### Goals ⚽
 
 With October version one the goals were to keep things simple and minimalist to advoid complication things! With October II the goals are now different and <em>we</em> as a team believe that October II should have many advanced features that include a clever interface design to allow non-technical people to understand and use these advanced features! Professional developers and webmasters should not have to suffer to cater for non-technical people! All features have been made and designed in an easy to understand user interface with a lot of instructions and documentation explaining how to use, what it does, the pro's and con's and many more! This approach allows us to use modern api's and frameworks for non-technical people wanting to use the cms. It also allows the cms to continue use modern and stay update to date with new and future technologies.
 
@@ -157,7 +110,7 @@ These `experimental features` can be turned on and off in a sandboxed enviroment
 
 With a focus on making everything fully customizable, to allow developers and webmasters to create a custom cms, projects, plugins and themes in both the frontend and backend.
 
-### An open governance model for the October II Project
+### An open governance model for the October II Project 🚀
 
 When choosing a governance model (a system that describes how decisions are made) for October II,  we initially focused on agility. Big open source projects have always been powered by the voices and feedback of the developers and organizations that use it. However, in October one, the governance was centered around 6 admin people.
 
@@ -165,7 +118,17 @@ While this works great for smaller projects, it doesn't work to scale for large 
 
 For a full list of the new governance model for the October II Project, see here: [GOVERNANCE.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/GOVERNANCE.md).
 
-### Login / Signin and Signing Out
+### October Installer 💎
+
+We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their October II installation. For example, a user has two choices:
+
+1. Normal security level - current October version one settings (useful for localhost installations).
+
+2. Enhanced security level - October version two settings (useful for live / production websites).
+
+It's important to let users set the security levels at an early stage and the security module needs some basic configuration settings to set up before activation. More complex settings can be added at a later time (after the initial installation).
+
+### Login / Signin and Signing Out 🔒
 
 October II has a feature that whitelists a **location** identifier to a user account. For example, an `IP Address` (for Fixed IP address ISP users), an `autonomous system number` (ASN) (for dynamic IP addresses ISP users), or a `country lock` (for a wider scope).
 
@@ -179,21 +142,11 @@ _*3FA (three-factor authentication) is currently being discussed to add to Octob
 
 (*) 3FA and 4FA still in discussion - not yet added to core.
 
-### October Installer
-
-We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their October II installation. For example, a user has two choices:
-
-1. Normal security level - current October version one settings (useful for localhost installations).
-
-2. Enhanced security level - October version two settings (useful for live / production websites).
-
-It's important to let users set the security levels at an early stage and the security module needs some basic configuration settings to set up before activation. More complex settings can be added at a later time (after the initial installation).
-
-#### Project type
+### Project type ⚙️
 
 Users can now select different project types such as: `Vue.js`, `React`, `Angular`, `Sketch`, `Foundation`, `Ember`, `Adobe Apps`, `GraphQL API`, `REST API`, `Bootstrap`, `Flat HTML` etc. Also users will select their server type, such as `Microsoft IIS`, `Nginx`,  `Apache` etc. and October II will create a more custom cms for the user based off their project type. The security module will also be more configured to their server type giving a better more secure user experience.
 
-#### Icons
+### Icons ❄️
 
 The standard October icons are now set to redundancy mode in October II (for backwards compatibility), instead a user can select their default icon sets at the installer stage or change their minds at a later date and change the default set in the settings section. As default the core will use `Font Awesome version 5 Pro`, unless the user selects a different custom icon pack. Also each plugin has a settings section where you can set a default icon pack which can override the main cms controls, for example:
 
@@ -226,15 +179,15 @@ _(*) You can add custom icon packs/sets to October II to use in the main interfa
 
 Added animated icons, with settings to display animation for faster internet speed connections only (to increase performance for lower speed devices) and also have increased support for more animation file types.
 
-### Loading and saving methods for form fields
+### Loading and saving methods for form fields 💾
 
 In October II, to increase performance, form fields are now not loaded until a user selects that area. For example, a plugin has some form fields that are hidden in some tabs, the hidden form fields are not loaded until the user selects that tab and then the widgets in that tab are loaded. Likewise, October II only saves the form widgets that have been edited and changed, instead of in version one where it saves all the form fields even if they haven't been changed. In testing this has increased the performance of October version II.
 
-### New grid system
+### New grid system 🌐
 
 October II uses a 12-column drag n drop grid system, instead of a two column system. For backwards compatibility `left`, `right` and `auto` are the same size as 6-columns and `full` is the same size as 12-columns. October II also allows users to `import` and `export` grid files to help speed up developing - the files can be saved into two formats: `.json` or `.csv` depending on your choice.
 
-### User interface
+### User interface 💻
 
 The user interface has been redesigned in October II with lots of new features, using modern api's and technologies. All the widgets have been re-coded using a combination of [Tailwind CSS](https://tailwindcss.com/), [Vue.js Widgets](https://vuejs.org/) and [D3 data visualization library](https://d3js.org/)! October II incldues many new widgets that have been added into the core, a full list is included in the user interface repo module.
 
@@ -256,7 +209,7 @@ Added new datasets widget to core, users can create data sets via `yaml`, `html`
 
 Added a new flip card help widget, which saves space and allows plugin developers to add more help infomation to their form fields.
 
-#### Filters
+### Filters 📐
 
 Removed the fixed `max-height` and now the cms uses the the devices screensize as a `max-height`, with vertical autoscroll feature enabled. For mobile devices the filter window adjusts to the devices screen width, giving optimized results for user experience.
  
@@ -268,43 +221,43 @@ Regex `preg_match` has been added as a filter type in October II.
 
 Filter dashboard has been completely re-designed in October II and displays the filtered results at the top and bottom of the web page.
 
-### Themes
+### Themes 🔰
 
 There are several themes that come as standard in October II, these include `dark` mode, `light` mode, `classic (October 1 theme)`, `standard (October II theme)`, `bootstrap` and `material`. The themes also use some new CSS4 standards and updates with some new Media Queries properties, you can learn more here: [Media Queries Level 4](https://www.w3.org/TR/mediaqueries-4/) and to find out all the latest CSS features being worked on by the w3c group can be found here: [CSS current work and what's new](https://www.w3.org/Style/CSS/current-work). Plus you can create and add your own themes easily now with a dedicated section.
 
 October II has been designed to work in various environments according to screen size and device, these can be grouped into the following areas (starting from smallest screen size through to largest): `smart watches` e.g. 320px, `smart phones`, `tablets`, `computers` and `smart tv's` e.g. 8K resolution. Using modern api's and techniques to adjust features such as `animation` for higher screen sized devices only and internet connection for `data save` features etc. You can learn more here: [Delivering Fast and Light Applications with Save-Data](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/save-data).
 
-#### Fonts
+### Fonts 🗛
 
 October version one uses regular fonts and October II now uses variable fonts - this has improved User Experience for users using smaller screen devices such as phones and tablets, to learn more see here: [Variable Fonts](https://developers.google.com/web/fundamentals/design-and-ux/typography/variable-fonts)
 
-#### Smart Speakers and Voice API's
+### Smart Speakers and Voice API's 🔊
 
 - The main October II repo has added support for `Voice Actions` and voice api's. To learn more about Voice Actions see here: [Google Developers Voice Actions](https://developers.google.com/voice-actions)
 
 - The security module in October II has added support for `Smart Speakers`. Along with support of `Games Consoles`, `Smart TV's`, `Smart Setup Box`, `Smart Watches`, `Tablets`, `Laptops`, `Computers`, `Smart Phones`, `Tablets`, `Phablets` and `Wearable Tech` (**more to be added over time**)!
 
-### Dashboard
+### Dashboard 📄
 
 The reporting widget called `System Status` will display **security issues** and **production modes check issues** where a link will also redirect the user to a dedicated security dashboard showing all the security related issues.
 
 In October one the dashboard used the Isotope library, since then many advances in technology have been created such as Flexbox and modern drag n drop libraries and api's. October II uses a more modern library to handle the drag n drop. All widgets are now fully responsive and down scaling the screen has been fixed to give a much more smoother experience! New features include importing and exporting dashboard layouts and a whole bunch of common reporting widgets you find in other competitor cms dashboards as standard.
 
-### Plugin / App isolation
+### Plugin / App isolation 🦄
 
 This feature works the same way as Google's [Site Isolation](https://www.chromium.org/Home/chromium-security/site-isolation), in October II plugins and apps are sandboxed to prevent any malicious software spreading in the cms! This is the same way a sandbox program like [Sandboxie](https://www.sandboxie.com/) works.
 
-### Error Tracking
+### Error Tracking 🐞
 
 In October II the events log section has been removed and renamed to `Error Tracking` and now uses Laravel's [Ignition](https://github.com/facade/ignition) for tracking errors. The package has been modified to add extra features to October II such as: Perform self diagnosis checks, added a code editor to the stack trace tab, allow downloading error reports via (`.csv` and `.json`), send reports and notifications to email clients, create error category tags, assign errors to individual developer team memebers, share the error report, lookup the error message to various platforms such as [Stack Overflow](https://stackoverflow.com/) and [Laracasts](https://laracasts.com/), show your migrations and their status and many more features.
 
 October II has updated the backend error phraser and removed the `three dots` hiding various links and identities, in the `Error Tracking` section. There was no need to hide important information in the backend, **this protection only applies to the frontend now!** Thus making bug testing and error handling much easier for developers working on plugins, apps and themes.
 
-#### Debug mode
+### Debug mode 🐛
 
 In October II you can set `debug mode` to display errors to a set of ip addresses - useful for working on live production websites (where you want to hide the stack logs to real users).
 
-### Improved visual perceptual colors
+### Improved visual perceptual colors 🤓
 
 October version one suffered from generating and displaying hard to visualize perceptual colors in data displaying widgets and scoreboards, take the following example:
 
@@ -314,19 +267,19 @@ In the above example, October version one creates several table columns, notice 
 
 October II uses an intelligent scoring system to create easier to visualize data displays, the scoring system is made up of four main parts:
 
-#### Perceptual Distance
+#### Perceptual Distance 🌵
 
 Increasing Perceptual Distance favors palette colors that are more easily discriminable to the human eye. To accurately model human color acuity, this is performed using [CIEDE2000](https://en.wikipedia.org/wiki/Color_difference#CIEDE2000) in CIE Lab color space.
 
-#### Name Difference
+#### Name Difference 🌴
 
 Increasing Name Difference favors palette colors that share few common names. This is similar to perceptual distance, but can lead to different results in certain areas of color space. This happens when there are many different names for perceptually close colors (e.g., red and pink are perceptually close but named differently). Colorgorical calculates this using Heer and Stone's Name Difference function, which is built on top of the XKCD color-name survey.
 
-#### Pair Preference
+#### Pair Preference 🌲
 
 Increasing Pair Preference favors palette colors that are, on average, predicted to be more aesthetically preferable together. Typically these colors are similar in hue, have different lightness, and are cooler colors (blues and greens). Pair Preference is based off of [Schloss and Palmer's research](https://www.ncbi.nlm.nih.gov/pubmed/21264737) on color preference.
 
-#### Name Uniqueness
+#### Name Uniqueness 🌳
 
 Increasing Name Uniqueness favors palette colors that are uniquely named. Some colors like red are readily named and are favored, whereas other colors are less obviously named and are ignored. Like, Name Difference, Name Uniqueness is based on Heer and Stone's color-name research.
 
@@ -338,7 +291,7 @@ In the above example, October II's data is clearer and easier to view on the hum
 
 > The security module's analytics section uses this system to enhance the visual data!
 
-### Reducing seizure risk
+### Reducing seizure risk 🌝
 
 Photosensitive seizures can be provoked by certain types of flashing in web or computer content, including mouse-overs that cause large areas of the screen to rapidly flash on and off repeatedly. Hazardous, seizure-inducing content has been inadvertently broadcast on television in the past, causing mass seizures in children. As web content becomes more dynamic and media-rich, it is important to prevent similar problems.
 
@@ -384,6 +337,57 @@ We are happy to work with the community to provide CVE identifiers for any disco
 
 If in doubt, feel free to reach out to us!
 
+## Code of Conduct 💯
+
+In order to ensure that the October II proposal community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/ayumi-cloud/oc-security-module/blob/master/CODE_OF_CONDUCT.md).
+
+## Contributing ✨
+
+xxx
+
+If you find any bugs in the code or have any improvements in mind then feel free to generate a pull request.
+
+**Note:** Please use Unit Testing and Coding Best Practices in order to have a valid pull request 😉
+
+Patches and pull requests are encouraged. All code should follow the [PSR-1](https://www.php-fig.org/psr/psr-1/) and [PSR-2](https://www.php-fig.org/psr/psr-2/) style guidelines. **Please include unit tests whenever possible!**
+
+### PSR ♻️
+
+This security module uses some PSR standards to be the most interoperable possible:
+
+- [PSR-7](https://www.php-fig.org/psr/psr-7/) Standard interfaces to represent http requests, responses and uris
+- [PSR-17](https://www.php-fig.org/psr/psr-17/) Standard factories to create PSR-7 objects
+- [PSR-18](https://www.php-fig.org/psr/psr-18/) Standard interface to send a http request and return a response
+
+## Versioning ✅
+
+The Security Module code uses [Semantic Versioning](https://semver.org/).
+
+We have two types of releases, Major releases (3.0.0, 3.1.0, 3.2.0 etc.) and point releases (3.0.1, 3.0.2 etc.).
+
+We officially support the two point releases with security patching preceding the current major release.
+
+We are happy to receive and merge PR's that address security issues in older versions of the project, but the team itself may choose not to fix these.
+
+Along those lines, the team may not issue security notifications for unsupported software.
+
+| Version     | Supported          |
+| ----------- | ------------------ |
+| 3.3.x-dev   | :white_check_mark: |
+| 3.3.x-rc    | :white_check_mark: |
+| 3.3.x-beta  | :white_check_mark: |
+| 3.3.x-aplha | :white_check_mark: |
+| 2.2.x       | :white_check_mark: |
+| 2.1.x       | :white_check_mark: |
+| 1.0.x       | :white_check_mark: |
+| 1.0.x.x     | :x:                |
+
+When the version tag is not stable; e.g. `1.0.0-alpha`, `1.0.0-beta`, `1.0.0-dev` or `1.0.0-rc` (see https://semver.org/#spec-item-11)
+
+Example:
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/semantic.png"></p>
+
 ## Security Module Penetration Testing Method 💪
 
 We use the following standards set by the Open Web Application Security Project (OWASP) which is an online community that produces freely-available articles, methodologies, documentation, tools and technologies in the field of web application security.
@@ -402,7 +406,7 @@ We use the following standards set by the Open Web Application Security Project 
 
 - Analysis of Error Codes (OWASP-IG-006)
 
-### Configuration Management Testing
+### Configuration Management Testing 📕
 
 - SSL/TLS Testing (SSL Version, Algorithms, Key length, Digital Cert. Validity) (OWASP-CM-001)
 
@@ -420,7 +424,7 @@ We use the following standards set by the Open Web Application Security Project 
 
 - Testing for HTTP Methods and Cross Site Tracing (XST) (OWASP-CM-008)
 
-### Authentication Testing
+### Authentication Testing 📗
 
 - Credentials transport over an encrypted channel (OWASP-AT-001)
 
@@ -442,7 +446,7 @@ We use the following standards set by the Open Web Application Security Project 
 
 - Testing for Race Conditions (OWASP-AT-010)
 
-### Session Management Testing
+### Session Management Testing 📘
 
 - Testing for Session Management Schema (OWASP-SM-001)
 
@@ -454,7 +458,7 @@ We use the following standards set by the Open Web Application Security Project 
 
 - Testing for Cross Site Request Forgery (CSRF) (OWASP-SM-005)
 
-### Authorization Testing
+### Authorization Testing 📒
 
 - Testing for path traversal (OWASP-AZ-001)
 
@@ -464,7 +468,7 @@ We use the following standards set by the Open Web Application Security Project 
 
 - Business Logic Testing (OWASP-BL-001)
 
-### Data Validation Testing
+### Data Validation Testing 📔
 
 - Testing for Reflected Cross Site Scripting (OWASP-DV-001)
 
@@ -514,7 +518,7 @@ We use the following standards set by the Open Web Application Security Project 
 
 - Testing for HTTP Splitting/Smuggling (OWASP-DV-016)
 
-### Testing for Denial of Service
+### Testing for Denial of Service 📓
 
 - Testing for SQL Wildcard Attacks (OWASP-DS-001)
 
@@ -532,7 +536,7 @@ We use the following standards set by the Open Web Application Security Project 
 
 - Testing for Storing too Much Data in Session (OWASP-DS-008)
 
-### Web Services Testing
+### Web Services Testing 📒
 
 - WS Information Gathering (OWASP-WS-001)
 
@@ -548,8 +552,14 @@ We use the following standards set by the Open Web Application Security Project 
 
 - Replay Testing (OWASP-WS-007)
 
-### AJAX Testing
+### AJAX Testing 📚
 
 - AJAX Vulnerabilities (OWASP-AJ-001)
 
 - How to test AJAX (OWASP-AJ-002)
+
+## Copyright and License 📄
+
+xxx
+
+This is free software, licensed under the MIT, Open Source Initiative.
