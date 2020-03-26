@@ -239,6 +239,8 @@ October II has been designed to work in various environments according to screen
 
 October version one uses regular fonts and October II now uses variable fonts - this has improved User Experience for users using smaller screen devices such as phones and tablets, to learn more see here: [Variable Fonts](https://developers.google.com/web/fundamentals/design-and-ux/typography/variable-fonts)
 
+To increase performance, October II also uses a combination of [preloading](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization#preload_your_webfont_resources) and font-display using [CSS Fonts Module Level 4](https://drafts.csswg.org/css-fonts-4/#font-display-desc)
+
 ### Smart Speakers and Voice API's 🔊
 
 - The main October II repo has added support for `Voice Actions` and voice api's. To learn more about Voice Actions see here: [Google Developers Voice Actions](https://developers.google.com/voice-actions)
