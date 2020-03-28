@@ -330,7 +330,7 @@ Note: The above tool has been virus scanned: https://www.virustotal.com/gui/url/
 
 ## Issues 🔨
 
-[![GitHub Issues](https://img.shields.io/github/issues/ayumi-cloud/oc-security-module.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/ayumi-cloud/oc-security-module/issues)
+<img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/ayumi-cloud/oc-security-module?style=plastic"> [![GitHub Issues](https://img.shields.io/github/issues/ayumi-cloud/oc-security-module.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/ayumi-cloud/oc-security-module/issues)
 
 If you face any issue, you can create a new issue in the Issues Tab and we will be glad to help you out!
 
@@ -385,7 +385,11 @@ This security module uses some PSR standards to be the most interoperable possib
 - [PSR-17](https://www.php-fig.org/psr/psr-17/) Standard factories to create PSR-7 objects
 - [PSR-18](https://www.php-fig.org/psr/psr-18/) Standard interface to send a http request and return a response
 
-## Versioning ✅
+We also suggest using Cross-browser testing provided by BrowserStack (*) where a real-browser can't be used in-house.
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/browser-stack.png"></p>
+
+## Semantic Versioning ✅
 
 The Security Module code uses [Semantic Versioning](https://semver.org/).
 
