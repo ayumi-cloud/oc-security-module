@@ -126,6 +126,16 @@ While this works great for smaller projects, it doesn't work to scale for large 
 
 For a full list of the new governance model for the October II Project, see here: [GOVERNANCE.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/GOVERNANCE.md).
 
+### Move to focus support for evergreen browsers 💖
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/ie-browser.png"></p>
+
+October II uses a lot of modern api's and technoligies, to take full advantage and have comprehensive support, we recommend using an evergreen-browser with the cms!
+
+> IE11 is a legacy browser still being used for operating systems that have a Long-Term Servicing Channel (LTSC) design and will shut down in 2025. Most developers will not be using such operating systems and should be using an evergreen service - for those developers still using old legacy software they carry the risk of security issues! October II focuses on _Polyfilling evergreen browsers only_ for various api support and features!
+
+For checking browser support with api's and features we recommend using the: [CanIUse website](https://www.caniuse.com/)
+
 ### October Installer 💎
 
 We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their October II installation. For example, a user has two choices:
