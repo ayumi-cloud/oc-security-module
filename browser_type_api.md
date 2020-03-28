@@ -4,6 +4,7 @@ October II security module also comes with a browser type api that sends the fol
 
 Value | Description
 ---|---
+n/a | Default (fallback if module can't determine value).
 noVersion | Request hiding their browser version, good bots bypass this mode.
 malware | Bad fake browsers containing malware or adware etc.
 dead | Browsers that have been discontinued.
