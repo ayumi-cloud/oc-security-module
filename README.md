@@ -255,9 +255,9 @@ To increase performance, October II also uses a combination of [preloading](http
 
 ### Searchbox 🔍
 
-October version one had a very annoying bug where the top menu, tabs and the search box would display in the middle of the screen and then jump across to the right hand side! This bug was caused because the elements were getting calculated using a javascript `data-calculate-width` function. In October II we have ripped that javascript and the elements use modern flexbox css styling instead to eliminate the elements jumping about on page load.
+October version one had a very annoying bug where the top menu, tabs and the search box would display in the middle of the screen and then jump across to the right hand side! This bug was caused because the elements were getting calculated using a javascript `data-calculate-width` function. In October II we have ripped out that javascript and the elements now use modern flexbox css styling instead to eliminate the elements jumping about on page load.
 
-The search box has been re-designed with a more modern design in October II.
+The search box has been re-designed with a more modern design in October II and added sub-level searches.
 
 ### Smart Speakers and Voice API's 🔊
 
