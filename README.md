@@ -237,6 +237,8 @@ October II uses the new [Scroll To Text Fragment links API](https://wicg.github.
 
 October II uses full semantic markup with the `rel` attribute to describe the destination link target, it uses the _HTML5_ and _Microformat's Version 2 Spec_. All external links use the `target="_blank"` for increased seo performance and include the `rel-noopener` and `rel-noreferrer` for cross-origin destination protection security.
 
+(*) In the near future we hope to add the new [Portals API](https://wicg.github.io/portals/) for seamless instant navigation in the backend and Faster web navigation built directly into the core with the predictive prefetching library with [guess.js](https://github.com/guess-js/guess) - that enables a Machine Learning driven user-experience!
+
 ### Filters 📐
 
 Removed the fixed `max-height` and now the cms uses the the devices screensize as a `max-height`, with vertical autoscroll feature enabled. For mobile devices the filter window adjusts to the devices screen width, giving optimized results for user experience.
