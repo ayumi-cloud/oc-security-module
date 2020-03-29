@@ -593,3 +593,5 @@ We use the following standards set by the Open Web Application Security Project 
 <p align="left"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/mit.svg"></p>
 
 This is free software, licensed under the MIT, Open Source Initiative.
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/luv.png"></p>
