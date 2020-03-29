@@ -1,4 +1,4 @@
-## Response Score
+## Response Score API
 
 Score | Description | Browser Screen | Hash generated
 ---|---|---|---
