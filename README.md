@@ -229,6 +229,14 @@ Added new datasets widget to core, users can create data sets via `yaml`, `html`
 
 Added a new flip card help widget, which saves space and allows plugin developers to add more help infomation to their form fields.
 
+### Links 🔗
+
+October II uses the new CSS4 link pseudo-classes to do some of it's styling, these include: `:any-link`, `:link`, `:visited`, `:local-link` and `:target`, to learn more see here: [Location Pseudo-classes CSS4](https://drafts.csswg.org/selectors-4/#location)
+
+October II uses the new [Scroll To Text Fragment links API](https://wicg.github.io/ScrollToTextFragment/). An example of the special URL format looks like this: `https://example.com#:~:text=prefix-,startText,endText,-suffix` this allows users to navigate to the exact location and not just to the form element.
+
+October II uses full semantic markup with the `rel` attribute to describe the destination link target, it uses the _HTML5_ and _Microformat's Version 2 Spec_. All external links use the `target="_blank"` for increased seo performance and include the `rel-noopener` and `rel-noreferrer` for cross-origin destination protection security.
+
 ### Filters 📐
 
 Removed the fixed `max-height` and now the cms uses the the devices screensize as a `max-height`, with vertical autoscroll feature enabled. For mobile devices the filter window adjusts to the devices screen width, giving optimized results for user experience.
