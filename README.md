@@ -253,6 +253,12 @@ October version one uses regular fonts and October II now uses variable fonts - 
 
 To increase performance, October II also uses a combination of [preloading](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization#preload_your_webfont_resources) and font-display using [CSS Fonts Module Level 4](https://drafts.csswg.org/css-fonts-4/#font-display-desc)
 
+### Searchbox 🔍
+
+October version one had a very annoying bug where the top menu, tabs and the search box would display in the middle of the screen and then jump across to the right hand side! This bug was caused because the elements were getting calculated using a javascript `data-calculate-width` function. In October II we have ripped that javascript and the elements use modern flexbox css styling instead to eliminate the elements jumping about on page load.
+
+The search box has been re-designed with a more modern design in October II.
+
 ### Smart Speakers and Voice API's 🔊
 
 - The main October II repo has added support for `Voice Actions` and voice api's. To learn more about Voice Actions see here: [Google Developers Voice Actions](https://developers.google.com/voice-actions)
