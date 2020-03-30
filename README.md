@@ -235,7 +235,7 @@ October II uses the new CSS4 link pseudo-classes to do some of it's styling, the
 
 October II uses the new [Scroll To Text Fragment links API](https://wicg.github.io/ScrollToTextFragment/). An example of the special URL format looks like this: `https://example.com#:~:text=prefix-,startText,endText,-suffix` this allows users to navigate to the exact location and not just to the form element.
 
-October II uses full semantic markup with the `rel` attribute to describe the destination link target, it uses the _HTML5_ and _Microformat's Version 2 Spec_. All external links use the `target="_blank"` for increased seo performance and include the `rel-noopener` and `rel-noreferrer` for cross-origin destination protection security. For a full list of `rel-attributes`, see the [IANA Link Relations] (https://www.iana.org/assignments/link-relations/link-relations.xhtml)
+October II uses full semantic markup with the `rel` attribute to describe the destination link target, it uses the _HTML5_ and _Microformat's Version 2 Spec_. All external links use the `target="_blank"` for increased seo performance and include the `rel-noopener` and `rel-noreferrer` for cross-origin destination protection security. For a full list of `rel-attributes`, see the [IANA Link Relations](https://www.iana.org/assignments/link-relations/link-relations.xhtml)
 
 (*) In the near future we hope to add the new [Portals API](https://wicg.github.io/portals/) for seamless instant navigation in the backend and faster web navigation built directly into the core using the predictive prefetching library [guess.js](https://github.com/guess-js/guess) - that enables a Machine Learning driven user-experience!
 
