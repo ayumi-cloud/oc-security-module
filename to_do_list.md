@@ -43,3 +43,5 @@ Filter: https://octobertricks.com/tricks/add-group-filter-and-custom-options-to-
 Filter Dependencies: https://octobercms.com/docs/backend/lists#filter-scope-dependencies
 
 bots: https://github.com/ayumi-cloud/device-detector/blob/master/regexes/bots.yml
+
+browsers: https://user-agents.net/browsers
