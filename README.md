@@ -229,6 +229,12 @@ Added new datasets widget to core, users can create data sets via `yaml`, `html`
 
 Added a new flip card help widget, which saves space and allows plugin developers to add more help infomation to their form fields.
 
+### Fluid Workflow 👍
+
+The workflow in version one was a bit painful and not fluid, take the following example: You open up the `Builder` plugin and create your form widget layout and then switch the screen to open your plugin and test the form widget screen to find any error or something needing an adjustment and then re-open the `Builder` plugin and navigate to the layout section to adjust the form widgets and then go back and re-check your plugin layout. In October II things are now different! Instead of requiring the `Builder` plugin, the form and list widget pages for all the plugins have two modes: `design` and `view`, which can be toggled (without the need to leave the web page, you are working on).
+
+For deverlopers the `design` mode let's you be able to drag n drop all the form elements to create your layouts quickly and easily. Whereas in `view` mode the editing functions are turned off and is for the end-user. This method saves you having to go back and forward between web pages to edit and adjust the plugin layouts, making the whole design process fluid and allows a developer to build their plugins more quickly!
+
 ### Links 🔗
 
 October II uses the new CSS4 link pseudo-classes to do some of it's styling, these include: `:any-link`, `:link`, `:visited`, `:local-link` and `:target`, to learn more see here: [Location Pseudo-classes CSS4](https://drafts.csswg.org/selectors-4/#location)
