@@ -1,4 +1,4 @@
-## Experimental API's being tested and used in October II
+## Experimental Security API's being tested and used in October II
 
 October II uses new and modern API's and over time we will continue to use more new and exciting API's. The following API's can be turned on in October II experimental section, you will also need to turn them on the supporting browser flags. **Make sure your browser supports the new API's when testing**.
 
