@@ -118,6 +118,8 @@ These `experimental features` can be turned on and off in a sandboxed enviroment
 
 With a focus on making everything fully customizable, to allow developers and webmasters to create a custom cms, projects, plugins and themes in both the frontend and backend.
 
+> A perfect example with the built-in experimental features in October II is the following: A few days ago the team added the new **AVIF image format** to the file extensions list (under an experimental flag), to use the AVIF image format you can turn on the experimental flag and October II will turn on it's polyfill. When you turn off the experimental flag, the polyfill doesn't get loaded.
+
 ### An open governance model for the October II Project 🚀
 
 When choosing a governance model (a system that describes how decisions are made) for October II,  we initially focused on agility. Big open source projects have always been powered by the voices and feedback of the developers and organizations that use it. However, in October one, the governance was centered around 6 admin people.
