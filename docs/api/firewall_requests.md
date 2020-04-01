@@ -17,33 +17,34 @@ deviceHidden | A boolean value saying if the device is trying to hide some of it
 
 #### Device Type List
 
-- desktop
-- mobileFeature
-- mobileSmart
-- pda
+- appliance
+- bot
+- camera
+- car
 - dect
-- tablet
+- desktop
+- devboard
+- emulator
+- ereader
 - gamingConsole
 - gamingPortable
-- ereader
-- media
-- headset
-- watch
-- emulator
-- television
-- monitor
-- camera
-- printer
-- signage
-- whiteboard
-- devboard
-- inflight
-- appliance
 - gps
-- car
+- headset
+- inflight
+- media
+- mobileFeature
+- mobileSmart
+- monitor
+- pda
 - pos
-- bot
+- printer
 - projector
+- signage
+- smartSpeaker
+- tablet
+- television
+- watch
+- whiteboard
 
 ### x
 
