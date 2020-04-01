@@ -98,7 +98,7 @@ Using the Nginx server settings has a few required steps to be able to work.
  
 ## October II Firewall API 🔥
 
-The security module in October II comes with some dedicated API's to help developers, for full deatils see the api doc's section: [October II Firewall API's](https://github.com/ayumi-cloud/oc-security-module/tree/master/docs/api)
+The security module in October II comes with some dedicated API's to help developers, for full details, see the api doc's section: [October II Firewall API's](https://github.com/ayumi-cloud/oc-security-module/tree/master/docs/api)
 
 ## Breaking Changes from October Version 1 to Version 2 😃
 
