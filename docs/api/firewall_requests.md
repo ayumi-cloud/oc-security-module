@@ -10,9 +10,9 @@ deviceSeries | A string containing the device series information.
 deviceCarrier | A string containing the mobile carrier name.
 deviceIdentifier | A string containing a firewall code when the device has been identified.
 deviceFlag | A string flagging any issues detecting the device.
-deviceType | A string containing the type of property, see (*) Device Type List - for full details.
+deviceType | A string containing the type of property, see `Device Type List` - for full details.
 deviceIdentified | An integer displaying the number of items found.
-deviceGeneric | A boolean value saying if the firewall used generic or specific data.
+deviceGeneric | A boolean value saying if the request was a generic or specific device.
 deviceHidden | A boolean value saying if the device is trying to hide some of it's information.
 
 #### Device Type List
