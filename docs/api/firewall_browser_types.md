@@ -1,6 +1,6 @@
-## October II Browser Type API
+## October II Browser Types API
 
-October II security module also comes with a browser type api that sends the following infomation:
+### Browser Types
 
 Value | Description
 ---|---

@@ -1,4 +1,6 @@
-## Response Score API
+## October II Firewall Response Scores API
+
+### Response Scores
 
 Score | Description | Browser Screen | Hash generated
 ---|---|---|---

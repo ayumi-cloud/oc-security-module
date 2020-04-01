@@ -1,6 +1,6 @@
-## October II Firewall API
+## October II Firewall Responses API
 
-October II security module also comes with an api that sends the following infomation:
+### Responses
 
 Value | Description
 ---|---
