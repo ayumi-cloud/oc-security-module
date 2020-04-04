@@ -333,3 +333,8 @@ https://gist.github.com/roachhd/1f029bd4b50b8a524f3c
 ### New UA list
 
 https://udger.com/resources/uas-news
+
+### Newly discovered UA
+
+http://aqtronix.com/useragents/?Action=ShowNewAgents
+
