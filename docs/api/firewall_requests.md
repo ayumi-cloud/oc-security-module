@@ -59,6 +59,7 @@ browserMode | A string that can contain the operating mode of the browser, ie. '
 browserHidden | A boolean that is true if the browser does not have a name and is the default of the operating system.
 browserFamily | An object that contains information about to which family this browser belongs
 browserUsing | An object that contains information about to which kind of webview this browser uses.
+browserInfo | A string that can contains the full browser description.
 
 #### Browser Semantic Versioning
 
