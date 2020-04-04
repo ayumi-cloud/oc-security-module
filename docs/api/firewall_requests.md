@@ -46,6 +46,33 @@ deviceHidden | A boolean value saying if the device is trying to hide some of it
 - watch
 - whiteboard
 
+### Browser API
+
+Value | Description
+---|---
+browserName | A string containing the name of the browser.
+browserAlias | A string containing an alternative name of the browser.
+browserVersion | A version object containing information about the version of the browser.
+browserStock | A boolean, true if the browser is the default browser of the operating system, false otherwise.
+browserChannel | A string containing the distribution channel, ie. 'Nightly' or 'Next'.
+browserMode | A string that can contain the operating mode of the browser, ie. 'proxy'.
+browserHidden | A boolean that is true if the browser does not have a name and is the default of the operating system.
+browserFamily | An object that contains information about to which family this browser belongs
+browserUsing | An object that contains information about to which kind of webview this browser uses.
+
+#### Browser Semantic Versioning
+
+Value | Description
+---|---
+browserMajor | Major release number
+browserMinor | Minor release number
+browserPatch | Patch release number
+browserBuild | Build release value
+
+#### Browser Type
+
+(*) See here: [firewall_browser_types.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/docs/api/firewall_browser_types.md)
+
 ### x
 
 x
