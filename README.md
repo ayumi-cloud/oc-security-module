@@ -104,6 +104,16 @@ The security module in October II comes with some dedicated API's to help develo
 
 > This repo doesn't contain a full list of updates and changes from version 1 to 2. The list of changes below relate directly to the security module. For a full list of updated and new features, see the main update proposal module repo!
 
+⚠️ WARNING ⚠️
+
+Due to the annoyances of version one using a huge single main css file and multiple layers of `display: table` we decided to remove all the css and completely code everything from scratch. October II uses a combination of `CSS Grids`, `CSS Flexbox`, `CSS3` and `CSS4` properties. We have also switched from using `LESS` over to `SASS`. Taking advance of HTTP/2 and HTTP/3 css files have been broken up into smaller files, improving performance, loading and rendering speeds!
+
+This is a breaking change that may affect plugins and other code in the backend. We advise on updating your plugins, apps and code to be compatible with the changes!
+
+For older browser versions we use polyfills to bridge the gap.
+
+This was a needed to change, as the old system just produced too many errors!
+
 ### Goals ⚽
 
 With October version one the goals were to keep things simple and minimalist to advoid complication things! With October II the goals are now different and <em>we</em> as a team believe that October II should have many advanced features that include a clever interface design to allow non-technical people to understand and use these advanced features! Professional developers and webmasters should not have to suffer to cater for non-technical people! All features have been made and designed in an easy to understand user interface with a lot of instructions and documentation explaining how to use, what it does, the pro's and con's and many more! This approach allows us to use modern api's and frameworks for non-technical people wanting to use the cms. It also allows the cms to continue use modern and stay update to date with new and future technologies.
