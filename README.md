@@ -106,11 +106,11 @@ The security module in October II comes with some dedicated API's to help develo
 
 ⚠️ WARNING ⚠️
 
-Due to the annoyances of version one using a huge single main css file and multiple layers of `display: table` we decided to remove all the css and completely code everything from scratch. October II uses a combination of `CSS Grids`, `CSS Flexbox`, `CSS3` and `CSS4` properties. We have also switched from using `LESS` over to `SASS`. Taking advance of HTTP/2 and HTTP/3 css files have been broken up into smaller files, plugins and form widgets use the `Shadow DOM API`, all this improves performance, loading and rendering times!
+Due to the annoyances of version one using a huge single main css file and multiple layers of `display: table`, with multiple redundant dom node levels (creating Excessive DOM Sizes)! We decided to remove all the css and completely code everything from scratch. October II uses a combination of `CSS Grids`, `CSS Flexbox`, `CSS3` and `CSS4` properties. We have also switched from using `LESS` over to `SASS`. Taking advance of HTTP/2 and HTTP/3 css files have been broken up into smaller files, plugins and form widgets use the `Shadow DOM API`, all this improves performance, loading and rendering times!
 
 This is a breaking change that may affect plugins and other code in the backend. We advise on updating your plugins, apps and code to be compatible with the changes!
 
-For older browser versions we use polyfills to bridge the gap.
+For older browser versions we use polyfills and full css prefixes to bridge the gap.
 
 This was a needed to change, as the old system just produced too many errors!
 
