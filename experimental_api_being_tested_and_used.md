@@ -227,6 +227,21 @@ Enables an improved UI for existing third-party cookie blocking users. – Mac, 
 #improved-cookie-controls-for-third-party-cookie-blocking
 ```
 
+### Block resource-heavy ads
+
+Blocks resource-heavy ads, has a threshold-based system that will automatically mark them as heavy ads if users do not interact with them and they meet these criteria:
+
+- Uses the main thread for **more than 60 seconds in total**.
+- Uses the main thread for **more than 15 seconds in any 30-second window**.
+- Uses **more than 4 megabytes of network bandwidth**.
+
+```
+Enable chrome://flags/#enable-heavy-ad-intervention
+Disable chrome://flags/#heavy-ad-privacy-mitigations
+```
+
+Setting `chrome://flags/#enable-heavy-ad-intervention` to Enabled activates the new behavior, but by default there is some noise and variability added to the thresholds to protect user privacy. Setting `chrome://flags/#heavy-ad-privacy-mitigations` to Disabled prevents this, meaning the restrictions are applied deterministically, purely according to the limits. This should make debugging and testing easier.
+
 ---
 
 ## Other Security Related HTTP Header API's
