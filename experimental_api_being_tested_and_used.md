@@ -227,6 +227,8 @@ Enables an improved UI for existing third-party cookie blocking users. – Mac, 
 #improved-cookie-controls-for-third-party-cookie-blocking
 ```
 
+---
+
 ### Block resource-heavy ads
 
 Blocks resource-heavy ads, has a threshold-based system that will automatically mark them as heavy ads if users do not interact with them and they meet these criteria:
