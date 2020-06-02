@@ -20,7 +20,7 @@
 
 ## Table of contents
 
-- [Transparency](#transparency)
+- [Transparency](#transparency-)
 
 ## Transparency 📢
 
