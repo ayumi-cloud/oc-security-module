@@ -45,3 +45,9 @@ Filter Dependencies: https://octobercms.com/docs/backend/lists#filter-scope-depe
 bots: https://github.com/ayumi-cloud/device-detector/blob/master/regexes/bots.yml
 
 browsers: https://user-agents.net/browsers
+
+----------
+
+### October repo
+
+https://github.com/octobercms/october/issues/4959
