@@ -341,3 +341,8 @@ http://aqtronix.com/useragents/?Action=ShowNewAgents
 ### CSS Grids Examples
 
 https://gridbyexample.com/
+
+### Compare detection packages
+
+http://thadafinser.github.io/UserAgentParserComparison/v5/
+
