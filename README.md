@@ -118,6 +118,20 @@ For older browser versions we use polyfills and full css prefixes to bridge the 
 
 This was a needed to change, as the old system just produced too many errors!
 
+### Semantic Versioning 🐾
+
+Overview of updates:
+
+- `Major` CMS updates e.g. Laravel LTS changes - no auto updates (email end-user), e.g. Laravel 8 LTS `2.0.001`
+
+- `Minor` CMS updates e.g. something that requires a code change - no auto updates (email end-user), e.g. `1.1.467`
+
+- `Patch` CMS updates e.g. github repo PR's that don't need any code changes = auto updates (no email sent). e.g. `1.0.467`
+
+Tests of special branches:
+
+- `Candidate or pre-release (RC)` can be given to new future `major` updates, that are not ready to be realised and are currently being work on. This would be helpful to have people testing and giving their input on work in progress major updates, e.g. `2.0.001-rc`
+
 ### Goals ⚽
 
 With October version one the goals were to keep things simple and minimalist to advoid complication things! With October II the goals are now different and <em>we</em> as a team believe that October II should have many advanced features that include a clever interface design to allow non-technical people to understand and use these advanced features! Professional developers and webmasters should not have to suffer to cater for non-technical people! All features have been made and designed in an easy to understand user interface with a lot of instructions and documentation explaining how to use, what it does, the pro's and con's and many more! This approach allows us to use modern api's and frameworks for non-technical people wanting to use the cms. It also allows the cms to continue use modern and stay update to date with new and future technologies.
