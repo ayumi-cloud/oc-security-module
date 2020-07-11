@@ -331,27 +331,29 @@ We follow the web standards set out for international font support, below are so
 
 For a Japanese website:
 
-```
+```css
 font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;
 ```
 
 For a website targeting Hindi, and then Tamil users
 
-```
+```css
 font-family: "Noto Sans Devanagari", "Noto Sans Tamil", "Noto Sans", sans-serif;
 ```
 
 For an Arabic website that needs to use an UI font for UI elements, such as buttons and tabs, that have more strict vertical space:
 
-```
+```css
 font-family: "Noto Naskh Arabic UI", "Noto Sans UI", sans-serif;
 ```
 
 For a website targeting Armenian and Georgian users who prefer serif style:
 
-```
+```css
 font-family: "Noto Serif Armenian", "Noto Serif Georgian", "Noto Serif", serif;
 ```
+
+All font loading in October II is `dynamic` and not `static` making October II more customizable for user experience!
 
 ### Searchbox 🔍
 
