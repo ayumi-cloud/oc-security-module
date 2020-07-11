@@ -277,7 +277,7 @@ With October version one, the cms loads over 1Mb of styles and over 1Mb of javas
 
 In the above example, without critical css in place there is a long loading time the user sees a white background for quite a while and then everything is loaded all at once. Whereas, with critical css being loaded, the website is displayed much quicker and the white background time is greatly reduced! In technical terms the user has to wait longer for the `Largest Contentful Paint` to be loaded, when Critical CSS is not being applied.
 
-With October II the cms now uses a Critical CSS loading method to reduce loading times!
+With October II the cms now uses a Critical CSS loading method to reduce loading times! **Upper limit size is set to a range between 50 - 60Kb in size.**
 
 Also to enhance October II even more we have added direct support with the [CriticalCSS.com](https://criticalcss.com/) website. Which allows their api to automatically generate the Critical CSS for you on the web page loading on the frontend. You can go into settings and add their api if you want to use their paid service or not.
 
