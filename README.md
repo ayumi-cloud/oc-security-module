@@ -46,7 +46,9 @@ If you use this security module for your research, then kindly cite it. Click th
 
 This library requires the following:
 
-- PHP 7.3 or greater (in the near future we hope to increase this to php 7.4 or 8.0).
+- PHP `7.3` or greater (in the near future we hope to increase this to php 7.4 or 8.0). PHP `7.3+` allows `SameSite` Cookie protection.
+
+PHP `8.0` is coming around November 2020 and we have plans to update our code around the end of this year. PHP is currently releasing **major** updates every two years! Therefore we plan to update and review the code every two years periodically. For update instructions please see here: [PHP 8.0 UPGRADE NOTES](https://github.com/php/php-src/blob/master/UPGRADING#L20)
 
 - Laravel 6.0 LTS (we currently use the latest LTS versions, due to the community consensus).
 
