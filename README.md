@@ -267,7 +267,7 @@ The workflow in version one was a bit painful and not fluid, take the following 
 
 For deverlopers the `design` mode let's you be able to drag n drop all the form elements to create your layouts quickly and easily. Whereas in `view` mode the editing functions are turned off and is for the end-user. This method saves you having to go back and forward between web pages to edit and adjust the plugin layouts, making the whole design process fluid and allows a developer to build their plugins more quickly!
 
-### Backend Critical CSS Loading :dizzy:
+### Critical CSS Loading :dizzy:
 
 Critical CSS is a technique that extracts the CSS for the `above-the-fold` content in order to render the content as fast as possible.
 
