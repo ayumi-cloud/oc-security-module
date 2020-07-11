@@ -325,6 +325,34 @@ Some of the videos on Noto which one can find on YouTube are:
 
 * [Google’s International Fonts Noto — One Font to Rule Them All](https://www.youtube.com/watch?v=AAzvk9HSi84)
 
+#### International language support :u7533:
+
+We follow the web standards set out for international font support, below are some examples, to better understand:
+
+For a Japanese website:
+
+```
+font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;
+```
+
+For a website targeting Hindi, and then Tamil users
+
+```
+font-family: "Noto Sans Devanagari", "Noto Sans Tamil", "Noto Sans", sans-serif;
+```
+
+For an Arabic website that needs to use an UI font for UI elements, such as buttons and tabs, that have more strict vertical space:
+
+```
+font-family: "Noto Naskh Arabic UI", "Noto Sans UI", sans-serif;
+```
+
+For a website targeting Armenian and Georgian users who prefer serif style:
+
+```
+font-family: "Noto Serif Armenian", "Noto Serif Georgian", "Noto Serif", serif;
+```
+
 ### Searchbox 🔍
 
 October version one had a very annoying bug where the top menu, tabs and the search box would display in the middle of the screen and then jump across to the right hand side! This bug was caused because the elements were getting calculated using a javascript `data-calculate-width` function. In October II we have ripped out that javascript and the elements now use modern flexbox css styling instead to eliminate the elements jumping about on page load.
