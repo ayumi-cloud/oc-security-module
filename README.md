@@ -267,6 +267,20 @@ The workflow in version one was a bit painful and not fluid, take the following 
 
 For deverlopers the `design` mode let's you be able to drag n drop all the form elements to create your layouts quickly and easily. Whereas in `view` mode the editing functions are turned off and is for the end-user. This method saves you having to go back and forward between web pages to edit and adjust the plugin layouts, making the whole design process fluid and allows a developer to build their plugins more quickly!
 
+### Backend Critical CSS Loading :dizzy:
+
+Critical CSS is a technique that extracts the CSS for the `above-the-fold` content in order to render the content as fast as possible.
+
+With October version the cms loads over 1Mb of styles and over 1Mb of javascript before the browser render engine can construct the website layout. To demostrate the downside of loading the backend with and without critcal styles see below:
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/critical-css-example.png"></p>
+
+In the above example, without critical css loading there is a long time seeing a white background and then everything is loaded all at once. Whereas with critical css being loaded the website is displayed much quicker! The user has to wait longer for the `Largest Contentful Paint` to be loaded, when Critical CSS is not being applied.
+
+With October II the backend now uses a Critical CSS loading method to reduce loading times!
+
+Also to enhance October II even more we have added direct support with the [CriticalCSS.com](https://criticalcss.com/) website. Which allows their api to automatically generate the Critical CSS for you on web page load in the frontend. You can go into settings and add their api if you want to use their paid service or not.
+
 ### Links 🔗
 
 October II uses the new CSS4 link pseudo-classes to do some of it's styling, these include: `:any-link`, `:link`, `:visited`, `:local-link` and `:target`, to learn more see here: [Location Pseudo-classes CSS4](https://drafts.csswg.org/selectors-4/#location)
