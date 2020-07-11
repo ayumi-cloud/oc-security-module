@@ -301,6 +301,30 @@ October version one uses regular fonts and October II now uses variable fonts - 
 
 To increase performance, October II also uses a combination of [preloading](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization#preload_your_webfont_resources) and font-display using [CSS Fonts Module Level 4](https://drafts.csswg.org/css-fonts-4/#font-display-desc)
 
+#### Gapping improvement :construction:
+
+To fix and improve gapping issues on smaller resolution devices, October II uses the new `wdth` attribute with media queries. To learn more see here: [Variable fonts - wdth](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Width)
+
+#### Italic improvement :small_red_triangle:
+
+Many variable fonts do not contain an `italic` version. We use a variable font that contains two files, one for `normal` and one for `italic`. The result is a clearer italic displayed font finish.
+
+#### Preloading :clock2:
+
+The variable fonts are preloaded and use a fallback combination.
+
+#### Fallback fonts :recycle:
+
+October II uses the Google Noto libarary as the custom fallback fonts, see here: [Google Noto](https://www.google.com/get/noto/)
+
+##### Are there any Noto YouTube videos I could share with others? :diamond_shape_with_a_dot_inside:
+
+Some of the videos on Noto which one can find on YouTube are:
+
+* [Creating Noto for Google](https://www.youtube.com/watch?v=16_NYHUZ1kM)
+
+* [Google’s International Fonts Noto — One Font to Rule Them All](https://www.youtube.com/watch?v=AAzvk9HSi84)
+
 ### Searchbox 🔍
 
 October version one had a very annoying bug where the top menu, tabs and the search box would display in the middle of the screen and then jump across to the right hand side! This bug was caused because the elements were getting calculated using a javascript `data-calculate-width` function. In October II we have ripped out that javascript and the elements now use modern flexbox css styling instead to eliminate the elements jumping about on page load.
