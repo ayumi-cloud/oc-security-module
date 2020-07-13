@@ -319,6 +319,14 @@ To increase performance, October II also uses a combination of [preloading](http
 
 To fix and improve gapping issues on smaller resolution devices, October II uses the new `wdth` attribute with media queries. To learn more see here: [Variable fonts - wdth](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Width)
 
+#### Optical improvement :eyeglasses:
+
+MDN says the following:
+
+> This is something new to digital fonts and CSS, but is actually a centuries-old technique in designing and creating metal type. Optical sizing refers to the practice of varying the overall stroke thickness of letterforms based on physical size.
+
+October II uses a smart approach for smaller resolution devices! When the cms uses a thinner `wdth` on fonts we also improve the displayed font using the `opsz` property, helping to make the fonts even clearer on smaller screen width devices! To learn more see here: [Variable fonts - opsz](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Optical_size)
+
 #### Italic improvement :small_red_triangle:
 
 Many variable fonts do not contain an `italic` version. We use a variable font that contains two files, one for `normal` and one for `italic`. The result is a clearer italic displayed font finish.
