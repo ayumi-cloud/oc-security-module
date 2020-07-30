@@ -6,6 +6,7 @@ Value | Description
 ---|---
 n/a | Default (fallback if module can't determine value).
 badBot | Bad bots to be blacklisted.
+badHosting | Bad bot blocked from a hosting company, real users come from isp's.
 blogSpam | CMS blog comment spam.
 botNet | A botnet is a number of Internet-connected devices, each of which is running one or more bots.
 bruteForce | Credential brute-force attacks on webpage logins and services like SSH, FTP, SIP, SMTP, RDP, etc.
