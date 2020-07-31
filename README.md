@@ -180,7 +180,7 @@ We plan in the coming future to change the installer with several new features. 
 
 It's important to let users set the security levels at an early stage and the security module needs some basic configuration settings to set up before activation. More complex settings can be added at a later time (after the initial installation).
 
-### How the CMS Handles core and plugin updates 🔥🔥🔥
+### How the CMS handles core and plugin updates 🔥🔥🔥
 
 This is a `major` update to how the cms deals with updating plugin and core files, see below for the differences:
 
