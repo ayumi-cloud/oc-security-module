@@ -25,6 +25,7 @@ openProxy | Open proxy, open relay, vpn or Tor exit node.
 phishing | Phishing websites and/or email.
 pingDeath | Oversized IP packet.
 portScan | Scanning for open ports and vulnerable services.
+probing | Site scanning/probing is the main technique attackers use to gather as much information as possible about a Web application and the supporting infrastructure.
 refererTool | Referer tools, see referer module.
 spoofing | Email sender spoofing.
 sqlInjection | Attempts at SQL injection.
