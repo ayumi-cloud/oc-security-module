@@ -170,7 +170,7 @@ October II uses a lot of modern api's and technoligies, to take full advantage a
 
 For checking browser support with api's and features we recommend using the: [CanIUse website](https://www.caniuse.com/)
 
-### October Installer 💎
+### October II Installer 💎
 
 We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their October II installation. For example, a user has two choices:
 
