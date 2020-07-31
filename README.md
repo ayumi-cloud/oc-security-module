@@ -180,6 +180,29 @@ We plan in the coming future to change the installer with several new features. 
 
 It's important to let users set the security levels at an early stage and the security module needs some basic configuration settings to set up before activation. More complex settings can be added at a later time (after the initial installation).
 
+### How the CMS Handles core and plugin updates 🔥🔥🔥
+
+This is a `major` update to how the cms deals with updating plugin and core files, see below for the differences:
+
+#### October 1 😕
+
+- When an update gets released it shows a notice in the dashboard (saying there is an update).
+- The user can go into the settings section and do a `manual` update.
+- The user will see a notice saying there are plugin and/or cms updates available that can be installed.
+- When the update takes place the cms installs the files and that's it.
+
+#### October II 😃
+
+- When an update gets released it shows in the dashboard, but lists all the file updates (letting the user make a decision whether they want to go ahead with the update or not). There is an option to ignore this notification in the dashboard.
+- The user can go into the settings section and select the cms to do either `manual` and `automatic` updates. The `automatic` updates can be selected on the `cms` and/or `each` plugin or `all` plugins as the user sees fit.
+- The user will see a notice saying there are plugin(s) and/or cms updates that can be installed.
+- When the update takes place the user will see a `percentage progress bar`.
+- At the end of the install the user will be able to see a list of all the files that have been updated.
+- There is a file log area section where the user can `roll back any updates` if they want. This gives the user a choice whether they want to use the dashboard and select the commands or use a coding method using artisan commands. End-user clients such as **webmasters** may not be techincal enough to run artisan commands. The cms allows you to rollback to any version you want - the same way **Windows Restore** works!
+- **`When the updates have been installed the cms runs a virus/malware scan of all the files that have been changed, to see if it has installed any bad code!`**
+- The cms sends an email to the admins when an `automatic` update has been performed. You can turn notifications `on/off` in the settings for these emails.
+- The cms sends an email to the admins if it finds any `virus/malware` code during an install.
+
 ### Login / Signin and Signing Out 🔒
 
 October II has a feature that whitelists a **location** identifier to a user account. For example, an `IP Address` (for Fixed IP address ISP users), an `autonomous system number` (ASN) (for dynamic IP addresses ISP users), or a `country lock` (for a wider scope).
