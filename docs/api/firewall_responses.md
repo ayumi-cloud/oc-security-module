@@ -33,4 +33,11 @@ sqlInjection | Attempts at SQL injection.
 ssh | Secure Shell (SSH) abuse.
 webSpam | Comment/forum spam, HTTP referer spam, or other CMS spam.
 
+### Other Response Code
+
+Value | Description
+---|---
+banned | The firewall catches any other threats and labels them banned.
+repeatAttack | When a bot uses the same user agent, but switches to a new ip address and does another attack, the firewall blocks the repeated attacks and labels them repeated attacks.
+
 (*) Subject to adding more values and firewall modules being created, to add more features to the cms.
