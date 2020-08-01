@@ -26,7 +26,7 @@ phishing | Phishing websites and/or email.
 pingDeath | Oversized IP packet.
 portScan | Scanning for open ports and vulnerable services.
 probing | Site scanning/probing is the main technique attackers use to gather as much information as possible about a Web application and the supporting infrastructure.
-refererTool | Referer tools, e.g. search engine cached pages, translation pages etc, see `referer` module for more details.
+refererTool | Referer tools, e.g. search engine cached pages, translation pages etc, see **referer** module for more details.
 scanningTool | Known pen testing, seo tool, you can limit the access to these tools when you are not using them in the settings.
 spoofing | Email sender spoofing.
 sqlInjection | Attempts at SQL injection.
