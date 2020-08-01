@@ -33,4 +33,4 @@ sqlInjection | Attempts at SQL injection.
 ssh | Secure Shell (SSH) abuse.
 webSpam | Comment/forum spam, HTTP referer spam, or other CMS spam.
 
-(*) Subject to adding more values, with more firewall modules being created.
+(*) Subject to adding more values and firewall modules being created, to add more features to the cms.
