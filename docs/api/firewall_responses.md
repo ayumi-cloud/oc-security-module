@@ -33,7 +33,7 @@ sqlInjection | Attempts at SQL injection.
 ssh | Secure Shell (SSH) abuse.
 webSpam | Comment/forum spam, HTTP referer spam, or other CMS spam.
 
-### Other Response Code
+### Other Firewall Response Codes
 
 Value | Description
 ---|---
