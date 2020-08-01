@@ -27,11 +27,10 @@ pingDeath | Oversized IP packet.
 portScan | Scanning for open ports and vulnerable services.
 probing | Site scanning/probing is the main technique attackers use to gather as much information as possible about a Web application and the supporting infrastructure.
 refererTool | Referer tools, see referer module.
+scanningTool | Known pen testing, seo tool, you can limit the access to these tools when you are not using them in the settings.
 spoofing | Email sender spoofing.
 sqlInjection | Attempts at SQL injection.
 ssh | Secure Shell (SSH) abuse.
-toolAllow | Allow tool to bypass firewall.
-toolBlock | Block tool in firewall.
 webSpam | Comment/forum spam, HTTP referer spam, or other CMS spam.
 
 (*) Subject to adding more values, with more firewall modules being created.
