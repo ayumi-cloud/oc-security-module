@@ -18,7 +18,6 @@ fraudOrders | Fraudulent orders.
 fraudVoip | Unauthorized use of paid communication services charged to someone who isn't expecting it.
 goodBot | Good bots to be whitelisted.
 hacking | Attempts to probe or exploit the cms or installed web applications.
-headLess | Using a headless browser.
 human | User is a human (not a robot).
 iotTargeted | Abuse was targeted at an "Internet of Things" type device.
 openProxy | Open proxy, open relay, vpn or Tor exit node.
