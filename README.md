@@ -231,7 +231,7 @@ The standard October icons are now set to redundancy mode in October II (for bac
 
 The following icon packs/sets can be chosen in October II, these are as follows:
 
-1. [Font Awesome version 5 Pro](https://fontawesome.com/)
+1. [Font Awesome version 5 Pro](https://fontawesome.com/) (*) Soon to be dropped in the near future and changed to Font Awesome Pro 6 - see below.
 2. [Entypo](http://www.entypo.com/)
 3. [Material Design Icons](https://materialdesignicons.com/)
 4. [Iconmonstr](https://iconmonstr.com/)
@@ -253,6 +253,11 @@ _(*) You can add custom icon packs/sets to October II to use in the main interfa
 > Note: Icon packs will be downloaded when selected and saved, to reduce cms file size! Advanced users can use multi icon set/packs for their themes and plugins, by just uploading them to their assets folder or linking to a cdn etc.
 
 Added animated icons, with settings to display animation for faster internet speed connections only (to increase performance for lower speed devices) and also have increased support for more animation file types.
+
+<p align="center"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/font-awesome-6.png"></p>
+
+> October II default theme uses Font Awesome Pro 5, which will be upgraded to Font Awesome Pro 6 in the near future, see commit (for security module upgrade notes): https://github.com/ayumi-cloud/oc2-security-module/issues/393
+> Font Awesome Pro 6 allows designers to add custom fonts for their brands - which allows October II to have an extra customizable layer for designers and devlopers!
 
 ### Loading and saving methods for form fields 💾
 
