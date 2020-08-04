@@ -6,12 +6,13 @@ This data collection is used to better help and understand the seo of the websit
 
 Value | Description
 ---|---
-facebook | x
+facebook | Collects facebook app and desktop platform user data.
 facebookBot | Collects all facebook crawling bots data.
 messenger | Collects messenger app user data.
 instagram | Collects instagram app user data.
 pinterestBot | Collects pinterest crawling bot data.
 tumblrBot | Collects tumblr crawling bot data.
+twitter | Collects twitter app and desktop platform user data.
 wechat | x
 
 (*) Subject to adding more values (social media platforms) and firewall modules being created, to add more features to the cms.
