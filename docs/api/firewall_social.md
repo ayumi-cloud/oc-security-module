@@ -5,9 +5,11 @@
 Value | Description
 ---|---
 facebook | x
+facebookBot | x
 messenger | Collects messenger app user data.
 instagram | Collects instagram app user data.
-pinterest | Collects pinterest crawling bot data.
-tumblr | Collects tumblr crawling bot data.
+pinterestBot | Collects pinterest crawling bot data.
+tumblrBot | Collects tumblr crawling bot data.
+wechat | x
 
-(*) Subject to adding more values and firewall modules being created, to add more features to the cms.
+(*) Subject to adding more values (social media platforms) and firewall modules being created, to add more features to the cms.
