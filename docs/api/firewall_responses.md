@@ -14,6 +14,7 @@ ddosAttack | Participating in distributed denial-of-service (usually part of bot
 dnsPoisoning | Falsifying domain server cache (cache poisoning).
 emailSpam | Spam email content, infected attachments and phishing emails.
 exploitedHost | Host is likely infected with malware and being used for other attacks or to host malicious content.
+fakeBot | The fake bot has a real user agent but comes from a non-official server location.
 fraudOrders | Fraudulent orders.
 fraudVoip | Unauthorized use of paid communication services charged to someone who isn't expecting it.
 goodBot | Good bots to be whitelisted.
