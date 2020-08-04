@@ -2,6 +2,8 @@
 
 ### Social Media Filters
 
+This data collection is used to better help and understand the seo of the website for webmasters. The api data can be filtered and is sent to the analytics section for full chart analysis.
+
 Value | Description
 ---|---
 facebook | x
