@@ -7,7 +7,7 @@ This data collection is used to better help and understand the seo of the websit
 Value | Description
 ---|---
 facebook | x
-facebookBot | x
+facebookBot | Collects all facebook crawling bots data.
 messenger | Collects messenger app user data.
 instagram | Collects instagram app user data.
 pinterestBot | Collects pinterest crawling bot data.
