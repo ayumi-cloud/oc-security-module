@@ -11,6 +11,7 @@ facebookBot | Collects all facebook crawling bots data.
 messenger | Collects messenger app user data.
 instagram | Collects instagram app user data.
 pinterestBot | Collects pinterest crawling bot data.
+tumblr | Collects tumblr user data.
 tumblrBot | Collects tumblr crawling bot data.
 twitter | Collects twitter app and desktop platform user data.
 twitterBot | Collects twitter crawling bot data.
