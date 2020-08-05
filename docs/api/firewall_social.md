@@ -8,6 +8,7 @@ Value | Description
 ---|---
 facebook | Collects facebook app and desktop platform user data.
 facebookBot | Collects all facebook crawling bots data.
+kik | Collects kik app user data.
 messenger | Collects messenger app user data.
 instagram | Collects instagram app user data.
 pinterestBot | Collects pinterest crawling bot data.
