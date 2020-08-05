@@ -18,6 +18,7 @@ tumblrBot | Collects tumblr crawling bot data.
 twitter | Collects twitter app and desktop platform user data.
 twitterBot | Collects twitter crawling bot data.
 wechat | Collects wechat app user data.
+wire | Collects wire app user data.
 youtube | Collects youtube user data.
 
 (*) Subject to adding more values (social media platforms) and firewall modules being created, to add more features to the cms.
