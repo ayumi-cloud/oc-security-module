@@ -6,6 +6,7 @@ This data collection is used to better help and understand the seo of the websit
 
 Value | Description
 ---|---
+daum | Collects daum app user data.
 facebook | Collects facebook app and desktop platform user data.
 facebookBot | Collects all facebook crawling bots data.
 kik | Collects kik app user data.
