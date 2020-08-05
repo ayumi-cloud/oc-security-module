@@ -18,5 +18,6 @@ twitter | Collects twitter app and desktop platform user data.
 twitterBot | Collects twitter crawling bot data.
 wechat | x
 youtube | Collects youtube user data.
+wechat | Collects wechat app user data.
 
 (*) Subject to adding more values (social media platforms) and firewall modules being created, to add more features to the cms.
