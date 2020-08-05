@@ -21,6 +21,7 @@ twitter | Collects twitter app and desktop platform user data.
 twitterBot | Collects twitter crawling bot data.
 wechat | Collects wechat app user data.
 wire | Collects wire app user data.
+wordpress | Collects wordpress android app user data.
 yammer | Collects yammer app user data.
 youtube | Collects youtube user data.
 
