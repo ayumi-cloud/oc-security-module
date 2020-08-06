@@ -17,6 +17,8 @@ pinterest | Collects pinterest app user data.
 pinterestBot | Collects pinterest crawling bot data.
 redditBot | Collects reddit crawling bot data.
 sinaweibo | Collects sina weibo app user data.
+slack | Collects slack app user data.
+slackBot | Collects slackbot link checker crawling bot data.
 tumblr | Collects tumblr user data.
 tumblrBot | Collects tumblr crawling bot data.
 twitter | Collects twitter app and desktop platform user data.
