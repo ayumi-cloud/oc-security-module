@@ -17,7 +17,7 @@ line | Collects line app user data.
 linkedinBot | Collects all linkedin crawling bots data.
 messenger | Collects messenger app user data.
 instagram | Collects instagram app user data.
-oodnoklassniki | Collects ok.ru desktop and app user data.
+odnoklassniki | Collects ok.ru desktop and app user data.
 pinterest | Collects pinterest app user data.
 pinterestBot | Collects pinterest crawling bot data.
 redditBot | Collects reddit crawling bot data.
