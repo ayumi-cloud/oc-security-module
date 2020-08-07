@@ -34,6 +34,7 @@ twitterBot | Collects twitter crawling bot data.
 viber | Collects viber user data.
 vk | Collects vk user data.
 wechat | Collects wechat app user data.
+whatsapp | Collects whatsapp app user data.
 wire | Collects wire app user data.
 wordpress | Collects wordpress android app user data.
 yammer | Collects yammer app user data.
