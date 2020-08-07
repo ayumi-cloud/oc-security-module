@@ -14,6 +14,7 @@ kakao | Collects kakaotalk app user data.
 kakaoBot | Collects all kakaotalk crawling bots data.
 kik | Collects kik app user data.
 line | Collects line app user data.
+linkedinBot | Collects all linkedin crawling bots data.
 messenger | Collects messenger app user data.
 instagram | Collects instagram app user data.
 pinterest | Collects pinterest app user data.
