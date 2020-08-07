@@ -33,6 +33,8 @@ wechat | Collects wechat app user data.
 wire | Collects wire app user data.
 wordpress | Collects wordpress android app user data.
 yammer | Collects yammer app user data.
+yelp | Collects yelp app user data.
+yelpBot | Collects yelp crawling bot data.
 youtube | Collects youtube user data.
 
 (*) Subject to adding more values (social media platforms) and firewall modules being created, to add more features to the cms.
