@@ -13,6 +13,7 @@ flipboard | Collects flipboard app user data.
 kakao | Collects kakaotalk app user data.
 kakaoBot | Collects all kakaotalk crawling bots data.
 kik | Collects kik app user data.
+line | Collects line app user data.
 messenger | Collects messenger app user data.
 instagram | Collects instagram app user data.
 pinterest | Collects pinterest app user data.
