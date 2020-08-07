@@ -27,6 +27,7 @@ tumblr | Collects tumblr user data.
 tumblrBot | Collects tumblr crawling bot data.
 twitter | Collects twitter app and desktop platform user data.
 twitterBot | Collects twitter crawling bot data.
+viber | Collects viber user data.
 vk | Collects vk user data.
 wechat | Collects wechat app user data.
 wire | Collects wire app user data.
