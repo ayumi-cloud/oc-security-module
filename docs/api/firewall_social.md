@@ -16,6 +16,7 @@ kik | Collects kik app user data.
 line | Collects line app user data.
 linkedinBot | Collects all linkedin crawling bots data.
 messenger | Collects messenger app user data.
+icq | Collects icq app user data.
 instagram | Collects instagram app user data.
 odnoklassniki | Collects ok.ru desktop and app user data.
 pinterest | Collects pinterest app user data.
