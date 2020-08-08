@@ -25,6 +25,7 @@ instagram | Collects instagram app user data.
 odnoklassniki | Collects ok.ru desktop and app user data.
 pinterest | Collects pinterest app user data.
 pinterestBot | Collects pinterest crawling bot data.
+pocketBot | Collects pocket crawling bot data.
 quoraBot | Collects quora crawling bot data.
 redditBot | Collects reddit crawling bot data.
 rocket | Collects rocket chat app user data.
