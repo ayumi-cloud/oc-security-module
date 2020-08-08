@@ -12,6 +12,7 @@ discordBot | Collects all discord crawling bots data.
 facebook | Collects facebook app and desktop platform user data.
 facebookBot | Collects all facebook crawling bots data.
 flipboard | Collects flipboard app user data.
+feedlyBot | Collects all freely crawling bots data.
 groupon | Collects groupon app user data.
 kakao | Collects kakaotalk app user data.
 kakaoBot | Collects all kakaotalk crawling bots data.
