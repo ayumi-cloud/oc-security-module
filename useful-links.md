@@ -346,3 +346,6 @@ https://gridbyexample.com/
 
 http://thadafinser.github.io/UserAgentParserComparison/v5/
 
+### High Risk ISPs
+
+https://scamalytics.com/ip/isp
