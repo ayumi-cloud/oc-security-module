@@ -60,7 +60,7 @@ Laravel 7 continues the improvements made in Laravel 6.x by introducing Laravel 
 
 - Laravel 7 to use [Laravel Airlock](https://laravel.com/docs/master/airlock). To learn more you can watch this video: [Laravel Airlock with Vue for SPA Auth](https://www.youtube.com/watch?v=D9oIu6jiYLk).
 
-- SQLite 3.7.11 or greater (we recommended SQLite 3.8.8+)
+- SQLite 3.7.11 or greater (we recommend the latest version of SQLite, which can be found here: [Latest Release](https://www.sqlite.org/index.html))
 
 #### Enable the following Apache httpd modules 🔧
 
