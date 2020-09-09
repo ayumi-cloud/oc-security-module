@@ -18,6 +18,19 @@
 
 <p align="center"><strong>The security code is not held in this repo - but in a private repo (being heavily developed)</strong></p>
 
+---
+
+## October II Modules
+
+<p align="center">
+  <a href="https://github.com/ayumi-cloud/oc2-security-module"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/module-icons/security.svg" alt="Security" width="320" height="320"></a>
+  <a href="https://github.com/ayumi-cloud/oc2-legal-module"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/module-icons/legal.svg" alt="Legal" width="320" height="320"></a>
+</p>
+
+
+
+
+
 ## Table of contents
 
 - [Transparency](#transparency-)
