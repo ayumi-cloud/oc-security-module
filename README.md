@@ -23,13 +23,13 @@
 ## October II Modules :eyes:
 
 <p align="center">
-  <a href="https://github.com/ayumi-cloud/oc2-security-module"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/module-icons/security.png" alt="Security" width="365" height="435"></a>
-  
+  <a href="https://github.com/ayumi-cloud/oc2-security-module"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/module-icons/security.png" alt="Security" width="365" height="435"></a> 
   <a href="https://github.com/ayumi-cloud/oc2-legal-module"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/module-icons/legal.png" alt="Legal" width="289" height="444"></a>
-  
-  <a href="https://github.com/ayumi-cloud/"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/module-icons/pwa.png" alt="PWA" width="289" height="444"></a>
-  
-  <a href="https://github.com/ayumi-cloud/"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/module-icons/amp-html.png" alt="AMP-HTML" width="289" height="444"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ayumi-cloud/"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/module-icons/pwa.png" alt="PWA" width="356" height="475"></a>
+  <a href="https://github.com/ayumi-cloud/"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/module-icons/amp-html.png" alt="AMP-HTML" width="370" height="414"></a>
 </p>
 
 ...more modules will be uploaded
