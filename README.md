@@ -22,13 +22,28 @@
 
 ## October II Modules :eyes:
 
-- **Security Module** - Enhanced security features including firewall, virus scanner, code checker, 2fa, u2f, security api's etc.
-- **Legal Module** - Legal features including tools for GDPR, ePrivacy, CCPA, Cookie Policy, Privacy Policy, Terms and Conditions, 2257 etc.
+- **[Security Module](https://github.com/ayumi-cloud/oc2-security-module)** - Enhanced security features including firewall, virus scanner, code checker, 2fa, u2f, security api's etc.
+- **[Legal Module](https://github.com/ayumi-cloud/oc2-legal-module)** - Legal features including tools for GDPR, ePrivacy, CCPA, Cookie Policy, Privacy Policy, Terms and Conditions, 2257 etc.
 - **Protocol Module** - Intergrated features including HTTP/2, HTTP/3 with QUIC, IPFS, preloading, predictive prefetching etc.
 - **Progressive Web Apps Module** - PWA and DPWA, Service workers, caching, manifest, banners, icons, badges, native api's etc.
 - **AMP-HTML Module** - AMP-HTML features making it easier to create AMP-Content, AMP-Email and AMP-Stories etc.
-- **Semantic Module** - Schema.org, JSON-LD, Microformats, ontologies etc.
-- **Frameworks Module** - Vanilla js ajax framework (no more jquery), Angular, React, Vue.js, Bootstrap, Web Components etc.
+- **Semantic Module** - Schema.org, JSON-LD, microformats, ontologies etc.
+- **Frameworks Module** - Vanilla js ajax framework (no more jquery), intergrated features for Angular, React, Vue.js, Bootstrap, Web Components etc.
+
+- **Developer Module** - 
+
+- **CDN Module** - 
+
+- **Layout and Dashboard Module** - 
+
+- **Performance Module** - 
+
+- **Internalization Module** - 
+
+- **Crypto and Web 3.0 Module** - 
+
+- **Form Module** - 
+
 
 ...more modules will be uploaded
 
