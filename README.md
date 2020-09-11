@@ -22,6 +22,8 @@
 
 ## October II Modules :eyes:
 
+**Note: (*) This is a very brief overview of the modules and doesn't list the full features included in each module (this is intended to give users an overview picture).**
+
 - **[Security Module](https://github.com/ayumi-cloud/oc2-security-module)** - Enhanced security features including firewall, virus scanner, code checker, 2fa, u2f, security api's etc.
 - **[Legal Module](https://github.com/ayumi-cloud/oc2-legal-module)** - Legal features including tools for GDPR, ePrivacy, CCPA, Cookie Policy, Privacy Policy, Terms and Conditions, 2257 etc.
 - **Protocol Module** - Intergrated features including HTTP/2, HTTP/3 with QUIC, IPFS, preloading, predictive prefetching etc.
