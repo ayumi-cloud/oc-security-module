@@ -6,6 +6,14 @@ https://laravel.com/api/6.x/index.html
 
 https://laravel.com/api/7.x/index.html
 
+### Laravel API v8.x
+
+https://laravel.com/api/8.x/index.html
+
+### Laravel 8 Getting Started
+
+https://laravel.com/docs/8.x/installation
+
 ### Laravel Validation
 
 https://laravel.com/docs/master/validation#available-validation-rules
@@ -349,3 +357,8 @@ http://thadafinser.github.io/UserAgentParserComparison/v5/
 ### High Risk ISPs
 
 https://scamalytics.com/ip/isp
+
+### The Perfect URL Regular Expression
+
+http://urlregex.com/
+
