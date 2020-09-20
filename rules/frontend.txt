@@ -1,0 +1,242 @@
+# This file contains the FRONTEND malware signatures in two forms:
+#   - String literals (without backslash escaping)
+#   - Regexes (enclosed in / / characters)
+# 
+# NB: Regex is slower! So literals are preferred.
+
+
+# onepage_or_checkout
+\x6F\x6E\x65\x70\x61\x67\x65\x7C\x63\x68\x65\x63\x6B\x6F\x75\x74
+
+# sinlesspleasure_com
+5e908r948q9e605j8t9b915n5o9f8r5e5d969g9d795b4s6p8t9h9f978o8p8s9590936l6k8j9670524p7490915l5f8r90878t917f7g8p8o8p8k9c605i8d937t7m8i8q8o8q959h7p828e7r8e7q7e8m8o5g5e9199918o9g7q7c8c8t99905a5i8l94989h7r7g8i8t8m5f5o92917q7k9i9e948c919h925a5d8j915h608t8p8t9f937b7k9i9e948c919h92
+
+# amasty_biz_js
+t_p#0.qlb#0.#1Blsjj#1@#.?#.?dslargml#0.qr_pr#06#07#5@#.?#0
+
+# returntosender
+\x2F\x6D\x65\x64\x69\x61\x2F\x63\x61\x74\x61\x6C\x6F\x67\x2F\x70\x72\x6F\x64\x75\x63\x74\x2F\x63\x61\x63\x68\x65\x2F\x31\x2F\x74\x68\x75\x6D\x62\x6E\x61\x69\x6C\x2F\x37\x30\x30\x78\x2F\x32\x62\x66\x38\x66\x32\x62\x38\x64\x30\x32\x38\x63\x63\x65\x39\x36\x2F\x42\x2F\x57\x2F\x64\x61\x34\x31\x38\x30\x33\x63\x63\x39\x38\x34\x62\x38\x63\x2E\x70\x68\x70
+
+# grelos_v
+var grelos_v
+grelos_v.send
+grelos_v[_
+grelos_v=
+
+# credit_card_regex
+RegExp("[0-9]{13,16}")
+
+# jquery_code_su_multi
+=oQKpkyJ8dCK0lGbwNnLn42bpRXYj9GbENDft12bkBjM8V2Ypx2c8Rnbl52bw12bDlkUVVGZvNWZkZ0M85WavpGfsJXd8R1UPB1NywXZtFmb0N3box
+
+# Trafficanalyzer_js
+z=x['length'];for(i=0;i<z;i++){y+=String['fromCharCode'](x['charCodeAt'](i)-
+
+# marisaperry skimmer
+dmFyIHNlPWZhbHNlO2Z1bmN0aW9uIHRpbW
+
+# gate_php_js
+/\/gate\.php\?token=.{,10}&host=/
+/url:\s?'https?:\/\/[^\/]{5,30}\/gate\.php\?token=\w{4,20}',/
+
+# googieplay_js
+tdsjqu!tsd>#iuuq;00hpphjfqmbz/jogp0nbhfoup`hpphjfqmbz/kt#?=0tdsjqu?
+
+# js_test_for_checkout
+/((onepage|checkout|firecheckout|nexwaycheckout|onestep|onestepcheckout)\|){2,}/
+
+# md5_cdn_js_link_js
+grelos_v= null
+grelos_v=null
+
+# wskonnekt
+wskonnekt.com/js/extjs/ext-payment.js
+
+# md5_mage_storage_pw_js
+/var ....={..:function\(x,y\){return x!==y;}/
+
+# checkout|
+\x63\x68\x65\x63\x6B\x6F\x75\x74\x7C
+
+# js_stats_fake_cc_form
+/function validateCreditCard\(\w\d\w\)/
+
+# pass-js.click
+KUL*6%2FfMJa%04%3FE%1AK%265%24Z%40c*%
+
+# querySelectorAll @ magescripts.pw/v3.js
+\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C
+
+# firebug detector
+window.Firebug&&window.Firebug.chrome&&window.Firebug.chrome.isInitialized
+
+# obfuscated call home
+/type:[a-z]\("[SPOT]{4}",[0-9]{1,3},[0-9]{1,3}\),url/
+/[a-z]\.open\([a-z]\("[SPOT]{4}",[0-9]{1,3},[0-9]{1,3}\)/
+
+# fetch cc details
+jQuery('[id*="cc_ss_issue"]').val()
+querySelectorAll("input, select, textarea, checkbox"
+window.location.href,q.match(/onepage|checkout/gi)&&(t("input, select")
+JSON.stringify(jQuery("#co-payment-form")
+document.getElementsByName('payment[cc_number]')
+document.getElementById('sagepaydirectpro_cc_number').value
+document.getElementById('paypal_direct_cc_number').value
+document.getElementById("ccsave_cc_number").value
+
+# hijacked sites
+www.visio-rx.com/docs/info.php
+gemfindwebdesign.com/gemfind/info.php
+boutique.postedecoute.ca
+shadestation.co.uk/style-blog/wp-content/uploads
+rods.com/media/js/f6c19810e6d799ee92d377d3fd02cd7c
+danieldefense.com/media/js/af7f0d943df57b8e5f7be0551a4c5061
+wskonnekt.com/js/extjs/ext-payment.js
+werbemittel24.com/js/extjs/ext-payment.js
+miibox.com/js/lib/prototype.js
+baterky-noze.sk/modules/statsdata/js/statistics.js
+trivalleyxmaslights.com
+brewtees.com/wp-admin/js/fabric.php
+brewtees.com/wp-admin/js/unoalla
+nearart.com/js/mage/service/fabric.php
+walletgear.org/src/
+tciauto.com/js/lib/lightbox.enc.js
+magento.erpflex.com.br/media/catalog/product/cache/1/stat
+
+# payment-buttons-container
+\x70\x61\x79\x6D\x65\x6E\x74\x2D\x62\x75\x74\x74\x6F\x6E\x73\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72
+
+# ccsave_cc_number
+\x63\x63\x73\x61\x76\x65\x5F\x63\x63\x5F\x6E\x75\x6D\x62\x65\x72
+
+# boutique.postedecoute.ca
+\x62\x6F\x75\x74\x69\x71\x75\x65\x2E\x70\x6F\x73\x74\x65\x64\x65\x63\x6F\x75\x74\x65\x2E\x63\x61
+
+# (onepage|checkout|onestep|firecheckout)
+\x6F\x6E\x65\x70\x61\x67\x65
+\x63\x68\x65\x63\x6B\x6F\x75\x74
+\x6F\x6E\x65\x73\x74\x65\x70
+\x66\x69\x72\x65\x63\x68\x65\x63\x6B\x6F\x75\x74
+
+# hidden div containing remote malware
+<div style='width: 300px; height: 300px; position:absolute; left:-500px; top: -500px;'>
+
+# fromcharcode reencode
+enc+=String.fromCharCode(o1,o2,o3)
+
+# var snd =null;
+118,97,114,32,115,110,100,32,61,110,117,108,108,59
+118, 97, 114, 32, 115, 110, 100, 32, 61, 110, 117, 108, 108, 59
+
+# if((new RegExp('o
+105,102,40,40,110,101,119,32,82,101,103,69,120,112,40
+105, 102, 40, 40, 110, 101, 119, 32, 82, 101, 103, 69, 120, 112, 40
+
+# lazy obfuscation
+|RegExp|onepage|checkout|
+|2Fonepage|2Fcheckout|window|
+|ccsave_centinel_logo|textarea|querySelectorAll|
+|cc_ss_issue|Start|querySelectorAll|
+
+# return/\\w+ *\\(\\) *{\\w+ *[\'|"].+[\'|"];? *}/
+\x72\x65\x74\x75\x72\x6e\x2f\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d\x2f
+
+# Just "this['eval']" catches a few FPs of ppl obfuscating their email address
+# If this['eval']( is too broad, keep the other ones
+# this eval
+this['eval'](
+this['eval'](String['fromCharCode'](
+this['eval']('\
+this['eval'](this['atob']('
+}w=this['unescape'](y);this['eval'](w);
+
+# generic payment detection
+/(href\.match|RegExp)\([^)(]*(checkout|onestep|firecheckout|onestepcheckout|onepagecheckout|onepage|checkout\/onepage)\|[^)(]*\)/
+
+# +(84>20?"\x6d":"\x64")+ found @ tophatcigar.com, everstylish.com
+# regex bomb
+# too slow for yara
+#/\+\s{,2}\(\s{,2}\d{,2}\s{,2}>\s{,2}\d{,2}\s{,2}\?\s{,2}"[^"]{,20}"\s{,2}:\s{,2}"[^"]{,20}"\s{,2}\)\s{,2}\+/
+
+# obfuscated cc call home
+/type:[a-z]\("[SPOT]{4}",[0-9]{1,3},[0-9]{1,3}\),url/
+/[a-z]\.open\([a-z]\("[SPOT]{4}",[0-9]{1,3},[0-9]{1,3}\)/
+
+# everystylish
+/\(\d\d\>\d\d\?\"/
+xx="".constructor;
+3g2t3c0w362k251r1610372j1m3i1f1x192f2b1a3027
+
+# Does not work unfortunately, as Twitter embeds are also encoded this way. --WdG
+# "\x68"
+# /"\\x\d\d"/
+
+# atob_checkoutonepage
+atob(\'Y2hlY2tvdXRvbmVwYWdl\')
+
+# hex_sevenpay_cc
+\x73\x65\x76\x65\x6E\x70\x61\x79\x5F\x63\x72\x65\x64\x69\x74\x5F\x63\x61\x72\x64
+\x74\x65\x73\x74\x20\x73\x69\x67\x6E\x61\x74\x75\x72\x65\x20\x61\x64\x64\x65\x64\x20\x62\x79\x20\x67\x77\x69\x6C\x6C\x65\x6D
+
+# onestepcheckout paypal hijack
+jQuery("#checkout-onepage-buttom").attr("onclick", "paynow_right();");
+
+# fake payment popup
+var contentfrompaymentblock
+
+# gate.php payment proxy
+localStorage.setItem("billing"
+
+# coinhive cryptojacking
+new CoinHive.
+camillesanz.com/lib/status.js
+
+# coinhive urlencoded miner.start()
+%09%6D%69%6E%65%72%2E%73%74%61%72%74%28%29
+
+# dnsden binary encoded
+String(A).split("").reverse().join("")
+H.charAt(A.indexOf(W))}))
+
+# baterky payment sniffer
+data: {payment: validation, ref: window.location.host}
+if(value.split('=')[0].trim() == 'validationcookie')
+
+# zs.mk cookiestealer
+url='+escape(document.location)+'&cookie='+escape(document.cookie)
+
+# spam redirectors
+ribinski.us
+africangrey.top
+tcsupport241012.tk
+africangirl.top
+supporttech281012.tk
+melissatgmt.us
+oltratoke.ru
+
+# cratfsman
+|cratfsman|
+querySelectorAll|redecard
+|authnetcim_cc_number|cc_number|
+
+# cdnch skimmer
+jQuery('[name*=cc_cvc]')
+
+# maxided server spam
+maxided.com/dedicated-servers/belgium/belize
+
+# walletgear bogus regex obfuscation
+[^F-ZC-EA-Ba-z0-38-94-7+\/=]
+
+# ATMZOW malware
+/\}setTimeout\([A-Z0-9]{6},(99|100)\)/
+
+# hex encoded coinhive
+\x43\x6F\x69\x6E\x48\x69\x76\x65
+
+# fake cc popup "cc_exp
+\x22\x63\x63\x5F\x65\x78\x70
+\x4D\x61\x73\x74\x65\x72\x43\x61\x72\x64
+
+# js encoded cc hijack
+/\w\(\w\(\"[\w\W\s]{1,25}\",\s?\d{1,5},\s?\d{1,5}\)/
