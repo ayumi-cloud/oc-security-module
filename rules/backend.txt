@@ -1,0 +1,443 @@
+# This file contains the BACKEND malware signatures in two forms:
+#   - String literals (without backslash escaping)
+#   - Regexes (enclosed in / / characters)
+# 
+# NB: Regex is slower! So literals are preferred.
+
+
+# dump_sales_quote_payment
+include '../../../../../../../../../../app/Mage.php'; Mage::app(); $q = Mage::getModel('sales/quote_payment')->getCollection();
+
+# dump_sales_order
+../../../../../../app/Mage.php'; Mage::app(); var_dump(Mage::getModel('sales/order')
+
+# md5_64651cede2467fdeb1b3b7e6ff3f81cb
+rUl6QttVEP5eqf9usxfJjgoOvdNWFSGoHDgluk+4ONwXQNbGniQLttfyrgkB8d9
+
+# md5_6bf4910b01aa4f296e590b75a3d25642
+base64_decode('b25lcGFnZXxnY19hZG1pbg==')
+
+# fopo_obfuscated
+Free Online PHP Obfuscator
+http://www.fopo.com.ar
+DNEcHdQbWtXU3dSMDA1VmZ1c29WUVFXdUhPT0xYb0k3ZDJyWmFVZlF5Y0ZEeHV4K2FnVmY0OUtjbzhnc0
+U3hkTVVibSt2MTgyRjY0VmZlQWo3d1VlaFJVNVNnSGZUVUhKZXdEbGxJUTlXWWlqWSt0cEtacUZOSXF4c
+rb2JHaTJVdURMNlhQZ1ZlTGVjVnFobVdnMk5nbDlvbEdBQVZKRzJ1WmZUSjdVOWNwWURZYlZ0L1BtNCt
+
+# eval_post
+eval(base64_decode($_POST
+eval($undecode($tongji))
+/\beval\(\$_POST/
+
+# spam_mailer
+<strong>WwW.Zone-Org</strong>
+echo eval(urldecode(
+MortoLino - mode*SPAMMER
+
+# evil eval
+/\)\s*\)\s*\{\s*eval\s*\(\s*\$\{/
+/eval\([\w\d]+\(\$[\w\d]+, \$[\w\d]+\)\);/
+eval(xxtea_decrypt
+curl_close($cu);eval($o);};die();
+eval(base64_decode($a));
+eval(gzinflate(base64_decode(str_rot13(strrev(
+eval("?>".gzuncompress(base64_decode(
+@eval(gzinflate(base64_decode($
+eval (gzinflate(base64_decode(
+@eval(gzinflate(base64_decode(
+eval(gzinflate(base64_decode(
+
+
+# upload backdoor
+$dez = $pwddir."/".$real;copy($uploaded, $dez);
+@$_($_REQUEST['
+if(@copy($_FILES['file']['tmp_name'],$_FILES['file']['name'])) {echo '<b>up!!!</b><br><br>';}}
+if(@copy($_FILES["f"]["tmp_name"],$_FILES["f"]["name"])
+"<h1><a href='$fullpath'>OK-Click here!</a></h1>"
+
+# md5_4b69af81b89ba444204680d506a8e0a1
+** Scam Redirector
+
+# globals hack
+/\$GLOBALS\['[\w\d]+'\]\(\$GLOBALS\['[\w\d]+'\]/
+
+# md5_825a3b2a6abbe6abcdeda64a73416b3d
+$ooooo00oo0000oo0
+/[o0O]{3}\("fsockopen"\)/
+
+# backdoor cache php
+fopen("cache.php", "w+")
+
+# md5_fb9e35bf367a106d18eb6aa0fe406437
+0B6KVua7D2SLCNDN2RW1ORmhZRWs/sp_tilang.js
+
+# obfuscated_eval
+#"/.*/e"
+
+# shoplift_evasion_technique
+(preg_match('/\/admin\/Cms_Wysiwyg\/directive\/index\//', $_SERVER['REQUEST_URI']))
+
+# force img as php
+/<Files [^>]+.(jpg|png|gif)>\s*ForceType application\/x-httpd-php/
+
+# md5_d30b23d1224438518d18e90c218d7c8b
+attribute_code=0x70617373776f72645f68617368
+
+# hide_data_in_img
+/JPEG-1\.1[a-zA-Z0-9\-\/]{32}/
+))unlink('../media/catalog/category/'.basename($
+/file_put_contents\(\$.{2,3},'JPEG-1\.1'\.base64_encode/
+
+# hidden_file_upload_in_503
+/error_reporting\(0\);\$f=\$_FILES\[\w+\];copy\(\$f\[tmp_name\],\$f\[name\]\);error_reporting\(E_ALL\);/
+
+# md5_fd141197c89d27b30821f3de8627ac38
+if(isset($_GET['do'])){$g0='adminhtml/default/default/images'
+
+# visbot
+stripos($buf, 'Visbot')!==false && stripos($buf, 'Pong')!==false
+stripos($buf, 'Visbot') !== false && stripos($buf, 'Pong')
+<?PHP /*** Magento** NOTICE OF LICENSE** This source file is subject to the Open Software License (OSL 3.0)* that is bundled with this package in the file LICENSE.txt.* It is also available through the world-wide-web at this URL:* http://opensource.org/licenses/osl-3.0.php**/$
+$_SERVER['HTTP_USER_AGENT'] == 'Visbot/2.0 (+http://www.visvo.com/en/webmasters.jsp;bot@visvo.com)'
+
+# md5_39ca2651740c2cef91eb82161575348b
+/if\(md5\(@\$_COOKIE\[..\]\)=='.{32}'\) \(\$_=@\$_REQUEST\[.\]\).@\$_\(\$_REQUEST\[.\]\);/
+
+# md5_6eb201737a6ef3c4880ae0b8983398a9
+if(md5(@$_COOKIE[qz])==
+($_=@$_REQUEST[q]).@$_($_REQUEST[z]);
+
+# md5_d201d61510f7889f1a47257d52b15fa2
+@eval(stripslashes($_REQUEST[q]));
+
+# md5_06e3ed58854daeacf1ed82c56a883b04
+$log_entry = serialize($ARINFO)
+
+# md5_28690a72362e021f65bb74eecc54255e
+curl_setopt($ch, CURLOPT_POSTFIELDS,http_build_query(array('data'=>$data,'utmp'=>$id)));
+
+# overwrite_globals_hack
+/\$GLOBALS\['[^']{,20}'\]=Array\(/
+
+# md5_4adef02197f50b9cc6918aa06132b2f6
+/\{\s*eval\s*\(\s*\$.{1,5}\s*\(\$\{\s*\$.{1,5}\s*\}\[\s*'.{1,10}'\s*\]\s*\)\s*\);\}/
+
+# obfuscated_globals
+/\$GLOBALS\['.{1,10}'\] = "\\x/
+
+# ld_preload_backdoor
+killall -9 ".basename("/usr/bin/host
+
+# md5_b3ee7ea209d2ff0d920dfb870bad8ce5
+/\$mysql_key\s*=\s*@?base64_decode/
+/eval\(\s*\$mysql_key\s*\)/
+
+# md5_e03b5df1fa070675da8b6340ff4a67c2
+/if\(preg_match\("\/onepage\|admin\/",\s*\$_SERVER\['REQUEST_URI'\]\)\)\{\s*@?file_put_contents/
+/@?base64_encode\(serialize\(\$_REQUEST\)\."--"\.serialize\(\$_COOKIE\)\)\."\\n",\s*FILE_APPEND\)/
+
+# md5_023a80d10d10d911989e115b477e42b5
+/chr\(\d{,3}\)\.\"\"\.chr\(\d{,3}\)/
+
+# hidden base64_decode
+'base'.(128/2).'_de'.'code'
+'base'.(32*2).'_de'
+
+# encrypted backdoor
+/create_function\('',\$.{4,6}\);unset\(\$.{4,6},\$.{4,6}\);/
+
+# md5_f797dd5d8e13fe5c8898dbe3beb3cc5b
+echo("FILE_Bad");
+
+# md5_9eda2dcfa778575040f5a75890797227
+Upload SUKSES !!!
+
+# anua_ransomware
+isset($GLOBALS["\x
+
+# send_cc_details_abroad
+logzz@eduz.edu
+Location: https://personalsavings.americanexpress.com
+janeseste.87@gmail.com
+dbshop.biz@gmail.com
+actcrew4@gmail.com
+
+# obfuscated_url
+/strrev\("[^"]{,50}ptth"\)/
+
+# md5_ebaa9a4844c80402236f767f15f7c660
+4aa336a2b0df4c437cc1fbf5dfca17b5
+base64_decode(strtr($_POST["file"]
+
+# unserialize_mag_php_exploit
+multi_implode_data('',$_POST,0)
+/setcookie\("SESSIIID",\s*\$randkey,\s*time\(\)\s*\+\s*\d+,\s*"\/",\s*\$_SERVER\['HTTP_HOST'\]\)/
+
+# md5_55e26229abfe2b49f3d03387861018a0
+/\.\$GLOBALS\['\w{,15}'\]\[\d{1,3}\]\./
+
+# md5_30d2f3c994102c2a04fbe487375535fe
+http://86.105.227.129/
+/\$data\d{,3} = \$info->getCcNumber\(\);/
+
+# adminer_possible_backdoor
+@link http://www.adminer.org/
+@link https://www.adminer.org/
+
+# md5_13524e06082228ee286d5be519b9d3ef
+$method("/124/e"
+$is_auth = new Mage_Cms_Auth_chl
+
+# magento_auth_hack
+\nPassword : ".$password."\nIP Log
+
+# magento_setoran_cc_hijack
+$data10 = $info->getCcNumber();
+++=====[ CreditCard ]=====++
+$$ SETORAN CC MAGENTO $$
+javacc@ymail.com
+function sendCcNumber()
+$serverboss = $_SERVER['SERVER_NAME'];
+
+# lastc0de_backdoor
+lastc0de@Outlook.com
+| Php Backdoor
+if(isset($_GET["zzz"])){
+IndoXploit
+AgencyCaFc
+CodersLeet
+
+# cookie_eval
+$_=@$_REQUEST[q]
+@$_($_REQUEST[z])
+eval(stripslashes($_REQUEST[q]))
+
+# galers_backdoor
+xh3LL
+Backd00r
+DellatioNx196
+File Upload Done Kakak
+
+# c99_injector
+c99 injektor
+Password yg telah di enkripsi dg md5
+ipays@craxs.co.cc
+c99shvars
+$back_connect_pl
+
+# md5_947f4088f047a29c46abf7eb4214a5d3
+$func="cr"."eat"."e_fun"."cti"."on"
+.gz'.'in'.'fla'.'te
+ba'.'se'.'64'.'_de'.'co'.'de
+8020469869f2880c93823d46c8bf6e59b2882525
+
+# sohai_magento_stealer
+coder : sohai
+n4KuLa_
+SELECT user_id,firstname,lastname,email,username,password FROM admin_user
+<b>Gagal</b>
+pepekgorengcok@gmail.com
+$crypto->decrypt($vx['cc_number_enc'])
+
+# md5_a62952942bbd400e446781d7da600c63
+Newbie3viLc063s
+elseif(function_exists('shell_exec'))
+ex('perl -h')
+
+# phpfilemanager_possible_backdoor
+phpFileManager
+$default_action = 'FilesMan'
+"Fil"."e"."s"."M"."an";
+
+# md5_c5f2484dc63ef40a6623b94825f4f472
+isset($_POST['___']
+
+# magento_ardiansyah_cc_hijack
+YXJkaWFuc3lhaDI1MDk5NkBnbWFpbC5jb20=
+Security = ".$pay->getCcCid()
+
+# md5_6c57bb8210f2e97f146765837fb53e01
+substr(MD5(strrev($wp_l_))
+
+# perl_payment_patcher
+PAYMENT PATCHER BY MOCHA
+&ceksave
+
+# write_cc_to_fake_jpg
+$val2 = $_COOKIE['currentcvv']
+'/media/wysiwyg/cartcheckout.jpg', 'a+')
+$f1 = Mage::GetBaseDir();
+
+# eval_rot_13
+eval(str_rot13
+
+# max chadwick for president
+# wordpress backdoor
+$db___WP=create_function
+
+# create file from request
+$r=$_REQUEST;@file_put_contents($r[
+
+# direct eval of request
+/\beval\(\$_REQUEST\[/
+
+# leak payment details via email to postghostip@gmail.com + post@getaddr.net
+$headers = "MIME-Version: 1.0\n";$ar=array(
+mail($recipient,$subject,$datasend,$headers);mail($sendd,$subject,$datasend,$headers);
+
+# direct eval gzinflate
+/<\?php\s+eval\(gzinflate\(/
+
+# evil eval base64_decode
+eJwlmt2aqjrXbW8pAam9PJwIAVFCEfIDOQPiUwgBKaUUu
+
+# eval dollar dollar
+/\beval\(\(\$\$/
+
+# phpMiniAdmin possbile backdoor
+<title>phpMiniAdmin</title>
+@link http://phpminiadmin.sourceforge.net
+
+# PHP Shell
+'PHPSHELL_VERSION'
+@link http://phpshell.sourceforge.net/
+
+# eval gzinflate base64_decode end
+/\beval\(gzinflate\(base64_decode\(\$code\)\)\);\?>/
+
+# MDT possible backdoor 
+function selfdestructAction()
+class MdtXmlLocal extends MdtXml
+
+# frontend/Mage.php
+ZXZhbChiYXNlNjRfZGVjb2RlK
+ZXJyb3JfcmVwb3J0aW5nKDApOw0KaWYg
+
+# assert stripslashes request or post
+/assert\(stripslashes\(\$_((REQUEST)|(POST))\[[A-Za-z0-9]{1,15}\]\)\)/
+
+# Pak Haxor upload script
+echo base64_decode("UGFrIEhheG9y");
+
+# explode list of digits using calculated delimiter char
+/explode\(chr\(\([0-9]+-[0-9]+\)\),['"](\d+,){,10}/
+
+# upload form logic
+<input type="file" name="viewers">&nbsp;<input type="submit" name="ok" value="FVCK ME!!">
+
+# PRO Mailer V2
+@~ PRO Mailer V2
+<title>Pro Mailer V2</title>
+
+# base64 pastebin raw file link
+aHR0cDovL3Bhc3RlYmluLmNvbS9yYXcv
+
+# rce_backdoor_text
+paranoidal admin[s] has been disabled many functions
+
+# rce_backdoor_functions
+/if \(is_callable\('((exec)|(system)|(passthru))'\) and !in_array\('((exec)|(system)|(passthru))'/
+
+# Mail base64 cookie content
+/mail\(.{,70}base64_decode\(\\?\$_COOKIE\[.{,20}\]\)\)/
+
+# match preg_match
+preg_match("/".base64_decode('YmlsbGluZ3xmaXJzdG5hbWV8Y2NfbnVtYmVyfGxvZ2lufHVzZXJuYW1lfHBheW1lbnR8Y2Nf')."/i"
+preg_match("/billing|firstname|cc_number|login|username|payment|cc_root/i"
+
+# New RCE Obfuscation
+preg_replace("/./\x65",@$_
+
+# New Shell Obfuscation
+strrev("taerc")."e_f".strrev("noitcnu")
+
+# webshell leetspeak
+purp0zes
+ultr4l33t
+3duc4t10n4l
+
+# php arbitrary file upload
+move_uploaded_file($_FILES["file"]["tmp_name"],$_FILES["file"]["name"]);
+
+# hex base64_decode
+\142\x61\x73\x65\66\x34\137\x64\x65\x63\x6f\x64\145
+\142\x61\163\x65\x36\x34\x5f\x64\x65\x63\157\144\145
+
+# dynamic eval decode
+/\@eval\(\$[\w\d]{8,10}\(/
+
+# lame obfuscation
+'ev'.'al'.'(
+gz'.'inf'.'late'
+bas'.'e64'.'_de'.'co'.'de
+
+# base64 encoded http://e2.jo/js/lib/lib.js
+s7ezsS/IKODlSi1LzNFIy8xJjU9PLYlPzs8rSc0rKdZQzygpKbDS10810svK188q1s/JTAJhvaxidU1Na14ue6ABAA==
+
+# encrypted FilesMan, downloaded from http://e2.jo
+BuIChBy/bUGrDdvl9trLB/7DtFnAY88VJCll70qiWDr9d5jDXbyGt9VTi
+
+# Dynamic base64 function call using urldecode
+/\$[O0]{9}\s?=\s?urldecode/
+
+# Mage billing details leak
+@$XYD8Jw($aIYkAW($iIhWWKU5($UbK0prw($xnDU7))));
+
+# Obfuscated webshell
+$xQeLPJCW($Xrp5oU($dwE7sB($r5FYS($bV3bY))));
+
+# CloudConnectERP backdoor
+<target name="mageskin"><file name="viewer.php"
+
+# Rejeki backdoor
+rejeki2018@gmail.com
+MEMBER MLM TELAH LOGIN KEMBALI
+
+# alambike samples
+# $j1uOElJr=(41453-34069+37370);
+# ;echo@serialize(${$mrngyyp});
+/create_function \('\$.{5,9}', .{5,7} \(base64_decode/
+/\$.{8}=\([0-9\-\+]{17}\);/
+/define\('ALREADY_RUN_[a-f0-9]{28,34}', 1\);/
+/;echo\@serialize\(\$\{\$.{7}\}\)/
+PD9waHANCi8qDQpPYmZ1c2NhdGlvbiBwcm92aWRlZCBieSBGT1B
+
+# Request logger
+file_put_contents('post.txt',json_encode($_REQUEST)."\n",FILE_APPEND);
+md5(rand(111111,9999999))
+
+# backlinks spam
+backlinks.com/engine.php
+
+# reinfection mechanism
+$name_a = 'Cc.php';
+getGender() or "KOSONG"
+$subject = "Verify Mag ".$data['cc_type']." ".$binCC
+
+# bgsvetlina sniffer
+bgsvetlina.com/post.php
+"data=". $pesan."&subject=".$subject."&server=".$serverboss
+
+# password interceptor
+Mag Log1n "
+
+# froghopper backdoor dropper
+/file_put_contents\("errors\/\w{3,10}.php",\$data\);/
+
+# see https://blog.zone.ee/2018/08/01/magento-ja-krediitkaardivarastaja-ja-andmekaitse-uldmaarus/
+# cron hijack 
+unlink('./app/code/core/clear.php');
+core_config_data where value like '$sing'
+
+# magecore.net admin pw reset
+password = "how1are2you3"
+
+# Hidden webshell
+eval($licenses($get_vpc($licenses($get_code(get_token($CERTIFICATE))))));
+
+# File uploader form
+if(isset($_GET['magento']))
+__cli_Mage_Connect::instance()->gets();
+
+# Obfuscated CC & User credentials hijacker
+$MageAPI = 'https://api.magento.com/id=
