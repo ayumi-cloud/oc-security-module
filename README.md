@@ -1,10 +1,4 @@
 <h3 align="center">October CMS Version II Proposal - Security Module</h3>
-
-<p><strong>...........................................Warning currently in heavy development</strong></p>
-
-<p align="center"><strong>There are other modules being developed for October CMS Version II in different repo's!</strong><p>
-  
->                               ⚠️ THIS IS A LONG-TERM PROJECT AND WILL TAKE MANY MONTHS! ⚠️
   
 <p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/stars.svg" alt="stars"> <a href="https://travis-ci.org/#"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/travis.svg" alt="Build Status"></a> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/php.svg"> <a href="https://codecov.io/gh/#"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/coverage.svg" alt="Codecov"></a> <a href="https://pullreminders.com?ref=badge"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/pull.svg" alt="Pull Reminders"></a> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/conduct.svg" alt="conduct"> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/docs.svg" alt="docs"></p>
 
@@ -12,11 +6,9 @@
 
 <p align="center"><a href="https://paypal.me/#"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/paypal-button.svg"></a></p>
 
-<p align="center">This repo to gather security enhancement ideas and to monitor progress.</p>
+<p align="center">This repo is to gather security enhancement ideas and to monitor progress. Feel free to add issues containing security ideas, requests and infomation.</p>
 
-<p align="center">Feel free to add issues containing security ideas, requests and infomation.</p>
-
-<p align="center"><strong>The security code is not held in this repo - but in a private repo (being heavily developed)</strong></p>
+<p align="center"><strong>The security code is not held in this repo - but held in a private repo (being heavily developed!)</strong></p>
 
 ---
 
