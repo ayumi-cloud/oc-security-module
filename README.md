@@ -199,6 +199,8 @@ For a full list of the new governance model for the October II Project, see here
 
 October II uses a lot of modern api's and technoligies, to take full advantage and have comprehensive support, we recommend using an evergreen-browser with the cms!
 
+<p align="center"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/ie.png"></p>
+
 > IE11 is a legacy browser still being used for operating systems that have a Long-Term Servicing Channel (LTSC) design and will shut down in 2025. Most developers will not be using such operating systems and should be using an evergreen service - for those developers still using old legacy software they carry the risk of security issues! October II focuses on _Polyfilling evergreen browsers only_ for various api support and features!
 
 > For example, a remote code execution (RCE) vulnerability [CVE-2020-0674](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0674) impacting Internet Explorer 11, got a monkey patch instead of a proper patch (*) at time of writing.
