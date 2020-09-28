@@ -1,4 +1,4 @@
-## October II Firewall Social Media API
+## Summer CMS Firewall Social Media API
 
 ### Social Media Platforms
 
