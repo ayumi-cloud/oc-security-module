@@ -41,6 +41,7 @@ twitter | Collects twitter app and desktop platform user data.
 twitterBot | Collects twitter crawling bot data.
 viber | Collects viber user data.
 vk | Collects vk user data.
+vkBot | Collects vk crawling bot data.
 voatBot | Collects voat crawling bot data.
 wechat | Collects wechat app user data.
 whatsapp | Collects whatsapp app user data.
