@@ -7,6 +7,7 @@ This data collection is used to better help and understand the seo of the websit
 Value | Description
 ---|---
 daum | Collects daum app user data.
+daumBot | Collects all daum crawling bots data.
 diggBot | Collects all digg crawling bots data.
 discordBot | Collects all discord crawling bots data.
 facebook | Collects facebook app and desktop platform user data.
