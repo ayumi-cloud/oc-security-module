@@ -1,4 +1,4 @@
-## October II Firewall Response Scores API
+## Summer CMS Firewall Response Scores API
 
 ### Response Scores
 
