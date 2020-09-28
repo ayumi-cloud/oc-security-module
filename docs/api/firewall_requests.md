@@ -1,4 +1,4 @@
-## October II Firewall Requests API
+## Summer CMS Firewall Requests API
 
 ### Device API
 
