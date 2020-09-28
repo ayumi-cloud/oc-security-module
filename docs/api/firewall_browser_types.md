@@ -1,4 +1,4 @@
-## October II Browser Types API
+## Summer CMS Browser Types API
 
 ### Browser Types
 
