@@ -1,4 +1,4 @@
-## October II Firewall Responses API
+## Summer CMS Firewall Responses API
 
 ### Responses
 
