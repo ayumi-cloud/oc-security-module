@@ -6,6 +6,7 @@ This data collection is used to better help and understand the seo of the websit
 
 Value | Description
 ---|---
+bloggerBot | Collects all blogger crawling bots data.
 daum | Collects daum app user data.
 daumBot | Collects all daum crawling bots data.
 diggBot | Collects all digg crawling bots data.
