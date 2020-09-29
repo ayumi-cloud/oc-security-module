@@ -25,6 +25,7 @@ lineBot | Collects all line crawling bots data.
 linkedinBot | Collects all linkedin crawling bots data.
 mediumBot | Collects all medium crawling bots data.
 messenger | Collects messenger app user data.
+mindsBot | Collects all minds crawling bots data.
 icq | Collects icq app user data.
 instagram | Collects instagram app user data.
 odnoklassniki | Collects ok.ru desktop and app user data.
