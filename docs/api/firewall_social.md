@@ -29,6 +29,7 @@ icq | Collects icq app user data.
 instagram | Collects instagram app user data.
 odnoklassniki | Collects ok.ru desktop and app user data.
 odnoklassnikiBot | Collects ok.ru crawling bot data.
+plurkBot | Collects plurk crawling bot data.
 pinterest | Collects pinterest app user data.
 pinterestBot | Collects pinterest crawling bot data.
 pocketBot | Collects pocket crawling bot data.
