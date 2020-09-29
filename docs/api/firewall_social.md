@@ -7,6 +7,7 @@ This data collection is used to better help and understand the seo of the websit
 Value | Description
 ---|---
 bloggerBot | Collects all blogger crawling bots data.
+buzzsumoBot | Collects all buzzsumo crawling bots data.
 daum | Collects daum app user data.
 daumBot | Collects all daum crawling bots data.
 diggBot | Collects all digg crawling bots data.
@@ -16,6 +17,7 @@ facebookBot | Collects all facebook crawling bots data.
 flipboard | Collects flipboard app user data.
 feedlyBot | Collects all freely crawling bots data.
 groupon | Collects groupon app user data.
+hootsuiteBot | Collects all hootsuite crawling bots data.
 hubspotBot | Collects all hubspot crawling bots data.
 kakao | Collects kakaotalk app user data.
 kakaoBot | Collects all kakaotalk crawling bots data.
