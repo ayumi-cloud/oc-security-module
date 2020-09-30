@@ -63,6 +63,14 @@ This module uses several Big Data tool sets to analyze large amounts of data col
 
 If you use this security module for your research, then kindly cite it. Click the above badge for more information regarding the complete citation for this security module and the diffferent citation formats like: IEEE, APA, BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON, MARCXML and Mendeley etc.
 
+## Firewall Definition Files 💾
+
+Version: 20200929
+
+Last Updated: 29th Sep 2020
+
+(*) While the security module is under heavy development, the definition files will be updated periodically and not on a regular basis! When the security module moves in a production ready-mode, the definitions files will be updated on a regular basis every week.
+
 ## Usage 🔧
 
 ### Requirements 🚩
