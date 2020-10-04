@@ -141,8 +141,8 @@ Using the Nginx server settings has a few required steps to be able to work.
 
 The security module in Summer CMS comes with some dedicated API's to help developers, for full details, see the api doc's section: [Summer CMS Firewall API's](https://github.com/ayumi-cloud/oc-security-module/tree/master/docs/api)
 
-- [APP Types API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_app_types.md)
-- [Browser Types API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_browser_types.md)
+- [Firewall APP Types API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_app_types.md)
+- [Firewall Browser Types API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_browser_types.md)
 - [Firewall Requests API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_requests.md)
 - [Firewall Response Scores API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_response_score.md)
 - [Firewall Responses API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_responses.md)
@@ -230,7 +230,7 @@ It's important to let users set the security levels at an early stage and the se
 
 This is a `major` update to how the cms deals with updating plugin and core files, see below for the differences:
 
-#### October 1 😕
+#### October v1 😕
 
 - When an update gets released it shows a notice in the dashboard (saying there is an update).
 - The user can go into the settings section and do a `manual` update.
