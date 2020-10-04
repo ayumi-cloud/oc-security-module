@@ -150,9 +150,9 @@ The security module in Summer CMS comes with some dedicated API's to help develo
 
 (*) Note: The firewall is built in a modular design and more modules are being coded and tested as time goes on. There will be new api's coming and added to the doc's in the near future. To suggest a firewall module open an issue.
 
-## Breaking Changes from October Version 1 to Version 2 😃
+## Breaking Changes from October v1 to Summer CMS (update proposal) 😃
 
-> This repo doesn't contain a full list of updates and changes from version 1 to 2. The list of changes below relate directly to the security module. For a full list of updated and new features, see the main update proposal module repo!
+> This repo doesn't contain a full list of updates and changes, the list of changes below relate directly to the security module. For a full list of updated and new features, see the main update proposal module repo that contains all the main core changes!
 
 ⚠️ WARNING ⚠️
 
