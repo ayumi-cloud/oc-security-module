@@ -43,7 +43,7 @@ sinaweibo | Collects sina weibo app user data.
 skype | Collects skype app user data.
 slack | Collects slack app user data.
 slackBot | Collects slackbot link checker crawling bot data.
-snapchat | Collects snapchat app user data.
+snapchatBot | Collects snapchat crawling bot data.
 telegramBot | Collects telegram crawling bot data.
 tripadvisor | Collects tripadvisor app and desktop user data.
 tumblr | Collects tumblr user data.
