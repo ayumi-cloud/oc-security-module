@@ -347,7 +347,7 @@ Critical CSS is a technique that extracts the CSS for the `above-the-fold` conte
 
 With October version one, the cms loads over 1Mb of styles and over 1Mb of javascript before the browser render engine can construct the website layout. To demostrate the downside of loading the website with and without critcal styles, see below:
 
-<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/critical-css-example.png"></p>
+<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/critical-css-example2.png"></p>
 
 In the above example, without critical css in place there is a long loading time the user sees a white background for quite a while and then everything is loaded all at once. Whereas, with critical css being loaded, the website is displayed much quicker and the white background time is greatly reduced! In technical terms the user has to wait longer for the `Largest Contentful Paint` to be loaded, when Critical CSS is not being applied.
 
