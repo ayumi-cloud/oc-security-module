@@ -59,6 +59,7 @@ whatsapp | Collects whatsapp app user data.
 wire | Collects wire app user data.
 wordpress | Collects wordpress android app user data.
 wordpressBot | Collects wordpress bot, wordpress.com bot and jetpack crawling bots data.
+yahoomessenger | Collects yahoo mesenger app user data.
 yammer | Collects yammer app user data.
 yelp | Collects yelp app user data.
 yelpBot | Collects yelp crawling bot data.
