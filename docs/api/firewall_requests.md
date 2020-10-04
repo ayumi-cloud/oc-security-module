@@ -74,7 +74,7 @@ browserBuild | Build release value
 
 See here: [firewall_browser_types.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/docs/api/firewall_browser_types.md)
 
-(*) See here: [firewall_app_types.md](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_app_types.md)
+See here: [firewall_app_types.md](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_app_types.md)
 
 ### x --- Engine / Os / Platforms / Manufacturer etc.
 
