@@ -46,7 +46,6 @@ slackBot | Collects slackbot link checker crawling bot data.
 snapchatBot | Collects snapchat crawling bot data.
 telegramBot | Collects telegram crawling bot data.
 tripadvisor | Collects tripadvisor app and desktop user data.
-tumblr | Collects tumblr user data.
 tumblrBot | Collects tumblr crawling bot data.
 twitter | Collects twitter app and desktop platform user data.
 twitterBot | Collects twitter crawling bot data.
