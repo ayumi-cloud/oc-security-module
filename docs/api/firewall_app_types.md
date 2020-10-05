@@ -16,7 +16,7 @@ appSocial | Social media is any digital tool that allows users to quickly create
 appOffice | Software that is used in business such as word processing, spreadsheet, database management and email.
 appEditor | An online code editor is a tool that resides on a remote server and is accessible via browsers.
 appDownload | A download manager is a software tool that manages the downloading of files from the internet.
-appSearch | A search engine is an information retrieval system designed to help find information stored on a computer system.
+appSearch | A custom search engine lets you include a search engine on your website to help your visitors find the information they're looking for.
 appNews | News aggregators are apps that collects content from various sources and presents them in one location for easy viewing.
 appAntivirus | Antivirus software, or anti-virus software, also known as anti-malware, is a computer program used to prevent, detect and remove malware.
 appShopping | These websites or apps are designed to enable customers to browse through a companies products and services on tablet computers and smartphones.
