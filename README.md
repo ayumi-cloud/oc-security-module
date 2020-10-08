@@ -120,7 +120,7 @@ For more detailed information on configuration files and how to use them, please
 
 #### **Limits**
 
-> We have placed a `soft` **limit of 50Mb or less** for the creation of the `.htaccess` file by this module. Developers and webmasters are allowed to go over the limit. This limit is set by the security module when generating the `.htaccess` file under its performance specs.
+> We have placed a `soft` **limit of 50Mb uncompressed or less** for the creation of the `.htaccess` file by this module. Developers and webmasters are allowed to go over the limit. This limit is set by the security module when generating the `.htaccess` file under its performance specs.
 
 #### Default File Creation
 
