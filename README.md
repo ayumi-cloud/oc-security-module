@@ -118,6 +118,10 @@ For more detailed information on configuration files and how to use them, please
 
  * Apache **2.4.10 or greater** (we are looking at adding some version 2.5 features in the near future)
 
+### **Limits**
+
+> We have placed a `soft` **limit of 50Mb or less** for the creation of the `.htaccess` file by this module. Developers and webmasters are allowed to go over the limit. This limit is set by the security module under its performance specs.
+
 #### Microsoft IIS Server 🛠️
 
 The server settings target IIS7+ where replacement config is available for IIS8 (or simplification) it will be marked.
