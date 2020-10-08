@@ -122,6 +122,21 @@ For more detailed information on configuration files and how to use them, please
 
 > We have placed a `soft` **limit of 50Mb or less** for the creation of the `.htaccess` file by this module. Developers and webmasters are allowed to go over the limit. This limit is set by the security module when generating the `.htaccess` file under its performance specs.
 
+#### Default File Creation
+
+The security module builds and creates the `.htaccess` file with the following sections:
+
+- Backward Compatibility
+- Cross Origins
+- Errors
+- Media Types
+- Rewrite Rules
+- Security
+- SSL
+- Web Performance
+
+(*) Disclaimer: Above is a brief list and not intended to be a complete list.
+
 #### Microsoft IIS Server 🛠️
 
 The server settings target IIS7+ where replacement config is available for IIS8 (or simplification) it will be marked.
