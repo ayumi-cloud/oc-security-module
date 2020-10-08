@@ -129,9 +129,12 @@ The security module builds and creates the `.htaccess` file with the following s
 - Backward Compatibility
 - Cross Origins
 - Errors
+- Firewall
+- HTTP Headers
 - Media Types
 - Rewrite Rules
 - Security
+- Spelling
 - SSL
 - Web Performance
 
