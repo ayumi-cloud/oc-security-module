@@ -365,3 +365,8 @@ http://urlregex.com/
 ### Multi-Search Engine Project
 
 https://wutsearch.com/#wutsearch
+
+### List of Fake Bots
+
+https://udger.com/resources/ua-list/bot-detail?bot=Fake+bot
+
