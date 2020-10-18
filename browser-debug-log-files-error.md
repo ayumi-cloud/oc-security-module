@@ -36,3 +36,5 @@ To delete the contents of the **Crashpad** folder, perform the following steps:
 4. Start Chrome again to recreate the contents of the Crashpad folder.
 
 Now that Crashpad has been reset, the debug.log files should no longer be created.
+
+For more info: https://bugs.chromium.org/p/chromium/issues/detail?id=1138853
