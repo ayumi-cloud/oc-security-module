@@ -10,8 +10,6 @@
 
 <p align="center"><strong>The security code is not held in this repo - but held in a private repo (being heavily developed!)</strong></p>
 
-> We recommend you click the `Unwatch` button as your notifications will go off all the time, from all the code updates we are adding everyday!
-
 ---
 
 ## Summer CMS Modules :eyes:
