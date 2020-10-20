@@ -73,6 +73,8 @@ Last Updated: 29th Sep 2020
 
 ## Usage 🔧
 
+[![For Laravel][badge_laravel]][link-github-repo] Laravel `5.x` to `8.x` are supported.
+
 ### Requirements 🚩
 
 This library requires the following:
