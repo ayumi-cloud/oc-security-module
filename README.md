@@ -73,7 +73,7 @@ Last Updated: 29th Sep 2020
 
 ## Usage 🔧
 
-[![For Laravel][badge_laravel]][link-github-repo] Laravel `5.x` to `8.x` are supported.
+<img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/laravel.svg"> Laravel `5.x` to `8.x` are supported.
 
 ### Requirements 🚩
 
