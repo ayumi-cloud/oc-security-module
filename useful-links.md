@@ -370,3 +370,7 @@ https://wutsearch.com/#wutsearch
 
 https://udger.com/resources/ua-list/bot-detail?bot=Fake+bot
 
+### Google Search Console Abusive Notifications Report
+
+https://www.google.com/webmasters/tools/abusive-notifications-unverified
+
