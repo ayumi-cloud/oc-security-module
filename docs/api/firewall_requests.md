@@ -76,7 +76,7 @@ See here: [firewall_browser_types.md](https://github.com/ayumi-cloud/oc-security
 
 See here: [firewall_app_types.md](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_app_types.md)
 
-## Operating System API
+### Operating System API
 
 Value | Description
 ---|---
