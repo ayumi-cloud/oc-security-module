@@ -93,4 +93,4 @@ Value | Description
 engineName | A string containing the name of the rendering engine.
 engineVersion | A string containing information about the version of the rendering engine.
 
-> engineVersion is mad eup of an **object** update api into a **string**
+> `engineVersion` is made up of an **object** update api into a **string**
