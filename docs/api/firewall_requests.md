@@ -84,6 +84,13 @@ osName | A string containing the name of the operating system.
 osVersion | A string containing the original version number of the operating system.
 osFamily | A string containing the family name of the operating system it belongs to.
 
-### x --- Engine / Os / Platforms / Manufacturer etc.
+### Engine API
 
 ===== TO DO =====
+
+Value | Description
+---|---
+engineName | A string containing the name of the rendering engine.
+engineVersion | A string containing information about the version of the rendering engine.
+
+> engineVersion is mad eup of an **object** update api into a **string**
