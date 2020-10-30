@@ -65,16 +65,26 @@ browserInfo | A string that contains the full browser description.
 
 Value | Description
 ---|---
-browserMajor | Major release number
-browserMinor | Minor release number
-browserPatch | Patch release number
-browserBuild | Build release value
+browserMajor | Major release number.
+browserMinor | Minor release number.
+browserPatch | Patch release number.
+browserBuild | Build release value.
 
-#### Browser  and App Types
+#### Browser and App Types
 
 See here: [firewall_browser_types.md](https://github.com/ayumi-cloud/oc-security-module/blob/master/docs/api/firewall_browser_types.md)
 
 See here: [firewall_app_types.md](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_app_types.md)
+
+## Operating System API
+
+Value | Description
+---|---
+osName | A string containing the name of the operating system.
+osFamily | An object that contains information about to which family this operating system belongs.
+osVersion | A string containing the original version number of the operating system.
+osAlias | A string containing an alias for the version number, ie. 'XP' for Windows '5.1'.
+osNickname | A string containing a nickname for the version number, ie. 'Mojave' for OS X '10.14'.
 
 ### x --- Engine / Os / Platforms / Manufacturer etc.
 
