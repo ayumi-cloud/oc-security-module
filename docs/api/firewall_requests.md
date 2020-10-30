@@ -81,7 +81,7 @@ See here: [firewall_app_types.md](https://github.com/ayumi-cloud/oc2-security-mo
 Value | Description
 ---|---
 osName | A string containing the name of the operating system.
-osFamily | A string that contains information about to which family this operating system belongs.
+osFamily | A string containing the family name of the operating system it belongs to.
 osVersion | A string containing the original version number of the operating system.
 osAlias | A string containing an alias for the version number, ie. 'XP' for Windows '5.1'.
 osNickname | A string containing a nickname for the version number, ie. 'Mojave' for OS X '10.14'.
