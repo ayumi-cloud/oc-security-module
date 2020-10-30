@@ -374,3 +374,9 @@ https://udger.com/resources/ua-list/bot-detail?bot=Fake+bot
 
 https://www.google.com/webmasters/tools/abusive-notifications-unverified
 
+### October Help areas
+
+Discord: https://discord.gg/gEKgwSZ
+Forum: https://octobercms.com/forum
+StackOverflow: https://stackoverflow.com/questions/tagged/octobercms
+
