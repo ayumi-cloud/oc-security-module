@@ -1,0 +1,104 @@
+## Firewall Operating Systems
+
+Below is a list of operating systems the firewall can currently detect:
+
+- AIX
+- Aliyun OS
+- AmigaOS
+- Android
+- Antergos Linux
+- Arch Linux
+- AROS
+- Bada
+- Baidu Yi
+- BeOS
+- Black Lab Linux
+- BlackBerry
+- BlackBerry OS
+- BlackBerry Tablet OS
+- Brew
+- Brew MP
+- CentOS
+- Chrome OS
+- COS
+- Darwin
+- Debian
+- DragonFly BSD
+- elementary OS
+- EPOC
+- EWS-UX
+- EZX Linux
+- Fedora
+- FreeBSD
+- GENIX
+- Gentoo
+- GEOS
+- gNewSense
+- Google TV
+- Grid OS
+- Haiku
+- HP-UX
+- Inferno
+- iOS
+- IRIX
+- Joli OS
+- KaiOS
+- Kubuntu
+- LeOS
+- LiMo
+- Lindows
+- Linux
+- Linux Mint
+- Linux SLP
+- Mac OS
+- Maemo
+- Mageia
+- Mandriva
+- MeeGo
+- moonOS
+- MorphOS
+- MRE
+- NetBSD
+- NEWS OS
+- Nokia Asha Platform
+- OpenBSD
+- OpenTV
+- OpenVMS
+- OS X
+- OS/2
+- QNX
+- Qtopia
+- Red Hat
+- Red Star
+- Remix OS
+- REX
+- RISC OS
+- Sailfish
+- Series30+
+- Series40
+- Series60
+- Series80
+- Slackware
+- Solaris
+- SpreadTrum
+- SunOS
+- SUSE
+- Syllable
+- ThreadX
+- Tizen
+- Turbolinux
+- Ubuntu
+- Ubuntu Touch
+- UIQ
+- ULTRIX
+- Unix
+- UNIX System V
+- VRE
+- WebOS
+- Windows
+- Windows CE
+- Windows Mobile
+- Windows Phone
+- WoPhone
+
+(*) More operating systems will be added in the future.
