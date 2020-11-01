@@ -85,4 +85,5 @@ osFullName | A string containing the name of the operating system, for example `
 osVersion | A string containing the original version number of the operating system, for example `Windows 5.1` would be `5.1` - outputting the version number.
 osFullVersion | A string containing the original version number of the operating system, for example `Windows 5.1` would be `XP` - outputting the alias/edition.
 
-===== TO DO =====
+For a full list of supported operating systems see here: [firewall operating systems])https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/Firewall_operating_systems.md)
+
