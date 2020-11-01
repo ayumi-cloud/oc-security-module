@@ -84,15 +84,5 @@ osName | A string containing the name of the operating system, for example `Wind
 osFullName | A string containing the name of the operating system, for example `Windows Mobile` - outputting the name and the alias/edition.
 osVersion | A string containing the original version number of the operating system, for example `Windows 5.1` would be `5.1` - outputting the version number.
 osFullVersion | A string containing the original version number of the operating system, for example `Windows 5.1` would be `XP` - outputting the alias/edition.
-osFamily | A string containing the family name of the operating system it belongs to.
-
-### Engine API
 
 ===== TO DO =====
-
-Value | Description
----|---
-engineName | A string containing the name of the rendering engine.
-engineVersion | A string containing information about the version of the rendering engine.
-
-> `engineVersion` is made up of an **object** update api into a **string**
