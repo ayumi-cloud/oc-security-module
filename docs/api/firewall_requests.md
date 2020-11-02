@@ -2,9 +2,13 @@
 
 ### Device API
 
+To load all the device data use the following:
+
 ```
 $firewall->device
 ```
+
+Individual device api properties:
 
 Value | Description
 ---|---
@@ -52,9 +56,13 @@ deviceHidden | A boolean value saying if the device is trying to hide some of it
 
 ### Browser API
 
+To load all the browser data use the following:
+
 ```
 $firewall->browser
 ```
+
+Individual browser api properties:
 
 Value | Description
 ---|---
@@ -86,9 +94,13 @@ See here: [firewall_app_types.md](https://github.com/ayumi-cloud/oc2-security-mo
 
 ### Operating System API
 
+To load all the operating system data use the following:
+
 ```
 $firewall->os
 ```
+
+Individual operating system api properties:
 
 Value | Description
 ---|---
