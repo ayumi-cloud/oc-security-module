@@ -2,6 +2,10 @@
 
 ### Device API
 
+```
+$firewall->device
+```
+
 Value | Description
 ---|---
 deviceManufacturer | A string containing the manufacturer of the device, ie. 'Apple' or 'Samsung'.
@@ -48,6 +52,10 @@ deviceHidden | A boolean value saying if the device is trying to hide some of it
 
 ### Browser API
 
+```
+$firewall->browser
+```
+
 Value | Description
 ---|---
 browserName | A string containing the name of the browser.
@@ -77,6 +85,10 @@ See here: [firewall_browser_types.md](https://github.com/ayumi-cloud/oc-security
 See here: [firewall_app_types.md](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_app_types.md)
 
 ### Operating System API
+
+```
+$firewall->os
+```
 
 Value | Description
 ---|---
