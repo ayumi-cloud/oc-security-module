@@ -4,7 +4,7 @@
 
 To load all the device data use the following:
 
-```
+```php
 $firewall->device
 ```
 
@@ -58,7 +58,7 @@ deviceHidden | A boolean value saying if the device is trying to hide some of it
 
 To load all the browser data use the following:
 
-```
+```php
 $firewall->browser
 ```
 
@@ -96,7 +96,7 @@ See here: [firewall_app_types.md](https://github.com/ayumi-cloud/oc2-security-mo
 
 To load all the operating system data use the following:
 
-```
+```php
 $firewall->os
 ```
 
