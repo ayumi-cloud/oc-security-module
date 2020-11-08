@@ -382,3 +382,6 @@ Forum: https://octobercms.com/forum
 
 StackOverflow: https://stackoverflow.com/questions/tagged/octobercms
 
+### Phishing spam blocklist
+
+https://phishing.army/download/phishing_army_blocklist_extended.txt
