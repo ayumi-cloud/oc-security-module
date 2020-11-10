@@ -1,6 +1,6 @@
 ## Firewall Language
 
-The following list below uses the ISO 639-1 Code.
+The following list below uses the ISO 639-1 standard.
 
 Code	|	Language
 --|--
