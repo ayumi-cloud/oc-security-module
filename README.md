@@ -175,6 +175,7 @@ The security module in Summer CMS comes with some dedicated API's to help develo
 - [Firewall Country API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_country.md)
 - [Firewall Location API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_location.md)
 - [Firewall Operating Systems API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/Firewall_operating_systems.md)
+- [Firewall Language API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_language.md)
 
 (*) Note: The firewall is built in a modular design and more modules are being coded and tested as time goes on. There will be new api's coming and added to the doc's in the near future. To suggest a firewall module open an issue.
 
