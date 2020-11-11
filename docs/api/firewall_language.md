@@ -34,7 +34,6 @@ bn	|	Bengali
 bs	|	Bosnian
 br	|	Breton
 bg	|	Bulgarian
-bg	|	Bulgarian
 my	|	Burmese
 ca	|	Catalan
 ch	|	Chamorro
