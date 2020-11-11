@@ -23,7 +23,7 @@ ar-sy	|	Arabic (Syria)
 ar-tn	|	Arabic (Tunisia)
 ar-ae	|	Arabic (U.A.E.)
 ar-ye	|	Arabic (Yemen)
-ar	|	Aragonese
+an	|	Aragonese
 hy	|	Armenian
 as	|	Assamese
 ast	|	Asturian
