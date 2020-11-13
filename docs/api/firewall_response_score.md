@@ -15,11 +15,10 @@ Score | Description | Browser Screen | Hash generated
 8 | 403 soft | Yes | No
 9 | 403 hard (repeat attackers) | No | Yes
 10 | 444 (nginx connection closed without response) | No | Yes
-11 | Botnet | No | Yes
 
 Notes:
 
-* 5 Will be a multi-level approach to separate scrapers and people. Repeat attacks will use a higher score, such as 9, 10 or 11.
+* 5 Will be a multi-level approach to separate scrapers and people. Repeat attacks will use a higher score, such as 9 or 10.
 
 * 6 Will be a maintenance web page. 
 
