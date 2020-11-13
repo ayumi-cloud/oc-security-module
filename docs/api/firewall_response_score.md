@@ -4,6 +4,7 @@
 
 Score | Description | Browser Screen | Hash generated
 ---|---|---|---
+0 | 200 (Default) | No | No
 1 | 404 soft | Yes | No
 2 | 410 soft | Yes | No
 3 | 400 soft | Yes | No
