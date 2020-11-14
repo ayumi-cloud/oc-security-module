@@ -4,7 +4,6 @@
 
 Value | Description
 ---|---
-n/a | Default (fallback if module can't determine value).
 badBot | Bad bots to be blacklisted.
 badHosting | Bad bot blocked from a hosting company, real users come from isp's.
 blogSpam | CMS blog comment spam.
