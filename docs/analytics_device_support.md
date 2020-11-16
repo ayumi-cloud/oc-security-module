@@ -2,7 +2,7 @@
 
 The device data is gathered and displayed in the analysis section, for SEO and Tracking purposes for the webmaster.
 
->       ⚠️ THIS IS AN INCOMPLETE LIST AND NEEDS UPDATING LATER - WE NOW DETECT ALOT MORE THAN THE BELOW LIST! ⚠️
+> ⚠️ THIS IS AN INCOMPLETE LIST AND NEEDS UPDATING LATER - WE NOW DETECT ALOT MORE THAN THE BELOW LIST! ⚠️
 
 The lists below are auto generated and updated from time to time. Some of them might not be complete.
 
