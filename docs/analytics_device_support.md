@@ -4,7 +4,7 @@ The device data is gathered and displayed in the analysis section, for SEO and T
 
 > ⚠️ THIS IS AN INCOMPLETE LIST AND NEEDS UPDATING LATER - WE NOW DETECT ALOT MORE THAN THE BELOW LIST! ⚠️
 
-The lists below are auto generated and updated from time to time. Some of them might not be complete.
+The lists below is out of date and needs updating.
 
 *Last update: 2019/10/24*
 
