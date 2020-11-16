@@ -2,9 +2,9 @@
 
 The device data is gathered and displayed in the analysis section, for SEO and Tracking purposes for the webmaster.
 
-> ⚠️ THIS IS AN INCOMPLETE LIST AND NEEDS UPDATING LATER - WE NOW DETECT ALOT MORE THAN THE BELOW LIST! ⚠️
+> ⚠️ THIS IS AN INCOMPLETE LIST AND NEEDS UPDATING - WE NOW DETECT ALOT MORE THAN THE BELOW LIST! ⚠️
 
-The lists below is out of date and needs updating.
+The lists below is out of date and needs updating. For example the firewall module now detects over 600 different browsers!
 
 *Last update: 2019/10/24*
 
