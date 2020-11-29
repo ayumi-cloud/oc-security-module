@@ -2,7 +2,7 @@
 
 Google is slowly rolling out a new feature to Google Chrome 87 that allows you to type commands in the address bar that perform specific browser actions.
 
-This new feature is called 'Chrome Actions' and allows you to type in a command, causing an action to be displayed in the address bar search results. When you select that action, it will be executed in the browser.
+This new feature is called '**Chrome Actions**' and allows you to type in a command, causing an action to be displayed in the address bar search results. When you select that action, it will be executed in the browser.
 
 For example, if you wanted to delete cookies in Chrome, you could type `clear cookies` in the address bar and a search result will appear containing a 'Clear browsing data' action that looks like the  ​button. 
 
