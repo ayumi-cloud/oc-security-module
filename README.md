@@ -246,6 +246,10 @@ Summer CMS uses a lot of modern api's and technoligies, to take full advantage a
 
 For checking browser support with api's and features we recommend using the: [CanIUse website](https://www.caniuse.com/)
 
+### Naming Prefix ✒️
+
+**Summer CMS uses the `sc-` naming prefix to advoid conflicts.**
+
 ### Summer CMS Installer 💎
 
 We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their Summer CMS installation. For example, a user has two choices:
@@ -260,7 +264,7 @@ It's important to let users set the security levels at an early stage and the se
 
 This is a `major` update to how the cms deals with updating plugin and core files, see below for the differences:
 
-#### October v1 😕
+#### October CMS 😕
 
 - When an update gets released it shows a notice in the dashboard (saying there is an update).
 - The user can go into the settings section and do a `manual` update.
@@ -342,10 +346,6 @@ In Summer CMS, to increase performance, form fields are now not loaded until a u
 ### New grid system 🌐
 
 Summer CMS uses a 12-column drag n drop grid system, instead of a two column system. For backwards compatibility `left`, `right` and `auto` are the same size as 6-columns and `full` is the same size as 12-columns. Summer CMS also allows users to `import` and `export` grid files to help speed up developing - the files can be saved into two formats: `.json` or `.csv` depending on your choice.
-
-### Naming Prefix ✒️
-
-**Summer CMS uses the `sc-` naming prefix to advoid conflicts.**
 
 ### User interface 💻
 
