@@ -180,7 +180,7 @@ The security module in Summer CMS comes with some dedicated API's to help develo
 
 (*) Note: The firewall is built in a modular design and more modules are being coded and tested as time goes on. There will be new api's coming and added to the doc's in the near future. To suggest a firewall module open an issue.
 
-## Breaking Changes from October v1 to Summer CMS (update proposal) 😃
+## Breaking Changes from October CMS to Summer CMS (update proposal) 😃
 
 > This repo doesn't contain a full list of updates and changes, the list of changes below relate directly to the security module. For a full list of updated and new features, see the main update proposal module repo that contains all the main core changes!
 
@@ -342,6 +342,10 @@ In Summer CMS, to increase performance, form fields are now not loaded until a u
 ### New grid system 🌐
 
 Summer CMS uses a 12-column drag n drop grid system, instead of a two column system. For backwards compatibility `left`, `right` and `auto` are the same size as 6-columns and `full` is the same size as 12-columns. Summer CMS also allows users to `import` and `export` grid files to help speed up developing - the files can be saved into two formats: `.json` or `.csv` depending on your choice.
+
+### Naming Prefix ✒️
+
+**Summer CMS uses the `sc-` naming prefix to advoid conflicts.**
 
 ### User interface 💻
 
