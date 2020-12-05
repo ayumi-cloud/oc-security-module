@@ -2,7 +2,7 @@
   
 <p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/stars.svg" alt="stars"> <a href="https://travis-ci.org/#"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/travis.svg" alt="Build Status"></a> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/php.svg"> <a href="https://codecov.io/gh/#"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/coverage.svg" alt="Codecov"></a> <a href="https://pullreminders.com?ref=badge"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/pull.svg" alt="Pull Reminders"></a> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/conduct.svg" alt="conduct"> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/docs.svg" alt="docs"></p>
 
-<p align="center"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/banner.jpg"></p>
+<p align="center"><img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/banner.jpg"></p>
 
 <p align="center"><a href="https://paypal.me/#"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/paypal-button.svg"></a></p>
 
@@ -73,7 +73,7 @@ Last Updated: 29th Sep 2020
 
 ## Usage 🔧
 
-<img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/laravel.svg">
+<img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/laravel.svg">
 
 - Laravel `5.x` to `8.x` are supported.
 
@@ -87,7 +87,7 @@ PHP `8.0` is coming around November 2020 and we have plans to update our code ar
 
 - Laravel 6.0 LTS (we currently use the latest LTS versions, due to the community consensus).
 
-<p align="center"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/laravel-history.png"></p>
+<p align="center"><img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/laravel-history.png"></p>
 
 Laravel 7 continues the improvements made in Laravel 6.x by introducing Laravel Airlock. Laravel Airlock provides a featherweight authentication system for SPAs (single page applications), mobile applications, and simple, token based APIs. We recommend the following:
 
@@ -166,17 +166,17 @@ Using the Nginx server settings has a few required steps to be able to work.
 
 The security module in Summer CMS comes with some dedicated API's to help developers, for full details, see the api doc's section: [Summer CMS Firewall API's](https://github.com/ayumi-cloud/oc-security-module/tree/master/docs/api)
 
-- [Firewall APP Types API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_app_types.md)
-- [Firewall Browser Types API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_browser_types.md)
-- [Firewall Requests API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_requests.md)
-- [Firewall Responses API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_responses.md)
-- [Firewall Response Scores API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_response_score.md)
-- [Firewall Social Media API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_social.md)
-- [Firewall Country API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_country.md)
-- [Firewall Location API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_location.md)
-- [Firewall Operating Systems API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/Firewall_operating_systems.md)
-- [Firewall Language API](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_language.md)
-- [Firewall HTTP Status Codes](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/firewall_http_status_codes.md)
+- [Firewall APP Types API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_app_types.md)
+- [Firewall Browser Types API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_browser_types.md)
+- [Firewall Requests API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_requests.md)
+- [Firewall Responses API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_responses.md)
+- [Firewall Response Scores API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_response_score.md)
+- [Firewall Social Media API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_social.md)
+- [Firewall Country API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_country.md)
+- [Firewall Location API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_location.md)
+- [Firewall Operating Systems API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/Firewall_operating_systems.md)
+- [Firewall Language API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_language.md)
+- [Firewall HTTP Status Codes](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_http_status_codes.md)
 
 (*) Note: The firewall is built in a modular design and more modules are being coded and tested as time goes on. There will be new api's coming and added to the doc's in the near future. To suggest a firewall module open an issue.
 
@@ -238,7 +238,7 @@ For a full list of the new governance model for the Summer CMS Project, see here
 
 Summer CMS uses a lot of modern api's and technoligies, to take full advantage and have comprehensive support, we recommend using an evergreen-browser with the cms!
 
-<p align="center"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/ie.png"></p>
+<p align="center"><img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/ie.png"></p>
 
 > IE11 is a legacy browser still being used for operating systems that have a Long-Term Servicing Channel (LTSC) design and will shut down in 2025. Most developers will not be using such operating systems and should be using an evergreen service - for those developers still using old legacy software they carry the risk of security issues! Summer CMS focuses on _Polyfilling evergreen browsers only_ for various api support and features!
 
@@ -334,9 +334,9 @@ _(*) You can add custom icon packs/sets to Summer CMS to use in the main interfa
 
 Added animated icons, with settings to display animation for faster internet speed connections only (to increase performance for lower speed devices) and also have increased support for more animation file types.
 
-<p align="center"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/font-awesome-6.png"></p>
+<p align="center"><img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/font-awesome-6.png"></p>
 
-> Summer CMS default theme uses Font Awesome Pro 5, which will be upgraded to Font Awesome Pro 6 in the near future, see commit (for security module upgrade notes): https://github.com/ayumi-cloud/oc2-security-module/issues/393
+> Summer CMS default theme uses Font Awesome Pro 5, which will be upgraded to Font Awesome Pro 6 in the near future, see commit (for security module upgrade notes): https://github.com/ayumi-cloud/sc-security-module/issues/393
 > Font Awesome Pro 6 allows designers to add custom fonts for their brands - which allows Summer CMS to have an extra customizable layer for designers and devlopers!
 
 ### Loading and saving methods for form fields 💾
@@ -574,7 +574,7 @@ If you face any issue, you can create a new issue in the Issues Tab and we will 
 
 ### Completed Issues 🏆
 
-<p align="center"><img src="https://github.com/ayumi-cloud/oc2-security-module/blob/master/src/assets/images/buttons/issues-300.png"></p>
+<p align="center"><img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/buttons/issues-300.png"></p>
 
 ## Reporting a Vulnerability 💥
 
