@@ -28,7 +28,7 @@
 
 - **CDN Module** - 
 
-- **Layout and Dashboard Module** - 
+- **User Interface (UX) Module** - .................. to do
 
 - **Performance Module** - 
 
