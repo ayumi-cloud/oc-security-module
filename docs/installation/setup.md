@@ -49,11 +49,11 @@
       
    1. Do a search for **'View Advanced System Settings'** and open the application.
 
-   ![image text](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/windows-advanced-settings.jpg)
+      ![image text](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/windows-advanced-settings.jpg)
    
    1. Click the **'Environment Variables...'** button.
    
-   1. Click on the Path row under **'System variables'** and click **'Edit...'**.
+   1. Under **'System variables'** click on the **'Path'** row  and then click on the **'Edit...'** button.
    
    1. Click **'New'** and add the row `C:\PHP7`.
    
