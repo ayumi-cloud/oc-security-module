@@ -55,14 +55,20 @@
    
    1. Under **'System variables'** click on the **'Path'** row  and then click on the **'Edit...'** button.
    
-   1. Click **'New'** and add the row `C:\PHP7`.
+   1. Click on the **'New'** button and add the row `C:\PHP7`.
    
-   1. Click OK, then OK, then OK, and close out of the System Control Panel.
+   1. Click `OK` and close all the **'View Advanced System Settings'** windows.
       
-1. Open [Git for Windows](https://gitforwindows.org/) or another terminal emulator, and type in `php -v` to verify PHP is working.
+   1. Open [Git for Windows](https://gitforwindows.org/) or another terminal emulator, and type in `php -v` to verify PHP is working.
 
-    
-xxxxxxxxxx
+      ```
+      ;extension=pdo_firebird
+      ;extension=pdo_mysql
+      ;extension=pdo_oci
+      ;extension=pdo_odbc
+      ;extension=pdo_pgsql
+      ;extension=pdo_sqlite
+      ```
 
 
 
