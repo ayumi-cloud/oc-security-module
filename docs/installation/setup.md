@@ -151,6 +151,42 @@
 
    ![image text](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/composer-2.png)
 
+## Setup XAMPP
+
+1. Open [XAMPP Downloads](https://www.apachefriends.org/download.html), select the correct version and click on the **'Download (64 bit)'** button, to download an installer file. For Windows that will be `.exe`, for MAC that will be `.dmg` and for Linux that will be `.run`
+
+1. Run the installer and follow the instructions.
+
+## Setup Database
+
+### MySQL on Localhost
+
+1. Open the location: [Localhost phpMyAdmin](http://localhost/phpmyadmin/)
+
+1. Click on `Databases` at the top.
+
+   1. In the `Database name` field add a database name and click on the **'Create'** button.
+   
+1. Click on the `phpMyAdmin` logo or click on this link: [Localhost phpMyAdmin](http://localhost/phpmyadmin/) to return back to the home page.
+
+1. Click on `User accounts` at the top.
+
+   1. Click on `Add user account` under the **New** section.
+   
+   1. Fill in the `User name`, `Password`, `Re-Type` (Re-Type Password) fields.
+   
+   1. Next to the `Global privileges` click on the checkbox to check all the fields.
+   
+   1. Then click on `Go` near the bottom right of the page.
+   
+   1. Click on the `Database` button  and select which database you want to connect the database user. There should be a selectbox with several dataabses listed, you can select more than one if needed.
+   
+   1. Then click on `Go` near the bottom right of the page.
+   
+   1. You may see a screen asking for `Database-specific privileges` click on the checkbox next to it, to select all the options.
+   
+   1. Then click on `Go` near the bottom right of the page and you should see a message saying that you have updated the privileges for your database account.
+
 ## Install Summer CMS (Command Line)
 
 > To be updated when ready to release to public for beta-testing.
