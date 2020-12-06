@@ -134,9 +134,19 @@
       Zend Engine v3.4.0, Copyright (c) Zend Technologies
       ```
 
+## Install Composer 2.x on Windows 10
 
+1. Download the [Windows Installer for Composer](https://getcomposer.org/download/) and run it.
 
+1. Note that the Windows Installer for Composer might ask to make changes to your `php.ini` file. That's okay, allow it and continue through the setup wizard.
 
+1. Close out of any open [Git for Windows](https://gitforwindows.org/) or other terminal windows and then open a new one.
+
+1. Run the `composer` command and verify you get a listing of the Composer help and available commands.
+
+   ![image text](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/composer-2.png)
+
+## Install Summer CMS (Command Line)
 
 
 
