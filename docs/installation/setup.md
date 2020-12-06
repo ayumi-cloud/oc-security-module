@@ -18,7 +18,7 @@
     
    1. Change the following settings in the file and save the file:
 
-      1. Change `memory_limit` from `128M` to `1G` (because PHP Composer can use lots of memory).</li>
+      1. Change `memory_limit` from `128M` to `1G` (because PHP Composer can use lots of memory).
         
       1. Uncomment the line that reads `; extension_dir = "ext"` (remove the `;` so the line is just `extension_dir = "ext"`).
         
@@ -47,9 +47,9 @@
 
 1. Add `C:\PHP7` to your Windows system path:
       
-   1. Open the System Control Panel.
-   
-   1. Click **'Advanced System Settings'**.
+   1. Do a search for **'View Advanced System Settings'** and open the application.
+
+   ![image text](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/windows-advanced-settings.jpg)
    
    1. Click the **'Environment Variables...'** button.
    
