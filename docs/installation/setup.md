@@ -1,6 +1,11 @@
 ## Setup instructions
 
-=== TOC ===
+## Table of contents
+
+- [Install PHP 7 on Windows 10](#install-php-7-on-windows-10)
+- [Install PHP 8 on Windows 10](#install-php-8-on-windows-10)
+- [Install Composer 2.x on Windows 10](#install-composer-2x-on-windows-10)
+- [Install Summer CMS (Command Line)](#install-summer-cms-command-line)
 
 ## Install PHP 7 on Windows 10
 
@@ -148,17 +153,4 @@
 
 ## Install Summer CMS (Command Line)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+> To be updated when ready to release to public for beta-testing.
