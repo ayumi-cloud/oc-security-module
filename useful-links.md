@@ -406,3 +406,7 @@ You only want IE11 to load the polyfill, use this snippet in the head of your ht
 ```
 
 The IE11 market share is steadily decreasing. This project doesn't support IE11.
+
+### Latest Chrome Versions
+
+http://omahaproxy.appspot.com/
