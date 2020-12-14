@@ -410,3 +410,7 @@ The IE11 market share is steadily decreasing. This project doesn't support IE11.
 ### Latest Chrome Versions
 
 http://omahaproxy.appspot.com/
+
+### Chrome official stable release version
+
+https://chromedriver.storage.googleapis.com/LATEST_RELEASE
