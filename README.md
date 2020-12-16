@@ -31,6 +31,24 @@ This project is completely transparent and honest, before we started we contacte
 
 Over years we have coded and created well over a hundred pull requests (under various github accounts) which have been merged to the October version one projects core, we have never asked or recevived any money for any of the pull requests. We use the cms for professional purposes and therefore it is beneficial for our companies to have a professional working solution to give our end-users and clients. In order for us to delivery a high quality product we made the discussion to update the cms as there have been a lot of new api's, frameworks, libraries  and technologies been added to the internet over the years since the initial release of the cms.
 
+## Introduction ⭐
+
+
+=== TO DO ===
+
+
+### Naming Prefix ✒️
+
+**Summer CMS uses the `sc-` naming prefix to advoid conflicts.**
+
+## Requirements 🚩
+
+**A full list of requirements to install Summer CMS, can be found here: [Summer CMS Requirements](https://github.com/ayumi-cloud/sc-main/blob/main/README.md#requirements-).**
+
+## Machine Learning :computer:
+
+This module uses machine learning to help detect security vulnerabilities.
+
 ## Big data 📊
 
 This module uses several Big Data tool sets to analyze large amounts of data collected from various Big Data sources to model various attack methods. Some database sizes are in the petabytes and takes a few hours to run and process some models. These models are then used and tested in our definitions files where we run them in real-time and test them. We also have various non-disclosed test severs running to gather various attacks and add this data into our Big Data models to create either new firewall modules or definition files for the modules. This process helps us to build a more secure security module and helps speed up the build process. We fully rely on using large amounts of data and machine learning tools to process them!
@@ -43,6 +61,17 @@ This module uses several Big Data tool sets to analyze large amounts of data col
 
 If you use this security module for your research, then kindly cite it. Click the above badge for more information regarding the complete citation for this security module and the diffferent citation formats like: IEEE, APA, BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON, MARCXML and Mendeley etc.
 
+## API's :gem:
+
+- Javascript uses **Trusted Types API** to prevent DOM-based cross-site scripting vulnerabilities. Also the **MutationObserver API** to update the machine learning DOM nodes.
+
+
+=== TO DO ===
+
+
+
+
+
 ## Firewall Definition Files 💾
 
 Version: 20200929
@@ -51,9 +80,25 @@ Last Updated: 29th Sep 2020
 
 (*) While the security module is under heavy development, the definition files will be updated periodically and not on a regular basis! When the security module moves in a production ready-mode, the definitions files will be updated on a regular basis every week.
 
-## Requirements 🚩
 
-**A full list of requirements to install Summer CMS, can be found here: [Summer CMS Requirements](https://github.com/ayumi-cloud/sc-main/blob/main/README.md#requirements-).**
+
+
+
+
+### Summer CMS Installer 💎
+
+We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their Summer CMS installation. For example, a user has two choices:
+
+1. Normal security level - current October version one settings (useful for localhost installations).
+
+2. Enhanced security level - October version two settings (useful for live / production websites).
+
+It's important to let users set the security levels at an early stage and the security module needs some basic configuration settings to set up before activation. More complex settings can be added at a later time (after the initial installation).
+
+
+=== TO DO ===
+
+
   
 ## Summer CMS Firewall API 🔥
 
@@ -139,19 +184,7 @@ Summer CMS uses a lot of modern api's and technoligies, to take full advantage a
 
 For checking browser support with api's and features we recommend using the: [CanIUse website](https://www.caniuse.com/)
 
-### Naming Prefix ✒️
 
-**Summer CMS uses the `sc-` naming prefix to advoid conflicts.**
-
-### Summer CMS Installer 💎
-
-We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their Summer CMS installation. For example, a user has two choices:
-
-1. Normal security level - current October version one settings (useful for localhost installations).
-
-2. Enhanced security level - October version two settings (useful for live / production websites).
-
-It's important to let users set the security levels at an early stage and the security module needs some basic configuration settings to set up before activation. More complex settings can be added at a later time (after the initial installation).
 
 ### How the CMS handles core and plugin updates 🔥🔥🔥
 
