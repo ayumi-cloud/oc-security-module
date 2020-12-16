@@ -204,13 +204,13 @@ The security module has been tested in the following browsers:
   </tr>
 </table>
 
-### Notes:
+### Notes
 
 (1) Microsoft announced on 17 August that Edge Legacy will have its life support switched off on 9 March 2021, Summer CMS will support Edge Chromium only.
 
 (2) Internet Explorer version 1-11, Summer CMS will not support due to only supporting `Evergreen` brwosers.
 
-For a full list of browser support with Summer CMS, see here [Browser Support](https://github.com/ayumi-cloud/sc-main/blob/main/docs/browser_support.md).
+For a full list of browser support with Summer CMS, see here: [Browser Support](https://github.com/ayumi-cloud/sc-main/blob/main/docs/browser_support.md).
 
 ## Changelog 🏆
 
