@@ -73,17 +73,15 @@ Last Updated: 29th Sep 2020
 
 ## Requirements 🚩
 
-### PHP 🔧
-
 ![PHP](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/php8.png)
 
 This library has been optimized to work with php 7.4.x and 8.x. versions - we recommend upgrading from any lower php version.
 
-#### PHP 7.4.x Install Instructions
+### PHP 7.4.x Install Instructions
 
 - PHP 7.4.x setup instructsions for Windows 10 found here: https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/installation/setup.md#install-php-7-on-windows-10
 
-#### PHP 8.x Install Instructions
+### PHP 8.x Install Instructions
 
 - [PHP 8.0 UPGRADE NOTES](https://github.com/php/php-src/blob/master/UPGRADING)
 
@@ -91,19 +89,13 @@ This library has been optimized to work with php 7.4.x and 8.x. versions - we re
 
 - PHP 8.x setup instructsions found for Windows 10 here: https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/installation/setup.md#install-php-8-on-windows-10
 
-### Laravel 🔧
-
-![Laravel](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/laravel.svg)
-
-- Laravel `6.x` to `8.x` are supported.
-
 ![laravel-logo](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/laravel.png)
+
+### Laravel LTS
 
 - Laravel 6.0 LTS (we currently use the latest LTS versions, due to the community consensus).
 
 <p align="center"><img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/laravel-history.png"></p>
-
-Laravel 7 continues the improvements made in Laravel 6.x by introducing Laravel Airlock. Laravel Airlock provides a featherweight authentication system for SPAs (single page applications), mobile applications, and simple, token based APIs. We recommend the following:
 
 - Laravel 6.0 LTS to use [Laravel Passport](https://laravel.com/docs/6.x/passport).
 
@@ -111,48 +103,34 @@ Laravel 7 continues the improvements made in Laravel 6.x by introducing Laravel 
 
 - Laravel 8 is Now Released, for full details of new features see here: https://laravel-news.com/laravel8 and https://laravel.com/docs/8.x/releases
 
+## Servers 🔧
 
+### Apache Server 🛠️
 
-
-
-
-
-
-
-
-
-
-==========
-
-
-
-
-- SQLite 3.7.11 or greater (we recommend the latest version of SQLite, which can be found here: [Latest Release](https://www.sqlite.org/index.html)).
-
-#### Enable the following Apache httpd modules 🔧
+#### Enable the following Apache httpd modules
 
 We have a dedicated Apache section for users using `.htaccess` some configurations won't have any effect if the appropriate modules aren't enabled. So, in order for everything to work as intended, you need to ensure the you have the following Apache modules enabled:
 
-* [`mod_autoindex.c` (autoindex_module)](https://httpd.apache.org/docs/current/mod/mod_autoindex.html)
-* [`mod_deflate.c` (deflate_module)](https://httpd.apache.org/docs/current/mod/mod_deflate.html)
-* [`mod_expires.c` (expires_module)](https://httpd.apache.org/docs/current/mod/mod_expires.html)
-* [`mod_filter.c` (filter_module)](https://httpd.apache.org/docs/current/mod/mod_filter.html)
-* [`mod_headers.c` (headers_module)](https://httpd.apache.org/docs/current/mod/mod_headers.html)
-* [`mod_include.c` (include_module)](https://httpd.apache.org/docs/current/mod/mod_include.html)
-* [`mod_mime.c` (mime_module)](https://httpd.apache.org/docs/current/mod/mod_mime.html)
-* [`mod_rewrite.c` (rewrite_module)](https://httpd.apache.org/docs/current/mod/mod_rewrite.html)
-* [`mod_setenvif.c` (setenvif_module)](https://httpd.apache.org/docs/current/mod/mod_setenvif.html)
+- [`mod_autoindex.c` (autoindex_module)](https://httpd.apache.org/docs/current/mod/mod_autoindex.html)
+- [`mod_deflate.c` (deflate_module)](https://httpd.apache.org/docs/current/mod/mod_deflate.html)
+- [`mod_expires.c` (expires_module)](https://httpd.apache.org/docs/current/mod/mod_expires.html)
+- [`mod_filter.c` (filter_module)](https://httpd.apache.org/docs/current/mod/mod_filter.html)
+- [`mod_headers.c` (headers_module)](https://httpd.apache.org/docs/current/mod/mod_headers.html)
+- [`mod_include.c` (include_module)](https://httpd.apache.org/docs/current/mod/mod_include.html)
+- [`mod_mime.c` (mime_module)](https://httpd.apache.org/docs/current/mod/mod_mime.html)
+- [`mod_rewrite.c` (rewrite_module)](https://httpd.apache.org/docs/current/mod/mod_rewrite.html)
+- [`mod_setenvif.c` (setenvif_module)](https://httpd.apache.org/docs/current/mod/mod_setenvif.html)
 
 For more detailed information on configuration files and how to use them, please check the appropriate Apache documentation:
 
-* <https://httpd.apache.org/docs/current/configuring.html>
-* <https://httpd.apache.org/docs/current/howto/htaccess.html>
+- https://httpd.apache.org/docs/current/configuring.html
+- https://httpd.apache.org/docs/current/howto/htaccess.html
 
-##### **Support**
+##### Support
 
  * Apache **2.4.10 or greater** (we are looking at adding some version 2.5 features in the near future)
 
-#### **Limits**
+#### Limits
 
 > We have placed a `soft` **limit of 50Mb uncompressed or less** for the creation of the `.htaccess` file by this module. Developers and webmasters are allowed to go over the limit. This limit is set by the security module when generating the `.htaccess` file under its performance specs.
 
@@ -173,25 +151,40 @@ The security module builds and creates the `.htaccess` file with the following s
 
 (*) Disclaimer: Above is a brief list and not intended to be a complete list.
 
-#### Microsoft IIS Server 🛠️
-
-The server settings target IIS7+ where replacement config is available for IIS8 (or simplification) it will be marked.
-
-##### **Support**
-
- * **IIS7+**
-
-#### Nginx Server 🔨
+### Nginx Server 🛠️
 
 Using the Nginx server settings has a few required steps to be able to work.
 
-* [Nginx Beginners Guide](https://nginx.org/en/docs/beginners_guide.html)
-* [Nginx Request Processing](https://nginx.org/en/docs/http/request_processing.html)
+- [Nginx Beginners Guide](https://nginx.org/en/docs/beginners_guide.html)
+- [Nginx Request Processing](https://nginx.org/en/docs/http/request_processing.html)
 
-##### **Support**
+#### Support
 
- * Nginx v**1.8.0**+
+- Nginx v**1.8.0**+
+
+### Microsoft IIS Server 🛠️
+
+The server settings target IIS7+ where replacement config is available for IIS8 (or simplification) it will be marked.
+
+### Support
+
+- **IIS7+**
+
+## Databases
  
+### MySQL
+
+==== TO DO ===
+ 
+ 
+ 
+ 
+
+
+### SQLite
+
+- SQLite 3.7.11 or greater (we recommend the latest version of SQLite, which can be found here: [Latest Release](https://www.sqlite.org/index.html)).
+  
 ## Summer CMS Firewall API 🔥
 
 The security module in Summer CMS comes with some dedicated API's to help developers, for full details, see the api doc's section: [Summer CMS Firewall API's](https://github.com/ayumi-cloud/oc-security-module/tree/master/docs/api)
