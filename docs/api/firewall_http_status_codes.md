@@ -1,4 +1,4 @@
-## Firewall HTTP Status Codes
+## Firewall HTTP Status Codes API
 
 The api is made up of the general web standards, Microsoft's Internet Information Services (IIS), Nginx web server, Cloudflare, AWS Elastic Load Balancer and Laravel status codes.
 
