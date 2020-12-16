@@ -1,4 +1,4 @@
-# Codename: Summer CMS (our OCMS update proposal) - Security Module
+# Codename: Summer CMS - Security Module
   
 <p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/stars.svg" alt="stars"> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/php.svg"> <a href="https://codecov.io/gh/#"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/coverage.svg" alt="Codecov"></a> <a href="https://pullreminders.com?ref=badge"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/pull.svg" alt="Pull Reminders"></a> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/conduct.svg" alt="conduct"> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/docs.svg" alt="docs"></p>
 
