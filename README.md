@@ -61,6 +61,11 @@ This module uses several Big Data tool sets to analyze large amounts of data col
 
 If you use this security module for your research, then kindly cite it. Click the above badge for more information regarding the complete citation for this security module and the diffferent citation formats like: IEEE, APA, BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON, MARCXML and Mendeley etc.
 
+
+
+
+
+
 ## API's :gem:
 
 - Javascript uses **Trusted Types API** to prevent DOM-based cross-site scripting vulnerabilities. Also the **MutationObserver API** to update the machine learning DOM nodes.
@@ -68,6 +73,60 @@ If you use this security module for your research, then kindly cite it. Click th
 
 === TO DO ===
 
+The security modulen uses the new API's:
+
+### xxx API ⚙️
+
+=== LINK ===
+
+### xxx API ⚙️
+
+=== LINK ===
+
+## Deprecations and removals ⛔
+
+### xxx v4 ⚙️
+
+=== LINK ===
+ 
+
+## Vendor Packages 🧰
+
+- [Guzzle, PHP HTTP client](https://github.com/guzzle/guzzle)
+
+**Installed version**: 7.2.0 or greater.
+
+- [Google APIs Client Library for PHP](https://github.com/googleapis/google-api-php-client)
+
+**Installed version**: 2.7.0 or greater.
+
+## Enhancements ⭐
+
+- The security has been optimized to work a long side modern browsers that support the **back/forward cache** (bfcache) api. To learn more about bfcache, see these resources:
+
+    [Exploring a back/forward cache for Chrome](https://developers.google.com/web/updates/2019/02/back-forward-cache)
+    
+    [Browser Back/Forward Caches and their Benefit to Web Performance](https://dev.to/paulcalvano/browser-back-forward-caches-and-their-benefit-to-web-performance-4f4l)
+
+
+
+
+
+
+
+
+## Installation ❤️
+
+We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their Summer CMS installation. For example, a user has two choices:
+
+1. Normal security level - current October version one settings (useful for localhost installations).
+
+2. Enhanced security level - October version two settings (useful for live / production websites).
+
+It's important to let users set the security levels at an early stage and the security module needs some basic configuration settings to set up before activation. More complex settings can be added at a later time (after the initial installation).
+
+
+=== TO DO ===
 
 
 
@@ -80,23 +139,6 @@ Last Updated: 29th Sep 2020
 
 (*) While the security module is under heavy development, the definition files will be updated periodically and not on a regular basis! When the security module moves in a production ready-mode, the definitions files will be updated on a regular basis every week.
 
-
-
-
-
-
-### Summer CMS Installer 💎
-
-We plan in the coming future to change the installer with several new features. One such feature we intend on implementing is having an option for the user to select the security level of their Summer CMS installation. For example, a user has two choices:
-
-1. Normal security level - current October version one settings (useful for localhost installations).
-
-2. Enhanced security level - October version two settings (useful for live / production websites).
-
-It's important to let users set the security levels at an early stage and the security module needs some basic configuration settings to set up before activation. More complex settings can be added at a later time (after the initial installation).
-
-
-=== TO DO ===
 
 
   
