@@ -124,7 +124,7 @@ The security module in Summer CMS comes with some dedicated API's to help develo
 
 <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/ayumi-cloud/oc-security-module?style=plastic"> <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/ayumi-cloud/oc-security-module">
 
-If you face any issue, you can create a new issue in the Issues Tab and we will be glad to help you out!
+If you face any issue, you can create a new issue in the `Issues` tab and we will be glad to help you out!
 
 ## Troubleshooting 👿
 
