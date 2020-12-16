@@ -46,6 +46,7 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - File Watcher (notifies the webmaster for file changes).
 - Plugin Scanner (check plugins for any security issues and code conflicts).
 - Malware Scanner (checks the cms core code any security issues and code conflicts).
+- Database and CMS Backups (to protect against Ransomware attacks).
 - Summer CMS System Infomation.
 - Production Mode Checks.
 - Firewall Filters.
