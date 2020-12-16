@@ -313,7 +313,7 @@ We also suggest using Cross-browser testing provided by BrowserStack (*) where a
 
 <p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/browser-stack.png"></p>
 
-## Semantic Versioning ✅
+## Semantic Versioning 🎁
 
 The Summer CMS and all modules use: [Semantic Versioning](https://semver.org/).
 
