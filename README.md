@@ -75,7 +75,7 @@ Last Updated: 29th Sep 2020
 
 ### PHP 🔧
 
-![PHP](http://url/to/img.png)
+![PHP](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/php8.png)
 
 This library has been optimized to work with php 7.4.x and 8.x. versions - we recommend upgrading from any lower php version.
 
