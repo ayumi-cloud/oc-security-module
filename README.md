@@ -155,9 +155,76 @@ In order to ensure that the Summer CMS proposal community is welcoming to all, p
 
 Shoutout to people willing to contribute to this project. Please take a look at the [projects board](https://github.com/ayumi-cloud/oc-security-module/projects) for a list of things to be done.
 
-## Contributing ✨
+## Browser Support ✅
 
-<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/builtWith.svg"></p>
+The security module has been tested in the following browsers:
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/chrome_48x48.png" alt="Chrome"><br>
+      ✔
+    </td>
+    <td align="center">
+      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/firefox_48x48.png" alt="Firefox"><br>
+      ✔
+    </td>
+    <td align="center">
+      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/safari_48x48.png" alt="Safari"><br>
+      9+
+    </td>
+    <td align="center">
+      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/edge_old_48x48.png" alt="Edge Legacy"><br>
+      ✖ (1)
+    </td>
+    <td align="center">
+      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/edge_48x48.png" alt="Edge"><br>
+      ✔
+    </td>
+    <td align="center">
+      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/internet-explorer_9-11_48x48.png" alt="Internet Explorer"><br>
+      ✖ (2)
+    </td>
+    <td align="center">
+      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/opera_48x48.png" alt="Opera"><br>
+      ✔
+    </td>
+    <td align="center">
+      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/samsung-internet_48x48.png" alt="Samsung"><br>
+      ✔
+    </td>
+    <td align="center">
+      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/uc_48x48.png" alt="UC"><br>
+      ✔
+    </td>
+    <td align="center">
+      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/vivaldi_48x48.png" alt="Vivaldi"><br>
+      3+
+    </td>
+  </tr>
+</table>
+
+### Notes:
+
+(1) Microsoft announced on 17 August that Edge Legacy will have its life support switched off on 9 March 2021, Summer CMS will support Edge Chromium only.
+
+(2) Internet Explorer version 1-11, Summer CMS will not support due to only supporting `Evergreen` brwosers.
+
+For a full list of browser support with Summer CMS, see here [Browser Support](https://github.com/ayumi-cloud/sc-main/blob/main/docs/browser_support.md).
+
+## Changelog 🏆
+
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+## Contributions, Feature Requests and Feedback ✨
+
+We are actively inviting new contributors! To start, please read the [contribution guide](CONTRIBUTING.md).
+
+This project is only possible thanks to the work of many dedicated volunteers. Everyone is encouraged to help in ways large and small. Here are a few ways you can help:
+
+- Read the current content and help us fix any spelling mistakes or grammatical errors.
+- Choose an existing [issue](https://github.com/ayumi-cloud/sc-security-module/issues) on GitHub and submit a pull request to fix it.
+- Open a new issue to report an opportunity for improvement.
 
 If you find any bugs in the code or have any improvements in mind then feel free to generate a pull request.
 
