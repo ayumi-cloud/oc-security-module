@@ -71,23 +71,33 @@ Last Updated: 29th Sep 2020
 
 (*) While the security module is under heavy development, the definition files will be updated periodically and not on a regular basis! When the security module moves in a production ready-mode, the definitions files will be updated on a regular basis every week.
 
-## Usage 🔧
+## Requirements 🚩
 
-<img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/laravel.svg">
+### PHP 🔧
 
-- Laravel `5.x` to `8.x` are supported.
+![PHP](http://url/to/img.png)
 
-### Requirements 🚩
+This library has been optimized to work with php 7.4.x and 8.x. versions - we recommend upgrading from any lower php version.
 
-This library requires the following:
+#### PHP 7.4.x Install Instructions
 
-- PHP `7.3` or greater (in the near future we hope to increase this to php 7.4 or 8.0). PHP `7.3+` allows `SameSite` Cookie protection.
+- PHP 7.4.x setup instructsions for Windows 10 found here: https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/installation/setup.md#install-php-7-on-windows-10
 
-> PHP 7.4.x setup instructsions for Windows 10 found here: https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/installation/setup.md#install-php-7-on-windows-10
+#### PHP 8.x Install Instructions
 
-PHP `8.0` is coming around November 2020 and we have plans to update our code around the end of this year. PHP is currently releasing **major** updates every two years! Therefore we plan to update and review the code every two years periodically. For update instructions please see here: [PHP 8.0 UPGRADE NOTES](https://github.com/php/php-src/blob/master/UPGRADING#L20)
+- [PHP 8.0 UPGRADE NOTES](https://github.com/php/php-src/blob/master/UPGRADING)
 
-> PHP 8.x setup instructsions found for Windows 10 here: https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/installation/setup.md#install-php-8-on-windows-10
+- [Migrating from PHP 7.4.x to PHP 8.0.x](https://www.php.net/manual/en/migration80.php)
+
+- PHP 8.x setup instructsions found for Windows 10 here: https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/installation/setup.md#install-php-8-on-windows-10
+
+### Laravel 🔧
+
+![Laravel](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/laravel.svg)
+
+- Laravel `6.x` to `8.x` are supported.
+
+![laravel-logo](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/laravel.png)
 
 - Laravel 6.0 LTS (we currently use the latest LTS versions, due to the community consensus).
 
@@ -100,6 +110,22 @@ Laravel 7 continues the improvements made in Laravel 6.x by introducing Laravel 
 - Laravel 7 to use [Laravel Airlock](https://laravel.com/docs/master/airlock). To learn more you can watch this video: [Laravel Airlock with Vue for SPA Auth](https://www.youtube.com/watch?v=D9oIu6jiYLk).
 
 - Laravel 8 is Now Released, for full details of new features see here: https://laravel-news.com/laravel8 and https://laravel.com/docs/8.x/releases
+
+
+
+
+
+
+
+
+
+
+
+
+==========
+
+
+
 
 - SQLite 3.7.11 or greater (we recommend the latest version of SQLite, which can be found here: [Latest Release](https://www.sqlite.org/index.html)).
 
