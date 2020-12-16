@@ -130,8 +130,7 @@ If you face any issue, you can create a new issue in the Issues Tab and we will 
 
 We strive to make the code accessible to a wide audience of beginner and experienced users.
 
-We welcome bug reports, false positive alert reports, evasions, usability issues, and suggestions for new detections.
-Submit these types of non-vulnerability related issues via Github.
+We welcome bug reports, false positive alert reports, evasions, usability issues, and suggestions for new detections. Submit these types of non-vulnerability related issues via Github.
 
 Please include your installed version and the relevant portions of your audit log.
 
@@ -139,7 +138,7 @@ False negative or common bypasses should [create an issue](https://github.com/ay
 
 Do this before submitting a vulnerability:
 
-1) Verify that you have the latest version of October CMS II.
+1) Verify that you have the latest version of Summer CMS.
 2) Validate which Paranoia Level this bypass applies to. If it works in PL4, please send us an email.
 3) If you detected anything that causes unexpected behavior of the engine via manipulation of existing provided rules, please send it by email.
 
