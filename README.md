@@ -31,11 +31,25 @@ This project is completely transparent and honest, before we started we contacte
 
 Over years we have coded and created well over a hundred pull requests (under various github accounts) which have been merged to the October version one projects core, we have never asked or recevived any money for any of the pull requests. We use the cms for professional purposes and therefore it is beneficial for our companies to have a professional working solution to give our end-users and clients. In order for us to delivery a high quality product we made the discussion to update the cms as there have been a lot of new api's, frameworks, libraries  and technologies been added to the internet over the years since the initial release of the cms.
 
-## Introduction ⭐
-
-
 === TO DO ===
 
+
+## Introduction ⭐
+
+The main purpose of the security module is to harden the Summer CMS against a variety of attack vectors. The security module can be broken into the various parts:
+
+- Real-time Server Security Protection.
+- Real-time Frontend Firewall (with full dashboards to view all the data).
+- Real-time Backtend Firewall (with full dashboards to view all the data).
+- Firewall Analytics (displays all the incoming data from the frontend firewall).
+- Firewall Custom API's (see: [Summer CMS Firewall API](https://github.com/ayumi-cloud/sc-security-module#summer-cms-firewall-api-) for more details).
+- File Watcher (notifies the webmaster for file changes).
+- Plugin Scanner (check plugins for any security issues and code conflicts).
+- Malware Scanner (checks the cms core code any security issues and code conflicts).
+- Summer CMS System Infomation.
+- Production Mode Checks.
+- Firewall Filters.
+- Many Security Tools (Too many to mention).
 
 ### Naming Prefix ✒️
 
