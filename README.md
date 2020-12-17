@@ -15,7 +15,7 @@ This repo is to gather security enhancement ideas and to monitor progress. Feel 
 
 **Note: (*) This is the security module, see here for the full list of [Summer CMS Modules](https://github.com/ayumi-cloud/sc-main/blob/main/README.md#summer-cms-modules-).**
 
-## Table of contents
+## Table of Contents 📑
 
 - [Transparency](#transparency-)
 
