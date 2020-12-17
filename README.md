@@ -304,6 +304,32 @@ We also suggest using Cross-browser testing provided by BrowserStack (*) where a
 
 <p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/browser-stack.png"></p>
 
+## PHP Coding Standards Fixer ⭕
+
+The PHP Coding Standards Fixer (PHP CS Fixer) tool fixes your code to follow standards; whether you want to follow PHP coding standards as defined in the PSR-1, PSR-2, etc., or other community driven ones like the Symfony one.
+
+### Installation 🔹
+
+The recommended way to install PHP CS Fixer is to use [Composer](https://getcomposer.org/download/) in a dedicated `composer.json` file in your project, for example in the
+`tools/php-cs-fixer` directory:
+
+```console
+$ mkdir --parents tools/php-cs-fixer
+$ composer require --working-dir=tools/php-cs-fixer friendsofphp/php-cs-fixer
+```
+
+For more details and other installation methods, see: [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer).
+
+### Usage 🔸
+
+Assuming you installed PHP CS Fixer as instructed above, you can run the following command to fix the files PHP files in the `src` directory:
+
+```console
+$ tools/php-cs-fixer/vendor/bin/php-cs-fixer fix src
+```
+
+(*) Change the above command to the correct folder location.
+
 ## Semantic Versioning 🎁
 
 The Summer CMS and all modules use: [Semantic Versioning](https://semver.org/).
