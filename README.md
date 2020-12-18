@@ -87,32 +87,36 @@ If you use this security module for your research, then kindly cite it. Click th
 
 === TO DO ===
 
-The security modulen uses the new API's:
+Below are some of the API's the security modules uses (this is not a complete list):
 
-### xxx API ⚙️
+- [Trusted Types](https://w3c.github.io/webappsec-trusted-types/dist/spec/)
+- [MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
+- [Intersection Observer](https://www.w3.org/TR/intersection-observer/)
+- [Accessible Rich Internet Applications WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/)
+- [Native Lazy loading](https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading)
+- [Content Security Policy Level 3](https://www.w3.org/TR/CSP3/)
+- [Transparency and Consent Framework (TCF) v2.0](https://iabeurope.eu/tcf-2-0/)
+- [GDPR Spec](https://gdpr-info.eu/)
+- [ePrivacy Spec](https://edpb.europa.eu/our-work-tools/our-documents/topic/e-privacy-regulation_en)
+- [California Consumer Privacy Act Spec](https://oag.ca.gov/privacy/ccpa)
 
-=== LINK ===
-
-### xxx API ⚙️
-
-=== LINK ===
 
 ## Deprecations and removals ⛔
 
-### xxx v4 ⚙️
+- [Content Security Policy Level 1](https://www.w3.org/TR/CSP1/)
+- [Content Security Policy Level 2](https://www.w3.org/TR/CSP2/)
 
-=== LINK ===
- 
+The legal module has been optimized to work with CSP 3 and allow backwards compatibility with browsers supporting older CSP versions.
 
 ## Vendor Packages 🧰
 
-- [Guzzle, PHP HTTP client](https://github.com/guzzle/guzzle)
+- [Laravel Framework](https://github.com/laravel/framework)
 
-**Installed version**: 7.2.0 or greater.
+**Installed version**: 6.0 or greater (Summer CMS uses latest LTS version).
 
-- [Google APIs Client Library for PHP](https://github.com/googleapis/google-api-php-client)
+- [HTMLPurifier for Laravel](https://github.com/mewebstudio/Purifier)
 
-**Installed version**: 2.7.0 or greater.
+**Installed version**: 3.0 or greater.
 
 ## Enhancements ⭐
 
