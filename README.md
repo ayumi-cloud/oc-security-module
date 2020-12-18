@@ -75,17 +75,7 @@ This module uses several Big Data tool sets to analyze large amounts of data col
 
 If you use this security module for your research, then kindly cite it. Click the above badge for more information regarding the complete citation for this security module and the diffferent citation formats like: IEEE, APA, BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON, MARCXML and Mendeley etc.
 
-
-
-
-
-
 ## API's :gem:
-
-- Javascript uses **Trusted Types API** to prevent DOM-based cross-site scripting vulnerabilities. Also the **MutationObserver API** to update the machine learning DOM nodes.
-
-
-=== TO DO ===
 
 Below are some of the API's the security modules uses (this is not a complete list):
 
@@ -97,18 +87,12 @@ Below are some of the API's the security modules uses (this is not a complete li
 - [Content Security Policy Level 3](https://www.w3.org/TR/CSP3/)
 - [Content-Security-Policy-Report-Only](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy-Report-Only)
 - [CSP: report-to](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-to)
-- []
-
-
-
+- [CSP: trusted-types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/trusted-types)
 - [Reporting API](https://w3c.github.io/reporting/)
 - [Network Error Logging](https://www.w3.org/TR/network-error-logging-1/)
 - [Feature/Permissions Policy](https://w3c.github.io/webappsec-permissions-policy/)
 - [Fetch](https://fetch.spec.whatwg.org/)
 - [Timing-Allow-Origin/Resource Timing Level 2](https://www.w3.org/TR/resource-timing-2/)
-
-
-
 - [Same Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy)
 - [Cross-Origin-Opener-Policy 'COOP'](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy)
 - [Cross-Origin-Resource-Policy 'CORP'](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy)
@@ -123,11 +107,14 @@ Below are some of the API's the security modules uses (this is not a complete li
 - [Referrer Policy](https://www.w3.org/TR/referrer-policy/)
 - [Security.txt](https://tools.ietf.org/html/draft-foudil-securitytxt-10)
 - [Subresource Integrity 'SRI'](https://www.w3.org/TR/SRI/)
-
 - [HTTP X-Content-Type-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options)
 - [HTTP X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)
+- [X-Permitted-Cross-Domain-Policies](https://owasp.org/www-project-secure-headers/)
+- [X-XSS-Protection](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection)
 - [User-Agent Client Hints](https://wicg.github.io/ua-client-hints/)
 - [SameSite](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite)
+- [HttpOnly](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+- [Secure](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 - [Clear Site Data](https://www.w3.org/TR/clear-site-data/)
 - [Accept-CH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-CH)
 - [Accept-CH Lifetime](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-CH-Lifetime)
@@ -150,35 +137,8 @@ Below are some of the API's the security modules uses (this is not a complete li
 - [Last-Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Last-Modified)
 - [Save-Data](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Save-Data)
 - [User-Agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent)
-
-
-
-
-
-- [Cross-Site Script Inclusion 'XSSI'](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/13-Testing_for_Cross_Site_Script_Inclusion.html)
-- [Cross-Site Request Forgery 'CSRF'](https://owasp.org/www-community/attacks/csrf)
-- [Cross Site Scripting 'XSS'](https://owasp.org/www-community/attacks/xss/)
-- [Session Hijacking](https://developer.mozilla.org/en-US/docs/Glossary/Session_hijacking)
-- [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
-- [x]()
-- [x]()
-- [x]()
-- [x]()
-- [x]()
-- [x]()
-- [x]()
-- [x]()
-- [x]()
-- [x]()
-- [x]()
-- [x]()
-
-
-
-
-
-
-
+- [Vary](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary)
+- [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag)
 
 ## Deprecations and removals ⛔
 
@@ -203,11 +163,51 @@ Switched over from using `report-uri` to using both `report-uri` and `report-to`
 
 **Installed version**: 3.0 or greater.
 
+- Summer CMS Parser
+
+**Installed version**: 3.0 or greater.
+
+=== TO DO ===
+
+
+
+
+
+
 ## Enhancements ⭐
 
 - The security has been optimized to work a long side modern browsers that support the **back/forward cache** (bfcache) api. To learn more about bfcache, see these resources:
 
     [Exploring a back/forward cache for Chrome](https://developers.google.com/web/updates/2019/02/back-forward-cache)
+
+
+
+
+## Tested on these attacks 🛡️
+
+
+=== TO DO ===
+
+
+
+- [Cross-Site Script Inclusion 'XSSI'](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/13-Testing_for_Cross_Site_Script_Inclusion.html)
+- [Cross-Site Request Forgery 'CSRF'](https://owasp.org/www-community/attacks/csrf)
+- [Cross Site Scripting 'XSS'](https://owasp.org/www-community/attacks/xss/)
+- [Session Hijacking](https://developer.mozilla.org/en-US/docs/Glossary/Session_hijacking)
+- [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+
 
 
 
