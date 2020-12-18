@@ -95,10 +95,89 @@ Below are some of the API's the security modules uses (this is not a complete li
 - [Accessible Rich Internet Applications WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/)
 - [Native Lazy loading](https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading)
 - [Content Security Policy Level 3](https://www.w3.org/TR/CSP3/)
-- [Transparency and Consent Framework (TCF) v2.0](https://iabeurope.eu/tcf-2-0/)
-- [GDPR Spec](https://gdpr-info.eu/)
-- [ePrivacy Spec](https://edpb.europa.eu/our-work-tools/our-documents/topic/e-privacy-regulation_en)
-- [California Consumer Privacy Act Spec](https://oag.ca.gov/privacy/ccpa)
+- [Content-Security-Policy-Report-Only](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy-Report-Only)
+- [CSP: report-to](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-to)
+- []
+
+
+
+- [Reporting API](https://w3c.github.io/reporting/)
+- [Network Error Logging](https://www.w3.org/TR/network-error-logging-1/)
+- [Feature/Permissions Policy](https://w3c.github.io/webappsec-permissions-policy/)
+- [Fetch](https://fetch.spec.whatwg.org/)
+- [Timing-Allow-Origin/Resource Timing Level 2](https://www.w3.org/TR/resource-timing-2/)
+
+
+
+- [Same Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy)
+- [Cross-Origin-Opener-Policy 'COOP'](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy)
+- [Cross-Origin-Resource-Policy 'CORP'](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy)
+- [Cross-Origin-Embedder-Policy 'COEP'](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy)
+- [Cross-Origin Resource Sharing 'CORS'](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+- [Fetch Metadata Request Headers](https://w3c.github.io/webappsec-fetch-metadata/)
+- [Mixed Content Level 2](https://w3c.github.io/webappsec-mixed-content/)
+- [HTTPS 'HyperText Transfer Protocol Secure'](https://developers.google.com/search/docs/advanced/security/https)
+- [Transport layer security 'TLS'](https://developer.mozilla.org/en-US/docs/Web/Security/Transport_Layer_Security)
+- [HTTP Strict Transport Security 'HSTS'](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
+- [Secure Contexts](https://www.w3.org/TR/secure-contexts/)
+- [Referrer Policy](https://www.w3.org/TR/referrer-policy/)
+- [Security.txt](https://tools.ietf.org/html/draft-foudil-securitytxt-10)
+- [Subresource Integrity 'SRI'](https://www.w3.org/TR/SRI/)
+
+- [HTTP X-Content-Type-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options)
+- [HTTP X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)
+- [User-Agent Client Hints](https://wicg.github.io/ua-client-hints/)
+- [SameSite](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite)
+- [Clear Site Data](https://www.w3.org/TR/clear-site-data/)
+- [Accept-CH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-CH)
+- [Accept-CH Lifetime](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-CH-Lifetime)
+- [Accept-Charset](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Charset)
+- [Accept-Language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
+- [Access-Control-Allow-Credentials](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Credentials)
+- [Access-Control-Allow-Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Headers)
+- [Access-Control-Allow-Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Methods)
+- [Access-Control-Allow-Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)
+- [Alt-Svc](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Alt-Svc)
+- [Cache-Control](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+- [Device-Memory](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Device-Memory)
+- [DNT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/DNT)
+- [DPR](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/DPR)
+- [Expect-CT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT)
+- [Content-Encoding](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding)
+- [GNU Gzip](https://www.gnu.org/software/gzip/)
+- [Brotli](https://github.com/google/brotli)
+- [Expires](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires)
+- [Last-Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Last-Modified)
+- [Save-Data](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Save-Data)
+- [User-Agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent)
+
+
+
+
+
+- [Cross-Site Script Inclusion 'XSSI'](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/13-Testing_for_Cross_Site_Script_Inclusion.html)
+- [Cross-Site Request Forgery 'CSRF'](https://owasp.org/www-community/attacks/csrf)
+- [Cross Site Scripting 'XSS'](https://owasp.org/www-community/attacks/xss/)
+- [Session Hijacking](https://developer.mozilla.org/en-US/docs/Glossary/Session_hijacking)
+- [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+- [x]()
+
+
+
+
+
+
 
 
 ## Deprecations and removals ⛔
@@ -107,6 +186,12 @@ Below are some of the API's the security modules uses (this is not a complete li
 - [Content Security Policy Level 2](https://www.w3.org/TR/CSP2/)
 
 The legal module has been optimized to work with CSP 3 and allow backwards compatibility with browsers supporting older CSP versions.
+
+- [HTTP Public Key Pinning 'HPKP'](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Public-Key-Pins)
+
+- [CSP: report-uri](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-uri)
+
+Switched over from using `report-uri` to using both `report-uri` and `report-to`.
 
 ## Vendor Packages 🧰
 
