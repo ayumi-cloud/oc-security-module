@@ -149,6 +149,8 @@ The legal module has been optimized to work with CSP 3 and allow backwards compa
 
 - [HTTP Public Key Pinning 'HPKP'](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Public-Key-Pins)
 
+With support now gone in the last remaining browser, HPKP has been consigned to the scrap heap.
+
 - [CSP: report-uri](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-uri)
 
 Switched over from using `report-uri` to using both `report-uri` and `report-to`.
