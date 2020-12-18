@@ -173,16 +173,9 @@ Switched over from using `report-uri` to using both `report-uri` and `report-to`
 
 **Installed version**: 2.0 or greater.
 
+- [GeoIP2 PHP API](https://github.com/maxmind/GeoIP2-php)
 
-=== TO DO ===
-
-
-
-
-
-
-
-
+**Installed version**: 2.0 or greater.
 
 ## Enhancements ⭐
 
