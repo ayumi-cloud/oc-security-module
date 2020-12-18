@@ -414,6 +414,8 @@ Patches and pull requests are encouraged. All code should follow the [PSR-1](htt
 
 ### Testers 😺
 
+Get the `composer.json` file from the admins and install.
+
 ### With testing 🔺
 
 ```
