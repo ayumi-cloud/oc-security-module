@@ -7,7 +7,7 @@
 
 ## Summer CMS Modules :eyes:
 
-**Note: (*) This is the security module, see here for the full list of [Summer CMS Modules](https://github.com/ayumi-cloud/sc-main/blob/main/README.md#summer-cms-modules-).**
+**Note: This is the security module for Summer CMS, see here for the full list of [Summer CMS Modules](https://github.com/ayumi-cloud/sc-main/blob/main/README.md#summer-cms-modules-).**
 
 ## Table of Contents 📑
 
