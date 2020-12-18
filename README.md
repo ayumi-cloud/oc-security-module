@@ -12,12 +12,50 @@
 ## Table of Contents 📑
 
 - [Transparency](#transparency-)
-
-
-
-
-
-
+- [Introduction](#introduction-)
+- [Naming Prefix](#naming-prefix-%EF%B8%8F)
+- [Requirements](#requirements-)
+- [Machine Learning](#machine-learning-computer)
+- [Big data](#big-data-)
+- [Citation](#citation-)
+- [API's](#apis-gem)
+- [Deprecations and removals](#deprecations-and-removals-)
+- [Vendor Packages](#vendor-packages-)
+- [Enhancements](#enhancements-)
+- [Tested on these attacks](#tested-on-these-attacks-%EF%B8%8F)
+- [Installation](#installation-%EF%B8%8F)
+- [Firewall Definition Files](#firewall-definition-files-)
+- [Summer CMS Firewall API's](#summer-cms-firewall-apis-)
+- [Issues](#issues-)
+- [Troubleshooting](#troubleshooting-)
+    - [Something](#something-)
+- [Reporting a Vulnerability](#reporting-a-vulnerability-)
+- [Code of Conduct](#code-of-conduct-)
+- [For Future](#for-future-)
+- [Browser Support](#browser-support-)
+    - [Notes](#notes)
+- [Changelog](#changelog-)
+- [Contributions, Feature Requests and Feedback](#contributions-feature-requests-and-feedback-)
+    - [Testers](#testers-)
+        - [With testing](#with-testing-)
+        - [Without testing](#without-testing-)
+- [Firewall caching system](#firewall-caching-system-)
+- [PSR](#psr-%EF%B8%8F)
+- [PHP Coding Standards Fixer](#php-coding-standards-fixer-)
+    - [Installation](#installation-)
+    - [Usage](#usage-)
+- [Semantic Versioning](#semantic-versioning-)
+- [Security Module Penetration Testing Method](#security-module-penetration-testing-method-)
+    - [Information Gathering](#information-gathering-)
+    - [Configuration Management Testing](#configuration-management-testing-)
+    - [Authentication Testing](#authentication-testing-)
+    - [Session Management Testing](#session-management-testing-)
+    - [Authorization Testing](#authorization-testing-)
+    - [Data Validation Testing](#data-validation-testing-)
+    - [Testing for Denial of Service](#testing-for-denial-of-service-)
+    - [Web Services Testing](#web-services-testing-)
+    - [AJAX Testing](#ajax-testing-)
+- [Copyright and License](#copyright-and-license-) 
 
 ## Transparency 📢
 
@@ -43,7 +81,7 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - Firewall Filters.
 - Many Security Tools (too many to mention).
 
-### Naming Prefix ✒️
+## Naming Prefix ✒️
 
 **Summer CMS uses the `sc-` naming prefix to advoid conflicts.**
 
