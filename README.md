@@ -673,6 +673,6 @@ We use the following standards set by the Open Web Application Security Project 
 
 This is free software, licensed under the MIT, Open Source Initiative.
 
-[⬆ back to top](#table-of-contents)
+[⬆ back to top](#table-of-contents-)
 
 <p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/luv.png"></p>
