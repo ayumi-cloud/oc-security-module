@@ -55,9 +55,9 @@ The main purpose of the security module is to harden the Summer CMS against a va
 
 ## Requirements 🚩
 
-**A full list of requirements to install Summer CMS, can be found here: [Summer CMS Requirements](https://github.com/ayumi-cloud/sc-main/blob/main/README.md#requirements-).**
+This module has been optimized to work with php `7.4.x` and `8.x` versions - we recommend upgrading from any lower php version.
 
-=== TO DO ===
+**A full list of requirements to install Summer CMS, can be found here: [Summer CMS Requirements](https://github.com/ayumi-cloud/sc-main/blob/main/README.md#requirements-).**
 
 ## Machine Learning :computer:
 
@@ -168,6 +168,11 @@ Switched over from using `report-uri` to using both `report-uri` and `report-to`
 - [Summer CMS Parser-Laravel](https://github.com/ayumi-cloud/sc-parser-module)
 
 **Installed version**: 3.0 or greater.
+
+- [MySQLDump - PHP](https://github.com/ifsnop/mysqldump-php)
+
+**Installed version**: 2.0 or greater.
+
 
 === TO DO ===
 
