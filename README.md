@@ -165,7 +165,7 @@ Switched over from using `report-uri` to using both `report-uri` and `report-to`
 
 **Installed version**: 3.0 or greater.
 
-- **Summer CMS Parser**
+- [Summer CMS Parser-Laravel](https://github.com/ayumi-cloud/sc-parser-module)
 
 **Installed version**: 3.0 or greater.
 
