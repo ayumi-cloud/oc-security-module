@@ -211,7 +211,7 @@ Switched over from using `report-uri` to using both `report-uri` and `report-to`
 - [Cross Frame Scripting](https://owasp.org/www-community/attacks/Cross_Frame_Scripting)
 - [Cross Site History Manipulation (XSHM)](https://owasp.org/www-community/attacks/Cross_Site_History_Manipulation_(XSHM))
 - [Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)
-- [Cross-Site Script Inclusion 'XSSI'](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/13-Testing_for_Cross_Site_Script_Inclusion.html)
+- [Cross-Site Script Inclusion (XSSI)](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/13-Testing_for_Cross_Site_Script_Inclusion.html)
 - [Cross Site Tracing](https://owasp.org/www-community/attacks/Cross_Site_Tracing)
 - [Cryptanalysiss](https://owasp.org/www-community/attacks/Cryptanalysis)
 - [Custom Special Character Injection](https://owasp.org/www-community/attacks/Custom_Special_Character_Injection)
