@@ -203,24 +203,24 @@ Switched over from using `report-uri` to using both `report-uri` and `report-to`
 - [Command Injection](https://owasp.org/www-community/attacks/Command_Injection)
 - [Comment Injection Attack](https://owasp.org/www-community/attacks/Comment_Injection_Attack)
 - [Content Security Policy](https://owasp.org/www-community/attacks/Content_Security_Policy)
-- [Content Spoofing](https://owasp.org/www-community/attacks/Content_Spoofing) by Andrew Smith
-- [Cornucopia - Ecommerce Website Edition - Wiki Deck](https://owasp.org/www-community/attacks/Cornucopia_-_Ecommerce_Website_Edition_-_Wiki_Deck) by Darío De Filippis
+- [Content Spoofing](https://owasp.org/www-community/attacks/Content_Spoofing)
+- [Cornucopia - Ecommerce Website Edition - Wiki Deck](https://owasp.org/www-community/attacks/Cornucopia_-_Ecommerce_Website_Edition_-_Wiki_Deck)
 - [Credential stuffing](https://owasp.org/www-community/attacks/Credential_stuffing)
 - [Cross-User Defacement](https://owasp.org/www-community/attacks/Cross-User_Defacement)
-- [Cross Site Scripting (XSS)](https://owasp.org/www-community/attacks/xss/) by KirstenS
+- [Cross Site Scripting (XSS)](https://owasp.org/www-community/attacks/xss/)
 - [Cross Frame Scripting](https://owasp.org/www-community/attacks/Cross_Frame_Scripting)
 - [Cross Site History Manipulation (XSHM)](https://owasp.org/www-community/attacks/Cross_Site_History_Manipulation_(XSHM))
-- [Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf) by KirstenS
+- [Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)
 - [Cross-Site Script Inclusion 'XSSI'](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/13-Testing_for_Cross_Site_Script_Inclusion.html)
 - [Cross Site Tracing](https://owasp.org/www-community/attacks/Cross_Site_Tracing)
 - [Cryptanalysiss](https://owasp.org/www-community/attacks/Cryptanalysis)
 - [Custom Special Character Injection](https://owasp.org/www-community/attacks/Custom_Special_Character_Injection)
 - [Denial of Service](https://owasp.org/www-community/attacks/Denial_of_Service)
 - [Direct Dynamic Code Evaluation - Eval Injection](https://owasp.org/www-community/attacks/Direct_Dynamic_Code_Evaluation_Eval%20Injection)
-- [Embedding Null Code](https://owasp.org/www-community/attacks/Embedding_Null_Code) by Nsrav
-- [Execution After Redirect (EAR)](https://owasp.org/www-community/attacks/Execution_After_Redirect_(EAR)) by Robert Gilbert (amroot)
+- [Embedding Null Code](https://owasp.org/www-community/attacks/Embedding_Null_Code)
+- [Execution After Redirect (EAR)](https://owasp.org/www-community/attacks/Execution_After_Redirect_(EAR))
 - [Forced browsing](https://owasp.org/www-community/attacks/Forced_browsing)
-- [Form action hijacking](https://owasp.org/www-community/attacks/Form_action_hijacking) by Robert Gilbert (amroot)
+- [Form action hijacking](https://owasp.org/www-community/attacks/Form_action_hijacking)
 - [Format string attack](https://owasp.org/www-community/attacks/Format_string_attack)
 - [Full Path Disclosure](https://owasp.org/www-community/attacks/Full_Path_Disclosure)
 - [Function Injection](https://owasp.org/www-community/attacks/Function_Injection)
@@ -237,12 +237,12 @@ Switched over from using `report-uri` to using both `report-uri` and `report-to`
 - [Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal)
 - [Qrljacking](https://owasp.org/www-community/attacks/Qrljacking)
 - [Reflected DOM Injection](https://owasp.org/www-community/attacks/Reflected_DOM_Injection)
-- [Regular expression Denial of Service - ReDoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS) by Adar Weidman
+- [Regular expression Denial of Service - ReDoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS)
 - [Repudiation Attack](https://owasp.org/www-community/attacks/Repudiation_Attack)
 - [Resource Injection](https://owasp.org/www-community/attacks/Resource_Injection)
 - [Reverse Tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing)
 - [SQL Injection](https://owasp.org/www-community/attacks/SQL_Injection)
-- [Server-Side Includes (SSI) Injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection) by Weilin Zhong, Nsrav
+- [Server-Side Includes (SSI) Injection](https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection)
 - [Server Side Request Forgery](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)
 - [Session Prediction](https://owasp.org/www-community/attacks/Session_Prediction)
 - [Session fixation](https://owasp.org/www-community/attacks/Session_fixation)
@@ -258,7 +258,7 @@ Switched over from using `report-uri` to using both `report-uri` and `report-to`
 - [Windows ::DATA Alternate Data Stream](https://owasp.org/www-community/attacks/Windows_alternate_data_stream)
 - [XPATH Injection](https://owasp.org/www-community/attacks/XPATH_Injection)
 - [XSRF](https://owasp.org/www-community/attacks/XSRF)
-- [XSS in subtitle](https://owasp.org/www-community/attacks/Xss_in_subtitle) by Mohammad MortazaviZade
+- [XSS in subtitle](https://owasp.org/www-community/attacks/Xss_in_subtitle)
 
 ## Installation ❤️
 
