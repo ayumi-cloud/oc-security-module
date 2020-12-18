@@ -709,7 +709,7 @@ We use the following standards set by the Open Web Application Security Project 
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-This is free software, licensed under the MIT, Open Source Initiative.
+Everyone is permitted to copy and distribute copies of Summer CMS, but changing and hard forking are not allowed.
 
 [⬆ back to top](#table-of-contents-)
 
