@@ -412,13 +412,15 @@ If you find any bugs in the code or have any improvements in mind then feel free
 
 Patches and pull requests are encouraged. All code should follow the [PSR-1](https://www.php-fig.org/psr/psr-1/) and [PSR-2](https://www.php-fig.org/psr/psr-2/) style guidelines. **Please include unit tests whenever possible!**
 
-### With testing
+### Testers 😺
+
+### With testing 🔺
 
 ```
 composer update
 ```
 
-### Without testing
+### Without testing 🔻
 
 ```
 composer update --no-dev
