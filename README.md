@@ -44,6 +44,7 @@
 - [PHP Coding Standards Fixer](#php-coding-standards-fixer-)
     - [Installation](#installation-)
     - [Usage](#usage-)
+    - [Testing](#testing-%EF%B8%8F)
 - [Semantic Versioning](#semantic-versioning-)
 - [Security Module Penetration Testing Method](#security-module-penetration-testing-method-)
     - [Information Gathering](#information-gathering-)
