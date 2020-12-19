@@ -109,7 +109,7 @@ If you use this security module for your research, then kindly cite it. Click th
 
 ## API's :gem:
 
-Below are some of the API's the security modules uses (this is not a complete list):
+Below are some of the API's the security module uses (this is not a complete list):
 
 - [Trusted Types](https://w3c.github.io/webappsec-trusted-types/dist/spec/)
 - [MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
