@@ -488,7 +488,7 @@ The PHP Coding Standards Fixer (PHP CS Fixer) tool fixes your code to follow sta
 The recommended way to install PHP CS Fixer is to use [Composer](https://getcomposer.org/download/) in a dedicated `composer.json` file in your project, for example in the
 `tools/php-cs-fixer` directory:
 
-```console
+```bash
 $ mkdir --parents tools/php-cs-fixer
 $ composer require --working-dir=tools/php-cs-fixer friendsofphp/php-cs-fixer
 ```
@@ -499,11 +499,25 @@ For more details and other installation methods, see: [PHP-CS-Fixer](https://git
 
 Assuming you installed PHP CS Fixer as instructed above, you can run the following command to fix the files PHP files in the `src` directory:
 
-```console
+```bash
 $ tools/php-cs-fixer/vendor/bin/php-cs-fixer fix src
 ```
 
 (*) Change the above command to the correct folder location.
+
+### Testing ⚙️
+
+The Parser module uses the following:
+
+- A [PHPUnit](https://phpunit.de) test suite.
+- A coding style compliance test suite using [PHP CS Fixer](http://cs.sensiolabs.org/).
+- A code analysis compliance test suite using [PHPStan](https://github.com/phpstan/phpstan).
+
+To run the tests, run the following command from the project folder.
+
+```bash
+$ composer test
+```
 
 ## Semantic Versioning 🎁
 
