@@ -418,3 +418,7 @@ https://chromedriver.storage.googleapis.com/LATEST_RELEASE
 ### List of HTTP header fields
 
 https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
+
+### IANA List of HTTP Headers
+
+https://www.iana.org/assignments/message-headers/message-headers.xhtml
