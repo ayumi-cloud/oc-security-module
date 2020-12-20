@@ -1,3 +1,7 @@
+@bennothommo @LukeTowers 
+
+I'm just going to write my thinking from my mind to paper. Hopefully this may help you guys to create this pr.
+
 1. This pr is trying to harden against: **host header poisoning** and as I like to call it **Web cache poisoning**
 
 ```
@@ -40,6 +44,8 @@ X-Host
 X-Forwarded-Server
 X-HTTP-Host-Override
 Forwarded
+X-Original-URL
+X-Rewrite-URL
 ```
 
 6. **Exploiting wildcard whitelists**, the first time I learnt about **Web cache poisoning** was being shown from websites allowing wildcards!
@@ -121,3 +127,22 @@ XPROXY_CONNECTION
 ```
 
 7. Don't allow regex in `ALLOWED_HOSTS` as it allows **wildcards** and other **security vulnerabilities** (documented in security blogs).
+
+8. Also block **Chaining Attacks** for example:
+
+```
+GET /en HTTP/1.1
+Host: example.com
+X-Forwarded-Host: evil.com
+X-Forwarded-Scheme: nothttps
+```
+
+9. There are headers that can overwrite server level instructions and need to be blocked, for example:
+
+```
+GET /backend HTTP/1.1
+Host: example.com
+X-Original-URL: /evil-admin
+```
+
+Note: The above example is an attack using `X-Original-URL`, the headers `X-Original-URL` and `X-Rewrite-URL` are used by Symfony php vendor package.
