@@ -1,4 +1,6 @@
-1. This pr is trying to harden against: **host header poisoning** and as I like to call it **Web cache poisoning**
+## host header poisoning
+
+1. **host header poisoning** and as I like to call it **Web cache poisoning**, below is a simple example:
 
 ```
 GET /example HTTP/1.1
