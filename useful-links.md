@@ -414,3 +414,7 @@ http://omahaproxy.appspot.com/
 ### Chrome official stable release version
 
 https://chromedriver.storage.googleapis.com/LATEST_RELEASE
+
+### List of HTTP header fields
+
+https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
