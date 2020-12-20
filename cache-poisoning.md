@@ -1,7 +1,3 @@
-@bennothommo @LukeTowers 
-
-I'm just going to write my thinking from my mind to paper. Hopefully this may help you guys to create this pr.
-
 1. This pr is trying to harden against: **host header poisoning** and as I like to call it **Web cache poisoning**
 
 ```
@@ -146,3 +142,5 @@ X-Original-URL: /evil-admin
 ```
 
 Note: The above example is an attack using `X-Original-URL`, the headers `X-Original-URL` and `X-Rewrite-URL` are used by Symfony php vendor package.
+
+Some application frameworks support various non-standard HTTP headers that can be used to override the URL in the original request, such as `X-Original-URL` and `X-Rewrite-URL`. If a web site uses rigorous front-end controls to restrict access based on URL, but the application allows the URL to be overridden via a request header, then it might be possible to bypass the access controls.
