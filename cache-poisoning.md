@@ -143,7 +143,7 @@ Host: example.com
 X-Original-URL: /evil-admin
 ```
 
-Note: The above example is an attack using `X-Original-URL`, the headers `X-Original-URL` and `X-Rewrite-URL` are used by Symfony php vendor package.
+Note: The above example is an attack using `X-Original-URL`, the headers `X-Original-URL` and `X-Rewrite-URL` were used by Symfony php vendor package.
 
 See here patch: https://github.com/symfony/symfony/commit/e447e8b92148ddb3d1956b96638600ec95e08f6b
 
