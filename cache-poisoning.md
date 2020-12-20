@@ -145,4 +145,6 @@ X-Original-URL: /evil-admin
 
 Note: The above example is an attack using `X-Original-URL`, the headers `X-Original-URL` and `X-Rewrite-URL` are used by Symfony php vendor package.
 
+See here patch: https://github.com/symfony/symfony/commit/e447e8b92148ddb3d1956b96638600ec95e08f6b
+
 Some application frameworks support various non-standard HTTP headers that can be used to override the URL in the original request, such as `X-Original-URL` and `X-Rewrite-URL`. If a web site uses rigorous front-end controls to restrict access based on URL, but the application allows the URL to be overridden via a request header, then it might be possible to bypass the access controls.
