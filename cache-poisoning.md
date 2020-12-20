@@ -119,3 +119,5 @@ X_FORWARDED
 X_FORWARDED_FOR
 XPROXY_CONNECTION
 ```
+
+7. Don't allow regex in `ALLOWED_HOSTS` as it allows **wildcards** and other **security vulnerabilities**.
