@@ -74,6 +74,7 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - Firewall Analytics (displays all the incoming data from the frontend firewall).
 - Firewall Custom API's (for full details see: [Summer CMS Firewall API](https://github.com/ayumi-cloud/sc-security-module/tree/master/docs/api) section).
 - File Watcher (notifies the webmaster for file changes).
+- Junk file/folder scanner (scans the Summer CMS for any junk files or folder (e.g. `.github` folder in a `vendor` folder and allows the user to delete them).
 - Plugin Scanner (check plugins for any security issues and code conflicts).
 - Malware Scanner (checks the cms core code any security issues and code conflicts).
 - Database and CMS Backups (to protect against Ransomware attacks).
