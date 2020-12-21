@@ -422,3 +422,7 @@ https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
 ### IANA List of HTTP Headers
 
 https://www.iana.org/assignments/message-headers/message-headers.xhtml
+
+### OpenType Sanitizer (used by Chrome and Firefox)
+
+https://github.com/khaledhosny/ots
