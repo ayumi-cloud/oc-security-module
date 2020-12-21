@@ -426,3 +426,11 @@ https://www.iana.org/assignments/message-headers/message-headers.xhtml
 ### OpenType Sanitizer (used by Chrome and Firefox)
 
 https://github.com/khaledhosny/ots
+
+### PHPStan finds bugs in your code
+
+https://phpstan.org/
+
+### PHP Mutation Testing Framework
+
+https://infection.github.io/
