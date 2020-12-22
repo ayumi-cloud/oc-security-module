@@ -472,6 +472,8 @@ There are adapters available for other types of caches, such as `APC`, `Doctrine
 
 This security module uses some PSR standards to be the most interoperable possible:
 
+- [PSR-1](https://www.php-fig.org/psr/psr-1/) Basic Coding Standard.
+- [PSR-2](https://www.php-fig.org/psr/psr-2/) Coding Style Guide.
 - [PSR-6](https://www.php-fig.org/psr/psr-6/) Caching Interface.
 - [PSR-7](https://www.php-fig.org/psr/psr-7/) Standard interfaces to represent http requests, responses and uris.
 - [PSR-16](https://www.php-fig.org/psr/psr-16/) Common Interface for Caching Libraries.
