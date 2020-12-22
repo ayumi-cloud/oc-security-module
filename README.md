@@ -474,6 +474,7 @@ This security module uses some PSR standards to be the most interoperable possib
 
 - [PSR-6](https://www.php-fig.org/psr/psr-6/) Caching Interface.
 - [PSR-7](https://www.php-fig.org/psr/psr-7/) Standard interfaces to represent http requests, responses and uris.
+- [PSR-16](https://www.php-fig.org/psr/psr-16/) Common Interface for Caching Libraries.
 - [PSR-17](https://www.php-fig.org/psr/psr-17/) Standard factories to create PSR-7 objects.
 - [PSR-18](https://www.php-fig.org/psr/psr-18/) Standard interface to send a http request and return a response.
 
