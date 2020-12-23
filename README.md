@@ -70,7 +70,7 @@ The main purpose of the security module is to harden the Summer CMS against a va
 
 - Real-time Server Security Protection.
 - Real-time Frontend Firewall (with full dashboards to view all the data).
-- Real-time Backtend Firewall (with full dashboards to view all the data).
+- Real-time Backend Firewall (with full dashboards to view all the data).
 - Firewall Analytics (displays all the incoming data from the frontend firewall).
 - Firewall Custom API's (for full details see: [Summer CMS Firewall API](https://github.com/ayumi-cloud/sc-security-module/tree/master/docs/api) section).
 - File Watcher (notifies the webmaster for file changes).
