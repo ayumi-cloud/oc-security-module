@@ -43,7 +43,7 @@ Let's look at how our expression runs into this problem, using a shorter string:
 3. C+CC
 4. C+C+C.
 
-The engine has to try each of those combinations to see if any of them potentially match against the expression. When you combine that with the other steps the engine must take, we can use [RegEx 101 debugger](https://regex101.com/debugger) to see the engine has to take a total of 38 steps before it can determine the string doesn't match.
+The engine has to try each of those combinations to see if any of them potentially match against the expression. When you combine that with the other steps the engine must take, we can use [RegEx 101 debugger](https://regex101.com/) to see the engine has to take a total of 38 steps before it can determine the string doesn't match.
 
 From there, the number of steps the engine must use to validate a string just continues to grow.
 
