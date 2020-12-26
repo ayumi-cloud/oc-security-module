@@ -446,3 +446,7 @@ https://github.com/squizlabs/PHP_CodeSniffer
 ### PHP 8.0
 
 https://www.php.net/releases/8.0/en.php
+
+### Bug bounty program
+
+https://www.huntr.dev/
