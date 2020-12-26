@@ -442,3 +442,7 @@ https://infection.github.io/
 PHP_CodeSniffer is a set of two PHP scripts; the main `phpcs` script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard, and a second `phpcbf` script to automatically correct coding standard violations. PHP_CodeSniffer is an essential development tool that ensures your code remains clean and consistent.
 
 https://github.com/squizlabs/PHP_CodeSniffer
+
+### PHP 8.0
+
+https://www.php.net/releases/8.0/en.php
