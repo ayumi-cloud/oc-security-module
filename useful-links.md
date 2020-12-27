@@ -454,3 +454,11 @@ https://www.huntr.dev/
 ### Fortify Taxonomy: Software Security Errors
 
 https://vulncat.fortify.com/en/weakness
+
+### HTTP Status Codes and Htaccess ErrorDocuments
+
+https://www.askapache.com/htaccess/apache-status-code-headers-errordocument/
+
+### THE Ultimate Htaccess
+
+https://www.askapache.com/htaccess/
