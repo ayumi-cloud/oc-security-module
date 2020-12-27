@@ -20,7 +20,6 @@
 - [Citation](#citation-)
 - [API's](#apis-gem)
 - [Deprecations and removals](#deprecations-and-removals-)
-- [Vendor Packages](#vendor-packages-)
 - [Enhancements](#enhancements-)
 - [Tested on these attacks](#tested-on-these-attacks-%EF%B8%8F)
 - [Installation](#installation-%EF%B8%8F)
@@ -188,28 +187,6 @@ With support now gone in the last remaining browser, HPKP has been consigned to 
 - [CSP: report-uri](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-uri)
 
 Switched over from using `report-uri` to using both `report-uri` and `report-to`.
-
-## Vendor Packages 🧰
-
-- [Laravel Framework](https://github.com/laravel/framework)
-
-**Installed version**: 6.0 or greater (Summer CMS uses latest LTS version).
-
-- [HTMLPurifier for Laravel](https://github.com/mewebstudio/Purifier)
-
-**Installed version**: 3.0 or greater.
-
-- [Summer CMS Parser-Laravel](https://github.com/ayumi-cloud/sc-parser-module)
-
-**Installed version**: 3.0 or greater.
-
-- [MySQLDump - PHP](https://github.com/ifsnop/mysqldump-php)
-
-**Installed version**: 2.0 or greater.
-
-- [GeoIP2 PHP API](https://github.com/maxmind/GeoIP2-php)
-
-**Installed version**: 2.0 or greater.
 
 ## Enhancements ⭐
 
