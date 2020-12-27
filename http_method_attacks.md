@@ -19,3 +19,5 @@ The attack works by using a trusted HTTP verb such as `GET` or `POST`, but adds 
 - [1](https://msdn.microsoft.com/en-us/library/dd541471.aspx) MSDN Microsoft
 
 - [2](https://github.com/expressjs/method-override) ExpressJS ExpressJS
+
+- [3](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods) Test HTTP Methods
