@@ -450,3 +450,7 @@ https://www.php.net/releases/8.0/en.php
 ### Bug bounty program
 
 https://www.huntr.dev/
+
+### Fortify Taxonomy: Software Security Errors
+
+https://vulncat.fortify.com/en/weakness
