@@ -82,6 +82,16 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - Firewall Filters.
 - Many Security Tools (too many to mention).
 
+<p align="center"><img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/vanilla.jpg"></p>
+
+## Vanilla Code 🍦
+
+Vanilla often refers to **pure** or **plain**. So in terms of programming languages, it means either without the use of **3rd party libraries** or without the use of **frameworks**.
+
+The `core` files and `modules` in Summer CMS use `Laravel`, an open-source PHP web framework. However, all the styling, javascript and data interchange formats have been written using `vanilla` code. This makes upgrading the code **quick** and **simple** without the constraints of relying solely on a single library or framework! Plus reducing the code size and optimizing the performance by reducing the overheads of loading third-party libraries (such as jQuery as an example). Summer CMS treats all third-party libraries and frameworks as optional extras and developers are welcome to use any of them to enhance their websites and applications using Summer CMS.
+
+The [framework module](https://github.com/ayumi-cloud/sc-framework-module) adds bridges and interconnects different frameworks to Summer CMS with ease to give a customized experience for each framework!
+
 ## Naming Prefix ✒️
 
 **Summer CMS uses the `sc-` naming prefix to advoid conflicts.**
