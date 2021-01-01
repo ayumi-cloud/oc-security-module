@@ -13,6 +13,7 @@
 
 - [Transparency](#transparency-)
 - [Introduction](#introduction-)
+- [Vanilla Code](#vanilla-code-)
 - [Naming Prefix](#naming-prefix-%EF%B8%8F)
 - [Requirements](#requirements-)
 - [Machine Learning](#machine-learning-computer)
