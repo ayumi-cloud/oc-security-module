@@ -36,6 +36,8 @@ htmlentities(Example::value('something'), ENT_QUOTES, 'UTF-8', true);
 
 Or escaping through `twig` using `HtmlPurifier` or `html_clean()`.
 
+Never trust the data going in and out of the database, `sanitize` everything coming out of it and `validate` everything going into it.
+
 ### 3. Regular expression Denial of Service - ReDoS attack
 
 Take the following example:
