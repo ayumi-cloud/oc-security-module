@@ -18,7 +18,7 @@ e(trans('acme.example::lang.something.example'));
 
 Above: This would block an XSS attack, you need to wrap `|trans` with `e()` and escape it.
 
-For more info see here: https://github.com/octobercms/october/issues/4452
+For more info see here: [4452](https://github.com/octobercms/october/issues/4452)
 
 ### 2. XSS attack direct from the database
 
