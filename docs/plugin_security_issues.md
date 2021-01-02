@@ -38,6 +38,8 @@ Or escaping through `twig` using `HtmlPurifier` or `html_clean()`.
 
 Never trust the data going in and out of the database, `sanitize` everything coming out of it and `validate` everything going into it.
 
+A hacker doesn't need to add bad data into a database, a user can also add bad data in the database and screw up your plugins!
+
 ### 3. Regular expression Denial of Service - ReDoS attack
 
 Take the following example:
