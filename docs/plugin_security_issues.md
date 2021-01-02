@@ -18,8 +18,6 @@ e(trans('acme.example::lang.something.example'));
 
 Above: This would block an XSS attack, you need to wrap `|trans` with `e()` and escape it.
 
-For more info see here: [4452](https://github.com/octobercms/october/issues/4452)
-
 ### 2. XSS attack direct from the database
 
 Take the following example:
@@ -36,7 +34,7 @@ The solution is to `sanitize` the data from the database, for example:
 htmlentities(Example::value('something'), ENT_QUOTES, 'UTF-8', true);
 ```
 
-Or escaping through `twig` using [HtmlPurifier](https://octobercms.com/plugin/vdlp-htmlpurifier) or [html_clean()](https://octobercms.com/docs/markup/function-html).
+Or escaping through `twig` using `HtmlPurifier` or `html_clean()`.
 
 ### 3. Regular expression Denial of Service - ReDoS attack
 
