@@ -18,22 +18,22 @@ x | x | x | x | x | x | x
 
 ### Sanitization Methods
 
-1. Add default using `??`.
+- Add default using `??`.
 
-2. Limit long task.
+- Limit long task.
 
-3. Remove whitespace `trim()`.
+- Remove whitespace `trim()`.
 
-4. Standardized letter case `strtolower()` or `strtoupper()`.
+- Standardized letter case `strtolower()` or `strtoupper()`.
 
-5. Prevent illegal characters `preg_replace`.
+- Prevent illegal characters `preg_replace`.
 
-6. Escape `htmlentities`.
+- Escape `htmlentities`.
 
-7. Corrections `str_replace`.
+- Corrections `str_replace`.
 
-8. Special characters `normalize`.
+- Special characters `normalize`.
 
 ### Validation Methods
 
-Using standard Laravel validation rules and custom Summer CMS rule sets.
+- Using standard Laravel validation rules and custom Summer CMS rule sets.
