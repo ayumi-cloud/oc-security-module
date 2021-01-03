@@ -423,26 +423,6 @@ https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
 
 https://www.iana.org/assignments/message-headers/message-headers.xhtml
 
-## Code Quality Testers
-
-### OpenType Sanitizer (used by Chrome and Firefox)
-
-https://github.com/khaledhosny/ots
-
-### PHPStan finds bugs in your code
-
-https://phpstan.org/
-
-### PHP Mutation Testing Framework
-
-https://infection.github.io/
-
-### PHP_CodeSniffer
-
-PHP_CodeSniffer is a set of two PHP scripts; the main `phpcs` script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard, and a second `phpcbf` script to automatically correct coding standard violations. PHP_CodeSniffer is an essential development tool that ensures your code remains clean and consistent.
-
-https://github.com/squizlabs/PHP_CodeSniffer
-
 ### PHP 8.0
 
 https://www.php.net/releases/8.0/en.php
@@ -463,6 +443,28 @@ https://www.askapache.com/htaccess/apache-status-code-headers-errordocument/
 
 https://www.askapache.com/htaccess/
 
+---
+
 ### PHP Data Types
 
 https://www.w3schools.com/php/php_datatypes.asp
+
+## Code Quality Testers
+
+### OpenType Sanitizer (used by Chrome and Firefox)
+
+https://github.com/khaledhosny/ots
+
+### PHPStan finds bugs in your code
+
+https://phpstan.org/
+
+### PHP Mutation Testing Framework
+
+https://infection.github.io/
+
+### PHP_CodeSniffer
+
+PHP_CodeSniffer is a set of two PHP scripts; the main `phpcs` script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard, and a second `phpcbf` script to automatically correct coding standard violations. PHP_CodeSniffer is an essential development tool that ensures your code remains clean and consistent.
+
+https://github.com/squizlabs/PHP_CodeSniffer
