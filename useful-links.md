@@ -443,11 +443,11 @@ https://www.askapache.com/htaccess/apache-status-code-headers-errordocument/
 
 https://www.askapache.com/htaccess/
 
----
-
 ### PHP Data Types
 
 https://www.w3schools.com/php/php_datatypes.asp
+
+---
 
 ## Code Quality Testers
 
