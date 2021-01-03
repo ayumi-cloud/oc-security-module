@@ -20,7 +20,7 @@ x | x | x | x | x | x | x
 
 - Add default using `??`.
 
-- Limit long task `longStrings`.
+- Limit long task `longTasks`.
 
 - Remove whitespace `trim()`.
 
