@@ -11,7 +11,7 @@ Score | Description | Browser Screen | Hash generated
 4 | 400 hard | No | Yes
 5* | 429 soft (Google treats 429 and 503 the same) | Yes | No
 6* | 503 soft (Google treats 429 and 503 the same) | Yes | No
-7 | 405 hard | No | Yes
+7 | 405 hard | No | No
 8 | 403 soft | Yes | No
 9 | 403 hard (repeat attackers) | No | Yes
 10 | 444 (nginx connection closed without response) | No | Yes
