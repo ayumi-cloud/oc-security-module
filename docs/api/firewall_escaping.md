@@ -10,6 +10,9 @@ Request Method HTTP Header | ✔️ | ✔️ | 25 | Uppercase | Both | Server bl
 X-HTTP-Method | ✔️ | ❌ | n/a | n/a | Blocked | Blocked by default, can turn on in settings.
 X-HTTP-Method-Override | ✔️ | ❌ | n/a | n/a | Blocked | Blocked by default, can turn on in settings.
 X-Method-Override | ✔️ | ❌ | n/a | n/a | Blocked | Blocked by default, can turn on in settings.
+Request URL/URI | ❌ | ✔️ | 1000 | Lowercase | Allowed | Using Laravel API
+Response URL/URI | ❌ | ✔️ | 1000 | Lowercase | Allowed | Using Laravel API
+Ban Score | ❌ | ✔️ | 10 | n/a | Allowed | Using numbers only
 x | x | x | x | x | x | x
 
 
