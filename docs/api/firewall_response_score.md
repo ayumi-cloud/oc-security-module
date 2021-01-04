@@ -7,14 +7,14 @@ Score | Description | Browser Screen | Hash generated | Repeat Attacks
 0 | 200 (Default) | No | No | No
 1 | 404 soft | Yes | No | No
 2 | 410 soft | Yes | No | No
-3 | 400 soft | Yes | No | Hashed
-4 | 400 hard | No | Yes | Hashed
-5* | 429 soft (Google treats 429 and 503 the same) | Yes | No | Hashed
+3 | 400 soft | Yes | No | Yes
+4 | 400 hard | No | Yes | Yes
+5* | 429 soft (Google treats 429 and 503 the same) | Yes | No | Yes
 6* | 503 soft (Google treats 429 and 503 the same) | Yes | No | No
-7 | 405 hard | No | No | Hashed
-8 | 403 soft | Yes | No | Hashed
-9 | 403 hard (repeat attackers) | No | Yes | Hashed
-10 | 444 (nginx connection closed without response) | No | Yes | Hashed
+7 | 405 hard | No | No | Yes
+8 | 403 soft | Yes | No | Yes
+9 | 403 hard (repeat attackers) | No | Yes | Yes
+10 | 444 (nginx connection closed without response) | No | Yes | Yes
 
 Notes:
 
