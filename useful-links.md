@@ -443,6 +443,10 @@ https://www.askapache.com/htaccess/apache-status-code-headers-errordocument/
 
 https://www.askapache.com/htaccess/
 
+### Mod_Rewrite Variables Cheatsheet
+
+https://www.askapache.com/htaccess/mod_rewrite-variables-cheatsheet/
+
 ### PHP Data Types
 
 https://www.w3schools.com/php/php_datatypes.asp
