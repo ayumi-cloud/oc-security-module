@@ -2,7 +2,7 @@
 
 ### Response Scores
 
-Score | Description | Browser Screen | Hash generated | Repeat Attacks
+Score | Description | Browser Screen | Hard Enforcement | Repeat Attacks
 ---|---|---|---|---
 0 | 200 (Default) | No | No | No
 1 | 404 soft | Yes | No | No
