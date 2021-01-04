@@ -11,7 +11,7 @@ Score | Description | Browser Screen | Hard Enforcement | Repeat Attacks
 4 | 400 hard | No | Yes | Yes
 5* | 429 soft (Google treats 429 and 503 the same) | Yes | No | Yes
 6* | 503 soft (Google treats 429 and 503 the same) | Yes | No | No
-7 | 405 hard | No | No | Yes
+7 | 405 soft | No | No | Yes
 8 | 403 soft | Yes | No | Yes
 9 | 403 hard (repeat attackers) | No | Yes | Yes
 10 | 444 (nginx connection closed without response) | No | Yes | Yes
