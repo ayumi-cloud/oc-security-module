@@ -13,8 +13,8 @@ X-Method-Override | ✔️ | ❌ | n/a | n/a | Blocked | Blocked by default, can
 Request URL/URI | ❌ | ✔️ | 1000 | Lowercase | Allowed | Using Laravel API
 Response URL/URI | ❌ | ✔️ | 1000 | Lowercase | Allowed | Using Laravel API
 Ban Score API | ❌ | ✔️ | 10 | n/a | Allowed | Using numbers only and cleaned leaving database only.
+User Agent | ✔️ | ✔️ | 1000 | n/a | Both | Multiple checks
 x | x | x | x | x | x | x
-
 
 
 === TO DO (put in alphabetical order later) ===
