@@ -40,3 +40,11 @@ x | x | x | x | x | x | x
 ### Validation Methods
 
 - Using standard Laravel validation rules and custom Summer CMS rule sets.
+
+### Notes
+
+Remove all **non-numeric** characters. `\D` means "anything that isn't a digit":
+
+```php
+preg_replace('/\D/', '', $a);
+```
