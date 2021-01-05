@@ -4,19 +4,23 @@ Below are three of the most common security issues with plugins in the marketpla
 
 ### 1. XSS attack using `trans`
 
-Take the following example:
+You should always escape user provided input, even in cases where it might not be obvious. For example, the `trans()` function used in PHP backend views doesn't escape it's output by default, meaning that doing something like the following could lead to an XSS attack:
 
 ```php
-trans('acme.example::lang.something.example');
+trans('acme.example::lang.something', ['value' => $userProvidedInput])
 ```
 
-Above: This would allow an XSS attack as it's **not** escaped.
+Whenever you are outputting user provided input, you should ensure that it is properly escaped. The previous example would be make secure by wrapping it in the `e()` function:
 
 ```php
-e(trans('acme.example::lang.something.example'));
+e(trans('acme.example::lang.something', ''value' => $userProvidedInput]);
 ```
 
-Above: This would block an XSS attack, you need to wrap `|trans` with `e()` and escape it.
+This also applies to the `| trans()` filter available in Twig, although the method of escaping it differs slightly:
+
+```twig
+{{ 'acme.example::lang.something' | trans({'value': record.userProvidedInput}) | escape }}
+```
 
 ### 2. XSS attack direct from the database
 
