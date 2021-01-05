@@ -43,7 +43,7 @@ x | x | x | x | x | x | x
 
 ### Notes
 
-Remove all **non-numeric** characters. `\D` means "anything that isn't a digit":
+Remove all **non-numeric** characters. `\D` means "anything that isn't a digit".
 
 ```php
 preg_replace('/\D/', '', $a);
