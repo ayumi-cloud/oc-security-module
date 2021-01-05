@@ -451,6 +451,10 @@ https://www.askapache.com/htaccess/mod_rewrite-variables-cheatsheet/
 
 https://www.w3schools.com/php/php_datatypes.asp
 
+### User Agent Syntax
+
+https://tools.ietf.org/html/rfc7230#section-3.2.6
+
 ---
 
 ## Code Quality Testers
