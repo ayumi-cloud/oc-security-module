@@ -23,7 +23,7 @@ x | x | x | x | x | x | x
 
 - Add default using `??`.
 
-- Limit long task `longTasks`.
+- Limit lengths `strlen(utf8_decode())` with error message, `substr()` without error message.
 
 - Remove whitespace `trim()`.
 
