@@ -29,13 +29,13 @@ x | x | x | x | x | x | x
 
 - Standardized letter case `strtolower()` or `strtoupper()`.
 
-- Prevent illegal characters `preg_replace`.
+- Prevent illegal characters `preg_replace()`.
 
-- Escape `htmlentities`.
+- Escape `htmlentities()`.
 
-- Corrections `str_replace`.
+- Corrections `str_replace()`.
 
-- Special characters `normalize`.
+- Special characters `normalize` class.
 
 ### Validation Methods
 
