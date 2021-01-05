@@ -48,3 +48,7 @@ Remove all **non-numeric** characters. `\D` means "anything that isn't a digit".
 ```php
 preg_replace('/\D/', '', $a);
 ```
+
+### IANA HTTP Headers
+
+Link: https://www.iana.org/assignments/message-headers/message-headers.xml
