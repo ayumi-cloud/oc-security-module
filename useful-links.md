@@ -415,6 +415,10 @@ http://omahaproxy.appspot.com/
 
 https://chromedriver.storage.googleapis.com/LATEST_RELEASE
 
+### Firefox Product-Details JSON API
+
+https://wiki.mozilla.org/Release_Management/Product_details
+
 ### List of HTTP header fields
 
 https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
