@@ -19,6 +19,7 @@ deviceCarrier | A string containing the mobile carrier name, i.e. 'DoCoMo'.
 deviceIdentifier | A string containing a device identification, i.e. 'iPhone'.
 deviceFlag | A string attach a special flag to a range of devices, i.e. 'S60' for some Nokia Series 60.
 deviceType | A string containing the type of property, see **Device Type List** - for full details.
+deviceSubtype | A string containing the sub type of the property, e.g. 'smart' or 'feature' for a phone.
 deviceIdentified | An integer displaying the number of api properties found.
 deviceGeneric | A boolean value saying if the request was a generic or specific device.
 deviceHidden | A boolean value saying if the device is trying to hide some of it's information.
