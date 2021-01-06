@@ -12,12 +12,12 @@ Individual device api properties:
 
 Value | Description
 ---|---
-deviceManufacturer | A string containing the manufacturer of the device, i.e. 'Apple' or 'Samsung'.
-deviceModel | A string containing the model of the device, i.e. 'iPhone' or 'Galaxy S4'.
-deviceSeries | A string containing the device series information, i.e. 'Smart TV'.
-deviceCarrier | A string containing the mobile carrier name, i.e. 'DoCoMo'.
-deviceIdentifier | A string containing a device identification, i.e. 'iPhone'.
-deviceFlag | A string attach a special flag to a range of devices, i.e. 'S60' for some Nokia Series 60.
+deviceManufacturer | A string containing the manufacturer of the device, e.g. 'Apple' or 'Samsung'.
+deviceModel | A string containing the model of the device, e.g. 'iPhone' or 'Galaxy S4'.
+deviceSeries | A string containing the device series information, e.g. 'Smart TV'.
+deviceCarrier | A string containing the mobile carrier name, e.g. 'DoCoMo'.
+deviceIdentifier | A string containing a device identification, e.g. 'iPhone'.
+deviceFlag | A string attach a special flag to a range of devices, e.g. 'S60' for some Nokia Series 60.
 deviceType | A string containing the type of property, see **Device Type List** - for full details.
 deviceSubtype | A string containing the sub type of the property, e.g. 'smart' or 'feature' for a phone.
 deviceIdentified | An integer displaying the number of api properties found.
@@ -71,8 +71,8 @@ browserName | A string containing the name of the browser.
 browserAlias | A string containing an alternative name of the browser.
 browserVersion | A version object containing information about the version of the browser.
 browserStock | A boolean, true if the browser is the default browser of the operating system, false otherwise.
-browserChannel | A string containing the distribution channel, ie. 'Nightly' or 'Next'.
-browserMode | A string that can contain the operating mode of the browser, ie. 'proxy'.
+browserChannel | A string containing the distribution channel, e.g. 'Nightly' or 'Next'.
+browserMode | A string that can contain the operating mode of the browser, e.g. 'proxy'.
 browserHidden | A boolean that is true if the browser does not have a name and is the default of the operating system.
 browserFamily | An object that contains information about to which family this browser belongs
 browserUsing | An object that contains information about to which kind of webview this browser uses.
