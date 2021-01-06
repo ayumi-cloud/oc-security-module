@@ -29,6 +29,8 @@ x | x | x | x | x | x | x
 
 - Standardized letter case `strtolower()` or `strtoupper()`.
 
+- Return the string value of different variables `strval()`.
+
 - Prevent illegal characters `preg_replace()`.
 
 - Escape `htmlentities()`.
