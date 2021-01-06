@@ -42,7 +42,15 @@ Or escaping through `twig` using `HtmlPurifier` or `html_clean()`.
 
 Never trust the data going in and out of the database, `sanitize` everything coming out of it and `validate` everything going into it.
 
-A hacker doesn't need to add bad data into a database, a user can also add bad data in the database and screw up your plugins!
+Many plugins are grabbing data from the database and not filtering the data!
+
+This creates two major security issues, either hackers inject bad code through the database or users using the plugin adds bad code through backend forms etc.
+
+Either way, this can screw up your plugin code and cause errors which can be taken advantage of and allow attackers to do bad things!
+
+Never trust the data coming in or out of the database and filter all data going through the database in **both** directions!
+
+Likewise with `config` files. A hacker can easily inject and change the code in a config file, so raw data being grabbed from a config file should always be filtered as well.
 
 ### 3. Regular expression Denial of Service - ReDoS attack
 
