@@ -12,14 +12,14 @@ Individual device api properties:
 
 Value | Description
 ---|---
-deviceManufacturer | A string containing the manufacturer of the device, ie. 'Apple' or 'Samsung'.
-deviceModel | A string containing the model of the device, ie. 'iPhone' or 'Galaxy S4'.
-deviceSeries | A string containing the device series information.
-deviceCarrier | A string containing the mobile carrier name.
-deviceIdentifier | A string containing a firewall code when the device has been identified.
-deviceFlag | A string flagging any issues detecting the device.
+deviceManufacturer | A string containing the manufacturer of the device, i.e. 'Apple' or 'Samsung'.
+deviceModel | A string containing the model of the device, i.e. 'iPhone' or 'Galaxy S4'.
+deviceSeries | A string containing the device series information, i.e. 'Smart TV'.
+deviceCarrier | A string containing the mobile carrier name, i.e. 'DoCoMo'.
+deviceIdentifier | A string containing a device identification, i.e. 'iPhone'.
+deviceFlag | A string attach a special flag to a range of devices, i.e. 'S60' for some Nokia Series 60.
 deviceType | A string containing the type of property, see **Device Type List** - for full details.
-deviceIdentified | An integer displaying the number of items found.
+deviceIdentified | An integer displaying the number of api properties found.
 deviceGeneric | A boolean value saying if the request was a generic or specific device.
 deviceHidden | A boolean value saying if the device is trying to hide some of it's information.
 
