@@ -66,7 +66,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>1000</td>
             <td>n/a</td>
             <td>Allowed</td>
-            <td>Using Laravel API</td>
+            <td>Using Laravel API.</td>
         </tr>
         <tr>
             <td colspan="7"><h3>HTTP Responses</h3></td>
@@ -78,19 +78,55 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>1000</td>
             <td>n/a</td>
             <td>Allowed</td>
-            <td>Using Laravel API</td>
+            <td>Using Laravel API.</td>
         </tr>
         <tr>
             <td colspan="7"><h3>Browser Details</h3></td>
         </tr>
         <tr>
-            <td>Ban Score API</td>
+            <td>Browser Full Version</td>
             <td>❌</td>
             <td>✔️</td>
-            <td>10</td>
+            <td>150</td>
             <td>n/a</td>
             <td>Allowed</td>
-            <td>Using numbers only and cleaned leaving database only.</td>
+            <td>Using semantic versioning spec.</td>
+        </tr>
+        <tr>
+            <td>Browser Major Version</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>int</td>
+            <td>Allowed</td>
+            <td>Using semantic versioning spec.</td>
+        </tr>
+        <tr>
+            <td>Browser Minor Version</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>int</td>
+            <td>Allowed</td>
+            <td>Using semantic versioning spec.</td>
+        </tr>
+        <tr>
+            <td>Browser Patch Version</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>int</td>
+            <td>Allowed</td>
+            <td>Using semantic versioning spec.</td>
+        </tr>
+        <tr>
+            <td>Browser Build Version</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>n/a</td>
+            <td>Allowed</td>
+            <td>Using semantic versioning spec.</td>
         </tr>
         <tr>
             <td colspan="7"><h3>HTTP User-Agent</h3></td>
