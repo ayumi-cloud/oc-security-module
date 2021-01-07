@@ -129,6 +129,15 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Using semantic versioning spec.</td>
         </tr>
         <tr>
+            <td>Browser Channel</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>n/a</td>
+            <td>Allowed</td>
+            <td>Cleaned from Firewll API.</td>
+        </tr>
+        <tr>
             <td colspan="7"><h3>HTTP User-Agent</h3></td>
         </tr>
         <tr>
@@ -154,7 +163,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>✔️</td>
             <td>10</td>
-            <td>n/a</td>
+            <td>int</td>
             <td>Allowed</td>
             <td>Using numbers only and cleaned leaving database only.</td>
         </tr>
