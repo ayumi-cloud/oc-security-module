@@ -135,7 +135,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>100</td>
             <td>n/a</td>
             <td>Allowed</td>
-            <td>Cleaned from Firewll API.</td>
+            <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
             <td colspan="7"><h3>HTTP User-Agent</h3></td>
