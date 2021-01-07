@@ -96,7 +96,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Browser Major Version</td>
             <td>❌</td>
             <td>✔️</td>
-            <td>100</td>
+            <td>150</td>
             <td>int</td>
             <td>Allowed</td>
             <td>Using semantic versioning spec.</td>
@@ -105,7 +105,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Browser Minor Version</td>
             <td>❌</td>
             <td>✔️</td>
-            <td>100</td>
+            <td>150</td>
             <td>int</td>
             <td>Allowed</td>
             <td>Using semantic versioning spec.</td>
@@ -114,7 +114,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Browser Patch Version</td>
             <td>❌</td>
             <td>✔️</td>
-            <td>100</td>
+            <td>150</td>
             <td>int</td>
             <td>Allowed</td>
             <td>Using semantic versioning spec.</td>
@@ -123,7 +123,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Browser Build Version</td>
             <td>❌</td>
             <td>✔️</td>
-            <td>100</td>
+            <td>150</td>
             <td>n/a</td>
             <td>Allowed</td>
             <td>Using semantic versioning spec.</td>
