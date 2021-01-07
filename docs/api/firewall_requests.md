@@ -71,7 +71,7 @@ browserName | A string containing the name of the browser.
 browserAlias | A string containing an alternative name of the browser.
 browserVersion | A version object containing information about the version of the browser.
 browserStock | A boolean, true if the browser is the default browser of the operating system, false otherwise.
-browserChannel | A string containing the distribution channel, e.g. 'Nightly' or 'Next'.
+browserChannel | A string containing the distribution channel, e.g. 'Nightly' or 'Dev'.
 browserMode | A string that can contain the operating mode of the browser, e.g. 'proxy'.
 browserHidden | A boolean that is true if the browser does not have a name and is the default of the operating system.
 browserFamily | An object that contains information about to which family this browser belongs
