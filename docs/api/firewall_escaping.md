@@ -4,18 +4,127 @@
 
 Below are details for the level of escaping carried out by the firewall in certain specific requests, please note this list will continue to grow over time and not intended to be a complete list!
 
-Value | Server Protection | Client-Side Protection | Long-task Limits | Letter case | Allowed/Blocked | Notes
----|---|---|---|---|---|---
-h
-Request Method HTTP Header | ✔️ | ✔️ | 25 | Uppercase | Both | Server blocks bad verbs only.
-X-HTTP-Method | ✔️ | ❌ | n/a | n/a | Blocked | Blocked by default, can turn on in settings.
-X-HTTP-Method-Override | ✔️ | ❌ | n/a | n/a | Blocked | Blocked by default, can turn on in settings.
-X-Method-Override | ✔️ | ❌ | n/a | n/a | Blocked | Blocked by default, can turn on in settings.
-Request URL/URI | ❌ | ✔️ | 1000 | n/a | Allowed | Using Laravel API
-Response URL/URI | ❌ | ✔️ | 1000 | n/a | Allowed | Using Laravel API
-Ban Score API | ❌ | ✔️ | 10 | n/a | Allowed | Using numbers only and cleaned leaving database only.
-User Agent | ✔️ | ✔️ | 1000 | n/a | Both | Multiple checks
-x | x | x | x | x | x | x
+<table>
+    <thead>
+        <tr>
+            <th>Value</th>
+            <th>Server Protection</th>
+            <th>Client-Side Protection</th>
+            <th>Long-task Limits</th>
+            <th>Letter case</th>
+            <th>Allowed/Blocked</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="7"><h3>HTTP Request Methods</h3></td>
+        </tr>
+        <tr>
+            <td>Request Method HTTP Header</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>25</td>
+            <td>Uppercase</td>
+            <td>Both</td>
+            <td>Server blocks bad verbs only.</td>
+        </tr>
+        <tr>
+            <td>X-HTTP-Method</td>
+            <td>✔️</td>
+            <td>❌</td>
+            <td>n/a</td>
+            <td>n/a</td>
+            <td>Blocked</td>
+            <td>Blocked by default, can turn on in settings.</td>
+        </tr>
+        <tr>
+            <td>X-HTTP-Method-Override</td>
+            <td>✔️</td>
+            <td>❌</td>
+            <td>n/a</td>
+            <td>n/a</td>
+            <td>Blocked</td>
+            <td>Blocked by default, can turn on in settings.</td>
+        </tr>
+        <tr>
+            <td>X-Method-Override</td>
+            <td>✔️</td>
+            <td>❌</td>
+            <td>n/a</td>
+            <td>n/a</td>
+            <td>Blocked</td>
+            <td>Blocked by default, can turn on in settings.</td>
+        </tr>
+        <tr>
+            <td colspan="7"><h3>HTTP Requests</h3></td>
+        </tr>
+        <tr>
+            <td>Request URL/URI</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>n/a</td>
+            <td>Allowed</td>
+            <td>Using Laravel API</td>
+        </tr>
+        <tr>
+            <td colspan="7"><h3>HTTP Responses</h3></td>
+        </tr>
+        <tr>
+            <td>Response URL/URI</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>n/a</td>
+            <td>Allowed</td>
+            <td>Using Laravel API</td>
+        </tr>
+        <tr>
+            <td colspan="7"><h3>Browser Details</h3></td>
+        </tr>
+        <tr>
+            <td>Ban Score API</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>n/a</td>
+            <td>Allowed</td>
+            <td>Using numbers only and cleaned leaving database only.</td>
+        </tr>
+        <tr>
+            <td colspan="7"><h3>HTTP User-Agent</h3></td>
+        </tr>
+        <tr>
+            <td>User Agent</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>n/a</td>
+            <td>Both</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+            <td>x</td>
+        </tr>
+        <tr>
+            <td>Ban Score API</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>n/a</td>
+            <td>Allowed</td>
+            <td>Using numbers only and cleaned leaving database only.</td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 === TO DO (put in alphabetical order later) ===
