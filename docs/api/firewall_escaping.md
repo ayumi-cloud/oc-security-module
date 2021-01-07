@@ -6,12 +6,13 @@ Below are details for the level of escaping carried out by the firewall in certa
 
 Value | Server Protection | Client-Side Protection | Long-task Limits | Letter case | Allowed/Blocked | Notes
 ---|---|---|---|---|---|---
+h
 Request Method HTTP Header | ✔️ | ✔️ | 25 | Uppercase | Both | Server blocks bad verbs only.
 X-HTTP-Method | ✔️ | ❌ | n/a | n/a | Blocked | Blocked by default, can turn on in settings.
 X-HTTP-Method-Override | ✔️ | ❌ | n/a | n/a | Blocked | Blocked by default, can turn on in settings.
 X-Method-Override | ✔️ | ❌ | n/a | n/a | Blocked | Blocked by default, can turn on in settings.
-Request URL/URI | ❌ | ✔️ | 1000 | Lowercase | Allowed | Using Laravel API
-Response URL/URI | ❌ | ✔️ | 1000 | Lowercase | Allowed | Using Laravel API
+Request URL/URI | ❌ | ✔️ | 1000 | n/a | Allowed | Using Laravel API
+Response URL/URI | ❌ | ✔️ | 1000 | n/a | Allowed | Using Laravel API
 Ban Score API | ❌ | ✔️ | 10 | n/a | Allowed | Using numbers only and cleaned leaving database only.
 User Agent | ✔️ | ✔️ | 1000 | n/a | Both | Multiple checks
 x | x | x | x | x | x | x
