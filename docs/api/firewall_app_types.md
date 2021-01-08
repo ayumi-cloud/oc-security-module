@@ -21,5 +21,6 @@ appNews | News aggregators are apps that collects content from various sources a
 appAntivirus | Antivirus software, or anti-virus software, also known as anti-malware, is a computer program used to prevent, detect and remove malware.
 appShopping | These websites or apps are designed to enable customers to browse through a companies products and services on tablet computers and smartphones.
 appChat | Messaging apps are apps and platforms that enable instant messaging.
+appDead | Fake traffic coming from a dead platform, e.g. Google+ social network.
 
 (*) Subject to adding more values (app types) and firewall modules being created, to add more features to the cms.
