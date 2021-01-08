@@ -165,6 +165,24 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Using semantic versioning spec.</td>
         </tr>
         <tr>
+            <td>Browser Using Name</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>Allowed</td>
+            <td>Example Yandex using Chromium, cleaned from firewall API.</td>
+        </tr>
+        <tr>
+            <td>Browser Using Version</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>Allowed</td>
+            <td>Example Yandex using Chromium, cleaned from firewall API.</td>
+        </tr>
+        <tr>
             <td colspan="7"><h3>App Details</h3></td>
         </tr>
         <tr>
