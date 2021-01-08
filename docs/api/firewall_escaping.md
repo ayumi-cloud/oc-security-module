@@ -11,7 +11,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <th>Server Protection</th>
             <th>Client-Side Protection</th>
             <th>Long-task Limits</th>
-            <th>Letter case</th>
+            <th>Extra</th>
             <th>Allowed/Blocked</th>
             <th>Notes</th>
         </tr>
@@ -25,8 +25,8 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>✔️</td>
             <td>25</td>
-            <td>Uppercase</td>
-            <td>Both</td>
+            <td>uppercase</td>
+            <td>both</td>
             <td>Server blocks bad verbs only.</td>
         </tr>
         <tr>
@@ -35,7 +35,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>n/a</td>
             <td>n/a</td>
-            <td>Blocked</td>
+            <td>blocked</td>
             <td>Blocked by default, can turn on in settings.</td>
         </tr>
         <tr>
@@ -44,7 +44,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>n/a</td>
             <td>n/a</td>
-            <td>Blocked</td>
+            <td>blocked</td>
             <td>Blocked by default, can turn on in settings.</td>
         </tr>
         <tr>
@@ -53,7 +53,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>n/a</td>
             <td>n/a</td>
-            <td>Blocked</td>
+            <td>blocked</td>
             <td>Blocked by default, can turn on in settings.</td>
         </tr>
         <tr>
@@ -65,7 +65,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>n/a</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Using Laravel API.</td>
         </tr>
         <tr>
@@ -77,7 +77,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>n/a</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Using Laravel API.</td>
         </tr>
         <tr>
@@ -89,7 +89,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>25</td>
             <td>n/a</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
@@ -97,9 +97,9 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
-            <td>n/a</td>
-            <td>Allowed</td>
-            <td>Cleaned from Firewall API.</td>
+            <td>normalize</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API (external).</td>
         </tr>
         <tr>
             <td>Browser Channel</td>
@@ -107,7 +107,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>n/a</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
@@ -116,7 +116,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>250</td>
             <td>n/a</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
@@ -125,8 +125,8 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>n/a</td>
-            <td>Allowed</td>
-            <td>Using semantic versioning spec.</td>
+            <td>allowed</td>
+            <td>Using semantic versioning spec (external).</td>
         </tr>
         <tr>
             <td>Browser Major Version</td>
@@ -134,7 +134,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>int</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Using semantic versioning spec.</td>
         </tr>
         <tr>
@@ -143,7 +143,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>int</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Using semantic versioning spec.</td>
         </tr>
         <tr>
@@ -152,7 +152,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>int</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Using semantic versioning spec.</td>
         </tr>
         <tr>
@@ -161,7 +161,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>n/a</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Using semantic versioning spec.</td>
         </tr>
         <tr>
@@ -170,7 +170,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>n/a</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Example Yandex using Chromium, cleaned from firewall API.</td>
         </tr>
         <tr>
@@ -179,7 +179,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>n/a</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Example Yandex using Chromium, cleaned from firewall API.</td>
         </tr>
         <tr>
@@ -191,7 +191,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>100</td>
             <td>n/a</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
@@ -203,7 +203,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>n/a</td>
-            <td>Both</td>
+            <td>both</td>
             <td>Multiple checks</td>
         </tr>
         <tr>
@@ -221,7 +221,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>10</td>
             <td>int</td>
-            <td>Allowed</td>
+            <td>allowed</td>
             <td>Using numbers only and cleaned leaving database only.</td>
         </tr>
     </tbody>
