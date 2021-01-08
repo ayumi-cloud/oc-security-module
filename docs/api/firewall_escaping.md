@@ -133,7 +133,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
-            <td>int</td>
+            <td>n/a</td>
             <td>allowed</td>
             <td>Using semantic versioning spec.</td>
         </tr>
@@ -142,7 +142,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
-            <td>int</td>
+            <td>n/a</td>
             <td>allowed</td>
             <td>Using semantic versioning spec.</td>
         </tr>
@@ -151,7 +151,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
-            <td>int</td>
+            <td>n/a</td>
             <td>allowed</td>
             <td>Using semantic versioning spec.</td>
         </tr>
