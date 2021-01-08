@@ -16,6 +16,7 @@ facebook | Collects facebook app and desktop platform user data.
 facebookBot | Collects all facebook crawling bots data.
 flipboard | Collects flipboard app user data.
 feedlyBot | Collects all freely crawling bots data.
+googleplus | Collects google plus fake traffic data.
 groupon | Collects groupon app user data.
 hootsuiteBot | Collects all hootsuite crawling bots data.
 hubspotBot | Collects all hubspot crawling bots data.
