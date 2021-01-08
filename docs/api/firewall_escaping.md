@@ -119,10 +119,6 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
-        
-        
-        
-
         <tr>
             <td>Browser Full Version</td>
             <td>❌</td>
