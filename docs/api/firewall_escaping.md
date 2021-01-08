@@ -84,6 +84,46 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td colspan="7"><h3>Browser Details</h3></td>
         </tr>
         <tr>
+            <td>Browser Type</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>25</td>
+            <td>n/a</td>
+            <td>Allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Browser Name</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>Allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Browser Channel</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>Allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Browser Info</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>250</td>
+            <td>n/a</td>
+            <td>Allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        
+        
+        
+
+        <tr>
             <td>Browser Full Version</td>
             <td>❌</td>
             <td>✔️</td>
@@ -129,7 +169,10 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Using semantic versioning spec.</td>
         </tr>
         <tr>
-            <td>Browser Channel</td>
+            <td colspan="7"><h3>App Details</h3></td>
+        </tr>
+        <tr>
+            <td>App Types</td>
             <td>❌</td>
             <td>✔️</td>
             <td>100</td>
