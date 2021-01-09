@@ -407,3 +407,11 @@ preg_replace('/\D/', '', $a);
 ### IANA HTTP Headers
 
 Link: https://www.iana.org/assignments/message-headers/message-headers.xml
+
+### PHP Validate filters
+
+Link: https://www.php.net/manual/en/filter.filters.validate.php
+
+### PHP Sanitize filters
+
+Link: https://www.php.net/manual/en/filter.filters.sanitize.php
