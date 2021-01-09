@@ -120,6 +120,108 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
+            <td colspan="7"><h3>Device Details</h3></td>
+        </tr>
+        <tr>
+            <td>Manufacturer</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Model</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Series</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Carrier</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Identifier</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Flag</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Type</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Subtype</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Identified</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>int</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Generic</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Hidden</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
             <td colspan="7"><h3>Browser Details</h3></td>
         </tr>
         <tr>
