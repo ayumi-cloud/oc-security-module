@@ -81,6 +81,45 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Using Laravel API.</td>
         </tr>
         <tr>
+            <td colspan="7"><h3>Operating Systems Details</h3></td>
+        </tr>
+        <tr>
+            <td>OS Name</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>OS Full Name</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>200</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>OS Version</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>OS Full Version</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
             <td colspan="7"><h3>Browser Details</h3></td>
         </tr>
         <tr>
@@ -171,7 +210,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>150</td>
             <td>n/a</td>
             <td>allowed</td>
-            <td>Example Yandex using Chromium, cleaned from firewall API.</td>
+            <td>Example Yandex using Chromium, cleaned from firewall API (internal).</td>
         </tr>
         <tr>
             <td>Browser Using Version</td>
@@ -180,7 +219,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>150</td>
             <td>n/a</td>
             <td>allowed</td>
-            <td>Example Yandex using Chromium, cleaned from firewall API.</td>
+            <td>Example Yandex using Chromium, cleaned from firewall API (internal).</td>
         </tr>
         <tr>
             <td colspan="7"><h3>App Details</h3></td>
@@ -189,7 +228,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>App Types</td>
             <td>❌</td>
             <td>✔️</td>
-            <td>100</td>
+            <td>25</td>
             <td>n/a</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
