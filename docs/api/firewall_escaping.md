@@ -180,7 +180,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Type</td>
             <td>❌</td>
             <td>✔️</td>
-            <td>150</td>
+            <td>25</td>
             <td>n/a</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
@@ -189,7 +189,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Subtype</td>
             <td>❌</td>
             <td>✔️</td>
-            <td>150</td>
+            <td>25</td>
             <td>n/a</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
