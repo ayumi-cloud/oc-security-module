@@ -139,11 +139,9 @@ Version | Alias
 OS | Version
 ---|---
 Windows Mobile | 8.0
+Windows Mobile | 7.5
 Windows Mobile | 7
 Windows Mobile | 6.5
-Windows Mobile | 
-Windows Mobile | 
-Windows Mobile | 
 Windows Mobile | 6.1
 Windows Mobile | 6.0
 
