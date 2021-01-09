@@ -138,20 +138,20 @@ Version | Alias
 
 OS | Version
 ---|---
-Windows Mobile | 8.0
-Windows Mobile | 7.5
-Windows Mobile | 7
+Windows Phone | 8.10
+Windows Phone | 8.1
+Windows Phone | 8.0
+Windows Phone | 8
+Windows Phone | 7.5
+Windows Phone | 7.0
+Windows Phone | 7
 Windows Mobile | 6.5
 Windows Mobile | 6.1
 Windows Mobile | 6.0
 
+**Windows Mobile is a discontinued** family of mobile operating systems developed by Microsoft for smartphones and personal digital assistants.
 
-
-
-
-
-
-
+Latest release: 6.5.3 / February 2, 2010
 
 ### Dead Windows Operating Systems
 
