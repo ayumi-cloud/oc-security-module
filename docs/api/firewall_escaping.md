@@ -84,7 +84,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td colspan="7"><h3>Operating Systems Details</h3></td>
         </tr>
         <tr>
-            <td>OS Name</td>
+            <td>Name</td>
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
@@ -93,7 +93,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
-            <td>OS Full Name</td>
+            <td>Full Name</td>
             <td>❌</td>
             <td>✔️</td>
             <td>200</td>
@@ -102,7 +102,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
-            <td>OS Version</td>
+            <td>Version</td>
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
@@ -111,7 +111,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
-            <td>OS Full Version</td>
+            <td>Full Version</td>
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
@@ -225,7 +225,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td colspan="7"><h3>Browser Details</h3></td>
         </tr>
         <tr>
-            <td>Browser Type</td>
+            <td>Type</td>
             <td>❌</td>
             <td>✔️</td>
             <td>25</td>
@@ -234,7 +234,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
-            <td>Browser Name</td>
+            <td>Name</td>
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
@@ -243,7 +243,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Cleaned from Firewall API (external).</td>
         </tr>
         <tr>
-            <td>Browser Channel</td>
+            <td>Channel</td>
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
@@ -252,7 +252,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
-            <td>Browser Info</td>
+            <td>Info</td>
             <td>❌</td>
             <td>✔️</td>
             <td>250</td>
@@ -261,7 +261,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
-            <td>Browser Full Version</td>
+            <td>Full Version</td>
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
@@ -270,7 +270,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Using semantic versioning spec (external).</td>
         </tr>
         <tr>
-            <td>Browser Major Version</td>
+            <td>Major Version</td>
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
@@ -279,7 +279,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Using semantic versioning spec.</td>
         </tr>
         <tr>
-            <td>Browser Minor Version</td>
+            <td>Minor Version</td>
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
@@ -288,7 +288,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Using semantic versioning spec.</td>
         </tr>
         <tr>
-            <td>Browser Patch Version</td>
+            <td>Patch Version</td>
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
@@ -297,7 +297,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Using semantic versioning spec.</td>
         </tr>
         <tr>
-            <td>Browser Build Version</td>
+            <td>Build Version</td>
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
@@ -306,7 +306,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Using semantic versioning spec.</td>
         </tr>
         <tr>
-            <td>Browser Using Name</td>
+            <td>Using Name</td>
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
@@ -315,7 +315,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Example Yandex using Chromium, cleaned from firewall API (internal).</td>
         </tr>
         <tr>
-            <td>Browser Using Version</td>
+            <td>Using Version</td>
             <td>❌</td>
             <td>✔️</td>
             <td>150</td>
