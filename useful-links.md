@@ -490,3 +490,9 @@ https://infection.github.io/
 PHP_CodeSniffer is a set of two PHP scripts; the main `phpcs` script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard, and a second `phpcbf` script to automatically correct coding standard violations. PHP_CodeSniffer is an essential development tool that ensures your code remains clean and consistent.
 
 https://github.com/squizlabs/PHP_CodeSniffer
+
+### Snuffleupagus
+
+Snuffleupagus is a PHP7+ and PHP8+ module designed to drastically raise the cost of attacks against websites. This is achieved by killing entire bug classes and providing a powerful virtual-patching system, allowing the administrator to fix specific vulnerabilities without having to touch the PHP code.
+
+https://snuffleupagus.readthedocs.io/
