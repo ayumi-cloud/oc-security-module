@@ -17,7 +17,7 @@ Windows 8 | 1.1%
 Windows XP | 0.8%
 Windows Vista | 0.41%
 
-**Above:** Stats are taken from 2020,anything under 1% can be blocked off by the firewall. Over time `XP` and `Vista` will decrease, but will not go to zero as bad bots are still using these old user agents.
+**Above:** Stats are taken from 2020, anything under 1% can be blocked off by the firewall. Over time `XP` and `Vista` will decrease, but will not go to zero as bad bots are still using these old user agents.
 
 ## MICROSOFT WINDOWS OPERATING SYSTEMS FOR PCS
 
