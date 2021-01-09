@@ -109,7 +109,6 @@ Below is a list of operating systems the firewall can currently detect:
 
 Version | Alias
 ---|---
-- | NT
 5.0 | 2000
 5.1 | XP
 5.2 | Server 2003
@@ -137,15 +136,16 @@ Version | Alias
 
 ### Windows Mobile and Windows Phone
 
-Version | Alias
+OS | Version
 ---|---
-8.0 | 2
-7 | 1
-
-
-
-
-
+Windows Mobile | 8.0
+Windows Mobile | 7
+Windows Mobile | 6.5
+Windows Mobile | 
+Windows Mobile | 
+Windows Mobile | 
+Windows Mobile | 6.1
+Windows Mobile | 6.0
 
 
 
