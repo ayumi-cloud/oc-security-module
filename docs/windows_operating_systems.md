@@ -115,3 +115,37 @@ A mobile operating system for smartphones and mobile devices from Microsoft base
 A mobile operating system for smartphones and mobile devices that serves as the successor to Microsoft’s initial mobile OS platform system, Windows Mobile. Unlike Windows Mobile, Windows Phone 7 (also referred to as WinPhone7) is targeted more to the consumer market than the enterprise market, and it replaces the more traditional Microsoft Windows OS look and feel with a new "Metro" design system user interface.
 
 Windows Phone 7 features a multi-tab Internet Explorer Mobile Web browser that uses a rendering engine based on Internet Explorer 9 as well Microsoft Office Mobile, a version of Microsoft Office that s tailored for mobile devices. Its successors include Windows Phone 8 and Windows 10 Mobile.
+
+## WINDOWS SERVERS
+
+### WINDOWS SERVER 2003 (APRIL 2003)
+
+Windows Server 2003 is the follow-up to Windows 2000 Server, incorporating compatibility and other features from Windows XP.
+
+### WINDOWS SERVER 2003 R2 (DECEMBER 2005)
+
+Windows Server 2003 is a server operating system produced by Microsoft and released on April 24, 2003, about 18 months after the launch of the Windows XP operating system. It is the successor to Windows 2000 Server and the predecessor to Windows Server 2008.
+
+### WINDOWS SERVER 2008 (FEBRUARY 2008)
+
+Windows Server 2008 is the third version of the Windows Server operating system produced by Microsoft, based on Windows NT 6.0. It was released to manufacturing on February 4, 2008, and reached general availability on February 27, 2008, about 13 months after the launch of the Windows Vista operating system.
+
+### WINDOWS SERVER 2008 R2 (OCTOBER 2009)
+
+Windows Server 2008 R2 is the fourth version of the Windows Server operating system produced by Microsoft and released as part of the Windows NT family of operating systems. It was released to OEM hardware partners on July 22, 2009 and became generally available on October 22, that year.
+
+### WINDOWS SERVER 2012 (SEPTEMBER 2012)
+
+Windows Server 2012 is the fifth version of the Windows Server operating system by Microsoft, as part of the Windows NT family of operating systems. It is the server version of Windows based on Windows 8 and succeeds Windows 7-based Windows Server 2008 R2, released two years prior.
+
+### WINDOWS SERVER 2012 R2 (OCTOBER 2013)
+
+Windows Server 2012 R2 is the sixth version of the Windows Server server operating system by Microsoft, as part of the Windows NT family of operating systems. It was unveiled on June 3, 2013 at TechEd North America, and released on October 18 of the same year.
+
+### WINDOWS SERVER 2016 (SEPTEMBER 2016)
+
+Windows Server 2016 is the seventh release of the Windows Server server operating system developed by Microsoft as part of the Windows NT family of operating systems. It was developed concurrently with Windows 10 and is the successor to Windows Server 2012 R2. The first early preview version (Technical Preview) became available on October 1, 2014 together with the first technical preview of System Center.
+
+### WINDOWS SERVER 2019 (OCTOBER 2018)
+
+Windows Server 2019 is the latest version of the Windows Server server operating system by Microsoft, as part of the Windows NT family of operating systems, developed concurrently with Windows 10 version 1809.
