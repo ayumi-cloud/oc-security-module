@@ -321,7 +321,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>150</td>
             <td>n/a</td>
             <td>allowed</td>
-            <td>Example Yandex using Chromium, cleaned from firewall API (internal).</td>
+            <td>Example Yandex using Chromium version, cleaned from firewall API (internal).</td>
         </tr>
         <tr>
             <td colspan="7"><h3>App Details</h3></td>
