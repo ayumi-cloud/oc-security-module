@@ -13,7 +13,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <th>Long-task Limits</th>
             <th>Data type</th>
             <th>Extra</th>
-            <th>Allowed / Blocked</th>
+            <th>Allowed or Blocked</th>
             <th>Notes</th>
         </tr>
     </thead>
