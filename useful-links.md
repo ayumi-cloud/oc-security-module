@@ -161,8 +161,6 @@ https://www.bleepingcomputer.com/news/google/google-chrome-aims-to-make-browser-
 
 ### Double encode when escaping example
 
-https://github.com/octobercms/october/blob/master/modules/backend/formwidgets/CodeEditor.php#L181
-
 ```php
 $output = htmlentities($input, ENT_QUOTES | ENT_HTML5, 'UTF-8', true);
 ```
