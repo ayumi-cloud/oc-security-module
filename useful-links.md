@@ -467,6 +467,10 @@ https://www.w3schools.com/php/php_datatypes.asp
 
 https://tools.ietf.org/html/rfc7230#section-3.2.6
 
+### Regular expression POSIX
+
+https://en.wikipedia.org/wiki/Regular_expression#Character_classes
+
 ---
 
 ## Code Quality Testers
