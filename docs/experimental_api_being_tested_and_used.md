@@ -131,6 +131,12 @@ As for interoperability, we have other vendors on board with UA freezing, but no
 
 **Safari**: Shipped to some extent. Safari has attempted to completely freeze the UA string in the past, without providing an alternative mechanism. That got a lot of pushback, which resulted in somewhat reverting that decision. Nowadays, their UA string seems frozen, other than updates to the OS version and the browser major version.
 
+#### Chrome Flag
+
+```
+chrome://flags/#freeze-user-agent
+```
+
 ---
 
 ### The Lang Client Hint
