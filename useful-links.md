@@ -163,6 +163,7 @@ https://www.bleepingcomputer.com/news/google/google-chrome-aims-to-make-browser-
 
 ```php
 $output = htmlentities($input, ENT_QUOTES | ENT_HTML5, 'UTF-8', true);
+$output = htmlspecialchars($input, ENT_QUOTES | ENT_HTML5, 'UTF-8', true);
 ```
 
 https://www.w3schools.com/php/func_string_htmlentities.asp
