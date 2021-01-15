@@ -472,6 +472,10 @@ https://tools.ietf.org/html/rfc7230#section-3.2.6
 
 https://en.wikipedia.org/wiki/Regular_expression#Character_classes
 
+### Cloudflare headers
+
+https://support.cloudflare.com/hc/en-us/articles/200170986
+
 ---
 
 ## Code Quality Testers
