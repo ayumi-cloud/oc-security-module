@@ -176,7 +176,7 @@ https://blogs.bing.com/webmaster/december-2019/Announcing-future-user-agents-for
 
 https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0
 
-### Cralwer List
+### Crawler List
 
 https://udger.com/resources/ua-list/crawlers
 
