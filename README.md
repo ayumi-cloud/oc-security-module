@@ -101,6 +101,8 @@ The [framework module](https://github.com/ayumi-cloud/sc-framework-module) adds 
 
 This module has been optimized to work with php `7.4.x` and `8.x` versions - we recommend upgrading from any lower php version.
 
+> This module will not work with php below version 7.3
+
 **A full list of requirements to install Summer CMS, can be found here: [Summer CMS Requirements](https://github.com/ayumi-cloud/sc-main/blob/main/README.md#requirements-).**
 
 ## Machine Learning :computer:
