@@ -163,6 +163,16 @@ Mainly used to identify Ajax requests. Most JavaScript frameworks send this head
 X-Requested-With: XMLHttpRequest
 ```
 
+### X-Wap-Profile
+
+Links to an XML file on the Internet with a full description and details about the device currently connecting. In the example below there is an XML file for an AT&T Samsung Galaxy S2.
+
+#### Example
+
+```
+x-wap-profile: http://wap.samsungmobile.com/uaprof/SGH-I777.xml
+```
+
 ### Accept-Language
 
 Accept-Language specifies what language(s) the browser would prefer the response to be written in. You can specify multiple languages in a comma-delimited list using standard language tags, and each language can be given a quality value that indicates the user’s ability in those languages (this value defaults to 1 if not specified, which is the highest - the values range from 0 to 1.) For example, the actual example given at the bottom of this section means “I’d prefer to be sent old (bokmal) or new Norwegian, but I am also pretty good at English… I’ll also try French if you’ve not got the other two languages available, but I’m not very good at that.” If Accept-Language is not specified, then the server should assume that all languages are acceptable to the user.
