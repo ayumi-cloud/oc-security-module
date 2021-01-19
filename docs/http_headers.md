@@ -215,3 +215,7 @@ The headers that tend to store the real useragents are:
 ### IANA HTTP Headers
 
 Link: https://www.iana.org/assignments/message-headers/message-headers.xml
+
+### HTTP Response Headers
+
+Link: https://webtechsurvey.com/common-response-headers
