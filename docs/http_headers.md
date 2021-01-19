@@ -172,10 +172,15 @@ Accept-Language: no-bok, no-nyn, en;q=0.8, fr;q=0.4
 ---
 
 Header field names:
+
 X-Device-User-Agent (request header)
+
 X-Device-Accept (request header)
+
 X-Device-Accept-Charset (request header)
+
 X-Device-Accept-Encoding (request header)
+
 X-Device-Accept-Language (request header)
 
 https://github.com/FriendsOfREDAXO/useragent/blob/c233579cb4f29db6573edf597038584caaf2851f/vendor/Mobile_Detect.php#L583-L595
@@ -195,3 +200,14 @@ https://github.com/FriendsOfREDAXO/useragent/blob/c233579cb4f29db6573edf59703858
         'HTTP_X_UCBROWSER_DEVICE_UA'
     );
 ```
+
+The headers that tend to store the real useragents are:
+
+- **Opera Mini** - HTTP_X_OPERAMINI_PHONE_UA
+- **Opera Mini (legacy)** - HTTP_X_OPERAMINI_FEATURES
+- **Opera Mobile** - HTTP_DEVICE_STOCK_UA
+- **SkyFire Browser** - HTTP_X_SKYFIRE_PHONE
+- **Bolt Browser** - HTTP_X_BOLT_PHONE_UA
+- **UCBrowser** - HTTP_X_UCBROWSER_DEVICE_UA
+- **Common Browser Proxies** - HTTP_X_ORIGINAL_USER_AGENT
+- **Web Forms** - HTTP_X_DEVICE_USER_AGENT
