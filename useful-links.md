@@ -492,6 +492,10 @@ https://webtechsurvey.com/common-response-headers
 
 https://github.com/hoshsadiq/adblock-nocoin-list
 
+### HTTP Headers Database
+
+http://www.aqtronix.com/headers/?Action=ShowList
+
 ---
 
 ## Code Quality Testers
