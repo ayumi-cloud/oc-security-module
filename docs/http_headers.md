@@ -72,7 +72,7 @@ Device-Stock-UA: Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; myTouch4G Build/GR
 
 ### X-Original-User-Agent
 
-Another user agent header, not in offical iana spec.
+Another user agent header, not in official iana spec.
 
 #### Format
 
@@ -88,7 +88,7 @@ X-Original-User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; it-it)
 
 ### X-Device-User-Agent
 
-Another user agent header, not in offical iana spec.
+Another user agent header, not in official iana spec.
 
 #### Format
 
