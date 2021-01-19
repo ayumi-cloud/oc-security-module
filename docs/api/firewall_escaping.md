@@ -12,7 +12,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <th>Client-Side Protection</th>
             <th>Long-task Limits</th>
             <th>Data type</th>
-            <th>Extra</th>
+            <th>Progress</th>
             <th>Allowed or Blocked</th>
             <th>Notes</th>
         </tr>
@@ -27,9 +27,9 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>25</td>
             <td>string</td>
-            <td>uppercase</td>
+            <td>n/a</td>
             <td>both</td>
-            <td>Server blocks bad verbs only.</td>
+            <td>Server blocks bad verbs only. Set to uppercase.</td>
         </tr>
         <tr>
             <td>X-HTTP-Method</td>
@@ -96,7 +96,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -106,7 +106,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>200</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -116,7 +116,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>(object) string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -126,7 +126,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>(object) string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -139,9 +139,9 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
-            <td>Cleaned from Firewall API.</td>
+            <td>Cleaned from Firewall API. Using normalize.</td>
         </tr>
         <tr>
             <td>Model</td>
@@ -149,9 +149,9 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
-            <td>Cleaned from Firewall API.</td>
+            <td>Cleaned from Firewall API. Using normalize.</td>
         </tr>
         <tr>
             <td>Series</td>
@@ -159,9 +159,9 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
-            <td>Cleaned from Firewall API.</td>
+            <td>Cleaned from Firewall API. Using normalize.</td>
         </tr>
         <tr>
             <td>Carrier</td>
@@ -169,7 +169,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -179,7 +179,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -189,7 +189,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>25</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -199,7 +199,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>25</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -209,7 +209,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>10</td>
             <td>int</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -219,7 +219,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>10</td>
             <td>boolean</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -229,7 +229,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>10</td>
             <td>boolean</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -242,7 +242,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>25</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -252,9 +252,9 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>normalize</td>
+            <td>✔️</td>
             <td>allowed</td>
-            <td>Cleaned from Firewall API (external).</td>
+            <td>Cleaned from Firewall API (external). Using normalize.</td>
         </tr>
         <tr>
             <td>Channel</td>
@@ -262,7 +262,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -272,7 +272,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>250</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -282,7 +282,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Using semantic versioning spec (external).</td>
         </tr>
@@ -292,7 +292,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Using semantic versioning spec.</td>
         </tr>
@@ -302,7 +302,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Using semantic versioning spec.</td>
         </tr>
@@ -312,7 +312,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Using semantic versioning spec.</td>
         </tr>
@@ -322,7 +322,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Using semantic versioning spec.</td>
         </tr>
@@ -332,9 +332,9 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>(object) string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
-            <td>Example Yandex using Chromium, cleaned from firewall API (internal).</td>
+            <td>Example Yandex using Chromium, cleaned from firewall API (internal). Using normalize.</td>
         </tr>
         <tr>
             <td>Using Version</td>
@@ -342,7 +342,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>(object) string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Example Yandex using Chromium version, cleaned from firewall API (internal).</td>
         </tr>
@@ -350,12 +350,310 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td colspan="8"><h3>App Details</h3></td>
         </tr>
         <tr>
+            <td>Browser App Types</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>25</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Parser Module API.</td>
+        </tr>
+        <tr>
             <td>App Types</td>
             <td>❌</td>
             <td>✔️</td>
             <td>25</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td colspan="8"><h3>Client Hints User Agent API</h3></td>
+        </tr>
+        <tr>
+            <td>User Agent</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API and contains a custom parser.</td>
+        </tr>
+        <tr>
+            <td>User Agent Full Version</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>200</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Platform Architecture</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>250</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Model</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>250</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Platform Brand</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>250</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Platform Version</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>200</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Mobileness</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td colspan="8"><h3>Client Hints API</h3></td>
+        </tr>
+        <tr>
+            <td>Device Memory</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>float</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Downlink</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>25</td>
+            <td>float</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>DPR</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>25</td>
+            <td>float</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>ECT</td>
+            <td>❌️</td>
+            <td>✔️</td>
+            <td>25</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>RTT</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>25</td>
+            <td>float</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Viewport Width</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>25</td>
+            <td>float</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+         <tr>
+            <td>Save Data</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td colspan="8"><h3>Fetch Metadata Request API</h3></td>
+        </tr>
+        <tr>
+            <td>Sec-Fetch-Dest</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>25</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Sec-Fetch-Mode</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>25</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Sec-Fetch-Site</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>25</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Sec-Fetch-Site</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td colspan="8"><h3>Upgrade Insecure Requests API</h3></td>
+        </tr>
+        <tr>
+            <td>Upgrade Insecure Requests</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>25</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td colspan="8"><h3>CDN</h3></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td colspan="8"><h3>Cloudflare Status</h3></td>
+        </tr>
+        <tr>
+            <td>Cloudflare Request ID</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Cloudflare Railgun Connection ID</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Cloudflare Connecting IP Address</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Cloudflare Cache Status</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Cloudflare Connecting County of Origin</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Cloudflare Origin HTTPS Status</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Cloudflare HTTP Scheme</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>50</td>
+            <td>string</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
@@ -369,7 +667,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>1000</td>
             <td>string</td>
             <td>n/a</td>
-            <td>both</td>
+            <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
         <tr>
@@ -388,11 +686,9 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>10</td>
             <td>int</td>
-            <td>n/a</td>
+            <td>✔</td>
             <td>allowed</td>
-            <td>Using numbers only and cleaned leaving database only.</td>
+            <td>Cleaned from Firewall API.</td>
         </tr>
     </tbody>
 </table>
-
-=== TO DO (put in alphabetical order later) ===
