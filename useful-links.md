@@ -484,6 +484,10 @@ https://csp-evaluator.withgoogle.com/
 
 https://www.php.net/manual/en/language.types.intro.php
 
+### HTTP Response Headers
+
+https://webtechsurvey.com/common-response-headers
+
 ---
 
 ## Code Quality Testers
