@@ -658,10 +658,136 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
-            <td colspan="8"><h3>HTTP User-Agent</h3></td>
+            <td colspan="8"><h3>Main HTTP User-Agent</h3></td>
         </tr>
         <tr>
             <td>User Agent</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td colspan="8"><h3>Secondary HTTP User-Agents</h3></td>
+        </tr>
+        <tr>
+            <td><strong>Common Browser Proxies</strong><br>X-Original-User-Agent</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td><strong>Web Forms</strong><br>X-Device-User-Agent</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td><strong>Opera Mobile</strong><br>Device-Stock-UA</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td><strong>Opera Mini</strong><br>X-OperaMini-Phone-UA</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td><strong>UC Browser</strong><br>X-UCBrowser-Device-UA</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td colspan="8"><h3>Browser Specific HTTP User-Agents</h3></td>
+        </tr>
+        <tr>
+            <td><strong>Opera Mini Browser</strong><br>X-OperaMini-Phone</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td><strong>UC Browser</strong><br>X-UCBrowser-Phone-UA</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td><strong>UC Browser</strong><br>X-UCBrowser-UA</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td><strong>Puffin Browser</strong><br>X-Puffin-UA</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td><strong>Baidu Browser</strong><br>Baidu-FlyFlow</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td><strong>SkyFire Browser</strong><br>X-Skyfire-Phone</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td><strong>Bolt Browser</strong><br>X-Bolt-Phone-UA</td>
             <td>✔️</td>
             <td>✔️</td>
             <td>1000</td>
