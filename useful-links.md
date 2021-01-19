@@ -480,6 +480,10 @@ https://support.cloudflare.com/hc/en-us/articles/200170986
 
 https://csp-evaluator.withgoogle.com/
 
+### PHP Types
+
+https://www.php.net/manual/en/language.types.intro.php
+
 ---
 
 ## Code Quality Testers
