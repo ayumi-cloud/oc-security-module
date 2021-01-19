@@ -155,7 +155,7 @@ X-Forwarded-For: 127.0.0.1, 192.168.0.100, 195.189.143.147, 130.236.236.80
 
 ### X-Requested-With
 
-Mainly used to identify Ajax requests. Most JavaScript frameworks send this header with value of XMLHttpRequest
+Mainly used to identify Ajax requests. Most JavaScript frameworks send this header with value of XMLHttpRequest. Another use for this header is sending the Android's WebView id.
 
 #### Example
 
