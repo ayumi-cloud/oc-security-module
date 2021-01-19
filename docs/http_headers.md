@@ -211,3 +211,7 @@ The headers that tend to store the real useragents are:
 - **UCBrowser** - HTTP_X_UCBROWSER_DEVICE_UA
 - **Common Browser Proxies** - HTTP_X_ORIGINAL_USER_AGENT
 - **Web Forms** - HTTP_X_DEVICE_USER_AGENT
+
+### IANA HTTP Headers
+
+Link: https://www.iana.org/assignments/message-headers/message-headers.xml
