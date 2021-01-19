@@ -488,6 +488,10 @@ https://www.php.net/manual/en/language.types.intro.php
 
 https://webtechsurvey.com/common-response-headers
 
+### Block crypto miners
+
+https://github.com/hoshsadiq/adblock-nocoin-list
+
 ---
 
 ## Code Quality Testers
