@@ -72,7 +72,7 @@ Device-Stock-UA: Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; myTouch4G Build/GR
 
 ### X-Original-User-Agent
 
-x
+Another user agent header, not in offical iana spec.
 
 #### Format
 
@@ -88,7 +88,7 @@ X-Original-User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; it-it)
 
 ### X-Device-User-Agent
 
-x
+Another user agent header, not in offical iana spec.
 
 #### Format
 
@@ -102,15 +102,22 @@ X-Device-User-Agent: <user-agent>
 X-Device-User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; it-it) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.1 Safari/525.18
 ```
 
+### X-User-Agent
 
+The particular HTTP X-User-Agent header is often inserted by some independent messenger between the actual client and the server, like a proxy, loadbalancer, transcoder, etc, but also some XMLHttpRequest based libraries. It often identifies the messenger itself. The User-Agent header should still represent the actual client. You also see this header sometimes in emails, this then represents the email program/software responsible for sending the mail.
 
+#### Format
 
+```
+x-user-agent: <user-agent>
+```
 
+#### Example
 
-
-
-....
-
+```
+x-user-agent: desktop
+x-user-agent: standard
+```
 
 ### X-OperaMini-Phone
 
@@ -162,3 +169,29 @@ Accept-Language: <language tag> [;q=<quality value>], …
 Accept-Language: no-bok, no-nyn, en;q=0.8, fr;q=0.4
 ```
 
+---
+
+Header field names:
+X-Device-User-Agent (request header)
+X-Device-Accept (request header)
+X-Device-Accept-Charset (request header)
+X-Device-Accept-Encoding (request header)
+X-Device-Accept-Language (request header)
+
+https://github.com/FriendsOfREDAXO/useragent/blob/c233579cb4f29db6573edf597038584caaf2851f/vendor/Mobile_Detect.php#L583-L595
+
+```
+    protected static $uaHttpHeaders = array(
+        // The default User-Agent string.
+        'HTTP_USER_AGENT',
+        // Header can occur on devices using Opera Mini.
+        'HTTP_X_OPERAMINI_PHONE_UA',
+        // Vodafone specific header: http://www.seoprinciple.com/mobile-web-community-still-angry-at-vodafone/24/
+        'HTTP_X_DEVICE_USER_AGENT',
+        'HTTP_X_ORIGINAL_USER_AGENT',
+        'HTTP_X_SKYFIRE_PHONE',
+        'HTTP_X_BOLT_PHONE_UA',
+        'HTTP_DEVICE_STOCK_UA',
+        'HTTP_X_UCBROWSER_DEVICE_UA'
+    );
+```
