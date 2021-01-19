@@ -153,6 +153,16 @@ X-Forwarded-For: <IP address> *[ , <IP address> ]
 X-Forwarded-For: 127.0.0.1, 192.168.0.100, 195.189.143.147, 130.236.236.80
 ```
 
+### X-Requested-With
+
+Mainly used to identify Ajax requests. Most JavaScript frameworks send this header with value of XMLHttpRequest
+
+#### Example
+
+```
+X-Requested-With: XMLHttpRequest
+```
+
 ### Accept-Language
 
 Accept-Language specifies what language(s) the browser would prefer the response to be written in. You can specify multiple languages in a comma-delimited list using standard language tags, and each language can be given a quality value that indicates the user’s ability in those languages (this value defaults to 1 if not specified, which is the highest - the values range from 0 to 1.) For example, the actual example given at the bottom of this section means “I’d prefer to be sent old (bokmal) or new Norwegian, but I am also pretty good at English… I’ll also try French if you’ve not got the other two languages available, but I’m not very good at that.” If Accept-Language is not specified, then the server should assume that all languages are acceptable to the user.
