@@ -231,3 +231,7 @@ Link: https://www.iana.org/assignments/message-headers/message-headers.xml
 Link: https://webtechsurvey.com/common-response-headers
 
 Link: http://www.checkheaders.com/headers/
+
+### HTTP Headers Database
+
+http://www.aqtronix.com/headers/?Action=ShowList
