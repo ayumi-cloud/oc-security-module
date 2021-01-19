@@ -56,6 +56,58 @@ Will switch over to using the `Device-Stock-UA` header.
 
 ### Device-Stock-UA
 
+The goal of Device-Stock-UA is to help mobile site and application developers determine the device on which an HTTP client is running and adapt content accordingly. In mobile-centric web development, there’s a tension between the “One Web” philosophy and the realities of networks, protocols, device hardware, and user agent capabilities. We think that this header will lead to a better experience for Opera Mobile and Opera Mini users. And we think this can be useful for other user agents as well.
+
+#### Format
+
+```
+Device-Stock-UA: <user-agent>
+```
+
+#### Example
+
+```
+Device-Stock-UA: Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; myTouch4G Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+```
+
+### X-Original-User-Agent
+
+x
+
+#### Format
+
+```
+X-Original-User-Agent: <user-agent>
+```
+
+#### Example
+
+```
+X-Original-User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; it-it) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.1 Safari/525.18
+```
+
+### X-Device-User-Agent
+
+x
+
+#### Format
+
+```
+X-Device-User-Agent: <user-agent>
+```
+
+#### Example
+
+```
+X-Device-User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_4_11; it-it) AppleWebKit/525.18 (KHTML, like Gecko) Version/3.1.1 Safari/525.18
+```
+
+
+
+
+
+
+
 
 ....
 
