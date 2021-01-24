@@ -496,6 +496,10 @@ https://github.com/hoshsadiq/adblock-nocoin-list
 
 http://www.aqtronix.com/headers/?Action=ShowList
 
+### PHP URL Parse
+
+https://www.php.net/manual/en/function.parse-url.php
+
 ---
 
 ## Code Quality Testers
