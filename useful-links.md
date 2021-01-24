@@ -500,6 +500,10 @@ http://www.aqtronix.com/headers/?Action=ShowList
 
 https://www.php.net/manual/en/function.parse-url.php
 
+### List of URI schemes
+
+https://en.wikipedia.org/wiki/List_of_URI_schemes
+
 ---
 
 ## Code Quality Testers
