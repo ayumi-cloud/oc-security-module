@@ -1,4 +1,4 @@
-### Patch
+# Windows Patch
 
 Triggering the notification only requires that you visit a particular path on an NTFS volume.
 
