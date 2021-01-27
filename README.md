@@ -312,6 +312,7 @@ The security module in Summer CMS comes with lots of dedicated API's to help dev
 - [Firewall Language API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_language.md)
 - [Firewall Location API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_location.md)
 - [Firewall Operating Systems API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_operating_systems.md)
+- [Firewall Referrer Types API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_referrer_types.md)
 - [Firewall Requests API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_requests.md)
 - [Firewall Responses API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_responses.md)
 - [Firewall Response Scores API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_response_score.md)
