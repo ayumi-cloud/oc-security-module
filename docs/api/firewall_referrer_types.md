@@ -31,7 +31,7 @@ cache-yandex | Traffic through Yandex Cache.
 
 Value | Description
 ---|---
-proxy-startpage | Traffic Startpage Anonymous View.
+proxy-startpage | Traffic through Startpage Anonymous View.
 
 ### Translation Services
 
@@ -48,7 +48,14 @@ translator-youdao | Traffic through Youdao Translation.
 
 Value | Description
 ---|---
-
-
+messenger | Traffic through Facebook Messenger.
+facebook | Traffic through Facebook.
+twitter | Traffic through Twitter.
+tumblr | Traffic through Tumblr.
+youtube | Traffic through YouTube.
+vk | Traffic through VK.
+yelp | Traffic through Yelp.
+tripadvisor | Traffic through TripAdvisor.
+odnoklassniki | Traffic through Odnoklassniki.
 
 (*) Subject to adding more values (referrer platforms) and firewall modules being created, to add more features to the cms.
