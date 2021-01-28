@@ -304,7 +304,7 @@ Last Updated: 29th Sep 2020
   
 ## Summer CMS Firewall API's 🔥
 
-The security module in Summer CMS comes with lots of dedicated API's to help developers, below is a brief list:
+The security module in Summer CMS comes with lots of dedicated API's to help developers:
 
 - [Firewall APP Types API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_app_types.md)
 - [Firewall Browser Types API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_browser_types.md)
@@ -321,6 +321,12 @@ The security module in Summer CMS comes with lots of dedicated API's to help dev
 - [Firewall Social Media API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_social.md)
 
 (*) Note: The firewall is built in a modular design and more modules are being coded and tested as time goes on. There will be new api's added and the doc's will get updated. To suggest a new firewall feature open an issue.
+
+The security module also uses with the following api's from other Summer CMS modules:
+
+- [Developer Validating and Sanitizing API](https://github.com/ayumi-cloud/sc-developer-module/blob/main/docs/api/developer_sanitizing_and_validating.md)
+
+(*) Note: As time goes on more modules and api's will be added to the list to expand more features to the security module.
 
 ## Issues 🔨
 
