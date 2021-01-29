@@ -20,6 +20,7 @@ goodBot | Good bots to be whitelisted.
 hacking | Attempts to probe or exploit the cms or installed web applications.
 human | User is a human (not a robot).
 iotTargeted | Abuse was targeted at an "Internet of Things" type device.
+oldOs | Using an old operating system.
 openProxy | Open proxy, open relay, vpn or Tor exit node.
 phishing | Phishing websites and/or email.
 pingDeath | Oversized IP packet.
