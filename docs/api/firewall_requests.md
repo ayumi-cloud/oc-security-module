@@ -109,6 +109,7 @@ osName | A string containing the name of the operating system, for example `Wind
 osFullName | A string containing the name of the operating system, for example `Windows Mobile` - outputting the name and the alias/edition.
 osVersion | A string containing the original version number of the operating system, for example `Windows 5.1` would be `5.1` - outputting the version number.
 osFullVersion | A string containing the original version number of the operating system, for example `Windows 5.1` would be `XP` - outputting the alias/edition.
+oldOs | Flag an old operating system. It's easier to use older operating systems when doing pen testing and hacking due to older operating systems are less secure! It's a good idea to block block operating systems that have reached their end-of-life (EOL).
 
 For a full list of supported operating systems see here: [firewall operating systems](https://github.com/ayumi-cloud/oc2-security-module/blob/master/docs/api/Firewall_operating_systems.md)
 
