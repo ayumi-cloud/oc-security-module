@@ -30,6 +30,8 @@ scanningTool | Known pen testing, seo tool, you can limit the access to these to
 spoofing | Email sender spoofing.
 sqlInjection | Attempts at SQL injection.
 ssh | Secure Shell (SSH) abuse.
+urlRefererMalformed | Malformed referer url.
+urlRequestMalformed | Malformed request url.
 webSpam | Comment/forum spam, HTTP referer spam, or other CMS spam.
 
 ### Other Firewall Response Codes
