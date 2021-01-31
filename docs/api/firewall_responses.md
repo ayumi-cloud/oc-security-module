@@ -12,6 +12,7 @@ bruteForce | Credential brute-force attacks on webpage logins and services like 
 ddosAttack | Participating in distributed denial-of-service (usually part of botnet).
 dnsPoisoning | Falsifying domain server cache (cache poisoning).
 emailSpam | Spam email content, infected attachments and phishing emails.
+evilPath | File inclusion strings that can allow users to pull in files that should not be a part of a web server.
 exploitedHost | Host is likely infected with malware and being used for other attacks or to host malicious content.
 fakeBot | The fake bot has a real user agent but comes from a non-official server location.
 fraudOrders | Fraudulent orders.
