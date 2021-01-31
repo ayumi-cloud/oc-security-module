@@ -504,6 +504,10 @@ https://www.php.net/manual/en/function.parse-url.php
 
 https://en.wikipedia.org/wiki/List_of_URI_schemes
 
+### Knowledgebase
+
+https://docs.imperva.com/bundle/on-premises-knowledgebase-reference-guide/page/74186.htm
+
 ---
 
 ## Code Quality Testers
