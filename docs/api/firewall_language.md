@@ -1,6 +1,6 @@
-## Firewall Language
+## Firewall Language API
 
-The firewall uses the following ISO Language api.
+The firewall uses the following ISO Language values.
 
 Value | Name
 ---|---
