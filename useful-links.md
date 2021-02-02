@@ -508,6 +508,10 @@ https://en.wikipedia.org/wiki/List_of_URI_schemes
 
 https://docs.imperva.com/bundle/on-premises-knowledgebase-reference-guide/page/74186.htm
 
+### IANA Language
+
+https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+
 ---
 
 ## Code Quality Testers
