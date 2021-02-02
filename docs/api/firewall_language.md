@@ -5,241 +5,241 @@ The firewall uses the following ISO Language values.
 Value | Name
 ---|---
 af | Afrikaans
-af-ZA | Afrikaans (South Africa)
+af_za | Afrikaans (South Africa)
 ar | Arabic
-ar-AE | Arabic (U.A.E.)
-ar-BH | Arabic (Bahrain)
-ar-DZ | Arabic (Algeria)
-ar-EG | Arabic (Egypt)
-ar-IQ | Arabic (Iraq)
-ar-JO | Arabic (Jordan)
-ar-KW | Arabic (Kuwait)
-ar-LB | Arabic (Lebanon)
-ar-LY | Arabic (Libya)
-ar-MA | Arabic (Morocco)
-ar-OM | Arabic (Oman)
-ar-QA | Arabic (Qatar)
-ar-SA | Arabic (Saudi Arabia)
-ar-SY | Arabic (Syria)
-ar-TN | Arabic (Tunisia)
-ar-YE | Arabic (Yemen)
+ar_ae | Arabic (U.A.E.)
+ar_bh | Arabic (Bahrain)
+ar_dz | Arabic (Algeria)
+ar_eg | Arabic (Egypt)
+ar_iq | Arabic (Iraq)
+ar_jo | Arabic (Jordan)
+ar_kw | Arabic (Kuwait)
+ar_lb | Arabic (Lebanon)
+ar_ly | Arabic (Libya)
+ar_ma | Arabic (Morocco)
+ar_om | Arabic (Oman)
+ar_qa | Arabic (Qatar)
+ar_sa | Arabic (Saudi Arabia)
+ar_sy | Arabic (Syria)
+ar_tn | Arabic (Tunisia)
+ar_ye | Arabic (Yemen)
 az | Azeri (Latin)
-az-AZ | Azeri (Latin) (Azerbaijan)
-az-AZ | Azeri (Cyrillic) (Azerbaijan)
+az_az | Azeri (Latin) (Azerbaijan)
+az_az | Azeri (Cyrillic) (Azerbaijan)
 be | Belarusian
-be-BY | Belarusian (Belarus)
+be_by | Belarusian (Belarus)
 bg | Bulgarian
-bg-BG | Bulgarian (Bulgaria)
-bs-BA | Bosnian (Bosnia and Herzegovina)
+bg_bg | Bulgarian (Bulgaria)
+bs_ba | Bosnian (Bosnia and Herzegovina)
 ca | Catalan
-ca-ES | Catalan (Spain)
+ca_es | Catalan (Spain)
 cs | Czech
-cs-CZ | Czech (Czech Republic)
+cs_cz | Czech (Czech Republic)
 cy | Welsh
-cy-GB | Welsh (United Kingdom)
+cy_gb | Welsh (United Kingdom)
 da | Danish
-da-DK | Danish (Denmark)
+da_dk | Danish (Denmark)
 de | German
-de-AT | German (Austria)
-de-CH | German (Switzerland)
-de-DE | German (Germany)
-de-LI | German (Liechtenstein)
-de-LU | German (Luxembourg)
+de_at | German (Austria)
+de_ch | German (Switzerland)
+de_de | German (Germany)
+de_li | German (Liechtenstein)
+de_lu | German (Luxembourg)
 dv | Divehi
-dv-MV | Divehi (Maldives)
+dv_mv | Divehi (Maldives)
 el | Greek
-el-GR | Greek (Greece)
+el_gr | Greek (Greece)
 en | English
-en-AU | English (Australia)
-en-BZ | English (Belize)
-en-CA | English (Canada)
-en-CB | English (Caribbean)
-en-GB | English (United Kingdom)
-en-IE | English (Ireland)
-en-JM | English (Jamaica)
-en-NZ | English (New Zealand)
-en-PH | English (Republic of the Philippines)
-en-TT | English (Trinidad and Tobago)
-en-US | English (United States)
-en-ZA | English (South Africa)
-en-ZW | English (Zimbabwe)
+en_au | English (Australia)
+en_bz | English (Belize)
+en_ca | English (Canada)
+en_cb | English (Caribbean)
+en_gb | English (United Kingdom)
+en_ie | English (Ireland)
+en_jm | English (Jamaica)
+en_nz | English (New Zealand)
+en_ph | English (Republic of the Philippines)
+en_tt | English (Trinidad and Tobago)
+en_us | English (United States)
+en_za | English (South Africa)
+en_zw | English (Zimbabwe)
 eo | Esperanto
 es | Spanish
-es-AR | Spanish (Argentina)
-es-BO | Spanish (Bolivia)
-es-CL | Spanish (Chile)
-es-CO | Spanish (Colombia)
-es-CR | Spanish (Costa Rica)
-es-DO | Spanish (Dominican Republic)
-es-EC | Spanish (Ecuador)
-es-ES | Spanish (Castilian)
-es-ES | Spanish (Spain)
-es-GT | Spanish (Guatemala)
-es-HN | Spanish (Honduras)
-es-MX | Spanish (Mexico)
-es-NI | Spanish (Nicaragua)
-es-PA | Spanish (Panama)
-es-PE | Spanish (Peru)
-es-PR | Spanish (Puerto Rico)
-es-PY | Spanish (Paraguay)
-es-SV | Spanish (El Salvador)
-es-UY | Spanish (Uruguay)
-es-VE | Spanish (Venezuela)
+es_ar | Spanish (Argentina)
+es_bo | Spanish (Bolivia)
+es_cl | Spanish (Chile)
+es_co | Spanish (Colombia)
+es_cr | Spanish (Costa Rica)
+es_do | Spanish (Dominican Republic)
+es_ec | Spanish (Ecuador)
+es_es | Spanish (Castilian)
+es_es | Spanish (Spain)
+es_gt | Spanish (Guatemala)
+es_hn | Spanish (Honduras)
+es_mx | Spanish (Mexico)
+es_ni | Spanish (Nicaragua)
+es_pa | Spanish (Panama)
+es_pe | Spanish (Peru)
+es_pr | Spanish (Puerto Rico)
+es_py | Spanish (Paraguay)
+es_sv | Spanish (El Salvador)
+es_uy | Spanish (Uruguay)
+es_ve | Spanish (Venezuela)
 et | Estonian
-et-EE | Estonian (Estonia)
+et_ee | Estonian (Estonia)
 eu | Basque
-eu-ES | Basque (Spain)
+eu_es | Basque (Spain)
 fa | Farsi
-fa-IR | Farsi (Iran)
+fa_ir | Farsi (Iran)
 fi | Finnish
-fi-FI | Finnish (Finland)
+fi_fi | Finnish (Finland)
 fo | Faroese
-fo-FO | Faroese (Faroe Islands)
+fo_fo | Faroese (Faroe Islands)
 fr | French
-fr-BE | French (Belgium)
-fr-CA | French (Canada)
-fr-CH | French (Switzerland)
-fr-FR | French (France)
-fr-LU | French (Luxembourg)
-fr-MC | French (Principality of Monaco)
+fr_be | French (Belgium)
+fr_ca | French (Canada)
+fr_ch | French (Switzerland)
+fr_fr | French (France)
+fr_lu | French (Luxembourg)
+fr_mc | French (Principality of Monaco)
 gl | Galician
-gl-ES | Galician (Spain)
+gl_es | Galician (Spain)
 gu | Gujarati
-gu-IN | Gujarati (India)
+gu_in | Gujarati (India)
 he | Hebrew
-he-IL | Hebrew (Israel)
+he_il | Hebrew (Israel)
 hi | Hindi
-hi-IN | Hindi (India)
+hi_in | Hindi (India)
 hr | Croatian
-hr-BA | Croatian (Bosnia and Herzegovina)
-hr-HR | Croatian (Croatia)
+hr_ba | Croatian (Bosnia and Herzegovina)
+hr_hr | Croatian (Croatia)
 hu | Hungarian
-hu-HU | Hungarian (Hungary)
+hu_hu | Hungarian (Hungary)
 hy | Armenian
-hy-AM | Armenian (Armenia)
+hy_am | Armenian (Armenia)
 id | Indonesian
-id-ID | Indonesian (Indonesia)
+id_id | Indonesian (Indonesia)
 is | Icelandic
-is-IS | Icelandic (Iceland)
+is_is | Icelandic (Iceland)
 it | Italian
-it-CH | Italian (Switzerland)
-it-IT | Italian (Italy)
+it_ch | Italian (Switzerland)
+it_it | Italian (Italy)
 ja | Japanese
-ja-JP | Japanese (Japan)
+ja_jp | Japanese (Japan)
 ka | Georgian
-ka-GE | Georgian (Georgia)
+ka_ge | Georgian (Georgia)
 kk | Kazakh
-kk-KZ | Kazakh (Kazakhstan)
+kk_kz | Kazakh (Kazakhstan)
 kn | Kannada
-kn-IN | Kannada (India)
+kn_in | Kannada (India)
 ko | Korean
-ko-KR | Korean (Korea)
-kok | Konkani
-kok-IN | Konkani (India)
+ko_kr | Korean (Korea)
+kok'    => 'Konkani
+kok_in' => 'Konkani (India)
 ky | Kyrgyz
-ky-KG | Kyrgyz (Kyrgyzstan)
+ky_kg | Kyrgyz (Kyrgyzstan)
 lt | Lithuanian
-lt-LT | Lithuanian (Lithuania)
+lt_lt | Lithuanian (Lithuania)
 lv | Latvian
-lv-LV | Latvian (Latvia)
+lv_lv | Latvian (Latvia)
 mi | Maori
-mi-NZ | Maori (New Zealand)
+mi_nz | Maori (New Zealand)
 mk | FYRO Macedonian
-mk-MK | FYRO Macedonian (Former Yugoslav Republic of Macedonia)
+mk_mk | FYRO Macedonian (Former Yugoslav Republic of Macedonia)
 mn | Mongolian
-mn-MN | Mongolian (Mongolia)
+mn_mn | Mongolian (Mongolia)
 mr | Marathi
-mr-IN | Marathi (India)
+mr_in | Marathi (India)
 ms | Malay
-ms-BN | Malay (Brunei Darussalam)
-ms-MY | Malay (Malaysia)
+ms_bn | Malay (Brunei Darussalam)
+ms_my | Malay (Malaysia)
 mt | Maltese
-mt-MT | Maltese (Malta)
+mt_mt | Maltese (Malta)
 nb | Norwegian (Bokm?l)
-nb-NO | Norwegian (Bokm?l) (Norway)
+nb_no | Norwegian (Bokm?l) (Norway)
 nl | Dutch
-nl-BE | Dutch (Belgium)
-nl-NL | Dutch (Netherlands)
-nn-NO | Norwegian (Nynorsk) (Norway)
+nl_be | Dutch (Belgium)
+nl_nl | Dutch (Netherlands)
+nn_no | Norwegian (Nynorsk) (Norway)
 ns | Northern Sotho
-ns-ZA | Northern Sotho (South Africa)
+ns_za | Northern Sotho (South Africa)
 pa | Punjabi
-pa-IN | Punjabi (India)
+pa_in | Punjabi (India)
 pl | Polish
-pl-PL | Polish (Poland)
+pl_pl | Polish (Poland)
 ps | Pashto
-ps-AR | Pashto (Afghanistan)
+ps_ar | Pashto (Afghanistan)
 pt | Portuguese
-pt-BR | Portuguese (Brazil)
-pt-PT | Portuguese (Portugal)
+pt_br | Portuguese (Brazil)
+pt_pt | Portuguese (Portugal)
 qu | Quechua
-qu-BO | Quechua (Bolivia)
-qu-EC | Quechua (Ecuador)
-qu-PE | Quechua (Peru)
+qu_bo | Quechua (Bolivia)
+qu_ec | Quechua (Ecuador)
+qu_pe | Quechua (Peru)
 ro | Romanian
-ro-RO | Romanian (Romania)
+ro_ro | Romanian (Romania)
 ru | Russian
-ru-RU | Russian (Russia)
+ru_ru | Russian (Russia)
 sa | Sanskrit
-sa-IN | Sanskrit (India)
+sa_in | Sanskrit (India)
 se | Sami (Northern)
-se-FI | Sami (Northern) (Finland)
-se-FI | Sami (Skolt) (Finland)
-se-FI | Sami (Inari) (Finland)
-se-NO | Sami (Northern) (Norway)
-se-NO | Sami (Lule) (Norway)
-se-NO | Sami (Southern) (Norway)
-se-SE | Sami (Northern) (Sweden)
-se-SE | Sami (Lule) (Sweden)
-se-SE | Sami (Southern) (Sweden)
+se_fi | Sami (Northern) (Finland)
+se_fi | Sami (Skolt) (Finland)
+se_fi | Sami (Inari) (Finland)
+se_no | Sami (Northern) (Norway)
+se_no | Sami (Lule) (Norway)
+se_no | Sami (Southern) (Norway)
+se_se | Sami (Northern) (Sweden)
+se_se | Sami (Lule) (Sweden)
+se_se | Sami (Southern) (Sweden)
 sk | Slovak
-sk-SK | Slovak (Slovakia)
+sk_sk | Slovak (Slovakia)
 sl | Slovenian
-sl-SI | Slovenian (Slovenia)
+sl_si | Slovenian (Slovenia)
 sq | Albanian
-sq-AL | Albanian (Albania)
-sr-BA | Serbian (Latin) (Bosnia and Herzegovina)
-sr-BA | Serbian (Cyrillic) (Bosnia and Herzegovina)
-sr-SP | Serbian (Latin) (Serbia and Montenegro)
-sr-SP | Serbian (Cyrillic) (Serbia and Montenegro)
+sq_al | Albanian (Albania)
+sr_ba | Serbian (Latin) (Bosnia and Herzegovina)
+sr_ba | Serbian (Cyrillic) (Bosnia and Herzegovina)
+sr_sp | Serbian (Latin) (Serbia and Montenegro)
+sr_sp | Serbian (Cyrillic) (Serbia and Montenegro)
 sv | Swedish
-sv-FI | Swedish (Finland)
-sv-SE | Swedish (Sweden)
+sv_fi | Swedish (Finland)
+sv_se | Swedish (Sweden)
 sw | Swahili
-sw-KE | Swahili (Kenya)
-syr | Syriac
-syr-SY | Syriac (Syria)
+sw_ke | Swahili (Kenya)
+syr'    => 'Syriac
+syr_sy' => 'Syriac (Syria)
 ta | Tamil
-ta-IN | Tamil (India)
+ta_in | Tamil (India)
 te | Telugu
-te-IN | Telugu (India)
+te_in | Telugu (India)
 th | Thai
-th-TH | Thai (Thailand)
+th_th | Thai (Thailand)
 tl | Tagalog
-tl-PH | Tagalog (Philippines)
+tl_ph | Tagalog (Philippines)
 tn | Tswana
-tn-ZA | Tswana (South Africa)
+tn_za | Tswana (South Africa)
 tr | Turkish
-tr-TR | Turkish (Turkey)
+tr_tr | Turkish (Turkey)
 tt | Tatar
-tt-RU | Tatar (Russia)
+tt_ru | Tatar (Russia)
 ts | Tsonga
 uk | Ukrainian
-uk-UA | Ukrainian (Ukraine)
+uk_ua | Ukrainian (Ukraine)
 ur | Urdu
-ur-PK | Urdu (Islamic Republic of Pakistan)
+ur_pk | Urdu (Islamic Republic of Pakistan)
 uz | Uzbek (Latin)
-uz-UZ | Uzbek (Latin) (Uzbekistan)
-uz-UZ | Uzbek (Cyrillic) (Uzbekistan)
+uz_uz | Uzbek (Latin) (Uzbekistan)
+uz_uz | Uzbek (Cyrillic) (Uzbekistan)
 vi | Vietnamese
-vi-VN | Vietnamese (Viet Nam)
+vi_vn | Vietnamese (Viet Nam)
 xh | Xhosa
-xh-ZA | Xhosa (South Africa)
+xh_za | Xhosa (South Africa)
 zh | Chinese
-zh-CN | Chinese (S)
-zh-HK | Chinese (Hong Kong)
-zh-MO | Chinese (Macau)
-zh-SG | Chinese (Singapore)
-zh-TW | Chinese (T)
+zh_cn | Chinese (S)
+zh_hk | Chinese (Hong Kong)
+zh_mo | Chinese (Macau)
+zh_sg | Chinese (Singapore)
+zh_tw | Chinese (T)
 zu | Zulu
-zu-ZA | Zulu (South Africa)
+zu_za | Zulu (South Africa)
