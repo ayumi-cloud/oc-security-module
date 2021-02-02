@@ -134,8 +134,8 @@ kn | Kannada
 kn_in | Kannada (India)
 ko | Korean
 ko_kr | Korean (Korea)
-kok'    => 'Konkani
-kok_in' => 'Konkani (India)
+kok | Konkani
+kok_in | Konkani (India)
 ky | Kyrgyz
 ky_kg | Kyrgyz (Kyrgyzstan)
 lt | Lithuanian
@@ -207,8 +207,8 @@ sv_fi | Swedish (Finland)
 sv_se | Swedish (Sweden)
 sw | Swahili
 sw_ke | Swahili (Kenya)
-syr'    => 'Syriac
-syr_sy' => 'Syriac (Syria)
+syr | Syriac
+syr_sy | Syriac (Syria)
 ta | Tamil
 ta_in | Tamil (India)
 te | Telugu
