@@ -5,6 +5,7 @@
 Value | Description
 ---|---
 badBot | Bad bots to be blacklisted.
+badHeader | Block bad http header.
 badHosting | Bad bot blocked from a hosting company, real users come from isp's.
 blogSpam | CMS blog comment spam.
 botNet | A botnet is a number of Internet-connected devices, each of which is running one or more bots.
