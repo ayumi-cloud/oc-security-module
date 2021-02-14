@@ -319,6 +319,7 @@ The security module in Summer CMS comes with lots of dedicated API's to help dev
 - [Firewall Responses API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_responses.md)
 - [Firewall Response Scores API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_response_score.md)
 - [Firewall Social Media API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_social.md)
+- [Firewall URI Schemes API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_uri_schemes.md)
 
 (*) Note: The firewall is built in a modular design and more modules are being coded and tested as time goes on. There will be new api's added and the doc's will get updated. To suggest a new firewall feature open an issue.
 
