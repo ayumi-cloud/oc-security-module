@@ -1,6 +1,6 @@
 ## Firewall URI Schemes
 
-xxx
+Below is a whitelist of uri schemes the firewall has in it's definitions files.
 
 - aaa
 - aaas
