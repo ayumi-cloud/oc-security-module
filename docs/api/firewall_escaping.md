@@ -164,12 +164,6 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>allowed</td>
             <td>Cleaned from Firewall API, blocked missing and incorrect ip addresses.</td>
         </tr>
-        
-        
-        
-        
-        
-        
         <tr>
             <td colspan="8"><h3>HTTP Requests</h3></td>
         </tr>
@@ -382,20 +376,6 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>allowed</td>
             <td>Cleaned from Firewall API. Block non 443 ports in production mode.</td>
         </tr>
-
-
-
-
-X_FORWARDED_PORT
-
-
-        
-
-  
-    const HEADER_X_FORWARDED_HOST = 0b000100;
-    const HEADER_X_FORWARDED_PREFIX = 0b100000;
-
-        
         <tr>
             <td colspan="8"><h3>HTTP Responses</h3></td>
         </tr>
@@ -422,10 +402,6 @@ X_FORWARDED_PORT
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
-        
-        social method api
-        
-        
         <tr>
             <td colspan="8"><h3>Operating Systems Details</h3></td>
         </tr>
