@@ -25,11 +25,11 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Request Method HTTP Header</td>
             <td>✔️</td>
             <td>✔️</td>
-            <td>25</td>
+            <td>10</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>both</td>
-            <td>Server blocks bad verbs only. Set to uppercase.</td>
+            <td>Server allows Laravel/Symfony verbs only, can be overwritten on `POST` only.</td>
         </tr>
         <tr>
             <td>X-HTTP-Method</td>
@@ -37,7 +37,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>n/a</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>blocked</td>
             <td>Blocked by default, can turn on in settings.</td>
         </tr>
@@ -47,7 +47,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>n/a</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>blocked</td>
             <td>Blocked by default, can turn on in settings.</td>
         </tr>
@@ -57,10 +57,119 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>n/a</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>blocked</td>
             <td>Blocked by default, can turn on in settings.</td>
         </tr>
+        <tr>
+            <td colspan="8"><h3>IP Address</h3></td>
+        </tr>
+        <tr>
+            <td>X-Forwarded-All</td>
+            <td>❌</td>
+            <td>❌</td>
+            <td>n/a</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>blocked</td>
+            <td>Blocked by default, can turn on in settings.</td>
+        </tr> 
+        <tr>
+            <td>X-Client-Ip</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API, blocked missing and incorrect ip addresses.</td>
+        </tr>
+        <tr>
+            <td>X-Debug-Remote-Ip</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API, blocked missing and incorrect ip addresses.</td>
+        </tr>
+        <tr>
+            <td>X-Forwarded-Aws-Elb</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API, blocked missing and incorrect ip addresses.</td>
+        </tr>
+        <tr>
+            <td>X-Forwarded-Traefik</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API, blocked missing and incorrect ip addresses.</td>
+        </tr>
+        <tr>
+            <td>X-Real-Ip</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API, blocked missing and incorrect ip addresses.</td>
+        </tr>
+        <tr>
+            <td>X-Forwarded-For</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API, blocked missing and incorrect ip addresses.</td>
+        </tr>
+        <tr>
+            <td><strong>Users remote ip address</strong><br>REMOTE_ADDR</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API, blocked missing and incorrect ip addresses.</td>
+        </tr>
+        <tr>
+            <td><strong>Server (real) ip address</strong><br>SERVER_ADDR</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API, blocked missing and incorrect ip addresses.</td>
+        </tr>
+        <tr>
+            <td><strong>Proxy ip address</strong><br>DNS IP</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API, blocked missing and incorrect ip addresses.</td>
+        </tr>
+        
+        
+        
+        
+        
+        
         <tr>
             <td colspan="8"><h3>HTTP Requests</h3></td>
         </tr>
@@ -72,8 +181,221 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>string</td>
             <td>n/a</td>
             <td>allowed</td>
-            <td>Using Laravel API.</td>
+            <td>Using Laravel API, cleaned from Firewall API, block evil paths and host header attacks.</td>
         </tr>
+        <tr>
+            <td colspan="8"><h3>HTTP Secure Requests X-Headers</h3></td>
+        </tr>
+        <tr>
+            <td>Cf-Origin-Https</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>Front-End-Https</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>Http-X-Scheme</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>Sbgi-Protocol</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>X-Cf-Passed-Proto</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>X-Forwarded-Https</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>X-Forwarded-Proto</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>X-Forwarded-Protocol</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>X-Forwarded-Ssl</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>X-Https-Protocol</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>X-This-Proto</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>X-Ua-Prot</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>X-Url-Scheme</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>X-Urlscheme</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>X-Https</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td colspan="8"><h3>Apache HTTPS Requests</h3></td>
+        </tr>
+        <tr>
+            <td>HTTPS</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>REDIRECT_HTTPS</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td>REQUEST_SCHEME</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
+        </tr>
+        <tr>
+            <td colspan="8"><h3>Apache Port Number</h3></td>
+        </tr>
+        <tr>
+            <td>SERVER_PORT</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>int</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block non 443 ports in production mode.</td>
+        </tr>
+
+
+
+
+X_FORWARDED_PORT
+
+
+        
+
+  
+    const HEADER_X_FORWARDED_HOST = 0b000100;
+    const HEADER_X_FORWARDED_PREFIX = 0b100000;
+
+        
         <tr>
             <td colspan="8"><h3>HTTP Responses</h3></td>
         </tr>
@@ -85,8 +407,25 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>string</td>
             <td>n/a</td>
             <td>allowed</td>
-            <td>Using Laravel API.</td>
+            <td>Using Laravel API, cleaned from Firewall API and block evil paths.</td>
         </tr>
+        <tr>
+            <td colspan="8"><h3>Referer Type API</h3></td>
+        </tr>
+        <tr>
+            <td>Referer Type</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        
+        social method api
+        
+        
         <tr>
             <td colspan="8"><h3>Operating Systems Details</h3></td>
         </tr>
@@ -666,7 +1005,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
@@ -679,7 +1018,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
@@ -689,7 +1028,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
@@ -699,7 +1038,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
@@ -709,7 +1048,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
@@ -719,7 +1058,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
@@ -732,7 +1071,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
@@ -742,7 +1081,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
@@ -752,7 +1091,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
@@ -762,7 +1101,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
@@ -772,7 +1111,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
@@ -782,7 +1121,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
         </tr>
@@ -792,9 +1131,22 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>1000</td>
             <td>string</td>
-            <td>n/a</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Multiple checks</td>
+        </tr>
+        <tr>
+            <td colspan="8"><h3>Language HTTP Headers</h3></td>
+        </tr>
+        <tr>
+            <td>Accept-Language</td>
+            <td>✔️</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Multiple checks and converted to lowercase iso standard codes.</td>
         </tr>
         <tr>
             <td>x</td>
@@ -812,7 +1164,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>10</td>
             <td>int</td>
-            <td>✔</td>
+            <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
