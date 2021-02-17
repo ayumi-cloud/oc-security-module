@@ -25,7 +25,7 @@ human | User is a human (not a robot).
 iotTargeted | Abuse was targeted at an "Internet of Things" type device.
 openProxy | Open proxy, open relay, vpn or Tor exit node.
 phishing | Phishing websites and/or email.
-pingDeath | Oversized ip packet, bad or missing ip address or mac address. 
+pingDeath | Oversized ip packet, bad or missing ip or mac address. 
 portScan | Scanning for open ports and vulnerable services.
 probing | Site scanning/probing is the main technique attackers use to gather as much information as possible about a Web application and the supporting infrastructure.
 refererTool | Referer tools, e.g. search engine cached pages, translation pages etc, see "referer" module for more details.
