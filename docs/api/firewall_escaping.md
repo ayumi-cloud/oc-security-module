@@ -364,6 +364,29 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Cleaned from Firewall API. Block insecure requests in production mode.</td>
         </tr>
         <tr>
+            <td colspan="8"><h3>Port Number X-Headers</h3></td>
+        </tr>
+        <tr>
+            <td>X-Firewall-Port</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>int</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block non 443 ports in production mode.</td>
+        </tr>
+        <tr>
+            <td>X-Forwarded-Port</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>int</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Block non 443 ports in production mode.</td>
+        </tr>
+        <tr>
             <td colspan="8"><h3>Apache Port Number</h3></td>
         </tr>
         <tr>
