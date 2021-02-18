@@ -15,15 +15,7 @@ Below lists the firewall responses api:
         <tr>
             <td>botHuman</td>
             <td>string</td>
-            <td>
-                <ul>
-                    <li>badBot</li>
-                    <li>botNet</li>
-                    <li>fakeBot</li>
-                    <li>goodBot</li>
-                    <li>human</li>
-                </ul>
-            </td>
+            <td>`badBot`<br>`botNet`<br>`fakeBot`<br>`goodBot`<br>`human`</td>
             <td>
                 <ul>
                     <li>Bad bots to be blacklisted.</li>
