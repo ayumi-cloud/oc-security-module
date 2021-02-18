@@ -26,10 +26,10 @@ Below lists the firewall responses api:
                 </ul>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>badHeader</td>
+            <td>string</td>
+            <td>=== TO DO === <br>Add list</td>
+            <td>Block oversized, malformed, bad or missing http or server headers.</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -43,7 +43,9 @@ Below lists the firewall responses api:
 
 
 
-badHeader | Block bad http header.
+
+
+
 badHosting | Bad bot blocked from a hosting company, real users come from isp's.
 blogSpam | CMS blog comment spam.
 bruteForce | Credential brute-force attacks on webpage logins and services like SSH, FTP, SIP, SMTP, RDP, etc.
