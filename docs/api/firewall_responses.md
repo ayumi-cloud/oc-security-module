@@ -37,7 +37,7 @@ Below lists the firewall responses api:
                     <li>Block trying to convert https into http headers.</li>
                     <li>Block non 443 ports when https is selected headers.</li>
                     <li>Block oversized, malformed, bad or missing methods headers.</li>
-                    <li>Block non matching truested host headers.</li>
+                    <li>Block non matching trusted host headers.</li>
                 </ul>
             </td>
         </tr>
