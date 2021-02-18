@@ -42,6 +42,33 @@ Below lists the firewall responses api:
             </td>
         </tr>
         <tr>
+            <td>badHosting</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Block fake traffic including bots from hosting company locations, real users come from isp's etc.</td>
+        </tr>
+        <tr>
+            <td>blogSpam</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Block cms blog comment spam.</td>
+        </tr>
+        <tr>
+            <td>browserType</td>
+            <td>string</td>
+            <td>dead<br>good<br>headLess<br>malware<br>noVersion<br>old</td>
+            <td>
+                <ul>
+                    <li>Dead browsers that have been discontinued.</li>
+                    <li>Whitelisted good browser with a modern stable release version number.</li>
+                    <li>Using a headless browser.</li>
+                    <li>Bad and fake browsers containing malware or adware etc.</li>
+                    <li>Request hiding their browser version, good bots bypass this mode.</li>
+                    <li>Old browser versions that are several years older than the evergreen version (current stable version).</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -58,10 +85,12 @@ Below lists the firewall responses api:
 
 
 
-pingDeath | Oversized ip packet. See: https://www.youtube.com/watch?v=Y8k_UGCiA6Y
 
-badHosting | Bad bot blocked from a hosting company, real users come from isp's.
-blogSpam | CMS blog comment spam.
+
+
+
+
+
 bruteForce | Credential brute-force attacks on webpage logins and services like SSH, FTP, SIP, SMTP, RDP, etc.
 ddosAttack | Participating in distributed denial-of-service (usually part of botnet).
 dnsPoisoning | Falsifying domain server cache (cache poisoning).
@@ -75,6 +104,7 @@ hacking | Attempts to probe or exploit the cms or installed web applications.
 iotTargeted | Abuse was targeted at an "Internet of Things" type device.
 openProxy | Open proxy, open relay, vpn or Tor exit node.
 phishing | Phishing websites and/or email.
+pingDeath | Oversized ip packet. See: https://www.youtube.com/watch?v=Y8k_UGCiA6Y
 portScan | Scanning for open ports and vulnerable services.
 probing | Site scanning/probing is the main technique attackers use to gather as much information as possible about a Web application and the supporting infrastructure.
 refererTool | Referer tools, e.g. search engine cached pages, translation pages etc, see "referer" module for more details.
