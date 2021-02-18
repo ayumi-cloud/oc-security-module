@@ -1,14 +1,59 @@
 ## Summer CMS Firewall Responses API
 
-### Responses
+Below lists the firewall responses api:
 
-Property | Type | Value(s) | Description
----|---
-badBot | Boolean | `true` or `false` | Bad bots to be blacklisted.
+<table>
+    <thead>
+        <tr>
+            <th>Property</th>
+            <th>Type</th>
+            <th>Values</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>botHuman</td>
+            <td>string</td>
+            <td>
+                <ul>
+                    <li>badBot</li>
+                    <li>botNet</li>
+                    <li>fakeBot</li>
+                    <li>goodBot</li>
+                    <li>human</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Bad bots to be blacklisted.</li>
+                    <li>A botnet is a number of Internet-connected devices, each of which is running one or more bots.</li>
+                    <li>The fake bot has a real user agent but comes from a non-official server location.</li>
+                    <li>Good bots to be whitelisted.</li>
+                    <li>User is a human (not a robot) set as the default until flagged by the firewall.</li>
+                </ul>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
 badHeader | Block bad http header.
 badHosting | Bad bot blocked from a hosting company, real users come from isp's.
 blogSpam | CMS blog comment spam.
-botNet | A botnet is a number of Internet-connected devices, each of which is running one or more bots.
 bruteForce | Credential brute-force attacks on webpage logins and services like SSH, FTP, SIP, SMTP, RDP, etc.
 ddosAttack | Participating in distributed denial-of-service (usually part of botnet).
 dnsPoisoning | Falsifying domain server cache (cache poisoning).
@@ -16,12 +61,9 @@ emailSpam | Spam email content, infected attachments and phishing emails.
 evilRefererPath | Referer file inclusion strings that can allow users to pull in files that should not be a part of a web server.
 evilRequestPath | Request file inclusion strings that can allow users to pull in files that should not be a part of a web server.
 exploitedHost | Host is likely infected with malware and being used for other attacks or to host malicious content.
-fakeBot | The fake bot has a real user agent but comes from a non-official server location.
 fraudOrders | Fraudulent orders.
 fraudVoip | Unauthorized use of paid communication services charged to someone who isn't expecting it.
-goodBot | Good bots to be whitelisted.
 hacking | Attempts to probe or exploit the cms or installed web applications.
-human | User is a human (not a robot).
 iotTargeted | Abuse was targeted at an "Internet of Things" type device.
 openProxy | Open proxy, open relay, vpn or Tor exit node.
 phishing | Phishing websites and/or email.
