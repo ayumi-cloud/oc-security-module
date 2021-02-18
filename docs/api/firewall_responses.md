@@ -24,12 +24,28 @@ Below lists the firewall responses api:
                     <li>Good bots to be whitelisted.</li>
                     <li>User is a human (not a robot) set as the default until flagged by the firewall.</li>
                 </ul>
+            </td>
         </tr>
         <tr>
             <td>badHeader</td>
             <td>string</td>
-            <td>=== TO DO === <br>Add list</td>
-            <td>Block oversized, malformed, bad or missing http or server headers.</td>
+            <td>badIp<br>badUa<br>badRequestHttps<br>badRequestPort<br>badRequestMethod<br>badRequestHost<br>x</td>
+            <td>
+                <ul>
+                    <li>Block oversized, malformed, bad or missing ip headers.</li>
+                    <li>Block oversized, malformed, bad or missing user agent headers.</li>
+                    <li>Block trying to convert https into http headers.</li>
+                    <li>Block non 443 ports when https is selected headers.</li>
+                    <li>Block oversized, malformed, bad or missing methods headers.</li>
+                    <li>Block non matching truested host headers.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -42,9 +58,7 @@ Below lists the firewall responses api:
 
 
 
-
-
-
+pingDeath | Oversized ip packet. See: https://www.youtube.com/watch?v=Y8k_UGCiA6Y
 
 badHosting | Bad bot blocked from a hosting company, real users come from isp's.
 blogSpam | CMS blog comment spam.
@@ -61,7 +75,6 @@ hacking | Attempts to probe or exploit the cms or installed web applications.
 iotTargeted | Abuse was targeted at an "Internet of Things" type device.
 openProxy | Open proxy, open relay, vpn or Tor exit node.
 phishing | Phishing websites and/or email.
-pingDeath | Oversized ip packet, bad or missing ip or mac address. 
 portScan | Scanning for open ports and vulnerable services.
 probing | Site scanning/probing is the main technique attackers use to gather as much information as possible about a Web application and the supporting infrastructure.
 refererTool | Referer tools, e.g. search engine cached pages, translation pages etc, see "referer" module for more details.
