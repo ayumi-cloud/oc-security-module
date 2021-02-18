@@ -69,6 +69,48 @@ Below lists the firewall responses api:
             </td>
         </tr>
         <tr>
+            <td>bruteForce</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Credential brute-force attacks on webpage logins and services like SSH, FTP, SIP, SMTP, RDP, etc.</td>
+        </tr>
+        <tr>
+            <td>cachePoisoning</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>DNS cache poisoning, also known as DNS spoofing, is the act of placing false information in a DNS resolver cache.</td>
+        </tr>
+        <tr>
+            <td>ddosAttack</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Participating in distributed denial-of-service.</td>
+        </tr>
+        <tr>
+            <td>emailSpam</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Spam email content, infected attachments and phishing emails.</td>
+        </tr>
+        <tr>
+            <td>exploitedHost</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Host is likely infected with malware and being used for other attacks or to host malicious content.</td>
+        </tr>
+        <tr>
+            <td>fraudOrders</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Fraudulent orders.</td>
+        </tr>
+        <tr>
+            <td>fraudVoip</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Unauthorized use of paid communication services charged to someone who isn't expecting it.</td>
+        </tr>
+        <tr>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -80,6 +122,8 @@ Below lists the firewall responses api:
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
+        
+        
     </tbody>
 </table>
 
@@ -87,20 +131,22 @@ Below lists the firewall responses api:
 
 
 
+requestUrl
+refererUrl
 
 
 
-
-bruteForce | Credential brute-force attacks on webpage logins and services like SSH, FTP, SIP, SMTP, RDP, etc.
-ddosAttack | Participating in distributed denial-of-service (usually part of botnet).
-dnsPoisoning | Falsifying domain server cache (cache poisoning).
-emailSpam | Spam email content, infected attachments and phishing emails.
 evilRefererPath | Referer file inclusion strings that can allow users to pull in files that should not be a part of a web server.
 evilRequestPath | Request file inclusion strings that can allow users to pull in files that should not be a part of a web server.
-exploitedHost | Host is likely infected with malware and being used for other attacks or to host malicious content.
-fraudOrders | Fraudulent orders.
-fraudVoip | Unauthorized use of paid communication services charged to someone who isn't expecting it.
-hacking | Attempts to probe or exploit the cms or installed web applications.
+urlRefererMalformed | Malformed referer url.
+urlRequestMalformed | Malformed request url.
+
+
+
+
+
+
+hacking | Attempts to exploit the cms or installed web applications.
 iotTargeted | Abuse was targeted at an "Internet of Things" type device.
 openProxy | Open proxy, open relay, vpn or Tor exit node.
 phishing | Phishing websites and/or email.
@@ -112,8 +158,7 @@ scanningTool | Known pen testing, seo tool, you can limit the access to these to
 spoofing | Email sender spoofing.
 sqlInjection | Attempts at SQL injection.
 ssh | Secure Shell (SSH) abuse.
-urlRefererMalformed | Malformed referer url.
-urlRequestMalformed | Malformed request url.
+
 webSpam | Comment/forum spam, HTTP referer spam, or other CMS spam.
 
 ### Other Firewall Response Codes
