@@ -141,6 +141,18 @@ Below lists the firewall responses api:
             <td>Oversized ip packet.</td>
         </tr>
         <tr>
+            <td>portScan</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Scanning for open ports and vulnerable services.</td>
+        </tr>
+        <tr>
+            <td>probing</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Site scanning and probing is the main technique attackers use to gather as much information as possible about a web application and the supporting infrastructure.</td>
+        </tr>
+        <tr>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -151,6 +163,18 @@ Below lists the firewall responses api:
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>refererTool</td>
+            <td>string</td>
+            <td>archive<br>cache<br>translator<br></td>
+            <td>The referer url came from a search engine cached page, translation service or archival source.</td>
+        </tr>
+        <tr>
+            <td>scanningTool</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Developer, seo and pen testing tools should be used on a 'developer' mode website and the access limited in a 'production' mode environment.</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -184,11 +208,10 @@ urlRequestMalformed | Malformed request url.
 
 
 
-
-portScan | Scanning for open ports and vulnerable services.
-probing | Site scanning/probing is the main technique attackers use to gather as much information as possible about a Web application and the supporting infrastructure.
-refererTool | Referer tools, e.g. search engine cached pages, translation pages etc, see "referer" module for more details.
-scanningTool | Known pen testing, seo tool, you can limit the access to these tools when you are not using them in the settings.
+ 
+ 
+ 
+ 
 spoofing | Email sender spoofing.
 sqlInjection | Attempts at SQL injection.
 ssh | Secure Shell (SSH) abuse.
