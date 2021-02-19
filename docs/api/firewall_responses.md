@@ -29,7 +29,7 @@ Below lists the firewall responses api:
         <tr>
             <td>badHeader</td>
             <td>string</td>
-            <td>badIp<br>badUa<br>badRequestHttps<br>badRequestPort<br>badRequestMethod<br>badRequestHost<br>x</td>
+            <td>badIp<br>badUa<br>badRequestHttps<br>badRequestPort<br>badRequestMethod<br>badRequestHost<br>x........ host, url/uri and proxy</td>
             <td>
                 <ul>
                     <li>Block oversized, malformed, bad or missing ip headers.</li>
@@ -111,6 +111,36 @@ Below lists the firewall responses api:
             <td>Unauthorized use of paid communication services charged to someone who isn't expecting it.</td>
         </tr>
         <tr>
+            <td>hacking</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Attempts to exploit the cms or installed web applications.</td>
+        </tr>
+        <tr>
+            <td>iotTargeted</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Abuse was targeted at an 'Internet of Things' type device.</td>
+        </tr>
+        <tr>
+            <td>openProxy</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Open proxy, open relay, vpn or Tor exit node.</td>
+        </tr>
+        <tr>
+            <td>phishing</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Is a fraudulent attempt to obtain sensitive information or data, by impersonating oneself as a trustworthy entity.</td>
+        </tr>
+        <tr>
+            <td>pingDeath</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Oversized ip packet.</td>
+        </tr>
+        <tr>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -122,7 +152,18 @@ Below lists the firewall responses api:
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
-        
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
         
     </tbody>
 </table>
@@ -144,13 +185,6 @@ urlRequestMalformed | Malformed request url.
 
 
 
-
-
-hacking | Attempts to exploit the cms or installed web applications.
-iotTargeted | Abuse was targeted at an "Internet of Things" type device.
-openProxy | Open proxy, open relay, vpn or Tor exit node.
-phishing | Phishing websites and/or email.
-pingDeath | Oversized ip packet. See: https://www.youtube.com/watch?v=Y8k_UGCiA6Y
 portScan | Scanning for open ports and vulnerable services.
 probing | Site scanning/probing is the main technique attackers use to gather as much information as possible about a Web application and the supporting infrastructure.
 refererTool | Referer tools, e.g. search engine cached pages, translation pages etc, see "referer" module for more details.
