@@ -153,28 +153,52 @@ Below lists the firewall responses api:
             <td>Site scanning and probing is the main technique attackers use to gather as much information as possible about a web application and the supporting infrastructure.</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>refererUrl</td>
+            <td>string</td>
+            <td>evilRefererPath<br>urlRefererMalformed<br>.......host ?</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>requestUrl</td>
+            <td>string</td>
+            <td>evilRequestPath<br>urlRequestMalformed<br>.......host ?</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td>refererTool</td>
             <td>string</td>
             <td>archive<br>cache<br>translator<br></td>
-            <td>The referer url came from a search engine cached page, translation service or archival source.</td>
+            <td>
+                <ul>
+                    <li>The referer url came from an archival source.</li>
+                    <li>The referer url came from a search engine cached page.</li>
+                    <li>The referer url came from a translation service.</li>
+                </ul>
+            </td>
         </tr>
         <tr>
             <td>scanningTool</td>
             <td>boolean</td>
             <td>true<br>false</td>
             <td>Developer, seo and pen testing tools should be used on a 'developer' mode website and the access limited in a 'production' mode environment.</td>
+        </tr>
+        <tr>
+            <td>spoofing</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>A spoofing attack is a situation in which a person or program successfully identifies as another by falsifying data.</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -189,15 +213,10 @@ Below lists the firewall responses api:
             <td>&nbsp;</td>
         </tr>
         
+        
+        
     </tbody>
 </table>
-
-
-
-
-
-requestUrl
-refererUrl
 
 
 
@@ -210,9 +229,6 @@ urlRequestMalformed | Malformed request url.
 
  
  
- 
- 
-spoofing | Email sender spoofing.
 sqlInjection | Attempts at SQL injection.
 ssh | Secure Shell (SSH) abuse.
 
