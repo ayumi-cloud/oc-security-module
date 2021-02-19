@@ -512,6 +512,14 @@ https://docs.imperva.com/bundle/on-premises-knowledgebase-reference-guide/page/7
 
 https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 
+### Apache Security
+
+https://httpd.apache.org/security/
+
+### Apache Security v2.4
+
+https://httpd.apache.org/security/vulnerabilities_24.html
+
 ---
 
 ## Code Quality Testers
