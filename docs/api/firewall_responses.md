@@ -155,14 +155,24 @@ Below lists the firewall responses api:
         <tr>
             <td>refererUrl</td>
             <td>string</td>
-            <td>evilRefererPath<br>urlRefererMalformed<br>.......host ?</td>
-            <td>&nbsp;</td>
+            <td>evilPath<br>urlMalformed<br>.......host ?</td>
+            <td>
+                <ul>
+                    <li>File inclusion strings that can allow users to pull in files that should not be a part of a web server.</li>
+                    <li>Malformed request url.</li>
+                </ul>
+            </td>
         </tr>
         <tr>
             <td>requestUrl</td>
             <td>string</td>
-            <td>evilRequestPath<br>urlRequestMalformed<br>.......host ?</td>
-            <td>&nbsp;</td>
+            <td>evilPath<br>urlMalformed<br>.......host ?</td>
+            <td>
+                <ul>
+                    <li>File inclusion strings that can allow users to pull in files that should not be a part of a web server.</li>
+                    <li>Malformed request url.</li>
+                </ul>
+            </td>
         </tr>
         <tr>
             <td>refererTool</td>
@@ -177,10 +187,22 @@ Below lists the firewall responses api:
             </td>
         </tr>
         <tr>
+            <td>repeatAttack</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>When a bot uses the same user agent, but switches to a new ip address and tries to do another attack, the firewall blocks the repeated attacks.</td>
+        </tr>
+        <tr>
             <td>scanningTool</td>
             <td>boolean</td>
             <td>true<br>false</td>
             <td>Developer, seo and pen testing tools should be used on a 'developer' mode website and the access limited in a 'production' mode environment.</td>
+        </tr>
+        <tr>
+            <td>socialMedia</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Indicate when a referer has come from a known social media platform.</td>
         </tr>
         <tr>
             <td>spoofing</td>
@@ -189,56 +211,24 @@ Below lists the firewall responses api:
             <td>A spoofing attack is a situation in which a person or program successfully identifies as another by falsifying data.</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>sqlInjection</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database.</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>ssh</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Secure Shell (SSH) abuse.</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>webSpam</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Techniques to trick the ranking algorithms of web search engines to rank higher in the search results. Usually causing low quality content to be injected into the website.</td>
         </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        
-        
-        
     </tbody>
 </table>
-
-
-
-evilRefererPath | Referer file inclusion strings that can allow users to pull in files that should not be a part of a web server.
-evilRequestPath | Request file inclusion strings that can allow users to pull in files that should not be a part of a web server.
-urlRefererMalformed | Malformed referer url.
-urlRequestMalformed | Malformed request url.
-
-
-
- 
- 
-sqlInjection | Attempts at SQL injection.
-ssh | Secure Shell (SSH) abuse.
-
-webSpam | Comment/forum spam, HTTP referer spam, or other CMS spam.
-
-### Other Firewall Response Codes
-
-Value | Description
----|---
-banned | The firewall catches any other threats and labels them "banned".
-repeatAttack | When a bot uses the same user agent, but switches to a new ip address and does another attack, the firewall blocks the repeated attacks and labels them "repeated attacks".
 
 (*) Subject to adding more values and firewall modules being created, to add more features to the cms.
