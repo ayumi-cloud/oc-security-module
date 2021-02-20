@@ -29,11 +29,10 @@ Below lists the firewall responses api:
         <tr>
             <td>badHeader</td>
             <td>string</td>
-            <td>badIp<br>badUa<br>badRequestHttps<br>badRequestPort<br>badRequestMethod<br>badRequestHost<br>x........ host, url/uri and proxy</td>
+            <td>badIp<br>badRequestHttps<br>badRequestPort<br>badRequestMethod<br>badRequestHost<br>x........ host, url/uri and proxy</td>
             <td>
                 <ul>
                     <li>Block oversized, malformed, bad or missing ip headers.</li>
-                    <li>Block oversized, malformed, bad or missing user agent headers.</li>
                     <li>Block trying to convert https into http headers.</li>
                     <li>Block non 443 ports when https is selected headers.</li>
                     <li>Block oversized, malformed, bad or missing methods headers.</li>
@@ -46,6 +45,12 @@ Below lists the firewall responses api:
             <td>boolean</td>
             <td>true<br>false</td>
             <td>Block fake traffic including bots from hosting company locations, real users come from isp's etc.</td>
+        </tr>
+        <tr>
+            <td>badUserAgent</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Block oversized, malformed, bad or missing user agent headers.</td>
         </tr>
         <tr>
             <td>blogSpam</td>
