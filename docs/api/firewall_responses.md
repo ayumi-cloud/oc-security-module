@@ -29,13 +29,9 @@ Below lists the firewall responses api:
         <tr>
             <td>badHeader</td>
             <td>string</td>
-            <td>badIp<br>badRequestHttps<br>badRequestPort<br>badRequestMethod<br>badRequestHost<br>x........ host, url/uri and proxy</td>
+            <td>badRequestHost<br>x........ host, url/uri and proxy</td>
             <td>
                 <ul>
-                    <li>Block oversized, malformed, bad or missing ip headers.</li>
-                    <li>Block trying to convert https into http headers.</li>
-                    <li>Block non 443 ports when https is selected headers.</li>
-                    <li>Block oversized, malformed, bad or missing methods headers.</li>
                     <li>Block non matching trusted host headers.</li>
                 </ul>
             </td>
@@ -45,6 +41,30 @@ Below lists the firewall responses api:
             <td>boolean</td>
             <td>true<br>false</td>
             <td>Block fake traffic including bots from hosting company locations, real users come from isp's etc.</td>
+        </tr>
+        <tr>
+            <td>badIp</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Block oversized, malformed, bad or missing ip headers.</td>
+        </tr>
+        <tr>
+            <td>badMethod</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Block oversized, malformed, bad or missing request method headers.</td>
+        </tr>
+        <tr>
+            <td>badPort</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Block non 443 ports when http secure is activated in 'production' mode.</td>
+        </tr>
+        <tr>
+            <td>badScheme</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Block trying to convert https into http headers.</td>
         </tr>
         <tr>
             <td>badUserAgent</td>
