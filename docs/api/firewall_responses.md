@@ -202,12 +202,13 @@ Below lists the firewall responses api:
         <tr>
             <td>refererTool</td>
             <td>string</td>
-            <td>archive<br>cache<br>translator<br></td>
+            <td>archive<br>cache<br>translator<br>proxy</td>
             <td>
                 <ul>
                     <li>The referer url came from an archival source.</li>
                     <li>The referer url came from a search engine cached page.</li>
                     <li>The referer url came from a translation service.</li>
+                    <li>The referer url came from a proxy service.</li>
                 </ul>
             </td>
         </tr>
