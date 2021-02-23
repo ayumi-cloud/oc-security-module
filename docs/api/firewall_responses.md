@@ -148,6 +148,12 @@ Below lists the firewall responses api:
             <td>Abuse was targeted at an 'Internet of Things' type device.</td>
         </tr>
         <tr>
+            <td>oldOs</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>The operating system is very old and no longer maintained, old operating systems are less secure and make it easier for pen testing and bots.</td>
+        </tr>
+        <tr>
             <td>openProxy</td>
             <td>boolean</td>
             <td>true<br>false</td>
