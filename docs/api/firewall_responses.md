@@ -28,13 +28,15 @@ Below lists the firewall responses api:
         </tr>
         <tr>
             <td>badHeader</td>
-            <td>string</td>
-            <td>badRequestHost<br>x........ host, url/uri and proxy</td>
-            <td>
-                <ul>
-                    <li>Block non matching trusted host headers.</li>
-                </ul>
-            </td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Block oversized, malformed, bad or missing http headers.</td>
+        </tr>
+        <tr>
+            <td>badHost</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Block the hosts that don't match the trusted host whitelist.</td>
         </tr>
         <tr>
             <td>badHosting</td>
@@ -61,10 +63,22 @@ Below lists the firewall responses api:
             <td>Block non 443 ports when http secure is activated in 'production' mode.</td>
         </tr>
         <tr>
+            <td>badProxy</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Block oversized, malformed, bad or missing proxy headers.</td>
+        </tr>
+        <tr>
             <td>badScheme</td>
             <td>boolean</td>
             <td>true<br>false</td>
             <td>Block trying to convert https into http headers.</td>
+        </tr>
+        <tr>
+            <td>badUrl</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Block oversized, malformed, bad, overriding request url x-headers.</td>
         </tr>
         <tr>
             <td>badUserAgent</td>
@@ -186,7 +200,7 @@ Below lists the firewall responses api:
         <tr>
             <td>refererUrl</td>
             <td>string</td>
-            <td>evilPath<br>urlMalformed<br>.......host ?</td>
+            <td>evilPath<br>urlMalformed</td>
             <td>
                 <ul>
                     <li>File inclusion strings that can allow users to pull in files that should not be a part of a web server.</li>
@@ -197,7 +211,7 @@ Below lists the firewall responses api:
         <tr>
             <td>requestUrl</td>
             <td>string</td>
-            <td>evilPath<br>urlMalformed<br>.......host ?</td>
+            <td>evilPath<br>urlMalformed</td>
             <td>
                 <ul>
                     <li>File inclusion strings that can allow users to pull in files that should not be a part of a web server.</li>
