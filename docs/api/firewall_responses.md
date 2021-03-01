@@ -27,6 +27,12 @@ Below lists the firewall responses api:
             </td>
         </tr>
         <tr>
+            <td>badAsn</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Block fake traffic including bots from hosting company locations, real users come from isp's etc.</td>
+        </tr>
+        <tr>
             <td>badHeader</td>
             <td>boolean</td>
             <td>true<br>false</td>
@@ -37,12 +43,6 @@ Below lists the firewall responses api:
             <td>boolean</td>
             <td>true<br>false</td>
             <td>Block the hosts that don't match the trusted host whitelist.</td>
-        </tr>
-        <tr>
-            <td>badHosting</td>
-            <td>boolean</td>
-            <td>true<br>false</td>
-            <td>Block fake traffic including bots from hosting company locations, real users come from isp's etc.</td>
         </tr>
         <tr>
             <td>badIp</td>
