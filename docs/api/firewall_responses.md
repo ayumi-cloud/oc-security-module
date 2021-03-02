@@ -95,9 +95,10 @@ Below lists the firewall responses api:
         <tr>
             <td>browserType</td>
             <td>string</td>
-            <td>dead<br>good<br>headLess<br>malware<br>noVersion<br>old</td>
+            <td>bad<br>dead<br>good<br>headLess<br>malware<br>noVersion<br>old</td>
             <td>
                 <ul>
+                    <li>Bad browsers are any junk user agent that can't be found with the parser module.</li>
                     <li>Dead browsers that have been discontinued.</li>
                     <li>Whitelisted good browser with a modern stable release version number.</li>
                     <li>Using a headless browser.</li>
