@@ -245,6 +245,12 @@ Below lists the firewall responses api:
             <td>Developer, seo and pen testing tools should be used on a 'developer' mode website and the access limited in a 'production' mode environment.</td>
         </tr>
         <tr>
+            <td>seoPoisoning</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Also known as search poisoning, is an attack method by hijacking websites, creating malicious content on them and using seo tactics to make them show up prominently in search results. The real purpose, is to infect the visitors with malware or fraudulently access their sensitive information to be used for identity theft.</td>
+        </tr>
+        <tr>
             <td>socialMedia</td>
             <td>boolean</td>
             <td>true<br>false</td>
