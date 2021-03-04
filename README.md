@@ -296,9 +296,9 @@ All the security settings can be configured at any time in the security module u
 
 ## Firewall Definition Files 💾
 
-Version: 20200929
+Version: 20210223
 
-Last Updated: 29th Sep 2020
+Last Updated: 3rd March 2021
 
 (*) While the security module is under heavy development, the definition files will be updated periodically and not on a regular basis! When the security module moves in a production ready-mode, the definitions files will be updated on a regular basis every week.
   
