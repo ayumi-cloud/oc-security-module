@@ -175,6 +175,12 @@ Below lists the firewall responses api:
             <td>Open proxy, open relay, vpn or Tor exit node.</td>
         </tr>
         <tr>
+            <td>parserError</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Creates a flag when one of the parsers fails, for example: **The address ::1 is not in the database**.</td>
+        </tr>
+        <tr>
             <td>phishing</td>
             <td>boolean</td>
             <td>true<br>false</td>
