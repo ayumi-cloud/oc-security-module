@@ -178,7 +178,7 @@ Below lists the firewall responses api:
             <td>parserError</td>
             <td>boolean</td>
             <td>true<br>false</td>
-            <td>Creates a flag when one of the parsers fails, for example: <strong>The address ::1 is not in the database</strong>.</td>
+            <td>Creates a flag when one of the parsers fails, for example:<br><strong>The address ::1 is not in the database</strong>.</td>
         </tr>
         <tr>
             <td>phishing</td>
