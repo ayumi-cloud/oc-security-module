@@ -9,30 +9,6 @@ of the [Privacy Community Group](https://privacycg.github.io/).
 ## Participate
 - https://github.com/privacycg/first-party-sets/issues
 
-# Table of Contents
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-- [Introduction](#introduction)
-- [Goals](#goals)
-- [Non-goals](#non-goals)
-- [Declaring a First Party Set](#declaring-a-first-party-set)
-- [Discovering First Party Sets](#discovering-first-party-sets)
-- [Applications](#applications)
-- [Design details](#design-details)
-   - [UA Policy](#ua-policy)
-      - [Defining acceptable sets](#defining-acceptable-sets)
-      - [Static lists](#static-lists)
-      - [Signed assertions](#signed-assertions)
-      - [Open questions](#open-questions)
-      - [Administrative controls](#administrative-controls)
-   - [Cross-site tracking vectors](#cross-site-tracking-vectors)
-   - [Service workers](#service-workers)
-   - [UI Treatment](#ui-treatment)
-- [Alternative designs](#alternative-designs)
-   - [Origins instead of registrable domains](#origins-instead-of-registrable-domains)
-- [Prior Art](#prior-art)
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 # Introduction
 
 Browsers have proposed a variety of tracking policies and privacy models
