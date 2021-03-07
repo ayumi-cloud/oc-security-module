@@ -520,7 +520,7 @@ A `SameParty` attribute overrides `SameSite=None`, such that browser interventio
 
 For example, suppose that owner.example owns a First-Party Set containing {member1.example, member2.example}. Then a `SameParty` cookie set by member1.example **would be sent** to https://member1.example in the following contexts:
 
-![SameParty Contexts](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/same_party_table.jpg)
+![SameParty Contexts](https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/same_party_cookie_table.jpg)
 
 1. Main frame request
 2. Embedded in owner
