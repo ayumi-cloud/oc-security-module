@@ -1,4 +1,4 @@
-## Port blocking
+## Port blocking to stop Slipstreaming attacks
 
 To determine whether fetching a [request](https://fetch.spec.whatwg.org/#concept-request) request **should be blocked due to a bad port**, run these steps:
 
