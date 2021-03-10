@@ -480,10 +480,6 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
-        
-        social method api
-        
-        
         <tr>
             <td colspan="8"><h3>Operating Systems Details</h3></td>
         </tr>
