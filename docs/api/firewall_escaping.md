@@ -732,7 +732,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>(object) string</td>
             <td>✔️</td>
             <td>allowed</td>
-            <td>Example Yandex using Chromium, cleaned from firewall API (internal). Using normalize.</td>
+            <td>Example Yandex using Chrome, cleaned from firewall API (internal). Using normalize.</td>
         </tr>
         <tr>
             <td>Family Version</td>
@@ -742,7 +742,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>(object) int</td>
             <td>✔️</td>
             <td>allowed</td>
-            <td>Example Yandex using Chromium version, cleaned from firewall API (internal).</td>
+            <td>Example Yandex using Chrome version, cleaned from firewall API (internal).</td>
         </tr>
         <tr>
             <td colspan="8"><h3>App Details</h3></td>
