@@ -75,7 +75,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Blocked by default, can turn on in settings.</td>
         </tr>
         <tr>
-            <td>CF-Connecting-IP</td>
+            <td>Cf-Connecting-Ip</td>
             <td>❌</td>
             <td>✔️</td>
             <td>100</td>
@@ -85,7 +85,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Blocked by default, can turn on in settings.</td>
         </tr>
         <tr>
-            <td>True-Client-IP</td>
+            <td>True-Client-Ip</td>
             <td>❌</td>
             <td>✔️</td>
             <td>100</td>
