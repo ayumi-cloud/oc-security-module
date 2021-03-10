@@ -67,8 +67,8 @@ Below are details for the level of escaping carried out by the firewall in certa
         <tr>
             <td>Client-Ip</td>
             <td>❌</td>
-            <td>❌</td>
-            <td>n/a</td>
+            <td>✔️</td>
+            <td>100</td>
             <td>string</td>
             <td>✔️</td>
             <td>blocked</td>
@@ -77,8 +77,8 @@ Below are details for the level of escaping carried out by the firewall in certa
         <tr>
             <td>CF-Connecting-IP</td>
             <td>❌</td>
-            <td>❌</td>
-            <td>n/a</td>
+            <td>✔️</td>
+            <td>100</td>
             <td>string</td>
             <td>✔️</td>
             <td>blocked</td>
@@ -87,8 +87,8 @@ Below are details for the level of escaping carried out by the firewall in certa
         <tr>
             <td>True-Client-IP</td>
             <td>❌</td>
-            <td>❌</td>
-            <td>n/a</td>
+            <td>✔️</td>
+            <td>100</td>
             <td>string</td>
             <td>✔️</td>
             <td>blocked</td>
@@ -194,12 +194,6 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>allowed</td>
             <td>Cleaned from Firewall API, blocked missing and incorrect ip addresses.</td>
         </tr>
-        
-        
-        
-        
-        
-        
         <tr>
             <td colspan="8"><h3>HTTP Requests</h3></td>
         </tr>
@@ -445,15 +439,6 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>allowed</td>
             <td>Cleaned from Firewall API. Block non 443 ports in production mode.</td>
         </tr>
-
-
-        
-
-  
-    const HEADER_X_FORWARDED_HOST = 0b000100;
-    const HEADER_X_FORWARDED_PREFIX = 0b100000;
-
-        
         <tr>
             <td colspan="8"><h3>HTTP Responses</h3></td>
         </tr>
@@ -735,6 +720,26 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>150</td>
             <td>(object) string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Example Yandex using Chromium version, cleaned from firewall API (internal).</td>
+        </tr>
+        <tr>
+            <td>Family Name</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>150</td>
+            <td>(object) string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Example Yandex using Chromium, cleaned from firewall API (internal). Using normalize.</td>
+        </tr>
+        <tr>
+            <td>Family Version</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>50</td>
+            <td>(object) int</td>
             <td>✔️</td>
             <td>allowed</td>
             <td>Example Yandex using Chromium version, cleaned from firewall API (internal).</td>
