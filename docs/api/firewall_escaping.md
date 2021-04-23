@@ -848,7 +848,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>✔️</td>
             <td>10</td>
-            <td>float</td>
+            <td>string</td>
             <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
@@ -858,7 +858,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>✔️</td>
             <td>25</td>
-            <td>float</td>
+            <td>string</td>
             <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
@@ -868,7 +868,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>✔️</td>
             <td>25</td>
-            <td>float</td>
+            <td>string</td>
             <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
@@ -888,7 +888,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>✔️</td>
             <td>25</td>
-            <td>float</td>
+            <td>string</td>
             <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
@@ -898,7 +898,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>✔️</td>
             <td>25</td>
-            <td>float</td>
+            <td>string</td>
             <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
