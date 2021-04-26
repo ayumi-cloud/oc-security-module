@@ -1,5 +1,5 @@
 <h1 align="center">Summer CMS - Security Module</h1>
-<p align="center">(being heavily coded in private repos at the moment - we look forward to publity releasing a candidate release)</p>
+<p align="center">(Being heavily coded in private repos at the moment - we look forward to publity releasing a candidate release)</p>
 
 <p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/code.svg"> <img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/buttons/stars.svg" alt="stars"> <img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/buttons/php.svg"> <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/laravel-badge.png" alt="laravel"> <img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/buttons/conduct.svg" alt="conduct"> <img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/buttons/docs.svg" alt="docs"></p>
 
