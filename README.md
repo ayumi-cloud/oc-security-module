@@ -1,13 +1,13 @@
 <h1 align="center">Codename: Summer CMS - Security Module</h1>
 <p align="center">(our OCMS update proposal)</p>
 
-<p align="center"><img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/code.svg"> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/stars.svg" alt="stars"> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/php.svg"> <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/laravel-badge.png" alt="laravel"> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/conduct.svg" alt="conduct"> <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/docs.svg" alt="docs"></p>
+<p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/code.svg"> <img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/buttons/stars.svg" alt="stars"> <img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/buttons/php.svg"> <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/laravel-badge.png" alt="laravel"> <img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/buttons/conduct.svg" alt="conduct"> <img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/buttons/docs.svg" alt="docs"></p>
 
-<p align="center"><img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/banner.jpg"></p>
+<p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/banner.jpg"></p>
 
 ## Summer CMS Modules :eyes:
 
-**Note: This is the security module for Summer CMS, see here for the full list of [Summer CMS Modules](https://github.com/ayumi-cloud/sc-main/blob/main/README.md#summer-cms-modules-).**
+**Note: This is the security module for Summer CMS, see here for the full list of [Summer CMS Modules](https://github.com/summer-cms/sc-main/blob/main/README.md#summer-cms-modules-).**
 
 ## Table of Contents 📑
 
@@ -72,7 +72,7 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - Real-time Frontend Firewall (with full dashboards to view all the data).
 - Real-time Backend Firewall (with full dashboards to view all the data).
 - Firewall Analytics (displays all the incoming data from the frontend firewall).
-- Firewall Custom API's (for full details see: [Summer CMS Firewall API](https://github.com/ayumi-cloud/sc-security-module/tree/master/docs/api) section).
+- Firewall Custom API's (for full details see: [Summer CMS Firewall API](https://github.com/summer-cms/sc-security-module/tree/master/docs/api) section).
 - File Watcher (notifies the webmaster for file changes).
 - Junk file/folder Scanner (scans the Summer CMS for any junk files or folders (e.g. `.github` folder in a `vendor` folder and allows the user to delete them).
 - Plugin Scanner (check plugins for any security issues and code conflicts).
@@ -83,7 +83,7 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - Firewall Filters.
 - Many Security Tools (too many to mention).
 
-<p align="center"><img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/vanilla.jpg"></p>
+<p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/vanilla.jpg"></p>
 
 ## Vanilla Code 🍦
 
@@ -91,7 +91,7 @@ Vanilla often refers to **pure** or **plain**. So in terms of programming langua
 
 The `core` files and `modules` in Summer CMS use `Laravel`, an open-source PHP web framework. However, all the styling, javascript and data interchange formats have been written using `vanilla` code. This makes upgrading the code **quick** and **simple** without the constraints of relying solely on a single library or framework! Plus reducing the code size and optimizing the performance by reducing the overheads of loading third-party libraries (such as jQuery as an example). Summer CMS treats all third-party libraries and frameworks as optional extras and developers are welcome to use any of them to enhance their websites and applications using Summer CMS.
 
-The [framework module](https://github.com/ayumi-cloud/sc-framework-module) adds bridges and interconnects different frameworks to Summer CMS with ease to give a customized experience for each framework!
+The [framework module](https://github.com/summer-cms/sc-framework-module) adds bridges and interconnects different frameworks to Summer CMS with ease to give a customized experience for each framework!
 
 ## Naming Prefix ✒️
 
@@ -103,7 +103,7 @@ This module has been optimized to work with php `7.4.x` and `8.x` versions - we 
 
 > This module will not work with php below version 7.3
 
-**A full list of requirements to install Summer CMS, can be found here: [Summer CMS Requirements](https://github.com/ayumi-cloud/sc-main/blob/main/README.md#requirements-).**
+**A full list of requirements to install Summer CMS, can be found here: [Summer CMS Requirements](https://github.com/summer-cms/sc-main/blob/main/README.md#requirements-).**
 
 ## Machine Learning :computer:
 
@@ -116,7 +116,7 @@ This module uses several Big Data tool sets to analyze large amounts of data col
 ## Citation 📚
 
 <a href="https://zenodo.org/">
-  <img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/buttons/citation.svg" />
+  <img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/buttons/citation.svg" />
 </a>
 
 If you use this security module for your research, then kindly cite it. Click the above badge for more information regarding the complete citation for this security module and the diffferent citation formats like: IEEE, APA, BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON, MARCXML and Mendeley etc.
@@ -308,32 +308,32 @@ Last Updated: 3rd March 2021
 
 The security module in Summer CMS comes with lots of dedicated API's to help developers:
 
-- [Firewall APP Types API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_app_types.md)
-- [Firewall Browser Types API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_browser_types.md)
-- [Firewall Country API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_country.md)
-- [Firewall Escaping API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_escaping.md)
-- [Firewall HTTP Status Codes API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_http_status_codes.md)
-- [Firewall Language API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_language.md)
-- [Firewall Location API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_location.md)
-- [Firewall Operating Systems API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_operating_systems.md)
-- [Firewall Referrer Types API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_referrer_types.md)
-- [Firewall Requests API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_requests.md)
-- [Firewall Responses API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_responses.md)
-- [Firewall Response Scores API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_response_score.md)
-- [Firewall Social Media API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_social.md)
-- [Firewall URI Schemes API](https://github.com/ayumi-cloud/sc-security-module/blob/master/docs/api/firewall_uri_schemes.md)
+- [Firewall APP Types API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_app_types.md)
+- [Firewall Browser Types API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_browser_types.md)
+- [Firewall Country API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_country.md)
+- [Firewall Escaping API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_escaping.md)
+- [Firewall HTTP Status Codes API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_http_status_codes.md)
+- [Firewall Language API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_language.md)
+- [Firewall Location API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_location.md)
+- [Firewall Operating Systems API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_operating_systems.md)
+- [Firewall Referrer Types API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_referrer_types.md)
+- [Firewall Requests API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_requests.md)
+- [Firewall Responses API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_responses.md)
+- [Firewall Response Scores API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_response_score.md)
+- [Firewall Social Media API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_social.md)
+- [Firewall URI Schemes API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_uri_schemes.md)
 
 (*) Note: The firewall is built in a modular design and more modules are being coded and tested as time goes on. There will be new api's added and the doc's will get updated. To suggest a new firewall feature open an issue.
 
 The security module also uses with the following api's from other Summer CMS modules:
 
-- [Developer Validating and Sanitizing API](https://github.com/ayumi-cloud/sc-developer-module/blob/main/docs/api/developer_sanitizing_and_validating.md)
+- [Developer Validating and Sanitizing API](https://github.com/summer-cms/sc-developer-module/blob/main/docs/api/developer_sanitizing_and_validating.md)
 
 (*) Note: As time goes on more modules and api's will be added to the list to expand more features to the security module.
 
 ## Issues 🔨
 
-<img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/ayumi-cloud/oc-security-module?style=plastic"> <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/ayumi-cloud/oc-security-module">
+<img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/summer-cms/oc-security-module?style=plastic"> <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/summer-cms/oc-security-module">
 
 If you face any issue, you can create a new issue in the `Issues` tab and we will be glad to help you out!
 
@@ -352,7 +352,7 @@ We welcome bug reports, false positive alert reports, evasions, usability issues
 
 Please include your installed version and the relevant portions of your audit log.
 
-False negative or common bypasses should [create an issue](https://github.com/ayumi-cloud/oc-security-module/issues/new) so they can be addressed.
+False negative or common bypasses should [create an issue](https://github.com/summer-cms/oc-security-module/issues/new) so they can be addressed.
 
 Do this before submitting a vulnerability:
 
@@ -366,11 +366,11 @@ If in doubt, feel free to reach out to us!
 
 ## Code of Conduct 💯
 
-In order to ensure that the Summer CMS proposal community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/ayumi-cloud/oc-security-module/blob/master/CODE_OF_CONDUCT.md).
+In order to ensure that the Summer CMS proposal community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/summer-cms/oc-security-module/blob/master/CODE_OF_CONDUCT.md).
 
 ## For Future 🔮
 
-Shoutout to people willing to contribute to this project. Please take a look at the [projects board](https://github.com/ayumi-cloud/oc-security-module/projects) for a list of things to be done.
+Shoutout to people willing to contribute to this project. Please take a look at the [projects board](https://github.com/summer-cms/oc-security-module/projects) for a list of things to be done.
 
 ## Browser Support ✅
 
@@ -379,43 +379,43 @@ The security module has been tested in the following browsers:
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/chrome_48x48.png" alt="Chrome"><br>
+      <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/browser/chrome_48x48.png" alt="Chrome"><br>
       ✔
     </td>
     <td align="center">
-      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/firefox_48x48.png" alt="Firefox"><br>
+      <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/browser/firefox_48x48.png" alt="Firefox"><br>
       ✔
     </td>
     <td align="center">
-      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/safari_48x48.png" alt="Safari"><br>
+      <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/browser/safari_48x48.png" alt="Safari"><br>
       9+
     </td>
     <td align="center">
-      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/edge_old_48x48.png" alt="Edge Legacy"><br>
+      <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/browser/edge_old_48x48.png" alt="Edge Legacy"><br>
       ✖ (1)
     </td>
     <td align="center">
-      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/edge_48x48.png" alt="Edge"><br>
+      <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/browser/edge_48x48.png" alt="Edge"><br>
       ✔
     </td>
     <td align="center">
-      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/internet-explorer_9-11_48x48.png" alt="Internet Explorer"><br>
+      <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/browser/internet-explorer_9-11_48x48.png" alt="Internet Explorer"><br>
       ✖ (2)
     </td>
     <td align="center">
-      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/opera_48x48.png" alt="Opera"><br>
+      <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/browser/opera_48x48.png" alt="Opera"><br>
       ✔
     </td>
     <td align="center">
-      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/samsung-internet_48x48.png" alt="Samsung"><br>
+      <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/browser/samsung-internet_48x48.png" alt="Samsung"><br>
       ✔
     </td>
     <td align="center">
-      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/uc_48x48.png" alt="UC"><br>
+      <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/browser/uc_48x48.png" alt="UC"><br>
       ✔
     </td>
     <td align="center">
-      <img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/browser/vivaldi_48x48.png" alt="Vivaldi"><br>
+      <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/browser/vivaldi_48x48.png" alt="Vivaldi"><br>
       3+
     </td>
   </tr>
@@ -427,7 +427,7 @@ The security module has been tested in the following browsers:
 
 (2) Internet Explorer version 1-11, Summer CMS will not support due to only supporting `Evergreen` brwosers.
 
-For a full list of browser support with Summer CMS, see here: [Browser Support](https://github.com/ayumi-cloud/sc-main/blob/main/docs/browser_support.md).
+For a full list of browser support with Summer CMS, see here: [Browser Support](https://github.com/summer-cms/sc-main/blob/main/docs/browser_support.md).
 
 ## Changelog 🏆
 
@@ -440,7 +440,7 @@ We are actively inviting new contributors! To start, please read the [contributi
 This project is only possible thanks to the work of many dedicated volunteers. Everyone is encouraged to help in ways large and small. Here are a few ways you can help:
 
 - Read the current content and help us fix any spelling mistakes or grammatical errors.
-- Choose an existing [issue](https://github.com/ayumi-cloud/sc-security-module/issues) on GitHub and submit a pull request to fix it.
+- Choose an existing [issue](https://github.com/summer-cms/sc-security-module/issues) on GitHub and submit a pull request to fix it.
 - Open a new issue to report an opportunity for improvement.
 
 If you find any bugs in the code or have any improvements in mind then feel free to generate a pull request.
@@ -485,7 +485,7 @@ This security module uses some PSR standards to be the most interoperable possib
 
 We also suggest using Cross-browser testing provided by BrowserStack (*) where a real-browser can't be used in-house.
 
-<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/browser-stack.png"></p>
+<p align="center"><img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/browser-stack.png"></p>
 
 ## PHP Coding Standards Fixer ⭕
 
@@ -531,7 +531,7 @@ $ composer test
 
 The Summer CMS and all modules use: [Semantic Versioning](https://semver.org/).
 
-<p align="center"><img src="https://github.com/ayumi-cloud/sc-security-module/blob/master/src/assets/images/semver.png"></p>
+<p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/semver.png"></p>
 
 Semantic Versioning is a 3-component number in the format of `X.Y.Z` where:
 
@@ -735,4 +735,4 @@ Everyone is permitted to copy and distribute copies of Summer CMS, but changing 
 
 [⬆ back to top](#table-of-contents-)
 
-<p align="center"><img src="https://github.com/ayumi-cloud/oc-security-module/blob/master/src/assets/images/luv.png"></p>
+<p align="center"><img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/luv.png"></p>
