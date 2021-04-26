@@ -116,7 +116,7 @@ This module uses several Big Data tool sets to analyze large amounts of data col
 ## Citation 📚
 
 <a href="https://zenodo.org/">
-  <img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/buttons/citation.svg" />
+  <img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/buttons/citation.svg" />
 </a>
 
 If you use this security module for your research, then kindly cite it. Click the above badge for more information regarding the complete citation for this security module and the diffferent citation formats like: IEEE, APA, BibTeX, CSL, DataCite, Dublin Core, DCAT, JSON, JSON-LD, GeoJSON, MARCXML and Mendeley etc.
@@ -333,7 +333,7 @@ The security module also uses with the following api's from other Summer CMS mod
 
 ## Issues 🔨
 
-<img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/summer-cms/oc-security-module?style=plastic"> <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/summer-cms/oc-security-module">
+<img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/summer-cms/sc-security-module?style=plastic"> <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/summer-cms/sc-security-module">
 
 If you face any issue, you can create a new issue in the `Issues` tab and we will be glad to help you out!
 
@@ -352,7 +352,7 @@ We welcome bug reports, false positive alert reports, evasions, usability issues
 
 Please include your installed version and the relevant portions of your audit log.
 
-False negative or common bypasses should [create an issue](https://github.com/summer-cms/oc-security-module/issues/new) so they can be addressed.
+False negative or common bypasses should [create an issue](https://github.com/summer-cms/sc-security-module/issues/new) so they can be addressed.
 
 Do this before submitting a vulnerability:
 
@@ -366,11 +366,11 @@ If in doubt, feel free to reach out to us!
 
 ## Code of Conduct 💯
 
-In order to ensure that the Summer CMS proposal community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/summer-cms/oc-security-module/blob/master/CODE_OF_CONDUCT.md).
+In order to ensure that the Summer CMS proposal community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/summer-cms/sc-security-module/blob/master/CODE_OF_CONDUCT.md).
 
 ## For Future 🔮
 
-Shoutout to people willing to contribute to this project. Please take a look at the [projects board](https://github.com/summer-cms/oc-security-module/projects) for a list of things to be done.
+Shoutout to people willing to contribute to this project. Please take a look at the [projects board](https://github.com/summer-cms/sc-security-module/projects) for a list of things to be done.
 
 ## Browser Support ✅
 
@@ -485,7 +485,7 @@ This security module uses some PSR standards to be the most interoperable possib
 
 We also suggest using Cross-browser testing provided by BrowserStack (*) where a real-browser can't be used in-house.
 
-<p align="center"><img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/browser-stack.png"></p>
+<p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/browser-stack.png"></p>
 
 ## PHP Coding Standards Fixer ⭕
 
@@ -735,4 +735,4 @@ Everyone is permitted to copy and distribute copies of Summer CMS, but changing 
 
 [⬆ back to top](#table-of-contents-)
 
-<p align="center"><img src="https://github.com/summer-cms/oc-security-module/blob/master/src/assets/images/luv.png"></p>
+<p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/luv.png"></p>
