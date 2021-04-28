@@ -252,6 +252,16 @@ Setting `chrome://flags/#enable-heavy-ad-intervention` to Enabled activates the 
 
 ---
 
+### Federated Learning of Cohorts (FLoC)
+
+FLoC enables ad selection without sharing the browsing behaviour of individual users.
+
+```--enable-blink-features=InterestCohortAPI
+--enable-features="FederatedLearningOfCohorts:update_interval/10s/minimum_history_domain_size_required/1,FlocIdSortingLshBasedComputation,InterestCohortFeaturePolicy"
+```
+
+---
+
 ## Other Security Related HTTP Header API's
 
 Currently Summer CMS security module uses many security related api's and below is a list:
