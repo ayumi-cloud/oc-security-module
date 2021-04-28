@@ -85,13 +85,13 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - Firewall Filters.
 - Many Security Tools (too many to mention).
 
-<p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/vanilla.jpg"></p>
-
 ## Privacy as Default 👀
 
 ### FLoC 🔔
 
 FLoC enables ad selection without sharing the browsing behaviour of individual users. A site should be able to declare that it does not want to be included in the user's list of sites for cohort calculation. Summer CMS puts it's users privacy first and so sets the `opt-out` as the default, webmasters and users can then `opt-in`. This also passes GDPR/ePrivacy laws.
+
+<p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/vanilla.jpg"></p>
 
 ## Vanilla Code 🍦
 
