@@ -85,6 +85,12 @@ The main purpose of the security module is to harden the Summer CMS against a va
 
 <p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/vanilla.jpg"></p>
 
+## Privacy as Default 👀
+
+### FLoC 🔔
+
+FLoC enables ad selection without sharing the browsing behaviour of individual users. A site should be able to declare that it does not want to be included in the user's list of sites for cohort calculation. Summer CMS puts it's users privacy first and so sets the `opt-out` as the default, webmasters and users can then `opt-in`. This also passes GDPR/ePrivacy laws.
+
 ## Vanilla Code 🍦
 
 Vanilla often refers to **pure** or **plain**. So in terms of programming languages, it means either without the use of **3rd party libraries** or without the use of **frameworks**.
@@ -154,6 +160,7 @@ Below are some of the API's the security module uses (this is not a complete lis
 - [Expect-CT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT)
 - [Expires](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires)
 - [Feature Policy (also Permissions Policy)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy)
+- [Federated Learning of Cohorts (FLoC)](https://github.com/WICG/floc)
 - [Fetch Metadata Request Headers](https://w3c.github.io/webappsec-fetch-metadata/)
 - [Fetch](https://fetch.spec.whatwg.org/)
 - [First-Party Sets](https://github.com/privacycg/first-party-sets)
