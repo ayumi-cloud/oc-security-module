@@ -85,8 +85,6 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - Firewall Filters.
 - Many Security Tools (too many to mention).
 
-<p align="center"><img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/privacy.png"></p>
-
 ## Privacy as Default 👀
 
 ### FLoC 🔔
