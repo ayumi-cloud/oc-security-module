@@ -146,9 +146,15 @@ Summer CMS has a dedicated legal module to easily complie with current laws and 
 
 FLoC enables ad selection without sharing the browsing behaviour of individual users. A site should be able to declare that it does not want to be included in the user's list of sites for cohort calculation. Summer CMS puts it's users privacy first and so sets the `opt-out` as the default, webmasters and users can then `opt-in`. This also passes GDPR/ePrivacy laws.
 
-<p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/vanilla.jpg"></p>
+FLoC is part of a suite intended to bring targeted ads into a privacy-preserving future. But the core design involves sharing new information with advertisers. Unsurprisingly, this also creates new privacy risks.
+
+The first issue is fingerprinting. Browser fingerprinting is the practice of gathering many discrete pieces of information from a user’s browser to create a unique, stable identifier for that browser.
+
+The second problem is less easily explained away: the technology will share new personal data with trackers who can already identify users. For FLoC to be useful to advertisers, a user’s cohort will necessarily reveal information about their behavior.
 
 ## Vanilla Code 🍦
+
+<p align="center"><img src="https://github.com/summer-cms/sc-security-module/blob/master/src/assets/images/vanilla.jpg"></p>
 
 Vanilla often refers to **pure** or **plain**. So in terms of programming languages, it means either without the use of **3rd party libraries** or without the use of **frameworks**.
 
