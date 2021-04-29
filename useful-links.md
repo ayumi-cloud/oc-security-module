@@ -314,12 +314,6 @@ https://octobercms.com/docs/help/using-composer#development-branch
 
 https://www.ip2location.com/free/robot-whitelist
 
-### Good vs bad bots
-
-- Good bots = Allow potential real-users to your website.
-
-- Bad bots = Steal data, information and sell your data (doesn't help bring your websites real-users).
-
 ### Malware Trends Tracker
 
 https://any.run/malware-trends/
@@ -383,14 +377,6 @@ https://udger.com/resources/ua-list/bot-detail?bot=Fake+bot
 ### Google Search Console Abusive Notifications Report
 
 https://www.google.com/webmasters/tools/abusive-notifications-unverified
-
-### October Help areas
-
-Discord: https://discord.gg/gEKgwSZ
-
-Forum: https://octobercms.com/forum
-
-StackOverflow: https://stackoverflow.com/questions/tagged/octobercms
 
 ### Phishing spam blocklist
 
@@ -547,3 +533,42 @@ https://github.com/squizlabs/PHP_CodeSniffer
 Snuffleupagus is a PHP7+ and PHP8+ module designed to drastically raise the cost of attacks against websites. This is achieved by killing entire bug classes and providing a powerful virtual-patching system, allowing the administrator to fix specific vulnerabilities without having to touch the PHP code.
 
 https://snuffleupagus.readthedocs.io/
+
+---
+
+### Cloudflare IP Ranges
+
+Last updated: April 8, 2021.
+
+#### IPv4
+
+```
+103.21.244.0/22
+103.22.200.0/22
+103.31.4.0/22
+104.16.0.0/13
+104.24.0.0/14
+108.162.192.0/18
+131.0.72.0/22
+141.101.64.0/18
+162.158.0.0/15
+172.64.0.0/13
+173.245.48.0/20
+188.114.96.0/20
+190.93.240.0/20
+197.234.240.0/22
+198.41.128.0/17
+```
+
+#### IPv6
+
+```
+2400:cb00::/32
+2606:4700::/32
+2803:f800::/32
+2405:b500::/32
+2405:8100::/32
+2a06:98c0::/29
+```
+
+Link: https://www.cloudflare.com/en-gb/ips/
