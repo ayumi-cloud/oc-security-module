@@ -19,7 +19,7 @@
   - [California Consumer Privacy Act (CCPA)](#california-consumer-privacy-act-ccpa-)
   - [Strong Customer Authentication (SCA) ](#strong-customer-authentication-sca-)
   - [The Second Payment Services Directive (PSD2)](#the-second-payment-services-directive-psd2-)
-  - [FLoC](#floc-)
+  - [Federated Learning of Cohorts (FLoC)](#floc-)
 - [Vanilla Code](#vanilla-code-)
 - [Naming Prefix](#naming-prefix-%EF%B8%8F)
 - [Requirements](#requirements-)
@@ -140,7 +140,7 @@ The Payment Services Directive Two (PSD2) is a piece of legislation designed to 
 
 Summer CMS has a dedicated legal module to easily complie with current laws and customize secure settings and sca notices.
 
-### FLoC 🔔
+### Federated Learning of Cohorts (FLoC) 🔔
 
 <p align="center"><img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/floc.png"></p>
 
