@@ -261,6 +261,12 @@ FLoC enables ad selection without sharing the browsing behaviour of individual u
 --enable-features="FederatedLearningOfCohorts:update_interval/10s/minimum_history_domain_size_required/1,FlocIdSortingLshBasedComputation,InterestCohortFeaturePolicy"
 ```
 
+Opt-out:
+
+```
+Permissions-Policy: interest-cohort=()
+```
+
 ---
 
 ## Other Security Related HTTP Header API's
