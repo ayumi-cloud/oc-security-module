@@ -368,9 +368,17 @@ All the security settings can be configured at any time in the security module u
 
 ## Firewall Definition Files 💾
 
-Version: 20210223
+### Location Definitions
 
 Last Updated: 3rd March 2021
+
+### Parser Definitions
+
+Last Updated: **1st Jan 2021 <<<<<<<<< Update to V3.1.0 see here:** https://github.com/summercms/sc-parser-module/issues/3
+
+### Firewall Definitions
+
+Last Updated: 6th May 2021
 
 (*) While the security module is under heavy development, the definition files will be updated periodically and not on a regular basis! When the security module moves in a production ready-mode, the definitions files will be updated on a regular basis every week.
   
