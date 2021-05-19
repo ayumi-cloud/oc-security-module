@@ -506,6 +506,10 @@ https://httpd.apache.org/security/
 
 https://httpd.apache.org/security/vulnerabilities_24.html
 
+### AMP Page Experience Guide (Analyze your AMP page)
+
+https://amp.dev/page-experience/
+
 ---
 
 ## Code Quality Testers
