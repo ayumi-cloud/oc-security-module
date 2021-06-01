@@ -267,6 +267,20 @@ Opt-out:
 Permissions-Policy: interest-cohort=()
 ```
 
+### Disable Nagging Screens (Edge Browser)
+
+To disable the Microsoft Edge recommended settings nag screen, please follow these steps:
+
+1. Open Microsoft Edge.
+2. Enter `edge://flags` in your browser and press `enter` on your keyboard.
+3. Search for `Show feature and workflow recommendations` and disable it, as shown below.
+
+<p align="center"><img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/disable-nag-screen.jpg"></p>
+
+4. Restart the browser when prompted to do so.
+
+Once Microsoft Edge restarts, you will no longer see the '**Use recommended browser settings**' nagging screen.
+
 ---
 
 ## Other Security Related HTTP Header API's
