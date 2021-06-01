@@ -8,7 +8,7 @@ As you can imagine any type of compression requires certain amount of memory and
 
 An application web server has different types of responses, some might be extremely small having size of 10byte or some with very large data having size more than 1MB. It is fairly good to consider that the 10byte response does not need compression as it's already very very tiny in size. If your server is attempting to compresses such smal responses as well, its consuming unnccessary resources in response compression.
 
-To avoid this, we use `gzip directives` to notify gzip compression mechanism that only compress the responses which have size greater then the defined directive value. We use `gzip_min_length` directive for it which takes numeric value representing `byte`s.
+To avoid this, we use `gzip directives` to notify gzip compression mechanism that only compress the responses which have size greater then the defined directive value. We use `gzip_min_length` directive for it which takes numeric value representing `bytes`.
 
 ```
 gzip_min_length 1000;
