@@ -510,6 +510,10 @@ https://httpd.apache.org/security/vulnerabilities_24.html
 
 https://amp.dev/page-experience/
 
+### If-Modified-Since
+
+https://gist.github.com/summercms/6dcc5f04e54e644bcf343a0f9b7f0b3d
+
 ---
 
 ## Code Quality Testers
