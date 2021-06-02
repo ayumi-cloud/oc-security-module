@@ -514,6 +514,11 @@ https://amp.dev/page-experience/
 
 https://gist.github.com/summercms/6dcc5f04e54e644bcf343a0f9b7f0b3d
 
+### CSS property: `aspect-ratio`
+
+https://caniuse.com/mdn-css_properties_aspect-ratio
+https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio
+
 ---
 
 ## Code Quality Testers
