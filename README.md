@@ -91,6 +91,8 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - Summer CMS System Infomation.
 - Production Mode Checks.
 - Firewall Filters.
+- Testing and monitoring DNS settings and SSL/TLS certificates.
+- Testing and monitoring HTTPS, HTTP/1.1, HTTP/2, QUIC and HTTP/3.
 - Many Security Tools (too many to mention).
 
 ## Privacy as Default 👀
