@@ -94,6 +94,7 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - Testing and monitoring DNS settings and SSL/TLS certificates.
 - Testing and monitoring HTTPS, Mixed Content, HTTP/1.1, HTTP/2, QUIC and HTTP/3.
 - Blocking old technologies such as HTTP/0.9, HTTP/1.0, SSL 1.0, 2.0, 3.0, TLS 1.0, 1.1 etc.
+- Intelligent caching system to increase performance.
 - Many Security Tools (too many to mention).
 
 ## Privacy as Default 👀
