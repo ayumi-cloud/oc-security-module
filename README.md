@@ -96,7 +96,7 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - Blocking old technologies such as HTTP/0.9, HTTP/1.0, SSL 1.0, 2.0, 3.0, TLS 1.0, 1.1 etc.
 - Intelligent caching system to increase performance.
 - Automated setup of HTTP security headers.
-- Enhanced storage security for cookies, trust tokens, web SQL and IndexedDb etc.
+- Enhanced security for storage features such as cookies, trust tokens, web SQL and IndexedDb etc.
 - Many Security Tools (too many to mention).
 
 ## Privacy as Default 👀
