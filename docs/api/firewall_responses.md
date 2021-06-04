@@ -282,6 +282,20 @@ Below lists the firewall responses api:
             <td>Secure Shell (SSH) abuse.</td>
         </tr>
         <tr>
+            <td>statusCodes</td>
+            <td>string</td>
+            <td>informational<br>successful<br>redirection<br>clientError<br>serverError</td>
+            <td>
+                <ul>
+                    <li>1xx informational response – the request was received, continuing process.</li>
+                    <li>2xx successful <strong>(defult)</strong> – the request was successfully received, understood, and accepted.</li>
+                    <li>3xx redirection – further action needs to be taken in order to complete the request.</li>
+                    <li>4xx client error – the request contains bad syntax or cannot be fulfilled.</li>
+                    <li>5xx server error – the server failed to fulfil an apparently valid request.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
             <td>webSpam</td>
             <td>boolean</td>
             <td>true<br>false</td>
