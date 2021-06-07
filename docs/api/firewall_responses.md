@@ -163,6 +163,12 @@ Below lists the firewall responses api:
             <td>Abuse was targeted at an 'Internet of Things' type device.</td>
         </tr>
         <tr>
+            <td>maintenanceMode</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Checks to see if Summer CMS has maintenance mode turned on/off.</td>
+        </tr>
+        <tr>
             <td>oldOs</td>
             <td>boolean</td>
             <td>true<br>false</td>
