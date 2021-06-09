@@ -61,11 +61,36 @@ Below lists the firewall logging api:
             <td>Get the http request method.</td>
         </tr>
         <tr>
-            <td>logMethod</td>
-            <td>string</td>
-            <td>Http request method</td>
-            <td>Get the http request method.</td>
+            <td>logNotification</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>When set to <strong>true</strong> the firewall will indicate the notification in the side panel.</td>
         </tr>
+        <tr>
+            <td>logPjax</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Determine if the request is the result of an PJAX call.</td>
+        </tr>
+        <tr>
+            <td>logPrefetch</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Determine if the request is the result of an prefetch call.</td>
+        </tr>
+        <tr>
+            <td>logRequestUrl</td>
+            <td>string</td>
+            <td>xxx<br>false</td>
+            <td>Get the full URL for the request with the added query string parameters.</td>
+        </tr>
+        
+        
+        
+        
+        
+        
+        
     </tbody>
 </table>
 
