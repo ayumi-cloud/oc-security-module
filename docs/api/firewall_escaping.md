@@ -1227,5 +1227,168 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
         </tr>
+        <tr>
+            <td colspan="8"><h3>Logger API</h3></td>
+        </tr>
+        <tr>
+            <td>Ajax</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>50</td>
+            <td>(object) date</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API. Date created using Carbon.</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Ip Address</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>100</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Json</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Level</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>50</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>50</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Message</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Method</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Notification</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Pjax</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Prefetch</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Request URL</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>n/a</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Secure</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>Status Code</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>int</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
+            <td>User Agent</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>1000</td>
+            <td>string</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
     </tbody>
 </table>
