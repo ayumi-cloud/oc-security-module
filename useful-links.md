@@ -519,6 +519,11 @@ https://gist.github.com/summercms/6dcc5f04e54e644bcf343a0f9b7f0b3d
 https://caniuse.com/mdn-css_properties_aspect-ratio
 https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio
 
+### GitBook
+
+https://www.gitbook.com/
+https://docs.gitbook.com/
+
 ---
 
 ## Code Quality Testers
