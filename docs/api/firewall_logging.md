@@ -19,6 +19,12 @@ Below lists the firewall logging api:
             <td>Determine if the request was the result of an AJAX call.</td>
         </tr>
         <tr>
+            <td>logDate</td>
+            <td>object</td>
+            <td>Date and time e.g.<br><strong>2019-12-02 20:01:00</strong></td>
+            <td>The date and time when the log was created or updated.<br><strong>Note:</strong> Before Laravel 7, dates would be serialized to a format like the following: <strong>2019-12-02 20:01:00</strong>. From Laravel 7, dates serialized using the new format will appear like: <strong>2019-12-02T20:01:00.283041Z</strong>.</td>
+        </tr>
+        <tr>
             <td>logEmail</td>
             <td>boolean</td>
             <td>true<br>false</td>
@@ -81,16 +87,27 @@ Below lists the firewall logging api:
         <tr>
             <td>logRequestUrl</td>
             <td>string</td>
-            <td>xxx<br>false</td>
+            <td>Full request url e.g.<br><strong>https://www.example.com/somthing</strong></td>
             <td>Get the full URL for the request with the added query string parameters.</td>
         </tr>
-        
-        
-        
-        
-        
-        
-        
+        <tr>
+            <td>logSecure</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Determine if the request is over HTTPS.</td>
+        </tr>
+        <tr>
+            <td>logStatusCode</td>
+            <td>integrer</td>
+            <td>Status code e.g.<br><strong>200</strong></td>
+            <td>Get the status code for the response.</td>
+        </tr>
+        <tr>
+            <td>logUserAgent</td>
+            <td>string</td>
+            <td>User agent e.g.<br><strong>xxx</strong></td>
+            <td>Get the client user agent.</td>
+        </tr>
     </tbody>
 </table>
 
