@@ -13,19 +13,62 @@ Below lists the firewall logging api:
     </thead>
     <tbody>
         <tr>
-            <td>botHuman</td>
-            <td>string</td>
-            <td>badBot<br>botNet<br>fakeBot<br>goodBot<br>human</td>
-            <td>
-                <ul>
-                    <li>Bad bots to be blacklisted.</li>
-                    <li>A botnet is a number of Internet-connected devices, each of which is running one or more bots.</li>
-                    <li>The fake bot has a real user agent but comes from a non-official server location.</li>
-                    <li>Good bots to be whitelisted.</li>
-                    <li>User is a human (not a robot) set as the default until flagged by the firewall.</li>
-                </ul>
-            </td>
+            <td>logAjax</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Determine if the request was the result of an AJAX call.</td>
         </tr>
+        <tr>
+            <td>logEmail</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>When set to <strong>true</strong> the firewall will send the log details to the Summer CMS admin/webmaster's email address.</td>
+        </tr>
+        <tr>
+            <td>logIpAddress</td>
+            <td>string</td>
+            <td>IPv4 or IPv6 address e.g. <strong>123.123.123.123</strong></td>
+            <td>Get the request client's IP address.</td>
+        </tr>
+        <tr>
+            <td>logJson</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Determine if the request is sending JSON.</td>
+        </tr>
+        <tr>
+            <td>logLevel</td>
+            <td>string</td>
+            <td>alert<br>critical<br>debug<br>emergency<br>error<br>info<br>notice<br>warning</td>
+            <td>The logger provides the eight logging levels defined in <a href="https://datatracker.ietf.org/doc/html/rfc5424">RFC 5424</a>: emergency, alert, critical, error, warning, notice, info and debug.</td>
+        </tr>
+        <tr>
+            <td>logLocation</td>
+            <td>string</td>
+            <td>frontend<br>backend</td>
+            <td>Determines the firewall location where the log took place.</td>
+        </tr>
+        <tr>
+            <td>logMessage</td>
+            <td>string</td>
+            <td>Log message e.g. <strong>Firewall settings are missing please install</strong></td>
+            <td>A log message in general is a text string with an abundance of contextual information.</td>
+        </tr>
+        <tr>
+            <td>logMethod</td>
+            <td>string</td>
+            <td>Http request method e.g. <strong>GET</strong></td>
+            <td>Get the http request method.</td>
+        </tr>
+        <tr>
+            <td>logMethod</td>
+            <td>string</td>
+            <td>Http request method</td>
+            <td>Get the http request method.</td>
+        </tr>
+        
+        
+        
     </tbody>
 </table>
 
