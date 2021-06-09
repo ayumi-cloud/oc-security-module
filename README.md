@@ -402,6 +402,7 @@ The security module in Summer CMS comes with lots of dedicated API's to help dev
 - [Firewall HTTP Status Codes API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_http_status_codes.md)
 - [Firewall Language API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_language.md)
 - [Firewall Location API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_location.md)
+- [Firewall Logging API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_logging.md)
 - [Firewall Operating Systems API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_operating_systems.md)
 - [Firewall Referrer Types API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_referrer_types.md)
 - [Firewall Requests API](https://github.com/summer-cms/sc-security-module/blob/master/docs/api/firewall_requests.md)
