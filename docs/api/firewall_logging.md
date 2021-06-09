@@ -27,7 +27,7 @@ Below lists the firewall logging api:
         <tr>
             <td>logIpAddress</td>
             <td>string</td>
-            <td>IPv4 or IPv6 address e.g. <strong>123.123.123.123</strong></td>
+            <td>IPv4 or IPv6 address e.g.<br><strong>123.123.123.123</strong></td>
             <td>Get the request client's IP address.</td>
         </tr>
         <tr>
@@ -40,7 +40,7 @@ Below lists the firewall logging api:
             <td>logLevel</td>
             <td>string</td>
             <td>alert<br>critical<br>debug<br>emergency<br>error<br>info<br>notice<br>warning</td>
-            <td>The logger provides the eight logging levels defined in <a href="https://datatracker.ietf.org/doc/html/rfc5424">RFC 5424</a>: emergency, alert, critical, error, warning, notice, info and debug.</td>
+            <td>The logger provides the eight logging levels defined in <a href="https://datatracker.ietf.org/doc/html/rfc5424">RFC 5424</a>.</td>
         </tr>
         <tr>
             <td>logLocation</td>
@@ -51,13 +51,13 @@ Below lists the firewall logging api:
         <tr>
             <td>logMessage</td>
             <td>string</td>
-            <td>Log message e.g. <strong>Firewall settings are missing please install</strong></td>
+            <td>Log message e.g.<br><strong>Firewall settings are missing please install</strong></td>
             <td>A log message in general is a text string with an abundance of contextual information.</td>
         </tr>
         <tr>
             <td>logMethod</td>
             <td>string</td>
-            <td>Http request method e.g. <strong>GET</strong></td>
+            <td>Http request method e.g.<br><strong>GET</strong></td>
             <td>Get the http request method.</td>
         </tr>
         <tr>
@@ -66,9 +66,6 @@ Below lists the firewall logging api:
             <td>Http request method</td>
             <td>Get the http request method.</td>
         </tr>
-        
-        
-        
     </tbody>
 </table>
 
