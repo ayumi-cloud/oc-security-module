@@ -98,7 +98,7 @@ Below lists the firewall logging api:
         </tr>
         <tr>
             <td>logStatusCode</td>
-            <td>integrer</td>
+            <td>integer</td>
             <td>Status code e.g.<br><strong>200</strong></td>
             <td>Get the status code for the response.</td>
         </tr>
