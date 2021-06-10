@@ -8,7 +8,7 @@ Below lists the firewall logging api:
             <th>Property</th>
             <th>Type</th>
             <th>Values</th>
-            <th>Required/Recommended</th>
+            <th>Required or Recommended</th>
             <th>Description</th>
         </tr>
     </thead>
