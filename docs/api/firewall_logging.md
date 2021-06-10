@@ -51,7 +51,7 @@ Below lists the firewall logging api:
         <tr>
             <td>logLocation</td>
             <td>string</td>
-            <td>frontend<br>backend</td>
+            <td>frontend<br>backend<br>other</td>
             <td>Determines the firewall location where the log took place.</td>
         </tr>
         <tr>
