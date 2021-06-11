@@ -1241,6 +1241,16 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
+            <td>Cookie</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
             <td>Date</td>
             <td>❌</td>
             <td>✔️</td>
@@ -1366,16 +1376,6 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>✔️</td>
             <td>10</td>
             <td>boolean</td>
-            <td>✔️</td>
-            <td>allowed</td>
-            <td>Cleaned from Firewall API.</td>
-        </tr>
-        <tr>
-            <td>Status Code</td>
-            <td>❌</td>
-            <td>✔️</td>
-            <td>10</td>
-            <td>int</td>
             <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API.</td>
