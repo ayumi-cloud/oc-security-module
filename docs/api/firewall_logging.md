@@ -21,6 +21,13 @@ Below lists the firewall logging api:
             <td>Determine if the request was the result of an AJAX call.</td>
         </tr>
         <tr>
+            <td>logCookie</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Recommended</td>
+            <td>Checks to see if the firewall cookie is present (only runs on HTTPS secure servers).<br><strong>Note:</strong>The firewall encrypted cookie is only installed on secure server connections and will not be installed on a HTTP server.</td>
+        </tr>
+        <tr>
             <td>logDate</td>
             <td>object</td>
             <td>Date and time e.g.<br><strong>2019-12-02T20:01:00.283041Z</strong></td>
@@ -110,13 +117,6 @@ Below lists the firewall logging api:
             <td>true<br>false</td>
             <td>Recommended</td>
             <td>Determine if the request is over HTTPS.</td>
-        </tr>
-        <tr>
-            <td>logStatusCode</td>
-            <td>integer</td>
-            <td>Status code e.g.<br><strong>200</strong></td>
-            <td>Recommended</td>
-            <td>Get the status code for the response.</td>
         </tr>
         <tr>
             <td>logUserAgent</td>
