@@ -30,7 +30,7 @@ Below lists the firewall logging api:
         <tr>
             <td>logDate</td>
             <td>object</td>
-            <td>Date and time e.g.<br><strong>2019-12-02T20:01:00.283041Z</strong></td>
+            <td>Date and time e.g.<br><strong>2021-06-12 16:31:28</strong></td>
             <td>Recommended</td>
             <td>The date and time when the log was created or updated (the <strong>logDate</strong> is set to <strong>Y-m-d H:i:s</strong> format as default for backwards compatibility).</td>
         </tr>
