@@ -32,7 +32,7 @@ Below lists the firewall logging api:
             <td>object</td>
             <td>Date and time e.g.<br><strong>2019-12-02T20:01:00.283041Z</strong></td>
             <td>Recommended</td>
-            <td>The date and time when the log was created or updated (the <strong>logDate</strong> is set to ISO-8601 format as default).<br><strong>Note:</strong> Before Laravel 7, dates would be serialized to a format like the following: <strong>2019-12-02 20:01:00</strong>. From Laravel 7, dates serialized using the new format will appear like: <strong>2019-12-02T20:01:00.283041Z</strong>.</td>
+            <td>The date and time when the log was created or updated (the <strong>logDate</strong> is set to <strong>Y-m-d H:i:s</strong> format as default for backwards compatibility).</td>
         </tr>
         <tr>
             <td>logEmail</td>
