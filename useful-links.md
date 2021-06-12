@@ -641,3 +641,17 @@ $response->clientError();
 // Determine if the response has a 500 level status code...
 $response->serverError();
 ```
+
+---
+
+### Try and Catch Methods
+
+```php
+Use Exception;
+
+try {
+    //write your codes here
+} catch(Exception $e) {
+    dd($e->getMessage());
+}
+```
