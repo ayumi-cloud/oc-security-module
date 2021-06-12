@@ -1255,7 +1255,7 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>❌</td>
             <td>✔️</td>
             <td>50</td>
-            <td>(object) date</td>
+            <td>(string) Date Time</td>
             <td>✔️</td>
             <td>allowed</td>
             <td>Cleaned from Firewall API. Date created using Carbon.</td>
