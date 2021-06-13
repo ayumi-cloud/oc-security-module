@@ -163,7 +163,7 @@ The second problem is less easily explained away: the technology will share new 
 
 ### Cookies 🔔
 
-<p align="center"><img src="https://github.com/summercms/sc-main/blob/main/src/assets/images/cookie.svg" width="250" height="250"></p>
+<p align="center"><img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/cookie.svg" width="250" height="250"></p>
 
 Cookies in Summer CMS auto detect if the cms is being hosted from a secure connection and sets the following default for https connections:
 
@@ -183,7 +183,7 @@ SameParty | `none` | This is currently an Origin Trial in Chrome 89 and greater 
 
 For example, suppose that owner.example owns a First-Party Set containing {member1.example, member2.example}. Then a `SameParty` cookie set by member1.example **would be sent** to https://member1.example in the following contexts:
 
-<p align="center"><img src="https://github.com/summercms/sc-main/blob/main/src/assets/images/same_party_table.png"></p>
+<p align="center"><img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/same_party_table.png"></p>
 
 ## Vanilla Code 🍦
 
