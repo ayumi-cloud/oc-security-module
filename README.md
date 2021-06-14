@@ -579,6 +579,12 @@ composer update
 composer update --no-dev
 ```
 
+### Gitpod 🐥
+
+Summer CMS has experimental support for [Gitpod](https://www.gitpod.io/), a pre-configured development environment that runs in your browser. To use Gitpod, click the button below and sign in with GitHub. Gitpod also offers a browser add-on, though it is not required.
+
+[![Edit with Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/summercms/sc-security-module)
+
 ## Firewall caching system 🌀
 
 The security module supports [PSR-6](https://www.php-fig.org/psr/psr-6/) compatible cache adapters for caching results between requests. Using a cache is especially useful, with the firewall being loaded on every page of your website and a user visits multiple pages. During the first visit the headers will be parsed and the result will be cached. Upon further visits, the cached header results will be used, which is much faster than having to parse the headers again and again. While the firewall divides up it's workflow between cached and non-cached tasks.
