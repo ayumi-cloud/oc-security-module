@@ -112,6 +112,13 @@ Below lists the firewall logging api:
             <td>Get the full URL for the request with the added query string parameters.</td>
         </tr>
         <tr>
+            <td>logResponse</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Recommended</td>
+            <td>When set to <strong>true</strong> the firewall will return a 500 HTTP response status code. To set a different HTTP response status code set this value to <strong>false</strong>.</td>
+        </tr>
+        <tr>
             <td>logSecure</td>
             <td>boolean</td>
             <td>true<br>false</td>
