@@ -38,7 +38,7 @@ Below lists the firewall logging api:
             <td>logEmail</td>
             <td>boolean</td>
             <td>true<br>false</td>
-            <td>Recommended</td>
+            <td>Required (1)</td>
             <td>When set to <strong>true</strong> the firewall will send the log details to the Summer CMS admin/webmaster's email address.</td>
         </tr>
         <tr>
@@ -87,7 +87,7 @@ Below lists the firewall logging api:
             <td>logNotification</td>
             <td>boolean</td>
             <td>true<br>false</td>
-            <td>Recommended</td>
+            <td>Required (1)</td>
             <td>When set to <strong>true</strong> the firewall will indicate the notification in the side panel.</td>
         </tr>
         <tr>
@@ -115,7 +115,7 @@ Below lists the firewall logging api:
             <td>logResponse</td>
             <td>boolean</td>
             <td>true<br>false</td>
-            <td>Recommended</td>
+            <td>Required (1)</td>
             <td>When set to <strong>true</strong> the firewall will return a 500 HTTP response status code. To set a different HTTP response status code set this value to <strong>false</strong>.</td>
         </tr>
         <tr>
@@ -134,5 +134,7 @@ Below lists the firewall logging api:
         </tr>
     </tbody>
 </table>
+
+(1) These properties have a default value of **true** set for them.
 
 (*) Subject to adding more values and firewall modules being created, to add more features to the cms.
