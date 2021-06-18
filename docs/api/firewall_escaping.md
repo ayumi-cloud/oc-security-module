@@ -1371,6 +1371,16 @@ Below are details for the level of escaping carried out by the firewall in certa
             <td>Cleaned from Firewall API.</td>
         </tr>
         <tr>
+            <td>Response</td>
+            <td>❌</td>
+            <td>✔️</td>
+            <td>10</td>
+            <td>boolean</td>
+            <td>✔️</td>
+            <td>allowed</td>
+            <td>Cleaned from Firewall API.</td>
+        </tr>
+        <tr>
             <td>Secure</td>
             <td>❌</td>
             <td>✔️</td>
