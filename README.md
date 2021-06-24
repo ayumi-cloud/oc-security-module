@@ -411,7 +411,7 @@ Last Updated: 3rd March 2021
 
 ### Parser Definitions
 
-Last Updated: 24th June 2021 **V3.1.0**
+Last Updated: 24th June 2021 **(Version: 3.1.0)**
 
 ### Firewall Definitions
 
