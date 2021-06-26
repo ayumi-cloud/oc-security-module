@@ -407,7 +407,7 @@ All the security settings can be configured at any time in the security module u
 
 ### Location Definitions
 
-Last Updated: 3rd March 2021
+Last Updated: 22nd June 2021
 
 ### Parser Definitions
 
