@@ -101,6 +101,7 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - Automated setup of HTTP security headers.
 - Enhanced security for storage features such as cookies, trust tokens, web SQL and IndexedDb etc.
 - Custom templates for many special HTTP response status codes.
+- Monitor and track missing content in real-time.
 - Many Security Tools (too many to mention).
 
 ## Privacy as Default 👀
