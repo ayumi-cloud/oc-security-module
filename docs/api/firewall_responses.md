@@ -172,7 +172,7 @@ Below lists the firewall responses api:
             <td>missingMedia</td>
             <td>boolean</td>
             <td>true<br>false</td>
-            <td>Flags missing media when a 404 response occurs in the media folder, the firewall will also tell the user which web page it appeared on.</td>
+            <td>Will return a <strong>true</strong> value when a 404 response occurs in the media folder, the firewall will also tell the webmaster which web page it appeared on.</td>
         </tr>
         <tr>
             <td>oldOs</td>
