@@ -169,6 +169,12 @@ Below lists the firewall responses api:
             <td>Checks to see if Summer CMS has maintenance mode turned on/off.</td>
         </tr>
         <tr>
+            <td>missingMedia</td>
+            <td>boolean</td>
+            <td>true<br>false</td>
+            <td>Flags missing media when a 404 response occurs in the media folder, the firewall will also tell the user which web page it appeared on.</td>
+        </tr>
+        <tr>
             <td>oldOs</td>
             <td>boolean</td>
             <td>true<br>false</td>
