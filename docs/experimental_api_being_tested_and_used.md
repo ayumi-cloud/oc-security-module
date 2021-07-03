@@ -281,6 +281,39 @@ To disable the Microsoft Edge recommended settings nag screen, please follow the
 
 Once Microsoft Edge restarts, you will no longer see the '**Use recommended browser settings**' nagging screen.
 
+### Google Chrome `HTTPS-Only` Mode
+
+If you want to test this experimental feature right now, you will have to first enable the "HTTPS-Only Mode Setting" flag by going to:
+
+```
+chrome://flags/#https-only-mode-setting
+```
+
+This adds the "Always use secure connections" option to the browser's security settings which, once enabled, will set up Chrome to automatically upgrade all navigation to HTTPS and display alerts before loading websites that don't support it.
+
+The HTTPS upgrades will be automatic with no warnings to allow you to browse the Internet without interruptions over a secure connection wherever possible.
+
+<p align="center"><img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/https-only.png"></p>
+
+### Microsoft adds Automatic HTTPS
+
+The automatic switch to an HTTPS connection will protect Edge users from man-in-the-middle (MITM) attacks attempting to snoop on data exchanged with websites over unencrypted HTTP connections.
+
+If you want to test it right now, you have to open `edge://settings/privacy` and turn on "Automatically switch to more secure connections with Automatic HTTPS."
+
+If the experiment hasn't reached you yet, you can enable it by going to `edge://flags/#edge-automatic-https` toggling on the 'Automatic HTTPS' experimental flag, and restarting the browser.
+
+<p align="center"><img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/edge-https-only.png"></p>
+
+### Firefox adds HTTPS-Only Mode
+
+Mozilla Firefox 83 was released today with a new feature called 'HTTPS-Only Mode' that secures your browsing sessions by rewriting URLs to secure HTTPS versions.
+
+Windows, Mac, and Linux desktop users can upgrade to Firefox 83 by going to: `Options -> Help -> About Firefox`. The browser will automatically check for the new update and install it when available.
+
+<p align="center"><img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/https-only-mode-setting.jpg"></p>
+
+
 ---
 
 ## Other Security Related HTTP Header API's
