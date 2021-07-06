@@ -410,7 +410,7 @@ All the security settings can be configured at any time in the security module u
 
 ### Location Definitions Version
 
-Last Updated: 22nd June 2021
+Last Updated: 22nd June 2021 **(Version: 1.0.3)**
 
 ### Parser Definitions Version
 
@@ -418,15 +418,15 @@ Last Updated: 2nd July 2021 **(Version: 3.1.2)**
 
 ### Firewall Definitions Version
 
-Last Updated: 6th May 2021
+Last Updated: 6th July 2021 **(Version: 7.3.2)**
+
+### Server Definitions Version
+
+Last Updated: 6th July 2021 **(Version: 5.0.0)**
 
 ### Security Core Version
 
 Last Updated: 2nd July 2021 **(Version: 2.0.0)**
-
-
-=== TO DO ===
-
 
 (*) While the security module is under heavy development, the definition files will be updated periodically and not on a regular basis! When the security module moves in a production ready-mode, the definitions files will be updated on a regular basis every week.
   
