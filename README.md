@@ -37,6 +37,7 @@
     - [Location Definitions Version](#location-definitions-version)
     - [Parser Definitions Version](#parser-definitions-version)
     - [Firewall Definitions Version](#firewall-definitions-version)
+    - [Server Definitions Version]()
     - [Security Core Version](#security-core-version)
 - [Summer CMS Firewall API's](#summercms-firewall-apis-)
 - [Issues](#issues-)
