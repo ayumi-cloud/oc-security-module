@@ -419,6 +419,14 @@ Last Updated: 2nd July 2021 **(Version: 3.1.2)**
 
 Last Updated: 6th May 2021
 
+### Firewall abd Security Module Core Release
+
+Last Updated: 2nd July 2021 **(Version: 2.0.0)**
+
+
+=== TO DO ===
+
+
 (*) While the security module is under heavy development, the definition files will be updated periodically and not on a regular basis! When the security module moves in a production ready-mode, the definitions files will be updated on a regular basis every week.
   
 ## Summer CMS Firewall API's 🔥
