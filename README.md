@@ -405,21 +405,21 @@ Users can setup the security modules security level during installation of Summe
 
 All the security settings can be configured at any time in the security module under the `Configuartion` section.
 
-## Firewall Definition Files 💾
+## Security Component Version Files 💾
 
-### Location Definitions
+### Location Definitions Version
 
 Last Updated: 22nd June 2021
 
-### Parser Definitions
+### Parser Definitions Version
 
 Last Updated: 2nd July 2021 **(Version: 3.1.2)**
 
-### Firewall Definitions
+### Firewall Definitions Version
 
 Last Updated: 6th May 2021
 
-### Firewall abd Security Module Core Release
+### Security Core Version
 
 Last Updated: 2nd July 2021 **(Version: 2.0.0)**
 
