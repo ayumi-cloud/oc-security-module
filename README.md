@@ -427,7 +427,7 @@ Last Updated: 6th July 2021 **(Version: 5.0.0)**
 
 ### Security Core Version
 
-Last Updated: 2nd July 2021 **(Version: 2.0.0)**
+Last Updated: 6th July 2021 **(Version: 2.0.0)**
 
 (*) While the security module is under heavy development, the definition files will be updated periodically and not on a regular basis! When the security module moves in a production ready-mode, the definitions files will be updated on a regular basis every week.
   
