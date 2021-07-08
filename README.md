@@ -407,6 +407,27 @@ Users can setup the security modules security level during installation of Summe
 
 All the security settings can be configured at any time in the security module under the `Configuartion` section.
 
+## Enabling Two-Factor Authentication (2FA) 🔐
+
+To enable two-factor authentication, you'll need an app that supports TOTP such as [Authy](https://authy.com/download/), [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2), or [KeePassXC](https://keepassxc.org/).
+
+(This is not an exhaustive list of compatible apps. Summer CMS does not endorse or recommend one application over another).
+
+## Enabling Universal 2nd Factor (U2F) 🔑
+
+### Register new devices
+
+Go to U2F register page and follow instruction to add a new u2f key to your account.
+
+<p align="center"><img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/register.png"></p>
+
+### Second factor login
+
+Once you have registred a device you can logout.
+If you try to login in again you will have an additionnal steps with your u2f key.
+
+<p align="center"><img src="https://github.com/summercms/sc-security-module/blob/master/src/assets/images/login.png"></p>
+
 ## Security Component Version Files 💾
 
 ### Location Definitions Version
