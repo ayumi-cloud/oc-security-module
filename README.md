@@ -107,6 +107,7 @@ The main purpose of the security module is to harden the Summer CMS against a va
 - Custom templates for many special HTTP response status codes.
 - Monitor and track missing content in real-time.
 - Detect and track legal jurisdictions in real-time.
+- Enable Two-Factor Authentication (2FA) and Universal 2nd Factor (U2F) account protection.
 - Many Security Tools (too many to mention).
 
 ## Privacy as Default 👀
