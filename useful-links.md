@@ -14,6 +14,10 @@ https://laravel.com/api/8.x/index.html
 
 https://laravel.com/docs/8.x/installation
 
+### New Features and Migrating Info for PHP
+
+https://www.php.net/manual/en/appendices.php
+
 ### Laravel Validation
 
 https://laravel.com/docs/master/validation#available-validation-rules
