@@ -33,6 +33,8 @@
 - [Enhancements](#enhancements-)
 - [Tested on these attacks](#tested-on-these-attacks-%EF%B8%8F)
 - [Installation](#installation-%EF%B8%8F)
+- [Enabling Two-Factor Authentication (2FA)](#enabling-two-factor-authentication-2fa-)
+- [Enabling Universal 2nd Factor (U2F)](#enabling-universal-2nd-factor-u2f-)
 - [Security Component Version Files](#security-component-version-files-)
     - [Location Definitions Version](#location-definitions-version)
     - [Parser Definitions Version](#parser-definitions-version)
