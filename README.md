@@ -439,7 +439,7 @@ Last Updated: 22nd June 2021 **(Version: 1.0.3)**
 
 ### Parser Definitions Version
 
-Last Updated: 2nd July 2021 **(Version: 3.1.2)**
+Last Updated: 2nd July 2021 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/summercms/sc-parser-module?include_prereleases">
 
 ### Firewall Definitions Version
 
